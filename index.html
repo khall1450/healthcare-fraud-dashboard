@@ -171,39 +171,39 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
 <!-- STATS BAR -->
 <div class="stats-bar">
   <div class="container-fluid px-4">
-    <div class="row g-3 py-3">
+        <div class="row g-3 py-3">
       <div class="col-6 col-md">
-        <div class="stat-card stat-card-money">
+        <div class="stat-card stat-card-money" onclick="showStatDetail('audit')" style="cursor:pointer;" title="Click to see breakdown">
           <div class="stat-number" id="statAudit">&mdash;</div>
           <div class="stat-label">Total Improper Payments Identified &mdash; All Agency Audits</div>
         </div>
       </div>
       <div class="col-6 col-md">
-        <div class="stat-card stat-card-money">
+        <div class="stat-card stat-card-money" onclick="showStatDetail('criminal')" style="cursor:pointer;" title="Click to see breakdown">
           <div class="stat-number" id="statCriminal">&mdash;</div>
           <div class="stat-label">Fraud Alleged &mdash; Criminal Cases</div>
         </div>
       </div>
       <div class="col-6 col-md">
-        <div class="stat-card stat-card-money">
+        <div class="stat-card stat-card-money" onclick="showStatDetail('convicted')" style="cursor:pointer;" title="Click to see breakdown">
           <div class="stat-number" id="statConvicted">&mdash;</div>
           <div class="stat-label">Total Fraud Confirmed &mdash; Pleas &amp; Convictions</div>
         </div>
       </div>
       <div class="col-6 col-md">
-        <div class="stat-card stat-card-money">
+        <div class="stat-card stat-card-money" onclick="showStatDetail('civil')" style="cursor:pointer;" title="Click to see breakdown">
           <div class="stat-number" id="statCivil">&mdash;</div>
           <div class="stat-label">Civil Settlements &amp; Recoveries</div>
         </div>
       </div>
       <div class="col-6 col-md">
-        <div class="stat-card stat-card-money">
+        <div class="stat-card stat-card-money" onclick="showStatDetail('largest')" style="cursor:pointer;" title="Click to see breakdown">
           <div class="stat-number" id="statLargest">&mdash;</div>
           <div class="stat-label">Largest Single Enforcement Action</div>
         </div>
       </div>
       <div class="col-6 col-md">
-        <div class="stat-card stat-card-money">
+        <div class="stat-card stat-card-money" onclick="showStatDetail('cms')" style="cursor:pointer;" title="Click to see breakdown">
           <div class="stat-number" id="statCMS">&mdash;</div>
           <div class="stat-label">CMS Program Integrity &mdash; Improper Payments Identified or Prevented</div>
         </div>
@@ -2926,44 +2926,39 @@ function updateLastUpdated(ts) {
 
 const CONVICTED_RE = /plead|guilty|convict|sentenc/i;
 
+const CONVICTED_RE = /plead|guilty|convict|sentenc/i;
+
 function updateStats(actions) {
-  // Sum fraud alleged in criminal enforcement cases
   const crimTotal = actions
     .filter(a => a.type === 'Criminal Enforcement')
     .reduce((s, a) => s + (a.amount_numeric || 0), 0);
 
-  // Sum confirmed fraud â€” pleas, convictions, sentences
   const convictedTotal = actions
     .filter(a => a.type === 'Criminal Enforcement' && (a.amount_numeric || 0) > 0 && CONVICTED_RE.test(a.title))
     .reduce((s, a) => s + (a.amount_numeric || 0), 0);
 
-  // Sum civil settlements and recoveries
   const civilTotal = actions
     .filter(a => a.type === 'Civil Action')
     .reduce((s, a) => s + (a.amount_numeric || 0), 0);
 
-  // Largest single criminal enforcement action
   const largestCriminal = actions
     .filter(a => a.type === 'Criminal Enforcement' && (a.amount_numeric || 0) > 0)
     .reduce((max, a) => Math.max(max, a.amount_numeric), 0);
 
-
-  // CMS program integrity (administrative actions only, excludes Rule/Regulation)
   const cmsTotal = actions
     .filter(a => a.agency === 'CMS' && a.type === 'Administrative Action' && (a.amount_numeric || 0) > 0)
     .reduce((sum, a) => sum + (a.amount_numeric || 0), 0);
 
-  // Total improper payments identified across all audit-type actions
   const auditTotal = actions
     .filter(a => a.type === 'Audit' && (a.amount_numeric || 0) > 0)
     .reduce((sum, a) => sum + (a.amount_numeric || 0), 0);
 
+  document.getElementById('statAudit').textContent     = auditTotal > 0 ? formatMoney(auditTotal) : '\u2014';
   document.getElementById('statCriminal').textContent  = crimTotal > 0 ? formatMoney(crimTotal) : '\u2014';
   document.getElementById('statConvicted').textContent = convictedTotal > 0 ? formatMoney(convictedTotal) : '\u2014';
-  document.getElementById('statCivil').textContent    = civilTotal > 0 ? formatMoney(civilTotal) : '\u2014';
-document.getElementById('statLargest').textContent  = largestCriminal > 0 ? formatMoney(largestCriminal) : '\u2014';
-  document.getElementById('statCMS').textContent      = cmsTotal > 0 ? formatMoney(cmsTotal) : '\u2014';
-  document.getElementById('statAudit').textContent    = auditTotal > 0 ? formatMoney(auditTotal) : '\u2014';
+  document.getElementById('statCivil').textContent     = civilTotal > 0 ? formatMoney(civilTotal) : '\u2014';
+  document.getElementById('statLargest').textContent   = largestCriminal > 0 ? formatMoney(largestCriminal) : '\u2014';
+  document.getElementById('statCMS').textContent       = cmsTotal > 0 ? formatMoney(cmsTotal) : '\u2014';
 }
 
 function applyFilters() {
@@ -3008,78 +3003,6 @@ function clearFilters() {
   applyFilters();
 }
 
-function renderCards(actions) {
-  const grid = document.getElementById('cardsGrid');
-  const noResults = document.getElementById('noResults');
-  const tmpl = document.getElementById('cardTemplate');
-  grid.innerHTML = '';
-  if (actions.length === 0) { noResults.classList.remove('d-none'); return; }
-  noResults.classList.add('d-none');
-  actions.forEach(action => {
-    const col  = tmpl.content.cloneNode(true);
-    const card = col.querySelector('.action-card');
-    card.setAttribute('data-agency', action.agency || 'Other');
-    const agBadge = col.querySelector('.agency-badge');
-    agBadge.textContent = action.agency || 'Other';
-    agBadge.classList.add(AGENCY_CLASS[action.agency] || 'agency-Other');
-    const typeBadge = col.querySelector('.type-badge');
-    typeBadge.textContent = action.type || 'Other';
-    typeBadge.classList.add(typeClass(action.type));
-    if (action.auto_fetched) {
-      const nb = document.createElement('span');
-      nb.className = 'new-badge'; nb.textContent = 'NEW';
-      col.querySelector('.card-top-row').appendChild(nb);
-    }
-    col.querySelector('.card-date').textContent = formatDate(action.date);
-    col.querySelector('.card-title').textContent = action.title || 'Untitled';
-    col.querySelector('.card-desc').textContent  = action.description || '';
-    if (action.amount) {
-      const el = col.querySelector('.card-amount');
-      el.classList.remove('d-none');
-      el.querySelector('span').textContent = action.amount;
-    }
-    if (action.officials && action.officials.length > 0) {
-      const el = col.querySelector('.card-officials');
-      el.classList.remove('d-none');
-      el.querySelector('span').textContent = action.officials.join(', ');
-    }
-    if (action.state) {
-      const el = col.querySelector('.card-state');
-      el.classList.remove('d-none');
-      el.querySelector('span').textContent = STATE_NAMES[action.state] || action.state;
-    }
-    const tagsEl = col.querySelector('.card-tags');
-    (action.tags||[]).forEach(tag => {
-      const pill = document.createElement('span');
-      pill.className = 'tag-pill'; pill.textContent = tag;
-      tagsEl.appendChild(pill);
-    });
-    if (action.social_posts && action.social_posts.length > 0) {
-      const socialEl  = col.querySelector('.card-social');
-      socialEl.classList.remove('d-none');
-      const socialList = col.querySelector('.social-list');
-      action.social_posts.forEach(post => {
-        const pe = document.createElement('div');
-        pe.className = 'social-post';
-        pe.innerHTML = '<div class="social-post-account"><i class="fa-brands fa-x-twitter me-1"></i>' + escHtml(post.account||'') +
-          (post.post_url ? ' <a href="' + escHtml(post.post_url) + '" target="_blank" rel="noopener" style="font-size:0.68rem;color:#555;">View <i class="fa-solid fa-arrow-up-right-from-square"></i></a>' : '') + '</div>' +
-          '<div class="social-post-text">"' + escHtml(post.post_text||'') + '"</div>' +
-          (post.post_date ? '<div class="social-post-date">' + escHtml(post.post_date) + '</div>' : '');
-        socialList.appendChild(pe);
-      });
-    }
-    if (action.link) {
-      const docBtn = col.querySelector('.btn-doc');
-      docBtn.classList.remove('d-none');
-      docBtn.href = action.link;
-      docBtn.querySelector('span').textContent = action.link_label || 'View Document';
-    }
-    grid.appendChild(col);
-  });
-}
-
-
-
 function populateStateDropdown(actions) {
   const sel = document.getElementById('stateFilter');
   const states = [...new Set(actions.map(a => a.state).filter(Boolean))];
@@ -3092,15 +3015,116 @@ function populateStateDropdown(actions) {
   });
 }
 
+async function loadData() {
+  try {
+    const resp = await fetch('data/actions.json?t=' + Date.now());
+    if (!resp.ok) throw new Error('Failed to fetch');
+    const data = await resp.json();
+    allActions = data.actions || [];
+    updateLastUpdated(data.metadata && data.metadata.last_updated);
+    updateStats(allActions);
+    populateStateDropdown(allActions);
+    applyFilters();
+  } catch (err) {
+    console.error('Failed to load data:', err);
+    document.getElementById('cardsGrid').innerHTML =
+      '<div class="col-12"><div class="alert alert-danger">Could not load data. Make sure the server is running.</div></div>';
+  }
+}
+
+async function triggerRefresh() {
+  const btn = document.getElementById('refreshBtn');
+  const icon = btn.querySelector('i');
+  btn.disabled = true;
+  icon.classList.add('spinning');
+  try {
+    const resp = await fetch('/api/refresh', { method: 'POST' });
+    if (resp.ok) {
+      const result = await resp.json();
+      await loadData();
+      showToast(result.new_actions > 0 ? result.new_actions + ' new action(s) added!' : 'Data is up to date.', result.new_actions > 0 ? 'success' : 'info');
+    } else {
+      showToast('Refresh failed. Check server.', 'warning');
+    }
+  } catch {
+    await loadData();
+    showToast('Reloaded local data.', 'info');
+  } finally {
+    btn.disabled = false;
+    icon.classList.remove('spinning');
+  }
+}
+
+function showToast(msg, type) {
+  const colors = { success: '#1B5E20', info: '#1a3a6b', warning: '#e65100' };
+  const toast = document.createElement('div');
+  toast.style.cssText = 'position:fixed;bottom:24px;right:24px;z-index:9999;background:' + (colors[type] || colors.info) + ';color:white;padding:12px 20px;border-radius:8px;font-size:0.875rem;box-shadow:0 4px 16px rgba(0,0,0,0.25);max-width:320px;';
+  toast.textContent = msg;
+  document.body.appendChild(toast);
+  setTimeout(() => toast.remove(), 4000);
+}
+
+// â”€â”€ Stat detail popup â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+const STAT_FILTERS = {
+  audit:     { fn: a => a.type === 'Audit',                                                                               label: 'Total Improper Payments Identified â€” All Agency Audits' },
+  criminal:  { fn: a => a.type === 'Criminal Enforcement',                                                                label: 'Fraud Alleged â€” Criminal Cases' },
+  convicted: { fn: a => a.type === 'Criminal Enforcement' && (a.amount_numeric || 0) > 0 && CONVICTED_RE.test(a.title),  label: 'Total Fraud Confirmed â€” Pleas & Convictions' },
+  civil:     { fn: a => a.type === 'Civil Action',                                                                        label: 'Civil Settlements & Recoveries' },
+  largest:   { fn: (a, all) => { const max = all.filter(x => x.type === 'Criminal Enforcement' && (x.amount_numeric||0) > 0).reduce((m,x) => x.amount_numeric > m.amount_numeric ? x : m, {amount_numeric:0}); return a === max; }, label: 'Largest Single Enforcement Action' },
+  cms:       { fn: a => a.agency === 'CMS' && a.type === 'Administrative Action',                                         label: 'CMS Program Integrity â€” Improper Payments Identified or Prevented' },
+};
+
+function showStatDetail(filterId) {
+  const def = STAT_FILTERS[filterId];
+  if (!def) return;
+  const entries = allActions.filter(a => def.fn(a, allActions)).sort((a, b) => (b.date||'').localeCompare(a.date||''));
+  document.getElementById('statModalTitle').textContent = def.label;
+  const body = document.getElementById('statModalBody');
+  if (entries.length === 0) {
+    body.innerHTML = '<p class="text-muted py-3">No entries currently match this calculation.</p>';
+  } else {
+    const total = entries.reduce((s, a) => s + (a.amount_numeric || 0), 0);
+    body.innerHTML =
+      (total > 0
+        ? '<div style="font-size:0.8rem;color:#666;margin-bottom:12px;">' + entries.length + ' entr' + (entries.length===1?'y':'ies') + ' &bull; Total: <strong>' + formatMoney(total) + '</strong></div>'
+        : '<div style="font-size:0.8rem;color:#666;margin-bottom:12px;">' + entries.length + ' entr' + (entries.length===1?'y':'ies') + '</div>') +
+      entries.map(a =>
+        '<div style="border-bottom:1px solid #eee;padding:12px 0;">' +
+          '<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:16px;">' +
+            '<div style="min-width:0;">' +
+              '<div style="font-weight:600;font-family:\'Bona Nova\',Georgia,serif;font-size:0.95rem;">' + escHtml(a.title||'Untitled') + '</div>' +
+              '<div style="font-size:0.78rem;color:#888;margin-top:3px;">' + formatDate(a.date) + '&ensp;&bull;&ensp;' + escHtml(a.agency||'') + '&ensp;&bull;&ensp;' + escHtml(a.type||'') + '</div>' +
+              (a.description ? '<div style="font-size:0.82rem;color:#555;margin-top:6px;line-height:1.5;">' + escHtml(a.description.length>250?a.description.substring(0,250)+'â€¦':a.description) + '</div>' : '') +
+              (a.link ? '<a href="' + escHtml(a.link) + '" target="_blank" rel="noopener" style="font-size:0.78rem;color:#00A6CF;margin-top:6px;display:inline-block;">View Source \u2197</a>' : '') +
+            '</div>' +
+            (a.amount ? '<div style="font-weight:700;color:#002E6D;white-space:nowrap;font-size:1rem;flex-shrink:0;">' + escHtml(a.amount) + '</div>' : '') +
+          '</div>' +
+        '</div>'
+      ).join('');
+  }
+  new bootstrap.Modal(document.getElementById('statModal')).show();
+}
+
 // Init
-document.addEventListener('DOMContentLoaded', function() {
-  allActions = DASHBOARD_DATA.actions || [];
-  updateLastUpdated(DASHBOARD_DATA.metadata && DASHBOARD_DATA.metadata.last_updated);
-  updateStats(allActions);
-  populateStateDropdown(allActions);
-  applyFilters();
-});
-</script>
+document.addEventListener('DOMContentLoaded', loadData);</script>
+
+<!-- STAT DETAIL MODAL -->
+<div class="modal fade" id="statModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable">
+    <div class="modal-content" style="border:none;border-radius:0.3rem;overflow:hidden;">
+      <div class="modal-header" style="background:#002E6D;color:white;border:none;">
+        <h5 class="modal-title" id="statModalTitle" style="font-family:'Bona Nova',Georgia,serif;font-size:1rem;"></h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body" id="statModalBody" style="padding:16px 20px;"></div>
+      <div class="modal-footer" style="border-top:1px solid #eee;">
+        <button type="button" class="btn btn-sm btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
 
