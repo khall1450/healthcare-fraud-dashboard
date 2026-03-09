@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Public+Sans:wght@300;400;500;600;700&display=swap" />
   <style>
 /* ============================================================
-   HEALTHCARE FRAUD DASHBOARD â€” PARAGON HEALTH INSTITUTE STYLE
+   HEALTHCARE FRAUD DASHBOARD &mdash; PARAGON HEALTH INSTITUTE STYLE
    ============================================================ */
 :root {
   /* Paragon Brand Colors */
@@ -34,7 +34,7 @@
   --text-primary: #303030;
   --text-muted:   #6B6B6B;
   --border:       #d8dde6;
-  /* Agency accent colors â€” drawn from Paragon palette */
+  /* Agency accent colors - drawn from Paragon palette */
   --doj:        #002E6D;   /* Paragon Blue */
   --hhs:        #FF941A;   /* Blaze Orange */
   --cms:        #00A6CF;   /* Atlantic Blue */
@@ -160,7 +160,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
       </div>
       <div class="d-flex align-items-center gap-3">
         <span class="last-updated-badge" id="lastUpdated">
-          <i class="fa-regular fa-clock me-1"></i> Updated: â€”
+          <i class="fa-regular fa-clock me-1"></i> Updated: &mdash;
         </span>
         <button class="btn btn-refresh" id="refreshBtn" onclick="openUpdateInstructions()">
           <i class="fa-solid fa-rotate-right me-1"></i> Refresh Data
@@ -174,28 +174,40 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
 <div class="stats-bar">
   <div class="container-fluid px-4">
     <div class="row g-3 py-3">
-      <div class="col-6 col-md-3">
+      <div class="col-6 col-md">
         <div class="stat-card stat-card-money">
-          <div class="stat-number" id="statCriminal">â€”</div>
-          <div class="stat-label">Fraud Alleged â€” Criminal Cases</div>
+          <div class="stat-number" id="statAudit">&mdash;</div>
+          <div class="stat-label">Total Improper Payments Identified &mdash; All Agency Audits</div>
         </div>
       </div>
-      <div class="col-6 col-md-3">
+      <div class="col-6 col-md">
         <div class="stat-card stat-card-money">
-          <div class="stat-number" id="statCivil">â€”</div>
+          <div class="stat-number" id="statCriminal">&mdash;</div>
+          <div class="stat-label">Fraud Alleged &mdash; Criminal Cases</div>
+        </div>
+      </div>
+      <div class="col-6 col-md">
+        <div class="stat-card stat-card-money">
+          <div class="stat-number" id="statConvicted">&mdash;</div>
+          <div class="stat-label">Total Fraud Confirmed &mdash; Pleas &amp; Convictions</div>
+        </div>
+      </div>
+      <div class="col-6 col-md">
+        <div class="stat-card stat-card-money">
+          <div class="stat-number" id="statCivil">&mdash;</div>
           <div class="stat-label">Civil Settlements &amp; Recoveries</div>
         </div>
       </div>
-      <div class="col-6 col-md-3">
+      <div class="col-6 col-md">
         <div class="stat-card stat-card-money">
-          <div class="stat-number" id="statFCA">â€”</div>
-          <div class="stat-label">DOJ FCA Recoveries â€” FY2025 Record</div>
+          <div class="stat-number" id="statLargest">&mdash;</div>
+          <div class="stat-label">Largest Single Enforcement Action</div>
         </div>
       </div>
-      <div class="col-6 col-md-3">
+      <div class="col-6 col-md">
         <div class="stat-card stat-card-money">
-          <div class="stat-number" id="statLargest">â€”</div>
-          <div class="stat-label">Largest Single Enforcement Action</div>
+          <div class="stat-number" id="statCMS">&mdash;</div>
+          <div class="stat-label">CMS Program Integrity &mdash; Improper Payments Identified or Prevented</div>
         </div>
       </div>
     </div>
@@ -208,7 +220,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
     <div class="d-flex flex-wrap align-items-center gap-2 py-2">
       <div class="search-wrapper">
         <i class="fa-solid fa-magnifying-glass search-icon"></i>
-        <input type="text" id="searchInput" class="form-control search-input" placeholder="Search actionsâ€¦" oninput="applyFilters()" />
+        <input type="text" id="searchInput" class="form-control search-input" placeholder="Search actions..." oninput="applyFilters()" />
       </div>
       <select class="form-select filter-select" id="agencyFilter" onchange="applyFilters()">
         <option value="all">All Agencies</option>
@@ -231,13 +243,6 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
       </select>
       <select class="form-select filter-select" id="stateFilter" onchange="applyFilters()">
         <option value="all">All States</option>
-        <option value="CA">California</option>
-        <option value="FL">Florida</option>
-        <option value="MN">Minnesota</option>
-        <option value="NY">New York</option>
-        <option value="KY">Kentucky</option>
-        <option value="ME">Maine</option>
-        <option value="AZ">Arizona</option>
       </select>
       <input type="date" class="form-control filter-date" id="dateFrom" onchange="applyFilters()" title="From date" />
       <input type="date" class="form-control filter-date" id="dateTo" onchange="applyFilters()" title="To date" />
@@ -263,7 +268,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
   <div class="container-fluid px-4">
     <div class="d-flex flex-wrap justify-content-between align-items-center py-3">
       <p class="mb-0 text-muted small" style="color:rgba(255,255,255,0.5)!important">Data sourced from DOJ, HHS, CMS, and HHS-OIG press releases and public statements.</p>
-      <p class="mb-0 text-muted small" style="color:rgba(255,255,255,0.5)!important">Local dashboard &bull; Not for public distribution &bull; Generated: 2026-03-08T18:32:35.1865905-04:00</p>
+      <p class="mb-0 text-muted small" style="color:rgba(255,255,255,0.5)!important">Local dashboard &bull; Not for public distribution &bull; Generated: 2026-03-09T10:31:46.0387586-04:00</p>
     </div>
   </div>
 </footer>
@@ -280,7 +285,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
       <h3 class="card-title"></h3>
       <p class="card-desc"></p>
       <div class="card-meta">
-        <div class="card-amount d-none"><i class="fa-solid fa-dollar-sign me-1"></i><span></span></div>
+        <div class="card-amount d-none"><span></span></div>
         <div class="card-officials d-none"><i class="fa-solid fa-user-tie me-1"></i><span></span></div>
         <div class="card-state d-none"><i class="fa-solid fa-location-dot me-1"></i><span></span></div>
       </div>
@@ -302,7 +307,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
 <script>
 const DASHBOARD_DATA = {
     "metadata":  {
-                     "last_updated":  "2026-03-08T18:32:35.1865905-04:00",
+                     "last_updated":  "2026-03-09T10:31:46.0387586-04:00",
                      "version":  "1.0"
                  },
     "actions":  [
@@ -339,8 +344,8 @@ const DASHBOARD_DATA = {
                         "type":  "Criminal Enforcement",
                         "title":  "Operation Gold Rush — $10.6 Billion Medicare Fraud Scheme",
                         "description":  "Largest case amount ever charged by DOJ. Members of a transnational criminal organization orchestrated a Medicare fraud scheme totaling more than $10.6 billion. The criminals purchased dozens of medical supply companies in the U.S. and submitted more than $10 billion in fraudulent claims using the stolen identities of more than 1 million Americans.",
-                        "amount":  "$10.6B",
-                        "amount_numeric":  10600000000,
+                        "amount":  null,
+                        "amount_numeric":  0,
                         "officials":  [
 
                                       ],
@@ -393,8 +398,8 @@ const DASHBOARD_DATA = {
                         "type":  "Criminal Enforcement",
                         "title":  "Arizona: $1.1 Billion Medically Unnecessary Skin Graft Fraud",
                         "description":  "Prosecutors charged 7 defendants, including 5 medical professionals, in connection with approximately $1.1 billion in fraudulent billing involving medically unnecessary skin grafts billed to Medicare and Medicaid.",
-                        "amount":  "$1.1B",
-                        "amount_numeric":  1100000000,
+                        "amount":  null,
+                        "amount_numeric":  0,
                         "officials":  [
 
                                       ],
@@ -421,8 +426,8 @@ const DASHBOARD_DATA = {
                         "type":  "Criminal Enforcement",
                         "title":  "Kentucky Addiction Treatment Center Fraud — $8M+ in False Claims",
                         "description":  "DOJ investigated and prosecuted an addiction treatment fraud scheme at Kentucky Addiction Centers, involving more than $8 million in false claims submitted to Medicare and Kentucky Medicaid. The centers operated clinics in Winchester, Paducah, Paintsville, and London, Kentucky. A federal jury later convicted Dr. José Alzadon, Michael Bregenzer, and Barbie Vanhoose in March 2025 for conspiracy to commit health care fraud, eight counts of health care fraud, and conspiracy to distribute controlled substances. See also the March 20, 2025 conviction entry for full case details.",
-                        "amount":  "$8M+",
-                        "amount_numeric":  8000000,
+                        "amount":  null,
+                        "amount_numeric":  0,
                         "officials":  [
 
                                       ],
@@ -448,8 +453,8 @@ const DASHBOARD_DATA = {
                         "type":  "Criminal Enforcement",
                         "title":  "Florida ACA Enrollment Fraud — $233M in Fraudulent Claims",
                         "description":  "DOJ resolved major cases involving fraudulent ACA enrollment schemes in Florida, in which brokers and marketing firms submitted false applications to obtain premium tax credits and subsidies. The cases involved more than $233 million in fraudulent claims, with at least $180 million paid out by the government.",
-                        "amount":  "$233M fraud; $180M paid out",
-                        "amount_numeric":  233000000,
+                        "amount":  null,
+                        "amount_numeric":  0,
                         "officials":  [
 
                                       ],
@@ -475,7 +480,7 @@ const DASHBOARD_DATA = {
                         "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "Brooklyn Defendants Plead Guilty: $68M Adult Day Care Medicaid Fraud",
-                        "description":  "Multiple Brooklyn defendants pleaded guilty in connection with a $68 million adult day care Medicaid fraud scheme. The case involved adult day care centers in Brooklyn billing New York Medicaid for services never provided to beneficiaries. This case was later cited by CMS Administrator Dr. Oz as a prominent example when he launched a 50-question investigation into New York's $124 billion Medicaid program in March 2026, noting patterns of fraud in adult day care programming that significantly exceeded national norms. Prosecuted by the U.S. Attorney's Office for the Eastern District of New York.",
+                        "description":  "Multiple Brooklyn defendants pleaded guilty in connection with a $68 million adult day care Medicaid fraud scheme. The case involved adult day care centers in Brooklyn billing New York Medicaid for services never provided to beneficiaries. This case was later cited by CMS Administrator Dr. Oz as a prominent example when he launched a 50-question investigation into New York\u0027s $124 billion Medicaid program in March 2026, noting patterns of fraud in adult day care programming that significantly exceeded national norms. Prosecuted by the U.S. Attorney\u0027s Office for the Eastern District of New York.",
                         "amount":  "$68M",
                         "amount_numeric":  68000000,
                         "officials":  [
@@ -501,7 +506,7 @@ const DASHBOARD_DATA = {
                         "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "Florida Nursing Assistant Convicted: $11.4M Medicare Fraud",
-                        "description":  "A Florida nursing assistant was convicted for his or her role in an $11.4 million health care fraud scheme targeting Medicare beneficiaries. The conviction, secured by the U.S. Attorney's Office for the Southern District of Florida, reflects ongoing DOJ efforts to hold individual health care workers accountable for Medicare fraud, not just corporate entities.",
+                        "description":  "A Florida nursing assistant was convicted for his or her role in an $11.4 million health care fraud scheme targeting Medicare beneficiaries. The conviction, secured by the U.S. Attorney\u0027s Office for the Southern District of Florida, reflects ongoing DOJ efforts to hold individual health care workers accountable for Medicare fraud, not just corporate entities.",
                         "amount":  "$11.4M",
                         "amount_numeric":  11400000,
                         "officials":  [
@@ -1200,8 +1205,8 @@ const DASHBOARD_DATA = {
                         "type":  "Civil Action",
                         "title":  "True Health Diagnostics CEO, Physicians, and Marketers Pay $6M+ to Settle Lab Kickback Scheme",
                         "description":  "Christopher Grottenthaler, former CEO of True Health Diagnostics, Dr. Hong Davis, Dr. Elizabeth Seymour, and seven marketers agreed to pay a combined $6,068,462 to resolve False Claims Act allegations of a healthcare kickback scheme. Defendants allegedly offered and paid doctors kickbacks disguised as MSO (Management Service Organization) distributions and consulting fees to induce laboratory testing referrals, submitting false claims to Medicare, Medicaid, and TRICARE from January 2015 to January 2018. The Eastern District of Texas prosecuted the case.",
-                        "amount":  "$6.07M",
-                        "amount_numeric":  6068462,
+                        "amount":  null,
+                        "amount_numeric":  0,
                         "officials":  [
 
                                       ],
@@ -1504,8 +1509,8 @@ const DASHBOARD_DATA = {
                         "type":  "Criminal Enforcement",
                         "title":  "DMERx CEO Gary Cox Sentenced to 15 Years in Prison; $452M Restitution for $1B Medicare Fraud",
                         "description":  "Gary Cox, 79, of Maricopa County, Arizona, CEO of Power Mobility Doctor Rx LLC (DMERx), was sentenced to 15 years in prison and ordered to pay over $452 million in restitution following his June 2025 conviction for conspiring to defraud Medicare of more than $1 billion. The FBI, HHS-OIG, VA-OIG, and DCIS investigated the case. This represents one of the longest individual sentences for Medicare fraud in recent years.",
-                        "amount":  "$1B",
-                        "amount_numeric":  1000000000,
+                        "amount":  null,
+                        "amount_numeric":  0,
                         "officials":  [
 
                                       ],
@@ -1685,8 +1690,8 @@ const DASHBOARD_DATA = {
                         "type":  "Civil Action",
                         "title":  "DOJ Announces Record $6.8B in False Claims Act Recoveries in FY2025; Healthcare Accounts for $5.7B",
                         "description":  "DOJ announced that False Claims Act settlements and judgments exceeded $6.8 billion in FY2025 (ending September 30, 2025)—the highest single-year total in FCA history. Over $5.7 billion of that total involved the healthcare industry, restoring funds to Medicare, Medicaid, and TRICARE. Whistleblowers filed 1,297 qui tam lawsuits in FY2025 (a new record, surpassing 2024\u0027s 980), recovering over $5.3 billion. Since 1986, cumulative FCA recoveries have exceeded $85 billion.",
-                        "amount":  "$6.8B",
-                        "amount_numeric":  6800000000,
+                        "amount":  "$5.7B (healthcare)",
+                        "amount_numeric":  5700000000,
                         "officials":  [
 
                                       ],
@@ -2224,8 +2229,8 @@ const DASHBOARD_DATA = {
                         "type":  "Civil Action",
                         "title":  "C.R. Bard \u0026 Affiliates Pay $17M for Catheter Kickback Scheme",
                         "description":  "C.R. Bard, Inc. and affiliates Liberator Medical Supply, Liberator Holdings, and Rochester Medical Corporation agreed to pay $17 million to resolve False Claims Act allegations that they provided free samples and discounts to urology practice groups as illegal kickbacks in exchange for using Bard\u0027s proprietary \u0027Link\u0027 prescription form for intermittent catheters. The scheme ran from 2016 through February 2020. A former Bard employee filed the qui tam whistleblower lawsuit.",
-                        "amount":  "$17M",
-                        "amount_numeric":  17000000,
+                        "amount":  null,
+                        "amount_numeric":  0,
                         "officials":  [
 
                                       ],
@@ -2253,8 +2258,8 @@ const DASHBOARD_DATA = {
                         "type":  "Civil Action",
                         "title":  "Pfizer (Biohaven) Pays $59.7M for Physician Kickbacks via Speaker Programs on Nurtec ODT",
                         "description":  "Pfizer Inc., on behalf of subsidiary Biohaven Pharmaceutical, agreed to pay $59,746,277 to resolve False Claims Act and Anti-Kickback Statute allegations. From March 2020 through September 2022, Biohaven paid physician speaker honoraria and provided lavish meals at high-end restaurants to induce prescriptions of the migraine drug Nurtec ODT. Programs included attendees with no legitimate educational need such as family members, and some prescribers attended duplicate sessions with no educational value.",
-                        "amount":  "$59.7M",
-                        "amount_numeric":  59746277,
+                        "amount":  null,
+                        "amount_numeric":  0,
                         "officials":  [
 
                                       ],
@@ -2314,8 +2319,8 @@ const DASHBOARD_DATA = {
                         "type":  "Criminal Enforcement",
                         "title":  "California Man Pleads Guilty to $17M Sham Hospice and Home Health Medicare Fraud",
                         "description":  "Petros Fichidzhyan, 43, of Granada Hills, California, pleaded guilty to health care fraud, aggravated identity theft, and money laundering for orchestrating a years-long scheme to defraud Medicare of more than $17 million through sham hospice companies and a home health care agency. Fichidzhyan and co-schemers used stolen identities of foreign nationals as purported owners of the hospices and submitted false claims for services not provided. He also wrongfully obtained over $1 million for a home health agency by fraudulently using a doctor\u0027s identity.",
-                        "amount":  "$17M",
-                        "amount_numeric":  17000000,
+                        "amount":  null,
+                        "amount_numeric":  0,
                         "officials":  [
 
                                       ],
@@ -2345,8 +2350,8 @@ const DASHBOARD_DATA = {
                         "type":  "Civil Action",
                         "title":  "Medisca Inc. Pays $21.75M for Inflated AWPs on Compounded Prescription Ingredients",
                         "description":  "Compound ingredient supplier Medisca Inc. agreed to pay $21.75 million to resolve False Claims Act allegations that it knowingly inflated Average Wholesale Prices (AWPs) for two compound prescription ingredients — resveratrol and mometasone furoate — to increase reimbursements its pharmacy customers received from federal health care programs including TRICARE and DOL Workers\u0027 Compensation. Medisca bought resveratrol for ~$0.37/gram and reported an AWP of $777/gram. A compounding pharmacist whistleblower will receive $3.4 million.",
-                        "amount":  "$21.75M",
-                        "amount_numeric":  21750000,
+                        "amount":  null,
+                        "amount_numeric":  0,
                         "officials":  [
 
                                       ],
@@ -2374,8 +2379,8 @@ const DASHBOARD_DATA = {
                         "type":  "Civil Action",
                         "title":  "Saint Vincent\u0027s Catholic Medical Centers (NY) Pays $29M for Retaining Military Healthcare Overpayments",
                         "description":  "SVCMC Inc. (formerly Saint Vincents Catholic Medical Centers of New York) agreed to pay $29 million to resolve False Claims Act allegations that it knowingly retained erroneously inflated payments from the Department of Defense for healthcare services provided to retired military members and their families. Saint Vincent\u0027s allegedly learned of calculation errors resulting in overpayments in 2012 but failed to notify the government or repay the funds, continuing to submit invoices at the inflated rates.",
-                        "amount":  "$29M",
-                        "amount_numeric":  29000000,
+                        "amount":  null,
+                        "amount_numeric":  0,
                         "officials":  [
 
                                       ],
@@ -2404,8 +2409,8 @@ const DASHBOARD_DATA = {
                         "type":  "Civil Action",
                         "title":  "Health Net Federal Services \u0026 Centene Pay $11.25M for Cybersecurity False Claims (TRICARE)",
                         "description":  "Health Net Federal Services LLC and its parent Centene Corporation agreed to pay $11,253,400 to resolve False Claims Act allegations stemming from cybersecurity failures. From 2015 through 2018, HNFS allegedly failed to meet cybersecurity controls and falsely certified compliance in annual reports to the Defense Health Agency under its TRICARE contract, including failing to timely scan for known vulnerabilities and remediate security flaws on its networks.",
-                        "amount":  "$11.25M",
-                        "amount_numeric":  11253400,
+                        "amount":  null,
+                        "amount_numeric":  0,
                         "officials":  [
 
                                       ],
@@ -2433,8 +2438,8 @@ const DASHBOARD_DATA = {
                         "type":  "Criminal Enforcement",
                         "title":  "DMERx VP Gregory Schreck Pleads Guilty to $1B Medicare Fraud Conspiracy",
                         "description":  "Gregory Schreck, 50, Vice President of Power Mobility Doctor Rx LLC (DMERx), pleaded guilty to conspiracy to commit health care fraud. Schreck admitted he and co-conspirators used the DMERx internet platform to generate false doctors\u0027 orders, connecting DME suppliers and pharmacies with telemedicine companies that accepted illegal kickbacks in exchange for signed orders. The DME suppliers and pharmacies paid kickbacks and billed Medicare and other insurers more than $1 billion, of which Medicare paid more than $360 million.",
-                        "amount":  "$1B",
-                        "amount_numeric":  1000000000,
+                        "amount":  null,
+                        "amount_numeric":  0,
                         "officials":  [
 
                                       ],
@@ -2493,8 +2498,8 @@ const DASHBOARD_DATA = {
                         "type":  "Civil Action",
                         "title":  "Seoul Medical Group Pays $62.85M for Medicare Advantage Diagnosis Upcoding",
                         "description":  "Seoul Medical Group, its subsidiary Advanced Medical Management, the former president, and an affiliated radiology group collectively agreed to pay over $62.85 million to resolve False Claims Act allegations that they fraudulently increased Medicare Advantage reimbursements by submitting unsupported diagnosis codes for severe spinal conditions for patients who did not have those conditions.",
-                        "amount":  "$62.85M",
-                        "amount_numeric":  62850000,
+                        "amount":  null,
+                        "amount_numeric":  0,
                         "officials":  [
 
                                       ],
@@ -2522,8 +2527,8 @@ const DASHBOARD_DATA = {
                         "type":  "Civil Action",
                         "title":  "Diopsys Inc. Pays Up to $14.25M for Off-Label Vision Device Medicare Fraud",
                         "description":  "Diopsys Inc. agreed to pay up to $14.25 million to resolve False Claims Act and state law allegations that the company caused healthcare providers to submit false claims to Medicare and Medicaid for its NOVA device used for electroretinography testing — an indication for which the device lacked FDA clearance — between January 2015 and December 2021. The case arose from a qui tam suit by a California ophthalmologist.",
-                        "amount":  "$14.25M",
-                        "amount_numeric":  14250000,
+                        "amount":  null,
+                        "amount_numeric":  0,
                         "officials":  [
 
                                       ],
@@ -2582,8 +2587,8 @@ const DASHBOARD_DATA = {
                         "type":  "Civil Action",
                         "title":  "Walgreens Agrees to Pay Up to $350M for Illegally Filling Opioid Prescriptions and False Medicare Claims",
                         "description":  "The Department of Justice, DEA, and HHS-OIG announced that Walgreens Boots Alliance agreed to pay up to $350 million to resolve allegations that Walgreens knowingly filled millions of unlawful controlled substance prescriptions from August 2012 through March 2023 and submitted false claims to federal health care programs. The government alleged Walgreens pressured pharmacists to fill prescriptions quickly without proper verification. The settlement includes a seven-year DEA compliance agreement and a five-year HHS-OIG Corporate Integrity Agreement.",
-                        "amount":  "$350M",
-                        "amount_numeric":  350000000,
+                        "amount":  null,
+                        "amount_numeric":  0,
                         "officials":  [
 
                                       ],
@@ -2613,8 +2618,8 @@ const DASHBOARD_DATA = {
                         "type":  "Civil Action",
                         "title":  "Gilead Sciences Pays $202M for Illegal Speaker Program Kickbacks on HIV Drugs",
                         "description":  "The U.S. Attorney for the Southern District of New York announced a $202 million settlement with Gilead Sciences to resolve False Claims Act and Anti-Kickback Statute allegations. Between 2011 and 2017, Gilead paid 548 healthcare providers more than $23.7 million in honoraria, meals, and travel through sham speaker programs to induce prescriptions of HIV medications. The settlement provides $49 million for Medicaid programs nationwide, with the remainder going to Medicare, TRICARE, and the AIDS Drug Assistance Program.",
-                        "amount":  "$202M",
-                        "amount_numeric":  202000000,
+                        "amount":  null,
+                        "amount_numeric":  0,
                         "officials":  [
 
                                       ],
@@ -2735,8 +2740,8 @@ const DASHBOARD_DATA = {
                         "type":  "Civil Action",
                         "title":  "Fresno Community Hospital Pays $31.5M for Anti-Kickback and Stark Law Violations",
                         "description":  "Fresno Community Hospital and Medical Center and its technology affiliate Physicians Network Advantage Inc. agreed to pay $31.5 million and enter a five-year Corporate Integrity Agreement to resolve False Claims Act, Anti-Kickback Statute, and Stark Law allegations. The hospital allegedly provided improper inducements to referring physicians including meals, alcohol, cigars, and substantial EHR software subsidies beginning in 2013. A whistleblower will receive approximately $5 million.",
-                        "amount":  "$31.5M",
-                        "amount_numeric":  31500000,
+                        "amount":  null,
+                        "amount_numeric":  0,
                         "officials":  [
 
                                       ],
@@ -2891,10 +2896,10 @@ const DASHBOARD_DATA = {
 let allActions = [];
 
 const AGENCY_CLASS = { 'DOJ':'agency-DOJ','HHS':'agency-HHS','CMS':'agency-CMS','HHS-OIG':'agency-HHS-OIG','White House':'agency-White-House' };
-const STATE_NAMES  = { CA:'California',FL:'Florida',MN:'Minnesota',NY:'New York',KY:'Kentucky',ME:'Maine',AZ:'Arizona',TX:'Texas',OH:'Ohio',WI:'Wisconsin',IN:'Indiana' };
+const STATE_NAMES  = { AL:'Alabama',AK:'Alaska',AZ:'Arizona',AR:'Arkansas',CA:'California',CO:'Colorado',CT:'Connecticut',DE:'Delaware',FL:'Florida',GA:'Georgia',HI:'Hawaii',ID:'Idaho',IL:'Illinois',IN:'Indiana',IA:'Iowa',KS:'Kansas',KY:'Kentucky',LA:'Louisiana',ME:'Maine',MD:'Maryland',MA:'Massachusetts',MI:'Michigan',MN:'Minnesota',MS:'Mississippi',MO:'Missouri',MT:'Montana',NE:'Nebraska',NV:'Nevada',NH:'New Hampshire',NJ:'New Jersey',NM:'New Mexico',NY:'New York',NC:'North Carolina',ND:'North Dakota',OH:'Ohio',OK:'Oklahoma',OR:'Oregon',PA:'Pennsylvania',RI:'Rhode Island',SC:'South Carolina',SD:'South Dakota',TN:'Tennessee',TX:'Texas',UT:'Utah',VT:'Vermont',VA:'Virginia',WA:'Washington',WV:'West Virginia',WI:'Wisconsin',WY:'Wyoming',DC:'Washington D.C.' };
 
 function formatDate(d) {
-  if (!d) return 'â€”';
+  if (!d) return '\u2014';
   const parts = d.split('-');
   const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
   if (parts.length === 3) return months[parseInt(parts[1],10)-1] + ' ' + parseInt(parts[2],10) + ', ' + parts[0];
@@ -2921,10 +2926,17 @@ function updateLastUpdated(ts) {
   } catch(e) {}
 }
 
+const CONVICTED_RE = /plead|guilty|convict|sentenc/i;
+
 function updateStats(actions) {
   // Sum fraud alleged in criminal enforcement cases
   const crimTotal = actions
     .filter(a => a.type === 'Criminal Enforcement')
+    .reduce((s, a) => s + (a.amount_numeric || 0), 0);
+
+  // Sum confirmed fraud â€” pleas, convictions, sentences
+  const convictedTotal = actions
+    .filter(a => a.type === 'Criminal Enforcement' && (a.amount_numeric || 0) > 0 && CONVICTED_RE.test(a.title))
     .reduce((s, a) => s + (a.amount_numeric || 0), 0);
 
   // Sum civil settlements and recoveries
@@ -2932,20 +2944,28 @@ function updateStats(actions) {
     .filter(a => a.type === 'Civil Action')
     .reduce((s, a) => s + (a.amount_numeric || 0), 0);
 
-  // DOJ FCA recoveries FY2025 â€” from the official DOJ announcement in the data
-  const fcaEntry = actions.find(a => a.id === 'doj-2026-01-16-fca-recoveries-fy2025' ||
-    (a.title && a.title.includes('6.8B') && a.title.includes('False Claims Act')));
-  const fcaTotal = fcaEntry ? (fcaEntry.amount_numeric || 6800000000) : 6800000000;
-
   // Largest single criminal enforcement action
   const largestCriminal = actions
     .filter(a => a.type === 'Criminal Enforcement' && (a.amount_numeric || 0) > 0)
     .reduce((max, a) => Math.max(max, a.amount_numeric), 0);
 
-  document.getElementById('statCriminal').textContent = crimTotal > 0 ? formatMoney(crimTotal) : 'â€”';
-  document.getElementById('statCivil').textContent    = civilTotal > 0 ? formatMoney(civilTotal) : 'â€”';
-  document.getElementById('statFCA').textContent      = formatMoney(fcaTotal);
-  document.getElementById('statLargest').textContent  = largestCriminal > 0 ? formatMoney(largestCriminal) : 'â€”';
+
+  // CMS program integrity (administrative actions only, excludes Rule/Regulation)
+  const cmsTotal = actions
+    .filter(a => a.agency === 'CMS' && a.type === 'Administrative Action' && (a.amount_numeric || 0) > 0)
+    .reduce((sum, a) => sum + (a.amount_numeric || 0), 0);
+
+  // Total improper payments identified across all audit-type actions
+  const auditTotal = actions
+    .filter(a => a.type === 'Audit' && (a.amount_numeric || 0) > 0)
+    .reduce((sum, a) => sum + (a.amount_numeric || 0), 0);
+
+  document.getElementById('statCriminal').textContent  = crimTotal > 0 ? formatMoney(crimTotal) : '\u2014';
+  document.getElementById('statConvicted').textContent = convictedTotal > 0 ? formatMoney(convictedTotal) : '\u2014';
+  document.getElementById('statCivil').textContent    = civilTotal > 0 ? formatMoney(civilTotal) : '\u2014';
+document.getElementById('statLargest').textContent  = largestCriminal > 0 ? formatMoney(largestCriminal) : '\u2014';
+  document.getElementById('statCMS').textContent      = cmsTotal > 0 ? formatMoney(cmsTotal) : '\u2014';
+  document.getElementById('statAudit').textContent    = auditTotal > 0 ? formatMoney(auditTotal) : '\u2014';
 }
 
 function applyFilters() {
@@ -3044,7 +3064,7 @@ function renderCards(actions) {
         const pe = document.createElement('div');
         pe.className = 'social-post';
         pe.innerHTML = '<div class="social-post-account"><i class="fa-brands fa-x-twitter me-1"></i>' + escHtml(post.account||'') +
-          (post.post_url ? ' <a href="' + escHtml(post.post_url) + '" target="_blank" rel="noopener" style="font-size:0.68rem;color:#555;">View â†—</a>' : '') + '</div>' +
+          (post.post_url ? ' <a href="' + escHtml(post.post_url) + '" target="_blank" rel="noopener" style="font-size:0.68rem;color:#555;">View <i class="fa-solid fa-arrow-up-right-from-square"></i></a>' : '') + '</div>' +
           '<div class="social-post-text">"' + escHtml(post.post_text||'') + '"</div>' +
           (post.post_date ? '<div class="social-post-date">' + escHtml(post.post_date) + '</div>' : '');
         socialList.appendChild(pe);
@@ -3064,11 +3084,24 @@ function openUpdateInstructions() {
   alert('To fetch new data:\n\n1. Double-click update.bat in the dashboard folder\n2. Then close and reopen dashboard.html\n\nThe dashboard auto-updates daily if you ran setup-daily-update.ps1.');
 }
 
+function populateStateDropdown(actions) {
+  const sel = document.getElementById('stateFilter');
+  const states = [...new Set(actions.map(a => a.state).filter(Boolean))];
+  states.sort((a, b) => (STATE_NAMES[a] || a).localeCompare(STATE_NAMES[b] || b));
+  states.forEach(abbr => {
+    const opt = document.createElement('option');
+    opt.value = abbr;
+    opt.textContent = STATE_NAMES[abbr] || abbr;
+    sel.appendChild(opt);
+  });
+}
+
 // Init
 document.addEventListener('DOMContentLoaded', function() {
   allActions = DASHBOARD_DATA.actions || [];
   updateLastUpdated(DASHBOARD_DATA.metadata && DASHBOARD_DATA.metadata.last_updated);
   updateStats(allActions);
+  populateStateDropdown(allActions);
   applyFilters();
 });
 </script>
