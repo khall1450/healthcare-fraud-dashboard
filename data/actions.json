@@ -600,7 +600,10 @@
                         "link":  "https://www.hhs.gov/about/news/index.html",
                         "link_label":  "HHS Newsroom",
                         "social_posts":  [
-
+                                             {
+                                                 "account":  "@HHSResponse",
+                                                 "post_url":  "https://x.com/hhsresponse/status/2019108568184590674?s=12"
+                                             }
                                          ],
                         "tags":  [
                                      "AI",
