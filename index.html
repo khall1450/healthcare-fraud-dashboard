@@ -2961,6 +2961,77 @@ function updateStats(actions) {
   document.getElementById('statCMS').textContent       = cmsTotal > 0 ? formatMoney(cmsTotal) : '\u2014';
 }
 
+function renderCards(actions) {
+  const grid = document.getElementById('cardsGrid');
+  const noResults = document.getElementById('noResults');
+  const tmpl = document.getElementById('cardTemplate');
+  grid.innerHTML = '';
+  if (actions.length === 0) { noResults.classList.remove('d-none'); return; }
+  noResults.classList.add('d-none');
+  actions.forEach(action => {
+    const col  = tmpl.content.cloneNode(true);
+    const card = col.querySelector('.action-card');
+    card.setAttribute('data-agency', action.agency || 'Other');
+    const agBadge = col.querySelector('.agency-badge');
+    agBadge.textContent = action.agency || 'Other';
+    agBadge.classList.add(AGENCY_CLASS[action.agency] || 'agency-Other');
+    const typeBadge = col.querySelector('.type-badge');
+    typeBadge.textContent = action.type || 'Other';
+    typeBadge.classList.add(typeClass(action.type));
+    if (action.auto_fetched) {
+      const nb = document.createElement('span');
+      nb.className = 'new-badge'; nb.textContent = 'NEW';
+      col.querySelector('.card-top-row').appendChild(nb);
+    }
+    col.querySelector('.card-date').textContent = formatDate(action.date);
+    col.querySelector('.card-title').textContent = action.title || 'Untitled';
+    col.querySelector('.card-desc').textContent  = action.description || '';
+    if (action.amount) {
+      const el = col.querySelector('.card-amount');
+      el.classList.remove('d-none');
+      el.querySelector('span').textContent = action.amount;
+    }
+    if (action.officials && action.officials.length > 0) {
+      const el = col.querySelector('.card-officials');
+      el.classList.remove('d-none');
+      el.querySelector('span').textContent = action.officials.join(', ');
+    }
+    if (action.state) {
+      const el = col.querySelector('.card-state');
+      el.classList.remove('d-none');
+      el.querySelector('span').textContent = STATE_NAMES[action.state] || action.state;
+    }
+    const tagsEl = col.querySelector('.card-tags');
+    (action.tags||[]).forEach(tag => {
+      const pill = document.createElement('span');
+      pill.className = 'tag-pill'; pill.textContent = tag;
+      tagsEl.appendChild(pill);
+    });
+    if (action.social_posts && action.social_posts.length > 0) {
+      const socialEl  = col.querySelector('.card-social');
+      socialEl.classList.remove('d-none');
+      const socialList = col.querySelector('.social-list');
+      action.social_posts.forEach(post => {
+        const pe = document.createElement('div');
+        pe.className = 'social-post';
+        const postUrl = safeUrl(post.post_url);
+        pe.innerHTML = '<div class="social-post-account"><i class="fa-brands fa-x-twitter me-1"></i>' + escHtml(post.account||'') +
+          (postUrl ? ' <a href="' + postUrl + '" target="_blank" rel="noopener noreferrer" style="font-size:0.68rem;color:#555;">View <i class="fa-solid fa-arrow-up-right-from-square"></i></a>' : '') + '</div>' +
+          '<div class="social-post-text">"' + escHtml(post.post_text||'') + '"</div>' +
+          (post.post_date ? '<div class="social-post-date">' + escHtml(post.post_date) + '</div>' : '');
+        socialList.appendChild(pe);
+      });
+    }
+    if (action.link && safeUrl(action.link)) {
+      const docBtn = col.querySelector('.btn-doc');
+      docBtn.classList.remove('d-none');
+      docBtn.href = safeUrl(action.link);
+      docBtn.querySelector('span').textContent = action.link_label || 'View Document';
+    }
+    grid.appendChild(col);
+  });
+}
+
 function applyFilters() {
   const search   = document.getElementById('searchInput').value.trim().toLowerCase();
   const agency   = document.getElementById('agencyFilter').value;
