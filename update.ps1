@@ -7,10 +7,21 @@ $DataFile  = Join-Path $ScriptDir "data/actions.json"
 $Keywords = @(
     'health care fraud', 'healthcare fraud', 'medicare fraud', 'medicaid fraud',
     'hospice fraud', 'home care fraud', 'home health fraud', 'prescription fraud',
-    'opioid fraud', 'drug fraud', 'health fraud', 'fraud takedown', 'fraud scheme',
+    'opioid fraud', 'health fraud', 'fraud takedown',
     'false claims', 'false billing', 'improper billing', 'kickback', 'overbilling',
     'upcoding', 'phantom billing', 'identity theft.*medicare', 'durable medical',
-    'fraud enforcement', 'program integrity', 'waste.*fraud', 'fraud.*waste'
+    'program integrity'
+)
+
+# ALL matched items must also contain at least one healthcare-specific term
+$HealthcareTerms = @(
+    'medicare', 'medicaid', 'tricare', 'health care', 'healthcare', 'hospital',
+    'clinic', 'physician', 'medical', 'patient', 'prescription', 'pharmacist',
+    'pharmacy', 'hospice', 'home health', 'nursing home', 'assisted living',
+    '\bcms\b', '\bhhs\b', '\boig\b', 'health insurance', 'health plan',
+    'clinical', 'diagnosis', 'therapy', 'dental fraud', 'ambulance fraud',
+    '\bdme\b', 'durable medical', 'behavioral health', 'substance abuse',
+    'affordable care act', 'aca enrollment', 'chip program'
 )
 
 $Feeds = @(
@@ -23,6 +34,7 @@ $Feeds = @(
 
 function Write-Log { param([string]$Msg, [string]$Color = 'White'); if (-not $Silent) { Write-Host "  $Msg" -ForegroundColor $Color } }
 function Test-AnyKeyword { param([string]$Text); $lower = $Text.ToLower(); foreach ($kw in $Keywords) { if ($lower -match $kw) { return $true } }; return $false }
+function Test-HealthcareContext { param([string]$Text); $lower = $Text.ToLower(); foreach ($term in $HealthcareTerms) { if ($lower -match $term) { return $true } }; return $false }
 
 function Get-ActionType {
     param([string]$Title, [string]$Desc)
@@ -87,6 +99,7 @@ foreach ($feed in ($Feeds | Where-Object { $_.Enabled })) {
             $descClean = $descClean.Trim()
 
             if (-not (Test-AnyKeyword "$title $descClean")) { continue }
+            if (-not (Test-HealthcareContext "$title $descClean")) { continue }
             if ($link -and $existingLinks.ContainsKey($link)) { continue }
 
             $dateStr = try { [DateTime]::Parse($pubDate).ToString('yyyy-MM-dd') } catch { (Get-Date).ToString('yyyy-MM-dd') }
