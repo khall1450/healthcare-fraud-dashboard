@@ -1,6 +1,6 @@
 ﻿{
     "metadata":  {
-                     "last_updated":  "2026-03-11T13:59:15.8186869-04:00",
+                     "last_updated":  "2026-03-11T14:24:28.7575699-04:00",
                      "version":  "1.0"
                  },
     "actions":  [
@@ -2604,6 +2604,35 @@
                         "state":  "PA",
                         "source_type":  "official",
                         "auto_fetched":  true
+                    },
+                    {
+                        "id":  "media-2026-03-11-wsj-autism-aba-medicaid",
+                        "date":  "2026-03-11",
+                        "agency":  "Media",
+                        "type":  "Investigative Report",
+                        "title":  "WSJ Investigation: Autism ABA Therapy Billing Is Medicaid\u0027s Fastest-Growing Abuse Area",
+                        "description":  "Wall Street Journal analysis of Medicaid billing records reveals ABA autism therapy payments surged from  to .2B between 2019-2023, with some providers billing up to /hr for services delivered by workers earning under /hr. Indiana was the epicenter, where one company (Piece by Piece) received  for just 84 patients. HHS-OIG audits found billing errors in every case sampled across four states. The investigation connects to ongoing Minnesota Medicaid fraud prosecutions.",
+                        "amount":  ".2 billion (2023 Medicaid ABA payments)",
+                        "amount_numeric":  2200000000,
+                        "officials":  [
+
+                                      ],
+                        "link":  "https://www.wsj.com/health/healthcare/autism-therapy-medicaid-payments-640aa435",
+                        "link_label":  "WSJ Article",
+                        "social_posts":  [
+
+                                         ],
+                        "tags":  [
+                                     "Medicaid",
+                                     "ABA Therapy",
+                                     "Autism",
+                                     "Overbilling",
+                                     "Indiana",
+                                     "Minnesota"
+                                 ],
+                        "state":  null,
+                        "source_type":  "news",
+                        "auto_fetched":  false
                     }
                 ]
 }

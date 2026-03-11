@@ -51,6 +51,7 @@
   --type-investigation:#5C3D99;
   --type-structural:   #303030;
   --type-tech:         #00A6CF;
+  --type-investigative:#8B6914;
   /* Design system */
   --radius: 0.3rem;
   --shadow: 0 5px 15px rgba(0,0,0,.15);
@@ -96,6 +97,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
 .action-card[data-agency="CMS"]         { --agency-color: var(--cms); }
 .action-card[data-agency="HHS-OIG"]     { --agency-color: var(--oig); }
 .action-card[data-agency="White House"] { --agency-color: var(--whitehouse); }
+.action-card[data-agency="Media"]      { --agency-color: #8B6914; }
 .card-top-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .agency-badge { font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; padding: 3px 10px; border-radius: var(--radius); color: white; font-family: 'Public Sans', sans-serif; }
 .agency-DOJ         { background: var(--doj); }
@@ -104,6 +106,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
 .agency-HHS-OIG     { background: var(--oig); }
 .agency-White-House { background: var(--whitehouse); }
 .agency-Other       { background: var(--other); }
+.agency-Media       { background: #8B6914; }
 .type-badge { font-size: 0.65rem; font-weight: 600; padding: 3px 9px; border-radius: var(--radius); border: 1px solid currentColor; font-family: 'Public Sans', sans-serif; letter-spacing: 0.02em; }
 .type-Criminal-Enforcement     { color: var(--type-criminal); background: rgba(198,40,40,0.07); }
 .type-Civil-Action             { color: var(--type-civil); background: rgba(255,148,26,0.1); }
@@ -113,6 +116,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
 .type-Investigation            { color: var(--type-investigation); background: rgba(92,61,153,0.07); }
 .type-Structural-Organizational{ color: var(--type-structural); background: rgba(48,48,48,0.07); }
 .type-Technology-Innovation    { color: var(--type-tech); background: rgba(0,166,207,0.08); }
+.type-Investigative-Report    { color: var(--type-investigative); background: rgba(139,105,20,0.08); }
 .card-date { font-size: 0.74rem; color: var(--text-muted); font-weight: 600; letter-spacing: 0.02em; }
 .card-title { font-family: 'Bona Nova', Georgia, serif; font-size: 1rem; font-weight: 700; line-height: 1.35; margin: 0; color: var(--almost-black); }
 .card-desc { font-size: 0.845rem; color: var(--concrete); line-height: 1.55; margin: 0; }
@@ -228,6 +232,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
         <option value="HHS">HHS</option>
         <option value="HHS-OIG">HHS-OIG</option>
         <option value="White House">White House</option>
+        <option value="Media">Media</option>
       </select>
       <select class="form-select filter-select" id="typeFilter" onchange="applyFilters()">
         <option value="all">All Types</option>
@@ -239,6 +244,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
         <option value="Investigation">Investigation</option>
         <option value="Structural/Organizational">Structural / Organizational</option>
         <option value="Technology/Innovation">Technology / AI</option>
+        <option value="Investigative Report">Investigative Report</option>
       </select>
       <select class="form-select filter-select" id="stateFilter" onchange="applyFilters()">
         <option value="all">All States</option>
@@ -2898,7 +2904,7 @@ const DASHBOARD_DATA = {
    ============================================================ */
 let allActions = [];
 
-const AGENCY_CLASS = { 'DOJ':'agency-DOJ','HHS':'agency-HHS','CMS':'agency-CMS','HHS-OIG':'agency-HHS-OIG','White House':'agency-White-House' };
+const AGENCY_CLASS = { 'DOJ':'agency-DOJ','HHS':'agency-HHS','CMS':'agency-CMS','HHS-OIG':'agency-HHS-OIG','White House':'agency-White-House','Media':'agency-Media' };
 const STATE_NAMES  = { AL:'Alabama',AK:'Alaska',AZ:'Arizona',AR:'Arkansas',CA:'California',CO:'Colorado',CT:'Connecticut',DE:'Delaware',FL:'Florida',GA:'Georgia',HI:'Hawaii',ID:'Idaho',IL:'Illinois',IN:'Indiana',IA:'Iowa',KS:'Kansas',KY:'Kentucky',LA:'Louisiana',ME:'Maine',MD:'Maryland',MA:'Massachusetts',MI:'Michigan',MN:'Minnesota',MS:'Mississippi',MO:'Missouri',MT:'Montana',NE:'Nebraska',NV:'Nevada',NH:'New Hampshire',NJ:'New Jersey',NM:'New Mexico',NY:'New York',NC:'North Carolina',ND:'North Dakota',OH:'Ohio',OK:'Oklahoma',OR:'Oregon',PA:'Pennsylvania',RI:'Rhode Island',SC:'South Carolina',SD:'South Dakota',TN:'Tennessee',TX:'Texas',UT:'Utah',VT:'Vermont',VA:'Virginia',WA:'Washington',WV:'West Virginia',WI:'Wisconsin',WY:'Wyoming',DC:'Washington D.C.' };
 
 function formatDate(d) {
