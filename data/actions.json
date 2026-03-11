@@ -1,6 +1,6 @@
 ﻿{
     "metadata":  {
-                     "last_updated":  "2026-03-11T13:53:41.6080390-04:00",
+                     "last_updated":  "2026-03-11T13:59:15.8186869-04:00",
                      "version":  "1.0"
                  },
     "actions":  [
@@ -2580,30 +2580,6 @@
                         "state":  "VA",
                         "source_type":  "official",
                         "auto_fetched":  false
-                    },
-                    {
-                        "id":  "doj-2026-03-09-749771654",
-                        "date":  "2026-03-09",
-                        "agency":  "DOJ",
-                        "type":  "Administrative Action",
-                        "title":  "DC Solar Attorney Sentenced to over 11 Years in Prison for His Involvement in the DC Solar Billion Dollar Ponzi Scheme",
-                        "description":  "Ari J. Lauer, 61, of Lafayette, was sentenced today to 11 years and five months years in prison for his role in the biggest criminal fraud scheme in the history of the Eastern District of California.",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://www.justice.gov/usao-edca/pr/dc-solar-attorney-sentenced-over-11-years-prison-his-involvement-dc-solar-billion",
-                        "link_label":  "DOJ Press Release",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "state":  "CA",
-                        "source_type":  "official",
-                        "auto_fetched":  true
                     },
                     {
                         "id":  "doj-2026-03-09-393117795",
