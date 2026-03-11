@@ -2628,7 +2628,11 @@
                                      "Autism",
                                      "Overbilling",
                                      "Indiana",
-                                     "Minnesota"
+                                     "Minnesota",
+                                     "Colorado",
+                                     "Florida",
+                                     "New York",
+                                     "Texas"
                                  ],
                         "state":  null,
                         "source_type":  "news",
