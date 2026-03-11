@@ -1,6 +1,6 @@
 ﻿{
     "metadata":  {
-                     "last_updated":  "2026-03-11T14:24:28.7575699-04:00",
+                     "last_updated":  "2026-03-11T14:37:17.8367568-04:00",
                      "version":  "1.0"
                  },
     "actions":  [
@@ -2631,6 +2631,117 @@
                                      "Minnesota"
                                  ],
                         "state":  null,
+                        "source_type":  "news",
+                        "auto_fetched":  false
+                    },
+                    {
+                        "id":  "media-2026-03-10-cbs-la-hospice-fraud",
+                        "date":  "2026-03-10",
+                        "agency":  "Media",
+                        "type":  "Investigative Report",
+                        "title":  "CBS News Investigation: Hundreds of LA Hospices Show Multiple Fraud Indicators Despite 2023 Crackdown",
+                        "description":  "CBS News analysis of records for all 1,800 hospices in Los Angeles County finds over 700 trigger multiple state-defined fraud red flags. Auditors estimated LA hospices overbilled Medicare by  in a single year. One building houses 89 registered hospices; one medical director is listed at 45 different hospices simultaneously. Despite California revoking 280 hospice licenses and charging over 100 people since 2023, indicators of fraud are growing. Stolen Medicare numbers are used to enroll healthy seniors in hospice with fake terminal diagnoses, billing Medicare an average of ,000 per patient.",
+                        "amount":  " million (1-year LA County overbilling); .5B alleged total",
+                        "amount_numeric":  3500000000,
+                        "officials":  [
+
+                                      ],
+                        "link":  "https://www.cbsnews.com/projects/2026/hospice-fraud/",
+                        "link_label":  "CBS News Investigation",
+                        "social_posts":  [
+
+                                         ],
+                        "tags":  [
+                                     "Medicare",
+                                     "Hospice Fraud",
+                                     "California",
+                                     "Los Angeles"
+                                 ],
+                        "state":  "CA",
+                        "source_type":  "news",
+                        "auto_fetched":  false
+                    },
+                    {
+                        "id":  "media-2026-01-12-grassley-unitedhealth-ma-report",
+                        "date":  "2026-01-12",
+                        "agency":  "Media",
+                        "type":  "Investigative Report",
+                        "title":  "Senate Report: UnitedHealth \u0027Aggressively\u0027 Gaming Medicare Advantage, Turning Risk Adjustment Into Profit Engine",
+                        "description":  "Sen. Grassley\u0027s 105-page Senate Judiciary Committee report, based on 50,000+ pages of internal UnitedHealth documents, finds the nation\u0027s largest MA insurer (10M members) systematically transformed diagnosis coding into a \u0027major profit-centered strategy.\u0027 UnitedHealth guides providers to apply lucrative diagnosis codes, including diagnosing patients taking prescribed opioids as physically dependent. Industry-wide MA upcoding is estimated to cost taxpayers /year. DOJ has opened both criminal and civil fraud investigations into UnitedHealth\u0027s billing practices.",
+                        "amount":  " billion/year (estimated industry-wide MA upcoding cost)",
+                        "amount_numeric":  84000000000,
+                        "officials":  [
+
+                                      ],
+                        "link":  "https://www.grassley.senate.gov/news/news-releases/grassley-report-details-unitedhealths-record-of-appearing-to-game-the-medicare-advantage-system-turning-risk-adjustment-into-its-own-business",
+                        "link_label":  "Senate Report",
+                        "social_posts":  [
+
+                                         ],
+                        "tags":  [
+                                     "Medicare Advantage",
+                                     "UnitedHealth",
+                                     "Upcoding",
+                                     "Risk Adjustment",
+                                     "Senate Investigation"
+                                 ],
+                        "state":  null,
+                        "source_type":  "news",
+                        "auto_fetched":  false
+                    },
+                    {
+                        "id":  "media-2026-02-26-propublica-arizona-indigenous-fraud",
+                        "date":  "2026-02-26",
+                        "agency":  "Media",
+                        "type":  "Investigative Report",
+                        "title":  "ProPublica/AZCIR: Medicaid Fraud Targeting Indigenous Communities Continues Despite Arizona Reforms",
+                        "description":  "ProPublica and Arizona Center for Investigative Reporting find that nearly three years after Arizona uncovered a .5B Medicaid fraud scheme targeting Native Americans, sober living operators are still recruiting vulnerable Indigenous residents into sham behavioral health treatment programs. State has recovered only  (5%) of stolen funds. At least 40 Indigenous residents died in fraudulent treatment facilities. Officials in at least five instances across both parties failed to act on evidence of fraud. Described by HHS as the largest fraud scheme targeting a single demographic group in recent U.S. history.",
+                        "amount":  ".5 billion (total scheme);  recovered (5%)",
+                        "amount_numeric":  2500000000,
+                        "officials":  [
+
+                                      ],
+                        "link":  "https://www.propublica.org/article/arizona-medicaid-fraud-investigation-taxpayer-funds",
+                        "link_label":  "ProPublica Investigation",
+                        "social_posts":  [
+
+                                         ],
+                        "tags":  [
+                                     "Medicaid",
+                                     "Behavioral Health",
+                                     "Native American",
+                                     "Arizona",
+                                     "Sober Living Fraud"
+                                 ],
+                        "state":  "AZ",
+                        "source_type":  "news",
+                        "auto_fetched":  false
+                    },
+                    {
+                        "id":  "media-2026-02-20-wsmv-russian-tennessee-medicare",
+                        "date":  "2026-02-20",
+                        "agency":  "Media",
+                        "type":  "Investigative Report",
+                        "title":  "WSMV4 Investigation: Russian-Connected Medicare Billing Scheme Targeting Tennessee Seniors",
+                        "description":  "WSMV4 investigation reveals Medicare is being billed tens of thousands of dollars for Tennessee recipients who never needed or received medical equipment, connected to Russian citizen Nika Machutadze facing federal charges in a + nationwide Medicare fraud scheme. Machutadze\u0027s company Centurion began submitting large batches of fraudulent claims in late September 2025 for urinary catheters. A data breach at a healthcare billing service may have provided the stolen Medicare numbers used to bill phantom services across multiple states.",
+                        "amount":  " billion+ (nationwide scheme)",
+                        "amount_numeric":  3000000000,
+                        "officials":  [
+
+                                      ],
+                        "link":  "https://www.wsmv.com/2026/02/20/wsmv4-investigation-reveals-russian-connection-tennessee-medicare-billing-scheme/",
+                        "link_label":  "WSMV4 Investigation",
+                        "social_posts":  [
+
+                                         ],
+                        "tags":  [
+                                     "Medicare",
+                                     "DME Fraud",
+                                     "Identity Theft",
+                                     "Tennessee",
+                                     "Russia"
+                                 ],
+                        "state":  "TN",
                         "source_type":  "news",
                         "auto_fetched":  false
                     }
