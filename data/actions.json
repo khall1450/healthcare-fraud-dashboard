@@ -2629,12 +2629,9 @@
                                      "Overbilling",
                                      "Indiana",
                                      "Minnesota",
-                                     "Colorado",
-                                     "Florida",
-                                     "New York",
-                                     "Texas"
+                                     "Colorado"
                                  ],
-                        "state":  null,
+                        "state":  "IN",
                         "source_type":  "news",
                         "auto_fetched":  false
                     },
