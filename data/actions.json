@@ -1,6 +1,6 @@
 ﻿{
     "metadata":  {
-                     "last_updated":  "2026-03-11T14:37:17.8367568-04:00",
+                     "last_updated":  "2026-03-12T09:25:44.3316900-04:00",
                      "version":  "1.0"
                  },
     "actions":  [
@@ -2744,6 +2744,36 @@
                                  ],
                         "state":  "TN",
                         "source_type":  "news",
+                        "auto_fetched":  false
+                    },
+                    {
+                        "id":  "doj-2026-03-11-aetna-fca-settlement",
+                        "date":  "2026-03-11",
+                        "agency":  "DOJ",
+                        "type":  "Civil Action",
+                        "title":  "Aetna Agrees to Pay $117.7 Million to Resolve False Claims Act Allegations",
+                        "description":  "Aetna Inc. agreed to pay $117.7 million to resolve False Claims Act allegations that it submitted inaccurate diagnosis codes to Medicare to inflate risk adjustment payments. Aetna operated a chart review program that identified unsupported diagnoses but failed to withdraw them, and submitted false morbid obesity diagnoses (2018-2023) for beneficiaries whose BMI readings did not support such coding. The settlement resolves allegations spanning payment years 2015 and 2018-2023. The case was brought by whistleblower Mary Melette Thomas, a former Aetna risk-adjustment coding auditor.",
+                        "amount":  "$117.7 million",
+                        "amount_numeric":  117700000,
+                        "officials":  [
+
+                                      ],
+                        "link":  "https://www.justice.gov/opa/pr/aetna-agrees-pay-1177-million-resolve-false-claims-act-allegations",
+                        "link_label":  "DOJ Press Release",
+                        "social_posts":  [
+
+                                         ],
+                        "tags":  [
+                                     "Medicare",
+                                     "False Claims Act",
+                                     "Risk Adjustment",
+                                     "Aetna",
+                                     "Diagnosis Coding",
+                                     "Whistleblower",
+                                     "Pennsylvania"
+                                 ],
+                        "state":  "PA",
+                        "source_type":  "official",
                         "auto_fetched":  false
                     }
                 ]
