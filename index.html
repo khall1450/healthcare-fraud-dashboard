@@ -53,6 +53,7 @@
   --type-tech:         #00A6CF;
   --type-investigative:#8B6914;
   --type-congressional:#1a5276;
+  --type-legislation:#4a148c;
   /* Design system */
   --radius: 0.3rem;
   --shadow: 0 5px 15px rgba(0,0,0,.15);
@@ -121,6 +122,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
 .type-Technology-Innovation    { color: var(--type-tech); background: rgba(0,166,207,0.08); }
 .type-Investigative-Report    { color: var(--type-investigative); background: rgba(139,105,20,0.08); }
 .type-Congressional-Hearing  { color: var(--type-congressional); background: rgba(26,82,118,0.08); }
+.type-Legislation            { color: var(--type-legislation); background: rgba(74,20,140,0.07); }
 .card-date { font-size: 0.74rem; color: var(--text-muted); font-weight: 600; letter-spacing: 0.02em; }
 .card-title { font-family: 'Bona Nova', Georgia, serif; font-size: 1rem; font-weight: 700; line-height: 1.35; margin: 0; color: var(--almost-black); }
 .card-desc { font-size: 0.845rem; color: var(--concrete); line-height: 1.55; margin: 0; }
@@ -252,6 +254,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
         <option value="Technology/Innovation">Technology / AI</option>
         <option value="Investigative Report">Investigative Report</option>
         <option value="Congressional Hearing">Congressional Hearing</option>
+        <option value="Legislation">Legislation</option>
       </select>
       <select class="form-select filter-select" id="stateFilter" onchange="applyFilters()">
         <option value="all">All States</option>

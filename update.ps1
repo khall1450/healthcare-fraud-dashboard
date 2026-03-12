@@ -44,6 +44,7 @@ function Test-HealthcareContext { param([string]$Text); $lower = $Text.ToLower()
 function Get-ActionType {
     param([string]$Title, [string]$Desc)
     $text = "$Title $Desc".ToLower()
+    if ($text -match 'signed into law|enacted|passes bill|bill signed|legislation|executive order|presidential memo|law.*(takes|went) effect') { return 'Legislation' }
     if ($text -match 'hearing|committee\s+(hearing|held|examine|vote)|testimony|testif|subcommittee.*hearing|gao.*(report|finds|audit)|congressional.*report|senate.*report|house.*report') { return 'Congressional Hearing' }
     if ($text -match 'plead|convict|indict|charg|guilty|arrest|prosecut') { return 'Criminal Enforcement' }
     if ($text -match 'civil|settlement|civil.+action|false claims act')    { return 'Civil Action' }
