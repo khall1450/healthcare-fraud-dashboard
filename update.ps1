@@ -29,7 +29,12 @@ $Feeds = @(
     @{ Name = 'HHS-OIG'; Agency = 'HHS-OIG'; Url = 'https://oig.hhs.gov/rss/oig-rss.xml';                   Enabled = $true },
     @{ Name = 'CMS';     Agency = 'CMS';     Url = 'https://www.cms.gov/newsroom/rss/press-releases';        Enabled = $true },
     @{ Name = 'HHS';     Agency = 'HHS';     Url = 'https://www.hhs.gov/rss/news.xml';                       Enabled = $true },
-    @{ Name = 'DOJ-USAO';Agency = 'DOJ';     Url = 'https://www.justice.gov/usao/pressreleases/rss';         Enabled = $true }
+    @{ Name = 'DOJ-USAO';Agency = 'DOJ';     Url = 'https://www.justice.gov/usao/pressreleases/rss';         Enabled = $true },
+    @{ Name = 'GAO';     Agency = 'GAO';     Url = 'https://www.gao.gov/rss/reports.xml';                    Enabled = $true },
+    @{ Name = 'H-Oversight'; Agency = 'Congress'; Url = 'https://oversight.house.gov/feed/';                  Enabled = $true },
+    @{ Name = 'H-E&C';      Agency = 'Congress'; Url = 'https://energycommerce.house.gov/feed/';             Enabled = $true },
+    @{ Name = 'S-Finance';   Agency = 'Congress'; Url = 'https://www.finance.senate.gov/rss/feeds/?type=press'; Enabled = $true },
+    @{ Name = 'S-HELP';      Agency = 'Congress'; Url = 'https://www.help.senate.gov/rss/feeds/?type=press';   Enabled = $true }
 )
 
 function Write-Log { param([string]$Msg, [string]$Color = 'White'); if (-not $Silent) { Write-Host "  $Msg" -ForegroundColor $Color } }
@@ -39,6 +44,7 @@ function Test-HealthcareContext { param([string]$Text); $lower = $Text.ToLower()
 function Get-ActionType {
     param([string]$Title, [string]$Desc)
     $text = "$Title $Desc".ToLower()
+    if ($text -match 'hearing|committee\s+(hearing|held|examine|vote)|testimony|testif|subcommittee.*hearing|gao.*(report|finds|audit)|congressional.*report|senate.*report|house.*report') { return 'Congressional Hearing' }
     if ($text -match 'plead|convict|indict|charg|guilty|arrest|prosecut') { return 'Criminal Enforcement' }
     if ($text -match 'civil|settlement|civil.+action|false claims act')    { return 'Civil Action' }
     if ($text -match 'audit|review|report|oig')                            { return 'Audit' }
