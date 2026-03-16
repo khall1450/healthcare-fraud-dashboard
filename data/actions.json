@@ -1,6 +1,6 @@
 ﻿{
     "metadata":  {
-                     "last_updated":  "2026-03-16T11:11:27.7999155-04:00",
+                     "last_updated":  "2026-03-16T11:14:25.3607489-04:00",
                      "version":  "1.0"
                  },
     "actions":  [
@@ -4847,6 +4847,86 @@
                                      "Serial Fraudster"
                                  ],
                         "date":  "2025-04-15",
+                        "amount_numeric":  0
+                    },
+                    {
+                        "link":  "https://www.wavy.com/news/local-news/chesapeake/chesapeake-hospital-indicted-for-healthcare-fraud/",
+                        "id":  "media-2025-01-09-wavy-chesapeake-hospital-indictment",
+                        "auto_fetched":  false,
+                        "officials":  [
+
+                                      ],
+                        "state":  null,
+                        "source_type":  "news",
+                        "title":  "WAVY/Virginian-Pilot: Chesapeake Regional Hospital Indicted - Rare Criminal Prosecution of a Hospital for Healthcare Fraud",
+                        "link_label":  "WAVY News Article",
+                        "type":  "Investigative Report",
+                        "amount":  "$18.5 million (reimbursements)",
+                        "description":  "Local and national media covered the rare criminal indictment of Chesapeake Regional Medical Center for healthcare fraud. The hospital allegedly enabled Dr. Javaid Perwaiz (convicted in 2020 on 52 counts) to perform unnecessary hysterectomies and surgeries for years despite knowing his privileges were terminated elsewhere and he had two prior federal felony convictions. Hospital received $18.5M in reimbursements from the scheme. Over 500 patients have since filed civil suits.",
+                        "agency":  "Media",
+                        "social_posts":  [
+
+                                         ],
+                        "tags":  [
+                                     "Medicare",
+                                     "Unnecessary Surgery",
+                                     "Hospital Fraud"
+                                 ],
+                        "date":  "2025-01-09",
+                        "amount_numeric":  0
+                    },
+                    {
+                        "link":  "https://www.axios.com/2025/02/06/elon-musk-doge-health-data-cms",
+                        "id":  "media-2025-02-05-bloomberg-doge-cms-access",
+                        "auto_fetched":  false,
+                        "officials":  [
+
+                                      ],
+                        "state":  null,
+                        "source_type":  "news",
+                        "title":  "Bloomberg/Axios: DOGE Team Gains Read-Only Access to CMS Medicare and Medicaid Payment Systems",
+                        "link_label":  "Axios Article",
+                        "type":  "Investigative Report",
+                        "amount":  null,
+                        "description":  "Bloomberg and Axios reported that Elon Musk\u0027s DOGE team gained read-only access to CMS contracting and payment systems to search for \u0027big money fraud.\u0027 Two senior CMS staff leading collaboration. DOGE examining Medicare and Medicaid payment data for waste, fraud, and abuse. Musk posted: \u0027Yeah, this is where the big money fraud is happening.\u0027 No access to personal health information of beneficiaries.",
+                        "agency":  "Media",
+                        "social_posts":  [
+
+                                         ],
+                        "tags":  [
+                                     "Medicare",
+                                     "Medicaid",
+                                     "DOGE",
+                                     "CMS"
+                                 ],
+                        "date":  "2025-02-05",
+                        "amount_numeric":  0
+                    },
+                    {
+                        "link":  "https://www.propublica.org/topics/health-care",
+                        "id":  "media-2025-01-azcir-propublica-az-medicaid-deaths",
+                        "auto_fetched":  false,
+                        "officials":  [
+
+                                      ],
+                        "state":  "AZ",
+                        "source_type":  "news",
+                        "title":  "ProPublica/AZCIR: At Least 40 Native Americans Died as Arizona Struggled to Address $2.5B Medicaid Fraud Scheme",
+                        "link_label":  "ProPublica Investigation",
+                        "type":  "Investigative Report",
+                        "amount":  "$2.5 billion (fraud scheme)",
+                        "description":  "After 18 months of investigation, ProPublica and the Arizona Center for Investigative Reporting found that dozens of Native Americans dealing with addiction died as Arizona\u0027s Medicaid agency (AHCCCS) struggled to respond to a massive $2.5B fraud scheme involving sham sober living homes and treatment facilities. The fraud evolved from 2019-2023 while the state agency failed to act. Patients were enrolled in fraudulent treatment programs, many receiving no actual care.",
+                        "agency":  "Media",
+                        "social_posts":  [
+
+                                         ],
+                        "tags":  [
+                                     "Medicaid",
+                                     "Arizona",
+                                     "Addiction Treatment Fraud",
+                                     "Indigenous Communities"
+                                 ],
+                        "date":  "2025-01-15",
                         "amount_numeric":  0
                     }
                 ]
