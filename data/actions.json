@@ -1,6 +1,6 @@
 ﻿{
     "metadata":  {
-                     "last_updated":  "2026-03-16T11:04:48.1054448-04:00",
+                     "last_updated":  "2026-03-16T11:08:28.4463734-04:00",
                      "version":  "1.0"
                  },
     "actions":  [
@@ -4479,6 +4479,190 @@
                                  ],
                         "date":  "2026-03-12",
                         "amount_numeric":  600000000
+                    },
+                    {
+                        "link":  "https://www.healthlawadvisor.com/the-first-national-health-care-fraud-takedown-of-the-second-trump-administration-what-stayed-the-same-and-what-is-new",
+                        "id":  "media-2025-06-30-epstein-becker-takedown-analysis",
+                        "auto_fetched":  false,
+                        "officials":  [
+
+                                      ],
+                        "state":  null,
+                        "source_type":  "news",
+                        "title":  "Epstein Becker Green: 2025 Takedown Reveals AI-Generated Fake Patient Consent Recordings and Transnational Crime Rings",
+                        "link_label":  "Epstein Becker Green Article",
+                        "type":  "Investigative Report",
+                        "amount":  "$14.6 billion (total intended losses)",
+                        "description":  "Legal analysis of the 2025 National Health Care Fraud Takedown highlights unprecedented elements: five defendants used AI to create fake audio recordings of Medicare beneficiaries consenting to products never ordered. 29 defendants in transnational criminal orgs submitted over $12B in fraudulent claims. Operation Gold Rush alone involved $10.6B in fraud using stolen identities of 1 million+ Americans. $245M in assets seized.",
+                        "agency":  "Media",
+                        "social_posts":  [
+
+                                         ],
+                        "tags":  [
+                                     "Medicare",
+                                     "AI",
+                                     "National Takedown",
+                                     "Transnational Crime"
+                                 ],
+                        "date":  "2025-06-30",
+                        "amount_numeric":  0
+                    },
+                    {
+                        "link":  "https://leadingage.org/cms-fact-sheet-on-hospice-fraud/",
+                        "id":  "media-2025-07-23-cms-hospice-fast-facts",
+                        "auto_fetched":  false,
+                        "officials":  [
+
+                                      ],
+                        "state":  "CA",
+                        "source_type":  "news",
+                        "title":  "CMS Hospice Fast Facts: 668 Hospices Under Enhanced Oversight, 122 Revoked, 7,000+ Visited",
+                        "link_label":  "LeadingAge Article",
+                        "type":  "Investigative Report",
+                        "amount":  null,
+                        "description":  "CMS released a Hospice Fast Facts sheet revealing the scale of its hospice fraud crackdown: 668 hospices under Provisional Period of Enhanced Oversight medical review, 122 hospice enrollments revoked. CMS has visited over 7,000 hospices nationwide, with nearly 400 being considered for potential administrative action. LA County remains the epicenter, with 18% of the nation\u0027s hospice billing concentrated there.",
+                        "agency":  "Media",
+                        "social_posts":  [
+
+                                         ],
+                        "tags":  [
+                                     "Hospice Fraud",
+                                     "Medicare",
+                                     "CMS"
+                                 ],
+                        "date":  "2025-07-23",
+                        "amount_numeric":  0
+                    },
+                    {
+                        "link":  "https://www.cnbc.com/2025/07/24/unitedhealthcare-doj-investigation-medicare-billing.html",
+                        "id":  "media-2025-07-24-cnbc-unitedhealth-doj-investigation",
+                        "auto_fetched":  false,
+                        "officials":  [
+
+                                      ],
+                        "state":  null,
+                        "source_type":  "news",
+                        "title":  "CNBC: UnitedHealth Facing DOJ Civil and Criminal Investigation Over Medicare Advantage Billing",
+                        "link_label":  "CNBC Article",
+                        "type":  "Investigative Report",
+                        "amount":  "$84 billion/year (estimated MA overpayments); $8.7 billion (2021 UHG excess)",
+                        "description":  "CNBC reports UnitedHealth Group is under both civil and criminal DOJ investigation over its Medicare Advantage billing practices. The probe focuses on whether UHG systematically upcoded patient diagnoses to inflate risk-adjustment payments. In 2021 alone, upcoding practices allegedly generated $8.7B in excess federal payments to UnitedHealthcare. CMS estimates MA overpayments total $84 billion annually.",
+                        "agency":  "Media",
+                        "social_posts":  [
+
+                                         ],
+                        "tags":  [
+                                     "Medicare Advantage",
+                                     "Upcoding",
+                                     "UnitedHealth",
+                                     "DOJ"
+                                 ],
+                        "date":  "2025-07-24",
+                        "amount_numeric":  0
+                    },
+                    {
+                        "link":  "https://oag.ca.gov/news/press-releases/confronting-hospice-fraud-attorney-general-bonta-launches-public-awareness",
+                        "id":  "media-2025-08-06-ca-ag-hospice-fraud-awareness",
+                        "auto_fetched":  false,
+                        "officials":  [
+
+                                      ],
+                        "state":  "CA",
+                        "source_type":  "news",
+                        "title":  "CA Attorney General Bonta Launches Hospice Fraud Awareness Campaign; 109 Charged, 24 Civil Cases",
+                        "link_label":  "CA AG Press Release",
+                        "type":  "Investigative Report",
+                        "amount":  null,
+                        "description":  "California AG Rob Bonta launched a public awareness initiative for hospice fraud in the LA area, including billboards, radio spots, community forums, and a dedicated fraud hotline. Since taking office, the AG\u0027s Division of Medi-Cal Fraud and Elder Abuse has filed criminal charges against 109 individuals and conducted 24 civil investigations for hospice-related offenses. Fraud concentrated in Van Nuys, Glendale, Burbank, and North Hollywood.",
+                        "agency":  "Media",
+                        "social_posts":  [
+
+                                         ],
+                        "tags":  [
+                                     "Hospice Fraud",
+                                     "California",
+                                     "Medi-Cal"
+                                 ],
+                        "date":  "2025-08-06",
+                        "amount_numeric":  0
+                    },
+                    {
+                        "link":  "https://www.ag.state.mn.us/Office/Communications/2025/08/12_Yusuf.asp",
+                        "id":  "media-2025-08-12-mn-ag-yusuf-medicaid-conviction",
+                        "auto_fetched":  false,
+                        "officials":  [
+
+                                      ],
+                        "state":  "MN",
+                        "source_type":  "news",
+                        "title":  "MN AG: Abdifatah Yusuf Convicted on 6 Counts of Medicaid Theft Through Sham Home Services Agency",
+                        "link_label":  "MN AG Press Release",
+                        "type":  "Investigative Report",
+                        "amount":  null,
+                        "description":  "Minnesota AG Ellison\u0027s Medicaid Fraud Control Unit obtained guilty verdicts against Abdifatah Yusuf for six counts of aiding and abetting theft by swindle (over $35,000 each). Yusuf ran Promise Health Services LLC, which claimed to provide home and community-based waivered services but lacked any office building and operated for years out of a mailbox.",
+                        "agency":  "Media",
+                        "social_posts":  [
+
+                                         ],
+                        "tags":  [
+                                     "Medicaid",
+                                     "Minnesota",
+                                     "Home Health Fraud"
+                                 ],
+                        "date":  "2025-08-12",
+                        "amount_numeric":  0
+                    },
+                    {
+                        "link":  "https://minnesotareformer.com/briefs/state-shuts-down-100-million-housing-stabilization-program-citing-fraud/",
+                        "id":  "media-2025-08-hss-shutdown-mn",
+                        "auto_fetched":  false,
+                        "officials":  [
+
+                                      ],
+                        "state":  "MN",
+                        "source_type":  "news",
+                        "title":  "Minnesota Reformer: State Shuts Down $107M Housing Stabilization Services Program Citing Fraud",
+                        "link_label":  "Minnesota Reformer Article",
+                        "type":  "Investigative Report",
+                        "amount":  "$107 million/year (program cost)",
+                        "description":  "Minnesota DHS shut down the $107 million/year Housing Stabilization Services (HSS) program, citing credible allegations of fraud. Investigation found many providers simply rented apartments to Medicaid recipients and billed for services never provided. The program was designed to help elderly and disabled Minnesotans at risk of homelessness. Governor Walz ordered suspension of payments to 50 of the largest providers.",
+                        "agency":  "Media",
+                        "social_posts":  [
+
+                                         ],
+                        "tags":  [
+                                     "Medicaid",
+                                     "Minnesota",
+                                     "Housing Fraud"
+                                 ],
+                        "date":  "2025-08-15",
+                        "amount_numeric":  107000000
+                    },
+                    {
+                        "link":  "https://www.cms.gov/newsroom/press-releases/cms-notifies-individuals-potentially-impacted-data-incident",
+                        "id":  "media-2025-08-cms-103k-medicare-breach",
+                        "auto_fetched":  false,
+                        "officials":  [
+
+                                      ],
+                        "state":  null,
+                        "source_type":  "official",
+                        "title":  "CMS Notifies 103,000 Medicare Beneficiaries of Account Fraud Scheme Using Stolen Identities",
+                        "link_label":  "CMS Press Release",
+                        "type":  "Investigative Report",
+                        "amount":  null,
+                        "description":  "CMS identified suspicious unauthorized creation of Medicare.gov accounts using personal information obtained from unknown external sources. Approximately 103,000 beneficiaries were potentially impacted. Fraudsters used stolen identity data to create beneficiary online accounts, potentially accessing personal health information and Medicare benefits.",
+                        "agency":  "Media",
+                        "social_posts":  [
+
+                                         ],
+                        "tags":  [
+                                     "Medicare",
+                                     "Identity Theft",
+                                     "Data Breach"
+                                 ],
+                        "date":  "2025-08-21",
+                        "amount_numeric":  0
                     }
                 ]
 }
