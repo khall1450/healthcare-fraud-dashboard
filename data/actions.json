@@ -1,6 +1,6 @@
 ﻿{
     "metadata":  {
-                     "last_updated":  "2026-03-16T10:52:48.4791239-04:00",
+                     "last_updated":  "2026-03-16T11:04:48.1054448-04:00",
                      "version":  "1.0"
                  },
     "actions":  [
@@ -4267,33 +4267,6 @@
                         "amount_numeric":  220000
                     },
                     {
-                        "link":  "https://hospicenews.com/2026/01/12/cms-doj-aggressively-cracking-down-on-hospice-fraud/",
-                        "id":  "media-2026-01-12-hospice-news-cms-doj-crackdown",
-                        "auto_fetched":  false,
-                        "officials":  [
-
-                                      ],
-                        "state":  "CA",
-                        "source_type":  "news",
-                        "title":  "Hospice News: CMS and DOJ \u0027Aggressively\u0027 Cracking Down on Hospice Fraud",
-                        "link_label":  "Hospice News Article",
-                        "type":  "Investigative Report",
-                        "amount":  null,
-                        "description":  "Hospice News reports on CMS and DOJ ramping up joint investigations into hospice fraud amid rising program integrity concerns. CMS and DOJ recently collaborated to address geographic hotspots, particularly in Los Angeles County where 18% of the nation\u0027s hospice Medicare billing activity is concentrated despite a fraction of the elderly population.",
-                        "agency":  "Media",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-                                     "Hospice Fraud",
-                                     "Medicare",
-                                     "CMS",
-                                     "DOJ"
-                                 ],
-                        "date":  "2026-01-12",
-                        "amount_numeric":  0
-                    },
-                    {
                         "link":  "https://www.justice.gov/opa/pr/oklahoma-medical-supply-company-owner-indicted-30m-health-care-fraud-scheme",
                         "id":  "media-2026-01-08-doj-oklahoma-dme-30m-indictment",
                         "auto_fetched":  false,
@@ -4344,85 +4317,6 @@
                                      "Medi-Cal"
                                  ],
                         "date":  "2026-01-28",
-                        "amount_numeric":  0
-                    },
-                    {
-                        "link":  "https://www.usnews.com/news/health-news/articles/2026-01-15/kaiser-permanente-to-pay-556-million-in-record-medicare-advantage-fraud-settlement",
-                        "id":  "media-2026-01-15-usnews-kaiser-556m-settlement",
-                        "auto_fetched":  false,
-                        "officials":  [
-
-                                      ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "title":  "U.S. News: Kaiser Permanente to Pay  Million in Record Medicare Advantage Fraud Settlement",
-                        "link_label":  "U.S. News Article",
-                        "type":  "Investigative Report",
-                        "amount":  " million",
-                        "description":  "Coverage of the record-setting Kaiser Permanente Medicare Advantage False Claims Act settlement. Kaiser allegedly submitted inflated diagnosis codes for MA enrollees over multiple years to boost federal reimbursements. The  settlement is the largest MA fraud settlement to date.",
-                        "agency":  "Media",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-                                     "Medicare Advantage",
-                                     "Upcoding",
-                                     "False Claims Act"
-                                 ],
-                        "date":  "2026-01-15",
-                        "amount_numeric":  0
-                    },
-                    {
-                        "link":  "https://hospicenews.com/2026/02/02/california-calls-for-civil-rights-investigation-into-cms-hospice-fraud-hunt/",
-                        "id":  "media-2026-02-02-hospice-news-ca-civil-rights-complaint",
-                        "auto_fetched":  false,
-                        "officials":  [
-
-                                      ],
-                        "state":  "CA",
-                        "source_type":  "news",
-                        "title":  "Hospice News: California Gov. Newsom Files Civil Rights Complaint Against CMS Over Hospice Fraud Investigations",
-                        "link_label":  "Hospice News Article",
-                        "type":  "Investigative Report",
-                        "amount":  ".5 billion (alleged LA County hospice fraud)",
-                        "description":  "Governor Newsom filed a civil rights complaint with HHS alleging CMS Administrator Dr. Oz\u0027s hospice fraud investigations discriminatorily target Russian-Armenian communities in LA, violating the Civil Rights Act of 1964. Oz had identified 42 fraudulent hospices within a 4-block radius in Van Nuys and linked .5B in fraud to organized crime. A bakery Oz highlighted in a YouTube video saw a 30% sales decline.",
-                        "agency":  "Media",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-                                     "Hospice Fraud",
-                                     "California",
-                                     "CMS",
-                                     "Civil Rights"
-                                 ],
-                        "date":  "2026-02-02",
-                        "amount_numeric":  0
-                    },
-                    {
-                        "link":  "https://www.statnews.com/2026/02/09/medicare-advantage-new-cms-risk-scores-target-insurer-upcoding/",
-                        "id":  "media-2026-02-09-statnews-cms-ma-risk-scores",
-                        "auto_fetched":  false,
-                        "officials":  [
-
-                                      ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "title":  "STAT News: CMS Turns to Fresher Data to Rein in Medicare Advantage Upcoding",
-                        "link_label":  "STAT News Article",
-                        "type":  "Investigative Report",
-                        "amount":  null,
-                        "description":  "CMS proposes using newer data to calculate 2027 Medicare Advantage payments, targeting suspected upcoding. STAT analysis finds people with chronic conditions are not seeing doctors as much as their health profiles suggest. CMS proposes decreasing payments for roughly two-thirds of diagnosis codes for typical MA enrollees, with specific reductions for diabetes, morbid obesity, and lung disease.",
-                        "agency":  "Media",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-                                     "Medicare Advantage",
-                                     "Upcoding",
-                                     "CMS"
-                                 ],
-                        "date":  "2026-02-09",
                         "amount_numeric":  0
                     },
                     {
@@ -4506,58 +4400,6 @@
                         "amount_numeric":  0
                     },
                     {
-                        "link":  "https://minnesotareformer.com/2026/02/25/minnesota-investigating-at-least-200-providers-for-potential-fraud-in-14-medicaid-services/",
-                        "id":  "media-2026-02-25-mn-reformer-200-providers-investigated",
-                        "auto_fetched":  false,
-                        "officials":  [
-
-                                      ],
-                        "state":  "MN",
-                        "source_type":  "news",
-                        "title":  "Minnesota Reformer: State Investigating 200+ Medicaid Providers for Potential Fraud Across 14 Services",
-                        "link_label":  "Minnesota Reformer Article",
-                        "type":  "Investigative Report",
-                        "amount":  ".5 million (deferred funds)",
-                        "description":  "Minnesota Attorney General\u0027s Office investigating at least 200 healthcare and social service providers for potential fraud across 14 Medicaid services. AG Ellison introduced the Medical Assistance Protection Act (MAP Act) to expand the Medicaid Fraud Control Unit, give new investigative authority, and strengthen state fraud laws. CMS simultaneously deferred .5M in federal Medicaid matching funds.",
-                        "agency":  "Media",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-                                     "Medicaid",
-                                     "Minnesota",
-                                     "Investigation"
-                                 ],
-                        "date":  "2026-02-25",
-                        "amount_numeric":  0
-                    },
-                    {
-                        "link":  "https://www.ag.state.mn.us/Office/Communications/2026/02/25_MedicaidFraud.asp",
-                        "id":  "media-2026-02-25-mn-ag-map-act-bill",
-                        "auto_fetched":  false,
-                        "officials":  [
-
-                                      ],
-                        "state":  "MN",
-                        "source_type":  "news",
-                        "title":  "Minnesota AG Ellison Introduces MAP Act: Bipartisan Bill Expanding Medicaid Fraud Control Unit",
-                        "link_label":  "MN AG Press Release",
-                        "type":  "Legislation",
-                        "amount":  null,
-                        "description":  "AG Keith Ellison, Rep. Norris, and Sen. Johnson Stewart introduced the Medical Assistance Protection (MAP) Act, bipartisan legislation to expand the MFCU to handle tripled fraud referrals, give investigators new authority, and strengthen state Medicaid fraud laws. Responds to the expanding Minnesota Medicaid fraud scandal involving 200+ providers across 14 services.",
-                        "agency":  "Media",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-                                     "Medicaid",
-                                     "Minnesota",
-                                     "Legislation"
-                                 ],
-                        "date":  "2026-02-25",
-                        "amount_numeric":  0
-                    },
-                    {
                         "link":  "https://www.justice.gov/opa/pr/russian-citizen-charged-laundering-over-12m-connected-400m-fraudulent-medicare-claims",
                         "id":  "media-2026-03-05-doj-russian-400m-medicare-laundering",
                         "auto_fetched":  false,
@@ -4583,32 +4425,6 @@
                                  ],
                         "date":  "2026-03-05",
                         "amount_numeric":  400000000
-                    },
-                    {
-                        "link":  "https://www.ag.state.mn.us/Office/Communications/2026/03/10_MedicaidFraud.asp",
-                        "id":  "media-2026-03-10-mn-ag-map-act-passes-committee",
-                        "auto_fetched":  false,
-                        "officials":  [
-
-                                      ],
-                        "state":  "MN",
-                        "source_type":  "news",
-                        "title":  "Minnesota AG Ellison\u0027s MAP Act Passes House Judiciary Committee",
-                        "link_label":  "MN AG Press Release",
-                        "type":  "Legislation",
-                        "amount":  null,
-                        "description":  "The Medical Assistance Protection Act (MAP Act) passed the Minnesota House Judiciary Committee. The bill expands the Medicaid Fraud Control Unit, gives investigators new authority, and strengthens state Medicaid fraud laws to combat the growing fraud scandal involving 200+ providers across 14 Medicaid services.",
-                        "agency":  "Media",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-                                     "Medicaid",
-                                     "Minnesota",
-                                     "Legislation"
-                                 ],
-                        "date":  "2026-03-10",
-                        "amount_numeric":  0
                     },
                     {
                         "link":  "https://federalnewsnetwork.com/artificial-intelligence/2026/03/cmss-two-pronged-approach-to-crushing-fraud-waste-abuse/",
@@ -4663,57 +4479,6 @@
                                  ],
                         "date":  "2026-03-12",
                         "amount_numeric":  600000000
-                    },
-                    {
-                        "link":  "https://www.healthcare-brew.com/stories/2026/03/13/minnesota-healthcare-leaders-responding-withholding-medicaid-funds",
-                        "id":  "media-2026-03-13-healthcare-brew-mn-medicaid-response",
-                        "auto_fetched":  false,
-                        "officials":  [
-
-                                      ],
-                        "state":  "MN",
-                        "source_type":  "news",
-                        "title":  "Healthcare Brew: How Minnesota Healthcare Leaders Are Responding to Federal Medicaid Funding Threats",
-                        "link_label":  "Healthcare Brew Article",
-                        "type":  "Investigative Report",
-                        "amount":  ".5 million (deferred funds)",
-                        "description":  "Coverage of Minnesota healthcare system\u0027s response to CMS deferring .5M in federal Medicaid funding. State leaders push back on federal characterization of fraud scope while acknowledging systemic vulnerabilities. Reports on the tension between federal enforcement and state-level impact on legitimate Medicaid providers and beneficiaries.",
-                        "agency":  "Media",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-                                     "Medicaid",
-                                     "Minnesota"
-                                 ],
-                        "date":  "2026-03-13",
-                        "amount_numeric":  0
-                    },
-                    {
-                        "link":  "https://thehill.com/policy/healthcare/5777186-medicare-advantage-overpayments-raise-premiums/",
-                        "id":  "media-2026-03-the-hill-ma-overpayments-premiums",
-                        "auto_fetched":  false,
-                        "officials":  [
-
-                                      ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "title":  "The Hill: Medicare Advantage Overpayments Cost Seniors Billions, Raise Part B Premiums to ",
-                        "link_label":  "The Hill Article",
-                        "type":  "Investigative Report",
-                        "amount":  " billion (2024 MA overspending)",
-                        "description":  "Investigation finds Medicare Advantage overpayments due to upcoding caused standard monthly Medicare Part B premiums to increase from  in 2025 to  in 2026. In 2024, the government overspent on MA by  billion versus traditional Medicare, mainly due to diagnosis upcoding by insurers.",
-                        "agency":  "Media",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-                                     "Medicare Advantage",
-                                     "Upcoding",
-                                     "Premiums"
-                                 ],
-                        "date":  "2026-03-14",
-                        "amount_numeric":  0
                     }
                 ]
 }
