@@ -1,6 +1,6 @@
 ﻿{
     "metadata":  {
-                     "last_updated":  "2026-03-16T11:08:28.4463734-04:00",
+                     "last_updated":  "2026-03-16T11:11:27.7999155-04:00",
                      "version":  "1.0"
                  },
     "actions":  [
@@ -4662,6 +4662,191 @@
                                      "Data Breach"
                                  ],
                         "date":  "2025-08-21",
+                        "amount_numeric":  0
+                    },
+                    {
+                        "link":  "https://www.insidethefalseclaimsact.com/false-claims-act-settlements-to-know-from-first-half-of-2025/",
+                        "id":  "media-2025-03-26-seoul-medical-62m-ma-upcoding",
+                        "auto_fetched":  false,
+                        "officials":  [
+
+                                      ],
+                        "state":  null,
+                        "source_type":  "news",
+                        "title":  "DOJ: Seoul Medical Group Pays $62M+ for Submitting Inflated Medicare Advantage Spinal Diagnoses",
+                        "link_label":  "Inside the FCA Article",
+                        "type":  "Investigative Report",
+                        "amount":  "$62 million",
+                        "description":  "Seoul Medical Group and related parties agreed to pay over $62 million to resolve False Claims Act allegations that they fraudulently inflated Medicare Advantage reimbursements by submitting claims with false severe spinal condition diagnosis codes for patients who did not have those conditions. One of the largest MA upcoding settlements of 2025.",
+                        "agency":  "Media",
+                        "social_posts":  [
+
+                                         ],
+                        "tags":  [
+                                     "Medicare Advantage",
+                                     "Upcoding",
+                                     "False Claims Act"
+                                 ],
+                        "date":  "2025-03-26",
+                        "amount_numeric":  0
+                    },
+                    {
+                        "link":  "https://www.insidethefalseclaimsact.com/false-claims-act-settlements-to-know-from-first-half-of-2025/",
+                        "id":  "media-2025-04-21-walgreens-300m-opioid-settlement",
+                        "auto_fetched":  false,
+                        "officials":  [
+
+                                      ],
+                        "state":  null,
+                        "source_type":  "news",
+                        "title":  "DOJ: Walgreens Agrees to Pay Up to $350M for Illegally Filling Opioid Prescriptions and False Medicare Claims",
+                        "link_label":  "Inside the FCA Article",
+                        "type":  "Investigative Report",
+                        "amount":  "$300-350 million",
+                        "description":  "Walgreens and subsidiaries agreed to pay $300 million (plus contingent future payments up to $350M) to resolve False Claims Act allegations that they illegally filled invalid opioid and controlled substance prescriptions and sought federal reimbursement from Medicare and other programs. One of the largest pharmacy fraud settlements ever.",
+                        "agency":  "Media",
+                        "social_posts":  [
+
+                                         ],
+                        "tags":  [
+                                     "Medicare",
+                                     "Opioid",
+                                     "Pharmacy Fraud",
+                                     "False Claims Act"
+                                 ],
+                        "date":  "2025-04-21",
+                        "amount_numeric":  350000000
+                    },
+                    {
+                        "link":  "https://www.insidethefalseclaimsact.com/false-claims-act-settlements-to-know-from-first-half-of-2025/",
+                        "id":  "media-2025-04-29-gilead-202m-hiv-kickbacks",
+                        "auto_fetched":  false,
+                        "officials":  [
+
+                                      ],
+                        "state":  null,
+                        "source_type":  "news",
+                        "title":  "DOJ: Gilead Sciences Pays $202M for Kickbacks to Physicians via Speaker Fees to Push HIV Drugs",
+                        "link_label":  "Inside the FCA Article",
+                        "type":  "Investigative Report",
+                        "amount":  "$202 million",
+                        "description":  "Gilead Sciences agreed to pay $202 million to resolve False Claims Act allegations that it funneled illegal kickbacks through speaker fees, meals, and travel to physicians to induce them to prescribe its HIV medications, including drugs reimbursed by Medicare and Medicaid. The speaker programs served as vehicles for improper inducements.",
+                        "agency":  "Media",
+                        "social_posts":  [
+
+                                         ],
+                        "tags":  [
+                                     "Medicare",
+                                     "Kickback",
+                                     "Pharmaceutical",
+                                     "False Claims Act"
+                                 ],
+                        "date":  "2025-04-29",
+                        "amount_numeric":  202000000
+                    },
+                    {
+                        "link":  "https://www.insidethefalseclaimsact.com/false-claims-act-settlements-to-know-from-first-half-of-2025/",
+                        "id":  "media-2025-05-07-fresno-31m-kickback-settlement",
+                        "auto_fetched":  false,
+                        "officials":  [
+
+                                      ],
+                        "state":  "CA",
+                        "source_type":  "news",
+                        "title":  "DOJ: Fresno Health System Pays $31.5M for Kickbacks to Referring Physicians via Meals, Alcohol, Cigars",
+                        "link_label":  "Inside the FCA Article",
+                        "type":  "Investigative Report",
+                        "amount":  "$31.5 million",
+                        "description":  "A Fresno-based health system and affiliate agreed to pay $31.5 million to settle allegations that they provided expensive meals, alcohol, cigars, and EHR subsidies to referring physicians in violation of the Anti-Kickback Statute and Stark Law, then billed Medicare for the resulting referrals.",
+                        "agency":  "Media",
+                        "social_posts":  [
+
+                                         ],
+                        "tags":  [
+                                     "Medicare",
+                                     "Kickback",
+                                     "Stark Law"
+                                 ],
+                        "date":  "2025-05-07",
+                        "amount_numeric":  31500000
+                    },
+                    {
+                        "link":  "https://www.justice.gov/opa/pr/two-charged-227-million-medicare-fraud-scheme",
+                        "id":  "media-2025-05-22-doj-227m-covid-test-kits",
+                        "auto_fetched":  false,
+                        "officials":  [
+
+                                      ],
+                        "state":  "IL",
+                        "source_type":  "official",
+                        "title":  "DOJ: Two Charged in $227M Medicare Fraud Scheme Using Fake COVID-19 Test Kit Labs",
+                        "link_label":  "DOJ Press Release",
+                        "type":  "Investigative Report",
+                        "amount":  "$227 million (claims); $136 million (paid)",
+                        "description":  "Syed Murtuza Kablazada, 34, and Syed Mehdi Hussain, 32, of Illinois, charged with operating purported medical laboratories that submitted $227M in fraudulent Medicare claims for over-the-counter COVID-19 test kits. Used foreign nationals as nominee owners. Paid marketers for names of hundreds of thousands of Medicare beneficiaries, including deceased individuals. Medicare paid approximately $136M.",
+                        "agency":  "Media",
+                        "social_posts":  [
+
+                                         ],
+                        "tags":  [
+                                     "Medicare",
+                                     "COVID-19",
+                                     "Laboratory Fraud"
+                                 ],
+                        "date":  "2025-05-22",
+                        "amount_numeric":  227000000
+                    },
+                    {
+                        "link":  "https://www.justice.gov/opa/pr/four-california-residents-sentenced-prison-connection-16m-hospice-fraud-and-money-laundering",
+                        "id":  "media-2025-05-ca-hospice-armenian-crime-ring",
+                        "auto_fetched":  false,
+                        "officials":  [
+
+                                      ],
+                        "state":  "CA",
+                        "source_type":  "official",
+                        "title":  "DOJ Health Care Fraud Strike Force Dismantles Five LA Hospices Linked to Armenian Organized Crime",
+                        "link_label":  "DOJ Press Release",
+                        "type":  "Investigative Report",
+                        "amount":  null,
+                        "description":  "The Health Care Fraud Strike Force announced multiple arrests following a multi-year investigation into Armenian Organized Crime networks operating sham hospices in greater Los Angeles. Five hospice companies were dismantled. The networks enrolled patients who were not terminally ill, paid kickbacks to recruiters, and billed Medicare for services never provided. Part of a broader pattern of organized crime infiltrating the hospice industry in LA County.",
+                        "agency":  "Media",
+                        "social_posts":  [
+
+                                         ],
+                        "tags":  [
+                                     "Hospice Fraud",
+                                     "Medicare",
+                                     "Organized Crime",
+                                     "California"
+                                 ],
+                        "date":  "2025-05-15",
+                        "amount_numeric":  0
+                    },
+                    {
+                        "link":  "https://ag.ny.gov/press-release/2025/attorney-general-james-secures-prison-sentence-serial-health-care-fraudster",
+                        "id":  "media-2025-04-ny-ag-serial-fraudster-sentenced",
+                        "auto_fetched":  false,
+                        "officials":  [
+
+                                      ],
+                        "state":  "NY",
+                        "source_type":  "news",
+                        "title":  "NY AG James: Serial Health Care Fraudster Imran Shams Sentenced to Up to 25 Years for Millions in Medicaid Fraud",
+                        "link_label":  "NY AG Press Release",
+                        "type":  "Investigative Report",
+                        "amount":  null,
+                        "description":  "NY Attorney General Letitia James secured sentencing of Imran Shams, 66, of California, to 8.33 to 25 years in state prison for running a scheme that wrongfully billed Medicaid millions of dollars for fraudulent medical testing services. Shams was described as a serial health care fraudster with prior convictions.",
+                        "agency":  "Media",
+                        "social_posts":  [
+
+                                         ],
+                        "tags":  [
+                                     "Medicaid",
+                                     "Laboratory Fraud",
+                                     "Serial Fraudster"
+                                 ],
+                        "date":  "2025-04-15",
                         "amount_numeric":  0
                     }
                 ]
