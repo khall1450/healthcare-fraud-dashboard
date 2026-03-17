@@ -134,8 +134,11 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
 .tag-pill:hover { background: rgba(0,46,109,0.12); border-color: rgba(0,46,109,0.3); }
 .tag-pill.entity-pill { background: rgba(156,39,176,0.07); color: #7b1fa2; border-color: rgba(156,39,176,0.25); }
 .tag-pill.entity-pill:hover { background: rgba(156,39,176,0.15); border-color: rgba(156,39,176,0.4); }
+.tag-pill.program-pill { background: rgba(0,128,0,0.06); color: #2e7d32; border-color: rgba(0,128,0,0.2); }
+.tag-pill.program-pill:hover { background: rgba(0,128,0,0.14); border-color: rgba(0,128,0,0.35); }
 .tag-pill.active-tag { background: var(--paragon-blue); color: white; border-color: var(--paragon-blue); }
 .tag-pill.entity-pill.active-tag { background: #7b1fa2; color: white; border-color: #7b1fa2; }
+.tag-pill.program-pill.active-tag { background: #2e7d32; color: white; border-color: #2e7d32; }
 .card-tags { display: flex; flex-wrap: wrap; gap: 5px; }
 .tag-pill { font-size: 0.67rem; padding: 2px 8px; background: rgba(0,46,109,0.05); border-radius: var(--radius); color: var(--paragon-blue); border: 1px solid rgba(0,46,109,0.15); font-weight: 500; }
 .card-social { background: rgba(0,166,207,0.04); border: 1px solid rgba(0,166,207,0.2); border-radius: var(--radius); padding: 10px 12px; font-size: 0.8rem; }
@@ -3029,10 +3032,13 @@ function renderCards(actions) {
     }
     const tagsEl = col.querySelector('.card-tags');
     const entities = new Set(action.entities || []);
+    const PROGRAMS = new Set(['Medicare','Medicaid','Medicare Advantage','ACA','ACA Fraud','TRICARE','Medi-Cal']);
     const allTags = (action.entities || []).concat(action.tags || []);
     allTags.forEach(tag => {
       const pill = document.createElement('span');
-      pill.className = entities.has(tag) ? 'tag-pill entity-pill' : 'tag-pill';
+      pill.className = 'tag-pill';
+      if (entities.has(tag)) pill.classList.add('entity-pill');
+      else if (PROGRAMS.has(tag)) pill.classList.add('program-pill');
       if (activeTag && tag === activeTag) pill.classList.add('active-tag');
       pill.textContent = tag;
       pill.addEventListener('click', () => toggleTagFilter(tag));
