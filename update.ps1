@@ -173,6 +173,7 @@ if ($added -gt 0) {
     Write-Log "No new actions found." Cyan
 }
 
+# Save JSON (Python fix_encoding.py handles mojibake cleanup after this)
 $data | ConvertTo-Json -Depth 10 | Set-Content $DataFile -Encoding UTF8
 Write-Log "Saved." Green
 Write-Output "ADDED:$added"
