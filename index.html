@@ -613,12 +613,36 @@ function showToast(msg, type) {
 
 // â”€â”€ Stat detail popup â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 const STAT_FILTERS = {
-  audit:     { fn: a => a.type === 'Audit',                                                                               label: 'Total Improper Payments Identified — All Agency Audits' },
-  criminal:  { fn: a => a.type === 'Criminal Enforcement',                                                                label: 'Fraud Alleged — Criminal Cases' },
-  convicted: { fn: a => a.type === 'Criminal Enforcement' && (a.amount_numeric || 0) > 0 && CONVICTED_RE.test(a.title),  label: 'Total Fraud Confirmed — Pleas & Convictions' },
-  civil:     { fn: a => a.type === 'Civil Action',                                                                        label: 'Civil Settlements & Recoveries' },
-  largest:   { fn: (a, all) => { const max = all.filter(x => x.type === 'Criminal Enforcement' && (x.amount_numeric||0) > 0).reduce((m,x) => x.amount_numeric > m.amount_numeric ? x : m, {amount_numeric:0}); return a === max; }, label: 'Largest Single Enforcement Action' },
-  cms:       { fn: a => a.agency === 'CMS' && a.type === 'Administrative Action',                                         label: 'CMS Program Integrity — Improper Payments Identified or Prevented' },
+  audit: {
+    fn: a => a.type === 'Audit',
+    label: 'Total Improper Payments Identified — All Agency Audits',
+    desc: 'Sum of dollar amounts from all entries classified as "Audit" — includes HHS-OIG audits, CMS improper payment reports, and GAO findings. Amounts represent improper payments identified or funds at risk, not necessarily fraud. OIG semiannual report totals are zeroed to avoid double-counting with individual audits and the CMS FY2025 improper payments total.'
+  },
+  criminal: {
+    fn: a => a.type === 'Criminal Enforcement',
+    label: 'Fraud Alleged — Criminal Cases',
+    desc: 'Sum of dollar amounts from all criminal enforcement actions — includes indictments, charges, arrests, convictions, and sentencings. Amounts represent alleged fraud (what was charged or billed), not necessarily what was paid or recovered. Sub-cases of the June 2025 National Takedown ($14.6B) are zeroed to avoid double-counting with the aggregate takedown entry.'
+  },
+  convicted: {
+    fn: a => a.type === 'Criminal Enforcement' && (a.amount_numeric || 0) > 0 && CONVICTED_RE.test(a.title),
+    label: 'Total Fraud Confirmed — Pleas & Convictions',
+    desc: 'Subset of criminal cases where the title contains "plead," "guilty," "convicted," or "sentenced" — indicating the case reached a resolution rather than just an indictment or charge. Amounts represent confirmed fraud from cases with guilty pleas, jury convictions, or sentencings.'
+  },
+  civil: {
+    fn: a => a.type === 'Civil Action',
+    label: 'Civil Settlements & Recoveries',
+    desc: 'Sum of dollar amounts from False Claims Act settlements, civil penalties, and qui tam recoveries. The DOJ FY2025 FCA aggregate ($5.7B healthcare) is included; individual FY2025 civil cases are counted separately only if dated in FY2026 (Oct 2025+) to avoid double-counting with the annual total.'
+  },
+  largest: {
+    fn: (a, all) => { const max = all.filter(x => x.type === 'Criminal Enforcement' && (x.amount_numeric||0) > 0).reduce((m,x) => x.amount_numeric > m.amount_numeric ? x : m, {amount_numeric:0}); return a === max; },
+    label: 'Largest Single Enforcement Action',
+    desc: 'The single criminal enforcement entry with the highest dollar amount. Currently the June 2025 National Health Care Fraud Takedown ($14.6B in intended losses across 324 defendants).'
+  },
+  cms: {
+    fn: a => a.agency === 'CMS' && a.type === 'Administrative Action',
+    label: 'CMS Program Integrity — Improper Payments Identified or Prevented',
+    desc: 'Sum of dollar amounts from CMS administrative actions — includes payment deferrals, enrollment moratoria, withheld funds, and program integrity savings (e.g., duplicate enrollment identification). These are CMS-initiated actions distinct from DOJ prosecutions or OIG audits.'
+  },
 };
 
 function showStatDetail(filterId) {
@@ -627,11 +651,14 @@ function showStatDetail(filterId) {
   const entries = allActions.filter(a => def.fn(a, allActions)).sort((a, b) => (b.date||'').localeCompare(a.date||''));
   document.getElementById('statModalTitle').textContent = def.label;
   const body = document.getElementById('statModalBody');
+  const methodology = def.desc
+    ? '<div style="background:#f8f9fa;border-left:3px solid #002E6D;padding:10px 14px;margin-bottom:14px;font-size:0.8rem;color:#555;line-height:1.55;border-radius:0 4px 4px 0;"><strong style="color:#002E6D;">Methodology:</strong> ' + escHtml(def.desc) + '</div>'
+    : '';
   if (entries.length === 0) {
-    body.innerHTML = '<p class="text-muted py-3">No entries currently match this calculation.</p>';
+    body.innerHTML = methodology + '<p class="text-muted py-3">No entries currently match this calculation.</p>';
   } else {
     const total = entries.reduce((s, a) => s + (a.amount_numeric || 0), 0);
-    body.innerHTML =
+    body.innerHTML = methodology +
       (total > 0
         ? '<div style="font-size:0.8rem;color:#666;margin-bottom:12px;">' + entries.length + ' entr' + (entries.length===1?'y':'ies') + ' &bull; Total: <strong>' + formatMoney(total) + '</strong></div>'
         : '<div style="font-size:0.8rem;color:#666;margin-bottom:12px;">' + entries.length + ' entr' + (entries.length===1?'y':'ies') + '</div>') +
