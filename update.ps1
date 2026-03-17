@@ -25,16 +25,23 @@ $HealthcareTerms = @(
 )
 
 $Feeds = @(
-    @{ Name = 'DOJ';     Agency = 'DOJ';     Url = 'https://www.justice.gov/news/rss';                       Enabled = $true },
-    @{ Name = 'HHS-OIG'; Agency = 'HHS-OIG'; Url = 'https://oig.hhs.gov/rss/oig-rss.xml';                   Enabled = $true },
-    @{ Name = 'CMS';     Agency = 'CMS';     Url = 'https://www.cms.gov/newsroom/rss/press-releases';        Enabled = $true },
-    @{ Name = 'HHS';     Agency = 'HHS';     Url = 'https://www.hhs.gov/rss/news.xml';                       Enabled = $true },
-    @{ Name = 'DOJ-USAO';Agency = 'DOJ';     Url = 'https://www.justice.gov/usao/pressreleases/rss';         Enabled = $true },
-    @{ Name = 'GAO';     Agency = 'GAO';     Url = 'https://www.gao.gov/rss/reports.xml';                    Enabled = $true },
-    @{ Name = 'H-Oversight'; Agency = 'Congress'; Url = 'https://oversight.house.gov/feed/';                  Enabled = $true },
-    @{ Name = 'H-E&C';      Agency = 'Congress'; Url = 'https://energycommerce.house.gov/feed/';             Enabled = $true },
-    @{ Name = 'S-Finance';   Agency = 'Congress'; Url = 'https://www.finance.senate.gov/rss/feeds/?type=press'; Enabled = $true },
-    @{ Name = 'S-HELP';      Agency = 'Congress'; Url = 'https://www.help.senate.gov/rss/feeds/?type=press';   Enabled = $true }
+    # --- Official agency feeds ---
+    @{ Name = 'DOJ';     Agency = 'DOJ';     Url = 'https://www.justice.gov/news/rss';                       Enabled = $true; SourceType = 'official' },
+    @{ Name = 'HHS-OIG'; Agency = 'HHS-OIG'; Url = 'https://oig.hhs.gov/rss/oig-rss.xml';                   Enabled = $true; SourceType = 'official' },
+    @{ Name = 'CMS';     Agency = 'CMS';     Url = 'https://www.cms.gov/newsroom/rss/press-releases';        Enabled = $true; SourceType = 'official' },
+    @{ Name = 'HHS';     Agency = 'HHS';     Url = 'https://www.hhs.gov/rss/news.xml';                       Enabled = $true; SourceType = 'official' },
+    @{ Name = 'DOJ-USAO';Agency = 'DOJ';     Url = 'https://www.justice.gov/usao/pressreleases/rss';         Enabled = $true; SourceType = 'official' },
+    @{ Name = 'GAO';     Agency = 'GAO';     Url = 'https://www.gao.gov/rss/reports.xml';                    Enabled = $true; SourceType = 'official' },
+    @{ Name = 'H-Oversight'; Agency = 'Congress'; Url = 'https://oversight.house.gov/feed/';                  Enabled = $true; SourceType = 'official' },
+    @{ Name = 'H-E&C';      Agency = 'Congress'; Url = 'https://energycommerce.house.gov/feed/';             Enabled = $true; SourceType = 'official' },
+    @{ Name = 'S-Finance';   Agency = 'Congress'; Url = 'https://www.finance.senate.gov/rss/feeds/?type=press'; Enabled = $true; SourceType = 'official' },
+    @{ Name = 'S-HELP';      Agency = 'Congress'; Url = 'https://www.help.senate.gov/rss/feeds/?type=press';   Enabled = $true; SourceType = 'official' },
+    # --- Media / investigative feeds ---
+    @{ Name = 'Hospice News';       Agency = 'Media'; Url = 'https://hospicenews.com/feed/';                          Enabled = $true; SourceType = 'news' },
+    @{ Name = 'Home Health Care News'; Agency = 'Media'; Url = 'https://homehealthcarenews.com/feed/';                Enabled = $true; SourceType = 'news' },
+    @{ Name = 'KFF Health News';    Agency = 'Media'; Url = 'https://kffhealthnews.org/feed/';                        Enabled = $true; SourceType = 'news' },
+    @{ Name = 'Fierce Healthcare';  Agency = 'Media'; Url = 'https://www.fiercehealthcare.com/rss/xml';               Enabled = $true; SourceType = 'news' },
+    @{ Name = 'ProPublica';         Agency = 'Media'; Url = 'https://www.propublica.org/feeds/propublica/main';        Enabled = $true; SourceType = 'news' }
 )
 
 function Write-Log { param([string]$Msg, [string]$Color = 'White'); if (-not $Silent) { Write-Host "  $Msg" -ForegroundColor $Color } }
@@ -105,8 +112,11 @@ foreach ($feed in ($Feeds | Where-Object { $_.Enabled })) {
             $descClean = $desc -replace '<[^>]+>', '' -replace '&amp;','&' -replace '&lt;','<' -replace '&gt;','>' -replace '&nbsp;',' '
             $descClean = $descClean.Trim()
 
-            if (-not (Test-AnyKeyword "$title $descClean")) { continue }
-            if (-not (Test-HealthcareContext "$title $descClean")) { continue }
+            $searchText = "$title $descClean"
+            if (-not (Test-AnyKeyword $searchText)) { continue }
+            if (-not (Test-HealthcareContext $searchText)) { continue }
+            # Media feeds require fraud keyword in TITLE (not just description) to reduce noise
+            if ($feed.SourceType -eq 'news' -and -not (Test-AnyKeyword $title)) { continue }
             if ($link -and $existingLinks.ContainsKey($link)) { continue }
 
             $dateStr = try { [DateTime]::Parse($pubDate).ToString('yyyy-MM-dd') } catch { (Get-Date).ToString('yyyy-MM-dd') }
@@ -114,22 +124,31 @@ foreach ($feed in ($Feeds | Where-Object { $_.Enabled })) {
             $stateAbb = Get-StateName "$title $descClean"
             $atype    = Get-ActionType $title $descClean
 
+            $isMedia    = $feed.SourceType -eq 'news'
+            $idPrefix   = $isMedia ? 'media' : ($feed.Agency.ToLower() -replace '\W','-')
+            $linkLabel  = $isMedia ? "$($feed.Name) Report" : "$($feed.Name) Press Release"
+            $actionType = $isMedia ? 'Investigative Report' : $atype
+            $descOut    = ($descClean.Length -gt 600) ? ($descClean.Substring(0,600) + '…') : $descClean
+            $amtDisp    = $amtInfo ? $amtInfo.display : $null
+            $amtNum     = $amtInfo ? $amtInfo.numeric : 0
+
             $newActions.Add([PSCustomObject]@{
-                id             = New-ActionId $feed.Agency $dateStr $link
+                id             = "$idPrefix-$dateStr-$([System.Math]::Abs(($link ?? $dateStr + $feed.Agency).GetHashCode()))"
                 date           = $dateStr
                 agency         = $feed.Agency
-                type           = $atype
+                type           = $actionType
                 title          = ($title -replace '\s+', ' ').Trim()
-                description    = if ($descClean.Length -gt 600) { $descClean.Substring(0,600) + '…' } else { $descClean }
-                amount         = if ($amtInfo) { $amtInfo.display } else { $null }
-                amount_numeric = if ($amtInfo) { $amtInfo.numeric } else { 0 }
+                description    = $descOut
+                amount         = $amtDisp
+                amount_numeric = $amtNum
                 officials      = @()
                 link           = $link
-                link_label     = "$($feed.Name) Press Release"
+                link_label     = $linkLabel
                 social_posts   = @()
                 tags           = @()
+                entities       = @()
                 state          = $stateAbb
-                source_type    = 'official'
+                source_type    = $feed.SourceType
                 auto_fetched   = $true
             })
             if ($link) { $existingLinks[$link] = $true }
