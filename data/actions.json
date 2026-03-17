@@ -3900,6 +3900,31 @@
       "state": null,
       "source_type": "official",
       "auto_fetched": true
+    },
+    {
+      "id": "media-2026-03-14-iowa-nucara-pharmacy-22m",
+      "date": "2026-03-14",
+      "agency": "Media",
+      "type": "Investigative Report",
+      "title": "Iowa HHS Sues NuCara Pharmacy for Keeping $22M+ in 340B Drug Program Funds Owed to State",
+      "description": "Iowa Department of Health and Human Services filed a lawsuit against NuCara Specialty Pharmacy in Pleasant Hill, IA, alleging the pharmacy kept more than $22 million in past-due program income from the federal 340B Drug Pricing Program. Under a state contract, NuCara purchased HIV medications at reduced 340B prices, collected full insurance reimbursements, and was required to return the profit (minus a $75 processing fee per claim) to the state monthly. The lawsuit alleges payments stopped 8 months ago and NuCara used the funds to pay other creditors.",
+      "amount": "$22 million",
+      "amount_numeric": 22000000,
+      "officials": [],
+      "link": "https://who13.com/news/pleasant-hill-pharmacy-accused-of-keeping-millions-meant-for-state/",
+      "link_label": "WHO 13 News Report",
+      "social_posts": [],
+      "tags": [
+        "Medicaid",
+        "Pharmacy Fraud",
+        "340B Program"
+      ],
+      "entities": [
+        "NuCara Pharmacy"
+      ],
+      "state": "IA",
+      "source_type": "news",
+      "auto_fetched": false
     }
   ]
 }

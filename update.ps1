@@ -41,7 +41,8 @@ $Feeds = @(
     @{ Name = 'Home Health Care News'; Agency = 'Media'; Url = 'https://homehealthcarenews.com/feed/';                Enabled = $true; SourceType = 'news' },
     @{ Name = 'KFF Health News';    Agency = 'Media'; Url = 'https://kffhealthnews.org/feed/';                        Enabled = $true; SourceType = 'news' },
     @{ Name = 'Fierce Healthcare';  Agency = 'Media'; Url = 'https://www.fiercehealthcare.com/rss/xml';               Enabled = $true; SourceType = 'news' },
-    @{ Name = 'ProPublica';         Agency = 'Media'; Url = 'https://www.propublica.org/feeds/propublica/main';        Enabled = $true; SourceType = 'news' }
+    @{ Name = 'ProPublica';         Agency = 'Media'; Url = 'https://www.propublica.org/feeds/propublica/main';        Enabled = $true; SourceType = 'news' },
+    @{ Name = 'Google News';        Agency = 'Media'; Url = 'https://news.google.com/rss/search?q=%22healthcare+fraud%22+OR+%22medicare+fraud%22+OR+%22medicaid+fraud%22&hl=en-US&gl=US&ceid=US:en'; Enabled = $true; SourceType = 'news' }
 )
 
 function Write-Log { param([string]$Msg, [string]$Color = 'White'); if (-not $Silent) { Write-Host "  $Msg" -ForegroundColor $Color } }
