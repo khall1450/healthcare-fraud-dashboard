@@ -292,7 +292,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
   <div class="container-fluid px-4">
     <div class="d-flex flex-wrap justify-content-between align-items-center py-3">
       <p class="mb-0 text-muted small" style="color:rgba(255,255,255,0.5)!important">Data sourced from DOJ, HHS, CMS, and HHS-OIG press releases and public statements.</p>
-      <p class="mb-0 text-muted small" style="color:rgba(255,255,255,0.5)!important">Local dashboard &bull; Not for public distribution &bull; Generated: 2026-03-09T10:31:46.0387586-04:00</p>
+      <p class="mb-0 text-muted small" style="color:rgba(255,255,255,0.5)!important">Updates daily from official agency RSS feeds &bull; <span id="footerUpdated"></span></p>
     </div>
   </div>
 </footer>
@@ -2951,7 +2951,10 @@ function updateLastUpdated(ts) {
   if (!ts) return;
   try {
     const d = new Date(ts);
-    document.getElementById('lastUpdated').innerHTML = '<i class="fa-regular fa-clock me-1"></i> Updated: ' + d.toLocaleDateString('en-US',{year:'numeric',month:'short',day:'numeric'});
+    const fmt = d.toLocaleDateString('en-US',{year:'numeric',month:'short',day:'numeric'});
+    document.getElementById('lastUpdated').innerHTML = '<i class="fa-regular fa-clock me-1"></i> Updated: ' + fmt;
+    const footer = document.getElementById('footerUpdated');
+    if (footer) footer.textContent = 'Last updated: ' + fmt;
   } catch(e) {}
 }
 
