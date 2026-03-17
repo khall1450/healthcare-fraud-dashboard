@@ -195,10 +195,9 @@
       "link_label": "White House Fact Sheet",
       "social_posts": [],
       "tags": [
-        "Minnesota",
         "National Fraud Division"
       ],
-      "state": null,
+      "state": "MN",
       "source_type": "official",
       "auto_fetched": false
     },
@@ -226,8 +225,7 @@
         }
       ],
       "tags": [
-        "Medicaid",
-        "Minnesota"
+        "Medicaid"
       ],
       "state": "MN",
       "source_type": "official",
@@ -258,7 +256,6 @@
         }
       ],
       "tags": [
-        "Minnesota",
         "Medicaid"
       ],
       "state": "MN",
@@ -297,7 +294,6 @@
         }
       ],
       "tags": [
-        "California",
         "Hospice Fraud",
         "Home Health Fraud"
       ],
@@ -315,7 +311,8 @@
       "amount": null,
       "amount_numeric": 0,
       "officials": [
-        "Dr. Mehmet Oz (CMS Administrator)"
+        "Dr. Mehmet Oz (CMS Administrator)",
+        "Gov. Gavin Newsom (CA)"
       ],
       "link": "https://homehealthcarenews.com/2026/01/dr-oz-demands-action-to-root-out-in-home-care-fraud-in-california/",
       "link_label": "Home Health Care News",
@@ -329,10 +326,8 @@
         }
       ],
       "tags": [
-        "California",
         "Hospice Fraud",
-        "Home Health Fraud",
-        "Newsom"
+        "Home Health Fraud"
       ],
       "state": "CA",
       "source_type": "social_media",
@@ -362,10 +357,9 @@
         }
       ],
       "tags": [
-        "Hospice Fraud",
-        "California"
+        "Hospice Fraud"
       ],
-      "state": null,
+      "state": "CA",
       "source_type": "social_media",
       "auto_fetched": false
     },
@@ -385,9 +379,7 @@
       "link_label": "CBS News Report",
       "social_posts": [],
       "tags": [
-        "California",
-        "Task Force",
-        "Vance"
+        "Task Force"
       ],
       "state": "CA",
       "source_type": "news",
@@ -480,7 +472,6 @@
         }
       ],
       "tags": [
-        "California",
         "Medicaid",
         "Immigration"
       ],
@@ -512,7 +503,6 @@
         }
       ],
       "tags": [
-        "California",
         "Medicaid",
         "Immigration"
       ],
@@ -566,8 +556,7 @@
         "DME Fraud",
         "Medicare",
         "Telehealth",
-        "Kickbacks",
-        "Arizona"
+        "Kickbacks"
       ],
       "state": "AZ",
       "source_type": "official",
@@ -589,7 +578,6 @@
       "tags": [
         "Addiction Treatment",
         "Medicaid",
-        "Arizona",
         "Foreign Nationals",
         "Organized Crime",
         "Kickbacks",
@@ -637,7 +625,6 @@
       "tags": [
         "DME Fraud",
         "Medicare",
-        "Florida",
         "Kickbacks"
       ],
       "state": "FL",
@@ -730,7 +717,6 @@
       "tags": [
         "Medicare Advantage",
         "AI",
-        "North Carolina",
         "Identity Theft",
         "ACA Fraud"
       ],
@@ -756,7 +742,6 @@
       "social_posts": [],
       "tags": [
         "Strike Force",
-        "Massachusetts",
         "Life Sciences",
         "Pharmaceutical"
       ],
@@ -783,8 +768,7 @@
         "False Claims Act",
         "Medicare",
         "Medicaid",
-        "TRICARE",
-        "Texas"
+        "TRICARE"
       ],
       "state": "TX",
       "source_type": "official",
@@ -806,8 +790,7 @@
       "tags": [
         "Genetic Testing",
         "Kickbacks",
-        "Medicare",
-        "New York"
+        "Medicare"
       ],
       "state": "NY",
       "source_type": "official",
@@ -828,7 +811,6 @@
       "social_posts": [],
       "tags": [
         "Hospice Fraud",
-        "California",
         "Money Laundering",
         "Medicare",
         "Identity Theft"
@@ -854,7 +836,6 @@
         "Telehealth",
         "Adderall",
         "Opioids",
-        "California",
         "Digital Health"
       ],
       "state": "CA",
@@ -878,10 +859,7 @@
         "Nursing Home",
         "Medicaid",
         "Medicare",
-        "Fraud Diversion",
-        "New Jersey",
-        "Wisconsin",
-        "Michigan"
+        "Fraud Diversion"
       ],
       "state": "NJ",
       "source_type": "official",
@@ -923,7 +901,6 @@
       "social_posts": [],
       "tags": [
         "Hospice Fraud",
-        "California",
         "Medicare",
         "Money Laundering"
       ],
@@ -951,7 +928,6 @@
       "tags": [
         "Research Fraud",
         "False Claims Act",
-        "Massachusetts",
         "Whistleblower"
       ],
       "state": "MA",
@@ -976,8 +952,7 @@
         "Humana",
         "Upcoding",
         "Risk Adjustment",
-        "Improper Payments",
-        "Louisiana"
+        "Improper Payments"
       ],
       "state": "LA",
       "source_type": "official",
@@ -999,7 +974,6 @@
       "tags": [
         "Medicaid",
         "Improper Payments",
-        "Illinois",
         "Managed Care"
       ],
       "state": "IL",
@@ -1022,7 +996,6 @@
       "tags": [
         "DME Fraud",
         "Medicare",
-        "Arizona",
         "Telehealth"
       ],
       "state": "AZ",
@@ -1068,7 +1041,6 @@
       "tags": [
         "Genetic Testing",
         "Kickbacks",
-        "Georgia",
         "Medicare"
       ],
       "state": "GA",
@@ -1096,9 +1068,6 @@
         "Lab Fraud",
         "Kickbacks",
         "False Claims Act",
-        "Virginia",
-        "Texas",
-        "Arkansas",
         "Anti-Kickback"
       ],
       "state": "VA",
@@ -1246,8 +1215,6 @@
         "Kaiser Permanente",
         "Upcoding",
         "False Claims Act",
-        "California",
-        "Colorado",
         "Risk Adjustment"
       ],
       "state": "CA",
@@ -1272,7 +1239,6 @@
       "social_posts": [],
       "tags": [
         "Kickbacks",
-        "Florida",
         "Medicare",
         "Medicaid",
         "False Claims Act"
@@ -1295,7 +1261,6 @@
       "link_label": "DOJ Press Release",
       "social_posts": [],
       "tags": [
-        "Massachusetts",
         "Tax Evasion",
         "Money Laundering"
       ],
@@ -1348,7 +1313,6 @@
         "Pharmacy Fraud",
         "Medicare",
         "Medicaid",
-        "New York",
         "Kickbacks"
       ],
       "state": "NY",
@@ -1376,8 +1340,6 @@
       "tags": [
         "ACA",
         "ACA Fraud",
-        "Florida",
-        "Texas",
         "Subsidies",
         "Homeless"
       ],
@@ -1402,8 +1364,6 @@
         "Genetic Testing",
         "Lab Fraud",
         "Medicare",
-        "Texas",
-        "NFL",
         "Kickbacks"
       ],
       "state": "TX",
@@ -1428,7 +1388,6 @@
       "tags": [
         "Workers Compensation",
         "DOL",
-        "Texas",
         "Kickbacks",
         "Pharmaceutical"
       ],
@@ -1456,8 +1415,7 @@
         "Hospital Fraud",
         "Anti-Kickback",
         "Stark Law",
-        "False Claims Act",
-        "Arizona"
+        "False Claims Act"
       ],
       "state": "AZ",
       "source_type": "official",
@@ -1481,14 +1439,10 @@
       "link_label": "CMS Press Release",
       "social_posts": [],
       "tags": [
-        "Minnesota",
         "Medicaid",
         "DME Fraud",
         "CRUSH",
-        "White House",
-        "Oz",
-        "RFK Jr.",
-        "Vance"
+        "White House"
       ],
       "state": "MN",
       "source_type": "official",
@@ -1513,8 +1467,6 @@
       "tags": [
         "Kickbacks",
         "False Claims Act",
-        "Georgia",
-        "Arkansas",
         "Unnecessary Procedures"
       ],
       "state": "GA",
@@ -1539,8 +1491,7 @@
       "tags": [
         "CRUSH",
         "AI",
-        "DME Fraud",
-        "Dr. Oz"
+        "DME Fraud"
       ],
       "state": null,
       "source_type": "official",
@@ -1556,18 +1507,16 @@
       "amount": null,
       "amount_numeric": 0,
       "officials": [
-        "Dr. Mehmet Oz (CMS Administrator)"
+        "Dr. Mehmet Oz (CMS Administrator)",
+        "Gov. Kathy Hochul (NY)"
       ],
       "link": "https://www.washingtontimes.com/news/2026/mar/3/dr-mehmet-oz-launches-investigation-new-yorks-medicaid-program/",
       "link_label": "Washington Times Report",
       "social_posts": [],
       "tags": [
-        "New York",
         "Medicaid",
-        "Dr. Oz",
         "Home Health Fraud",
-        "Adult Day Care",
-        "Hochul"
+        "Adult Day Care"
       ],
       "state": "NY",
       "source_type": "news",
@@ -1590,7 +1539,6 @@
         "Medicare Advantage",
         "Upcoding",
         "Independent Health",
-        "New York",
         "False Claims Act",
         "Risk Adjustment"
       ],
@@ -1664,8 +1612,7 @@
         "Wound Care",
         "Hospice Fraud",
         "Medicare",
-        "TRICARE",
-        "Arizona"
+        "TRICARE"
       ],
       "state": "AZ",
       "source_type": "official",
@@ -1690,8 +1637,7 @@
         "Medicare",
         "Organized Crime",
         "Identity Theft",
-        "Money Laundering",
-        "California"
+        "Money Laundering"
       ],
       "state": "CA",
       "source_type": "official",
@@ -1737,7 +1683,6 @@
         "TRICARE",
         "Military Healthcare",
         "Improper Payments",
-        "New York",
         "Hospital Fraud"
       ],
       "state": "NY",
@@ -1762,8 +1707,7 @@
         "Cybersecurity",
         "TRICARE",
         "Military Healthcare",
-        "Health Insurance",
-        "California"
+        "Health Insurance"
       ],
       "state": "CA",
       "source_type": "official",
@@ -1810,8 +1754,7 @@
         "Opioids",
         "Addiction Treatment",
         "Medicare",
-        "Medicaid",
-        "Kentucky"
+        "Medicaid"
       ],
       "state": "KY",
       "source_type": "official",
@@ -1983,8 +1926,7 @@
         "Home Health Fraud",
         "Medicare",
         "Organized Crime",
-        "Identity Theft",
-        "California"
+        "Identity Theft"
       ],
       "state": "CA",
       "source_type": "official",
@@ -2029,8 +1971,7 @@
         "False Claims Act",
         "Stark Law",
         "Anti-Kickback",
-        "Hospital Fraud",
-        "California"
+        "Hospital Fraud"
       ],
       "state": "CA",
       "source_type": "official",
@@ -2052,8 +1993,7 @@
       "tags": [
         "DME Fraud",
         "Medicare",
-        "Identity Theft",
-        "Florida"
+        "Identity Theft"
       ],
       "state": "FL",
       "source_type": "official",
@@ -2075,8 +2015,7 @@
       "tags": [
         "DME Fraud",
         "Medicare",
-        "Telehealth",
-        "Massachusetts"
+        "Telehealth"
       ],
       "state": "MA",
       "source_type": "official",
@@ -2123,8 +2062,7 @@
         "Unnecessary Procedures",
         "Medicare",
         "Medicaid",
-        "TRICARE",
-        "Virginia"
+        "TRICARE"
       ],
       "state": "VA",
       "source_type": "official",
@@ -2164,9 +2102,7 @@
       "tags": [
         "Medicaid",
         "Behavioral Health",
-        "Overbilling",
-        "Minnesota",
-        "Colorado"
+        "Overbilling"
       ],
       "state": "IN",
       "source_type": "news",
@@ -2187,8 +2123,7 @@
       "social_posts": [],
       "tags": [
         "Medicare",
-        "Hospice Fraud",
-        "California"
+        "Hospice Fraud"
       ],
       "state": "CA",
       "source_type": "news",
@@ -2235,7 +2170,6 @@
         "Medicaid",
         "Behavioral Health",
         "Native American",
-        "Arizona",
         "Addiction Treatment"
       ],
       "state": "AZ",
@@ -2259,7 +2193,6 @@
         "Medicare",
         "DME Fraud",
         "Identity Theft",
-        "Tennessee",
         "Russia"
       ],
       "state": "TN",
@@ -2285,8 +2218,7 @@
         "Risk Adjustment",
         "Aetna",
         "Upcoding",
-        "Whistleblower",
-        "Pennsylvania"
+        "Whistleblower"
       ],
       "state": "PA",
       "source_type": "official",
@@ -2308,8 +2240,7 @@
       "tags": [
         "Medicaid",
         "Kickbacks",
-        "Addiction Treatment",
-        "North Carolina"
+        "Addiction Treatment"
       ],
       "state": "NC",
       "source_type": "news",
@@ -2330,8 +2261,7 @@
       "social_posts": [],
       "tags": [
         "Medicaid",
-        "Behavioral Health",
-        "Texas"
+        "Behavioral Health"
       ],
       "state": "TX",
       "source_type": "news",
@@ -2352,8 +2282,7 @@
       "social_posts": [],
       "tags": [
         "Medicare",
-        "DME Fraud",
-        "Colorado"
+        "DME Fraud"
       ],
       "state": "CO",
       "source_type": "news",
@@ -2375,8 +2304,7 @@
       "tags": [
         "Medicare",
         "Medicaid",
-        "Hospice Fraud",
-        "California"
+        "Hospice Fraud"
       ],
       "state": "CA",
       "source_type": "news",
@@ -2420,8 +2348,7 @@
       "social_posts": [],
       "tags": [
         "Medicaid",
-        "Behavioral Health",
-        "Minnesota"
+        "Behavioral Health"
       ],
       "state": "MN",
       "source_type": "news",
@@ -2464,8 +2391,7 @@
       "social_posts": [],
       "tags": [
         "TRICARE",
-        "DME Fraud",
-        "Colorado"
+        "DME Fraud"
       ],
       "state": "CO",
       "source_type": "news",
@@ -2486,7 +2412,6 @@
       "social_posts": [],
       "tags": [
         "Medicaid",
-        "Minnesota",
         "Congressional"
       ],
       "state": "MN",
@@ -2582,7 +2507,6 @@
         "Medicaid",
         "Congressional",
         "Foreign Nationals",
-        "Minnesota",
         "Senate"
       ],
       "state": "MN",
@@ -2598,16 +2522,16 @@
       "description": "House Oversight Committee held second hearing on Minnesota Medicaid fraud with testimony from Gov. Tim Walz and AG Keith Ellison. Committee interim staff report alleged Walz and Ellison were aware of widespread fraud since 2019, misled the public, and retaliated against whistleblowers. VP Vance announced temporary pause on $250+ million in Medicaid funding to Minnesota.",
       "amount": "$9 billion (estimated stolen); $250M+ funding paused",
       "amount_numeric": 0,
-      "officials": [],
+      "officials": [
+        "Gov. Tim Walz (MN)",
+        "AG Keith Ellison (MN)"
+      ],
       "link": "https://oversight.house.gov/hearing/oversight-of-fraud-and-misuse-of-federal-funds-in-minnesota-part-ii/",
       "link_label": "House Oversight Hearing",
       "social_posts": [],
       "tags": [
         "Medicaid",
-        "Minnesota",
-        "Congressional",
-        "Governor Walz",
-        "AG Ellison"
+        "Congressional"
       ],
       "state": "MN",
       "source_type": "official",
@@ -2650,8 +2574,7 @@
       "social_posts": [],
       "tags": [
         "False Claims Act",
-        "Legislation",
-        "Massachusetts"
+        "Legislation"
       ],
       "state": "MA",
       "source_type": "official",
@@ -2721,8 +2644,7 @@
         "Anti-Kickback",
         "Legislation",
         "Lab Fraud",
-        "Addiction Treatment",
-        "New Jersey"
+        "Addiction Treatment"
       ],
       "state": "NJ",
       "source_type": "official",
@@ -2787,8 +2709,7 @@
       "social_posts": [],
       "tags": [
         "Hospice Fraud",
-        "Legislation",
-        "Oregon"
+        "Legislation"
       ],
       "state": "OR",
       "source_type": "official",
@@ -2832,8 +2753,7 @@
       "tags": [
         "False Claims Act",
         "Health Insurance",
-        "Whistleblower",
-        "New Jersey"
+        "Whistleblower"
       ],
       "state": "NJ",
       "source_type": "news",
@@ -2923,7 +2843,6 @@
       "social_posts": [],
       "tags": [
         "Medicaid",
-        "Minnesota",
         "Behavioral Health",
         "Housing Fraud"
       ],
@@ -2949,8 +2868,7 @@
         "Medicaid",
         "False Claims Act",
         "Medical Devices",
-        "Whistleblower",
-        "Florida"
+        "Whistleblower"
       ],
       "state": "FL",
       "source_type": "news",
@@ -2973,7 +2891,6 @@
         "Medicare",
         "NPI Fraud",
         "Health Insurance",
-        "Texas",
         "Legislation"
       ],
       "state": "TX",
@@ -2996,7 +2913,6 @@
       "tags": [
         "Medicaid",
         "Housing Fraud",
-        "Minnesota",
         "Organized Crime"
       ],
       "state": "MN",
@@ -3021,8 +2937,7 @@
         "False Claims Act",
         "Pharmaceutical",
         "CVS",
-        "Whistleblower",
-        "California"
+        "Whistleblower"
       ],
       "state": "CA",
       "source_type": "news",
@@ -3043,8 +2958,7 @@
       "social_posts": [],
       "tags": [
         "Medicaid",
-        "Opioids",
-        "Texas"
+        "Opioids"
       ],
       "state": "TX",
       "source_type": "news",
@@ -3400,7 +3314,6 @@
       "social_posts": [],
       "tags": [
         "Hospice Fraud",
-        "California",
         "Medi-Cal"
       ],
       "date": "2026-01-28",
@@ -3422,7 +3335,6 @@
       "social_posts": [],
       "tags": [
         "Medicaid",
-        "Minnesota",
         "AI",
         "Housing Fraud"
       ],
@@ -3534,8 +3446,7 @@
       "tags": [
         "Medicare",
         "Home Health Fraud",
-        "NPI Fraud",
-        "California"
+        "NPI Fraud"
       ],
       "date": "2026-03-12",
       "amount_numeric": 600000000
@@ -3622,7 +3533,6 @@
       "social_posts": [],
       "tags": [
         "Hospice Fraud",
-        "California",
         "Medi-Cal"
       ],
       "date": "2025-08-06",
@@ -3644,7 +3554,6 @@
       "social_posts": [],
       "tags": [
         "Medicaid",
-        "Minnesota",
         "Home Health Fraud"
       ],
       "date": "2025-08-12",
@@ -3666,7 +3575,6 @@
       "social_posts": [],
       "tags": [
         "Medicaid",
-        "Minnesota",
         "Housing Fraud"
       ],
       "date": "2025-08-15",
@@ -3774,7 +3682,6 @@
       "social_posts": [],
       "tags": [
         "Medicaid",
-        "Arizona",
         "Addiction Treatment",
         "Native American"
       ],
