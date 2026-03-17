@@ -24,7 +24,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-06-operation-gold-rush",
@@ -48,7 +49,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-06-opioid-fraud",
@@ -70,7 +72,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-06-arizona-skin-grafts",
@@ -94,7 +97,8 @@
       ],
       "state": "AZ",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-03-kentucky-addiction",
@@ -116,7 +120,8 @@
       ],
       "state": "KY",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-11-florida-aca-enrollment",
@@ -137,7 +142,8 @@
       ],
       "state": "FL",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2026-01-15-brooklyn-daycare",
@@ -158,7 +164,8 @@
       ],
       "state": "NY",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2026-01-22-florida-nursing",
@@ -179,7 +186,8 @@
       ],
       "state": "FL",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2026-01-fraud-enforcement-division",
@@ -199,7 +207,8 @@
       ],
       "state": "MN",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "cms-2026-01-minnesota-audit-announcement",
@@ -229,7 +238,8 @@
       ],
       "state": "MN",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "cms-hhs-2026-01-minnesota-mission",
@@ -260,7 +270,8 @@
       ],
       "state": "MN",
       "source_type": "social_media",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "cms-2026-01-california-hospice-investigation",
@@ -299,7 +310,8 @@
       ],
       "state": "CA",
       "source_type": "social_media",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "cms-2026-01-27-newsom-demand",
@@ -331,7 +343,8 @@
       ],
       "state": "CA",
       "source_type": "social_media",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "cms-2026-02-05-hospice-spreading",
@@ -361,7 +374,8 @@
       ],
       "state": "CA",
       "source_type": "social_media",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "whitehouse-2026-02-04-ca-task-force",
@@ -383,7 +397,8 @@
       ],
       "state": "CA",
       "source_type": "news",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "oig-2026-01-22-maine-autism-audit",
@@ -414,7 +429,8 @@
       ],
       "state": "ME",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "cms-2026-01-medicaid-financing-loophole",
@@ -446,7 +462,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "cms-2026-01-14-california-illegal-immigrants",
@@ -477,7 +494,8 @@
       ],
       "state": "CA",
       "source_type": "social_media",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "cms-doj-2026-01-19-california-billion-return",
@@ -508,7 +526,8 @@
       ],
       "state": "CA",
       "source_type": "social_media",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "hhs-2026-02-04-ai-fraud-detection",
@@ -537,7 +556,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-06-gary-cox-dmerx-conviction",
@@ -560,7 +580,8 @@
       ],
       "state": "AZ",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-06-farrukh-ali-arizona-substance-abuse",
@@ -585,7 +606,8 @@
       ],
       "state": "AZ",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-07-fca-working-group",
@@ -607,7 +629,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-07-peter-roussonicolos-dme-sentenced",
@@ -629,7 +652,8 @@
       ],
       "state": "FL",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-07-cms-dof-data-fusion-center",
@@ -649,7 +673,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "cms-2025-06-marketplace-integrity-final-rule",
@@ -670,7 +695,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "cms-2025-07-duplicate-enrollment-28m",
@@ -696,7 +722,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-08-troy-health-npa-ai",
@@ -722,7 +749,8 @@
       ],
       "state": "NC",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-09-massachusetts-strike-force-expansion",
@@ -747,7 +775,8 @@
       ],
       "state": "MA",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-09-lab-ceo-marketers-settlement",
@@ -772,7 +801,8 @@
       ],
       "state": "TX",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-10-baldonado-sentenced-24m-ny",
@@ -794,7 +824,8 @@
       ],
       "state": "NY",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-11-california-hospice-gang-sentenced",
@@ -817,7 +848,8 @@
       ],
       "state": "CA",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-11-done-global-conviction",
@@ -840,7 +872,8 @@
       ],
       "state": "CA",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-11-kbwb-atrium-nursing-sentenced",
@@ -863,7 +896,8 @@
       ],
       "state": "NJ",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "hhs-oig-2025-11-cms-contracts-11b",
@@ -884,7 +918,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-11-alex-alexsanian-ca-radiology-plea",
@@ -906,7 +941,8 @@
       ],
       "state": "CA",
       "source_type": "news",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-12-dana-farber-grant-fraud-settlement",
@@ -932,7 +968,8 @@
       ],
       "state": "MA",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "hhs-oig-2025-12-humana-medicare-advantage-audit",
@@ -949,14 +986,16 @@
       "social_posts": [],
       "tags": [
         "Medicare Advantage",
-        "Humana",
         "Upcoding",
         "Risk Adjustment",
         "Improper Payments"
       ],
       "state": "LA",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": [
+        "Humana"
+      ]
     },
     {
       "id": "hhs-oig-2025-12-illinois-capitation-incarcerated",
@@ -978,7 +1017,8 @@
       ],
       "state": "IL",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-12-gary-cox-dmerx-sentenced",
@@ -1000,7 +1040,8 @@
       ],
       "state": "AZ",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "hhs-oig-2025-12-medicaid-deceased-enrollees-207m",
@@ -1023,7 +1064,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-12-patrick-moore-kickbacks-sentenced",
@@ -1045,7 +1087,8 @@
       ],
       "state": "GA",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-12-virginia-lab-kickbacks-settlement",
@@ -1072,7 +1115,8 @@
       ],
       "state": "VA",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "hhs-oig-2025-12-oig-spring-semiannual-report",
@@ -1094,7 +1138,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "hhs-oig-2026-01-fall-semiannual-report",
@@ -1117,7 +1162,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2026-01-fca-record-fy2025",
@@ -1141,7 +1187,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "cms-2026-01-fy2025-improper-payments",
@@ -1164,7 +1211,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2026-01-national-fraud-division-whitehouse",
@@ -1191,7 +1239,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2026-01-kaiser-permanente-556m-settlement",
@@ -1212,14 +1261,16 @@
       "social_posts": [],
       "tags": [
         "Medicare Advantage",
-        "Kaiser Permanente",
         "Upcoding",
         "False Claims Act",
         "Risk Adjustment"
       ],
       "state": "CA",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": [
+        "Kaiser Permanente"
+      ]
     },
     {
       "id": "doj-2026-01-five-fl-ophthalmology-settlement",
@@ -1245,7 +1296,8 @@
       ],
       "state": "FL",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2026-01-merchia-sleep-doctor-convicted",
@@ -1266,7 +1318,8 @@
       ],
       "state": "MA",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "cms-2026-01-medicaid-tax-loophole-rule",
@@ -1289,7 +1342,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2026-02-queens-men-120m-adult-day-care",
@@ -1317,7 +1371,8 @@
       ],
       "state": "NY",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2026-02-aca-fraud-lloyd-strong-sentenced",
@@ -1345,7 +1400,8 @@
       ],
       "state": "FL",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2026-02-keith-gray-nfl-genetic-testing",
@@ -1368,7 +1424,8 @@
       ],
       "state": "TX",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2026-02-texas-dr-taba-compound-sentenced",
@@ -1393,7 +1450,8 @@
       ],
       "state": "TX",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2026-02-oasis-hospital-fca-settlement",
@@ -1419,7 +1477,8 @@
       ],
       "state": "AZ",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "cms-2026-02-major-fraud-crackdown-feb25",
@@ -1446,7 +1505,8 @@
       ],
       "state": "MN",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2026-02-atlanta-gastro-settlement",
@@ -1471,7 +1531,8 @@
       ],
       "state": "GA",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "cms-2026-02-crush-rfi-federal-register",
@@ -1495,7 +1556,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "cms-2026-03-new-york-medicaid-investigation",
@@ -1520,7 +1582,8 @@
       ],
       "state": "NY",
       "source_type": "news",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2026-01-dr-merchia-independent-health-fca-prior",
@@ -1538,13 +1601,15 @@
       "tags": [
         "Medicare Advantage",
         "Upcoding",
-        "Independent Health",
         "False Claims Act",
         "Risk Adjustment"
       ],
       "state": "NY",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": [
+        "Independent Health"
+      ]
     },
     {
       "id": "doj-2025-01-cr-bard-catheter-kickbacks",
@@ -1568,7 +1633,8 @@
       ],
       "state": "GA",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-01-24-pfizer-biohaven-kickbacks",
@@ -1593,7 +1659,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-01-31-arizona-wound-graft-plea",
@@ -1616,7 +1683,8 @@
       ],
       "state": "AZ",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-02-03-california-hospice-fraud-plea",
@@ -1641,7 +1709,8 @@
       ],
       "state": "CA",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-02-06-medisca-awp-settlement",
@@ -1663,7 +1732,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-02-14-saint-vincents-military-overpayment",
@@ -1687,7 +1757,8 @@
       ],
       "state": "NY",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-02-18-health-net-centene-cybersecurity",
@@ -1711,7 +1782,8 @@
       ],
       "state": "CA",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-02-20-dmerx-schreck-plea",
@@ -1735,7 +1807,8 @@
       ],
       "state": "KS",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-03-20-kentucky-opioid-clinics-conviction",
@@ -1758,7 +1831,8 @@
       ],
       "state": "KY",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-03-26-seoul-medical-medicare-advantage",
@@ -1781,7 +1855,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-03-28-diopsys-vision-device-fca",
@@ -1805,7 +1880,8 @@
       ],
       "state": "PA",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-04-04-vohra-wound-physicians-complaint",
@@ -1830,7 +1906,8 @@
       ],
       "state": "FL",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-04-21-walgreens-opioid-settlement",
@@ -1855,7 +1932,8 @@
       ],
       "state": "IL",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-04-29-gilead-sciences-hiv-kickbacks",
@@ -1879,7 +1957,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-05-01-medicare-advantage-insurers-complaint",
@@ -1899,14 +1978,16 @@
         "False Claims Act",
         "Anti-Kickback",
         "ACA Fraud",
-        "Aetna",
-        "Humana",
-        "Elevance",
         "Kickbacks"
       ],
       "state": "MA",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": [
+        "Aetna",
+        "Humana",
+        "Elevance"
+      ]
     },
     {
       "id": "doj-2025-05-06-fichidzhyan-sentenced-hospice",
@@ -1930,7 +2011,8 @@
       ],
       "state": "CA",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-05-12-white-collar-enforcement-plan",
@@ -1952,7 +2034,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-05-14-fresno-community-health-fca",
@@ -1975,7 +2058,8 @@
       ],
       "state": "CA",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-05-20-julian-lopez-sentenced",
@@ -1997,7 +2081,8 @@
       ],
       "state": "FL",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-05-25-raju-sharma-dme-plea",
@@ -2019,7 +2104,8 @@
       ],
       "state": "MA",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "cms-2025-05-21-radv-audit-expansion",
@@ -2042,7 +2128,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-01-08-chesapeake-hospital-indictment",
@@ -2066,7 +2153,8 @@
       ],
       "state": "VA",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2026-03-09-393117795",
@@ -2084,7 +2172,8 @@
       "tags": [],
       "state": "PA",
       "source_type": "official",
-      "auto_fetched": true
+      "auto_fetched": true,
+      "entities": []
     },
     {
       "id": "media-2026-03-11-wsj-autism-aba-medicaid",
@@ -2106,7 +2195,8 @@
       ],
       "state": "IN",
       "source_type": "news",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "media-2026-03-10-cbs-la-hospice-fraud",
@@ -2127,7 +2217,8 @@
       ],
       "state": "CA",
       "source_type": "news",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "congress-2026-01-12-grassley-unitedhealth-ma-report",
@@ -2144,14 +2235,16 @@
       "social_posts": [],
       "tags": [
         "Medicare Advantage",
-        "UnitedHealth",
         "Upcoding",
         "Risk Adjustment",
         "Senate Investigation"
       ],
       "state": null,
       "source_type": "news",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": [
+        "UnitedHealth"
+      ]
     },
     {
       "id": "media-2026-02-26-propublica-arizona-indigenous-fraud",
@@ -2174,7 +2267,8 @@
       ],
       "state": "AZ",
       "source_type": "news",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "media-2026-02-20-wsmv-russian-tennessee-medicare",
@@ -2197,7 +2291,8 @@
       ],
       "state": "TN",
       "source_type": "news",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2026-03-11-aetna-fca-settlement",
@@ -2216,13 +2311,15 @@
         "Medicare",
         "False Claims Act",
         "Risk Adjustment",
-        "Aetna",
         "Upcoding",
         "Whistleblower"
       ],
       "state": "PA",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": [
+        "Aetna"
+      ]
     },
     {
       "id": "media-2026-01-06-nc-ag-medicaid-fraud-sentencings",
@@ -2244,7 +2341,8 @@
       ],
       "state": "NC",
       "source_type": "news",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "media-2026-01-16-abbott-texas-medicaid-investigation",
@@ -2265,7 +2363,8 @@
       ],
       "state": "TX",
       "source_type": "news",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "media-2026-01-22-denver-post-zynex-indictment",
@@ -2286,7 +2385,8 @@
       ],
       "state": "CO",
       "source_type": "news",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "media-2026-01-30-ca-ag-hospice-fraud-arrests",
@@ -2308,7 +2408,8 @@
       ],
       "state": "CA",
       "source_type": "news",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "congress-2026-02-03-house-ec-fraud-hearing",
@@ -2331,7 +2432,8 @@
       ],
       "state": null,
       "source_type": "news",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "media-2026-02-06-mn-reformer-optum-audit",
@@ -2352,7 +2454,8 @@
       ],
       "state": "MN",
       "source_type": "news",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "congress-2025-12-03-gao-aca-subsidy-fraud",
@@ -2374,7 +2477,8 @@
       ],
       "state": null,
       "source_type": "news",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "media-2026-02-18-denver-post-zynex-settlement",
@@ -2395,7 +2499,8 @@
       ],
       "state": "CO",
       "source_type": "news",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "congress-2026-01-07-house-oversight-mn-fraud-part1",
@@ -2416,7 +2521,8 @@
       ],
       "state": "MN",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "congress-2026-01-13-house-oversight-curbing-fraud",
@@ -2439,7 +2545,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "congress-2026-01-22-house-ec-wm-insurance-ceo-hearings",
@@ -2456,15 +2563,17 @@
       "social_posts": [],
       "tags": [
         "Medicare Advantage",
-        "Congressional",
+        "Congressional"
+      ],
+      "state": null,
+      "source_type": "official",
+      "auto_fetched": false,
+      "entities": [
         "UnitedHealth",
         "CVS Health",
         "Elevance",
         "Cigna"
-      ],
-      "state": null,
-      "source_type": "official",
-      "auto_fetched": false
+      ]
     },
     {
       "id": "congress-2026-01-27-senate-help-fraud-task-force",
@@ -2488,7 +2597,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "congress-2026-02-10-hsgac-fraud-foreign-influence",
@@ -2511,7 +2621,8 @@
       ],
       "state": "MN",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "congress-2026-03-04-house-oversight-mn-fraud-part2",
@@ -2535,7 +2646,8 @@
       ],
       "state": "MN",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "congress-2026-03-06-house-ec-medicaid-investigation-expansion",
@@ -2557,7 +2669,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "legislation-2025-01-08-ma-fca-healthcare-investors",
@@ -2578,7 +2691,8 @@
       ],
       "state": "MA",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "legislation-2025-06-06-presidential-memo-medicaid-fraud",
@@ -2600,7 +2714,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "legislation-2025-07-04-one-big-beautiful-bill",
@@ -2625,7 +2740,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "legislation-2025-08-11-nj-anti-kickback-expansion",
@@ -2648,7 +2764,8 @@
       ],
       "state": "NJ",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "legislation-2025-12-23-ndaa-admin-false-claims-act",
@@ -2670,7 +2787,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "legislation-2026-02-03-appropriations-pbm-reform",
@@ -2692,7 +2810,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "legislation-2026-03-04-oregon-hospice-fraud-bill",
@@ -2713,7 +2832,8 @@
       ],
       "state": "OR",
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "legislation-2026-03-06-eo-combating-cybercrime-fraud",
@@ -2735,7 +2855,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "media-2025-11-13-nj-horizon-bcbs-100m-settlement",
@@ -2757,7 +2878,8 @@
       ],
       "state": "NJ",
       "source_type": "news",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "congress-2025-12-04-senate-finance-gao-aca-response",
@@ -2780,7 +2902,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "congress-2025-12-10-house-judiciary-aca-fraud-hearing",
@@ -2803,7 +2926,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "congress-2025-12-15-house-judiciary-insurer-probe",
@@ -2826,7 +2950,8 @@
       ],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "media-2025-12-18-mn-reformer-9b-fraud-estimate",
@@ -2848,7 +2973,8 @@
       ],
       "state": "MN",
       "source_type": "news",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "media-2025-09-16-kff-exactech-knee-implant-settlement",
@@ -2872,7 +2998,8 @@
       ],
       "state": "FL",
       "source_type": "news",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "media-2025-09-25-propublica-npi-loophole-fraud",
@@ -2895,7 +3022,8 @@
       ],
       "state": "TX",
       "source_type": "news",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "media-2025-10-15-kare11-mn-housing-hustle-series",
@@ -2917,7 +3045,8 @@
       ],
       "state": "MN",
       "source_type": "news",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "media-2025-10-31-ca-ag-cvs-medi-cal-settlement",
@@ -2936,12 +3065,14 @@
         "Medicaid",
         "False Claims Act",
         "Pharmaceutical",
-        "CVS",
         "Whistleblower"
       ],
       "state": "CA",
       "source_type": "news",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": [
+        "CVS"
+      ]
     },
     {
       "id": "media-2025-10-31-texas-ag-healthcare-fraud-results",
@@ -2962,7 +3093,8 @@
       ],
       "state": "TX",
       "source_type": "news",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "link": "https://www.justice.gov/usao-edtn/pr/federal-jury-convicts-three-women-conspiracy-commit-wire-fraud-related-rocky-hill",
@@ -2982,7 +3114,8 @@
         "Pharmacy Fraud"
       ],
       "date": "2026-03-13",
-      "amount_numeric": 0
+      "amount_numeric": 0,
+      "entities": []
     },
     {
       "link": "https://oig.hhs.gov/fraud/enforcement/da-fbi-and-us-department-of-health-human-services-office-of-the-inspector-general-shut-down-medical-center-committing-healthcare-fraud/",
@@ -3002,7 +3135,8 @@
         "Medicare"
       ],
       "date": "2026-03-13",
-      "amount_numeric": 0
+      "amount_numeric": 0,
+      "entities": []
     },
     {
       "link": "https://www.justice.gov/opa/pr/arizona-cardiology-group-pay-475m-resolve-allegations-unnecessary-vein-ablations",
@@ -3023,7 +3157,8 @@
         "Unnecessary Procedures"
       ],
       "date": "2026-03-12",
-      "amount_numeric": 4750000
+      "amount_numeric": 4750000,
+      "entities": []
     },
     {
       "link": "https://www.ohioattorneygeneral.gov/Media/News-Releases/March-2026/10-Medicaid-Providers-Facing-Fraud-Charges",
@@ -3043,7 +3178,8 @@
         "Medicaid"
       ],
       "date": "2026-03-12",
-      "amount_numeric": 0
+      "amount_numeric": 0,
+      "entities": []
     },
     {
       "link": "https://www.justice.gov/usao-sc/pr/former-greenville-ceo-employees-indicted-multi-million-dollar-health-care-fraud-scheme",
@@ -3064,7 +3200,8 @@
         "COVID-19"
       ],
       "date": "2026-03-11",
-      "amount_numeric": 0
+      "amount_numeric": 0,
+      "entities": []
     },
     {
       "link": "https://www.attorneygeneral.gov/taking-action/ceo-of-montgomery-county-home-care-agency-sentenced-to-incarceration-ordered-to-pay-for-1-7-million-medicaid-fraud-scheme/",
@@ -3085,7 +3222,8 @@
         "Home Health Fraud"
       ],
       "date": "2026-03-10",
-      "amount_numeric": 1700000
+      "amount_numeric": 1700000,
+      "entities": []
     },
     {
       "link": "https://www.justice.gov/usao-nj/pr/chiropractor-sentenced-43-months-prison-149-million-health-care-fraud-and-kickback",
@@ -3108,7 +3246,8 @@
         "Genetic Testing"
       ],
       "date": "2026-03-09",
-      "amount_numeric": 14900000
+      "amount_numeric": 14900000,
+      "entities": []
     },
     {
       "link": "https://www.justice.gov/usao-edmo/pr/psychiatrist-reaches-civil-settlement-360000-resolve-allegations-false-claims-federal",
@@ -3129,7 +3268,8 @@
         "False Claims"
       ],
       "date": "2026-03-09",
-      "amount_numeric": 360000
+      "amount_numeric": 360000,
+      "entities": []
     },
     {
       "link": "https://www.justice.gov/opa/pr/owner-durable-medical-equipment-company-sentenced-59m-medicare-fraud",
@@ -3150,7 +3290,8 @@
         "DME Fraud"
       ],
       "date": "2026-03-09",
-      "amount_numeric": 59000000
+      "amount_numeric": 59000000,
+      "entities": []
     },
     {
       "link": "https://www.justice.gov/usao-ma/pr/amerisourcebergen-subsidiary-agrees-pay-1-million-allegedly-paying-kickbacks-health-care",
@@ -3171,7 +3312,8 @@
         "Pharmaceutical"
       ],
       "date": "2026-03-06",
-      "amount_numeric": 1000000
+      "amount_numeric": 1000000,
+      "entities": []
     },
     {
       "link": "https://www.justice.gov/usao-ma/pr/illinois-man-sentenced-two-years-prison-durable-medical-equipment-scheme",
@@ -3192,7 +3334,8 @@
         "DME Fraud"
       ],
       "date": "2026-03-06",
-      "amount_numeric": 0
+      "amount_numeric": 0,
+      "entities": []
     },
     {
       "link": "https://www.justice.gov/usao-edmo/pr/kansas-doctor-sentenced-3-years-prison-8-million-medicare-fraud",
@@ -3212,7 +3355,8 @@
         "Medicare"
       ],
       "date": "2026-03-06",
-      "amount_numeric": 8000000
+      "amount_numeric": 8000000,
+      "entities": []
     },
     {
       "link": "https://www.justice.gov/usao-wdtx/pr/mexican-man-sentenced-14-years-federal-prison-leading-685m-healthcare-fraud-scheme",
@@ -3232,7 +3376,8 @@
         "Medicare"
       ],
       "date": "2026-03-06",
-      "amount_numeric": 6850000
+      "amount_numeric": 6850000,
+      "entities": []
     },
     {
       "link": "https://arkansasag.gov/news-release/attorney-general-griffin-announces-medicaid-fraud-conviction/",
@@ -3252,7 +3397,8 @@
         "Medicaid"
       ],
       "date": "2026-03-06",
-      "amount_numeric": 0
+      "amount_numeric": 0,
+      "entities": []
     },
     {
       "link": "https://www.mass.gov/news/ags-office-secures-guilty-plea-suspended-sentence-and-restitution-from-rhode-island-resident-who-stole-more-than-220000-from-worcester-rest-home-and-its-elderly-residents",
@@ -3273,7 +3419,8 @@
         "Elder Fraud"
       ],
       "date": "2026-03-06",
-      "amount_numeric": 220000
+      "amount_numeric": 220000,
+      "entities": []
     },
     {
       "link": "https://www.justice.gov/opa/pr/oklahoma-medical-supply-company-owner-indicted-30m-health-care-fraud-scheme",
@@ -3296,7 +3443,8 @@
         "COVID-19"
       ],
       "date": "2026-01-08",
-      "amount_numeric": 30000000
+      "amount_numeric": 30000000,
+      "entities": []
     },
     {
       "link": "https://hospicenews.com/2026/01/28/california-revokes-280-hospice-licenses-in-fraud-fight-congressional-hearing-set/",
@@ -3317,7 +3465,8 @@
         "Medi-Cal"
       ],
       "date": "2026-01-28",
-      "amount_numeric": 0
+      "amount_numeric": 0,
+      "entities": []
     },
     {
       "link": "https://www.justice.gov/opa/pr/fraud-tourists-plead-guilty-minneapolis-medicaid-fraud",
@@ -3339,7 +3488,8 @@
         "Housing Fraud"
       ],
       "date": "2026-02-10",
-      "amount_numeric": 3500000
+      "amount_numeric": 3500000,
+      "entities": []
     },
     {
       "link": "https://www.justice.gov/opa/pr/two-foreign-nationals-indicted-chicago-part-10m-health-care-fraud-scheme",
@@ -3361,7 +3511,8 @@
         "Identity Theft"
       ],
       "date": "2026-02-12",
-      "amount_numeric": 10000000
+      "amount_numeric": 10000000,
+      "entities": []
     },
     {
       "link": "https://www.axios.com/2026/02/14/elon-musk-doge-medicaid-fraud-hhs-database",
@@ -3383,7 +3534,8 @@
         "Whistleblower"
       ],
       "date": "2026-02-13",
-      "amount_numeric": 0
+      "amount_numeric": 0,
+      "entities": []
     },
     {
       "link": "https://www.justice.gov/opa/pr/russian-citizen-charged-laundering-over-12m-connected-400m-fraudulent-medicare-claims",
@@ -3406,7 +3558,8 @@
         "Russia"
       ],
       "date": "2026-03-05",
-      "amount_numeric": 400000000
+      "amount_numeric": 400000000,
+      "entities": []
     },
     {
       "link": "https://federalnewsnetwork.com/artificial-intelligence/2026/03/cmss-two-pronged-approach-to-crushing-fraud-waste-abuse/",
@@ -3427,7 +3580,8 @@
         "CRUSH"
       ],
       "date": "2026-03-11",
-      "amount_numeric": 2000000000
+      "amount_numeric": 2000000000,
+      "entities": []
     },
     {
       "link": "https://www.foxnews.com/us/la-medicare-fraud-doctor-provider-number-billing-probe",
@@ -3449,7 +3603,8 @@
         "NPI Fraud"
       ],
       "date": "2026-03-12",
-      "amount_numeric": 600000000
+      "amount_numeric": 600000000,
+      "entities": []
     },
     {
       "link": "https://www.healthlawadvisor.com/the-first-national-health-care-fraud-takedown-of-the-second-trump-administration-what-stayed-the-same-and-what-is-new",
@@ -3472,7 +3627,8 @@
         "Organized Crime"
       ],
       "date": "2025-06-30",
-      "amount_numeric": 0
+      "amount_numeric": 0,
+      "entities": []
     },
     {
       "link": "https://leadingage.org/cms-fact-sheet-on-hospice-fraud/",
@@ -3493,7 +3649,8 @@
         "Medicare"
       ],
       "date": "2025-07-23",
-      "amount_numeric": 0
+      "amount_numeric": 0,
+      "entities": []
     },
     {
       "link": "https://www.cnbc.com/2025/07/24/unitedhealthcare-doj-investigation-medicare-billing.html",
@@ -3511,11 +3668,13 @@
       "social_posts": [],
       "tags": [
         "Medicare Advantage",
-        "Upcoding",
-        "UnitedHealth"
+        "Upcoding"
       ],
       "date": "2025-07-24",
-      "amount_numeric": 0
+      "amount_numeric": 0,
+      "entities": [
+        "UnitedHealth"
+      ]
     },
     {
       "link": "https://oag.ca.gov/news/press-releases/confronting-hospice-fraud-attorney-general-bonta-launches-public-awareness",
@@ -3536,7 +3695,8 @@
         "Medi-Cal"
       ],
       "date": "2025-08-06",
-      "amount_numeric": 0
+      "amount_numeric": 0,
+      "entities": []
     },
     {
       "link": "https://www.ag.state.mn.us/Office/Communications/2025/08/12_Yusuf.asp",
@@ -3557,7 +3717,8 @@
         "Home Health Fraud"
       ],
       "date": "2025-08-12",
-      "amount_numeric": 0
+      "amount_numeric": 0,
+      "entities": []
     },
     {
       "link": "https://minnesotareformer.com/briefs/state-shuts-down-100-million-housing-stabilization-program-citing-fraud/",
@@ -3578,7 +3739,8 @@
         "Housing Fraud"
       ],
       "date": "2025-08-15",
-      "amount_numeric": 107000000
+      "amount_numeric": 107000000,
+      "entities": []
     },
     {
       "link": "https://www.cms.gov/newsroom/press-releases/cms-notifies-individuals-potentially-impacted-data-incident",
@@ -3599,7 +3761,8 @@
         "Identity Theft"
       ],
       "date": "2025-08-21",
-      "amount_numeric": 0
+      "amount_numeric": 0,
+      "entities": []
     },
     {
       "link": "https://www.justice.gov/opa/pr/two-charged-227-million-medicare-fraud-scheme",
@@ -3621,7 +3784,8 @@
         "Lab Fraud"
       ],
       "date": "2025-05-22",
-      "amount_numeric": 227000000
+      "amount_numeric": 227000000,
+      "entities": []
     },
     {
       "link": "https://ag.ny.gov/press-release/2025/attorney-general-james-secures-prison-sentence-serial-health-care-fraudster",
@@ -3642,7 +3806,8 @@
         "Lab Fraud"
       ],
       "date": "2025-04-15",
-      "amount_numeric": 0
+      "amount_numeric": 0,
+      "entities": []
     },
     {
       "link": "https://www.axios.com/2025/02/06/elon-musk-doge-health-data-cms",
@@ -3664,7 +3829,8 @@
         "DOGE"
       ],
       "date": "2025-02-05",
-      "amount_numeric": 0
+      "amount_numeric": 0,
+      "entities": []
     },
     {
       "link": "https://azcir.org/news/2025/01/27/arizona-deaths-sober-living-homes-fumbled-response-medicaid-fraud/",
@@ -3686,7 +3852,8 @@
         "Native American"
       ],
       "date": "2025-01-15",
-      "amount_numeric": 0
+      "amount_numeric": 0,
+      "entities": []
     }
   ]
 }

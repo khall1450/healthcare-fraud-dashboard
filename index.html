@@ -130,6 +130,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
 .card-amount { color: var(--paragon-blue); font-weight: 700; font-size: 0.9rem; }
 .card-officials { color: var(--atlantic); font-weight: 600; }
 .card-state { color: var(--text-muted); }
+.card-entities { color: var(--concrete); font-weight: 600; }
 .card-tags { display: flex; flex-wrap: wrap; gap: 5px; }
 .tag-pill { font-size: 0.67rem; padding: 2px 8px; background: rgba(0,46,109,0.05); border-radius: var(--radius); color: var(--paragon-blue); border: 1px solid rgba(0,46,109,0.15); font-weight: 500; }
 .card-social { background: rgba(0,166,207,0.04); border: 1px solid rgba(0,166,207,0.2); border-radius: var(--radius); padding: 10px 12px; font-size: 0.8rem; }
@@ -303,6 +304,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
         <div class="card-amount d-none"><span></span></div>
         <div class="card-officials d-none"><i class="fa-solid fa-user-tie me-1"></i><span></span></div>
         <div class="card-state d-none"><i class="fa-solid fa-location-dot me-1"></i><span></span></div>
+        <div class="card-entities d-none"><i class="fa-solid fa-building me-1"></i><span></span></div>
       </div>
       <div class="card-tags"></div>
       <div class="card-social d-none">
@@ -3020,6 +3022,11 @@ function renderCards(actions) {
       const el = col.querySelector('.card-state');
       el.classList.remove('d-none');
       el.querySelector('span').textContent = STATE_NAMES[action.state] || action.state;
+    }
+    if (action.entities && action.entities.length > 0) {
+      const el = col.querySelector('.card-entities');
+      el.classList.remove('d-none');
+      el.querySelector('span').textContent = action.entities.join(', ');
     }
     const tagsEl = col.querySelector('.card-tags');
     (action.tags||[]).forEach(tag => {
