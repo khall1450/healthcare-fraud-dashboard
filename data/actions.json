@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "last_updated": "2026-03-16T15:45:36.6206674+00:00",
+    "last_updated": "2026-03-17T15:34:48.5019887+00:00",
     "version": "1.0"
   },
   "actions": [
@@ -3881,6 +3881,25 @@
       "state": null,
       "source_type": "official",
       "auto_fetched": false
+    },
+    {
+      "id": "doj-2025-06-30-1365456376",
+      "date": "2025-06-30",
+      "agency": "DOJ",
+      "type": "Structural/Organizational",
+      "title": "Head of the Criminal Division Matthew R. Galeotti Announces Results of Health Care Fraud Takedown",
+      "description": "Thank you all for joining us today to announce the results of the largest coordinated health care fraud takedown in the history of the Department of Justice.",
+      "amount": null,
+      "amount_numeric": 0,
+      "officials": [],
+      "link": "https://www.justice.gov/opa/speech/supervisory-official-matthew-r-galeotti-delivers-remarks-regarding-health-care-fraud",
+      "link_label": "DOJ Press Release",
+      "social_posts": [],
+      "tags": [],
+      "entities": [],
+      "state": null,
+      "source_type": "official",
+      "auto_fetched": true
     }
   ]
 }
