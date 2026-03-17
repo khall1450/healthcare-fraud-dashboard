@@ -3191,27 +3191,6 @@
       "entities": []
     },
     {
-      "link": "https://oig.hhs.gov/fraud/enforcement/da-fbi-and-us-department-of-health-human-services-office-of-the-inspector-general-shut-down-medical-center-committing-healthcare-fraud/",
-      "id": "hhs-oig-2026-03-13-medical-center-shutdown",
-      "auto_fetched": false,
-      "officials": [],
-      "state": null,
-      "source_type": "official",
-      "title": "DA, FBI, and HHS-OIG Shut Down Medical Center Committing Healthcare Fraud",
-      "link_label": "HHS-OIG Enforcement",
-      "type": "Criminal Enforcement",
-      "amount": null,
-      "description": "Coordinated law enforcement action by the District Attorney, FBI, and HHS Office of Inspector General resulted in the closure of a medical center engaged in fraudulent healthcare practices.",
-      "agency": "HHS-OIG",
-      "social_posts": [],
-      "tags": [
-        "Medicare"
-      ],
-      "date": "2026-03-13",
-      "amount_numeric": 0,
-      "entities": []
-    },
-    {
       "link": "https://www.justice.gov/opa/pr/arizona-cardiology-group-pay-475m-resolve-allegations-unnecessary-vein-ablations",
       "id": "hhs-oig-2026-03-12-az-cardiology-vein",
       "auto_fetched": false,
@@ -4001,6 +3980,56 @@
       ],
       "state": "IA",
       "source_type": "news",
+      "auto_fetched": false
+    },
+    {
+      "id": "doj-2026-03-16-safe-chain-hiv-drugs-92m",
+      "date": "2026-03-16",
+      "agency": "DOJ",
+      "type": "Criminal Enforcement",
+      "title": "Safe Chain Solutions Owners Sentenced to 38 Combined Years for $92M Black-Market HIV Drug Scheme",
+      "description": "Patrick Boyd, 47, and Charles Boyd, 43, of Easton, Maryland, were sentenced to 18 and 20 years in prison respectively for distributing more than $92.8 million of black-market HIV drugs through their pharmaceutical wholesale company Safe Chain Solutions. The brothers bought HIV medications from black-market suppliers through unlawful buy-back arrangements, removed or altered original prescription labels, and falsified documentation to make products appear legitimate before reselling them into the legitimate pharmaceutical supply chain. Co-owner Adam Brosius previously pleaded guilty and was sentenced to 97 months. Forfeiture of $21.85 million was ordered. Prosecuted in the Southern District of Florida.",
+      "amount": "$92.8M (black-market drugs); $21.85M forfeiture",
+      "amount_numeric": 92800000,
+      "officials": [],
+      "link": "https://www.justice.gov/opa/pr/owners-and-ceo-wholesale-pharmaceutical-company-sentenced-distributing-more-92m-black-market",
+      "link_label": "DOJ Press Release",
+      "social_posts": [],
+      "tags": [
+        "Medicare",
+        "Pharmaceutical",
+        "Money Laundering"
+      ],
+      "entities": [
+        "Safe Chain Solutions"
+      ],
+      "state": "FL",
+      "source_type": "official",
+      "auto_fetched": false
+    },
+    {
+      "id": "hhs-oig-2026-03-13-san-diego-tubi-connect-11m",
+      "date": "2026-03-13",
+      "agency": "HHS-OIG",
+      "type": "Criminal Enforcement",
+      "title": "San Diego Medical Center Shut Down: Kim Huynh Charged with $11M Medicare Fraud, Practicing Medicine Without a License",
+      "description": "San Diego County DA, FBI, and HHS-OIG shut down Tubi Connect Inc., a neurofeedback clinic operated by Kim Huynh, 51, who was arrested for billing Medicare and insurers more than $11 million for tests and treatments not covered or not provided. Huynh directed billers to submit claims for EEG scans (used to diagnose epilepsy/seizures) rather than the QEEG scans her clinic actually performed, because QEEGs lack Medicare/insurance coverage. Unlicensed technicians performed scans. Medicare was billed over $10 million ($4.6M paid); private insurers billed $600K+ ($100K+ paid). Huynh also charged with money laundering and practicing medicine without a license. Bail set at $750,000.",
+      "amount": "$11 million",
+      "amount_numeric": 11000000,
+      "officials": [],
+      "link": "https://oig.hhs.gov/fraud/enforcement/da-fbi-and-us-department-of-health-human-services-office-of-the-inspector-general-shut-down-medical-center-committing-healthcare-fraud/",
+      "link_label": "HHS-OIG Enforcement",
+      "social_posts": [],
+      "tags": [
+        "Medicare",
+        "Upcoding",
+        "Identity Theft"
+      ],
+      "entities": [
+        "Tubi Connect"
+      ],
+      "state": "CA",
+      "source_type": "official",
       "auto_fetched": false
     }
   ]
