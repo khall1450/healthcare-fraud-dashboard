@@ -130,7 +130,12 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
 .card-amount { color: var(--paragon-blue); font-weight: 700; font-size: 0.9rem; }
 .card-officials { color: var(--atlantic); font-weight: 600; }
 .card-state { color: var(--text-muted); }
-.card-entities { color: var(--concrete); font-weight: 600; }
+.tag-pill { cursor: pointer; transition: background 0.15s, border-color 0.15s; }
+.tag-pill:hover { background: rgba(0,46,109,0.12); border-color: rgba(0,46,109,0.3); }
+.tag-pill.entity-pill { background: rgba(156,39,176,0.07); color: #7b1fa2; border-color: rgba(156,39,176,0.25); }
+.tag-pill.entity-pill:hover { background: rgba(156,39,176,0.15); border-color: rgba(156,39,176,0.4); }
+.tag-pill.active-tag { background: var(--paragon-blue); color: white; border-color: var(--paragon-blue); }
+.tag-pill.entity-pill.active-tag { background: #7b1fa2; color: white; border-color: #7b1fa2; }
 .card-tags { display: flex; flex-wrap: wrap; gap: 5px; }
 .tag-pill { font-size: 0.67rem; padding: 2px 8px; background: rgba(0,46,109,0.05); border-radius: var(--radius); color: var(--paragon-blue); border: 1px solid rgba(0,46,109,0.15); font-weight: 500; }
 .card-social { background: rgba(0,166,207,0.04); border: 1px solid rgba(0,166,207,0.2); border-radius: var(--radius); padding: 10px 12px; font-size: 0.8rem; }
@@ -304,7 +309,6 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
         <div class="card-amount d-none"><span></span></div>
         <div class="card-officials d-none"><i class="fa-solid fa-user-tie me-1"></i><span></span></div>
         <div class="card-state d-none"><i class="fa-solid fa-location-dot me-1"></i><span></span></div>
-        <div class="card-entities d-none"><i class="fa-solid fa-building me-1"></i><span></span></div>
       </div>
       <div class="card-tags"></div>
       <div class="card-social d-none">
@@ -3023,15 +3027,15 @@ function renderCards(actions) {
       el.classList.remove('d-none');
       el.querySelector('span').textContent = STATE_NAMES[action.state] || action.state;
     }
-    if (action.entities && action.entities.length > 0) {
-      const el = col.querySelector('.card-entities');
-      el.classList.remove('d-none');
-      el.querySelector('span').textContent = action.entities.join(', ');
-    }
     const tagsEl = col.querySelector('.card-tags');
-    (action.tags||[]).forEach(tag => {
+    const entities = new Set(action.entities || []);
+    const allTags = (action.entities || []).concat(action.tags || []);
+    allTags.forEach(tag => {
       const pill = document.createElement('span');
-      pill.className = 'tag-pill'; pill.textContent = tag;
+      pill.className = entities.has(tag) ? 'tag-pill entity-pill' : 'tag-pill';
+      if (activeTag && tag === activeTag) pill.classList.add('active-tag');
+      pill.textContent = tag;
+      pill.addEventListener('click', () => toggleTagFilter(tag));
       tagsEl.appendChild(pill);
     });
     if (action.social_posts && action.social_posts.length > 0) {
@@ -3059,6 +3063,13 @@ function renderCards(actions) {
   });
 }
 
+let activeTag = null;
+
+function toggleTagFilter(tag) {
+  activeTag = (activeTag === tag) ? null : tag;
+  applyFilters();
+}
+
 function applyFilters() {
   const search   = document.getElementById('searchInput').value.trim().toLowerCase();
   const agency   = document.getElementById('agencyFilter').value;
@@ -3073,9 +3084,14 @@ function applyFilters() {
     if (state  !== 'all' && a.state  !== state)  return false;
     if (dateFrom && a.date < dateFrom) return false;
     if (dateTo   && a.date > dateTo)   return false;
+    if (activeTag) {
+      const allTags = (a.entities||[]).concat(a.tags||[]);
+      if (!allTags.includes(activeTag)) return false;
+    }
     if (search) {
       const hay = [a.title, a.description, a.agency, a.type,
-                   (a.tags||[]).join(' '), (a.officials||[]).join(' '),
+                   (a.tags||[]).join(' '), (a.entities||[]).join(' '),
+                   (a.officials||[]).join(' '),
                    (a.social_posts||[]).map(p=>p.post_text).join(' ')].join(' ').toLowerCase();
       if (!hay.includes(search)) return false;
     }
@@ -3086,9 +3102,11 @@ function applyFilters() {
   renderCards(filtered);
 
   const countEl = document.getElementById('resultCount');
-  countEl.textContent = filtered.length === allActions.length
+  let countText = filtered.length === allActions.length
     ? allActions.length + ' actions'
     : filtered.length + ' of ' + allActions.length + ' actions';
+  if (activeTag) countText += ' \u2022 Tag: ' + activeTag;
+  countEl.textContent = countText;
 }
 
 function clearFilters() {
@@ -3098,6 +3116,7 @@ function clearFilters() {
   document.getElementById('stateFilter').value  = 'all';
   document.getElementById('dateFrom').value = '';
   document.getElementById('dateTo').value   = '';
+  activeTag = null;
   applyFilters();
 }
 
