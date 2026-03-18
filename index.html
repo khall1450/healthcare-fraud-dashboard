@@ -100,6 +100,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
 .action-card[data-agency="HHS-OIG"]     { --agency-color: var(--oig); }
 .action-card[data-agency="White House"] { --agency-color: var(--whitehouse); }
 .action-card[data-agency="Media"]      { --agency-color: #8B6914; }
+.action-card[data-agency="State Agencies"] { --agency-color: #795548; }
 .card-top-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .agency-badge { font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; padding: 3px 10px; border-radius: var(--radius); color: white; font-family: 'Public Sans', sans-serif; }
 .agency-DOJ         { background: var(--doj); }
@@ -111,6 +112,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
 .agency-Media       { background: #8B6914; }
 .agency-Congress    { background: #1a5276; }
 .agency-GAO         { background: #2e7d32; }
+.agency-State-Agencies { background: #795548; }
 .type-badge { font-size: 0.65rem; font-weight: 600; padding: 3px 9px; border-radius: var(--radius); border: 1px solid currentColor; font-family: 'Public Sans', sans-serif; letter-spacing: 0.02em; }
 .type-Criminal-Enforcement     { color: var(--type-criminal); background: rgba(198,40,40,0.07); }
 .type-Civil-Action             { color: var(--type-civil); background: rgba(255,148,26,0.1); }
@@ -286,6 +288,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
         <option value="Media">Media</option>
         <option value="Congress">Congress</option>
         <option value="GAO">GAO</option>
+        <option value="State Agencies">State Agencies</option>
       </select>
       <select class="form-select filter-select" id="typeFilter" onchange="applyFilters()">
         <option value="all">All Types</option>
@@ -416,7 +419,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
    ============================================================ */
 let allActions = [];
 
-const AGENCY_CLASS = { 'DOJ':'agency-DOJ','HHS':'agency-HHS','CMS':'agency-CMS','HHS-OIG':'agency-HHS-OIG','White House':'agency-White-House','Media':'agency-Media','Congress':'agency-Congress','GAO':'agency-GAO' };
+const AGENCY_CLASS = { 'DOJ':'agency-DOJ','HHS':'agency-HHS','CMS':'agency-CMS','HHS-OIG':'agency-HHS-OIG','White House':'agency-White-House','Media':'agency-Media','Congress':'agency-Congress','GAO':'agency-GAO','State Agencies':'agency-State-Agencies' };
 const STATE_NAMES  = { AL:'Alabama',AK:'Alaska',AZ:'Arizona',AR:'Arkansas',CA:'California',CO:'Colorado',CT:'Connecticut',DE:'Delaware',FL:'Florida',GA:'Georgia',HI:'Hawaii',ID:'Idaho',IL:'Illinois',IN:'Indiana',IA:'Iowa',KS:'Kansas',KY:'Kentucky',LA:'Louisiana',ME:'Maine',MD:'Maryland',MA:'Massachusetts',MI:'Michigan',MN:'Minnesota',MS:'Mississippi',MO:'Missouri',MT:'Montana',NE:'Nebraska',NV:'Nevada',NH:'New Hampshire',NJ:'New Jersey',NM:'New Mexico',NY:'New York',NC:'North Carolina',ND:'North Dakota',OH:'Ohio',OK:'Oklahoma',OR:'Oregon',PA:'Pennsylvania',RI:'Rhode Island',SC:'South Carolina',SD:'South Dakota',TN:'Tennessee',TX:'Texas',UT:'Utah',VT:'Vermont',VA:'Virginia',WA:'Washington',WV:'West Virginia',WI:'Wisconsin',WY:'Wyoming',DC:'Washington D.C.' };
 
 function formatDate(d) {
