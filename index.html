@@ -288,6 +288,12 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
     <p class="text-muted">No actions match your filters.</p>
   </div>
   <div id="cardsGrid" class="row g-3"></div>
+  <div id="loadMoreWrap" class="text-center py-4 d-none">
+    <button class="btn btn-outline-secondary" id="btnLoadMore" onclick="loadMore()" style="font-weight:600;font-size:0.85rem;padding:8px 32px;">
+      Load More
+    </button>
+    <p class="text-muted mt-2" id="loadMoreCount" style="font-size:0.78rem;"></p>
+  </div>
 </main>
 
 <!-- FOOTER -->
@@ -410,14 +416,27 @@ function updateStats(actions) {
   document.getElementById('statCMS').textContent       = cmsTotal > 0 ? formatMoney(cmsTotal) : '\u2014';
 }
 
+const PAGE_SIZE = 24;
+let currentFiltered = [];
+let displayedCount = 0;
+
 function renderCards(actions) {
   const grid = document.getElementById('cardsGrid');
   const noResults = document.getElementById('noResults');
-  const tmpl = document.getElementById('cardTemplate');
   grid.innerHTML = '';
-  if (actions.length === 0) { noResults.classList.remove('d-none'); return; }
+  currentFiltered = actions;
+  displayedCount = 0;
+  if (actions.length === 0) { noResults.classList.remove('d-none'); updateLoadMore(); return; }
   noResults.classList.add('d-none');
-  actions.forEach(action => {
+  appendCards(PAGE_SIZE);
+}
+
+function appendCards(count) {
+  const grid = document.getElementById('cardsGrid');
+  const tmpl = document.getElementById('cardTemplate');
+  const end = Math.min(displayedCount + count, currentFiltered.length);
+  for (let i = displayedCount; i < end; i++) {
+    const action = currentFiltered[i];
     const col  = tmpl.content.cloneNode(true);
     const card = col.querySelector('.action-card');
     card.setAttribute('data-agency', action.agency || 'Other');
@@ -493,7 +512,23 @@ function renderCards(actions) {
       docBtn.querySelector('span').textContent = action.link_label || 'View Document';
     }
     grid.appendChild(col);
-  });
+  }
+  displayedCount = end;
+  updateLoadMore();
+}
+
+function loadMore() { appendCards(PAGE_SIZE); }
+
+function updateLoadMore() {
+  const wrap = document.getElementById('loadMoreWrap');
+  const countEl = document.getElementById('loadMoreCount');
+  if (displayedCount < currentFiltered.length) {
+    wrap.classList.remove('d-none');
+    const remaining = currentFiltered.length - displayedCount;
+    countEl.textContent = 'Showing ' + displayedCount + ' of ' + currentFiltered.length + ' actions';
+  } else {
+    wrap.classList.add('d-none');
+  }
 }
 
 let activeTag = null;
