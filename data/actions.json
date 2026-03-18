@@ -2788,7 +2788,7 @@
                     {
                         "id":  "media-2026-01-06-nc-ag-medicaid-fraud-sentencings",
                         "date":  "2026-01-06",
-                        "agency":  "State Agencies",
+                        "agency":  "State Agency",
                         "type":  "Criminal Enforcement",
                         "title":  "NC Attorney General Announces $12.7 Million Medicaid Fraud Sentencings",
                         "description":  "Five defendants sentenced for defrauding NC Medicaid of $12.7 million through Life Touch LLC and 1st Choice Healthcare. Scheme involved paying $1M+ in kickbacks to Medicaid patients to attend substance abuse and lab services from 2018-2023. Sentences ranged from 2-6 years; total restitution exceeds $15 million.",
@@ -2818,7 +2818,7 @@
                     {
                         "id":  "media-2026-01-16-abbott-texas-medicaid-investigation",
                         "date":  "2026-01-16",
-                        "agency":  "State Agencies",
+                        "agency":  "State Agency",
                         "type":  "Investigation",
                         "title":  "Governor Abbott Directs Investigations Into Potential Medicaid Fraud in Texas",
                         "description":  "Governor Abbott directed the Texas HHS OIG and HHSC to launch Medicaid fraud investigations, prompted by the Minnesota fraud revelations. Directive calls for bolstered review of MCO policies, targeted utilization review of autism services, and full staffing of special investigations units. Progress report due March 15, 2026.",
@@ -2876,7 +2876,7 @@
                     {
                         "id":  "media-2026-01-30-ca-ag-hospice-fraud-arrests",
                         "date":  "2026-01-30",
-                        "agency":  "State Agencies",
+                        "agency":  "State Agency",
                         "type":  "Criminal Enforcement",
                         "title":  "California AG Announces Seven Arrests for Monterey County Hospice Fraud",
                         "description":  "Seven individuals arrested including owners of Compassionate Touch Hospice, Spiritual Touch Hospice, and Fountain Hospice, plus three doctors and a nurse. They recruited and enrolled patients who were not terminally ill; some patients did not know they were enrolled in hospice. Total loss to Medi-Cal and Medicare: $3.2 million.",
@@ -3231,7 +3231,7 @@
                     {
                         "id":  "legislation-2025-01-08-ma-fca-healthcare-investors",
                         "date":  "2025-01-08",
-                        "agency":  "State Agencies",
+                        "agency":  "State Agency",
                         "type":  "Legislation",
                         "title":  "Massachusetts Signs First-in-Nation Law Expanding False Claims Act Liability to Healthcare Investors",
                         "description":  "Governor Healey signed H.B. 5159, amending the Massachusetts False Claims Act to impose liability on owners and investors with 10%+ ownership interest who know about FCA violations and fail to disclose within 60 days. Targets private equity investors in healthcare entities. Violators face treble damages and civil penalties of $5,500-$11,000 per false claim.",
@@ -3465,7 +3465,7 @@
                     {
                         "id":  "media-2025-11-13-nj-horizon-bcbs-100m-settlement",
                         "date":  "2025-11-13",
-                        "agency":  "State Agencies",
+                        "agency":  "State Agency",
                         "type":  "Civil Action",
                         "title":  "NJ AG: Horizon Blue Cross Blue Shield Agrees to Pay $100M in Largest-Ever State Non-Medicaid FCA Settlement",
                         "description":  "Horizon Healthcare Services (Horizon BCBS NJ) agreed to pay $100 million, the state\u0027s largest-ever non-Medicaid False Claims Act settlement. Horizon allegedly fraudulently induced the state into a 2020 contract and systematically overcharged for healthcare claims for state employee benefit programs. Whistleblowers to receive $12M.",
@@ -3712,7 +3712,7 @@
                     {
                         "id":  "media-2025-10-31-texas-ag-healthcare-fraud-results",
                         "date":  "2025-10-31",
-                        "agency":  "State Agencies",
+                        "agency":  "State Agency",
                         "type":  "Criminal Enforcement",
                         "title":  "Texas AG Paxton: 120+ Arrests and $125 Million Recovered from Healthcare Fraudsters in 2025",
                         "description":  "Texas Attorney General\u0027s Medicaid Fraud Control Unit recovered $125+ million and secured 123 arrests and 180 indictments related to healthcare fraud in 2025. In June, the unit participated in the national takedown, resulting in charges against 30 Texas defendants connected to schemes totaling $177 million in fraudulent billings and $1.7 million in illegal kickbacks, plus unlawful diversion of 10+ million opioid pills.",
@@ -4382,7 +4382,7 @@
                         "type":  "Administrative Action",
                         "amount":  "$107 million/year (program cost)",
                         "description":  "Minnesota DHS shut down the $107 million/year Housing Stabilization Services (HSS) program, citing credible allegations of fraud. Investigation found many providers simply rented apartments to Medicaid recipients and billed for services never provided. The program was designed to help elderly and disabled Minnesotans at risk of homelessness. Governor Walz ordered suspension of payments to 50 of the largest providers.",
-                        "agency":  "State Agencies",
+                        "agency":  "State Agency",
                         "social_posts":  [
 
                                          ],
@@ -4547,7 +4547,7 @@
                     {
                         "id":  "media-2026-03-14-iowa-nucara-pharmacy-22m",
                         "date":  "2026-03-14",
-                        "agency":  "State Agencies",
+                        "agency":  "State Agency",
                         "type":  "Civil Action",
                         "title":  "Iowa HHS Sues NuCara Pharmacy for Keeping $22M+ in 340B Drug Program Funds Owed to State",
                         "description":  "Iowa Department of Health and Human Services filed a lawsuit against NuCara Specialty Pharmacy in Pleasant Hill, IA, alleging the pharmacy kept more than $22 million in past-due program income from the federal 340B Drug Pricing Program. Under a state contract, NuCara purchased HIV medications at reduced 340B prices, collected full insurance reimbursements, and was required to return the profit (minus a $75 processing fee per claim) to the state monthly. The lawsuit alleges payments stopped 8 months ago and NuCara used the funds to pay other creditors.",
@@ -4751,7 +4751,7 @@
                     {
                         "id":  "media-2026-03-17-380196477",
                         "date":  "2026-03-17",
-                        "agency":  "State Agencies",
+                        "agency":  "State Agency",
                         "type":  "Civil Action",
                         "title":  "Connecticut recovers $43 million in Medicaid fraud payments - CT Insider",
                         "description":  "Connecticut recovered $43 million in Medicaid fraud payments through enforcement actions targeting providers who submitted false claims or overbilled the state Medicaid program.",
@@ -5031,7 +5031,7 @@
                     {
                         "id":  "media-2026-03-12-89483935",
                         "date":  "2026-03-12",
-                        "agency":  "State Agencies",
+                        "agency":  "State Agency",
                         "type":  "Civil Action",
                         "title":  "Wisconsin man gets 11 years for Medicaid fraud, to pay nearly $3 million in restitution - WFRV Local 5",
                         "description":  "A Wisconsin man was sentenced to 11 years in federal prison for Medicaid fraud and ordered to pay nearly $3 million in restitution for submitting fraudulent claims to the state Medicaid program.",
@@ -5061,7 +5061,7 @@
                     {
                         "id":  "media-2026-01-13-374321910",
                         "date":  "2026-01-13",
-                        "agency":  "State Agencies",
+                        "agency":  "State Agency",
                         "type":  "Criminal Enforcement",
                         "title":  "Alaska psychiatrist arraigned on 16 felony counts in Medicaid fraud scheme - Alaska\u0027s News Source",
                         "description":  "An Alaska psychiatrist was arraigned on 16 felony counts for allegedly defrauding the state Medicaid program through a billing scheme involving psychiatric services.",
