@@ -3570,35 +3570,6 @@
                                      ]
                     },
                     {
-                        "id":  "media-2025-12-18-mn-reformer-9b-fraud-estimate",
-                        "date":  "2025-12-18",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Minnesota Reformer: U.S. Attorney Says Fraud Likely Exceeds $9 Billion in Minnesota Medicaid Services",
-                        "description":  "First Assistant U.S. Attorney Joe Thompson announced that 14 Medicaid services under audit cost the state $18 billion since 2018, and that a substantial portion is fraudulent, likely exceeding $9 billion. Shell companies created to bill for services never provided; fraud tourism by out-of-state actors setting up fake providers. Schemes span Housing Stabilization, EIDBI autism services, and Integrated Community Supports.",
-                        "amount":  "$9 billion+ (estimated fraud); $18 billion (total spending on 14 services)",
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://minnesotareformer.com/2025/12/18/u-s-attorney-fraud-likely-exceeds-9-billion-in-minnesota-run-medicaid-services/",
-                        "link_label":  "Minnesota Reformer",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-                                     "Medicaid",
-                                     "Behavioral Health",
-                                     "Housing Fraud"
-                                 ],
-                        "state":  "MN",
-                        "source_type":  "news",
-                        "auto_fetched":  false,
-                        "entities":  [
-
-                                     ]
-                    },
-                    {
                         "id":  "media-2025-09-16-kff-exactech-knee-implant-settlement",
                         "date":  "2025-09-16",
                         "agency":  "Media",
@@ -4168,34 +4139,6 @@
                                      ]
                     },
                     {
-                        "link":  "https://hospicenews.com/2026/01/28/california-revokes-280-hospice-licenses-in-fraud-fight-congressional-hearing-set/",
-                        "id":  "media-2026-01-28-hospice-news-ca-280-licenses-revoked",
-                        "auto_fetched":  false,
-                        "officials":  [
-
-                                      ],
-                        "state":  "CA",
-                        "source_type":  "news",
-                        "title":  "Hospice News: California Revokes 280 Hospice Licenses; Congressional Hearing Set for Feb 3",
-                        "link_label":  "Hospice News Article",
-                        "type":  "Investigative Report",
-                        "amount":  "$1.6 billion (recovered from Medi-Cal); $2.5 billion (estimated LA fraud)",
-                        "description":  "California revoked 280+ hospice licenses over the past two years, with 300 additional hospices under evaluation for revocation. CMS recovered more than $1.6 billion in federal funds from California\u0027s Medi-Cal program (88% of all recovered Medicaid funding from 7 states and DC). House E\u0026C hearing \u0027Common Schemes, Real Harm\u0027 scheduled for February 3, 2026.",
-                        "agency":  "Media",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-                                     "Hospice Fraud",
-                                     "Medi-Cal"
-                                 ],
-                        "date":  "2026-01-28",
-                        "amount_numeric":  0,
-                        "entities":  [
-
-                                     ]
-                    },
-                    {
                         "link":  "https://www.justice.gov/opa/pr/fraud-tourists-plead-guilty-minneapolis-medicaid-fraud",
                         "id":  "media-2026-02-10-doj-mn-fraud-tourists-ai",
                         "auto_fetched":  false,
@@ -4249,35 +4192,6 @@
                                  ],
                         "date":  "2026-02-12",
                         "amount_numeric":  10000000,
-                        "entities":  [
-
-                                     ]
-                    },
-                    {
-                        "link":  "https://www.axios.com/2026/02/14/elon-musk-doge-medicaid-fraud-hhs-database",
-                        "id":  "media-2026-02-13-doge-medicaid-data-release",
-                        "auto_fetched":  false,
-                        "officials":  [
-
-                                      ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "title":  "DOGE/HHS Release Largest Medicaid Dataset in History to Crowdsource Fraud Detection",
-                        "link_label":  "Axios Article",
-                        "type":  "Investigative Report",
-                        "amount":  null,
-                        "description":  "DOGE unit at HHS released the largest Medicaid dataset ever on opendata.hhs.gov, aggregating provider-level claims data (fee-for-service, managed care, CHIP) from 2018-2024. Within hours, citizen analysts flagged facilities billing impossible procedure volumes, clinics at residential addresses diagnosing hundreds of children with autism monthly, and providers billing more services than humans in their zip code. Treasury Secretary Bessent announced plans for a whistleblower fraud reporting website with 10-30% bounties.",
-                        "agency":  "Media",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-                                     "Medicaid",
-                                     "DOGE",
-                                     "Whistleblower"
-                                 ],
-                        "date":  "2026-02-13",
-                        "amount_numeric":  0,
                         "entities":  [
 
                                      ]
@@ -4400,34 +4314,6 @@
                                      ]
                     },
                     {
-                        "link":  "https://leadingage.org/cms-fact-sheet-on-hospice-fraud/",
-                        "id":  "media-2025-07-23-cms-hospice-fast-facts",
-                        "auto_fetched":  false,
-                        "officials":  [
-
-                                      ],
-                        "state":  "CA",
-                        "source_type":  "news",
-                        "title":  "CMS Hospice Fast Facts: 668 Hospices Under Enhanced Oversight, 122 Revoked, 7,000+ Visited",
-                        "link_label":  "LeadingAge Article",
-                        "type":  "Investigative Report",
-                        "amount":  null,
-                        "description":  "CMS released a Hospice Fast Facts sheet revealing the scale of its hospice fraud crackdown: 668 hospices under Provisional Period of Enhanced Oversight medical review, 122 hospice enrollments revoked. CMS has visited over 7,000 hospices nationwide, with nearly 400 being considered for potential administrative action. LA County remains the epicenter, with 18% of the nation\u0027s hospice billing concentrated there.",
-                        "agency":  "Media",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-                                     "Hospice Fraud",
-                                     "Medicare"
-                                 ],
-                        "date":  "2025-07-23",
-                        "amount_numeric":  0,
-                        "entities":  [
-
-                                     ]
-                    },
-                    {
                         "link":  "https://www.cnbc.com/2025/07/24/unitedhealthcare-doj-investigation-medicare-billing.html",
                         "id":  "media-2025-07-24-cnbc-unitedhealth-doj-investigation",
                         "auto_fetched":  false,
@@ -4453,62 +4339,6 @@
                         "amount_numeric":  0,
                         "entities":  [
                                          "UnitedHealth"
-                                     ]
-                    },
-                    {
-                        "link":  "https://oag.ca.gov/news/press-releases/confronting-hospice-fraud-attorney-general-bonta-launches-public-awareness",
-                        "id":  "media-2025-08-06-ca-ag-hospice-fraud-awareness",
-                        "auto_fetched":  false,
-                        "officials":  [
-
-                                      ],
-                        "state":  "CA",
-                        "source_type":  "news",
-                        "title":  "CA Attorney General Bonta Launches Hospice Fraud Awareness Campaign; 109 Charged, 24 Civil Cases",
-                        "link_label":  "CA AG Press Release",
-                        "type":  "Investigative Report",
-                        "amount":  null,
-                        "description":  "California AG Rob Bonta launched a public awareness initiative for hospice fraud in the LA area, including billboards, radio spots, community forums, and a dedicated fraud hotline. Since taking office, the AG\u0027s Division of Medi-Cal Fraud and Elder Abuse has filed criminal charges against 109 individuals and conducted 24 civil investigations for hospice-related offenses. Fraud concentrated in Van Nuys, Glendale, Burbank, and North Hollywood.",
-                        "agency":  "Media",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-                                     "Hospice Fraud",
-                                     "Medi-Cal"
-                                 ],
-                        "date":  "2025-08-06",
-                        "amount_numeric":  0,
-                        "entities":  [
-
-                                     ]
-                    },
-                    {
-                        "link":  "https://www.ag.state.mn.us/Office/Communications/2025/08/12_Yusuf.asp",
-                        "id":  "media-2025-08-12-mn-ag-yusuf-medicaid-conviction",
-                        "auto_fetched":  false,
-                        "officials":  [
-
-                                      ],
-                        "state":  "MN",
-                        "source_type":  "news",
-                        "title":  "MN AG: Abdifatah Yusuf Convicted on 6 Counts of Medicaid Theft Through Sham Home Services Agency",
-                        "link_label":  "MN AG Press Release",
-                        "type":  "Investigative Report",
-                        "amount":  null,
-                        "description":  "Minnesota AG Ellison\u0027s Medicaid Fraud Control Unit obtained guilty verdicts against Abdifatah Yusuf for six counts of aiding and abetting theft by swindle (over $35,000 each). Yusuf ran Promise Health Services LLC, which claimed to provide home and community-based waivered services but lacked any office building and operated for years out of a mailbox.",
-                        "agency":  "Media",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-                                     "Medicaid",
-                                     "Home Health Fraud"
-                                 ],
-                        "date":  "2025-08-12",
-                        "amount_numeric":  0,
-                        "entities":  [
-
                                      ]
                     },
                     {
@@ -4592,63 +4422,6 @@
                                  ],
                         "date":  "2025-05-22",
                         "amount_numeric":  227000000,
-                        "entities":  [
-
-                                     ]
-                    },
-                    {
-                        "link":  "https://ag.ny.gov/press-release/2025/attorney-general-james-secures-prison-sentence-serial-health-care-fraudster",
-                        "id":  "media-2025-04-ny-ag-serial-fraudster-sentenced",
-                        "auto_fetched":  false,
-                        "officials":  [
-
-                                      ],
-                        "state":  "NY",
-                        "source_type":  "news",
-                        "title":  "NY AG James: Serial Health Care Fraudster Imran Shams Sentenced to Up to 25 Years for Millions in Medicaid Fraud",
-                        "link_label":  "NY AG Press Release",
-                        "type":  "Investigative Report",
-                        "amount":  null,
-                        "description":  "NY Attorney General Letitia James secured sentencing of Imran Shams, 66, of California, to 8.33 to 25 years in state prison for running a scheme that wrongfully billed Medicaid millions of dollars for fraudulent medical testing services. Shams was described as a serial health care fraudster with prior convictions.",
-                        "agency":  "Media",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-                                     "Medicaid",
-                                     "Lab Fraud"
-                                 ],
-                        "date":  "2025-04-15",
-                        "amount_numeric":  0,
-                        "entities":  [
-
-                                     ]
-                    },
-                    {
-                        "link":  "https://www.axios.com/2025/02/06/elon-musk-doge-health-data-cms",
-                        "id":  "media-2025-02-05-bloomberg-doge-cms-access",
-                        "auto_fetched":  false,
-                        "officials":  [
-
-                                      ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "title":  "Bloomberg/Axios: DOGE Team Gains Read-Only Access to CMS Medicare and Medicaid Payment Systems",
-                        "link_label":  "Axios Article",
-                        "type":  "Investigative Report",
-                        "amount":  null,
-                        "description":  "Bloomberg and Axios reported that Elon Musk\u0027s DOGE team gained read-only access to CMS contracting and payment systems to search for \u0027big money fraud.\u0027 Two senior CMS staff leading collaboration. DOGE examining Medicare and Medicaid payment data for waste, fraud, and abuse. Musk posted: \u0027Yeah, this is where the big money fraud is happening.\u0027 No access to personal health information of beneficiaries.",
-                        "agency":  "Media",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-                                     "Medicare",
-                                     "Medicaid",
-                                     "DOGE"
-                                 ],
-                        "date":  "2025-02-05",
-                        "amount_numeric":  0,
                         "entities":  [
 
                                      ]
@@ -4882,33 +4655,6 @@
                         "auto_fetched":  true
                     },
                     {
-                        "id":  "media-2026-03-18-2113370745",
-                        "date":  "2026-03-18",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Arkansas woman convicted of Medicaid fraud - thv11.com",
-                        "description":  "Arkansas woman convicted of Medicaid fraud  thv11.com",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeDRuVWZQY2ZrREFHVXNLdkd6N3F0eTAyVlJzSGk5aVhHVTQ5a3pSaHMxS0VDcG03VGRRQmVZYWwyUVFiNXZOY0o4eXBra0tMajJwSlRyel83Mnd5QnF6aVF0U2pBX0dkbE10LWplQnN6c0lEaWZuY2d3cGt3c0pucEtUZFY1bG5UY3lhSTVvRlk2LUMzNk9yNXB6alU1dWtjOERrU2g1blV6TkFhSkE0bzJTQXhtaTgwSHhWVA?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
                         "id":  "media-2026-03-18-487939711",
                         "date":  "2026-03-18",
                         "agency":  "Media",
@@ -5071,33 +4817,6 @@
                         "auto_fetched":  true
                     },
                     {
-                        "id":  "media-2026-03-17-1435733987",
-                        "date":  "2026-03-17",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Trump administration widens Medicaid fraud crackdown to Florida, calling it a â€˜hotspotâ€™ - AP News",
-                        "description":  "Trump administration widens Medicaid fraud crackdown to Florida, calling it a â€˜hotspotâ€™  AP News",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMiugFBVV95cUxNclJVMGtVUEJuUWNXeHFILVcxTVlsdVdwQlU2ckpFUGZKVGRMalN3TU9aQ3NqM1VHcG1QZ3JneDBEcC1oRklNcTZGaHpmRVdmYUYzdzlXenU0QWJCZnJ6NGR2UTRldlJjVGd5RzR3SWF4X0lybjNQQ21FSDVGSlQ2ZlZEbkN4aHlnWFNGRjlmZ2RxZl9TNlF6aloyM2padFowYklvY1lLaU5VUlVxeGEyLTN5aGpWb3ZRSnc?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "FL",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
                         "id":  "media-2026-03-18-619872979",
                         "date":  "2026-03-18",
                         "agency":  "Media",
@@ -5121,33 +4840,6 @@
 
                                      ],
                         "state":  "WA",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-03-17-133515175",
-                        "date":  "2026-03-17",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Milwaukee man sentenced to 11 years for $2.5M Medicaid fraud - Milwaukee Journal Sentinel",
-                        "description":  "Milwaukee man sentenced to 11 years for $2.5M Medicaid fraud  Milwaukee Journal Sentinel",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVmgyNmFlWTcwRC1fVkFvS3ctSjE2NmNsbnl4eHdHVVRTV0tuU0kyQ0t2WXFjVzI3THExeC05RWpKRU5mZmxwbjItVU50eHAwMlJVd0Z0aGZLdjZWbU51R1RvdnAtX0lKWDBWRi1ZbkFBVTFDRGNKeW9FWkNRYWJ3SHpBR1FNd3lsZ004MExCZ3NMYnpVbjhZZW5mdm9NUHZEQjQ5YXh3eGNvN0JScWx1X21pWHJYaVRkVFhWZmc1YllGd2sxb09hY3RBS3JHS1gyY255bHln?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
                         "source_type":  "news",
                         "auto_fetched":  true
                     },
@@ -5179,33 +4871,6 @@
                         "auto_fetched":  true
                     },
                     {
-                        "id":  "media-2026-03-13-923379862",
-                        "date":  "2026-03-13",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "How Kentuckyâ€™s Addiction Recovery Care allegedly committed massive Medicaid fraud - Louisville Public Media",
-                        "description":  "How Kentuckyâ€™s Addiction Recovery Care allegedly committed massive Medicaid fraud  Louisville Public Media",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVFFtV3dqVXFQckhsLTdSeXh5QkE4UXVCOFhZUjh0X3B1cE9VYkZ5YTk5alVCdlZiaWNNQmpmRXRncnBsMFpHZXhLOHdSTVk2MVZoQ0M5SW16Sm1fTnE0RUdiNlRPX2dTVGsxa2xid2JQLUVSeXlueV9fU3VibXQ2MXdubzhJVTJfaGxkUGRDQWxiRlo0MG1DWW51SUY1d016akpfaV9EaHBQSDR4QkxfU0t5VmJWOGM?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "KY",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
                         "id":  "media-2026-01-29-2111006586",
                         "date":  "2026-01-29",
                         "agency":  "Media",
@@ -5218,60 +4883,6 @@
 
                                       ],
                         "link":  "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZG5STm5oTGV1VlhObTU1a2lVUVhQLXRoWjE0bXp0cTBIQ1BqUUNfQ21nOEc2b1RvelBUQ18zU2pHa3pIbzlNdkVVVVQ4ZmRLLXBmRUt3cmNramhpZXdOX3MzSFpDU0VXZlJzWjZlQURhT0drYWxLNWdVR0NYcE9sMXJLcVhhbXVSX241NldNb3Jzd1BQWTVzTFhWVXNLSjdIaHJKRExHZmp6V3cweFVrOUxqckkwY2ZiZFBB?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "FL",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-03-17-1041141701",
-                        "date":  "2026-03-17",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Dr. Oz Claims Florida Also Has Healthcare Fraud Problem - Law360",
-                        "description":  "Dr. Oz Claims Florida Also Has Healthcare Fraud Problem  Law360",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWTAzQ2ZLN2YtX3VHX0RvaF9DdlBtWlkyamd6U2ZPazNsRmJwX1gtajE4TEd6OEJYY0RMUld1eHR5cFdLYjRTeUF0N1RJZVYyNzQ4V2IzRmR1WGlTZEpnNzVieUZuLW5vdlpXckd1c1N3RGVNa3BOSXlOWHNGMzdfa0VRSnZzbE9nVkFLTmdacUs1TkY3YVhjX2IyU0phSTBPZ1HSAVZBVV95cUxPVmpzbnk3N2ZHbDN2dEZ1ZnNTWkgwWDcwc3ZfZUJ1c3FKUmxma0EwZ2NYV0x1S21YSGcyQWZNR3k2LW9EY1Z3aUlDSHdfVXJXWUZLUGhWZw?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "FL",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-03-17-195200131",
-                        "date":  "2026-03-17",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Trump administration widens Medicaid fraud crackdown to Florida, calling it a \u0027hotspot\u0027 - Marietta Daily Journal",
-                        "description":  "Trump administration widens Medicaid fraud crackdown to Florida, calling it a \u0027hotspot\u0027  Marietta Daily Journal",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMihAJBVV95cUxQem5IX0IzeEoyWlpmdzIyN05jUWhpQXl2VXJkem8xeGp5bHZRZG9MSmhQTm1RYVZURHNNbTF5T0QzN0E2YmwtdG02U0lsRjlVeXc3VEJkY3o0ZWd1dVc3ZUV5c1pVMFVPZXZ2eGtieVFRYzU2OUJsOWthbEtBV21FN2d2NnFkaU9FSktVMGNxUXU2SnU3U1ZJWldmbUEtYkVPWWpQUVZ5U0RWbWpSa0UtTl9KaFhNSXhzbXJVZHk1RWpqMUlwWUVJdU0zaXNjS0Y2dWptZDk5ZVdaNXA3WVF2eGdPMjRMNmNHRzJGSkx2cEk0eEVPVkl4YjYtTVhoczlhT3pJUw?oc=5",
                         "link_label":  "Google News Report",
                         "social_posts":  [
 
@@ -5314,87 +4925,6 @@
                         "auto_fetched":  true
                     },
                     {
-                        "id":  "media-2026-03-17-851532152",
-                        "date":  "2026-03-17",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Trump administration widens Medicaid fraud crackdown to Florida, calling it a \u0027hotspot\u0027 - Oskaloosa Herald",
-                        "description":  "Trump administration widens Medicaid fraud crackdown to Florida, calling it a \u0027hotspot\u0027  Oskaloosa Herald",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQeGlmcjRtZTQyNXRySml4WFM0N3J0Q2g5dnhjYThTTGZHVnJtaDdyTEo2dTNMb3VvcW84Qk10TXN2UmFHWFRxdjRodHVaaGtPYmNZTFZxZE5POVY3bXl5bVdxMWhJa2h0bzdBQk5IU2tRUy02R3lfXzd1N01GdGdYOEt0XzBYZVo2eXJIMFE0bTE1cEplRWU2TlhraHl5dVBHcURyalhwNTYwb2R5bDdSdDNfbjYzTkJfbzYyUjU4akFZYnVzRXdfMHVwcVVNQkkwQ2VfRFU3azZ1bExvOWhVcXhLdmtJbDM2WGVFbVk3N29peWp1eFlEM0RRYW9hMXEwMERTVlhPWlgwYWs?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "FL",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-03-11-1192410434",
-                        "date":  "2026-03-11",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "O\u0026I Subcommittee: Protecting Patients and Safeguarding Taxpayer Dollars: The Role of CMS in Combatting Medicare and Medicaid Fraud - House Committee on Energy and Commerce (.gov)",
-                        "description":  "O\u0026I Subcommittee: Protecting Patients and Safeguarding Taxpayer Dollars: The Role of CMS in Combatting Medicare and Medicaid Fraud  House Committee on Energy and Commerce (.gov)",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMiggJBVV95cUxPSTJFNm5na3F1QmRMY3pSV3ZRNVExWnJaVUY5bDJrdkhJbnVwTWZybWRaZWVkbDhFSTJFZERTWEpmTk9qakhUblVnRVZYYjRGeVdOTS0wSlN2MEpnaWRLcTJ3SDNnZ1ItdlBTRkRwX00xWVVpb2FaSTRaV1UxMVUydGdrRnZDdmFzejFhRW1hZkJKWHdlYTJ0dDVLRWR3Nnc0bzVNalRWLU55RWNaYTI3SzFIdzBsamd2Z2lhdC1ZcFlUQnktRU1PYzJOQUVCUnpzOExuYWRvd3NHNlk2ZG1IOVpud01ZblpRYVZ4ekRhaFpqeHViV1BxMkZQOEpJR3c0bWc?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-03-17-1268101970",
-                        "date":  "2026-03-17",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Lawmakers spar over Medicare, Medicaid fraud in California, Minnesota - The Black Chronicle",
-                        "description":  "Lawmakers spar over Medicare, Medicaid fraud in California, Minnesota  The Black Chronicle",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZ3RWQVdROTJMSUtSNDJ0Ym11a0FZYlpKRFdNeTRqRlhnR25lLTZmZHo2Q0p3RFBRc0RURDZOc0J3aDFYOHZfMV9nUkF5MkQ3ZjhheEhydHZDTlp3OHJsV1lGVVgxaHhyMmpFQmZIY2JwbGlYTUxnMEVtTUowTzh3clF5UE85RWprTXA0SEo0Q0RCUFF1V1c1T0tfX2xhX0tTNkhMZUd3VkNlODZRYXRPdVpFaw?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "CA",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
                         "id":  "media-2026-03-18-1175218972",
                         "date":  "2026-03-18",
                         "agency":  "Media",
@@ -5418,33 +4948,6 @@
 
                                      ],
                         "state":  "FL",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-03-05-1062286638",
-                        "date":  "2026-03-05",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Medicaid Fraud and Patient Abuse - Utah.gov",
-                        "description":  "Medicaid Fraud and Patient Abuse  Utah.gov",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1qVVlfS0p4eUxsamdxWFV3ai1WeFF3aW44VFN0S0dSNGZJRnlYaW03TmQ5T3ZRV2V0Q2VkWUJncVF3VXA1T1dJbEFRSzBKYUtNX01sc0V5MEJ4emlm?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
                         "source_type":  "news",
                         "auto_fetched":  true
                     },
@@ -5476,33 +4979,6 @@
                         "auto_fetched":  true
                     },
                     {
-                        "id":  "media-2026-03-17-14838407",
-                        "date":  "2026-03-17",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Trump administration widens Medicaid fraud crackdown to Florida, calling it a \u0027hotspot\u0027 - Waco Tribune-Herald",
-                        "description":  "Trump administration widens Medicaid fraud crackdown to Florida, calling it a \u0027hotspot\u0027  Waco Tribune-Herald",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeGtSaU1iampVWkRUOHg2bktqblc1WEZoSjZQQndqRFkzTWhVVjdtVjlGeHZobmYzQk9FNVpVNUI2dURkOHRnSTRvWDFYUWFsWXAxWlZwZVloYWRUV1paVVN5WWtIQzRFNjRSX3M4M1pnVVVwc1RUd1RzSWxZLTFnbVNKLXVURTN2alE?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "FL",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
                         "id":  "media-2026-01-27-1885422764",
                         "date":  "2026-01-27",
                         "agency":  "Media",
@@ -5526,33 +5002,6 @@
 
                                      ],
                         "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-03-17-1249704131",
-                        "date":  "2026-03-17",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Trump administration widens Medicaid fraud crackdown to Florida, calling it \u0027hotspot\u0027 - livingstonenterprise.net",
-                        "description":  "Trump administration widens Medicaid fraud crackdown to Florida, calling it \u0027hotspot\u0027  livingstonenterprise.net",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMizgFBVV95cUxPU3JJNk1lRDlxSUtZVVJKYnpJYlZENmdNejY4QUlBRlItN2p0NHVYMG1VdXVzaVJoS2kyTnJMLUk0OEhOWk0xamdkd0VtakV4LTlhdDZJQjR5ZHBqM0NKbC1lTFFvRVJiVXFVMWFjY00xNTY2NGpZa1ZmRnFwVE5TcjlpMnFiMUV6aGdjbVUxM2FRcjNSOVBnandmaE5uZTRuYmRzTi1VYUFYT295WWkwR0FXZVBJNEtvM1JFZ1YtZktVR0dsWEFIajd6VVNDQQ?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "FL",
                         "source_type":  "news",
                         "auto_fetched":  true
                     },
@@ -5611,60 +5060,6 @@
                         "auto_fetched":  true
                     },
                     {
-                        "id":  "media-2026-03-12-49009516",
-                        "date":  "2026-03-12",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Canton woman among 10 facing state Medicaid fraud charges - Canton Repository",
-                        "description":  "Canton woman among 10 facing state Medicaid fraud charges  Canton Repository",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSFlKNXVUeUJkNzg5ZFFrOFdmQlA3Z0tLZXVSczh6R1lXWmpmbHlGZWM2WHQ3dktFVjNSUHpDbkRZNUtaUzUyZHkzYkZhZ2pWNkxmSU1McUt6b3pRYVlNVmJfWElJZ3pYR0tuakdCeTVLUEpJVHpRVjZDaGZCem9qTkhmaVo4bUdsM1piV0plVVBJXy1JcW9Xb3l3eVMtb25NV1ZQZkVPLVRnSmp1dmY3SEVZdw?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-03-17-285427362",
-                        "date":  "2026-03-17",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Trump administration widens Medicaid fraud crackdown to Florida, calling it a \u0027hotspot\u0027 - Temple Daily Telegram",
-                        "description":  "Trump administration widens Medicaid fraud crackdown to Florida, calling it a \u0027hotspot\u0027  Temple Daily Telegram",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdlduYWhCbF9XRGdZMk5oSWJKclgwSG1ILVhFMDF6Y0ZaeGl6SFZCQzZ5eUEtdHdnYnYxUlhxYjJZeDVJS1F6clRaVVoyNFEyY3NjQ0dpb0tDTGR4M254bjIxTlJ2c1dJMFMxNlR5bldtV2pGRTNTOWxLSkQ3NmlqYkNGcWNDd3lRSEhEbFRDZ3lyVzdteEE?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "FL",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
                         "id":  "media-2026-03-06-1036686978",
                         "date":  "2026-03-06",
                         "agency":  "Media",
@@ -5677,60 +5072,6 @@
 
                                       ],
                         "link":  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYXVKTG04Z3NRaGRFc1ZIQU9aZzJDaXhsM2JMWWNZOVlYbnY1d1A1c2tiTE9TSm9tOFc3SUVQaUFUdzVab3dMUjcyb2VTYldUSUZxRUdtWlZhV19lWVFxcmRyYWtoZEhNUnJIN0c4eVlfNmJ0YjNHZVdocS1tNEVjemt6eXg2bThOdE0xU29mWlF0Y291SFViWmdvSDVnbkdzcDhIQkZPM3pXb28?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-03-17-1034776055",
-                        "date":  "2026-03-17",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Lawmakers spar over Medicare, Medicaid fraud in California, Minnesota - Shelby News",
-                        "description":  "Lawmakers spar over Medicare, Medicaid fraud in California, Minnesota  Shelby News",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNcTNUMUIwVzJScHhwVV96UUcwVzJvdDhLT1c0UVBwZjBCVTJWYTJrOHRBS3BoTnhJSkFITjEycERyaGZZU3dtZ2JyOUJtWU1BRmFlT0Q5T3VfLUNyQmRHZ1dKQllGaVozWjBBTk9hbWNJSEdRNDliRHNrZWhDU3lodks2azVvZ3RPX3JNLXdBYnBzYVJBem56alFyU2FyLVJoY1dpdlBVdHJWNHQtQTg1bVhlRUhHLXFSWXlDZjZnQ1BhQnktLUJPYkxVRXdrdm52QzNlbU5KOHVCUW1iUURRbTlCLWpJWkpYOUZyS2dRTQ?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "CA",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-03-13-549241827",
-                        "date":  "2026-03-13",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "PAs could practice without physician oversight; $32M Medicaid fraud; AI diagnostics threaten patient safety â€” Morning Medical Update Weekly Recap - Medical Economics",
-                        "description":  "PAs could practice without physician oversight; $32M Medicaid fraud; AI diagnostics threaten patient safety â€” Morning Medical Update Weekly Recap  Medical Economics",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMiigJBVV95cUxPdEZsczlpaUY5d1hTekpBUE5EQS1XUnFjaUxxTlpxbWVBNFp1N3ltOTBubkRTQkhIUkpRS0pxVXlvTTN5WThMX0U2VEw4Qmd4NXZYY3lsVXN2X0ViNXBxQVFGTlFJRkNXQ3ZtVlBVX29hdXI1VmRPT2RySGtXZ1k1dkRSeUFubnFEY3RxZkk1QnNpVlp2TmhQTEVMMWhjOWwxa1FMN3VGcnRhenlkYUJfQ1JWdHZxVHJjVXBrM2tyWjY0X3ZWYVVkV25seHpLTUZaWGF0ZVpOdFljdzlDLXBxUEVidXhjNEo4RTRZUGxROTl4MVlNSXBjNFhZN0xHSVBxdUtZMmNfaUhZZw?oc=5",
                         "link_label":  "Google News Report",
                         "social_posts":  [
 
@@ -5881,33 +5222,6 @@
                         "auto_fetched":  true
                     },
                     {
-                        "id":  "media-2026-01-20-1217612331",
-                        "date":  "2026-01-20",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Medicaid Fraud in New York - Cato Institute",
-                        "description":  "Medicaid Fraud in New York  Cato Institute",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ZZ2cxS0tlRzlPRmdFMm01cGVBSHc3M3daVkc3TGtieGpZUmJUYWJORlQzRmUxQ3RQRjBTRHFDVndFenRKY212TXU3aF9qQV9pQ1lkZUhZQ2czWnpsMHc?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "NY",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
                         "id":  "media-2026-03-12-89483935",
                         "date":  "2026-03-12",
                         "agency":  "Media",
@@ -5931,33 +5245,6 @@
 
                                      ],
                         "state":  "WI",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-01-23-1456153683",
-                        "date":  "2026-01-23",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Amid mounting allegations, Maine lawmakers weigh next steps on Medicaid fraud - Maine Morning Star",
-                        "description":  "Amid mounting allegations, Maine lawmakers weigh next steps on Medicaid fraud  Maine Morning Star",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLWdGS3Q4R1IxOVFJM1JnT21aLWhVMmpNMjJBLVVyanRRamxIVmttODNuVndGLVRQX0J1R1FGaHQycHNjNS0wX21hU2NyYVpqSmlKblNsYTQxRENYT0ZvNU5sMGZBdEloQ2dUSVowb2xRSmlMdDdGTzNLZDlHVkVHT3RrMDB4ZkhvdlRVdl9BNjR4YjV5RV9QRU5iX2VJNC12b0diUy15d1dSUnRubmlONGp4UUVUdmRm?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "ME",
                         "source_type":  "news",
                         "auto_fetched":  true
                     },
@@ -6028,33 +5315,6 @@
 
                                       ],
                         "link":  "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVDFvT1dJZDctNGRJdC1paTdoSVczU081Z0FRS29BNy1yUURfSFBPbUs2OWlzYk1yQmlLeF9RZHlGMVhlOE00SFRFQVVnZnVWelMtX2NiUjhLYzdZREt4TmlBSWIzeExDczdNb1kyM3R4ZC1JSWtSano0cXNaZG9xSHprb1BHUVZmLWxiVjBtdXk3Q3A4V0JJMGVkOUJWTS1TUTRzdXdIbl9hcHp2SXd1RHFUWFB1SHlQdVFlcHR6OVRFYUJWX0t3NWhWR0c?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2025-06-25-242556512",
-                        "date":  "2025-06-25",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Medicaid Fraud Control Units Annual Report: Fiscal Year 2024 - Office of Inspector General (.gov)",
-                        "description":  "Medicaid Fraud Control Units Annual Report: Fiscal Year 2024  Office of Inspector General (.gov)",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLVNPZXRfRkdrcFYwaTRaR01PVFR3Qm9PTGtMTXhiOWx1d2tiU3hqTC0yM0xRekpLYlZ2ZkNuX3pscktFRTFuY0luUlp5UTNZQXB3Z2d3am1za1JGb3dhdnVwM0xJRnVvbjFvXzR0VE5vbmhWTXN0UnQ0OE4zV1pWQkZ3UEowblFLQVBvd2ZmTHJMdlhubnI3VDZlcHE?oc=5",
                         "link_label":  "Google News Report",
                         "social_posts":  [
 
@@ -6151,60 +5411,6 @@
                         "auto_fetched":  true
                     },
                     {
-                        "id":  "media-2026-03-10-1559526206",
-                        "date":  "2026-03-10",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Republicans blast Millsâ€™ â€˜insultingâ€™ response to Trump administration over alleged Medicaid fraud - The Portland Press Herald",
-                        "description":  "Republicans blast Millsâ€™ â€˜insultingâ€™ response to Trump administration over alleged Medicaid fraud  The Portland Press Herald",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMizwFBVV95cUxNaWZtYlVVNzVpNTVaQjFsMVloZGpOaTNtcEtJeHJfNGlQTUNMei1GYk9DWGhaM0lBek1jUHZLTDR1Zl96VkVSc1ItVkozN0dHSVVTRWpvWWZPaDU5Q090V1c1UXl1MDJiLUQ0a0RRTEZfTkpTdFdkeXhuQkdLV3lYM3pEMUZWd1kwcm13UG01eVFWM0paRlN3WnJHZUI2cWs1U1NTUmtHNWxfRldIS0ZTdHB3Y1hWdlVjeXM5RlJIaHZKdXRsbG1CdGhmNkszcjA?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-01-19-824745838",
-                        "date":  "2026-01-19",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Pennsylvanians are Paying a High Price for Medicaid Fraud and Waste - commonwealthfoundation.org",
-                        "description":  "Pennsylvanians are Paying a High Price for Medicaid Fraud and Waste  commonwealthfoundation.org",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSXRxSjVNTWZNRXg1MWVDWlAxZ2lNWWNXWHNXSmotcnFkXzBWTDBaN1ljWDFlNWR5amlPZ281RHlUQ2FLTzVOdjlHUXN5WlNhckFuQ3ktdVI4blV2MENqdzdxUENyOGV5Z0pJbzF5Mi03SEZkZy0tRVFrM1lRcmQwM1U5Ni1raGU4YkxRTVRfZU5LZ0hYSzFncHVGQnppUG1LeGtGcHNGNmoxMGlu?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
                         "id":  "media-2025-12-19-1075140573",
                         "date":  "2025-12-19",
                         "agency":  "Media",
@@ -6217,87 +5423,6 @@
 
                                       ],
                         "link":  "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYk82MmhGc0pfX2FjSzBkZG1HdWVpenNaWnpHR2lFYi02NDByVW5pVkJnekVSdEl0YkFXVFd4Q0dPeFFKR3FRSWdBR0ZMcDhqdDZjNUNpQmstN1NueHl4VGJlSXN4ZmxJRTBCTGNRTVp3Y0FWQ2xIam5yYk9kOUtPeHNn?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "MN",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-01-16-620166866",
-                        "date":  "2026-01-16",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Kaiser Permanente will pay $556M to settle Medicare fraud case - The Oaklandside",
-                        "description":  "Kaiser Permanente will pay $556M to settle Medicare fraud case  The Oaklandside",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMingFBVV95cUxQWldoRkxLRmNLQmltaGl4RWZ2OTFuYlpEOUM3MGFqdlJDQjR4cHZnSmtHMFRfTVdONFVJc1dlWm10S3h3d2M5RmlTQ0VLaFFiZ2txSlVvTFBYcm1GX2dRdEpzUkxaaHlFOEFMUEFINUt1dUVkQjlIMFdTcnZfZ2Y0ZFlZU29FYnRCOFplRGZBV2FkbWZQakwxN0RSTmZOZw?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2025-12-18-412143103",
-                        "date":  "2025-12-18",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Feds bring new charges tied to \u0027staggering\u0027 Minnesota Medicaid fraud - MPR News",
-                        "description":  "Feds bring new charges tied to \u0027staggering\u0027 Minnesota Medicaid fraud  MPR News",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNW53WXpoT2xMQVE0X3NscC1KcGhHV0NKS1VTRGdpUVhqWlp0S00xaGY2cGlFZ2lqMG5TUjE2LXdFd0U1cXZFc0NxOTZ2TEY3VVJKSFgyZ0ZpNUU5a1NmTHo2ZVJiY1lvaDd4bnZSYWFrb2owSlFUOFdCRThGQ01NcmJIMGYwQ082R3c?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "MN",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2025-12-31-1205334643",
-                        "date":  "2025-12-31",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Law enforcement data and Medicaid fraud: 2025 year in review - Minnesota Reformer",
-                        "description":  "Law enforcement data and Medicaid fraud: 2025 year in review  Minnesota Reformer",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMiowFBVV95cUxPS0VrTVE2Z2ZaeTRicU5HYm1OY0FnVDN3d3hhSVRVcnU2YTlqVTVscWM0WWlVUU1SSTJQbEpmMy1NQUxzTWJoSUpmMGdQbTlFM2VSakFyMWpNNlpkTGI3TlpwS2Jra0k2M2RPbXU1ZU1rTElsY21hUDJ0RkJUTVB0OS10by1YNDdzWGgwTTJWeV8ybUZqb3M5dWNIdEJ1dl93dmE0?oc=5",
                         "link_label":  "Google News Report",
                         "social_posts":  [
 
@@ -6367,249 +5492,6 @@
                         "auto_fetched":  true
                     },
                     {
-                        "id":  "media-2025-12-29-1498443239",
-                        "date":  "2025-12-29",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Burlington mental health provider to pay $200K to settle Medicaid fraud claims - Vermont Public",
-                        "description":  "Burlington mental health provider to pay $200K to settle Medicaid fraud claims  Vermont Public",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQzNiMDFZdDlUdEhWajVzVVBZai1QWVdISXZuX1IxLUZBdkVRYlZRZl9BMlFKMW4xNFRNSUJEYlpaS0toQ3UwUDBBUHRoNU0wRG04UjV4T2g3Qzh5SW9jblIxdkNtbGFSNkItNFJZeElEN19MYXdUZGVQZWlfQ0V4YmwzUlBjSGlHTWpZTkpEOERpNEJrVVZsY0J1T05wTWxKSmNNQ3d6RUVIcUtyRlp4aUg3RWU1MVVudmI5Z3A1QkhvTlZldEVleg?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-03-16-898181889",
-                        "date":  "2026-03-16",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Lawmakers launch probe into Massachusetts Medicaid fraud, request data from Healey - The Daily Gazette",
-                        "description":  "Lawmakers launch probe into Massachusetts Medicaid fraud, request data from Healey  The Daily Gazette",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQaVVoTFN1dm0zS1hROWI5WkJOSGxZbjR4OVA0M1J3U1daS3pIRkhRU3dseEJCamVhU25zVnRIZkxsTEVYYmtoMk1jdHdRQW1zOUh4MHhVa0ZwTi1qTHd2NFZEd3VrNjF5VDZVQ1Y5WnVidW0wN3RPM3NHVGNJSXlvbnRWbGJEeGtmVFkxLXFSSDB0Nlp2aXhSMVlZU3BfdUFUNm1vVmxVMkNwWUkxbVFOaVBTX2lUWTdIV2xSRHVRdE1BVHNUU1FsZmZOTXFwVVY4UE9SSmpLRnlhM0ZsRS1rdjNibWx6WFh0TUhhaFQwcDdPRTlUVGdKWktzNWg?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-02-10-1827546958",
-                        "date":  "2026-02-10",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Combatting Healthcare Fraud, Waste, and Abuse with AI - ICF International",
-                        "description":  "Combatting Healthcare Fraud, Waste, and Abuse with AI  ICF International",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMidkFVX3lxTE02SlVCa0ZseUNjeG52c3hpZnl1LWFWTFM5YXRqNlRwSGFwZHd1QUFzc2Q0Q3ZUZjBSMWFNdTBwLVR0TE5oX2lhdGxMRUVNa0VKUTZ6SHg2dDhXeldUR3FqYmtoN0pWNF9jNFJnU3VkQVZQTWF6MWc?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2025-10-30-924526577",
-                        "date":  "2025-10-30",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Minnesota Cracks Down on Medicaid Fraud With Broad Payment Freeze - Governing",
-                        "description":  "Minnesota Cracks Down on Medicaid Fraud With Broad Payment Freeze  Governing",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMinwFBVV95cUxPN28xRWkzNmFROGNMMU42dkJPMmJzSllpU1hLZ3Qxem5Zck1odlVOdWVvWThneUJvRjBweGtzUGk1YktLUUt1M3NNSXNiTmNHUmlUUmlLaldVeTZfdzZST2tPWmNDUU5DVkk2eTNYc2RGMGVYdHJOV3R2ZVRTdlJld0pnTkV3RFZsZndGZ2lKM1pSY24zMm1PT0QwTHdkNk0?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "MN",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2025-11-19-1030462032",
-                        "date":  "2025-11-19",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "The Department of Justice Deploys Health Care Fraud Unit Strike Force to the Countryâ€™s Premier Healthcare Fraud Enforcement United States Attorneyâ€™s Office - Buchanan Ingersoll \u0026 Rooney PC",
-                        "description":  "The Department of Justice Deploys Health Care Fraud Unit Strike Force to the Countryâ€™s Premier Healthcare Fraud Enforcement United States Attorneyâ€™s Office  Buchanan Ingersoll \u0026 Rooney PC",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMinAJBVV95cUxQSUQtWl93MW5NRklTTlVFSmliQWxvZDBJX1NHVDkwZHFrc09neGg3d1g4Q3lIWkdZYjRsbWdwcl9iNnlGLWJfTUNFZkRCVkFFcVVNb0UzQ2dzbkxyYmpPZmo3cHIwVlQzSW5EakFac0lDaVBQcXJsTGoxRnVIbW8yMUFtblUyYjFpdGJ5YnBaRlJjZHRwbmlSMnVOT0x4TlJrdTFERjZrMkRhMlgtWklIS0d4NHljck1SSE9GOEdZVWl6cXFqdTZzc3JTTVp0V2xIUDNaMTdXQUUzTnkyT3d0RU1mRzdTVklNdFkxSlBnejFwRkRnVWFoUlZmc3BtcnF4Und3dmxoMXE4LXA4U2g5S01ZZEFpUnVQVkJyZw?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2025-10-30-1960995649",
-                        "date":  "2025-10-30",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Alaska prosecutors charge Knights of Ni with significant Medicaid fraud - Alaska Beacon",
-                        "description":  "Alaska prosecutors charge Knights of Ni with significant Medicaid fraud  Alaska Beacon",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdjRVemNOWkpyNWFlc0YwV0RYcm5WUU9VcGVycUFIS0pLcW1xU2hxUC1fUUVqa2FJSURVUDc3aDFkX1ViYUtPVDIwX2hkaURrRlBRNEJwYXh0dFVrR1kyUFBiYVQ4ZUhJbEwtQXdIeXlaNE4wb2tRR0tkcWl1YlI2NUlCaWZNbW1peHNTamZ2aVIxNF9RQXFzS3RxeTRTaDVIUzFFRnFrMA?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2025-12-01-1564447003",
-                        "date":  "2025-12-01",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Nebraska auditor finds Medicaid fraud in DHHSâ€™s personal care program - WOWT",
-                        "description":  "Nebraska auditor finds Medicaid fraud in DHHSâ€™s personal care program  WOWT",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVVFXWjVuYjB4U2x3bEg3VGZENlZRcnlGak5ZVmRnZ2YzNlcwQk0xSXg5MGtWbmtjV1o3VjVVZGNiOWszc05LeXluWFZsZ1VHQ3N4TU50NG5hX3lxbVJtOGhJNjhob0NOYlVicWpZaG15SGRLWlBSQUR3Zk1QUEVjSldmM0k4TkRDN2QyRkdTSGxOUmhTcUVZVVpFTDJaM2s?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-02-06-1831021926",
-                        "date":  "2026-02-06",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Healthcare Fraud Enforcement and Compliance - FTI Consulting",
-                        "description":  "Healthcare Fraud Enforcement and Compliance  FTI Consulting",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSmo4emViVnVrM3dtbXZpdF9xekxSZnoyRnRtMkdBdmQxMHZoWkx1Q0lWc3AtTVFtS29VZ2FuSGd2V0xUa05sRzZmb1lHcWNZMnNJeWNXV0dmSUc3NmZkNE9iMi0tWnQtbm9CTWg3SzAzdXg3M0lWTDN5V1g4c1pqYnY4YjVjWXJYcG1Qb0NWV0Q0d01CMWlveTRR?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-03-13-1700339007",
-                        "date":  "2026-03-13",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Fetterman praises former Senate opponent Dr Oz for rooting out Medicaid fraud - Fox News",
-                        "description":  "Fetterman praises former Senate opponent Dr Oz for rooting out Medicaid fraud  Fox News",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeWVQM3NMYzZRcENCYXNOb0x1ZEw2dmhsUTJ1UUdKdkptX1BDWmNlTlBwWHUxcG1RYW12Q01FeDNlVzd5cWZlSzJJZjlWb0c0NzVweE1WM1gweHhvV2Eza2lac0tUdFFiNEdLMzZBSWRPV1MtQjVpWTZ6MFJtOFpBMTQ5VGNZcUlmMVVvSm1jeTBNS3FNVmdJNHk1MUxXY0JOa0HSAacBQVVfeXFMTlJ5anQ3LXhGckcyeWxEVmpIVzRCR0VMdXdoUVhmdDZPSXl6d2JFZ2dlUjlyckt2SGMyS3BjbGI0OEtPdlVQREZUTTNkeG5lYmlLbWlEUVdfY3JMMjRJWjZYeU1DamFUUWZ2TUVpLWV1Rko3bGExd3hkRXdwTmRyQmItY05mMXU1dWNmREFGOTE4amNHRmh0UDN4QVhrNWRzbVFWeVZ5RzQ?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
                         "id":  "media-2025-12-19-1820364031",
                         "date":  "2025-12-19",
                         "agency":  "Media",
@@ -6637,33 +5519,6 @@
                         "auto_fetched":  true
                     },
                     {
-                        "id":  "media-2025-12-08-1605777273",
-                        "date":  "2025-12-08",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "NBC6 Responds: Medicare fraud case leads to federal action - NBC 6 South Florida",
-                        "description":  "NBC6 Responds: Medicare fraud case leads to federal action  NBC 6 South Florida",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMkpIZkplRFZIb2hGQU4xcUJ5LTJmX2tiUnRZd0JUY19tRVRFbGlteEgtYU9zX0lURWMtRXM2MlNWdnpSR1FPazVYaEdKVVlpalZaV1M0MEJRN0RmZndlMXlMVlV0ZDNraFROOWU4UENhYmMzTHFNX0RfZWhoUkNuWnlvSFJ2VlZHZFBVOGhmUklTMFU4dmRLM0VKZVh2cVBMWXh4R0Z30gGuAUFVX3lxTE1VX05kaWxySVAxWnl5dHNWci0yNHRzRE01dU43V1lad0thUHFIdk1nc3otazNsdy1rT0JEMzZkZUdhVXpqeTZmN3FoUVhBUExVZnpuRzA4ZV96ZlhYQ3p3eTFZQVQwWEpKLTdsRUR3UlRFUE5TNVczV0N3QWZZeXlxZk9YZzdTTHFlWTlndkRPS2dubFZ5b09WeER4ZEhneEZaUXY1dXdYOWdCeS1Ddw?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "FL",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
                         "id":  "media-2025-12-18-760461757",
                         "date":  "2025-12-18",
                         "agency":  "Media",
@@ -6687,60 +5542,6 @@
 
                                      ],
                         "state":  "MN",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-03-03-593636395",
-                        "date":  "2026-03-03",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Mehmet Oz JD Vance Minnesota Medicaid Fraud | ev - Rev",
-                        "description":  "Mehmet Oz JD Vance Minnesota Medicaid Fraud | ev  Rev",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMib0FVX3lxTFBJdWhTOERBUWFJa0I3Rk5qblVKUlFNUnN2UktkNlV5TXpjMk94bXFqdlhwTURLWHdvQXg5VkZXdWhGVDZHZ3ctVFgyVFdfODFyd3o3aS16R2FMMHBwOEI4d3dhLWhxaS1zN0Y4U2E4Yw?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "MN",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2025-09-26-1305159917",
-                        "date":  "2025-09-26",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "DOJ expands Healthcare Fraud Strike Force in Massachusetts - Nixon Peabody",
-                        "description":  "DOJ expands Healthcare Fraud Strike Force in Massachusetts  Nixon Peabody",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMitwFBVV95cUxOalFZbUpTbTV2MG11TGc0WkJoVDVScVU3UVhSc0tpNmJnV0J2eWgyV0tSXzkyN2FBZmJZbFRCZ2NWRUE5MVV6ZXBKdTdkWUk1MjZLcTVPLXV2Nm5WYU5xb2Y4aXJka3lFSUpOeks2bEpabVM2ZTJ4UWl0bC1DT0llNmZwUE0zMXBpQlA2VU01ZjNGNnpmdHN3YVJ3blhsM1IwbG9BbkNDRzRaQ04zQ2ZPRXRQdTBqRkU?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
                         "source_type":  "news",
                         "auto_fetched":  true
                     },
@@ -6826,141 +5627,6 @@
                         "auto_fetched":  true
                     },
                     {
-                        "id":  "media-2026-02-18-2074786692",
-                        "date":  "2026-02-18",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Pervasive Medicaid Fraud: HHS Crowdsourcing + A New Policy Brief - Paragon Health Institute",
-                        "description":  "Pervasive Medicaid Fraud: HHS Crowdsourcing + A New Policy Brief  Paragon Health Institute",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbkxYYVpTLXE2QlVVZjZxa2ZRYnJYS2ZNcDRUTDlzbVpRVmE2bF9MQmcxSGJzZEl0NU9ZblFLamhMNjZ0RndJdTU1SXZPc1hWRlQtTjF1UEdQeHBUX21Bb2g5Q2Z4XzdNaHQtRWNOa1lLb1NYSW1VaDFLUG41a0FsdkYxdVI0OXFuVWViSkhzWXZmcDJRNW44RWx6SG5idUI2cDJsUA?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-01-30-823015622",
-                        "date":  "2026-01-30",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Senator eyes study of Medicaid fraud - timesobserver.com",
-                        "description":  "Senator eyes study of Medicaid fraud  timesobserver.com",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWHlIS3kwQkwtUDdzaEdCWDY0c1UxaG5NcVlWbjFDSVhHUTY0S3pZbWtRUW04cTMzeDIzNXVFdGxfX1BSSlJlSU1FVHBmUTJYb256aXZfajBNdTJ0cWZLbDVWampWejhyYi1vUVB5MVhsX1dZMmdsR2FFMXE1ZXNRR25ZSHE5OUlmUVJvbVVBLV9ybFJWWkE?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-01-14-1645918621",
-                        "date":  "2026-01-14",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Dr. Oz on Medicaid fraud â€˜fact-finding missionâ€™ in Minnesota, $2B could be at stake - 5 EYEWITNESS NEWS",
-                        "description":  "Dr. Oz on Medicaid fraud â€˜fact-finding missionâ€™ in Minnesota, $2B could be at stake  5 EYEWITNESS NEWS",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMmZhV2VESXh6TTBsMTREOG83bnRiWkdWbF82NmRmaV8zMjl0NVp3OXFvc2lOLW1lMk1GRmVETFNwdVpfUHRGclROWmlPcC1tV2hydTBpM2p2QXhGa3JlVkZ3b0FYUmdsOURQRE1vMVJKdm1fNjJ2Qm5YVWJiQVBoQlNyX3BpTXNlMDZlbldndTF5Tlp1S3p2TDZwaTY0Z3lTM2kxLXJCbWNCb2xKeUlBVjN0OUdZdw?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "MN",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2025-11-17-108681252",
-                        "date":  "2025-11-17",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "New Orleans couple accused of $61K Medicaid fraud after hiding marriage and income, AG says - fox8live.com",
-                        "description":  "New Orleans couple accused of $61K Medicaid fraud after hiding marriage and income, AG says  fox8live.com",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSHo1M2xNRjI3ZF9mcmk5NldlV1U2TVlTSDJhbUlxZTdTbDJXVTRpbTcxUHpLRHBIdVVSLWdRd0xlSnlNNWZyLVFOSGZGUG5weTFvLTliRXNobHhfYVNPXzM0YldZOUVjQUpHSlpSMDZYMFFzb3hiQ2g2RDFUcjZRWTdSSW43NzdUVjlQa3NIU3cyZWdRVHhmczh6N08zNzVhSjNPQlNXV0hOZkZNWUVVVUNhWVNoa1dLUkpZ?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-01-21-1039557351",
-                        "date":  "2026-01-21",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Manager of Sandy in-home health provider charged with Medicaid fraud - KSL.com",
-                        "description":  "Manager of Sandy in-home health provider charged with Medicaid fraud  KSL.com",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNXhmTWkwQzlWWXB3OTBrM1BrRDZUZmcwQkcwV1dLZWNSX3BVRlJpaG8tTEozNzlWVllmOE82QVF2VXRVWlFObmhHLXhYT2tFYVdUMnVCcTZXbXdrTWQyVXU0MU5ibm02Yk9UcGl4RkFTNXI5dzhrM05ZbEcxTFJ0THdvVDl3djlaTnpfOHNkQU00SmEyNV96cHpxX2hXVWZhYjhfNXk1Y3k?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
                         "id":  "media-2025-08-06-1035609990",
                         "date":  "2025-08-06",
                         "agency":  "Media",
@@ -7011,114 +5677,6 @@
 
                                      ],
                         "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2025-09-16-1880278053",
-                        "date":  "2025-09-16",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "9 more people from Northeast Ohio just indicted for Medicaid fraud - Cleveland 19 News",
-                        "description":  "9 more people from Northeast Ohio just indicted for Medicaid fraud  Cleveland 19 News",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMingFBVV95cUxORlkwa0h4VXJpbEJVMENvLW0xb3MyVVZjbTNNUTVBOGh2eGJuWFJsUVloTlNsZW9BZDZnd21yT1RWYlFwYTBBZGk3VXprNGlvX2JYOGdKMWo3bEtSZW11b2xLdGxxSENCVUlhMUt4azRHV2pYN19qeVRGLUdxTFFqQWkzS0NUOEc2QmN4dmZnSTIyZ3h2NFFQcmRselVGZ9IBsgFBVV95cUxPZ3g4TlAwVS1SZzRzT2RBdFNwd0NobGgxMmZsazREbi1BWGEwd0NOR1lmTnVZRWFqS1NMeFhqTXJvc05tOGVsaG1tVTN1UkFfaFU1OW9XN1hSRE14Z1QycFlCbVQyemtIV3VLWmFxRWVuTXA2VUVkMFlLNXdGVGY2N25KZl92YmlvS2RJeWloeE45d2xJMEFEWFhUZ0lSR2NRR2dRWk5rSDJJMzZocUVVdmtR?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "OH",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2025-11-21-165959028",
-                        "date":  "2025-11-21",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Venezuelan woman loses U.S. citizenship after $5M Medicare fraud conviction - NBC 6 South Florida",
-                        "description":  "Venezuelan woman loses U.S. citizenship after $5M Medicare fraud conviction  NBC 6 South Florida",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMiywFBVV95cUxNU3JyQlBqeDJVdE5Kd0d4QUtDdTFWV0JwUDRRVHdQQklBeUtaLWFOMm8xNVNLNk5LUHRjWkhXa0R1VVFyNFZKSzlCZnY0VzMxcGpQUGVNZW1KMkJ1aUxoOXRzN3BJeUlFWTNOSnFBel8zQU5HX3RBcGc3Ty1Wa1BsNDRYV0RFYl9neGZ3R0xYRmY4eHpxX2RKQUJ1bnRKVnFaUW4xbEFqaWk3OHdBUXU0MnN0TWhWVElvMGtHVzZOZ3VrRXNIOTdORDJjMNIB0wFBVV95cUxQbGdWR2NGYjlJcENEVWdLa0p3VUZKRnQyWFZwWUc5WUlsaW0tekRLTGNRWTBaanBBTG9iMkJlQjJMRFVOV1M3ZHV4Z2E0cTFlNFg0YVgtQTJCeXJzLTIwbzdrcDNiUXVNR3hlOUZMZFk4LVZiUnhqeWV1NGEwdDc0TlMzdFJvMmlOQ0p3T3IySXJXczdKV0plZkliZ0EwNGREQVQ2R1FOZlZrcURNTGNXWE5vX2k5LV9tQ0l1LWdJako2RTl3ZmRERWJxYTZjNXRSX19r?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "FL",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2025-08-25-218923161",
-                        "date":  "2025-08-25",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "DOJ Health Care Fraud Unit Announces First Enforcement Action Under Updated Corporate Enforcement Policy - WilmerHale",
-                        "description":  "DOJ Health Care Fraud Unit Announces First Enforcement Action Under Updated Corporate Enforcement Policy  WilmerHale",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNWklsTzFiSnJjYXA5R1lzNlJKQmhCRmVyUUVTV003M1BVdzNvS1hsNHJ1TVRWM29ncl9iYVI5d2htc096MF9NaHcwaUNab2R1MEZkbTQtQmR5dTJHV2RWRFJDR3piRnJOYUROM09zWldPcGsyd1Y2SXdycnVsOHlGcjdaMXV3RllkSS02clMwaXFMVzBSenNSZllGNWNHWFQybTRIaWdmQm9BSHVvMkJvUVdfSkVRRUhaSTEzeXdlTXpwQUZTdkM5c3phUWUzbEZaZGx6ZkV3d0UzZWFjWGVpMjJoajZzWXRKYU5SbEJWZm9VTnhPVlZZc2VB?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2025-11-18-1929319986",
-                        "date":  "2025-11-18",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "4 people from Northeast Ohio indicted for Medicaid fraud - Cleveland 19 News",
-                        "description":  "4 people from Northeast Ohio indicted for Medicaid fraud  Cleveland 19 News",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMikAFBVV95cUxOU195WlJWaWxET2d4WWczNGJQX1FGV2IxWGM4OFFYZXFOOFFoQ1M3ZmlHcjBVeEFqYVoybGJtY0xtd09Md3hXQWZXZkVxMGtCa001WVpuZEVfbTNSS0xERGpDakZwczhGYzBXVUVKaWJfY2pqRFQtVXdQWXVxSm12ZHNWdVVxV25SaFBBMzdESEU?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "OH",
                         "source_type":  "news",
                         "auto_fetched":  true
                     },
@@ -7204,33 +5762,6 @@
                         "auto_fetched":  true
                     },
                     {
-                        "id":  "media-2025-05-30-1105587243",
-                        "date":  "2025-05-30",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Medicare Fraud Prevention Week - Mass Retirees",
-                        "description":  "Medicare Fraud Prevention Week  Mass Retirees",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMickFVX3lxTE0xaVhwbDl3bkdTNUdHTTlxS3BzMTZSeUFXZmZfa1VqVXF0NzdJdlNuSHFNUld6U1l6STIxdlV5eU4tcUpsRW1tR1lkTkhrNTF0TTBYV3JLa2pORVM1QjhHRTJMV3FSQWYxSHlrdHNvbnZsQQ?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
                         "id":  "media-2025-06-03-200331819",
                         "date":  "2025-06-03",
                         "agency":  "Media",
@@ -7254,33 +5785,6 @@
 
                                      ],
                         "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2025-12-29-980093239",
-                        "date":  "2025-12-29",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Minnesota judge slammed for overturning conviction of pair involved in Medicaid fraud - KOMO",
-                        "description":  "Minnesota judge slammed for overturning conviction of pair involved in Medicaid fraud  KOMO",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQUzYtRXpRRTVSek9uaFA5anRFcXNnd1E5TmxBczJLSmtla3l0WDhIRllwZ3VUcWhEN3pXWmo4N2hMVTBHZ0Eyb1k4STdXbG93OGM1czh6Tm9qWlk1MUZoZkFVTkh0MGZ3M2xEOEJLUU1yN21EMnVxWVM2NGJBbFYyOUNYUnpXZHlyQUprNHhiRXJCY3VFZkFIZEc3R2xfTEQ5Z2lEcmpLcE1tcXNfT2R3a2RScGowUlBBOFZOTzNxUlljZkxoRGl3NEJtTHd1SjhIMlcxOE1hNGpnMEFWc2xTTmdNemtENG11ZkxHUzZJZXZGQQ?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "MN",
                         "source_type":  "news",
                         "auto_fetched":  true
                     },
@@ -7351,87 +5855,6 @@
 
                                       ],
                         "link":  "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdDZrQzVmZ0JkT3JmU0tEcnhkVUl2elJNSUpZaktMa1Z0QTFJYlpybVNncWVTU3puS1dJZTRJTy14M2szbmMtdzBSM1VKRTBQLVFtMGRuMUNZUEtkSnlQa0NRdTdhbkh2WktGV2N3MmotRzRmM1lPQ2dBUl9jY0pxUm1qOEM1ZW9OU2R1M05CRWZZdlpmS3B4a25HX3c?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2025-08-15-1578945100",
-                        "date":  "2025-08-15",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "7 people from Northeast Ohio indicted for Medicaid fraud - Cleveland 19 News",
-                        "description":  "7 people from Northeast Ohio indicted for Medicaid fraud  Cleveland 19 News",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRmNjZmZOV2JMcmRRZjFFejgybFFJSzhRZ3hzdGFwTjZidW5XLXF6S2RHVjhVS1dnTzFyQkNMc0p4QnVHLS1INUI5TXdZeFVPdWVodGpXZVlJWnJwNXFPcGNDQjFxY2lqb0FZZ0ZpLWpqRHotbmJOZVRnQWpoaXZvaEo1OHpucnRNSEZIYnNPekM?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "OH",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-01-14-606450121",
-                        "date":  "2026-01-14",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "â€˜Bring the hammer downâ€™: Texas AG Paxton claims recovery of $125M, over 120 arrests in 2025 healthcare fraud busts - Click2Houston",
-                        "description":  "â€˜Bring the hammer downâ€™: Texas AG Paxton claims recovery of $125M, over 120 arrests in 2025 healthcare fraud busts  Click2Houston",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPX0lqa25pT2NtVWFIZW9ZVkU0eGJXVUc2ZWZoZkhFbk1iVmJBTUZFczhMREVtdkVIWTJCOWV5SXRLZGNOc3VRVTE1SnUzd3RxWDR1MmZ2R29oYm93emtJLV8zbm5GUlA2YWhOVjJkelhra1RTR0YwVWJUY2V5eVYxWVRXR1RJSGVQX0pKczdCOHhvUUxlVmVkb3c2ak5UdmRkc0x2OTdYbElnV1J4ODA3UHBEVElwM2ZtU0hqOEdsdmFDQ1o4RzBnLXpWdGtFb2I1cE1rNnNfQVpjY0NZT20zbGhDTTRNcU04U2F3NW1oU2k2eDRV?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "TX",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2025-07-01-1671600661",
-                        "date":  "2025-07-01",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "DOJ charges more than 300 in $14.6B healthcare fraud bust - Healthcare Dive",
-                        "description":  "DOJ charges more than 300 in $14.6B healthcare fraud bust  Healthcare Dive",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMifkFVX3lxTE56c210TjNBU1oxSzRPd3oySzY3SldHcVF2ZlMwTld2a05DOFVQdGxaeGlkVDBDMzFGTWZFb3NRZlBUdV9KbXJGajRQX19VZHdLcnhxaE9ZX3I1c1lwQzJTNkxSNFp6N2xIYkV5MHRKY21GX3lZNkV5ZHJVV0VZdw?oc=5",
                         "link_label":  "Google News Report",
                         "social_posts":  [
 
