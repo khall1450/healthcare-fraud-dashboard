@@ -314,7 +314,6 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
       <button class="btn-read-more d-none" type="button"></button>
       <div class="card-meta">
         <div class="card-amount d-none"><span></span></div>
-        <div class="card-officials d-none"><i class="fa-solid fa-user-tie me-1"></i><span></span></div>
         <div class="card-state d-none"><i class="fa-solid fa-location-dot me-1"></i><span></span></div>
       </div>
       <div class="card-tags"></div>
@@ -453,11 +452,6 @@ function renderCards(actions) {
       el.classList.remove('d-none');
       el.querySelector('span').textContent = action.amount;
     }
-    if (action.officials && action.officials.length > 0) {
-      const el = col.querySelector('.card-officials');
-      el.classList.remove('d-none');
-      el.querySelector('span').textContent = action.officials.join(', ');
-    }
     if (action.state) {
       const el = col.querySelector('.card-state');
       el.classList.remove('d-none');
@@ -466,7 +460,7 @@ function renderCards(actions) {
     const tagsEl = col.querySelector('.card-tags');
     const entities = new Set(action.entities || []);
     const PROGRAMS = new Set(['Medicare','Medicaid','Medicare Advantage','ACA','ACA Fraud','TRICARE','Medi-Cal']);
-    const allTags = (action.entities || []).concat(action.tags || []);
+    const allTags = (action.entities || []).concat(action.tags || []).concat(action.officials || []);
     allTags.forEach(tag => {
       const pill = document.createElement('span');
       pill.className = 'tag-pill';
