@@ -4642,7 +4642,7 @@
                         "entities":  [
 
                                      ],
-                        "state":  null,
+                        "state":  "AK",
                         "source_type":  "official",
                         "auto_fetched":  true
                     },
@@ -4669,7 +4669,7 @@
                         "entities":  [
 
                                      ],
-                        "state":  null,
+                        "state":  "AK",
                         "source_type":  "official",
                         "auto_fetched":  true
                     },
