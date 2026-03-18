@@ -124,6 +124,8 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
 .type-Congressional-Hearing  { color: var(--type-congressional); background: rgba(26,82,118,0.08); }
 .type-Legislation            { color: var(--type-legislation); background: rgba(74,20,140,0.07); }
 .card-date { font-size: 0.74rem; color: var(--text-muted); font-weight: 600; letter-spacing: 0.02em; }
+.month-divider { width: 100%; padding: 8px 0 4px; }
+.month-divider-label { font-family: 'Bona Nova', Georgia, serif; font-size: 0.9rem; font-weight: 700; color: var(--paragon-blue); border-bottom: 2px solid var(--crystal); padding-bottom: 4px; display: inline-block; }
 .card-title { font-family: 'Bona Nova', Georgia, serif; font-size: 1rem; font-weight: 700; line-height: 1.35; margin: 0; color: var(--almost-black); }
 .card-desc { font-size: 0.845rem; color: var(--concrete); line-height: 1.55; margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .card-desc.expanded { display: block; -webkit-line-clamp: unset; overflow: visible; }
@@ -419,6 +421,8 @@ function updateStats(actions) {
 const PAGE_SIZE = 24;
 let currentFiltered = [];
 let displayedCount = 0;
+let lastRenderedMonth = '';
+const MONTH_NAMES = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 
 function renderCards(actions) {
   const grid = document.getElementById('cardsGrid');
@@ -426,6 +430,7 @@ function renderCards(actions) {
   grid.innerHTML = '';
   currentFiltered = actions;
   displayedCount = 0;
+  lastRenderedMonth = '';
   if (actions.length === 0) { noResults.classList.remove('d-none'); updateLoadMore(); return; }
   noResults.classList.add('d-none');
   appendCards(PAGE_SIZE);
@@ -437,6 +442,18 @@ function appendCards(count) {
   const end = Math.min(displayedCount + count, currentFiltered.length);
   for (let i = displayedCount; i < end; i++) {
     const action = currentFiltered[i];
+    // Insert month divider if new month
+    if (action.date) {
+      const [y, m] = action.date.split('-');
+      const monthKey = y + '-' + m;
+      if (monthKey !== lastRenderedMonth) {
+        lastRenderedMonth = monthKey;
+        const divider = document.createElement('div');
+        divider.className = 'col-12 month-divider';
+        divider.innerHTML = '<span class="month-divider-label">' + MONTH_NAMES[parseInt(m,10)-1] + ' ' + y + '</span>';
+        grid.appendChild(divider);
+      }
+    }
     const col  = tmpl.content.cloneNode(true);
     const card = col.querySelector('.action-card');
     card.setAttribute('data-agency', action.agency || 'Other');
