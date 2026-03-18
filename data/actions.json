@@ -38,7 +38,7 @@
                         "date":  "2025-06-01",
                         "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
-                        "title":  "Operation Gold Rush â€” $10.6 Billion Medicare Fraud Scheme",
+                        "title":  "Operation Gold Rush — $10.6 Billion Medicare Fraud Scheme",
                         "description":  "Largest case amount ever charged by DOJ. Members of a transnational criminal organization orchestrated a Medicare fraud scheme totaling more than $10.6 billion. The criminals purchased dozens of medical supply companies in the U.S. and submitted more than $10 billion in fraudulent claims using the stolen identities of more than 1 million Americans.",
                         "amount":  null,
                         "amount_numeric":  0,
@@ -129,7 +129,7 @@
                         "date":  "2025-03-01",
                         "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
-                        "title":  "Kentucky Addiction Treatment Center Fraud â€” $8M+ in False Claims",
+                        "title":  "Kentucky Addiction Treatment Center Fraud — $8M+ in False Claims",
                         "description":  "DOJ investigated and prosecuted an addiction treatment fraud scheme at Kentucky Addiction Centers, involving more than $8 million in false claims submitted to Medicare and Kentucky Medicaid. The centers operated clinics in Winchester, Paducah, Paintsville, and London, Kentucky. A federal jury later convicted Dr. JosÃ© Alzadon, Michael Bregenzer, and Barbie Vanhoose in March 2025 for conspiracy to commit health care fraud, eight counts of health care fraud, and conspiracy to distribute controlled substances. See also the March 20, 2025 conviction entry for full case details.",
                         "amount":  null,
                         "amount_numeric":  0,
@@ -158,7 +158,7 @@
                         "date":  "2025-11-01",
                         "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
-                        "title":  "Florida ACA Enrollment Fraud â€” $233M in Fraudulent Claims",
+                        "title":  "Florida ACA Enrollment Fraud — $233M in Fraudulent Claims",
                         "description":  "DOJ resolved major cases involving fraudulent ACA enrollment schemes in Florida, in which brokers and marketing firms submitted false applications to obtain premium tax credits and subsidies. The cases involved more than $233 million in fraudulent claims, with at least $180 million paid out by the government.",
                         "amount":  null,
                         "amount_numeric":  0,
@@ -413,7 +413,7 @@
                         "agency":  "CMS",
                         "type":  "Administrative Action",
                         "title":  "Dr. Oz: Hospice Fraud Spreading Beyond California; CMS Cracking Down",
-                        "description":  "CMS Administrator Dr. Mehmet Oz warned that hospice fraudâ€”long concentrated in Californiaâ€”is expanding to other states, and that CMS is intensifying national enforcement. California has been the epicenter of sham hospice fraud, with multiple operators convicted (including the $16M sham hospice ring sentenced in November 2025 and Petros Fichidzhyan sentenced to 12 years). Dr. Oz indicated CMS is using data analytics to identify hospice providers with anomalous billing patterns, expanding scrutiny to Texas, Nevada, and other states where suspicious hospice enrollment has spiked. The CRUSH RFI published later in February 2026 specifically addresses hospice oversight.",
+                        "description":  "CMS Administrator Dr. Mehmet Oz warned that hospice fraud—long concentrated in California—is expanding to other states, and that CMS is intensifying national enforcement. California has been the epicenter of sham hospice fraud, with multiple operators convicted (including the $16M sham hospice ring sentenced in November 2025 and Petros Fichidzhyan sentenced to 12 years). Dr. Oz indicated CMS is using data analytics to identify hospice providers with anomalous billing patterns, expanding scrutiny to Texas, Nevada, and other states where suspicious hospice enrollment has spiked. The CRUSH RFI published later in February 2026 specifically addresses hospice oversight.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -622,7 +622,7 @@
                                              {
                                                  "account":  "@HHSResponse",
                                                  "post_url":  "https://x.com/hhsresponse/status/2019108568184590674?s=12",
-                                                 "post_text":  "@SecKennedy: \"We are applying [AI] right now to Medicare â€” we are going to save billions of dollars this year. Medicaid and Medicare get $100 billion stolen from us every year and that\u0027s money that\u0027s not available for the poor and for seniorsâ€¦[AI\u0027s] ability to detect fraud is extraordinary.\""
+                                                 "post_text":  "@SecKennedy: \"We are applying [AI] right now to Medicare — we are going to save billions of dollars this year. Medicaid and Medicare get $100 billion stolen from us every year and that\u0027s money that\u0027s not available for the poor and for seniors…[AI\u0027s] ability to detect fraud is extraordinary.\""
                                              }
                                          ],
                         "tags":  [
@@ -672,7 +672,7 @@
                         "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "Pakistan-Based Operator Indicted in $650M Arizona Medicaid Addiction Treatment Fraud",
-                        "description":  "Farrukh Jarar Ali, 41, of Pakistan, was indicted for conspiracy to commit healthcare fraud in connection with a $650 million scheme involving at least 41 sham substance abuse treatment clinics in Arizona. Ali\u0027s Pakistan-based company ProMD Solutions credentialed and enrolled these clinics with Arizona Medicaid (AHCCCS) from April 2021 to July 2023, but the clinics did not provide legitimate care. Patientsâ€”many recruited from homeless populations and Native American reservationsâ€”were offered kickbacks and free room and board. The clinics billed $650 million and received approximately $564 million in payments.",
+                        "description":  "Farrukh Jarar Ali, 41, of Pakistan, was indicted for conspiracy to commit healthcare fraud in connection with a $650 million scheme involving at least 41 sham substance abuse treatment clinics in Arizona. Ali\u0027s Pakistan-based company ProMD Solutions credentialed and enrolled these clinics with Arizona Medicaid (AHCCCS) from April 2021 to July 2023, but the clinics did not provide legitimate care. Patients—many recruited from homeless populations and Native American reservations—were offered kickbacks and free room and board. The clinics billed $650 million and received approximately $564 million in payments.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -789,7 +789,7 @@
                         "agency":  "CMS",
                         "type":  "Rule/Regulation",
                         "title":  "CMS Finalizes Marketplace Integrity and Affordability Rule to Combat ACA Enrollment Fraud",
-                        "description":  "CMS finalized the Marketplace Integrity and Affordability Final Rule (effective August 25, 2025), targeting the surge of improper ACA exchange enrollments driven by unscrupulous agents and brokers. Key provisions include eliminating the 150% FPL Special Enrollment Periodâ€”a major driver of unauthorized enrollmentsâ€”mandating pre-enrollment verification of SEP eligibility, and adopting a \u0027preponderance of evidence\u0027 standard for terminating agent/broker agreements. CMS estimated the rule will lower individual premiums by approximately 5% on average and save taxpayers up to $12 billion in 2026. CMS suspended 850 agents and brokers in 2024 and estimated approximately 200,000 consumers had plans changed without their consent.",
+                        "description":  "CMS finalized the Marketplace Integrity and Affordability Final Rule (effective August 25, 2025), targeting the surge of improper ACA exchange enrollments driven by unscrupulous agents and brokers. Key provisions include eliminating the 150% FPL Special Enrollment Period—a major driver of unauthorized enrollments—mandating pre-enrollment verification of SEP eligibility, and adopting a \u0027preponderance of evidence\u0027 standard for terminating agent/broker agreements. CMS estimated the rule will lower individual premiums by approximately 5% on average and save taxpayers up to $12 billion in 2026. CMS suspended 850 agents and brokers in 2024 and estimated approximately 200,000 consumers had plans changed without their consent.",
                         "amount":  "$12B",
                         "amount_numeric":  12000000000,
                         "officials":  [
@@ -847,7 +847,7 @@
                         "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "Troy Health Enters First-Ever Healthcare Non-Prosecution Agreement; AI Tool Used to Commit Medicare Fraud",
-                        "description":  "Troy Health, Inc. (d/b/a Troy Medicare), a North Carolina-based Medicare Advantage plan, entered into an 18-month Non-Prosecution Agreement (NPA) and agreed to pay $1.43 millionâ€”the first NPA under DOJ\u0027s updated Corporate Enforcement Policy and the first healthcare resolution involving misconduct facilitated by artificial intelligence. Troy misused its proprietary AI platform \u0027Troy.ai\u0027 to offer kickbacks to pharmacies for Medicare beneficiary data and to batch-enroll beneficiaries without consent. At the scheme\u0027s height, Troy enrolled over 300 beneficiaries in a single day approximately one minute apart.",
+                        "description":  "Troy Health, Inc. (d/b/a Troy Medicare), a North Carolina-based Medicare Advantage plan, entered into an 18-month Non-Prosecution Agreement (NPA) and agreed to pay $1.43 million—the first NPA under DOJ\u0027s updated Corporate Enforcement Policy and the first healthcare resolution involving misconduct facilitated by artificial intelligence. Troy misused its proprietary AI platform \u0027Troy.ai\u0027 to offer kickbacks to pharmacies for Medicare beneficiary data and to batch-enroll beneficiaries without consent. At the scheme\u0027s height, Troy enrolled over 300 beneficiaries in a single day approximately one minute apart.",
                         "amount":  "$1.43M",
                         "amount_numeric":  1430000,
                         "officials":  [
@@ -878,7 +878,7 @@
                         "agency":  "DOJ",
                         "type":  "Structural/Organizational",
                         "title":  "DOJ Expands Health Care Fraud Strike Force to Massachusetts (Boston)",
-                        "description":  "The DOJ\u0027s Criminal Division announced the expansion of the Health Care Fraud Unit\u0027s New England Strike Force into the District of Massachusetts, embedding federal law enforcementâ€”FBI, HHS-OIG, FDA, DEA, HSI, VA-OIG, and IRS-CIâ€”alongside the existing U.S. Attorney\u0027s Office Health Care Fraud Unit in Boston. The expansion was driven by Massachusetts and Boston\u0027s status as a national hub for healthcare and life sciences, with particular focus on pharmaceutical/medical device company fraud, provider misconduct, and complex schemes targeting Medicare/Medicaid. In FY2025 alone, Massachusetts recovered over $450 million in coordinated actions.",
+                        "description":  "The DOJ\u0027s Criminal Division announced the expansion of the Health Care Fraud Unit\u0027s New England Strike Force into the District of Massachusetts, embedding federal law enforcement—FBI, HHS-OIG, FDA, DEA, HSI, VA-OIG, and IRS-CI—alongside the existing U.S. Attorney\u0027s Office Health Care Fraud Unit in Boston. The expansion was driven by Massachusetts and Boston\u0027s status as a national hub for healthcare and life sciences, with particular focus on pharmaceutical/medical device company fraud, provider misconduct, and complex schemes targeting Medicare/Medicaid. In FY2025 alone, Massachusetts recovered over $450 million in coordinated actions.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -969,7 +969,7 @@
                         "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "Four California Sham Hospice Operators Sentenced in $16M Medicare Fraud and Money Laundering Scheme",
-                        "description":  "Four California defendants were sentenced for their roles in operating sham hospice companies that billed Medicare nearly $16 million for medically unnecessary and never-provided hospice services from July 2019 to January 2023. Sentences: Juan Carlos Esparza (57 months), Karpis Srapyan (57 months), Mihran Panosyan (57 months), and Petros Fichidzhyan (12 yearsâ€”sentenced separately in April 2025). The scheme used foreign nationals\u0027 identities as purported hospice owners and laundered proceeds through shell companies and bank accounts.",
+                        "description":  "Four California defendants were sentenced for their roles in operating sham hospice companies that billed Medicare nearly $16 million for medically unnecessary and never-provided hospice services from July 2019 to January 2023. Sentences: Juan Carlos Esparza (57 months), Karpis Srapyan (57 months), Mihran Panosyan (57 months), and Petros Fichidzhyan (12 years—sentenced separately in April 2025). The scheme used foreign nationals\u0027 identities as purported hospice owners and laundered proceeds through shell companies and bank accounts.",
                         "amount":  "$16M",
                         "amount_numeric":  16000000,
                         "officials":  [
@@ -1029,7 +1029,7 @@
                         "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "Atrium Health and Senior Living (KBWB) and CEO Sentenced for $146M Healthcare Fraud and Tax Conspiracy",
-                        "description":  "KBWB Operations LLC (d/b/a Atrium Health and Senior Living) and its former CEO/managing member Kevin Breslin, 58, of Hoboken, NJ, were sentenced following December 2024 guilty pleas. Breslin received 90 months in prison; both Breslin and KBWB were ordered to pay $146 million in restitution and $8.4 million in forfeiture. The defendants diverted CMS funds intended for resident care at 23 skilled nursing facilities in New Jersey, Wisconsin, and Michiganâ€”prioritizing owner distributions, diverting employee health insurance premiums and 401(k) contributions, and failing to remit employment taxes to the IRS.",
+                        "description":  "KBWB Operations LLC (d/b/a Atrium Health and Senior Living) and its former CEO/managing member Kevin Breslin, 58, of Hoboken, NJ, were sentenced following December 2024 guilty pleas. Breslin received 90 months in prison; both Breslin and KBWB were ordered to pay $146 million in restitution and $8.4 million in forfeiture. The defendants diverted CMS funds intended for resident care at 23 skilled nursing facilities in New Jersey, Wisconsin, and Michigan—prioritizing owner distributions, diverting employee health insurance premiums and 401(k) contributions, and failing to remit employment taxes to the IRS.",
                         "amount":  "$146M",
                         "amount_numeric":  146000000,
                         "officials":  [
@@ -1059,7 +1059,7 @@
                         "agency":  "HHS-OIG",
                         "type":  "Audit",
                         "title":  "HHS-OIG: CMS Put $11.2 Billion at Risk by Not Properly Closing Federal Contracts",
-                        "description":  "HHS-OIG Report A-04-24-02048 found that CMS failed to meet administrative closeout requirements for 50 contracts totaling $11.2 billion reviewed for the period October 2018â€“September 2023. Twelve contracts worth $2.1 billion remained overdue for closeout at audit conclusion, putting those funds at risk of fraud, waste, and abuse. OIG recommended CMS complete administrative closeout for the 12 delinquent contracts and develop clear policies defining documentation requirements and roles for timely closure. CMS concurred with both recommendations.",
+                        "description":  "HHS-OIG Report A-04-24-02048 found that CMS failed to meet administrative closeout requirements for 50 contracts totaling $11.2 billion reviewed for the period October 2018—September 2023. Twelve contracts worth $2.1 billion remained overdue for closeout at audit conclusion, putting those funds at risk of fraud, waste, and abuse. OIG recommended CMS complete administrative closeout for the 12 delinquent contracts and develop clear policies defining documentation requirements and roles for timely closure. CMS concurred with both recommendations.",
                         "amount":  "$11.2B",
                         "amount_numeric":  11200000000,
                         "officials":  [
@@ -1087,7 +1087,7 @@
                         "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "Co-Conspirator Pleads Guilty in $54M California Radiology and Hospice Medicare Fraud",
-                        "description":  "Sophia Shaklian, 38, of Los Angeles, pleaded guilty to her role in a $54 million Medicare fraud scheme involving seven healthcare providersâ€”including radiology imaging centers and a hospiceâ€”across Los Angeles County from 2019â€“2024, billing for services never performed. Shaklian managed and submitted false claims for the providers. Co-conspirator Alex Alexsanian, 48, of Burbank, pleaded guilty to money laundering conspiracy on January 20, 2026, and agreed to forfeit $3 million. The pair pocketed $23 million in total, laundering proceeds through a fake identity and using funds to buy $6 million in gold bars.",
+                        "description":  "Sophia Shaklian, 38, of Los Angeles, pleaded guilty to her role in a $54 million Medicare fraud scheme involving seven healthcare providers—including radiology imaging centers and a hospice—across Los Angeles County from 2019—2024, billing for services never performed. Shaklian managed and submitted false claims for the providers. Co-conspirator Alex Alexsanian, 48, of Burbank, pleaded guilty to money laundering conspiracy on January 20, 2026, and agreed to forfeit $3 million. The pair pocketed $23 million in total, laundering proceeds through a fake identity and using funds to buy $6 million in gold bars.",
                         "amount":  "$54M",
                         "amount_numeric":  54000000,
                         "officials":  [
@@ -1116,7 +1116,7 @@
                         "agency":  "DOJ",
                         "type":  "Civil Action",
                         "title":  "Dana-Farber Cancer Institute Pays $15M to Settle NIH Research Grant Fraud Allegations",
-                        "description":  "Dana-Farber Cancer Institute agreed to pay $15 million to resolve False Claims Act allegations that from 2014â€“2024 it made materially false statements and certifications related to NIH research grants. Specifically, researchers authored papers containing duplicated and manipulated images/data from 14 scientific publications, with six NIH grants funding the fraudulent research and four additional NIH grants obtained through false applications. Welsh microbiologist and whistleblower Sholto David received $2.625 million under qui tam provisions. U.S. Attorney Leah B. Foley noted \u0027there is no place in scientific research for fraud, waste and abuse.\u0027",
+                        "description":  "Dana-Farber Cancer Institute agreed to pay $15 million to resolve False Claims Act allegations that from 2014—2024 it made materially false statements and certifications related to NIH research grants. Specifically, researchers authored papers containing duplicated and manipulated images/data from 14 scientific publications, with six NIH grants funding the fraudulent research and four additional NIH grants obtained through false applications. Welsh microbiologist and whistleblower Sholto David received $2.625 million under qui tam provisions. U.S. Attorney Leah B. Foley noted \u0027there is no place in scientific research for fraud, waste and abuse.\u0027",
                         "amount":  "$15M",
                         "amount_numeric":  15000000,
                         "officials":  [
@@ -1147,7 +1147,7 @@
                         "agency":  "HHS-OIG",
                         "type":  "Audit",
                         "title":  "HHS-OIG Medicare Advantage Audit of Humana Louisiana Finds $6.8M in Unsupported Diagnosis Overpayments",
-                        "description":  "HHS-OIG published a compliance audit of Humana Health Benefit of Louisiana (Contract H1951) for Medicare Advantage risk adjustment payments for 2017â€“2018. The audit found that most selected diagnosis codes did not comply with Federal requirements, estimating Humana was overpaid approximately $10 million for the audited contract when extrapolated, with OIG recommending Humana refund $6,777,385 to the Federal Government. Most unsupported diagnoses resulted from past medical conditions improperly reported as current conditions, or from radiology/ECG reports not interpreted and signed by an acceptable provider type.",
+                        "description":  "HHS-OIG published a compliance audit of Humana Health Benefit of Louisiana (Contract H1951) for Medicare Advantage risk adjustment payments for 2017—2018. The audit found that most selected diagnosis codes did not comply with Federal requirements, estimating Humana was overpaid approximately $10 million for the audited contract when extrapolated, with OIG recommending Humana refund $6,777,385 to the Federal Government. Most unsupported diagnoses resulted from past medical conditions improperly reported as current conditions, or from radiology/ECG reports not interpreted and signed by an acceptable provider type.",
                         "amount":  "$6.78M",
                         "amount_numeric":  6778000,
                         "officials":  [
@@ -1235,7 +1235,7 @@
                         "agency":  "HHS-OIG",
                         "type":  "Audit",
                         "title":  "HHS-OIG: Medicaid Agencies Made $207.5M in Unallowable Capitation Payments for Deceased Enrollees",
-                        "description":  "HHS-OIG Report A-04-23-09010 estimated that Medicaid agencies made $207.5 million ($138.6 million federal share) in unallowable capitation payments to MCOs for enrollees whose deaths preceded the monthly service periods during FY2022 (July 2021â€“June 2022). In a sample of 100 payments, 99 were unallowableâ€”49 already not recovered or recovered only after OIG notification. This represents OIG\u0027s 18th such audit since 2016, which cumulatively identified approximately $289 million in improper capitation payments for deceased enrollees. OIG recommended CMS provide matched T-MSIS data to states for recovery.",
+                        "description":  "HHS-OIG Report A-04-23-09010 estimated that Medicaid agencies made $207.5 million ($138.6 million federal share) in unallowable capitation payments to MCOs for enrollees whose deaths preceded the monthly service periods during FY2022 (July 2021—June 2022). In a sample of 100 payments, 99 were unallowable—49 already not recovered or recovered only after OIG notification. This represents OIG\u0027s 18th such audit since 2016, which cumulatively identified approximately $289 million in improper capitation payments for deceased enrollees. OIG recommended CMS provide matched T-MSIS data to states for recovery.",
                         "amount":  "$207.5M",
                         "amount_numeric":  207500000,
                         "officials":  [
@@ -1294,7 +1294,7 @@
                         "agency":  "DOJ",
                         "type":  "Civil Action",
                         "title":  "Virginia Laboratory NEXT Molecular Analytics Pays $758K+ to Settle Medicare Kickback Allegations",
-                        "description":  "NEXT Bio-Research Services LLC (d/b/a NEXT Molecular Analytics), a Chester, Virginia clinical laboratory, agreed to pay at least $758,000 plus contingent amounts to resolve False Claims Act allegations of paying illegal kickbacks to physicians and independent contractor marketers disguised as consulting fees and medical director feesâ€”paid on a per-referral basisâ€”to induce laboratory testing referrals. The kickback scheme involved doctors in Texas and Arkansas.",
+                        "description":  "NEXT Bio-Research Services LLC (d/b/a NEXT Molecular Analytics), a Chester, Virginia clinical laboratory, agreed to pay at least $758,000 plus contingent amounts to resolve False Claims Act allegations of paying illegal kickbacks to physicians and independent contractor marketers disguised as consulting fees and medical director fees—paid on a per-referral basis—to induce laboratory testing referrals. The kickback scheme involved doctors in Texas and Arkansas.",
                         "amount":  "$758K",
                         "amount_numeric":  758000,
                         "officials":  [
@@ -1325,8 +1325,8 @@
                         "date":  "2025-06-02",
                         "agency":  "HHS-OIG",
                         "type":  "Audit",
-                        "title":  "HHS-OIG Spring 2025 Semiannual Report: $16.6B in Healthcare Fraud Flagged (Oct 2024â€“Mar 2025)",
-                        "description":  "HHS-OIG\u0027s Spring 2025 Semiannual Report to Congressâ€”the first under the current administrationâ€”identified more than $16.6 billion in healthcare fraud, overpayments, and improper payments for the period October 1, 2024 through March 31, 2025. HHS-OIG conducted 946 criminal, civil, and administrative investigations, completed 744 enforcement actions, excluded 1,503 individuals and entities from federal healthcare programs, made 1,209 criminal referrals, and pursued 395 civil actions. Key focus areas included home health fraud, drug diversion, COVID-19 fraud, and Medicare patient abuse and neglect.",
+                        "title":  "HHS-OIG Spring 2025 Semiannual Report: $16.6B in Healthcare Fraud Flagged (Oct 2024—Mar 2025)",
+                        "description":  "HHS-OIG\u0027s Spring 2025 Semiannual Report to Congress—the first under the current administration—identified more than $16.6 billion in healthcare fraud, overpayments, and improper payments for the period October 1, 2024 through March 31, 2025. HHS-OIG conducted 946 criminal, civil, and administrative investigations, completed 744 enforcement actions, excluded 1,503 individuals and entities from federal healthcare programs, made 1,209 criminal referrals, and pursued 395 civil actions. Key focus areas included home health fraud, drug diversion, COVID-19 fraud, and Medicare patient abuse and neglect.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -1354,8 +1354,8 @@
                         "date":  "2026-01-21",
                         "agency":  "HHS-OIG",
                         "type":  "Audit",
-                        "title":  "HHS-OIG Fall 2025 Semiannual Report: $19.04B in Monetary Impact (Aprâ€“Sep 2025)",
-                        "description":  "HHS-OIG\u0027s Fall 2025 Semiannual Report to Congress identified $19.04 billion in monetary impact for the period April 1 through September 30, 2025â€”reflecting a significant increase from the Spring 2025 report\u0027s $16.6 billion. The period covered the 2025 National Health Care Fraud Takedown (June 30, 2025) and related enforcement actions. The report covers the peak enforcement period including the $14.6 billion takedown, the $10.6 billion Operation Gold Rush EDNY indictment, and the launch of the Healthcare Fraud Data Fusion Center.",
+                        "title":  "HHS-OIG Fall 2025 Semiannual Report: $19.04B in Monetary Impact (Apr—Sep 2025)",
+                        "description":  "HHS-OIG\u0027s Fall 2025 Semiannual Report to Congress identified $19.04 billion in monetary impact for the period April 1 through September 30, 2025—reflecting a significant increase from the Spring 2025 report\u0027s $16.6 billion. The period covered the 2025 National Health Care Fraud Takedown (June 30, 2025) and related enforcement actions. The report covers the peak enforcement period including the $14.6 billion takedown, the $10.6 billion Operation Gold Rush EDNY indictment, and the launch of the Healthcare Fraud Data Fusion Center.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -1385,7 +1385,7 @@
                         "agency":  "DOJ",
                         "type":  "Civil Action",
                         "title":  "DOJ Announces Record $6.8B in False Claims Act Recoveries in FY2025; Healthcare Accounts for $5.7B",
-                        "description":  "DOJ announced that False Claims Act settlements and judgments exceeded $6.8 billion in FY2025 (ending September 30, 2025)â€”the highest single-year total in FCA history. Over $5.7 billion of that total involved the healthcare industry, restoring funds to Medicare, Medicaid, and TRICARE. Whistleblowers filed 1,297 qui tam lawsuits in FY2025 (a new record, surpassing 2024\u0027s 980), recovering over $5.3 billion. Since 1986, cumulative FCA recoveries have exceeded $85 billion.",
+                        "description":  "DOJ announced that False Claims Act settlements and judgments exceeded $6.8 billion in FY2025 (ending September 30, 2025)—the highest single-year total in FCA history. Over $5.7 billion of that total involved the healthcare industry, restoring funds to Medicare, Medicaid, and TRICARE. Whistleblowers filed 1,297 qui tam lawsuits in FY2025 (a new record, surpassing 2024\u0027s 980), recovering over $5.3 billion. Since 1986, cumulative FCA recoveries have exceeded $85 billion.",
                         "amount":  "$5.7B (healthcare)",
                         "amount_numeric":  5700000000,
                         "officials":  [
@@ -1446,7 +1446,7 @@
                         "agency":  "White House",
                         "type":  "Structural/Organizational",
                         "title":  "White House Announces New DOJ National Fraud Enforcement Division; Healthcare Fraud a Core Focus",
-                        "description":  "The Trump White House announced the creation of a new Department of Justice Division for National Fraud Enforcement, to be led by an Assistant Attorney General appointed by the President. The division will enforce federal criminal and civil laws against fraud targeting federal government programsâ€”including Medicare, Medicaid, and other HHS-funded programsâ€”federally funded benefits, businesses, nonprofits, and private citizens. VP J.D. Vance stated the division \u0027will be run out of the White House.\u0027 On January 28, 2026, President Trump announced Colin McDonald as the nominee for AAG of the new division.",
+                        "description":  "The Trump White House announced the creation of a new Department of Justice Division for National Fraud Enforcement, to be led by an Assistant Attorney General appointed by the President. The division will enforce federal criminal and civil laws against fraud targeting federal government programs—including Medicare, Medicaid, and other HHS-funded programs—federally funded benefits, businesses, nonprofits, and private citizens. VP J.D. Vance stated the division \u0027will be run out of the White House.\u0027 On January 28, 2026, President Trump announced Colin McDonald as the nominee for AAG of the new division.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -1478,7 +1478,7 @@
                         "agency":  "DOJ",
                         "type":  "Civil Action",
                         "title":  "Kaiser Permanente Affiliates Pay $556M to Resolve Medicare Advantage False Claims Act Allegations",
-                        "description":  "Kaiser Foundation Health Plan Inc. and affiliated Kaiser entities in California and Colorado agreed to pay $556 million to resolve False Claims Act allegations that Kaiser systematically pressured physicians to alter patient medical records after visits by adding diagnoses not considered or addressed during those visitsâ€”mining patients\u0027 histories and sending physician \u0027queries\u0027 months or over a year after visits to generate addenda for unsupported diagnoses, and linking physician bonuses to meeting diagnosis goals. This is one of the largest Medicare Advantage risk-adjustment fraud settlements in history.",
+                        "description":  "Kaiser Foundation Health Plan Inc. and affiliated Kaiser entities in California and Colorado agreed to pay $556 million to resolve False Claims Act allegations that Kaiser systematically pressured physicians to alter patient medical records after visits by adding diagnoses not considered or addressed during those visits—mining patients\u0027 histories and sending physician \u0027queries\u0027 months or over a year after visits to generate addenda for unsupported diagnoses, and linking physician bonuses to meeting diagnosis goals. This is one of the largest Medicare Advantage risk-adjustment fraud settlements in history.",
                         "amount":  "$556M",
                         "amount_numeric":  556000000,
                         "officials":  [
@@ -1510,7 +1510,7 @@
                         "agency":  "DOJ",
                         "type":  "Civil Action",
                         "title":  "Five Florida Ophthalmology Practices Pay $6M to Resolve Fraudulent TCD Ultrasound Kickback Claims",
-                        "description":  "Five Florida ophthalmology practicesâ€”Clay Eye Holdings LLC, Retina Macula Specialist of Miami LLC, Florida Eye Institute P.A., Miami Eye LLC, and Kendall Eye Institute Inc.â€”agreed to pay nearly $6 million total to resolve False Claims Act allegations of billing Medicare and Medicaid for medically unnecessary trans-cranial Doppler ultrasound (TCD) tests through a kickback arrangement with a third-party testing company. Practices performed TCDs on thousands of patients and pre-labeled them with serious diagnoses (that nearly all patients did not have) before tests were complete. The State of Florida received $333,500 for its Medicaid share; the whistleblower received $1.135 million.",
+                        "description":  "Five Florida ophthalmology practices—Clay Eye Holdings LLC, Retina Macula Specialist of Miami LLC, Florida Eye Institute P.A., Miami Eye LLC, and Kendall Eye Institute Inc.—agreed to pay nearly $6 million total to resolve False Claims Act allegations of billing Medicare and Medicaid for medically unnecessary trans-cranial Doppler ultrasound (TCD) tests through a kickback arrangement with a third-party testing company. Practices performed TCDs on thousands of patients and pre-labeled them with serious diagnoses (that nearly all patients did not have) before tests were complete. The State of Florida received $333,500 for its Medicaid share; the whistleblower received $1.135 million.",
                         "amount":  "$6M",
                         "amount_numeric":  6000000,
                         "officials":  [
@@ -1541,7 +1541,7 @@
                         "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "Massachusetts Sleep Doctor Dr. Pankaj Merchia Convicted of Healthcare Fraud, Money Laundering, and Tax Evasion",
-                        "description":  "A federal jury in Boston convicted Dr. Pankaj Merchia, a Harvard-educated sleep medicine physician, for healthcare fraud, three counts of money laundering, conspiracy to defraud the IRS, and two counts of tax evasion. Merchia fraudulently billed insurance companies millions of dollars for sleep apnea machines not used by patients for years (2017â€“2019), billed over $390,000 for fraudulent family member treatment claims, and failed to report over $6.5 million in income (2009â€“2019) from his medical businesses. He purchased a $2.1 million Massachusetts home with fraud proceeds. Sentencing scheduled for April 28, 2026.",
+                        "description":  "A federal jury in Boston convicted Dr. Pankaj Merchia, a Harvard-educated sleep medicine physician, for healthcare fraud, three counts of money laundering, conspiracy to defraud the IRS, and two counts of tax evasion. Merchia fraudulently billed insurance companies millions of dollars for sleep apnea machines not used by patients for years (2017—2019), billed over $390,000 for fraudulent family member treatment claims, and failed to report over $6.5 million in income (2009—2019) from his medical businesses. He purchased a $2.1 million Massachusetts home with fraud proceeds. Sentencing scheduled for April 28, 2026.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -1569,7 +1569,7 @@
                         "agency":  "CMS",
                         "type":  "Rule/Regulation",
                         "title":  "CMS Issues Final Rule Closing Medicaid Provider Tax Loophole; $78.2B Decade Savings",
-                        "description":  "CMS finalized the \u0027Preserving Medicaid Funding for Vulnerable Populationsâ€”Closing a Health Care-Related Tax Loophole Final Rule,\u0027 codifying the Medicaid provider tax provisions adopted by Congress in the Working Families Tax Cuts legislation (Public Law 119-21, signed July 4, 2025). The rule prohibits states from taxing Medicaid business at higher rates than non-Medicaid, blocks indirect tax structures disguising disproportionate Medicaid burdens, and strengthens CMS enforcement authority. CMS estimates the rule saves the federal government $78.2 billion over the next decade, addressing financing gimmicks that drew down over $24 billion annually. Effective April 3, 2026, with phased state compliance deadlines through FY2028.",
+                        "description":  "CMS finalized the \u0027Preserving Medicaid Funding for Vulnerable Populations—Closing a Health Care-Related Tax Loophole Final Rule,\u0027 codifying the Medicaid provider tax provisions adopted by Congress in the Working Families Tax Cuts legislation (Public Law 119-21, signed July 4, 2025). The rule prohibits states from taxing Medicaid business at higher rates than non-Medicaid, blocks indirect tax structures disguising disproportionate Medicaid burdens, and strengthens CMS enforcement authority. CMS estimates the rule saves the federal government $78.2 billion over the next decade, addressing financing gimmicks that drew down over $24 billion annually. Effective April 3, 2026, with phased state compliance deadlines through FY2028.",
                         "amount":  "$78.2B",
                         "amount_numeric":  78200000000,
                         "officials":  [
@@ -1597,7 +1597,7 @@
                         "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "Two Queens, NY Men Charged with $120M Adult Day Care and Pharmacy Medicare/Medicaid Fraud",
-                        "description":  "Inwoo Kim (aka \u0027Tony Kim\u0027), 42, and Daniel Lee (aka \u0027Daniel Yang\u0027), 56, both of Flushing, Queens, were charged with conspiracy to commit healthcare fraud. Kim owned a pharmacy and two social adult day care centersâ€”Royal Adult Daycare and Happy Life Inc.â€”where from 2016â€“2026 the defendants paid illegal cash bribes and supermarket gift certificates to beneficiaries to fill prescriptions and enroll in day care services, and submitted claims for services never provided. In total, Medicare and Medicaid paid approximately $120 million for medically unnecessary or non-provided prescription drugs and adult day care services.",
+                        "description":  "Inwoo Kim (aka \u0027Tony Kim\u0027), 42, and Daniel Lee (aka \u0027Daniel Yang\u0027), 56, both of Flushing, Queens, were charged with conspiracy to commit healthcare fraud. Kim owned a pharmacy and two social adult day care centers—Royal Adult Daycare and Happy Life Inc.—where from 2016—2026 the defendants paid illegal cash bribes and supermarket gift certificates to beneficiaries to fill prescriptions and enroll in day care services, and submitted claims for services never provided. In total, Medicare and Medicaid paid approximately $120 million for medically unnecessary or non-provided prescription drugs and adult day care services.",
                         "amount":  "$120M",
                         "amount_numeric":  120000000,
                         "officials":  [
@@ -1662,7 +1662,7 @@
                         "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "Former NFL Player Keith Gray Convicted in $328M Medicare Genetic Testing Fraud Scheme",
-                        "description":  "A federal jury in Dallas convicted Keith J. Gray, 39, of McKinney, Texasâ€”a former NFL/Carolina Panthers playerâ€”and owner of Axis Professional Labs LLC and Kingdom Health Laboratory LLC, for conspiracy to defraud the United States, conspiracy to pay/receive healthcare kickbacks (five AKS counts), and three counts of money laundering. Gray billed Medicare approximately $328 million (Medicare paid ~$54 million) for medically unnecessary cardiovascular genetic tests by paying kickbacks to marketers for patient DNA samples, Medicare numbers, and signed physician orders. Gray laundered proceeds through luxury vehicle purchases.",
+                        "description":  "A federal jury in Dallas convicted Keith J. Gray, 39, of McKinney, Texas—a former NFL/Carolina Panthers player—and owner of Axis Professional Labs LLC and Kingdom Health Laboratory LLC, for conspiracy to defraud the United States, conspiracy to pay/receive healthcare kickbacks (five AKS counts), and three counts of money laundering. Gray billed Medicare approximately $328 million (Medicare paid ~$54 million) for medically unnecessary cardiovascular genetic tests by paying kickbacks to marketers for patient DNA samples, Medicare numbers, and signed physician orders. Gray laundered proceeds through luxury vehicle purchases.",
                         "amount":  "$328M",
                         "amount_numeric":  328000000,
                         "officials":  [
@@ -1722,7 +1722,7 @@
                         "agency":  "DOJ",
                         "type":  "Civil Action",
                         "title":  "Arizona OASIS Hospital/USPI Pay $5.6M to Resolve Improper Financial Arrangement with Physicians",
-                        "description":  "Southwest Orthopedic and Spine Hospital LLC (d/b/a OASIS Hospital), United Surgical Partners International Inc. (USPI), and an affiliated entity agreed to pay $5.6 million to resolve False Claims Act allegations that OASIS made improper interest payments on convertible bonds to a physician group that referred patients to OASIS, violating both the Anti-Kickback Statute and the Stark Law (Physician Self-Referral Law) from 2011â€“2018.",
+                        "description":  "Southwest Orthopedic and Spine Hospital LLC (d/b/a OASIS Hospital), United Surgical Partners International Inc. (USPI), and an affiliated entity agreed to pay $5.6 million to resolve False Claims Act allegations that OASIS made improper interest payments on convertible bonds to a physician group that referred patients to OASIS, violating both the Anti-Kickback Statute and the Stark Law (Physician Self-Referral Law) from 2011—2018.",
                         "amount":  "$5.6M",
                         "amount_numeric":  5600000,
                         "officials":  [
@@ -1845,7 +1845,7 @@
                         "agency":  "CMS",
                         "type":  "Investigation",
                         "title":  "Dr. Oz Launches Medicaid Fraud Investigation of New York; Sends 50-Question Letter to Gov. Hochul",
-                        "description":  "CMS Administrator Dr. Mehmet Oz sent a letter to New York Gov. Kathy Hochul posing 50 detailed questions about fraud, waste, and abuse in New York\u0027s $124 billion Medicaid programâ€”the largest state Medicaid program in the country. Oz cited serious concerns about New York\u0027s oversight of personal care, home health, adult day care programming, non-emergency medical transportation, and behavioral health services, noting per-capita spending and workforce utilization patterns significantly exceeding national norms. Hochul was given 30 days to respond with a corrective action plan or face potential deferral of federal Medicaid payments. CMS cited the $68 million Brooklyn adult day care fraud as an example.",
+                        "description":  "CMS Administrator Dr. Mehmet Oz sent a letter to New York Gov. Kathy Hochul posing 50 detailed questions about fraud, waste, and abuse in New York\u0027s $124 billion Medicaid program—the largest state Medicaid program in the country. Oz cited serious concerns about New York\u0027s oversight of personal care, home health, adult day care programming, non-emergency medical transportation, and behavioral health services, noting per-capita spending and workforce utilization patterns significantly exceeding national norms. Hochul was given 30 days to respond with a corrective action plan or face potential deferral of federal Medicaid payments. CMS cited the $68 million Brooklyn adult day care fraud as an example.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -1875,7 +1875,7 @@
                         "agency":  "DOJ",
                         "type":  "Civil Action",
                         "title":  "Independent Health Agrees to Pay Up to $98M to Settle Medicare Advantage Upcoding Allegations",
-                        "description":  "Independent Health Association and Independent Health Corporation (Buffalo, NY) agreed to pay up to $98 millionâ€”$34.5 million guaranteed plus up to $63.5 million contingentâ€”to resolve False Claims Act allegations that they submitted or caused the submission of invalid diagnosis codes to Medicare for Medicare Advantage enrollees to increase risk-adjusted payments. Co-defendant DxID LLC (a risk adjustment vendor) and its CEO Betsy Gaffney separately agreed to pay $2 million. Independent Health entered a five-year corporate integrity agreement with HHS-OIG requiring independent review of MA patients\u0027 medical records annually.",
+                        "description":  "Independent Health Association and Independent Health Corporation (Buffalo, NY) agreed to pay up to $98 million—$34.5 million guaranteed plus up to $63.5 million contingent—to resolve False Claims Act allegations that they submitted or caused the submission of invalid diagnosis codes to Medicare for Medicare Advantage enrollees to increase risk-adjusted payments. Co-defendant DxID LLC (a risk adjustment vendor) and its CEO Betsy Gaffney separately agreed to pay $2 million. Independent Health entered a five-year corporate integrity agreement with HHS-OIG requiring independent review of MA patients\u0027 medical records annually.",
                         "amount":  "$98M",
                         "amount_numeric":  98000000,
                         "officials":  [
@@ -1969,7 +1969,7 @@
                         "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "Jeffrey King (Apex Medical) Pleads Guilty to $1.2B Wound Graft Medicare Fraud",
-                        "description":  "Jeffrey King, 46, of Phoenix, Arizona, co-owner of Apex Medical LLC and Viking Medical Consultants LLC, pleaded guilty to conspiracy to commit health care fraud for his role in a $1.2 billion scheme involving medically unnecessary amniotic wound grafts applied to elderly and hospice patients. King and co-conspirators instructed untrained sales reps to order grafts in maximum sizes regardless of wound size to maximize reimbursement. They submitted $1,212,005,778 in false claims â€” over $960 million targeting Medicare, TRICARE, and CHAMPVA.",
+                        "description":  "Jeffrey King, 46, of Phoenix, Arizona, co-owner of Apex Medical LLC and Viking Medical Consultants LLC, pleaded guilty to conspiracy to commit health care fraud for his role in a $1.2 billion scheme involving medically unnecessary amniotic wound grafts applied to elderly and hospice patients. King and co-conspirators instructed untrained sales reps to order grafts in maximum sizes regardless of wound size to maximize reimbursement. They submitted $1,212,005,778 in false claims — over $960 million targeting Medicare, TRICARE, and CHAMPVA.",
                         "amount":  "$1.2B",
                         "amount_numeric":  1212005778,
                         "officials":  [
@@ -2031,7 +2031,7 @@
                         "agency":  "DOJ",
                         "type":  "Civil Action",
                         "title":  "Medisca Inc. Pays $21.75M for Inflated AWPs on Compounded Prescription Ingredients",
-                        "description":  "Compound ingredient supplier Medisca Inc. agreed to pay $21.75 million to resolve False Claims Act allegations that it knowingly inflated Average Wholesale Prices (AWPs) for two compound prescription ingredients â€” resveratrol and mometasone furoate â€” to increase reimbursements its pharmacy customers received from federal health care programs including TRICARE and DOL Workers\u0027 Compensation. Medisca bought resveratrol for ~$0.37/gram and reported an AWP of $777/gram. A compounding pharmacist whistleblower will receive $3.4 million.",
+                        "description":  "Compound ingredient supplier Medisca Inc. agreed to pay $21.75 million to resolve False Claims Act allegations that it knowingly inflated Average Wholesale Prices (AWPs) for two compound prescription ingredients — resveratrol and mometasone furoate — to increase reimbursements its pharmacy customers received from federal health care programs including TRICARE and DOL Workers\u0027 Compensation. Medisca bought resveratrol for ~$0.37/gram and reported an AWP of $777/gram. A compounding pharmacist whistleblower will receive $3.4 million.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -2214,7 +2214,7 @@
                         "agency":  "DOJ",
                         "type":  "Civil Action",
                         "title":  "Diopsys Inc. Pays Up to $14.25M for Off-Label Vision Device Medicare Fraud",
-                        "description":  "Diopsys Inc. agreed to pay up to $14.25 million to resolve False Claims Act and state law allegations that the company caused healthcare providers to submit false claims to Medicare and Medicaid for its NOVA device used for electroretinography testing â€” an indication for which the device lacked FDA clearance â€” between January 2015 and December 2021. The case arose from a qui tam suit by a California ophthalmologist.",
+                        "description":  "Diopsys Inc. agreed to pay up to $14.25 million to resolve False Claims Act and state law allegations that the company caused healthcare providers to submit false claims to Medicare and Medicaid for its NOVA device used for electroretinography testing — an indication for which the device lacked FDA clearance — between January 2015 and December 2021. The case arose from a qui tam suit by a California ophthalmologist.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -2340,7 +2340,7 @@
                         "agency":  "DOJ",
                         "type":  "Civil Action",
                         "title":  "DOJ Files FCA Complaint Against Aetna, Humana, Elevance \u0026 Brokers for $100Ms in Medicare Advantage Kickbacks",
-                        "description":  "The Department of Justice filed a False Claims Act complaint against three of the nation\u0027s largest Medicare Advantage insurers â€” Aetna, Elevance Health (formerly Anthem), and Humana â€” and three major brokers â€” eHealth, GoHealth, and SelectQuote â€” alleging they paid and received hundreds of millions of dollars in illegal kickbacks for Medicare Advantage enrollment steering from 2016 through at least 2021. Aetna and Humana also allegedly conspired to discriminate against Medicare beneficiaries with disabilities, pressuring brokers to enroll fewer disabled beneficiaries perceived as less profitable.",
+                        "description":  "The Department of Justice filed a False Claims Act complaint against three of the nation\u0027s largest Medicare Advantage insurers — Aetna, Elevance Health (formerly Anthem), and Humana — and three major brokers — eHealth, GoHealth, and SelectQuote — alleging they paid and received hundreds of millions of dollars in illegal kickbacks for Medicare Advantage enrollment steering from 2016 through at least 2021. Aetna and Humana also allegedly conspired to discriminate against Medicare beneficiaries with disabilities, pressuring brokers to enroll fewer disabled beneficiaries perceived as less profitable.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -2519,7 +2519,7 @@
                         "agency":  "CMS",
                         "type":  "Administrative Action",
                         "title":  "CMS Expands Medicare Advantage RADV Audits to All ~550 Plans; Grows Auditor Workforce 50x",
-                        "description":  "CMS announced a major expansion of Risk Adjustment Data Validation (RADV) audits targeting Medicare Advantage plans, expanding from approximately 60 plans to all eligible MA contracts (approximately 550 plans). Records audited per plan will increase from 35 to between 35 and 200. CMS will grow its medical coding workforce from 40 to approximately 2,000 by September 1, 2025, deploy advanced record-review technology, and complete all outstanding audits for payment years 2018â€“2024 by early 2026. Federal estimates suggest MA plans may overbill by $17â€“43 billion annually.",
+                        "description":  "CMS announced a major expansion of Risk Adjustment Data Validation (RADV) audits targeting Medicare Advantage plans, expanding from approximately 60 plans to all eligible MA contracts (approximately 550 plans). Records audited per plan will increase from 35 to between 35 and 200. CMS will grow its medical coding workforce from 40 to approximately 2,000 by September 1, 2025, deploy advanced record-review technology, and complete all outstanding audits for payment years 2018—2024 by early 2026. Federal estimates suggest MA plans may overbill by $17—43 billion annually.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -2548,8 +2548,8 @@
                         "date":  "2025-01-08",
                         "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
-                        "title":  "Chesapeake Regional Medical Center Indicted for Healthcare Fraud â€” Rare Hospital Indictment",
-                        "description":  "A federal grand jury in the Eastern District of Virginia indicted Chesapeake Regional Medical Center for conspiracy to commit healthcare fraud and obstruction in connection with enabling Dr. Javaid Perwaiz to perform thousands of medically unnecessary surgeries (hysterectomies, elective inductions) from 2010â€“2019. CRMC allegedly received approximately $18.5 million in reimbursements from Medicare, Medicaid, and TRICARE for these procedures. This is among the rarest instances of a hospital entity â€” rather than individuals â€” being criminally charged for healthcare fraud.",
+                        "title":  "Chesapeake Regional Medical Center Indicted for Healthcare Fraud — Rare Hospital Indictment",
+                        "description":  "A federal grand jury in the Eastern District of Virginia indicted Chesapeake Regional Medical Center for conspiracy to commit healthcare fraud and obstruction in connection with enabling Dr. Javaid Perwaiz to perform thousands of medically unnecessary surgeries (hysterectomies, elective inductions) from 2010—2019. CRMC allegedly received approximately $18.5 million in reimbursements from Medicare, Medicaid, and TRICARE for these procedures. This is among the rarest instances of a hospital entity — rather than individuals — being criminally charged for healthcare fraud.",
                         "amount":  "$18.5M",
                         "amount_numeric":  18500000,
                         "officials":  [
@@ -2898,7 +2898,7 @@
                         "date":  "2026-02-03",
                         "agency":  "Congress",
                         "type":  "Congressional Hearing",
-                        "title":  "House Energy \u0026 Commerce Hearing: Common Schemes, Real Harm â€” Examining Medicare/Medicaid Fraud",
+                        "title":  "House Energy \u0026 Commerce Hearing: Common Schemes, Real Harm — Examining Medicare/Medicaid Fraud",
                         "description":  "The Oversight and Investigations Subcommittee held its first major hearing on Medicare/Medicaid fraud trends, examining how transnational crime organizations are increasingly involved. Expert witnesses testified on fraud schemes nationwide. The committee subsequently expanded its investigation to 10 additional states (CA, CO, MA, ME, NE, NY, OR, PA, VT, WA). Estimated annual Medicare/Medicaid fraud losses cited at $100 billion+.",
                         "amount":  "$100 billion+ (estimated annual fraud losses)",
                         "amount_numeric":  0,
@@ -3012,7 +3012,7 @@
                         "date":  "2026-01-07",
                         "agency":  "Congress",
                         "type":  "Congressional Hearing",
-                        "title":  "House Oversight Hearing: Oversight of Fraud and Misuse of Federal Funds in Minnesota â€” Part I",
+                        "title":  "House Oversight Hearing: Oversight of Fraud and Misuse of Federal Funds in Minnesota — Part I",
                         "description":  "House Committee on Oversight and Government Reform held first hearing on Minnesota Medicaid fraud. Federal prosecutors estimate up to $9 billion stolen from 14 Minnesota Medicaid programs. Witnesses included Minnesota state legislators from the Fraud Prevention Committee. Feeding Our Future scandal alone involved ~$300 million stolen. Fraud identified in autism centers, sober homes, transportation, adult day services, and assisted living.",
                         "amount":  "$9 billion (estimated stolen)",
                         "amount_numeric":  0,
@@ -3040,7 +3040,7 @@
                         "date":  "2026-01-13",
                         "agency":  "Congress",
                         "type":  "Congressional Hearing",
-                        "title":  "House Oversight Hearing: Curbing Federal Fraud â€” Examining Innovative Detection Tools",
+                        "title":  "House Oversight Hearing: Curbing Federal Fraud — Examining Innovative Detection Tools",
                         "description":  "House Oversight Subcommittee on Government Operations examined innovative tools to detect and prevent fraud in federal programs. GAO estimates the federal government loses $231-521 billion annually to fraud. Witnesses included PRAC Executive Director and GAO Chief Scientist. Discussion of transitioning pandemic fraud detection infrastructure to government-wide use.",
                         "amount":  "$231-521 billion (estimated annual federal fraud losses)",
                         "amount_numeric":  0,
@@ -3162,7 +3162,7 @@
                         "date":  "2026-03-04",
                         "agency":  "Congress",
                         "type":  "Congressional Hearing",
-                        "title":  "House Oversight Hearing: Minnesota Fraud Part II â€” Governor Walz and AG Ellison Testify",
+                        "title":  "House Oversight Hearing: Minnesota Fraud Part II — Governor Walz and AG Ellison Testify",
                         "description":  "House Oversight Committee held second hearing on Minnesota Medicaid fraud with testimony from Gov. Tim Walz and AG Keith Ellison. Committee interim staff report alleged Walz and Ellison were aware of widespread fraud since 2019, misled the public, and retaliated against whistleblowers. VP Vance announced temporary pause on $250+ million in Medicaid funding to Minnesota.",
                         "amount":  "$9 billion (estimated stolen); $250M+ funding paused",
                         "amount_numeric":  0,
@@ -3512,7 +3512,7 @@
                         "date":  "2025-12-10",
                         "agency":  "Congress",
                         "type":  "Congressional Hearing",
-                        "title":  "House Judiciary Joint Hearing: Fighting Obamacare Subsidy Fraud â€” Is the APA Working as Intended?",
+                        "title":  "House Judiciary Joint Hearing: Fighting Obamacare Subsidy Fraud — Is the APA Working as Intended?",
                         "description":  "Joint hearing of House Judiciary Subcommittees on Oversight and Administrative State examined ACA subsidy fraud following the GAO report. Expert witnesses from Johns Hopkins, GAO, Paragon Institute, and Yale testified. Examined how enhanced COVID-era subsidies created environment for waste, fraud, and abuse. Discussed whether the Administrative Procedure Act functioned as intended.",
                         "amount":  null,
                         "amount_numeric":  0,
@@ -3605,7 +3605,7 @@
                         "date":  "2025-09-25",
                         "agency":  "Media",
                         "type":  "Investigative Report",
-                        "title":  "ProPublica: Health Insurance Hustle â€” NPI Loophole Makes Healthcare Fraud Absurdly Easy",
+                        "title":  "ProPublica: Health Insurance Hustle — NPI Loophole Makes Healthcare Fraud Absurdly Easy",
                         "description":  "ProPublica\u0027s investigation revealed how easy it is to commit healthcare fraud using the National Provider Identifier system. A Texas personal trainer and convicted felon posed as a licensed physician, obtained at least 20 NPI numbers, and billed Aetna, Cigna, and UnitedHealthcare for millions in bogus services. The reporting directly led to bipartisan legislation: the Medical License Verification Act (Sens. Cornyn and Cortez Masto) requiring Medicare to verify license validity before approving NPI numbers.",
                         "amount":  null,
                         "amount_numeric":  0,
@@ -3637,7 +3637,7 @@
                         "date":  "2025-10-15",
                         "agency":  "Media",
                         "type":  "Investigative Report",
-                        "title":  "KARE 11 Investigates: Housing Hustle â€” Massive Organized Fraud in Minnesota Medicaid Housing and Disability Programs",
+                        "title":  "KARE 11 Investigates: Housing Hustle — Massive Organized Fraud in Minnesota Medicaid Housing and Disability Programs",
                         "description":  "KARE 11\u0027s sustained \u0027Housing Hustle\u0027 investigation series exposed massive organized fraud in Minnesota\u0027s Housing Stabilization Services and other Medicaid programs. Key findings: forged documents, falsified service notes, billing for deceased clients, criminal networks of fly-by-night companies, and out-of-state \u0027fraud tourists\u0027 (two Philadelphia men obtained $3.5M remotely). DHS ignored repeated warnings. Series led to federal charges against 8+ defendants and a third-party Optum audit finding $52.3M in direct recoveries.",
                         "amount":  "$9 billion+ (estimated fraud across 14 programs)",
                         "amount_numeric":  0,
@@ -4633,7 +4633,7 @@
                         "agency":  "DOJ",
                         "type":  "Administrative Action",
                         "title":  "Anchorage doctor sentenced to prison in multi-million-dollar health care, tax fraud schemes",
-                        "description":  "ANCHORAGE, Alaska â€“ An Anchorage doctor was sentenced today to six and a half years in prison for executing a $12.5 million health care fraud scheme and evading over $4 million in taxes on the profits of their 15-year scheme. Her husband and co-defendant was sentenced to three yearsâ€™ probation, with two years to be served in home confinement for his role in the fraudulent scheme.",
+                        "description":  "ANCHORAGE, Alaska — An Anchorage doctor was sentenced today to six and a half years in prison for executing a $12.5 million health care fraud scheme and evading over $4 million in taxes on the profits of their 15-year scheme. Her husband and co-defendant was sentenced to three years’ probation, with two years to be served in home confinement for his role in the fraudulent scheme.",
                         "amount":  "$12.5 million",
                         "amount_numeric":  12500000.0,
                         "officials":  [
@@ -4667,33 +4667,6 @@
 
                                       ],
                         "link":  "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTmMySHc3S3ZFNGFvcUZ0UGJpZDUyc01waEdaLW1YZnRxeGljS1pseTl2SUdnWGFiOVlyOTlYYkZldDVqdlphZ0Z0OHB3cG9RMUtBZWNsc19QbjhHZURtal9HVDZPTWdyenRpLUc1TVlLaWpNXzZjTUVIUGM4dElrSWhWSVpVN2tjVU45UTQ5NNIBlAFBVV95cUxQOW9qUVlHbDlDWUdHMVlLNUZFN0JkSVUtbWUyUzdnM0pxT1pTbXgwbWJjbXNJajNPMGxIQVJweXZQWnJUb3lrQWUtdHhIN0RNWEtidzhOdE1LdFNNbG1ZZEpna3JYZHloVzlpT1FSZVZ5eFFIOWN3S1JMNXAyVzh3RzE5Nm9TMUVxVUVGLWhCVE9uM2pf?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "FL",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-03-18-976264439",
-                        "date":  "2026-03-18",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Trump Administration Widens Medicaid Fraud Crackdown to Florida - MedPage Today",
-                        "description":  "Trump Administration Widens Medicaid Fraud Crackdown to Florida  MedPage Today",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMicEFVX3lxTE0zN2FDc19rLWtOc2pybnd3ekJ5SDRwazhzVHk5VVpvQTV4MkY0UGpRemNMdE12WWJxOG9EeHJPcTdDSk9GcGRtYlgxcGJjZ2RGMkpPNWRjYWU2TFl5NVY3VWZwUTNZVXowMjk4VkNwTlA?oc=5",
                         "link_label":  "Google News Report",
                         "social_posts":  [
 
@@ -4767,8 +4740,8 @@
                         "date":  "2026-03-17",
                         "agency":  "Media",
                         "type":  "Investigative Report",
-                        "title":  "Healey responds to fed probe into Mass. Medicaid fraud and Trumpâ€™s new Fraud Task Force - Boston Herald",
-                        "description":  "Healey responds to fed probe into Mass. Medicaid fraud and Trumpâ€™s new Fraud Task Force  Boston Herald",
+                        "title":  "Healey responds to fed probe into Mass. Medicaid fraud and Trump’s new Fraud Task Force - Boston Herald",
+                        "description":  "Healey responds to fed probe into Mass. Medicaid fraud and Trump’s new Fraud Task Force  Boston Herald",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -4813,33 +4786,6 @@
 
                                      ],
                         "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-03-18-619872979",
-                        "date":  "2026-03-18",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Oz eyes Florida as first GOP target in Medicaid and Medicare fraud crackdown - Washington Examiner",
-                        "description":  "Oz eyes Florida as first GOP target in Medicaid and Medicare fraud crackdown  Washington Examiner",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeXRVc3JDV21lb0VZQllQaVItNV9VOVM2bE5yNHlXU0dmSGtLdFMzOVJ0RHk5OXpOTmlCLTMtMEdacFpvamdod1VEelFpY3hSNEJZNV9YZG1HbnFFZmE0SUVzZHp3NUNLVEpBRU5QeTNrcUFFcTB0c1BicHU4SkZqc0dNM1RIb0V6ZlVfdkc1UUFyMjhKQXZlQjFORmVtcDl4LUs3QUNmWDlOR19qY0d1TVVkQ1N6Z1R5aVI5Vg?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "WA",
                         "source_type":  "news",
                         "auto_fetched":  true
                     },
@@ -4910,33 +4856,6 @@
 
                                       ],
                         "link":  "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA3dVA5aEhYeklUVTQtZHhfR1BHY2xkak5DSVJzbzdya3l2LWJqYnZEWS1qeWR1LXZxVnY4MWxMOUlQckp3bXp5c28xOFF1dTBnY0Q1WFNaRkw5VEZocUZPRHJR0gFnQVVfeXFMTXJxSW0zb0JaaXk4a1VYRWFvOGV2S0JocHJaNjZRNDhvMWNuR2RLakJtb2R4S0hfV3o2R2ViVlRpeU00ejlhZlVjUllRUWhSYTFILVVVX0xjeTZaaFVNcm9JNXhQLXNtMA?oc=5",
-                        "link_label":  "Google News Report",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "FL",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-03-18-1175218972",
-                        "date":  "2026-03-18",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Trump administration opens Medicaid fraud probe in Florida - Tippah News",
-                        "description":  "Trump administration opens Medicaid fraud probe in Florida  Tippah News",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZXVPNWpmYmRjMHAxbjl1eE5zU0N1WWZKOEtnLURxQ2VGZ3E2NGF5QUNXWEdKSzM4SlJhNU9lejNxbkZ2Ty1xdy1MSWQweTNSTEEwU3psVUt6UV9CS3Bkd0d5cEJOOWs5VTRNX0lWQnQxWXhLLWNyUERPdS01cnFWb3FWOXk5SjVYMjQ0TXFTTzMyS05tVEdvR0NYWDQ?oc=5",
                         "link_label":  "Google News Report",
                         "social_posts":  [
 
@@ -5145,8 +5064,8 @@
                         "date":  "2026-03-16",
                         "agency":  "Media",
                         "type":  "Investigative Report",
-                        "title":  "KPR: How Kentuckyâ€™s Addiction Recovery Care is being investigated for possible Medicaid fraud - The Lexington Times",
-                        "description":  "KPR: How Kentuckyâ€™s Addiction Recovery Care is being investigated for possible Medicaid fraud  The Lexington Times",
+                        "title":  "KPR: How Kentucky’s Addiction Recovery Care is being investigated for possible Medicaid fraud - The Lexington Times",
+                        "description":  "KPR: How Kentucky’s Addiction Recovery Care is being investigated for possible Medicaid fraud  The Lexington Times",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -5415,8 +5334,8 @@
                         "date":  "2025-12-19",
                         "agency":  "Media",
                         "type":  "Investigative Report",
-                        "title":  "Feds bring new charges tied to â€˜staggeringâ€™ Minnesota Medicaid fraud - Sahan Journal",
-                        "description":  "Feds bring new charges tied to â€˜staggeringâ€™ Minnesota Medicaid fraud  Sahan Journal",
+                        "title":  "Feds bring new charges tied to ‘staggering’ Minnesota Medicaid fraud - Sahan Journal",
+                        "description":  "Feds bring new charges tied to ‘staggering’ Minnesota Medicaid fraud  Sahan Journal",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -5496,8 +5415,8 @@
                         "date":  "2025-12-19",
                         "agency":  "Media",
                         "type":  "Investigative Report",
-                        "title":  "Gov. Walz questions $9B Medicaid fraud estimate, says heâ€™ll take accountability - MPR News",
-                        "description":  "Gov. Walz questions $9B Medicaid fraud estimate, says heâ€™ll take accountability  MPR News",
+                        "title":  "Gov. Walz questions $9B Medicaid fraud estimate, says he’ll take accountability - MPR News",
+                        "description":  "Gov. Walz questions $9B Medicaid fraud estimate, says he’ll take accountability  MPR News",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -5712,8 +5631,8 @@
                         "date":  "2025-06-30",
                         "agency":  "Media",
                         "type":  "Investigative Report",
-                        "title":  "Justice Department healthcare fraud â€˜takedownâ€™ nets two nursing home chains among 324 defendants - McKnight\u0027s Long-Term Care News",
-                        "description":  "Justice Department healthcare fraud â€˜takedownâ€™ nets two nursing home chains among 324 defendants  McKnight\u0027s Long-Term Care News",
+                        "title":  "Justice Department healthcare fraud ‘takedown’ nets two nursing home chains among 324 defendants - McKnight\u0027s Long-Term Care News",
+                        "description":  "Justice Department healthcare fraud ‘takedown’ nets two nursing home chains among 324 defendants  McKnight\u0027s Long-Term Care News",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -5847,8 +5766,8 @@
                         "date":  "2025-09-10",
                         "agency":  "Media",
                         "type":  "Investigative Report",
-                        "title":  "Got a package you didnâ€™t order? It could be Medicare fraud - investigatetv.com",
-                        "description":  "Got a package you didnâ€™t order? It could be Medicare fraud  investigatetv.com",
+                        "title":  "Got a package you didn’t order? It could be Medicare fraud - investigatetv.com",
+                        "description":  "Got a package you didn’t order? It could be Medicare fraud  investigatetv.com",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
