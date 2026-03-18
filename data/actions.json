@@ -5060,37 +5060,6 @@
                         "related_agency":  "DOJ"
                     },
                     {
-                        "id":  "media-2026-03-17-295073515",
-                        "date":  "2026-03-17",
-                        "agency":  "Media",
-                        "type":  "Investigation",
-                        "title":  "Federal Crackdown Intensifies: Medicaid Fraud Under Scrutiny - Devdiscourse",
-                        "description":  "Federal authorities intensified scrutiny of Medicaid fraud nationally, expanding investigations and enforcement actions as part of a broader crackdown on improper payments and fraudulent billing across state programs.",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUWRiVGVqNUFST1BJLVh4OW02eU9xTnVaYnZpMXBnVWkyeFFxV1RVdWppbGVsNWl5cVNMaDNNRWI1dG8wRmNrUEJVdXlPUkFJNk1LRWNTek9MVmRadE1md0tjVXVWSjYtSW56bU5MdmFqMG0zS2NRV240X3BXQVFVZmJFN0p6M2QwakRMbmt1Y29XdTBVckRhdC1KMmZQSUZxT2lYRnduOXZBMzFNTVphWdIBtgFBVV95cUxQZUh6VHZmNFNuQzBnYnFLWTBiTFBvSzRMVmxJRE1JRkR6MXV1Z2ViT3Q1NjRIVXRTWDlFQm01bHU1dFBKZmtsYVd6MjVsQjk4c1hRaktGYVpOMG1qQ3YxQTZaM0xpWHRPQW8yRWFJQ21DY0RtRVd0aEJMazgycTl6SmlUWkMyTGhoMzFORVpRdWxQLUdDMkh0VmoxOW1PandJLWFRanJxOGlYN0RJV1Z3Sl9mQ0tWdw?oc=5",
-                        "link_label":  "Devdiscourse",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-                                     "Medicaid",
-                                     "Program Integrity",
-                                     "Multi-State",
-                                     "False Claims"
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true,
-                        "related_agency":  "CMS"
-                    },
-                    {
                         "id":  "media-2026-03-13-428959442",
                         "date":  "2026-03-13",
                         "agency":  "Media",
