@@ -2628,7 +2628,8 @@
                         "auto_fetched":  false,
                         "entities":  [
 
-                                     ]
+                                     ],
+                        "related_agency":  "HHS-OIG"
                     },
                     {
                         "id":  "media-2026-03-10-cbs-la-hospice-fraud",
@@ -2716,7 +2717,8 @@
                         "auto_fetched":  false,
                         "entities":  [
 
-                                     ]
+                                     ],
+                        "related_agency":  "HHS"
                     },
                     {
                         "id":  "media-2026-02-20-wsmv-russian-tennessee-medicare",
@@ -2746,7 +2748,8 @@
                         "auto_fetched":  false,
                         "entities":  [
 
-                                     ]
+                                     ],
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "doj-2026-03-11-aetna-fca-settlement",
@@ -2806,7 +2809,8 @@
                         "auto_fetched":  false,
                         "entities":  [
 
-                                     ]
+                                     ],
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2026-01-16-abbott-texas-medicaid-investigation",
@@ -2834,7 +2838,8 @@
                         "auto_fetched":  false,
                         "entities":  [
 
-                                     ]
+                                     ],
+                        "related_agency":  "HHS-OIG"
                     },
                     {
                         "id":  "media-2026-01-22-denver-post-zynex-indictment",
@@ -3005,7 +3010,8 @@
                         "auto_fetched":  false,
                         "entities":  [
                                          "Zynex"
-                                     ]
+                                     ],
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "congress-2026-01-07-house-oversight-mn-fraud-part1",
@@ -3630,7 +3636,8 @@
                                          "UnitedHealth",
                                          "Aetna",
                                          "Cigna"
-                                     ]
+                                     ],
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2025-10-15-kare11-mn-housing-hustle-series",
@@ -3659,7 +3666,8 @@
                         "auto_fetched":  false,
                         "entities":  [
                                          "Optum"
-                                     ]
+                                     ],
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2025-10-31-ca-ag-cvs-medi-cal-settlement",
@@ -3689,7 +3697,8 @@
                         "auto_fetched":  false,
                         "entities":  [
                                          "CVS"
-                                     ]
+                                     ],
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2025-10-31-texas-ag-healthcare-fraud-results",
@@ -4136,7 +4145,8 @@
                         "amount_numeric":  30000000,
                         "entities":  [
                                          "EZ Medical Supply"
-                                     ]
+                                     ],
+                        "related_agency":  "DOJ"
                     },
                     {
                         "link":  "https://www.justice.gov/opa/pr/fraud-tourists-plead-guilty-minneapolis-medicaid-fraud",
@@ -4165,7 +4175,8 @@
                         "amount_numeric":  3500000,
                         "entities":  [
 
-                                     ]
+                                     ],
+                        "related_agency":  "DOJ"
                     },
                     {
                         "link":  "https://www.justice.gov/opa/pr/two-foreign-nationals-indicted-chicago-part-10m-health-care-fraud-scheme",
@@ -4194,7 +4205,8 @@
                         "amount_numeric":  10000000,
                         "entities":  [
 
-                                     ]
+                                     ],
+                        "related_agency":  "DOJ"
                     },
                     {
                         "link":  "https://www.justice.gov/opa/pr/russian-citizen-charged-laundering-over-12m-connected-400m-fraudulent-medicare-claims",
@@ -4224,7 +4236,8 @@
                         "amount_numeric":  400000000,
                         "entities":  [
 
-                                     ]
+                                     ],
+                        "related_agency":  "DOJ"
                     },
                     {
                         "link":  "https://federalnewsnetwork.com/artificial-intelligence/2026/03/cmss-two-pronged-approach-to-crushing-fraud-waste-abuse/",
@@ -4252,7 +4265,8 @@
                         "amount_numeric":  2000000000,
                         "entities":  [
 
-                                     ]
+                                     ],
+                        "related_agency":  "CMS"
                     },
                     {
                         "link":  "https://www.foxnews.com/us/la-medicare-fraud-doctor-provider-number-billing-probe",
@@ -4339,7 +4353,8 @@
                         "amount_numeric":  0,
                         "entities":  [
                                          "UnitedHealth"
-                                     ]
+                                     ],
+                        "related_agency":  "DOJ"
                     },
                     {
                         "link":  "https://minnesotareformer.com/briefs/state-shuts-down-100-million-housing-stabilization-program-citing-fraud/",
@@ -4395,7 +4410,8 @@
                         "amount_numeric":  0,
                         "entities":  [
 
-                                     ]
+                                     ],
+                        "related_agency":  "CMS"
                     },
                     {
                         "link":  "https://www.justice.gov/opa/pr/two-charged-227-million-medicare-fraud-scheme",
@@ -4424,7 +4440,8 @@
                         "amount_numeric":  227000000,
                         "entities":  [
 
-                                     ]
+                                     ],
+                        "related_agency":  "DOJ"
                     },
                     {
                         "link":  "https://azcir.org/news/2025/01/27/arizona-deaths-sober-living-homes-fumbled-response-medicaid-fraud/",
@@ -4453,7 +4470,8 @@
                         "amount_numeric":  0,
                         "entities":  [
 
-                                     ]
+                                     ],
+                        "related_agency":  "CMS"
                     },
                     {
                         "id":  "whitehouse-2026-03-16-task-force-eliminate-fraud",
@@ -4540,7 +4558,8 @@
                                      ],
                         "state":  "IA",
                         "source_type":  "news",
-                        "auto_fetched":  false
+                        "auto_fetched":  false,
+                        "related_agency":  "HHS"
                     },
                     {
                         "id":  "doj-2026-03-16-safe-chain-hiv-drugs-92m",
@@ -4711,7 +4730,8 @@
                                      ],
                         "state":  null,
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2026-03-17-380196477",
@@ -4771,7 +4791,8 @@
                                      ],
                         "state":  "NE",
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "Congress"
                     },
                     {
                         "id":  "media-2026-01-29-2111006586",
@@ -4802,7 +4823,8 @@
                                      ],
                         "state":  "FL",
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2026-01-27-1885422764",
@@ -4832,7 +4854,8 @@
                                      ],
                         "state":  "CA",
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "Congress"
                     },
                     {
                         "id":  "media-2026-03-12-1199980870",
@@ -4892,7 +4915,8 @@
                                      ],
                         "state":  "MA",
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "Congress"
                     },
                     {
                         "id":  "media-2026-03-06-1036686978",
@@ -4952,7 +4976,8 @@
                                      ],
                         "state":  null,
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "HHS"
                     },
                     {
                         "id":  "media-2026-03-09-643026761",
@@ -4982,7 +5007,8 @@
                                      ],
                         "state":  "NC",
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2026-03-16-1106343144",
@@ -5100,7 +5126,8 @@
                                      ],
                         "state":  "WI",
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2026-01-13-374321910",
@@ -5161,7 +5188,8 @@
                                      ],
                         "state":  null,
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "HHS-OIG"
                     },
                     {
                         "id":  "media-2026-03-08-330356672",
@@ -5191,7 +5219,8 @@
                                      ],
                         "state":  "NC",
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2026-03-17-1883779842",
@@ -5251,7 +5280,8 @@
                                      ],
                         "state":  "TX",
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2026-01-22-95988577",
@@ -5280,7 +5310,8 @@
                                      ],
                         "state":  "FL",
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2025-12-19-1075140573",
@@ -5340,7 +5371,8 @@
                                      ],
                         "state":  null,
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2025-12-19-1820364031",
@@ -5428,7 +5460,8 @@
                                      ],
                         "state":  "MD",
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2025-10-30-1909881097",
@@ -5488,7 +5521,8 @@
                                      ],
                         "state":  null,
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2025-08-06-1035609990",
@@ -5608,7 +5642,8 @@
                                      ],
                         "state":  null,
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2025-07-01-926451052",
@@ -5728,7 +5763,8 @@
                                      ],
                         "state":  null,
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2025-09-10-676624436",

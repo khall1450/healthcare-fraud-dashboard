@@ -518,7 +518,7 @@ function applyFilters() {
   const dateTo   = document.getElementById('dateTo').value;
 
   let filtered = allActions.filter(a => {
-    if (agency !== 'all' && a.agency !== agency) return false;
+    if (agency !== 'all' && a.agency !== agency && a.related_agency !== agency) return false;
     if (type   !== 'all' && a.type   !== type)   return false;
     if (state  !== 'all' && a.state  !== state)  return false;
     if (dateFrom && a.date < dateFrom) return false;
