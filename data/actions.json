@@ -2659,7 +2659,8 @@
                         "auto_fetched":  false,
                         "entities":  [
 
-                                     ]
+                                     ],
+                        "related_agency":  "CMS"
                     },
                     {
                         "id":  "congress-2026-01-12-grassley-unitedhealth-ma-report",
@@ -2869,7 +2870,8 @@
                         "auto_fetched":  false,
                         "entities":  [
                                          "Zynex"
-                                     ]
+                                     ],
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2026-01-30-ca-ag-hospice-fraud-arrests",
@@ -2898,7 +2900,8 @@
                         "auto_fetched":  false,
                         "entities":  [
 
-                                     ]
+                                     ],
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "congress-2026-02-03-house-ec-fraud-hearing",
@@ -2956,7 +2959,8 @@
                         "auto_fetched":  false,
                         "entities":  [
                                          "Optum"
-                                     ]
+                                     ],
+                        "related_agency":  "HHS-OIG"
                     },
                     {
                         "id":  "congress-2025-12-03-gao-aca-subsidy-fraud",
@@ -3485,7 +3489,8 @@
                         "auto_fetched":  false,
                         "entities":  [
                                          "Horizon Blue Cross Blue Shield"
-                                     ]
+                                     ],
+                        "related_agency":  "CMS"
                     },
                     {
                         "id":  "congress-2025-12-04-senate-finance-gao-aca-response",
@@ -3607,7 +3612,8 @@
                         "auto_fetched":  false,
                         "entities":  [
                                          "Exactech"
-                                     ]
+                                     ],
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2025-09-25-propublica-npi-loophole-fraud",
@@ -3729,7 +3735,8 @@
                         "auto_fetched":  false,
                         "entities":  [
 
-                                     ]
+                                     ],
+                        "related_agency":  "DOJ"
                     },
                     {
                         "link":  "https://www.justice.gov/usao-edtn/pr/federal-jury-convicts-three-women-conspiracy-commit-wire-fraud-related-rocky-hill",
@@ -4298,7 +4305,8 @@
                         "amount_numeric":  600000000,
                         "entities":  [
 
-                                     ]
+                                     ],
+                        "related_agency":  "DOJ"
                     },
                     {
                         "link":  "https://www.healthlawadvisor.com/the-first-national-health-care-fraud-takedown-of-the-second-trump-administration-what-stayed-the-same-and-what-is-new",
@@ -4328,7 +4336,8 @@
                         "amount_numeric":  0,
                         "entities":  [
 
-                                     ]
+                                     ],
+                        "related_agency":  "DOJ"
                     },
                     {
                         "link":  "https://www.cnbc.com/2025/07/24/unitedhealthcare-doj-investigation-medicare-billing.html",
@@ -4385,7 +4394,8 @@
                         "amount_numeric":  107000000,
                         "entities":  [
 
-                                     ]
+                                     ],
+                        "related_agency":  "CMS"
                     },
                     {
                         "link":  "https://www.cms.gov/newsroom/press-releases/cms-notifies-individuals-potentially-impacted-data-incident",
@@ -4704,7 +4714,8 @@
                                      ],
                         "state":  "FL",
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "CMS"
                     },
                     {
                         "id":  "media-2026-03-17-2094579834",
@@ -4765,7 +4776,8 @@
                                      ],
                         "state":  "CT",
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2026-03-12-1515251584",
@@ -4889,7 +4901,8 @@
                                      ],
                         "state":  "CA",
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2026-03-16-1562252783",
@@ -4950,7 +4963,8 @@
                                      ],
                         "state":  null,
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "Congress"
                     },
                     {
                         "id":  "media-2026-02-25-1000599972",
@@ -5042,7 +5056,8 @@
                                      ],
                         "state":  "KY",
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2026-03-17-295073515",
@@ -5072,7 +5087,8 @@
                                      ],
                         "state":  null,
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "CMS"
                     },
                     {
                         "id":  "media-2026-03-13-428959442",
@@ -5101,7 +5117,8 @@
                                      ],
                         "state":  null,
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2026-03-12-89483935",
@@ -5161,7 +5178,8 @@
                                      ],
                         "state":  "AK",
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2025-06-30-395592441",
@@ -5254,7 +5272,8 @@
                                      ],
                         "state":  "CA",
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2026-02-02-707855510",
@@ -5345,7 +5364,8 @@
                                      ],
                         "state":  "MN",
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2026-02-21-1677058421",
@@ -5405,7 +5425,8 @@
                                      ],
                         "state":  "MN",
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "CMS"
                     },
                     {
                         "id":  "media-2025-12-18-760461757",
@@ -5435,7 +5456,8 @@
                                      ],
                         "state":  "MN",
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2025-12-12-997397892",
@@ -5494,7 +5516,8 @@
                                      ],
                         "state":  "NY",
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2025-06-30-473057655",
@@ -5556,7 +5579,8 @@
                                      ],
                         "state":  null,
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2025-07-01-1539805726",
@@ -5586,7 +5610,8 @@
                                      ],
                         "state":  null,
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2025-11-24-466180734",
@@ -5615,7 +5640,8 @@
                                      ],
                         "state":  "MN",
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2025-06-30-340464747",
@@ -5677,7 +5703,8 @@
                                      ],
                         "state":  "NC",
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2025-06-03-200331819",
@@ -5706,7 +5733,8 @@
                                      ],
                         "state":  null,
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2025-06-30-182465536",
@@ -5736,7 +5764,8 @@
                                      ],
                         "state":  "SC",
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2025-07-02-2122397106",
@@ -5797,7 +5826,8 @@
                                      ],
                         "state":  null,
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "CMS"
                     },
                     {
                         "id":  "media-2025-07-01-1398784313",
@@ -5827,7 +5857,8 @@
                                      ],
                         "state":  "TX",
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     },
                     {
                         "id":  "media-2025-05-20-1872101957",
@@ -5857,7 +5888,8 @@
                                      ],
                         "state":  "AZ",
                         "source_type":  "news",
-                        "auto_fetched":  true
+                        "auto_fetched":  true,
+                        "related_agency":  "DOJ"
                     }
                 ]
 }
