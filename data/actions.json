@@ -4655,39 +4655,12 @@
                         "auto_fetched":  true
                     },
                     {
-                        "id":  "media-2026-03-18-487939711",
-                        "date":  "2026-03-18",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Florida targeted in expanding federal Medicaid fraud probe - FOX 13 Tampa Bay",
-                        "description":  "Florida targeted in expanding federal Medicaid fraud probe  FOX 13 Tampa Bay",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTmMySHc3S3ZFNGFvcUZ0UGJpZDUyc01waEdaLW1YZnRxeGljS1pseTl2SUdnWGFiOVlyOTlYYkZldDVqdlphZ0Z0OHB3cG9RMUtBZWNsc19QbjhHZURtal9HVDZPTWdyenRpLUc1TVlLaWpNXzZjTUVIUGM4dElrSWhWSVpVN2tjVU45UTQ5NNIBlAFBVV95cUxQOW9qUVlHbDlDWUdHMVlLNUZFN0JkSVUtbWUyUzdnM0pxT1pTbXgwbWJjbXNJajNPMGxIQVJweXZQWnJUb3lrQWUtdHhIN0RNWEtidzhOdE1LdFNNbG1ZZEpna3JYZHloVzlpT1FSZVZ5eFFIOWN3S1JMNXAyVzh3RzE5Nm9TMUVxVUVGLWhCVE9uM2pf?oc=5",
-                        "link_label":  "FOX 13 Tampa Bay",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "FL",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
                         "id":  "media-2026-03-18-486820781",
                         "date":  "2026-03-18",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Investigation",
                         "title":  "Trump administration expands Medicaid fraud crackdown to Florida - The Hill",
-                        "description":  "Trump administration expands Medicaid fraud crackdown to Florida  The Hill",
+                        "description":  "The Trump administration widened its Medicaid fraud enforcement efforts to include Florida, part of an expanding federal crackdown examining improper Medicaid payments and billing irregularities across multiple states.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -4699,7 +4672,10 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicaid",
+                                     "Program Integrity",
+                                     "Multi-State",
+                                     "False Claims"
                                  ],
                         "entities":  [
 
@@ -4714,7 +4690,7 @@
                         "agency":  "Media",
                         "type":  "Investigative Report",
                         "title":  "Dr. Oz Calls Medicare Fraud an Epidemic. Trump Keeps Pardoning the Culprits. - Mother Jones",
-                        "description":  "Dr. Oz Calls Medicare Fraud an Epidemic. Trump Keeps Pardoning the Culprits.  Mother Jones",
+                        "description":  "CMS Administrator Dr. Oz publicly characterized Medicare fraud as an epidemic, while the Trump administration simultaneously granted pardons or clemency to individuals previously convicted of healthcare fraud schemes.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -4726,34 +4702,9 @@
 
                                          ],
                         "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-03-17-965287071",
-                        "date":  "2026-03-17",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Healey responds to fed probe into Mass. Medicaid fraud and Trump’s new Fraud Task Force - Boston Herald",
-                        "description":  "Healey responds to fed probe into Mass. Medicaid fraud and Trump’s new Fraud Task Force  Boston Herald",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMixAFBVV95cUxPbzVQaFRPcmk3UDduaVh2RUM4VW9RTmVHQzdqS2o1Ym0tNzloQzc0ZjE3Zko1TWpKdUlHNWk0YldFeEtCOHZ4NXhkM29icE81d1ZRQ3NrdmYzVHR5N2N5TFVsY3BYamF3YXVPZnd5ZXNCZ0JCTzFRWGRMSHVqeWxnMlAxQURpMnB5TWtoNWI2djhOYVhYR1VFalptR0NEbXA2cXhodFItOG4zR2U5SWgtX2FVN1d6U3JDdk5oZFVjMG5UMkdj?oc=5",
-                        "link_label":  "Boston Herald",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
+                                     "Medicare",
+                                     "Program Integrity",
+                                     "False Claims"
                                  ],
                         "entities":  [
 
@@ -4766,9 +4717,9 @@
                         "id":  "media-2026-03-17-380196477",
                         "date":  "2026-03-17",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Civil Action",
                         "title":  "Connecticut recovers $43 million in Medicaid fraud payments - CT Insider",
-                        "description":  "Connecticut recovers $43 million in Medicaid fraud payments  CT Insider",
+                        "description":  "Connecticut recovered $43 million in Medicaid fraud payments through enforcement actions targeting providers who submitted false claims or overbilled the state Medicaid program.",
                         "amount":  "$43 million",
                         "amount_numeric":  43000000.0,
                         "officials":  [
@@ -4780,12 +4731,15 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicaid",
+                                     "False Claims",
+                                     "Improper Payments",
+                                     "Program Integrity"
                                  ],
                         "entities":  [
 
                                      ],
-                        "state":  null,
+                        "state":  "CT",
                         "source_type":  "news",
                         "auto_fetched":  true
                     },
@@ -4793,9 +4747,9 @@
                         "id":  "media-2026-03-12-1515251584",
                         "date":  "2026-03-12",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Congressional Hearing",
                         "title":  "Nebraska named in expanded Congressional Medicaid fraud investigation - Nebraska Public Media",
-                        "description":  "Nebraska named in expanded Congressional Medicaid fraud investigation  Nebraska Public Media",
+                        "description":  "The House Energy and Commerce Committee expanded its congressional investigation into Medicaid fraud to include Nebraska, requesting state data as part of a multi-state probe into improper Medicaid spending.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -4807,12 +4761,15 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicaid",
+                                     "Congressional",
+                                     "Program Integrity",
+                                     "Multi-State"
                                  ],
                         "entities":  [
 
                                      ],
-                        "state":  null,
+                        "state":  "NE",
                         "source_type":  "news",
                         "auto_fetched":  true
                     },
@@ -4820,9 +4777,9 @@
                         "id":  "media-2026-01-29-2111006586",
                         "date":  "2026-01-29",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Criminal Enforcement",
                         "title":  "Florida Laboratory Owner Pleads Guilty to $52M Medicare Fraud Scheme Involving Genetic Tests - Department of Justice (.gov)",
-                        "description":  "Florida Laboratory Owner Pleads Guilty to $52M Medicare Fraud Scheme Involving Genetic Tests  Department of Justice (.gov)",
+                        "description":  "A Florida laboratory owner pleaded guilty to a $52 million Medicare fraud scheme involving medically unnecessary genetic tests ordered through kickback arrangements with recruiters and marketers.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -4834,66 +4791,16 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicare",
+                                     "Lab Fraud",
+                                     "Genetic Testing",
+                                     "False Claims",
+                                     "Kickbacks"
                                  ],
                         "entities":  [
 
                                      ],
                         "state":  "FL",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-03-18-1426240331",
-                        "date":  "2026-03-18",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Medicaid fraud investigation in Florida - FOX 13 Tampa Bay",
-                        "description":  "Medicaid fraud investigation in Florida  FOX 13 Tampa Bay",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA3dVA5aEhYeklUVTQtZHhfR1BHY2xkak5DSVJzbzdya3l2LWJqYnZEWS1qeWR1LXZxVnY4MWxMOUlQckp3bXp5c28xOFF1dTBnY0Q1WFNaRkw5VEZocUZPRHJR0gFnQVVfeXFMTXJxSW0zb0JaaXk4a1VYRWFvOGV2S0JocHJaNjZRNDhvMWNuR2RLakJtb2R4S0hfV3o2R2ViVlRpeU00ejlhZlVjUllRUWhSYTFILVVVX0xjeTZaaFVNcm9JNXhQLXNtMA?oc=5",
-                        "link_label":  "FOX 13 Tampa Bay",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "FL",
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
-                        "id":  "media-2026-03-06-1683315405",
-                        "date":  "2026-03-06",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Attorney General Jeff Jackson Announces $12.7 Million Medicaid Fraud Sentencings - NCDOJ (.gov)",
-                        "description":  "Attorney General Jeff Jackson Announces $12.7 Million Medicaid Fraud Sentencings  NCDOJ (.gov)",
-                        "amount":  "$12.7 Million",
-                        "amount_numeric":  12700000.0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZ0diNjV6akxIRHFlNzI1TWNWcVJtRGVHVlcxc3ViYWhobTVxdy1CQnpVc2FNa0xwSWJBUldyR21HdV9uNms1dHQ5c050RzFiaDJIbWhqLTA3Uldwa253Y0hDTFBaeDctS3dUcDE0Y3JDLTVWVVpTQXdIZkxmNGJDMmFESDBRUVN1YmUxYXFoMUZLS1pOUjBQeGJ5bXVJcmc?oc=5",
-                        "link_label":  "NCDOJ (.gov)",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
                         "source_type":  "news",
                         "auto_fetched":  true
                     },
@@ -4901,9 +4808,9 @@
                         "id":  "media-2026-01-27-1885422764",
                         "date":  "2026-01-27",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Congressional Hearing",
                         "title":  "Rep. Young Kim Demands Newsom Pay Back $1.3 Billion in Medicaid Fraud to the American Taxpayer - Congresswoman Young Kim (.gov)",
-                        "description":  "Rep. Young Kim Demands Newsom Pay Back $1.3 Billion in Medicaid Fraud to the American Taxpayer  Congresswoman Young Kim (.gov)",
+                        "description":  "Rep. Young Kim demanded that California Governor Gavin Newsom repay $1.3 billion in alleged Medicaid fraud losses to federal taxpayers, citing widespread improper payments in the state\u0027s Medi-Cal program.",
                         "amount":  "$1.3 Billion",
                         "amount_numeric":  1300000000.0,
                         "officials":  [
@@ -4915,12 +4822,15 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicaid",
+                                     "Congressional",
+                                     "Improper Payments",
+                                     "Program Integrity"
                                  ],
                         "entities":  [
 
                                      ],
-                        "state":  null,
+                        "state":  "CA",
                         "source_type":  "news",
                         "auto_fetched":  true
                     },
@@ -4928,9 +4838,9 @@
                         "id":  "media-2026-03-12-1199980870",
                         "date":  "2026-03-12",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Investigation",
                         "title":  "LA district attorney launches healthcare fraud campaign on Metro buses - CBS News",
-                        "description":  "LA district attorney launches healthcare fraud campaign on Metro buses  CBS News",
+                        "description":  "The Los Angeles County District Attorney launched a public awareness campaign on Metro buses to combat healthcare fraud, encouraging residents to report suspected fraudulent billing and medical identity theft.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -4942,12 +4852,15 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicare",
+                                     "Medicaid",
+                                     "Program Integrity",
+                                     "Identity Theft"
                                  ],
                         "entities":  [
 
                                      ],
-                        "state":  null,
+                        "state":  "CA",
                         "source_type":  "news",
                         "auto_fetched":  true
                     },
@@ -4955,9 +4868,9 @@
                         "id":  "media-2026-03-16-1562252783",
                         "date":  "2026-03-16",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Congressional Hearing",
                         "title":  "Lawmakers launch probe into Massachusetts Medicaid fraud, request data from Healey - Boston Herald",
-                        "description":  "Lawmakers launch probe into Massachusetts Medicaid fraud, request data from Healey  Boston Herald",
+                        "description":  "Congressional lawmakers launched a formal probe into Massachusetts Medicaid fraud, requesting data from Governor Maura Healey\u0027s administration regarding suspected improper payments and billing irregularities.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -4969,12 +4882,15 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicaid",
+                                     "Congressional",
+                                     "Program Integrity",
+                                     "Improper Payments"
                                  ],
                         "entities":  [
 
                                      ],
-                        "state":  null,
+                        "state":  "MA",
                         "source_type":  "news",
                         "auto_fetched":  true
                     },
@@ -4982,9 +4898,9 @@
                         "id":  "media-2026-03-06-1036686978",
                         "date":  "2026-03-06",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Congressional Hearing",
                         "title":  "House E\u0026C Committee leaders expand Medicaid fraud investigation - American Hospital Association",
-                        "description":  "House E\u0026C Committee leaders expand Medicaid fraud investigation  American Hospital Association",
+                        "description":  "House Energy and Commerce Committee leaders expanded their Medicaid fraud investigation to additional states, requesting enrollment and spending data to assess the scope of improper payments nationwide.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -4996,10 +4912,13 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicaid",
+                                     "Congressional",
+                                     "Program Integrity",
+                                     "Multi-State"
                                  ],
                         "entities":  [
-
+                                         "American Hospital Association"
                                      ],
                         "state":  null,
                         "source_type":  "news",
@@ -5009,9 +4928,9 @@
                         "id":  "media-2026-02-25-1000599972",
                         "date":  "2026-02-25",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Administrative Action",
                         "title":  "Trump Administration Prioritizes Affordability by Announcing Major Crackdown on Health Care Fraud - HHS.gov",
-                        "description":  "Trump Administration Prioritizes Affordability by Announcing Major Crackdown on Health Care Fraud  HHS.gov",
+                        "description":  "The Trump administration announced a major healthcare fraud crackdown, framing enforcement as a cost-reduction and affordability initiative. HHS signaled intensified scrutiny of Medicare and Medicaid billing nationwide.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -5023,7 +4942,10 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicare",
+                                     "Medicaid",
+                                     "Program Integrity",
+                                     "False Claims"
                                  ],
                         "entities":  [
 
@@ -5036,9 +4958,9 @@
                         "id":  "media-2026-03-09-643026761",
                         "date":  "2026-03-09",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Criminal Enforcement",
                         "title":  "North Carolina Medicaid fraud: $12.7 million kickback scheme leads to prison time and $15 million fine - ABC11 Raleigh-Durham",
-                        "description":  "North Carolina Medicaid fraud: $12.7 million kickback scheme leads to prison time and $15 million fine  ABC11 Raleigh-Durham",
+                        "description":  "Four individuals in North Carolina were sentenced for a $12.7 million Medicaid kickback scheme and ordered to pay $15 million in fines. The defendants paid illegal kickbacks to steer Medicaid patients to their services.",
                         "amount":  "$12.7 million",
                         "amount_numeric":  12700000.0,
                         "officials":  [
@@ -5050,12 +4972,15 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicaid",
+                                     "Kickbacks",
+                                     "Anti-Kickback",
+                                     "False Claims"
                                  ],
                         "entities":  [
 
                                      ],
-                        "state":  null,
+                        "state":  "NC",
                         "source_type":  "news",
                         "auto_fetched":  true
                     },
@@ -5063,9 +4988,9 @@
                         "id":  "media-2026-03-16-1106343144",
                         "date":  "2026-03-16",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Investigation",
                         "title":  "KPR: How Kentucky’s Addiction Recovery Care is being investigated for possible Medicaid fraud - The Lexington Times",
-                        "description":  "KPR: How Kentucky’s Addiction Recovery Care is being investigated for possible Medicaid fraud  The Lexington Times",
+                        "description":  "Kentucky\u0027s Addiction Recovery Care, a major substance abuse treatment provider, is under investigation for possible Medicaid fraud involving billing for addiction treatment services.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -5077,10 +5002,13 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicaid",
+                                     "Addiction Treatment",
+                                     "Behavioral Health",
+                                     "False Claims"
                                  ],
                         "entities":  [
-
+                                         "Addiction Recovery Care"
                                      ],
                         "state":  "KY",
                         "source_type":  "news",
@@ -5090,9 +5018,9 @@
                         "id":  "media-2026-03-17-295073515",
                         "date":  "2026-03-17",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Investigation",
                         "title":  "Federal Crackdown Intensifies: Medicaid Fraud Under Scrutiny - Devdiscourse",
-                        "description":  "Federal Crackdown Intensifies: Medicaid Fraud Under Scrutiny  Devdiscourse",
+                        "description":  "Federal authorities intensified scrutiny of Medicaid fraud nationally, expanding investigations and enforcement actions as part of a broader crackdown on improper payments and fraudulent billing across state programs.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -5104,7 +5032,10 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicaid",
+                                     "Program Integrity",
+                                     "Multi-State",
+                                     "False Claims"
                                  ],
                         "entities":  [
 
@@ -5117,9 +5048,9 @@
                         "id":  "media-2026-03-13-428959442",
                         "date":  "2026-03-13",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Criminal Enforcement",
                         "title":  "Former NBA player Glen Davis released from prison after 17 months for involvement in healthcare fraud scheme - Yahoo Sports",
-                        "description":  "Former NBA player Glen Davis released from prison after 17 months for involvement in healthcare fraud scheme  Yahoo Sports",
+                        "description":  "Former NBA player Glen \"Big Baby\" Davis was released from federal prison after serving 17 months for his role in a healthcare fraud scheme that defrauded the NBA\u0027s health insurance plan through fake medical claims.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -5131,7 +5062,9 @@
 
                                          ],
                         "tags":  [
-
+                                     "Health Insurance",
+                                     "False Claims",
+                                     "Organized Crime"
                                  ],
                         "entities":  [
 
@@ -5144,9 +5077,9 @@
                         "id":  "media-2026-03-12-89483935",
                         "date":  "2026-03-12",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Criminal Enforcement",
                         "title":  "Wisconsin man gets 11 years for Medicaid fraud, to pay nearly $3 million in restitution - WFRV Local 5",
-                        "description":  "Wisconsin man gets 11 years for Medicaid fraud, to pay nearly $3 million in restitution  WFRV Local 5",
+                        "description":  "A Wisconsin man was sentenced to 11 years in federal prison for Medicaid fraud and ordered to pay nearly $3 million in restitution for submitting fraudulent claims to the state Medicaid program.",
                         "amount":  "$3 million",
                         "amount_numeric":  3000000.0,
                         "officials":  [
@@ -5158,7 +5091,9 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicaid",
+                                     "False Claims",
+                                     "Overbilling"
                                  ],
                         "entities":  [
 
@@ -5171,9 +5106,9 @@
                         "id":  "media-2026-01-13-374321910",
                         "date":  "2026-01-13",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Criminal Enforcement",
                         "title":  "Alaska psychiatrist arraigned on 16 felony counts in Medicaid fraud scheme - Alaska\u0027s News Source",
-                        "description":  "Alaska psychiatrist arraigned on 16 felony counts in Medicaid fraud scheme  Alaska\u0027s News Source",
+                        "description":  "An Alaska psychiatrist was arraigned on 16 felony counts for allegedly defrauding the state Medicaid program through a billing scheme involving psychiatric services.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -5185,12 +5120,15 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicaid",
+                                     "Behavioral Health",
+                                     "False Claims",
+                                     "Overbilling"
                                  ],
                         "entities":  [
 
                                      ],
-                        "state":  null,
+                        "state":  "AK",
                         "source_type":  "news",
                         "auto_fetched":  true
                     },
@@ -5198,9 +5136,9 @@
                         "id":  "media-2025-06-30-395592441",
                         "date":  "2025-06-30",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Criminal Enforcement",
                         "title":  "2025 National Health Care Fraud Takedown - Office of Inspector General (.gov)",
-                        "description":  "2025 National Health Care Fraud Takedown  Office of Inspector General (.gov)",
+                        "description":  "The HHS Office of Inspector General coordinated the 2025 National Health Care Fraud Takedown, a large-scale multi-agency enforcement action charging hundreds of defendants for schemes totaling billions in fraudulent billing.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -5212,10 +5150,14 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicare",
+                                     "Medicaid",
+                                     "National Takedown",
+                                     "Strike Force",
+                                     "Program Integrity"
                                  ],
                         "entities":  [
-
+                                         "Office of Inspector General"
                                      ],
                         "state":  null,
                         "source_type":  "news",
@@ -5225,9 +5167,9 @@
                         "id":  "media-2026-03-08-330356672",
                         "date":  "2026-03-08",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Criminal Enforcement",
                         "title":  "Four sentenced in $12.7M Medicaid fraud scheme - The Daily Reflector",
-                        "description":  "Four sentenced in $12.7M Medicaid fraud scheme  The Daily Reflector",
+                        "description":  "Four defendants were sentenced in a $12.7 million Medicaid fraud scheme involving kickbacks for patient referrals. The case was part of broader enforcement in North Carolina targeting organized billing fraud.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -5239,12 +5181,15 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicaid",
+                                     "Kickbacks",
+                                     "Anti-Kickback",
+                                     "False Claims"
                                  ],
                         "entities":  [
 
                                      ],
-                        "state":  null,
+                        "state":  "NC",
                         "source_type":  "news",
                         "auto_fetched":  true
                     },
@@ -5252,9 +5197,9 @@
                         "id":  "media-2026-03-17-1883779842",
                         "date":  "2026-03-17",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Criminal Enforcement",
                         "title":  "San Diego County Medical Center Closed, Owner Charged with Over $11 Million in Healthcare Fraud - Sierra Sun Times",
-                        "description":  "San Diego County Medical Center Closed, Owner Charged with Over $11 Million in Healthcare Fraud  Sierra Sun Times",
+                        "description":  "A San Diego County medical center was shut down and its owner charged with over $11 million in healthcare fraud for submitting false claims for medical services that were not provided or not medically necessary.",
                         "amount":  "$11 Million",
                         "amount_numeric":  11000000.0,
                         "officials":  [
@@ -5266,12 +5211,15 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicare",
+                                     "False Claims",
+                                     "Overbilling",
+                                     "Hospital Fraud"
                                  ],
                         "entities":  [
 
                                      ],
-                        "state":  null,
+                        "state":  "CA",
                         "source_type":  "news",
                         "auto_fetched":  true
                     },
@@ -5279,9 +5227,9 @@
                         "id":  "media-2026-02-02-707855510",
                         "date":  "2026-02-02",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Criminal Enforcement",
                         "title":  "Feds allege $3.4 billion Medicare fraud scheme tied to Russian citizen living in Austin - KXAN Austin",
-                        "description":  "Feds allege $3.4 billion Medicare fraud scheme tied to Russian citizen living in Austin  KXAN Austin",
+                        "description":  "Federal prosecutors alleged a $3.4 billion Medicare fraud scheme tied to a Russian citizen living in Austin, Texas, involving fraudulent billing to Medicare through a network of medical providers.",
                         "amount":  "$3.4 billion",
                         "amount_numeric":  3400000000.0,
                         "officials":  [
@@ -5293,12 +5241,15 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicare",
+                                     "False Claims",
+                                     "Organized Crime",
+                                     "Money Laundering"
                                  ],
                         "entities":  [
 
                                      ],
-                        "state":  null,
+                        "state":  "TX",
                         "source_type":  "news",
                         "auto_fetched":  true
                     },
@@ -5306,9 +5257,9 @@
                         "id":  "media-2026-01-22-95988577",
                         "date":  "2026-01-22",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Criminal Enforcement",
                         "title":  "Florida nursing assistant convicted in $11.4 million Medicare fraud scheme - CBS News",
-                        "description":  "Florida nursing assistant convicted in $11.4 million Medicare fraud scheme  CBS News",
+                        "description":  "A Florida nursing assistant was convicted in an $11.4 million Medicare fraud scheme involving the submission of false claims for home health or nursing services that were never provided.",
                         "amount":  "$11.4 million",
                         "amount_numeric":  11400000.0,
                         "officials":  [
@@ -5320,7 +5271,9 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicare",
+                                     "Home Health Fraud",
+                                     "False Claims"
                                  ],
                         "entities":  [
 
@@ -5333,9 +5286,9 @@
                         "id":  "media-2025-12-19-1075140573",
                         "date":  "2025-12-19",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Criminal Enforcement",
                         "title":  "Feds bring new charges tied to ‘staggering’ Minnesota Medicaid fraud - Sahan Journal",
-                        "description":  "Feds bring new charges tied to ‘staggering’ Minnesota Medicaid fraud  Sahan Journal",
+                        "description":  "Federal authorities brought new charges in a large-scale Minnesota Medicaid fraud case described as \"staggering,\" part of ongoing investigations into fraudulent billing by providers in the state.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -5347,7 +5300,10 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicaid",
+                                     "False Claims",
+                                     "Organized Crime",
+                                     "Multi-State"
                                  ],
                         "entities":  [
 
@@ -5357,39 +5313,12 @@
                         "auto_fetched":  true
                     },
                     {
-                        "id":  "media-2025-05-13-1247837758",
-                        "date":  "2025-05-13",
-                        "agency":  "Media",
-                        "type":  "Investigative Report",
-                        "title":  "Attorney General Jeff Jackson Reaches $4.7 Million Medicaid Fraud Settlement - NCDOJ (.gov)",
-                        "description":  "Attorney General Jeff Jackson Reaches $4.7 Million Medicaid Fraud Settlement  NCDOJ (.gov)",
-                        "amount":  "$4.7 Million",
-                        "amount_numeric":  4700000.0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVjJ4bTdfMThqZ1M5R3ZvaTdIZUotTDBPZnNwdWJweWREVGlicHI2WlZEeG1SU3A5U3hvb1pZUjVWbUd1MFhVc0d2ajA5bXgzcU9FY0lMZkRnZ2lGTGtaNFJTLTVYSXpRS1lYNXliNHYzNFF2UUYxd295RThQQ2NuTVNjRnVYakl2bU4zczl5NS0tNVBxbjVyM3J3?oc=5",
-                        "link_label":  "NCDOJ (.gov)",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true
-                    },
-                    {
                         "id":  "media-2026-02-21-1677058421",
                         "date":  "2026-02-21",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Criminal Enforcement",
                         "title":  "Jury convicts former NFL player in $328M Medicare fraud scheme: DOJ - KRCR",
-                        "description":  "Jury convicts former NFL player in $328M Medicare fraud scheme: DOJ  KRCR",
+                        "description":  "A jury convicted a former NFL player in connection with a $328 million Medicare fraud scheme involving fraudulent claims submitted to the NBA players\u0027 health plan and Medicare.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -5401,7 +5330,10 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicare",
+                                     "False Claims",
+                                     "Organized Crime",
+                                     "Health Insurance"
                                  ],
                         "entities":  [
 
@@ -5414,9 +5346,9 @@
                         "id":  "media-2025-12-19-1820364031",
                         "date":  "2025-12-19",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Investigation",
                         "title":  "Gov. Walz questions $9B Medicaid fraud estimate, says he’ll take accountability - MPR News",
-                        "description":  "Gov. Walz questions $9B Medicaid fraud estimate, says he’ll take accountability  MPR News",
+                        "description":  "Minnesota Governor Tim Walz questioned a $9 billion Medicaid fraud estimate attributed to the state\u0027s programs while pledging accountability and cooperation with federal investigators.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -5428,12 +5360,14 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicaid",
+                                     "Program Integrity",
+                                     "Improper Payments"
                                  ],
                         "entities":  [
 
                                      ],
-                        "state":  null,
+                        "state":  "MN",
                         "source_type":  "news",
                         "auto_fetched":  true
                     },
@@ -5441,9 +5375,9 @@
                         "id":  "media-2025-12-18-760461757",
                         "date":  "2025-12-18",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Criminal Enforcement",
                         "title":  "6 charged in Minnesota Medicaid fraud as $18B programs probed - FOX 9 Minneapolis-St. Paul",
-                        "description":  "6 charged in Minnesota Medicaid fraud as $18B programs probed  FOX 9 Minneapolis-St. Paul",
+                        "description":  "Six individuals were charged in Minnesota Medicaid fraud as federal and state investigators probed $18 billion in program spending, focusing on suspected fraudulent billing by community-based service providers.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -5455,7 +5389,10 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicaid",
+                                     "False Claims",
+                                     "Organized Crime",
+                                     "Multi-State"
                                  ],
                         "entities":  [
 
@@ -5468,9 +5405,9 @@
                         "id":  "media-2025-12-12-997397892",
                         "date":  "2025-12-12",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Criminal Enforcement",
                         "title":  "Mother and daughter sentenced for $3.6 million Medicaid fraud in Baltimore County - CBS News",
-                        "description":  "Mother and daughter sentenced for $3.6 million Medicaid fraud in Baltimore County  CBS News",
+                        "description":  "A mother and daughter in Baltimore County were sentenced for a $3.6 million Medicaid fraud scheme involving fraudulent billing for services that were never rendered or were medically unnecessary.",
                         "amount":  "$3.6 million",
                         "amount_numeric":  3600000.0,
                         "officials":  [
@@ -5482,12 +5419,14 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicaid",
+                                     "False Claims",
+                                     "Home Health Fraud"
                                  ],
                         "entities":  [
 
                                      ],
-                        "state":  null,
+                        "state":  "MD",
                         "source_type":  "news",
                         "auto_fetched":  true
                     },
@@ -5495,9 +5434,9 @@
                         "id":  "media-2025-10-30-1909881097",
                         "date":  "2025-10-30",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Criminal Enforcement",
                         "title":  "\"Largest Medicaid fraud scheme ever prosecuted\" NY couple accused of stealing nearly $3M - WRGB",
-                        "description":  "\"Largest Medicaid fraud scheme ever prosecuted\" NY couple accused of stealing nearly $3M  WRGB",
+                        "description":  "A New York couple was accused of stealing nearly $3 million in what prosecutors described as one of the largest Medicaid fraud schemes ever prosecuted, involving systematic false billing.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -5509,12 +5448,14 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicaid",
+                                     "False Claims",
+                                     "Organized Crime"
                                  ],
                         "entities":  [
 
                                      ],
-                        "state":  null,
+                        "state":  "NY",
                         "source_type":  "news",
                         "auto_fetched":  true
                     },
@@ -5522,9 +5463,9 @@
                         "id":  "media-2025-06-30-473057655",
                         "date":  "2025-06-30",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Criminal Enforcement",
                         "title":  "DOJ announces largest-ever $14.6B healthcare fraud takedown - Fierce Healthcare",
-                        "description":  "DOJ announces largest-ever $14.6B healthcare fraud takedown  Fierce Healthcare",
+                        "description":  "The DOJ announced the largest-ever healthcare fraud takedown, charging 324 defendants in schemes totaling $14.6 billion in false billings across Medicare, Medicaid, and TRICARE programs.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -5536,10 +5477,14 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicare",
+                                     "Medicaid",
+                                     "National Takedown",
+                                     "Strike Force",
+                                     "False Claims"
                                  ],
                         "entities":  [
-
+                                         "Department of Justice"
                                      ],
                         "state":  null,
                         "source_type":  "news",
@@ -5551,7 +5496,7 @@
                         "agency":  "Media",
                         "type":  "Investigative Report",
                         "title":  "Mapping a healthcare fraud takedown: Lessons in coordination and the power of data - Thomson Reuters",
-                        "description":  "Mapping a healthcare fraud takedown: Lessons in coordination and the power of data  Thomson Reuters",
+                        "description":  "Thomson Reuters analyzed the coordination and data-sharing strategies behind a major federal healthcare fraud takedown, highlighting how cross-agency collaboration and analytics enabled the large-scale enforcement action.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -5563,10 +5508,13 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicare",
+                                     "Medicaid",
+                                     "Program Integrity",
+                                     "National Takedown"
                                  ],
                         "entities":  [
-
+                                         "Thomson Reuters"
                                      ],
                         "state":  null,
                         "source_type":  "news",
@@ -5576,9 +5524,9 @@
                         "id":  "media-2025-07-01-1539805726",
                         "date":  "2025-07-01",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Criminal Enforcement",
                         "title":  "US says it has halted healthcare fraud schemes worth nearly $15bn - The Guardian",
-                        "description":  "US says it has halted healthcare fraud schemes worth nearly $15bn  The Guardian",
+                        "description":  "The U.S. government announced it had halted healthcare fraud schemes worth nearly $15 billion through a coordinated enforcement action involving hundreds of defendants charged with defrauding federal health programs.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -5590,7 +5538,10 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicare",
+                                     "Medicaid",
+                                     "National Takedown",
+                                     "False Claims"
                                  ],
                         "entities":  [
 
@@ -5603,9 +5554,9 @@
                         "id":  "media-2025-11-24-466180734",
                         "date":  "2025-11-24",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Criminal Enforcement",
                         "title":  "Hennepin County Judge tosses out jury\u0027s guilty verdict in $7.2 million home healthcare fraud case - kare11.com",
-                        "description":  "Hennepin County Judge tosses out jury\u0027s guilty verdict in $7.2 million home healthcare fraud case  kare11.com",
+                        "description":  "A Hennepin County judge overturned a jury\u0027s guilty verdict in a $7.2 million home healthcare fraud case in Minnesota, ruling that the evidence was insufficient to sustain the conviction.",
                         "amount":  "$7.2 million",
                         "amount_numeric":  7200000.0,
                         "officials":  [
@@ -5617,12 +5568,14 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicaid",
+                                     "Home Health Fraud",
+                                     "False Claims"
                                  ],
                         "entities":  [
 
                                      ],
-                        "state":  null,
+                        "state":  "MN",
                         "source_type":  "news",
                         "auto_fetched":  true
                     },
@@ -5630,9 +5583,9 @@
                         "id":  "media-2025-06-30-340464747",
                         "date":  "2025-06-30",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Criminal Enforcement",
                         "title":  "Justice Department healthcare fraud ‘takedown’ nets two nursing home chains among 324 defendants - McKnight\u0027s Long-Term Care News",
-                        "description":  "Justice Department healthcare fraud ‘takedown’ nets two nursing home chains among 324 defendants  McKnight\u0027s Long-Term Care News",
+                        "description":  "The DOJ\u0027s national healthcare fraud takedown included charges against two nursing home chains among 324 defendants, targeting schemes involving fraudulent billing and substandard care in long-term care facilities.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -5644,7 +5597,11 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicare",
+                                     "Medicaid",
+                                     "Nursing Home",
+                                     "National Takedown",
+                                     "False Claims"
                                  ],
                         "entities":  [
 
@@ -5657,9 +5614,9 @@
                         "id":  "media-2025-07-01-926451052",
                         "date":  "2025-07-01",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Criminal Enforcement",
                         "title":  "Medicaid, Medicare Fraud | NC healthcare professionals among those facing charges in massive fraud investigation - ABC11 Raleigh-Durham",
-                        "description":  "Medicaid, Medicare Fraud | NC healthcare professionals among those facing charges in massive fraud investigation  ABC11 Raleigh-Durham",
+                        "description":  "North Carolina healthcare professionals were among those charged in a massive federal fraud investigation targeting false claims submitted to Medicare and Medicaid programs.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -5671,12 +5628,15 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicare",
+                                     "Medicaid",
+                                     "False Claims",
+                                     "National Takedown"
                                  ],
                         "entities":  [
 
                                      ],
-                        "state":  null,
+                        "state":  "NC",
                         "source_type":  "news",
                         "auto_fetched":  true
                     },
@@ -5684,9 +5644,9 @@
                         "id":  "media-2025-06-03-200331819",
                         "date":  "2025-06-03",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Administrative Action",
                         "title":  "Trump Grants Clemency to Executive Who Orchestrated $205M Medicare Fraud Scheme - Truthout",
-                        "description":  "Trump Grants Clemency to Executive Who Orchestrated $205M Medicare Fraud Scheme  Truthout",
+                        "description":  "President Trump granted clemency to an executive who orchestrated a $205 million Medicare fraud scheme, drawing criticism from fraud enforcement advocates and whistleblower groups.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -5698,7 +5658,9 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicare",
+                                     "False Claims",
+                                     "Organized Crime"
                                  ],
                         "entities":  [
 
@@ -5711,9 +5673,9 @@
                         "id":  "media-2025-06-30-182465536",
                         "date":  "2025-06-30",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Criminal Enforcement",
                         "title":  "Two South Carolina cases part of largest healthcare fraud takedown in history - WIS News 10",
-                        "description":  "Two South Carolina cases part of largest healthcare fraud takedown in history  WIS News 10",
+                        "description":  "Two South Carolina cases were included in the largest healthcare fraud takedown in U.S. history, with local defendants charged as part of the $14.6 billion national enforcement action.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -5725,12 +5687,15 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicare",
+                                     "Medicaid",
+                                     "National Takedown",
+                                     "False Claims"
                                  ],
                         "entities":  [
 
                                      ],
-                        "state":  null,
+                        "state":  "SC",
                         "source_type":  "news",
                         "auto_fetched":  true
                     },
@@ -5738,9 +5703,9 @@
                         "id":  "media-2025-07-02-2122397106",
                         "date":  "2025-07-02",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Criminal Enforcement",
                         "title":  "324 charged in connection with $14.6 billion in healthcare fraud - Healthcare Finance News",
-                        "description":  "324 charged in connection with $14.6 billion in healthcare fraud  Healthcare Finance News",
+                        "description":  "Federal authorities charged 324 defendants in connection with $14.6 billion in healthcare fraud schemes, marking the largest coordinated takedown in DOJ history across Medicare, Medicaid, and other programs.",
                         "amount":  "$14.6 billion",
                         "amount_numeric":  14600000000.0,
                         "officials":  [
@@ -5752,7 +5717,11 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicare",
+                                     "Medicaid",
+                                     "National Takedown",
+                                     "Strike Force",
+                                     "False Claims"
                                  ],
                         "entities":  [
 
@@ -5767,7 +5736,7 @@
                         "agency":  "Media",
                         "type":  "Investigative Report",
                         "title":  "Got a package you didn’t order? It could be Medicare fraud - investigatetv.com",
-                        "description":  "Got a package you didn’t order? It could be Medicare fraud  investigatetv.com",
+                        "description":  "Investigators warned consumers that unsolicited medical packages could indicate Medicare fraud, where scammers use stolen beneficiary information to bill Medicare for unrequested durable medical equipment or supplies.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -5779,7 +5748,9 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicare",
+                                     "DME Fraud",
+                                     "Identity Theft"
                                  ],
                         "entities":  [
 
@@ -5792,9 +5763,9 @@
                         "id":  "media-2025-07-01-1398784313",
                         "date":  "2025-07-01",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Criminal Enforcement",
                         "title":  "Several Houston-area medical professionals charged as part of nationwide crackdown on healthcare fraud - Houston Public Media",
-                        "description":  "Several Houston-area medical professionals charged as part of nationwide crackdown on healthcare fraud  Houston Public Media",
+                        "description":  "Several Houston-area medical professionals were charged as part of a nationwide healthcare fraud crackdown, accused of submitting false claims to Medicare and Medicaid for medically unnecessary services.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -5806,12 +5777,15 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicare",
+                                     "Medicaid",
+                                     "False Claims",
+                                     "National Takedown"
                                  ],
                         "entities":  [
 
                                      ],
-                        "state":  null,
+                        "state":  "TX",
                         "source_type":  "news",
                         "auto_fetched":  true
                     },
@@ -5819,9 +5793,9 @@
                         "id":  "media-2025-05-20-1872101957",
                         "date":  "2025-05-20",
                         "agency":  "Media",
-                        "type":  "Investigative Report",
+                        "type":  "Criminal Enforcement",
                         "title":  "Over 20 more indictments in massive Arizona Medicaid fraud scheme involving sober living homes - KJZZ",
-                        "description":  "Over 20 more indictments in massive Arizona Medicaid fraud scheme involving sober living homes  KJZZ",
+                        "description":  "Over 20 additional indictments were issued in a large-scale Arizona Medicaid fraud scheme involving sober living homes that billed for addiction treatment services that were not provided or were unnecessary.",
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
@@ -5833,7 +5807,10 @@
 
                                          ],
                         "tags":  [
-
+                                     "Medicaid",
+                                     "Addiction Treatment",
+                                     "False Claims",
+                                     "Behavioral Health"
                                  ],
                         "entities":  [
 
