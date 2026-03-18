@@ -190,7 +190,7 @@
                         "amount":  "$68M",
                         "amount_numeric":  68000000,
                         "officials":  [
-
+                                          "Dr. Mehmet Oz"
                                       ],
                         "link":  "https://www.justice.gov/usao-edny/pr/two-individuals-plead-guilty-68-million-fraud-scheme-brooklyn-based-adult-day-cares",
                         "link_label":  "DOJ Press Release",
@@ -273,7 +273,7 @@
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
-                                          "Dr. Mehmet Oz (CMS Administrator)"
+                                          "Dr. Mehmet Oz"
                                       ],
                         "link":  "https://www.fox9.com/news/fraud-minnesota-trump-admin-audit-mn-medicaid-receipts-defer-payment-14-programs",
                         "link_label":  "FOX 9 News Report",
@@ -306,7 +306,7 @@
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
-                                          "Dr. Mehmet Oz (CMS Administrator)",
+                                          "Dr. Mehmet Oz",
                                           "Jim O\u0027Neill (HHS Deputy Secretary)"
                                       ],
                         "link":  "https://kstp.com/kstp-news/top-news/dr-oz-on-medicaid-fraud-fact-finding-mission-in-minnesota-2b-could-be-at-stake/",
@@ -340,8 +340,8 @@
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
-                                          "Dr. Mehmet Oz (CMS Administrator)",
-                                          "Bill Essayli (First AUSA, California)"
+                                          "Dr. Mehmet Oz",
+                                          "Bill Essayli"
                                       ],
                         "link":  "https://hospicenews.com/2026/01/12/cms-doj-aggressively-cracking-down-on-hospice-fraud/",
                         "link_label":  "Hospice News Report",
@@ -382,8 +382,8 @@
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
-                                          "Dr. Mehmet Oz (CMS Administrator)",
-                                          "Gov. Gavin Newsom (CA)"
+                                          "Dr. Mehmet Oz",
+                                          "Gov. Gavin Newsom"
                                       ],
                         "link":  "https://homehealthcarenews.com/2026/01/dr-oz-demands-action-to-root-out-in-home-care-fraud-in-california/",
                         "link_label":  "Home Health Care News",
@@ -417,7 +417,7 @@
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
-                                          "Dr. Mehmet Oz (CMS Administrator)"
+                                          "Dr. Mehmet Oz"
                                       ],
                         "link":  "https://www.mcknightshomecare.com/news/cms-expands-enhanced-oversight-to-hospice-providers-in-two-new-states/",
                         "link_label":  "McKnight\u0027s Home Care",
@@ -450,7 +450,8 @@
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
-                                          "JD Vance (Vice President)"
+                                          "JD Vance",
+                                          "President Trump"
                                       ],
                         "link":  "https://www.cbsnews.com/news/trump-anti-fraud-task-force-targeting-california-jd-vance/",
                         "link_label":  "CBS News Report",
@@ -511,7 +512,7 @@
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
-                                          "Dr. Mehmet Oz (CMS Administrator)"
+                                          "Dr. Mehmet Oz"
                                       ],
                         "link":  "https://www.cms.gov/newsroom/press-releases",
                         "link_label":  "CMS Press Release",
@@ -546,7 +547,7 @@
                         "amount":  "$300M withheld from CA; $1.8B found across 8 states",
                         "amount_numeric":  300000000,
                         "officials":  [
-                                          "Dr. Mehmet Oz (CMS Administrator)"
+                                          "Dr. Mehmet Oz"
                                       ],
                         "link":  "https://www.cms.gov/newsroom/press-releases",
                         "link_label":  "CMS Press Release",
@@ -580,7 +581,7 @@
                         "amount":  "$1B+ to be returned",
                         "amount_numeric":  1000000000,
                         "officials":  [
-                                          "Bill Essayli (First AUSA, California)"
+                                          "Bill Essayli"
                                       ],
                         "link":  "https://www.foxnews.com/politics/key-trump-agency-vows-claw-back-over-1b-benefitting-illegals-blue-states",
                         "link_label":  "Fox News Report",
@@ -614,7 +615,7 @@
                         "amount":  "Billions in potential savings",
                         "amount_numeric":  0,
                         "officials":  [
-                                          "Robert F. Kennedy Jr. (HHS Secretary)"
+                                          "Robert F. Kennedy Jr."
                                       ],
                         "link":  "https://www.cms.gov/newsroom/press-releases/trump-administration-prioritizes-affordability-announcing-major-crackdown-health-care-fraud",
                         "link_label":  "CMS Press Release",
@@ -766,7 +767,7 @@
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
-
+                                          "President Trump"
                                       ],
                         "link":  "https://www.justice.gov/opa/pr/national-health-care-fraud-takedown-results-324-defendants-charged-connection-over-146",
                         "link_label":  "DOJ Press Release",
@@ -820,8 +821,8 @@
                         "amount":  "$14B",
                         "amount_numeric":  14000000000,
                         "officials":  [
-                                          "Robert F. Kennedy Jr. (HHS Secretary)",
-                                          "Dr. Mehmet Oz (CMS Administrator)"
+                                          "Robert F. Kennedy Jr.",
+                                          "Dr. Mehmet Oz"
                                       ],
                         "link":  "https://www.cms.gov/newsroom/press-releases/cms-finds-2-8-million-americans-potentially-enrolled-two-or-more-medicaid-aca-exchange-plans",
                         "link_label":  "CMS Press Release",
@@ -1450,9 +1451,10 @@
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
-                                          "J.D. Vance (Vice President)",
-                                          "Pam Bondi (Attorney General)",
-                                          "Colin McDonald (Nominee, AAG)"
+                                          "JD Vance",
+                                          "Pam Bondi",
+                                          "Colin McDonald",
+                                          "President Trump"
                                       ],
                         "link":  "https://www.whitehouse.gov/fact-sheets/2026/01/fact-sheet-president-donald-j-trump-establishes-new-department-of-justice-division-for-national-fraud-enforcement/",
                         "link_label":  "White House Fact Sheet",
@@ -1573,7 +1575,7 @@
                         "amount":  "$78.2B",
                         "amount_numeric":  78200000000,
                         "officials":  [
-                                          "Dr. Mehmet Oz (CMS Administrator)"
+                                          "Dr. Mehmet Oz"
                                       ],
                         "link":  "https://www.cms.gov/newsroom/press-releases/cms-shuts-down-massive-medicaid-tax-loophole-saving-billions-federal-taxpayers-restoring-federal",
                         "link_label":  "CMS Press Release",
@@ -1634,7 +1636,7 @@
                         "amount":  "$233M",
                         "amount_numeric":  233000000,
                         "officials":  [
-                                          "Pam Bondi (Attorney General)",
+                                          "Pam Bondi",
                                           "Kash Patel (FBI Director)",
                                           "A. Tysen Duva (AAG, Criminal Division)",
                                           "T. March Bell (HHS-OIG Inspector General)"
@@ -1758,9 +1760,9 @@
                         "amount":  "$259.5M",
                         "amount_numeric":  259500000,
                         "officials":  [
-                                          "J.D. Vance (Vice President)",
-                                          "Robert F. Kennedy Jr. (HHS Secretary)",
-                                          "Dr. Mehmet Oz (CMS Administrator)"
+                                          "JD Vance",
+                                          "Robert F. Kennedy Jr.",
+                                          "Dr. Mehmet Oz"
                                       ],
                         "link":  "https://www.cms.gov/newsroom/press-releases/trump-administration-prioritizes-affordability-announcing-major-crackdown-health-care-fraud",
                         "link_label":  "CMS Press Release",
@@ -1820,7 +1822,7 @@
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
-                                          "Dr. Mehmet Oz (CMS Administrator)"
+                                          "Dr. Mehmet Oz"
                                       ],
                         "link":  "https://www.federalregister.gov/documents/2026/02/27/2026-03968/request-for-information-rfi-related-to-comprehensive-regulations-to-uncover-suspicious-healthcare",
                         "link_label":  "Federal Register",
@@ -1849,8 +1851,8 @@
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
-                                          "Dr. Mehmet Oz (CMS Administrator)",
-                                          "Gov. Kathy Hochul (NY)"
+                                          "Dr. Mehmet Oz",
+                                          "Gov. Kathy Hochul"
                                       ],
                         "link":  "https://www.washingtontimes.com/news/2026/mar/3/dr-mehmet-oz-launches-investigation-new-yorks-medicaid-program/",
                         "link_label":  "Washington Times Report",
@@ -2408,7 +2410,7 @@
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
-                                          "Matthew R. Galeotti (DOJ Criminal Division)"
+                                          "Matthew Galeotti"
                                       ],
                         "link":  "https://www.justice.gov/criminal/media/1400046/dl",
                         "link_label":  "DOJ White-Collar Enforcement Plan (PDF)",
@@ -3173,8 +3175,9 @@
                         "amount":  "$9 billion (estimated stolen); $250M+ funding paused",
                         "amount_numeric":  0,
                         "officials":  [
-                                          "Gov. Tim Walz (MN)",
-                                          "AG Keith Ellison (MN)"
+                                          "Gov. Tim Walz",
+                                          "AG Keith Ellison",
+                                          "JD Vance"
                                       ],
                         "link":  "https://oversight.house.gov/hearing/oversight-of-fraud-and-misuse-of-federal-funds-in-minnesota-part-ii/",
                         "link_label":  "House Oversight Hearing",
@@ -3231,7 +3234,7 @@
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
-
+                                          "Gov. Maura Healey"
                                       ],
                         "link":  "https://fcablog.sidley.com/2025/01/21/massachusetts-law-imposes-fca-liability-on-healthcare-investors-for-failures-to-disclose/",
                         "link_label":  "FCA Blog Analysis",
@@ -3259,7 +3262,7 @@
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
-
+                                          "President Trump"
                                       ],
                         "link":  "https://www.whitehouse.gov/presidential-actions/2025/06/eliminating-waste-fraud-and-abuse-in-medicaid/",
                         "link_label":  "White House",
@@ -3436,7 +3439,7 @@
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
-
+                                          "President Trump"
                                       ],
                         "link":  "https://www.whitehouse.gov/presidential-actions/2026/03/combating-cybercrime-fraud-and-predatory-schemes-against-american-citizens/",
                         "link_label":  "White House",
@@ -3710,7 +3713,7 @@
                         "amount":  "$125 million recovered; $177 million in fraudulent billings",
                         "amount_numeric":  125000000,
                         "officials":  [
-
+                                          "AG Ken Paxton"
                                       ],
                         "link":  "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-arrests-over-120-people-and-collects-over-125-million-healthcare",
                         "link_label":  "Texas AG Press Release",
@@ -4361,7 +4364,7 @@
                         "id":  "media-2025-08-hss-shutdown-mn",
                         "auto_fetched":  false,
                         "officials":  [
-
+                                          "Gov. Tim Walz"
                                       ],
                         "state":  "MN",
                         "source_type":  "news",
@@ -4483,8 +4486,8 @@
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
-                                          "J.D. Vance (Vice President, Task Force Chair)",
-                                          "Donald J. Trump (President)"
+                                          "JD Vance",
+                                          "President Trump"
                                       ],
                         "link":  "https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-establishes-the-task-force-to-eliminate-fraud/",
                         "link_label":  "White House Fact Sheet",
@@ -4514,7 +4517,7 @@
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
-
+                                          "Matthew Galeotti"
                                       ],
                         "link":  "https://www.justice.gov/opa/speech/supervisory-official-matthew-r-galeotti-delivers-remarks-regarding-health-care-fraud",
                         "link_label":  "DOJ Press Release",
@@ -4683,7 +4686,7 @@
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
-
+                                          "President Trump"
                                       ],
                         "link":  "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd1FpSnYzVDFTZXRJbWxpUkRyQU1pZnV0THl5bUlpdzU3bl9mMTNQYjlvbXoxN05xZXZ3ZXo3d0V2STEtVDd3LWRTNWlMWUp6b1BWVnF5M0w4UkFvOXlSb01tOHNYYU44T1BIVTV2X1Qzd0lwY0t0b0J3anpXVVFiUzVMX3Z3MlkyRUd3dEd5Q2xkQ1HSAZgBQVVfeXFMTTZwbk0teTVQdU9SUnJwSUNLLWF2Z3VVQjZVZ3BtUzN1WE91dUtQQS05ZVMtVXJpaDFuZUNJX1Ita0dHQVNodkVZYmZSb0o3TDdWVWYtSFF1VkxMOXdfVko4bmhsWHZsTjRJaGdhOWlWODg1UFB2RDR2M3V6Z2ZGNFBwR0ZhRHlnTlBaSktFTVRNVHJLMkdvTTA?oc=5",
                         "link_label":  "The Hill",
@@ -4713,7 +4716,8 @@
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
-
+                                          "President Trump",
+                                          "Dr. Mehmet Oz"
                                       ],
                         "link":  "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMkJxNHdmWS1sOW43d0cxWTdWTm95SEVuNy0wTTJvVkF0RElhU1RhMFp5MnhYaW9zdV9QNmJBRFRQb3hSOVJLS0Y2ZUp0dlRldXo3OHlFVktFZGNiY2RZMmlTSVFHa3IwZHljd2lzUGEtYldXTGJ4M2JFQWprQkg5bWF2NzFDdU9iWGZNYmZIQlBjMlByME5aMUV3?oc=5",
                         "link_label":  "Mother Jones",
@@ -4836,7 +4840,7 @@
                         "amount":  "$1.3 Billion",
                         "amount_numeric":  1300000000.0,
                         "officials":  [
-
+                                          "Gov. Gavin Newsom"
                                       ],
                         "link":  "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZHI4VWtGN3hNSHJNRmhITURnUHZjUVdlZHJyUVlQUFVLVXNJTXBIcS1pUkoxM2t4czhOWllhcmNUMGJSZDBFV3Q2R3c4RU90UnhVandfU3p1Tl9uVTBWZVV1cWZIdzlLYllfVUEyaUQ2TWktRWxLRkVYNkVSU2dFMDA0M3RxdE5EXzhRaDFHSlBUV1Z5YncydHRvYmVNdWVMSTRVVzY2ei0tMlRST3daSkJIbkZXUHQ2d2JsRXdrZHQxMjFOdmxrbnlzVQ?oc=5",
                         "link_label":  "Congresswoman Young Kim (.gov)",
@@ -4897,7 +4901,7 @@
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
-
+                                          "Gov. Maura Healey"
                                       ],
                         "link":  "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYXdCcnBScE8tczRiV1dvYmVSbUNkTm9qb2MzaUUwbmZhLVViX1NWUmRMNkdZMkdvQVBrRUtTZjhxOFBGaDM2cUhFdUhrVk9qN0VZeE1hUFVYckM2RUVic0dxM1BBWm5YZWFtemRJMFZlWjBWb1FVY1hfZl9jWmNpV1hzU2MzUG45M3QxWEdCLUwxVFNxRnlVT0xUZ3FQTVgxRENvbWNmN29SRlRsNUE2UmliS3JLQXVRRk1FQjRsMA?oc=5",
                         "link_label":  "Boston Herald",
@@ -4958,7 +4962,7 @@
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
-
+                                          "President Trump"
                                       ],
                         "link":  "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWE9xcmZNMlJnTzhxdk4wblBvZjlaMmlLQXF3ZW5GYUNkR0RicEM4WHZreGUtXy1FdFRFSWZnOHl0V2ktRzRoT3hsU005OW5OVFRzTHlYSnFNanZaY2plX25VMEJvaXo3U21xZlZubWN1Sk5xS2xDb2E3YV83WkE4WFBOV2N4cC1CVzU2bTVRLUsxem92Sm5YLURWQTBNYzhLR0lObEliaV9RWHpFUkNBaUFTc2MzQmlwX3R1OGZQbUZ6dkFHZHc?oc=5",
                         "link_label":  "HHS.gov",
@@ -5080,7 +5084,7 @@
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
-
+                                          "Glen Davis"
                                       ],
                         "link":  "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNaDJIOHNodEM5cnZ6b0U4VmVFbjdmMUZ3d2VRaU15VFdQV0NVOGhFV0NtaHB3RTlHTlhnbTh4Q2ZLbEJSS0dEWU5zRUI3UXlEVHR6VFZndm84ZjE5d0tYaDl1YXlwSWd4TzZqa2d2SnZKdFJlT2luclhrWHFGTDVrcXhoREJjaXlmTmlIbjliamtKSDc0VUtCeFVkdUxOTU1nMGY5ODhrS3p6TFlSandwQTkxRzdObWdEZEtqWWI2LURUeThMVnJMVnVJX3o1VVd6dmdwUm9yWGxHSHZJWHdnSXNDbVM0bnNyUW1qT3lWUUpjdw?oc=5",
                         "link_label":  "Yahoo Sports",
@@ -5384,7 +5388,7 @@
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
-
+                                          "Gov. Tim Walz"
                                       ],
                         "link":  "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTXdMSkVkTWJkaVItTHFGUzIwcEJ3TU45elYwdmoxTUM0ZzkzX2w1ZGx1OXdGT3BMYmhzenFzT0NCSXBQSmJKemdzNl83NGJIT1hTbmo3QUE1U3NkczZrTFNMcE91alFSNmFibGZ2STNOTUtDZE9PZXVScmhSakpBcXhSeTRDNXB5endad2NTeWRTWGU0TlhaZ095VldtSzhpM0NLZ3JERzRaTm0xREZVWVNKOHdLQWM?oc=5",
                         "link_label":  "MPR News",
@@ -5685,7 +5689,7 @@
                         "amount":  null,
                         "amount_numeric":  0,
                         "officials":  [
-
+                                          "President Trump"
                                       ],
                         "link":  "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUW5xZkJZcHJyVzVqV0RkaE9sU09Jazc0YUhWbjViUllKblB6c1liaDRyU3Y2dlZtb3A2VWttNDVKTVdFa0NpLVpsMExsTWpGZWQ5ZmdkeTZjNEsyOGFUUE5CaG5OQzhzOE1pWXVNbVhtREZNYkJYQlpaTHVGLUtJOC1fZzJ0ZW5vOW03eG43c0ZPNTNDLXM3YWJTeFc5NURSMTYtZU4yb2Y2OTFOMlE?oc=5",
                         "link_label":  "Truthout",
