@@ -4874,37 +4874,6 @@
                         "related_agency":  "Congress"
                     },
                     {
-                        "id":  "media-2026-03-12-1199980870",
-                        "date":  "2026-03-12",
-                        "agency":  "DOJ",
-                        "type":  "Investigative Report",
-                        "title":  "LA district attorney launches healthcare fraud campaign on Metro buses - CBS News",
-                        "description":  "The Los Angeles County District Attorney launched a public awareness campaign on Metro buses to combat healthcare fraud, encouraging residents to report suspected fraudulent billing and medical identity theft.",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeGhPRTh1dGJKUW5FVmVsT0V4d3IyUUw2S2lTNGNMcXpDVHhnMTdfbTRFWHR3NzJJU0JPNktnRWtqZ3o1RmtTMDh3Z1czdXJQWnFhdVZYNnFLTmN2RGZDYUF6QVREbmJheHY2T0lBMDJ0VzFtU3BXWm1yT1BHR2g2dk1feldRaVA2aWJyeDFoZ01XZlUzbUZacGZleXFqZXNJ?oc=5",
-                        "link_label":  "CBS News",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-                                     "Medicare",
-                                     "Medicaid",
-                                     "Program Integrity",
-                                     "Identity Theft"
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  "CA",
-                        "source_type":  "news",
-                        "auto_fetched":  true,
-                        "related_agency":  "DOJ"
-                    },
-                    {
                         "id":  "media-2026-03-16-1562252783",
                         "date":  "2026-03-16",
                         "agency":  "Congress",
@@ -5055,36 +5024,6 @@
                                          "Addiction Recovery Care"
                                      ],
                         "state":  "KY",
-                        "source_type":  "news",
-                        "auto_fetched":  true,
-                        "related_agency":  "DOJ"
-                    },
-                    {
-                        "id":  "media-2026-03-13-428959442",
-                        "date":  "2026-03-13",
-                        "agency":  "DOJ",
-                        "type":  "Criminal Enforcement",
-                        "title":  "Former NBA player Glen Davis released from prison after 17 months for involvement in healthcare fraud scheme - Yahoo Sports",
-                        "description":  "Former NBA player Glen \"Big Baby\" Davis was released from federal prison after serving 17 months for his role in a healthcare fraud scheme that defrauded the NBA\u0027s health insurance plan through fake medical claims.",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-                                          "Glen Davis"
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNaDJIOHNodEM5cnZ6b0U4VmVFbjdmMUZ3d2VRaU15VFdQV0NVOGhFV0NtaHB3RTlHTlhnbTh4Q2ZLbEJSS0dEWU5zRUI3UXlEVHR6VFZndm84ZjE5d0tYaDl1YXlwSWd4TzZqa2d2SnZKdFJlT2luclhrWHFGTDVrcXhoREJjaXlmTmlIbjliamtKSDc0VUtCeFVkdUxOTU1nMGY5ODhrS3p6TFlSandwQTkxRzdObWdEZEtqWWI2LURUeThMVnJMVnVJX3o1VVd6dmdwUm9yWGxHSHZJWHdnSXNDbVM0bnNyUW1qT3lWUUpjdw?oc=5",
-                        "link_label":  "Yahoo Sports",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-                                     "Health Insurance",
-                                     "False Claims",
-                                     "Organized Crime"
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
                         "source_type":  "news",
                         "auto_fetched":  true,
                         "related_agency":  "DOJ"
@@ -5332,37 +5271,6 @@
 
                                      ],
                         "state":  "MN",
-                        "source_type":  "news",
-                        "auto_fetched":  true,
-                        "related_agency":  "DOJ"
-                    },
-                    {
-                        "id":  "media-2026-02-21-1677058421",
-                        "date":  "2026-02-21",
-                        "agency":  "DOJ",
-                        "type":  "Criminal Enforcement",
-                        "title":  "Jury convicts former NFL player in $328M Medicare fraud scheme: DOJ - KRCR",
-                        "description":  "A jury convicted a former NFL player in connection with a $328 million Medicare fraud scheme involving fraudulent claims submitted to the NBA players\u0027 health plan and Medicare.",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMi0AJBVV95cUxOVFYtYTZ1Rk1seWhidnN2b3M5cWhxbngySEUtUGV6aWY1U25iMm9pVDEweERLQWh2LUthLVNSQnE3VDZucUp5Z0JmX3BRWVluTnRVS0ZQV1M3TGMzVjZWZGl2dmo0ODExS05CR3VndDNjN1ZBLVVaS3ZaRlB4Y2tQVmE4UHhVbHJZeVhHZHhkc2NWMDZuNWdiTmw2SnNDTGpYc0s3Z1BxYTRERHRwelFvanNObkp0YVRhSW82a3pzSk96RU1xUzdvZ25sb1JTZWc2ODVWQjlVWHNNX2pzMHdoUU9JNm5nRmRwQmg1ZHdJMnJMUmhfTk9TYnJ6Unh6dmk2MExWTjJ1N2JqTlgzWDZjS0VsbE5zNzNXRDVmcGhnVXVaZk05MmNXNXc1MFZtdF81bTNSTmxvVXM0SHgtY0w0aUtxM2RBblVmeGV6Z3A3OGQ?oc=5",
-                        "link_label":  "KRCR",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-                                     "Medicare",
-                                     "False Claims",
-                                     "Organized Crime",
-                                     "Health Insurance"
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
                         "source_type":  "news",
                         "auto_fetched":  true,
                         "related_agency":  "DOJ"
@@ -5767,36 +5675,6 @@
                         "source_type":  "news",
                         "auto_fetched":  true,
                         "related_agency":  "DOJ"
-                    },
-                    {
-                        "id":  "media-2025-09-10-676624436",
-                        "date":  "2025-09-10",
-                        "agency":  "CMS",
-                        "type":  "Investigative Report",
-                        "title":  "Got a package you didn’t order? It could be Medicare fraud - investigatetv.com",
-                        "description":  "Investigators warned consumers that unsolicited medical packages could indicate Medicare fraud, where scammers use stolen beneficiary information to bill Medicare for unrequested durable medical equipment or supplies.",
-                        "amount":  null,
-                        "amount_numeric":  0,
-                        "officials":  [
-
-                                      ],
-                        "link":  "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdDZrQzVmZ0JkT3JmU0tEcnhkVUl2elJNSUpZaktMa1Z0QTFJYlpybVNncWVTU3puS1dJZTRJTy14M2szbmMtdzBSM1VKRTBQLVFtMGRuMUNZUEtkSnlQa0NRdTdhbkh2WktGV2N3MmotRzRmM1lPQ2dBUl9jY0pxUm1qOEM1ZW9OU2R1M05CRWZZdlpmS3B4a25HX3c?oc=5",
-                        "link_label":  "investigatetv.com",
-                        "social_posts":  [
-
-                                         ],
-                        "tags":  [
-                                     "Medicare",
-                                     "DME Fraud",
-                                     "Identity Theft"
-                                 ],
-                        "entities":  [
-
-                                     ],
-                        "state":  null,
-                        "source_type":  "news",
-                        "auto_fetched":  true,
-                        "related_agency":  "CMS"
                     },
                     {
                         "id":  "media-2025-07-01-1398784313",
