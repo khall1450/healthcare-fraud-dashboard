@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://fonts.googleapis.com; font-src 'self' https://cdnjs.cloudflare.com https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self';" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://fonts.googleapis.com; font-src 'self' https://cdnjs.cloudflare.com https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://cdn.jsdelivr.net; object-src 'none'; base-uri 'self';" />
   <title>Health Care Fraud Dashboard</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -172,6 +172,33 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
 }
 .spinning { animation: spin 1s linear infinite; }
 @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+
+/* MAP VIEW */
+.map-layout { display: grid; grid-template-columns: 1fr 400px; gap: 16px; min-height: 560px; }
+@media (max-width: 900px) { .map-layout { grid-template-columns: 1fr; } }
+.map-container { padding: 18px 20px; }
+.map-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+.map-legend { display: flex; align-items: center; gap: 6px; font-size: 0.68rem; color: var(--text-muted); }
+.map-legend .legend-bar { width: 120px; height: 10px; border-radius: 3px; }
+#mapSvg svg { width: 100%; height: auto; }
+#mapSvg path { stroke: #fff; stroke-width: 0.8; cursor: pointer; transition: opacity 0.15s; }
+#mapSvg path:hover { opacity: 0.8; stroke-width: 1.5; }
+#mapSvg path.state-selected { stroke: var(--blaze); stroke-width: 2.5; }
+#btnNational.active { background: var(--paragon-blue); color: white; border-color: var(--paragon-blue); }
+#mapSvg .nation-outline { fill: none; stroke: var(--blaze); stroke-width: 2.5; pointer-events: none; }
+.map-sidebar { background: white; border-radius: var(--radius); border: 1px solid var(--border); box-shadow: 0 2px 6px rgba(0,46,109,0.06); display: flex; flex-direction: column; max-height: 75vh; }
+.sidebar-header { padding: 14px 16px; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
+.sidebar-list { overflow-y: auto; flex: 1; }
+.sidebar-item { padding: 12px 16px; border-bottom: 1px solid #f0f0f0; cursor: default; }
+.sidebar-item:last-child { border-bottom: none; }
+.sidebar-item-title { font-family: 'Bona Nova', Georgia, serif; font-size: 0.88rem; font-weight: 700; color: var(--almost-black); line-height: 1.3; }
+.sidebar-item-meta { font-size: 0.75rem; color: var(--text-muted); margin-top: 3px; }
+.sidebar-item-meta .agency-badge { font-size: 0.6rem; padding: 1px 6px; }
+.sidebar-item-desc { font-size: 0.78rem; color: var(--concrete); margin-top: 5px; line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.sidebar-item-amount { font-size: 0.82rem; color: var(--paragon-blue); font-weight: 700; margin-top: 4px; }
+.sidebar-item-link { font-size: 0.72rem; margin-top: 5px; }
+.sidebar-item-link a { color: var(--atlantic); text-decoration: none; font-weight: 600; }
+.sidebar-item-link a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
@@ -282,13 +309,21 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
       <button class="btn btn-outline-secondary btn-sm" onclick="clearFilters()">
         <i class="fa-solid fa-xmark me-1"></i>Clear
       </button>
-      <span class="ms-auto result-count" id="resultCount"></span>
+      <div class="btn-group btn-group-sm ms-auto me-2" role="group" aria-label="View toggle">
+        <button type="button" class="btn btn-outline-secondary active" id="btnCardView" onclick="setView('cards')">
+          <i class="fa-solid fa-grip"></i>
+        </button>
+        <button type="button" class="btn btn-outline-secondary" id="btnMapView" onclick="setView('map')">
+          <i class="fa-solid fa-map"></i>
+        </button>
+      </div>
+      <span class="result-count" id="resultCount"></span>
     </div>
   </div>
 </div>
 
-<!-- MAIN CONTENT -->
-<main class="container-fluid px-4 py-4">
+<!-- MAIN CONTENT: CARDS VIEW -->
+<main class="container-fluid px-4 py-4" id="cardsView">
   <div id="noResults" class="text-center py-5 d-none">
     <i class="fa-solid fa-circle-exclamation fa-3x text-muted mb-3"></i>
     <p class="text-muted">No actions match your filters.</p>
@@ -301,6 +336,35 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
     <p class="text-muted mt-2" id="loadMoreCount" style="font-size:0.78rem;"></p>
   </div>
 </main>
+
+<!-- MAIN CONTENT: MAP VIEW -->
+<div id="mapView" class="d-none" style="padding:16px 36px;">
+  <div class="map-layout">
+    <div class="map-container card">
+      <div class="map-header">
+        <div class="btn-group btn-group-sm" role="group">
+          <button type="button" class="btn btn-outline-secondary active" id="btnByState" onclick="showByStateMode()" style="font-size:0.75rem;font-weight:600;">
+            <i class="fa-solid fa-map me-1"></i>By State
+          </button>
+          <button type="button" class="btn btn-outline-secondary" id="btnNational" onclick="showNationalActions()" style="font-size:0.75rem;font-weight:600;">
+            <i class="fa-solid fa-flag me-1"></i>National <span id="nationalCount" class="badge bg-secondary ms-1" style="font-size:0.6rem;"></span>
+          </button>
+        </div>
+        <div class="map-legend" id="mapLegend"></div>
+      </div>
+      <div id="mapSvg"></div>
+    </div>
+    <div class="map-sidebar" id="mapSidebar">
+      <div class="sidebar-header">
+        <h3 id="sidebarTitle" style="font-family:'Bona Nova',Georgia,serif;font-size:1rem;color:var(--paragon-blue);margin:0;">Select a state</h3>
+        <span id="sidebarCount" class="result-count"></span>
+      </div>
+      <div class="sidebar-list" id="sidebarList">
+        <p class="text-muted" style="font-size:0.85rem;padding:12px;">Click a state on the map to see actions.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- FOOTER -->
 <footer class="dashboard-footer">
@@ -745,6 +809,186 @@ function showStatDetail(filterId) {
   new bootstrap.Modal(document.getElementById('statModal')).show();
 }
 
+// ── View toggle ──────────────────────────────────────────────
+let currentView = 'cards';
+let mapInitialized = false;
+let usTopoData = null;
+
+function setView(view) {
+  currentView = view;
+  document.getElementById('cardsView').classList.toggle('d-none', view !== 'cards');
+  document.getElementById('mapView').classList.toggle('d-none', view !== 'map');
+  document.getElementById('btnCardView').classList.toggle('active', view === 'cards');
+  document.getElementById('btnMapView').classList.toggle('active', view === 'map');
+  if (view === 'map') initMap();
+}
+
+// ── Map view ─────────────────────────────────────────────────
+const FIPS_TO_STATE = {
+  '01':'AL','02':'AK','04':'AZ','05':'AR','06':'CA','08':'CO','09':'CT','10':'DE',
+  '11':'DC','12':'FL','13':'GA','15':'HI','16':'ID','17':'IL','18':'IN','19':'IA',
+  '20':'KS','21':'KY','22':'LA','23':'ME','24':'MD','25':'MA','26':'MI','27':'MN',
+  '28':'MS','29':'MO','30':'MT','31':'NE','32':'NV','33':'NH','34':'NJ','35':'NM',
+  '36':'NY','37':'NC','38':'ND','39':'OH','40':'OK','41':'OR','42':'PA','44':'RI',
+  '45':'SC','46':'SD','47':'TN','48':'TX','49':'UT','50':'VT','51':'VA','53':'WA',
+  '54':'WV','55':'WI','56':'WY'
+};
+
+const STATE_ABBRS_TO_NAMES = {};
+Object.entries(STATE_NAMES).forEach(([abbr, name]) => { STATE_ABBRS_TO_NAMES[abbr] = name; });
+
+function actionMentionsState(a, abbr) {
+  if (a.state === abbr) return true;
+  const name = STATE_ABBRS_TO_NAMES[abbr];
+  if (!name) return false;
+  const text = ((a.title || '') + ' ' + (a.description || '')).toLowerCase();
+  if (text.includes(name.toLowerCase())) return true;
+  const abbrPattern = new RegExp('\\b' + abbr + '\\b');
+  if (abbr.length === 2 && text.match(abbrPattern)) {
+    const ambiguous = new Set(['AL','IN','OR','ME','OK','HI','ID','DC','MA']);
+    if (!ambiguous.has(abbr)) return true;
+  }
+  return false;
+}
+
+function getStateCounts(actions) {
+  const counts = {};
+  const allAbbrs = Object.keys(STATE_ABBRS_TO_NAMES);
+  allAbbrs.forEach(abbr => {
+    actions.forEach(a => {
+      if (actionMentionsState(a, abbr)) counts[abbr] = (counts[abbr] || 0) + 1;
+    });
+  });
+  return counts;
+}
+
+function getActionsForState(abbr) {
+  return allActions.filter(a => actionMentionsState(a, abbr)).sort((a,b) => (b.date||'').localeCompare(a.date||''));
+}
+
+async function initMap() {
+  if (mapInitialized) { updateMapColors(); return; }
+  const container = document.getElementById('mapSvg');
+  const w = container.clientWidth || 800;
+  const h = w * 0.62;
+  if (!usTopoData) {
+    const resp = await fetch('https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json');
+    usTopoData = await resp.json();
+  }
+  const states = topojson.feature(usTopoData, usTopoData.objects.states);
+  const projection = d3.geoAlbersUsa().fitSize([w, h], states);
+  const path = d3.geoPath().projection(projection);
+  const svg = d3.select('#mapSvg').append('svg')
+    .attr('viewBox', '0 0 ' + w + ' ' + h)
+    .attr('preserveAspectRatio', 'xMidYMid meet');
+  svg.selectAll('path')
+    .data(states.features)
+    .join('path')
+    .attr('d', path)
+    .attr('data-fips', function(d) { return d.id; })
+    .attr('data-state', function(d) { return FIPS_TO_STATE[d.id] || ''; })
+    .on('click', function(event, d) {
+      var abbr = FIPS_TO_STATE[d.id];
+      if (!abbr) return;
+      document.getElementById('btnByState').classList.add('active');
+      document.getElementById('btnNational').classList.remove('active');
+      d3.select('.nation-outline').style('display', 'none');
+      svg.selectAll('path').classed('state-selected', false);
+      d3.select(this).classed('state-selected', true);
+      showSidebarActions(abbr);
+    });
+  // Nation outline (hidden by default)
+  var nationMesh = topojson.mesh(usTopoData, usTopoData.objects.states, function(a, b) { return a === b; });
+  svg.append('path')
+    .datum(nationMesh)
+    .attr('d', path)
+    .attr('class', 'nation-outline')
+    .style('display', 'none');
+  // Legend
+  var legend = document.getElementById('mapLegend');
+  legend.innerHTML = '<span>Fewer</span><div class="legend-bar" style="background:linear-gradient(to right, #ACC3D9, #002E6D);"></div><span>More</span>';
+  mapInitialized = true;
+  updateMapColors();
+}
+
+function updateMapColors() {
+  var counts = getStateCounts(allActions);
+  var maxCount = Math.max(1, Math.max.apply(null, Object.values(counts).concat([1])));
+  var nationalCount = allActions.filter(function(a) { return !a.state || a.state === ''; }).length;
+  document.getElementById('nationalCount').textContent = nationalCount;
+  var color = d3.scaleLinear().domain([0, maxCount]).range(['#e8eef4', '#002E6D']);
+  d3.selectAll('#mapSvg path').each(function() {
+    var el = d3.select(this);
+    if (this.classList.contains('nation-outline')) return;
+    var abbr = this.getAttribute('data-state');
+    var count = counts[abbr] || 0;
+    el.attr('fill', count > 0 ? color(count) : '#e8eef4');
+    el.selectAll('title').remove();
+    el.append('title').text((STATE_NAMES[abbr] || abbr) + ': ' + count + ' action' + (count !== 1 ? 's' : ''));
+  });
+}
+
+function renderSidebarItem(a, container) {
+  var item = document.createElement('div');
+  item.className = 'sidebar-item';
+  var agClass = AGENCY_CLASS[a.agency] || 'agency-Other';
+  var desc = a.description || '';
+  var amountHtml = a.amount ? '<div class="sidebar-item-amount">' + escHtml(a.amount) + '</div>' : '';
+  var linkHtml = (a.link && safeUrl(a.link))
+    ? '<div class="sidebar-item-link"><a href="' + safeUrl(a.link) + '" target="_blank" rel="noopener">' + escHtml(a.link_label || 'View') + ' <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>'
+    : '';
+  item.innerHTML =
+    '<div class="sidebar-item-meta">' +
+      '<span class="agency-badge ' + agClass + '">' + escHtml(a.agency) + '</span> ' +
+      '<span style="color:var(--text-muted);font-size:0.72rem;">' + formatDate(a.date) + '</span>' +
+    '</div>' +
+    '<div class="sidebar-item-title">' + escHtml(a.title) + '</div>' +
+    '<div class="sidebar-item-desc">' + escHtml(desc) + '</div>' +
+    amountHtml + linkHtml;
+  container.appendChild(item);
+}
+
+function showNationalActions() {
+  d3.selectAll('#mapSvg path').classed('state-selected', false);
+  d3.select('.nation-outline').style('display', null);
+  document.getElementById('btnNational').classList.add('active');
+  document.getElementById('btnByState').classList.remove('active');
+
+  var actions = allActions.filter(function(a) { return !a.state || a.state === ''; }).sort(function(a,b) { return (b.date||'').localeCompare(a.date||''); });
+  document.getElementById('sidebarTitle').textContent = 'National / Multi-State';
+  document.getElementById('sidebarCount').textContent = actions.length + ' action' + (actions.length !== 1 ? 's' : '');
+  var listEl = document.getElementById('sidebarList');
+  listEl.innerHTML = '';
+  actions.forEach(function(a) { renderSidebarItem(a, listEl); });
+}
+
+function showByStateMode() {
+  d3.select('.nation-outline').style('display', 'none');
+  d3.selectAll('#mapSvg path').classed('state-selected', false);
+  document.getElementById('btnByState').classList.add('active');
+  document.getElementById('btnNational').classList.remove('active');
+  document.getElementById('sidebarTitle').textContent = 'Select a state';
+  document.getElementById('sidebarCount').textContent = '';
+  document.getElementById('sidebarList').innerHTML = '<p class="text-muted" style="font-size:0.85rem;padding:12px;">Click a state on the map to see actions.</p>';
+}
+
+function showSidebarActions(abbr) {
+  document.getElementById('btnNational').classList.remove('active');
+  document.getElementById('btnByState').classList.add('active');
+  d3.select('.nation-outline').style('display', 'none');
+
+  var actions = getActionsForState(abbr);
+  document.getElementById('sidebarTitle').textContent = STATE_NAMES[abbr] || abbr;
+  document.getElementById('sidebarCount').textContent = actions.length + ' action' + (actions.length !== 1 ? 's' : '');
+  var listEl = document.getElementById('sidebarList');
+  listEl.innerHTML = '';
+  if (actions.length === 0) {
+    listEl.innerHTML = '<p class="text-muted" style="font-size:0.85rem;padding:12px;">No actions recorded for this state.</p>';
+    return;
+  }
+  actions.forEach(function(a) { renderSidebarItem(a, listEl); });
+}
+
 // Init
 document.addEventListener('DOMContentLoaded', loadData);</script>
 
@@ -764,6 +1008,8 @@ document.addEventListener('DOMContentLoaded', loadData);</script>
   </div>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
