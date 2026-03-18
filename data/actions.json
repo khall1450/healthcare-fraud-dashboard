@@ -2606,7 +2606,7 @@
                     {
                         "id":  "media-2026-03-11-wsj-autism-aba-medicaid",
                         "date":  "2026-03-11",
-                        "agency":  "Media",
+                        "agency":  "HHS-OIG",
                         "type":  "Investigative Report",
                         "title":  "WSJ Investigation: Autism ABA Therapy Billing Is Medicaid\u0027s Fastest-Growing Abuse Area",
                         "description":  "Wall Street Journal analysis of Medicaid billing records reveals ABA autism therapy payments surged from $660M to $2.2B between 2019-2023, with some providers billing up to $800/hr for services delivered by workers earning under $20/hr. Indiana was the epicenter, where one company (Piece by Piece) received $29M for just 84 patients. HHS-OIG audits found billing errors in every case sampled across four states. The investigation connects to ongoing Minnesota Medicaid fraud prosecutions.",
@@ -2636,7 +2636,7 @@
                     {
                         "id":  "media-2026-03-10-cbs-la-hospice-fraud",
                         "date":  "2026-03-10",
-                        "agency":  "Media",
+                        "agency":  "CMS",
                         "type":  "Investigative Report",
                         "title":  "CBS News Investigation: Hundreds of LA Hospices Show Multiple Fraud Indicators Despite 2023 Crackdown",
                         "description":  "CBS News analysis of records for all 1,800 hospices in Los Angeles County finds over 700 trigger multiple state-defined fraud red flags. Auditors estimated LA hospices overbilled Medicare by $105M in a single year. One building houses 89 registered hospices; one medical director is listed at 45 different hospices simultaneously. Despite California revoking 280 hospice licenses and charging over 100 people since 2023, indicators of fraud are growing. Stolen Medicare numbers are used to enroll healthy seniors in hospice with fake terminal diagnoses, billing Medicare an average of $29,000 per patient.",
@@ -2695,7 +2695,7 @@
                     {
                         "id":  "media-2026-02-26-propublica-arizona-indigenous-fraud",
                         "date":  "2026-02-26",
-                        "agency":  "Media",
+                        "agency":  "HHS",
                         "type":  "Investigative Report",
                         "title":  "ProPublica/AZCIR: Medicaid Fraud Targeting Indigenous Communities Continues Despite Arizona Reforms",
                         "description":  "ProPublica and Arizona Center for Investigative Reporting find that nearly three years after Arizona uncovered a $2.5B Medicaid fraud scheme targeting Native Americans, sober living operators are still recruiting vulnerable Indigenous residents into sham behavioral health treatment programs. State has recovered only $125M (5%) of stolen funds. At least 40 Indigenous residents died in fraudulent treatment facilities. Officials in at least five instances across both parties failed to act on evidence of fraud. Described by HHS as the largest fraud scheme targeting a single demographic group in recent U.S. history.",
@@ -2726,7 +2726,7 @@
                     {
                         "id":  "media-2026-02-20-wsmv-russian-tennessee-medicare",
                         "date":  "2026-02-20",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Investigative Report",
                         "title":  "WSMV4 Investigation: Russian-Connected Medicare Billing Scheme Targeting Tennessee Seniors",
                         "description":  "WSMV4 investigation reveals Medicare is being billed tens of thousands of dollars for Tennessee recipients who never needed or received medical equipment, connected to Russian citizen Nika Machutadze facing federal charges in a $3B+ nationwide Medicare fraud scheme. Machutadze\u0027s company Centurion began submitting large batches of fraudulent claims in late September 2025 for urinary catheters. A data breach at a healthcare billing service may have provided the stolen Medicare numbers used to bill phantom services across multiple states.",
@@ -2788,7 +2788,7 @@
                     {
                         "id":  "media-2026-01-06-nc-ag-medicaid-fraud-sentencings",
                         "date":  "2026-01-06",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Investigative Report",
                         "title":  "NC Attorney General Announces $12.7 Million Medicaid Fraud Sentencings",
                         "description":  "Five defendants sentenced for defrauding NC Medicaid of $12.7 million through Life Touch LLC and 1st Choice Healthcare. Scheme involved paying $1M+ in kickbacks to Medicaid patients to attend substance abuse and lab services from 2018-2023. Sentences ranged from 2-6 years; total restitution exceeds $15 million.",
@@ -2818,7 +2818,7 @@
                     {
                         "id":  "media-2026-01-16-abbott-texas-medicaid-investigation",
                         "date":  "2026-01-16",
-                        "agency":  "Media",
+                        "agency":  "HHS-OIG",
                         "type":  "Investigative Report",
                         "title":  "Governor Abbott Directs Investigations Into Potential Medicaid Fraud in Texas",
                         "description":  "Governor Abbott directed the Texas HHS OIG and HHSC to launch Medicaid fraud investigations, prompted by the Minnesota fraud revelations. Directive calls for bolstered review of MCO policies, targeted utilization review of autism services, and full staffing of special investigations units. Progress report due March 15, 2026.",
@@ -2847,7 +2847,7 @@
                     {
                         "id":  "media-2026-01-22-denver-post-zynex-indictment",
                         "date":  "2026-01-22",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Investigative Report",
                         "title":  "Denver Post: Zynex Executives Indicted in $873 Million Healthcare Fraud Scheme",
                         "description":  "Federal grand jury indicted Thomas Sandgaard (CEO) and Anna Lucsok (COO) of Zynex Inc. for a 2017-2025 scheme to ship excessive and unnecessary medical supplies to patients and fraudulently bill insurers. The scheme generated $873 million+ in revenue ($600M+ for supplies alone). Assets including luxury cars, a private jet, and properties were seized.",
@@ -2876,7 +2876,7 @@
                     {
                         "id":  "media-2026-01-30-ca-ag-hospice-fraud-arrests",
                         "date":  "2026-01-30",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Investigative Report",
                         "title":  "California AG Announces Seven Arrests for Monterey County Hospice Fraud",
                         "description":  "Seven individuals arrested including owners of Compassionate Touch Hospice, Spiritual Touch Hospice, and Fountain Hospice, plus three doctors and a nurse. They recruited and enrolled patients who were not terminally ill; some patients did not know they were enrolled in hospice. Total loss to Medi-Cal and Medicare: $3.2 million.",
@@ -2936,7 +2936,7 @@
                     {
                         "id":  "media-2026-02-06-mn-reformer-optum-audit",
                         "date":  "2026-02-06",
-                        "agency":  "Media",
+                        "agency":  "HHS-OIG",
                         "type":  "Investigative Report",
                         "title":  "Minnesota Reformer: Optum Audit Finds $1 Billion in Questionable Medicaid Claims",
                         "description":  "State-commissioned Optum report reviewed $9.4 billion in claims (Jan 2022-Oct 2025) for 14 high-risk Medicaid services. Found $1 billion in payments that could have been saved with better-written policies ($703 million in early autism intervention alone) and $52.3 million in claims that unambiguously violated stated policy.",
@@ -2993,7 +2993,7 @@
                     {
                         "id":  "media-2026-02-18-denver-post-zynex-settlement",
                         "date":  "2026-02-18",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Investigative Report",
                         "title":  "Denver Post: Zynex Admits to Fraud, Agrees to Forfeit $98 Million in DOJ Settlement",
                         "description":  "Zynex Inc. entered a non-prosecution agreement with DOJ, admitting to conspiracy to commit healthcare fraud, securities fraud, and mail fraud. Zynex agreed to forfeit $98 million in billings ($85M from TRICARE, $13M from other payors) and pay $5M-$12.5M in penalties depending on future earnings.",
@@ -3465,7 +3465,7 @@
                     {
                         "id":  "media-2025-11-13-nj-horizon-bcbs-100m-settlement",
                         "date":  "2025-11-13",
-                        "agency":  "Media",
+                        "agency":  "CMS",
                         "type":  "Investigative Report",
                         "title":  "NJ AG: Horizon Blue Cross Blue Shield Agrees to Pay $100M in Largest-Ever State Non-Medicaid FCA Settlement",
                         "description":  "Horizon Healthcare Services (Horizon BCBS NJ) agreed to pay $100 million, the state\u0027s largest-ever non-Medicaid False Claims Act settlement. Horizon allegedly fraudulently induced the state into a 2020 contract and systematically overcharged for healthcare claims for state employee benefit programs. Whistleblowers to receive $12M.",
@@ -3586,7 +3586,7 @@
                     {
                         "id":  "media-2025-09-16-kff-exactech-knee-implant-settlement",
                         "date":  "2025-09-16",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Investigative Report",
                         "title":  "KFF Health News: Exactech Pays $8M to Settle FCA Allegations Over Defective Knee Implants Sold to Medicare/VA",
                         "description":  "Gainesville, FL-based Exactech agreed to pay $8 million to settle False Claims Act allegations that it knowingly sold defective knee replacement components to Medicare, Medicaid, and VA patients. The company knew by 2008 that its Optetrak knee system failed prematurely at unacceptable rates but continued selling through 2018. Over 2,500 patients alleging injuries filed claims; many needed revision surgeries within three years. Case brought by whistleblower former sales agents and a surgeon.",
@@ -3618,7 +3618,7 @@
                     {
                         "id":  "media-2025-09-25-propublica-npi-loophole-fraud",
                         "date":  "2025-09-25",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Investigative Report",
                         "title":  "ProPublica: Health Insurance Hustle — NPI Loophole Makes Healthcare Fraud Absurdly Easy",
                         "description":  "ProPublica\u0027s investigation revealed how easy it is to commit healthcare fraud using the National Provider Identifier system. A Texas personal trainer and convicted felon posed as a licensed physician, obtained at least 20 NPI numbers, and billed Aetna, Cigna, and UnitedHealthcare for millions in bogus services. The reporting directly led to bipartisan legislation: the Medical License Verification Act (Sens. Cornyn and Cortez Masto) requiring Medicare to verify license validity before approving NPI numbers.",
@@ -3651,7 +3651,7 @@
                     {
                         "id":  "media-2025-10-15-kare11-mn-housing-hustle-series",
                         "date":  "2025-10-15",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Investigative Report",
                         "title":  "KARE 11 Investigates: Housing Hustle — Massive Organized Fraud in Minnesota Medicaid Housing and Disability Programs",
                         "description":  "KARE 11\u0027s sustained \u0027Housing Hustle\u0027 investigation series exposed massive organized fraud in Minnesota\u0027s Housing Stabilization Services and other Medicaid programs. Key findings: forged documents, falsified service notes, billing for deceased clients, criminal networks of fly-by-night companies, and out-of-state \u0027fraud tourists\u0027 (two Philadelphia men obtained $3.5M remotely). DHS ignored repeated warnings. Series led to federal charges against 8+ defendants and a third-party Optum audit finding $52.3M in direct recoveries.",
@@ -3681,7 +3681,7 @@
                     {
                         "id":  "media-2025-10-31-ca-ag-cvs-medi-cal-settlement",
                         "date":  "2025-10-31",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Investigative Report",
                         "title":  "CA AG and DOJ Secure $18.2 Million Settlement with CVS Over False Medi-Cal Prescription Certifications",
                         "description":  "CVS Pharmacy agreed to pay $18.2 million to settle allegations that from 2010-2021 it used false electronic certifications to claim patient compliance with Medi-Cal requirements for prescription drug reimbursement without actually verifying or documenting compliance. Case brought by whistleblower former CVS pharmacist under the False Claims Act.",
@@ -3712,7 +3712,7 @@
                     {
                         "id":  "media-2025-10-31-texas-ag-healthcare-fraud-results",
                         "date":  "2025-10-31",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Investigative Report",
                         "title":  "Texas AG Paxton: 120+ Arrests and $125 Million Recovered from Healthcare Fraudsters in 2025",
                         "description":  "Texas Attorney General\u0027s Medicaid Fraud Control Unit recovered $125+ million and secured 123 arrests and 180 indictments related to healthcare fraud in 2025. In June, the unit participated in the national takedown, resulting in charges against 30 Texas defendants connected to schemes totaling $177 million in fraudulent billings and $1.7 million in illegal kickbacks, plus unlawful diversion of 10+ million opioid pills.",
@@ -4141,7 +4141,7 @@
                         "type":  "Investigative Report",
                         "amount":  "$30 million (claims); $17 million (paid)",
                         "description":  "Mark Loftis, 38, of Cushing, OK, owner of Back Pain Home Supplies LLC (EZ Medical Supply), indicted for paying illegal kickbacks to marketers and telemedicine companies for fraudulent DME orders. Submitted approximately $30 million in false claims; federal programs paid approximately $17 million. Also misused $300K+ in COVID-19 Provider Relief Funds for personal expenses.",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "social_posts":  [
 
                                          ],
@@ -4172,7 +4172,7 @@
                         "type":  "Investigative Report",
                         "amount":  "$3.5 million",
                         "description":  "Anthony Waddell Jefferson, 37, and Lester Brown, 53, of Philadelphia, pleaded guilty to repeatedly traveling to Minneapolis to defraud Minnesota\u0027s Housing Stabilization Services program of $3.5M. They recruited homeless individuals at shelters, billed for services never provided, and used ChatGPT to fabricate client records when questioned. First charges involving AI to further healthcare fraud in Minnesota.",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "social_posts":  [
 
                                          ],
@@ -4202,7 +4202,7 @@
                         "type":  "Investigative Report",
                         "amount":  "$10 million",
                         "description":  "Burhan Mirza, 31, and Kashif Iqbal, 48, both Pakistani nationals, indicted for using fake medical businesses to submit $10 million in fraudulent billing to Medicare and private insurers. Mirza obtained patient identifying information without their knowledge; Iqbal managed DME providers submitting false claims and laundered fraud proceeds.",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "social_posts":  [
 
                                          ],
@@ -4232,7 +4232,7 @@
                         "type":  "Investigative Report",
                         "amount":  "$400 million (fraudulent claims); $12.2 million (laundered)",
                         "description":  "Nikolai Buzolin, 38, of Russia, charged with conspiracy to commit money laundering in connection with Verisola Inc., which submitted $400M+ in false Medicare Advantage claims for DME (orthotic braces, glucose monitors) never provided to patients. MAOs reimbursed $16.7M, of which $12.2M was wired overseas. Buzolin was arrested in LA attempting to flee to Moscow. Scheme ran Aug 2025-Jan 2026.",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "social_posts":  [
 
                                          ],
@@ -4263,7 +4263,7 @@
                         "type":  "Investigative Report",
                         "amount":  "$2 billion (saved by AI war room since March 2025)",
                         "description":  "CMS tackling fraud through regulatory reforms (CRUSH RFI, 68 comments received) and technology deployment. Claims Analysis \u0027War Room\u0027 using real-time AI billing review has saved $2 billion since March 2025. In hospice, CMS removed 60%+ of flagged companies within 6 months, 90% within a year. CLAW (Contracts Analysis Wizard) AI tool saving hundreds of millions in contract negotiations. CMS grew software engineers from 13 to 40, targeting 72 AI use cases.",
-                        "agency":  "Media",
+                        "agency":  "CMS",
                         "social_posts":  [
 
                                          ],
@@ -4292,7 +4292,7 @@
                         "type":  "Investigative Report",
                         "amount":  "$600 million (fraudulent billing)",
                         "description":  "Dr. Gilbert Faustina\u0027s Medicare provider number was used by multiple home healthcare agencies in Los Angeles to bill nearly $600 million to Medicare from 2021-2024, including $260 million in 2024 alone. Federal records show 76,000 claims for 29,527 patients, yet Faustina says he saw only 10-15 patients weekly and received ,000/month. Agencies operated as shell companies from shared addresses, staying under the radar. Faustina denies knowledge of the fraud.",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "social_posts":  [
 
                                          ],
@@ -4322,7 +4322,7 @@
                         "type":  "Investigative Report",
                         "amount":  "$14.6 billion (total intended losses)",
                         "description":  "Legal analysis of the 2025 National Health Care Fraud Takedown highlights unprecedented elements: five defendants used AI to create fake audio recordings of Medicare beneficiaries consenting to products never ordered. 29 defendants in transnational criminal orgs submitted over $12B in fraudulent claims. Operation Gold Rush alone involved $10.6B in fraud using stolen identities of 1 million+ Americans. $245M in assets seized.",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "social_posts":  [
 
                                          ],
@@ -4353,7 +4353,7 @@
                         "type":  "Investigative Report",
                         "amount":  "$84 billion/year (estimated MA overpayments); $8.7 billion (2021 UHG excess)",
                         "description":  "CNBC reports UnitedHealth Group is under both civil and criminal DOJ investigation over its Medicare Advantage billing practices. The probe focuses on whether UHG systematically upcoded patient diagnoses to inflate risk-adjustment payments. In 2021 alone, upcoding practices allegedly generated $8.7B in excess federal payments to UnitedHealthcare. CMS estimates MA overpayments total $84 billion annually.",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "social_posts":  [
 
                                          ],
@@ -4382,7 +4382,7 @@
                         "type":  "Investigative Report",
                         "amount":  "$107 million/year (program cost)",
                         "description":  "Minnesota DHS shut down the $107 million/year Housing Stabilization Services (HSS) program, citing credible allegations of fraud. Investigation found many providers simply rented apartments to Medicaid recipients and billed for services never provided. The program was designed to help elderly and disabled Minnesotans at risk of homelessness. Governor Walz ordered suspension of payments to 50 of the largest providers.",
-                        "agency":  "Media",
+                        "agency":  "CMS",
                         "social_posts":  [
 
                                          ],
@@ -4411,7 +4411,7 @@
                         "type":  "Investigative Report",
                         "amount":  null,
                         "description":  "CMS identified suspicious unauthorized creation of Medicare.gov accounts using personal information obtained from unknown external sources. Approximately 103,000 beneficiaries were potentially impacted. Fraudsters used stolen identity data to create beneficiary online accounts, potentially accessing personal health information and Medicare benefits.",
-                        "agency":  "Media",
+                        "agency":  "CMS",
                         "social_posts":  [
 
                                          ],
@@ -4440,7 +4440,7 @@
                         "type":  "Investigative Report",
                         "amount":  "$227 million (claims); $136 million (paid)",
                         "description":  "Syed Murtuza Kablazada, 34, and Syed Mehdi Hussain, 32, of Illinois, charged with operating purported medical laboratories that submitted $227M in fraudulent Medicare claims for over-the-counter COVID-19 test kits. Used foreign nationals as nominee owners. Paid marketers for names of hundreds of thousands of Medicare beneficiaries, including deceased individuals. Medicare paid approximately $136M.",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "social_posts":  [
 
                                          ],
@@ -4470,7 +4470,7 @@
                         "type":  "Investigative Report",
                         "amount":  "$2.5 billion (fraud scheme)",
                         "description":  "After 18 months of investigation, ProPublica and the Arizona Center for Investigative Reporting found that dozens of Native Americans dealing with addiction died as Arizona\u0027s Medicaid agency (AHCCCS) struggled to respond to a massive $2.5B fraud scheme involving sham sober living homes and treatment facilities. The fraud evolved from 2019-2023 while the state agency failed to act. Patients were enrolled in fraudulent treatment programs, many receiving no actual care.",
-                        "agency":  "Media",
+                        "agency":  "CMS",
                         "social_posts":  [
 
                                          ],
@@ -4547,7 +4547,7 @@
                     {
                         "id":  "media-2026-03-14-iowa-nucara-pharmacy-22m",
                         "date":  "2026-03-14",
-                        "agency":  "Media",
+                        "agency":  "HHS",
                         "type":  "Investigative Report",
                         "title":  "Iowa HHS Sues NuCara Pharmacy for Keeping $22M+ in 340B Drug Program Funds Owed to State",
                         "description":  "Iowa Department of Health and Human Services filed a lawsuit against NuCara Specialty Pharmacy in Pleasant Hill, IA, alleging the pharmacy kept more than $22 million in past-due program income from the federal 340B Drug Pricing Program. Under a state contract, NuCara purchased HIV medications at reduced 340B prices, collected full insurance reimbursements, and was required to return the profit (minus a $75 processing fee per claim) to the state monthly. The lawsuit alleges payments stopped 8 months ago and NuCara used the funds to pay other creditors.",
@@ -4689,7 +4689,7 @@
                     {
                         "id":  "media-2026-03-18-486820781",
                         "date":  "2026-03-18",
-                        "agency":  "Media",
+                        "agency":  "CMS",
                         "type":  "Investigation",
                         "title":  "Trump administration expands Medicaid fraud crackdown to Florida - The Hill",
                         "description":  "The Trump administration widened its Medicaid fraud enforcement efforts to include Florida, part of an expanding federal crackdown examining improper Medicaid payments and billing irregularities across multiple states.",
@@ -4720,7 +4720,7 @@
                     {
                         "id":  "media-2026-03-17-2094579834",
                         "date":  "2026-03-17",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Investigative Report",
                         "title":  "Dr. Oz Calls Medicare Fraud an Epidemic. Trump Keeps Pardoning the Culprits. - Mother Jones",
                         "description":  "CMS Administrator Dr. Oz publicly characterized Medicare fraud as an epidemic, while the Trump administration simultaneously granted pardons or clemency to individuals previously convicted of healthcare fraud schemes.",
@@ -4751,7 +4751,7 @@
                     {
                         "id":  "media-2026-03-17-380196477",
                         "date":  "2026-03-17",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Civil Action",
                         "title":  "Connecticut recovers $43 million in Medicaid fraud payments - CT Insider",
                         "description":  "Connecticut recovered $43 million in Medicaid fraud payments through enforcement actions targeting providers who submitted false claims or overbilled the state Medicaid program.",
@@ -4782,7 +4782,7 @@
                     {
                         "id":  "media-2026-03-12-1515251584",
                         "date":  "2026-03-12",
-                        "agency":  "Media",
+                        "agency":  "Congress",
                         "type":  "Congressional Hearing",
                         "title":  "Nebraska named in expanded Congressional Medicaid fraud investigation - Nebraska Public Media",
                         "description":  "The House Energy and Commerce Committee expanded its congressional investigation into Medicaid fraud to include Nebraska, requesting state data as part of a multi-state probe into improper Medicaid spending.",
@@ -4813,7 +4813,7 @@
                     {
                         "id":  "media-2026-01-29-2111006586",
                         "date":  "2026-01-29",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "Florida Laboratory Owner Pleads Guilty to $52M Medicare Fraud Scheme Involving Genetic Tests - Department of Justice (.gov)",
                         "description":  "A Florida laboratory owner pleaded guilty to a $52 million Medicare fraud scheme involving medically unnecessary genetic tests ordered through kickback arrangements with recruiters and marketers.",
@@ -4845,7 +4845,7 @@
                     {
                         "id":  "media-2026-01-27-1885422764",
                         "date":  "2026-01-27",
-                        "agency":  "Media",
+                        "agency":  "Congress",
                         "type":  "Congressional Hearing",
                         "title":  "Rep. Young Kim Demands Newsom Pay Back $1.3 Billion in Medicaid Fraud to the American Taxpayer - Congresswoman Young Kim (.gov)",
                         "description":  "Rep. Young Kim demanded that California Governor Gavin Newsom repay $1.3 billion in alleged Medicaid fraud losses to federal taxpayers, citing widespread improper payments in the state\u0027s Medi-Cal program.",
@@ -4876,7 +4876,7 @@
                     {
                         "id":  "media-2026-03-12-1199980870",
                         "date":  "2026-03-12",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Investigation",
                         "title":  "LA district attorney launches healthcare fraud campaign on Metro buses - CBS News",
                         "description":  "The Los Angeles County District Attorney launched a public awareness campaign on Metro buses to combat healthcare fraud, encouraging residents to report suspected fraudulent billing and medical identity theft.",
@@ -4907,7 +4907,7 @@
                     {
                         "id":  "media-2026-03-16-1562252783",
                         "date":  "2026-03-16",
-                        "agency":  "Media",
+                        "agency":  "Congress",
                         "type":  "Congressional Hearing",
                         "title":  "Lawmakers launch probe into Massachusetts Medicaid fraud, request data from Healey - Boston Herald",
                         "description":  "Congressional lawmakers launched a formal probe into Massachusetts Medicaid fraud, requesting data from Governor Maura Healey\u0027s administration regarding suspected improper payments and billing irregularities.",
@@ -4938,7 +4938,7 @@
                     {
                         "id":  "media-2026-03-06-1036686978",
                         "date":  "2026-03-06",
-                        "agency":  "Media",
+                        "agency":  "Congress",
                         "type":  "Congressional Hearing",
                         "title":  "House E\u0026C Committee leaders expand Medicaid fraud investigation - American Hospital Association",
                         "description":  "House Energy and Commerce Committee leaders expanded their Medicaid fraud investigation to additional states, requesting enrollment and spending data to assess the scope of improper payments nationwide.",
@@ -4969,7 +4969,7 @@
                     {
                         "id":  "media-2026-02-25-1000599972",
                         "date":  "2026-02-25",
-                        "agency":  "Media",
+                        "agency":  "HHS",
                         "type":  "Administrative Action",
                         "title":  "Trump Administration Prioritizes Affordability by Announcing Major Crackdown on Health Care Fraud - HHS.gov",
                         "description":  "The Trump administration announced a major healthcare fraud crackdown, framing enforcement as a cost-reduction and affordability initiative. HHS signaled intensified scrutiny of Medicare and Medicaid billing nationwide.",
@@ -5000,7 +5000,7 @@
                     {
                         "id":  "media-2026-03-09-643026761",
                         "date":  "2026-03-09",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "North Carolina Medicaid fraud: $12.7 million kickback scheme leads to prison time and $15 million fine - ABC11 Raleigh-Durham",
                         "description":  "Four individuals in North Carolina were sentenced for a $12.7 million Medicaid kickback scheme and ordered to pay $15 million in fines. The defendants paid illegal kickbacks to steer Medicaid patients to their services.",
@@ -5031,7 +5031,7 @@
                     {
                         "id":  "media-2026-03-16-1106343144",
                         "date":  "2026-03-16",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Investigation",
                         "title":  "KPR: How Kentucky’s Addiction Recovery Care is being investigated for possible Medicaid fraud - The Lexington Times",
                         "description":  "Kentucky\u0027s Addiction Recovery Care, a major substance abuse treatment provider, is under investigation for possible Medicaid fraud involving billing for addiction treatment services.",
@@ -5062,7 +5062,7 @@
                     {
                         "id":  "media-2026-03-13-428959442",
                         "date":  "2026-03-13",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "Former NBA player Glen Davis released from prison after 17 months for involvement in healthcare fraud scheme - Yahoo Sports",
                         "description":  "Former NBA player Glen \"Big Baby\" Davis was released from federal prison after serving 17 months for his role in a healthcare fraud scheme that defrauded the NBA\u0027s health insurance plan through fake medical claims.",
@@ -5092,7 +5092,7 @@
                     {
                         "id":  "media-2026-03-12-89483935",
                         "date":  "2026-03-12",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "Wisconsin man gets 11 years for Medicaid fraud, to pay nearly $3 million in restitution - WFRV Local 5",
                         "description":  "A Wisconsin man was sentenced to 11 years in federal prison for Medicaid fraud and ordered to pay nearly $3 million in restitution for submitting fraudulent claims to the state Medicaid program.",
@@ -5122,7 +5122,7 @@
                     {
                         "id":  "media-2026-01-13-374321910",
                         "date":  "2026-01-13",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "Alaska psychiatrist arraigned on 16 felony counts in Medicaid fraud scheme - Alaska\u0027s News Source",
                         "description":  "An Alaska psychiatrist was arraigned on 16 felony counts for allegedly defrauding the state Medicaid program through a billing scheme involving psychiatric services.",
@@ -5153,7 +5153,7 @@
                     {
                         "id":  "media-2025-06-30-395592441",
                         "date":  "2025-06-30",
-                        "agency":  "Media",
+                        "agency":  "HHS-OIG",
                         "type":  "Criminal Enforcement",
                         "title":  "2025 National Health Care Fraud Takedown - Office of Inspector General (.gov)",
                         "description":  "The HHS Office of Inspector General coordinated the 2025 National Health Care Fraud Takedown, a large-scale multi-agency enforcement action charging hundreds of defendants for schemes totaling billions in fraudulent billing.",
@@ -5185,7 +5185,7 @@
                     {
                         "id":  "media-2026-03-08-330356672",
                         "date":  "2026-03-08",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "Four sentenced in $12.7M Medicaid fraud scheme - The Daily Reflector",
                         "description":  "Four defendants were sentenced in a $12.7 million Medicaid fraud scheme involving kickbacks for patient referrals. The case was part of broader enforcement in North Carolina targeting organized billing fraud.",
@@ -5216,7 +5216,7 @@
                     {
                         "id":  "media-2026-03-17-1883779842",
                         "date":  "2026-03-17",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "San Diego County Medical Center Closed, Owner Charged with Over $11 Million in Healthcare Fraud - Sierra Sun Times",
                         "description":  "A San Diego County medical center was shut down and its owner charged with over $11 million in healthcare fraud for submitting false claims for medical services that were not provided or not medically necessary.",
@@ -5247,7 +5247,7 @@
                     {
                         "id":  "media-2026-02-02-707855510",
                         "date":  "2026-02-02",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "Feds allege $3.4 billion Medicare fraud scheme tied to Russian citizen living in Austin - KXAN Austin",
                         "description":  "Federal prosecutors alleged a $3.4 billion Medicare fraud scheme tied to a Russian citizen living in Austin, Texas, involving fraudulent billing to Medicare through a network of medical providers.",
@@ -5278,7 +5278,7 @@
                     {
                         "id":  "media-2026-01-22-95988577",
                         "date":  "2026-01-22",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "Florida nursing assistant convicted in $11.4 million Medicare fraud scheme - CBS News",
                         "description":  "A Florida nursing assistant was convicted in an $11.4 million Medicare fraud scheme involving the submission of false claims for home health or nursing services that were never provided.",
@@ -5308,7 +5308,7 @@
                     {
                         "id":  "media-2025-12-19-1075140573",
                         "date":  "2025-12-19",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "Feds bring new charges tied to ‘staggering’ Minnesota Medicaid fraud - Sahan Journal",
                         "description":  "Federal authorities brought new charges in a large-scale Minnesota Medicaid fraud case described as \"staggering,\" part of ongoing investigations into fraudulent billing by providers in the state.",
@@ -5339,7 +5339,7 @@
                     {
                         "id":  "media-2026-02-21-1677058421",
                         "date":  "2026-02-21",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "Jury convicts former NFL player in $328M Medicare fraud scheme: DOJ - KRCR",
                         "description":  "A jury convicted a former NFL player in connection with a $328 million Medicare fraud scheme involving fraudulent claims submitted to the NBA players\u0027 health plan and Medicare.",
@@ -5370,7 +5370,7 @@
                     {
                         "id":  "media-2025-12-19-1820364031",
                         "date":  "2025-12-19",
-                        "agency":  "Media",
+                        "agency":  "CMS",
                         "type":  "Investigation",
                         "title":  "Gov. Walz questions $9B Medicaid fraud estimate, says he’ll take accountability - MPR News",
                         "description":  "Minnesota Governor Tim Walz questioned a $9 billion Medicaid fraud estimate attributed to the state\u0027s programs while pledging accountability and cooperation with federal investigators.",
@@ -5400,7 +5400,7 @@
                     {
                         "id":  "media-2025-12-18-760461757",
                         "date":  "2025-12-18",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "6 charged in Minnesota Medicaid fraud as $18B programs probed - FOX 9 Minneapolis-St. Paul",
                         "description":  "Six individuals were charged in Minnesota Medicaid fraud as federal and state investigators probed $18 billion in program spending, focusing on suspected fraudulent billing by community-based service providers.",
@@ -5431,7 +5431,7 @@
                     {
                         "id":  "media-2025-12-12-997397892",
                         "date":  "2025-12-12",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "Mother and daughter sentenced for $3.6 million Medicaid fraud in Baltimore County - CBS News",
                         "description":  "A mother and daughter in Baltimore County were sentenced for a $3.6 million Medicaid fraud scheme involving fraudulent billing for services that were never rendered or were medically unnecessary.",
@@ -5461,7 +5461,7 @@
                     {
                         "id":  "media-2025-10-30-1909881097",
                         "date":  "2025-10-30",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "\"Largest Medicaid fraud scheme ever prosecuted\" NY couple accused of stealing nearly $3M - WRGB",
                         "description":  "A New York couple was accused of stealing nearly $3 million in what prosecutors described as one of the largest Medicaid fraud schemes ever prosecuted, involving systematic false billing.",
@@ -5491,7 +5491,7 @@
                     {
                         "id":  "media-2025-06-30-473057655",
                         "date":  "2025-06-30",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "DOJ announces largest-ever $14.6B healthcare fraud takedown - Fierce Healthcare",
                         "description":  "The DOJ announced the largest-ever healthcare fraud takedown, charging 324 defendants in schemes totaling $14.6 billion in false billings across Medicare, Medicaid, and TRICARE programs.",
@@ -5523,7 +5523,7 @@
                     {
                         "id":  "media-2025-08-06-1035609990",
                         "date":  "2025-08-06",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Investigative Report",
                         "title":  "Mapping a healthcare fraud takedown: Lessons in coordination and the power of data - Thomson Reuters",
                         "description":  "Thomson Reuters analyzed the coordination and data-sharing strategies behind a major federal healthcare fraud takedown, highlighting how cross-agency collaboration and analytics enabled the large-scale enforcement action.",
@@ -5554,7 +5554,7 @@
                     {
                         "id":  "media-2025-07-01-1539805726",
                         "date":  "2025-07-01",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "US says it has halted healthcare fraud schemes worth nearly $15bn - The Guardian",
                         "description":  "The U.S. government announced it had halted healthcare fraud schemes worth nearly $15 billion through a coordinated enforcement action involving hundreds of defendants charged with defrauding federal health programs.",
@@ -5585,7 +5585,7 @@
                     {
                         "id":  "media-2025-11-24-466180734",
                         "date":  "2025-11-24",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "Hennepin County Judge tosses out jury\u0027s guilty verdict in $7.2 million home healthcare fraud case - kare11.com",
                         "description":  "A Hennepin County judge overturned a jury\u0027s guilty verdict in a $7.2 million home healthcare fraud case in Minnesota, ruling that the evidence was insufficient to sustain the conviction.",
@@ -5615,7 +5615,7 @@
                     {
                         "id":  "media-2025-06-30-340464747",
                         "date":  "2025-06-30",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "Justice Department healthcare fraud ‘takedown’ nets two nursing home chains among 324 defendants - McKnight\u0027s Long-Term Care News",
                         "description":  "The DOJ\u0027s national healthcare fraud takedown included charges against two nursing home chains among 324 defendants, targeting schemes involving fraudulent billing and substandard care in long-term care facilities.",
@@ -5647,7 +5647,7 @@
                     {
                         "id":  "media-2025-07-01-926451052",
                         "date":  "2025-07-01",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "Medicaid, Medicare Fraud | NC healthcare professionals among those facing charges in massive fraud investigation - ABC11 Raleigh-Durham",
                         "description":  "North Carolina healthcare professionals were among those charged in a massive federal fraud investigation targeting false claims submitted to Medicare and Medicaid programs.",
@@ -5678,7 +5678,7 @@
                     {
                         "id":  "media-2025-06-03-200331819",
                         "date":  "2025-06-03",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Administrative Action",
                         "title":  "Trump Grants Clemency to Executive Who Orchestrated $205M Medicare Fraud Scheme - Truthout",
                         "description":  "President Trump granted clemency to an executive who orchestrated a $205 million Medicare fraud scheme, drawing criticism from fraud enforcement advocates and whistleblower groups.",
@@ -5708,7 +5708,7 @@
                     {
                         "id":  "media-2025-06-30-182465536",
                         "date":  "2025-06-30",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "Two South Carolina cases part of largest healthcare fraud takedown in history - WIS News 10",
                         "description":  "Two South Carolina cases were included in the largest healthcare fraud takedown in U.S. history, with local defendants charged as part of the $14.6 billion national enforcement action.",
@@ -5739,7 +5739,7 @@
                     {
                         "id":  "media-2025-07-02-2122397106",
                         "date":  "2025-07-02",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "324 charged in connection with $14.6 billion in healthcare fraud - Healthcare Finance News",
                         "description":  "Federal authorities charged 324 defendants in connection with $14.6 billion in healthcare fraud schemes, marking the largest coordinated takedown in DOJ history across Medicare, Medicaid, and other programs.",
@@ -5771,7 +5771,7 @@
                     {
                         "id":  "media-2025-09-10-676624436",
                         "date":  "2025-09-10",
-                        "agency":  "Media",
+                        "agency":  "CMS",
                         "type":  "Investigative Report",
                         "title":  "Got a package you didn’t order? It could be Medicare fraud - investigatetv.com",
                         "description":  "Investigators warned consumers that unsolicited medical packages could indicate Medicare fraud, where scammers use stolen beneficiary information to bill Medicare for unrequested durable medical equipment or supplies.",
@@ -5801,7 +5801,7 @@
                     {
                         "id":  "media-2025-07-01-1398784313",
                         "date":  "2025-07-01",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "Several Houston-area medical professionals charged as part of nationwide crackdown on healthcare fraud - Houston Public Media",
                         "description":  "Several Houston-area medical professionals were charged as part of a nationwide healthcare fraud crackdown, accused of submitting false claims to Medicare and Medicaid for medically unnecessary services.",
@@ -5832,7 +5832,7 @@
                     {
                         "id":  "media-2025-05-20-1872101957",
                         "date":  "2025-05-20",
-                        "agency":  "Media",
+                        "agency":  "DOJ",
                         "type":  "Criminal Enforcement",
                         "title":  "Over 20 more indictments in massive Arizona Medicaid fraud scheme involving sober living homes - KJZZ",
                         "description":  "Over 20 additional indictments were issued in a large-scale Arizona Medicaid fraud scheme involving sober living homes that billed for addiction treatment services that were not provided or were unnecessary.",
