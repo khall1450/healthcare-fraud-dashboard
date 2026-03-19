@@ -93,7 +93,7 @@
                 "Medicare",
                 "Medicaid",
                 "Wound Care",
-                "Medical Professionals",
+                "False Claims",
                 "National Takedown"
             ],
             "state": "AZ",
@@ -184,7 +184,7 @@
             "social_posts": [],
             "tags": [
                 "Medicare",
-                "Nursing"
+                "Nursing Home"
             ],
             "state": "FL",
             "source_type": "official",
@@ -204,9 +204,7 @@
             "link": "https://www.whitehouse.gov/fact-sheets/2026/01/fact-sheet-president-donald-j-trump-establishes-new-department-of-justice-division-for-national-fraud-enforcement/",
             "link_label": "White House Fact Sheet",
             "social_posts": [],
-            "tags": [
-                "National Fraud Division"
-            ],
+            "tags": [],
             "state": "MN",
             "source_type": "official",
             "auto_fetched": false,
@@ -397,7 +395,6 @@
             "social_posts": [],
             "tags": [
                 "Medicaid",
-                "Medicaid Financing",
                 "Program Integrity"
             ],
             "state": null,
@@ -594,7 +591,6 @@
                 "Medicare",
                 "Medicaid",
                 "AI",
-                "Technology/Innovation",
                 "Program Integrity"
             ],
             "state": null,
@@ -697,7 +693,6 @@
             "social_posts": [],
             "tags": [
                 "Strike Force",
-                "Life Sciences",
                 "Pharmaceutical"
             ],
             "state": "MA",
@@ -796,7 +791,7 @@
             "social_posts": [],
             "tags": [
                 "Telehealth",
-                "Adderall",
+                "Drug Diversion",
                 "Opioids",
                 "Digital Health"
             ],
@@ -824,7 +819,7 @@
                 "Nursing Home",
                 "Medicaid",
                 "Medicare",
-                "Fraud Diversion"
+                "Drug Diversion"
             ],
             "state": "NJ",
             "source_type": "official",
@@ -847,7 +842,7 @@
             "link_label": "HHS-OIG Audit Report",
             "social_posts": [],
             "tags": [
-                "Contracts",
+                "False Claims",
                 "Improper Payments"
             ],
             "state": null,
@@ -948,7 +943,7 @@
             "tags": [
                 "Medicaid",
                 "Improper Payments",
-                "Managed Care"
+                "Medicare Advantage"
             ],
             "state": "IL",
             "source_type": "official",
@@ -996,8 +991,7 @@
             "tags": [
                 "Medicaid",
                 "Improper Payments",
-                "Managed Care",
-                "Nationwide"
+                "Medicare Advantage"
             ],
             "state": null,
             "source_type": "official",
@@ -1172,8 +1166,6 @@
             "link_label": "White House Fact Sheet",
             "social_posts": [],
             "tags": [
-                "National Fraud Enforcement Division",
-                "White House",
                 "Medicare",
                 "Medicaid"
             ],
@@ -1277,8 +1269,7 @@
             "link_label": "CMS Press Release",
             "social_posts": [],
             "tags": [
-                "Medicaid",
-                "Medicaid Financing"
+                "Medicaid"
             ],
             "state": null,
             "source_type": "official",
@@ -1334,8 +1325,7 @@
             "social_posts": [],
             "tags": [
                 "ACA",
-                "Subsidies",
-                "Homeless"
+                "Housing Fraud"
             ],
             "state": "FL",
             "source_type": "official",
@@ -1383,7 +1373,6 @@
             "social_posts": [],
             "tags": [
                 "Workers Compensation",
-                "DOL",
                 "Kickbacks",
                 "Pharmaceutical"
             ],
@@ -1442,8 +1431,7 @@
             "tags": [
                 "Medicaid",
                 "DME Fraud",
-                "CRUSH",
-                "White House"
+                "CRUSH"
             ],
             "state": "MN",
             "source_type": "official",
@@ -1708,7 +1696,6 @@
             "tags": [
                 "False Claims Act",
                 "TRICARE",
-                "Military Healthcare",
                 "Improper Payments",
                 "Hospital Fraud"
             ],
@@ -1736,8 +1723,7 @@
                 "False Claims Act",
                 "Cybersecurity",
                 "TRICARE",
-                "Military Healthcare",
-                "Health Insurance"
+                "Medicare Advantage"
             ],
             "state": "CA",
             "source_type": "official",
@@ -1870,8 +1856,7 @@
                 "False Claims Act",
                 "Medicare",
                 "Nursing Home",
-                "Upcoding",
-                "Civil Complaint"
+                "Upcoding"
             ],
             "state": "FL",
             "source_type": "official",
@@ -1898,8 +1883,7 @@
                 "False Claims Act",
                 "Pharmacy Fraud",
                 "Medicare",
-                "Medicaid",
-                "DEA"
+                "Medicaid"
             ],
             "state": "IL",
             "source_type": "official",
@@ -2224,8 +2208,7 @@
             "tags": [
                 "Medicare Advantage",
                 "Upcoding",
-                "Risk Adjustment",
-                "Senate Investigation"
+                "Risk Adjustment"
             ],
             "state": null,
             "source_type": "news",
@@ -2276,7 +2259,7 @@
                 "Medicare",
                 "DME Fraud",
                 "Identity Theft",
-                "Russia"
+                "Foreign Nationals"
             ],
             "state": "TN",
             "source_type": "news",
@@ -2324,7 +2307,6 @@
             "link_label": "NC DOJ Press Release",
             "social_posts": [],
             "tags": [
-                "NC Attorney General",
                 "Medicaid",
                 "Kickbacks",
                 "Addiction Treatment"
@@ -2349,7 +2331,6 @@
             "link_label": "Texas Governor Press Release",
             "social_posts": [],
             "tags": [
-                "TX Governor",
                 "Medicaid",
                 "Behavioral Health"
             ],
@@ -2398,7 +2379,6 @@
             "link_label": "CA AG Press Release",
             "social_posts": [],
             "tags": [
-                "CA Attorney General",
                 "Medicare",
                 "Medicaid",
                 "Hospice Fraud"
@@ -2472,8 +2452,7 @@
             "link_label": "GAO Report",
             "social_posts": [],
             "tags": [
-                "ACA",
-                "GAO"
+                "ACA"
             ],
             "state": null,
             "source_type": "news",
@@ -2543,8 +2522,7 @@
             "tags": [
                 "Medicare",
                 "Medicaid",
-                "Congressional",
-                "GAO"
+                "Congressional"
             ],
             "state": null,
             "source_type": "official",
@@ -2595,8 +2573,7 @@
                 "Medicaid",
                 "Medicare",
                 "Congressional",
-                "Task Force",
-                "Senate"
+                "Task Force"
             ],
             "state": null,
             "source_type": "official",
@@ -2619,8 +2596,7 @@
             "tags": [
                 "Medicaid",
                 "Congressional",
-                "Foreign Nationals",
-                "Senate"
+                "Foreign Nationals"
             ],
             "state": "MN",
             "source_type": "official",
@@ -2692,7 +2668,6 @@
             "link_label": "FCA Blog Analysis",
             "social_posts": [],
             "tags": [
-                "MA Legislature",
                 "False Claims Act",
                 "Legislation"
             ],
@@ -2883,9 +2858,8 @@
             "link_label": "NJ AG Press Release",
             "social_posts": [],
             "tags": [
-                "NJ Attorney General",
                 "False Claims Act",
-                "Health Insurance",
+                "Medicare Advantage",
                 "Whistleblower"
             ],
             "state": "NJ",
@@ -2910,9 +2884,7 @@
             "link_label": "Senate Finance Committee",
             "social_posts": [],
             "tags": [
-                "ACA",
-                "Senate Finance",
-                "GAO"
+                "ACA"
             ],
             "state": null,
             "source_type": "official",
@@ -2934,8 +2906,7 @@
             "social_posts": [],
             "tags": [
                 "ACA",
-                "Congressional",
-                "GAO"
+                "Congressional"
             ],
             "state": null,
             "source_type": "official",
@@ -2958,7 +2929,7 @@
             "tags": [
                 "ACA",
                 "Congressional",
-                "Health Insurance"
+                "Medicare Advantage"
             ],
             "state": null,
             "source_type": "official",
@@ -3015,7 +2986,7 @@
             "tags": [
                 "Medicare",
                 "NPI Fraud",
-                "Health Insurance",
+                "Medicare Advantage",
                 "Legislation"
             ],
             "state": "TX",
@@ -3097,7 +3068,6 @@
             "link_label": "Texas AG Press Release",
             "social_posts": [],
             "tags": [
-                "TX Attorney General",
                 "Medicaid",
                 "Opioids"
             ],
@@ -3507,7 +3477,7 @@
                 "Medicare Advantage",
                 "DME Fraud",
                 "Money Laundering",
-                "Russia"
+                "Foreign Nationals"
             ],
             "date": "2026-03-05",
             "amount_numeric": 400000000,
@@ -3628,7 +3598,6 @@
             "agency": "State Agency",
             "social_posts": [],
             "tags": [
-                "MN DHS",
                 "Medicaid",
                 "Housing Fraud"
             ],
@@ -3770,7 +3739,6 @@
             "link_label": "WHO 13 News Report",
             "social_posts": [],
             "tags": [
-                "IA HHS",
                 "Medicaid",
                 "Pharmacy Fraud",
                 "340B Program"
@@ -3913,7 +3881,6 @@
             "link_label": "CT Insider",
             "social_posts": [],
             "tags": [
-                "CT Attorney General",
                 "Medicaid",
                 "False Claims",
                 "Improper Payments",
@@ -4150,7 +4117,6 @@
             "link_label": "WFRV Local 5",
             "social_posts": [],
             "tags": [
-                "WI DOJ",
                 "Medicaid",
                 "False Claims",
                 "Overbilling"
@@ -4175,7 +4141,6 @@
             "link_label": "Alaska's News Source",
             "social_posts": [],
             "tags": [
-                "AK Medicaid Fraud Control Unit",
                 "Medicaid",
                 "Behavioral Health",
                 "False Claims",
@@ -4760,8 +4725,7 @@
                 "Drug Diversion",
                 "Medicare",
                 "Medicaid",
-                "False Claims",
-                "DEA"
+                "False Claims"
             ],
             "entities": [],
             "state": "LA",
@@ -4836,8 +4800,7 @@
             "social_posts": [],
             "tags": [
                 "Medical Devices",
-                "False Claims",
-                "FDA"
+                "False Claims"
             ],
             "entities": [
                 "Kimberly-Clark"
@@ -4863,8 +4826,7 @@
             "tags": [
                 "Opioids",
                 "Drug Diversion",
-                "National Takedown",
-                "DEA"
+                "National Takedown"
             ],
             "entities": [],
             "state": null,
@@ -4886,8 +4848,7 @@
             "social_posts": [],
             "tags": [
                 "Drug Diversion",
-                "Opioids",
-                "DEA"
+                "Opioids"
             ],
             "entities": [],
             "state": "FL",
@@ -4909,8 +4870,7 @@
             "social_posts": [],
             "tags": [
                 "Research Fraud",
-                "Pharmaceutical",
-                "FDA"
+                "Pharmaceutical"
             ],
             "entities": [
                 "A&R Research Group"
@@ -4935,8 +4895,7 @@
             "social_posts": [],
             "tags": [
                 "Medical Devices",
-                "False Claims",
-                "FDA"
+                "False Claims"
             ],
             "entities": [],
             "state": "WA",
@@ -5041,8 +5000,7 @@
             "social_posts": [],
             "tags": [
                 "Pharmaceutical",
-                "Off-Label",
-                "FDA"
+                "Off-Label"
             ],
             "entities": [],
             "state": null,
@@ -5065,8 +5023,7 @@
             "tags": [
                 "Opioids",
                 "Pill Mill",
-                "Drug Diversion",
-                "DEA"
+                "Drug Diversion"
             ],
             "entities": [],
             "state": "VA",
@@ -5092,8 +5049,7 @@
                 "Drug Diversion",
                 "Medicare",
                 "Medicaid",
-                "False Claims",
-                "DEA"
+                "False Claims"
             ],
             "entities": [],
             "state": "CT",
@@ -5120,8 +5076,7 @@
                 "Medicaid",
                 "Lab Fraud",
                 "Drug Diversion",
-                "Money Laundering",
-                "DEA"
+                "Money Laundering"
             ],
             "entities": [],
             "state": "NC",
@@ -5146,8 +5101,7 @@
                 "Opioids",
                 "Pill Mill",
                 "Drug Diversion",
-                "Multi-State",
-                "DEA"
+                "Multi-State"
             ],
             "entities": [],
             "state": "DC",
@@ -5173,8 +5127,7 @@
                 "Opioids",
                 "Pill Mill",
                 "Drug Diversion",
-                "Identity Theft",
-                "DEA"
+                "Identity Theft"
             ],
             "entities": [
                 "Health Fit Pharmacy"
@@ -5201,8 +5154,7 @@
                 "Opioids",
                 "Pill Mill",
                 "Drug Diversion",
-                "Pharmaceutical",
-                "DEA"
+                "Pharmaceutical"
             ],
             "entities": [
                 "Atlantic Biologicals Corporation"
@@ -5227,8 +5179,7 @@
             "social_posts": [],
             "tags": [
                 "Opioids",
-                "Drug Diversion",
-                "DEA"
+                "Drug Diversion"
             ],
             "entities": [],
             "state": "CA",
@@ -5252,8 +5203,7 @@
             "tags": [
                 "Opioids",
                 "Pill Mill",
-                "Drug Diversion",
-                "DEA"
+                "Drug Diversion"
             ],
             "entities": [],
             "state": "NY",
