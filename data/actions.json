@@ -4835,7 +4835,7 @@
         {
             "id": "dea-2025-02-06-talbot-louisiana-opioid-sentencing",
             "date": "2025-02-06",
-            "agency": "DEA",
+            "agency": "DOJ",
             "type": "Criminal Enforcement",
             "title": "Louisiana Physician Sentenced to 87 Months for Illegally Distributing 1.8 Million Opioid Doses",
             "description": "Louisiana physician Dr. Adrian Talbot sentenced to 87 months in prison for illegally distributing over 1.8 million doses of Schedule II controlled substances and defrauding healthcare programs of $5.4 million. Talbot pre-signed opioid prescriptions for patients he never examined.",
@@ -4850,13 +4850,14 @@
                 "Drug Diversion",
                 "Medicare",
                 "Medicaid",
-                "False Claims"
+                "False Claims",
+                "DEA"
             ],
             "entities": [],
             "state": "LA",
             "source_type": "official",
             "auto_fetched": false,
-            "related_agency": "DOJ"
+            "related_agency": "DEA"
         },
         {
             "id": "doj-2025-02-06-four-pharmacists-13m-sentencing",
@@ -4913,7 +4914,7 @@
         {
             "id": "fda-2025-08-29-kimberly-clark-40m-surgical-gowns",
             "date": "2025-08-29",
-            "agency": "FDA",
+            "agency": "DOJ",
             "type": "Criminal Enforcement",
             "title": "Kimberly-Clark Pays $40.4M for Selling Adulterated MicroCool Surgical Gowns",
             "description": "Kimberly-Clark agreed to pay up to $40.4 million via a deferred prosecution agreement for selling millions of adulterated surgical gowns. An employee conducted fraudulent testing to avoid submitting a new 510(k) premarket notification to FDA.",
@@ -4925,7 +4926,8 @@
             "social_posts": [],
             "tags": [
                 "Medical Devices",
-                "False Claims"
+                "False Claims",
+                "FDA"
             ],
             "entities": [
                 "Kimberly-Clark"
@@ -4933,7 +4935,7 @@
             "state": "TX",
             "source_type": "official",
             "auto_fetched": false,
-            "related_agency": "DOJ"
+            "related_agency": "FDA"
         },
         {
             "id": "dea-2025-07-03-operation-profit-over-patients",
@@ -4951,7 +4953,8 @@
             "tags": [
                 "Opioids",
                 "Drug Diversion",
-                "National Takedown"
+                "National Takedown",
+                "DEA"
             ],
             "entities": [],
             "state": null,
@@ -4973,7 +4976,8 @@
             "social_posts": [],
             "tags": [
                 "Drug Diversion",
-                "Opioids"
+                "Opioids",
+                "DEA"
             ],
             "entities": [],
             "state": "FL",
@@ -4983,7 +4987,7 @@
         {
             "id": "fda-2025-03-12-ar-research-clinical-trial-fraud",
             "date": "2025-03-12",
-            "agency": "FDA",
+            "agency": "DOJ",
             "type": "Criminal Enforcement",
             "title": "Florida Research Facility Owners Plead Guilty in Asthma Clinical Trial Fraud",
             "description": "Angela Baquero and Ricardo Acuna, owners of A&R Research Group in Pembroke Pines, Florida, pleaded guilty to conspiracy to commit wire fraud for submitting fabricated data in asthma drug trials to drug sponsors and ultimately the FDA.",
@@ -4995,7 +4999,8 @@
             "social_posts": [],
             "tags": [
                 "Research Fraud",
-                "Pharmaceutical"
+                "Pharmaceutical",
+                "FDA"
             ],
             "entities": [
                 "A&R Research Group"
@@ -5003,12 +5008,12 @@
             "state": "FL",
             "source_type": "official",
             "auto_fetched": false,
-            "related_agency": "DOJ"
+            "related_agency": "FDA"
         },
         {
             "id": "fda-2025-12-washington-cpap-fraud",
             "date": "2025-12-01",
-            "agency": "FDA",
+            "agency": "DOJ",
             "type": "Criminal Enforcement",
             "title": "Washington Sleep Clinic Owner Pleads Guilty to Selling Adulterated CPAP Devices",
             "description": "A physician and owner of a Washington state sleep clinic pleaded guilty to adulterating and misbranding medical devices. He purchased at least 500 used and recalled Philips CPAP/BiPAP machines, directed staff to remove defective foam, and distributed them to patients.",
@@ -5020,13 +5025,14 @@
             "social_posts": [],
             "tags": [
                 "Medical Devices",
-                "False Claims"
+                "False Claims",
+                "FDA"
             ],
             "entities": [],
             "state": "WA",
             "source_type": "official",
             "auto_fetched": false,
-            "related_agency": "DOJ"
+            "related_agency": "FDA"
         },
         {
             "id": "doj-2025-06-teva-450m-copaxone-kickback",
@@ -5125,7 +5131,8 @@
             "social_posts": [],
             "tags": [
                 "Pharmaceutical",
-                "Off-Label"
+                "Off-Label",
+                "FDA"
             ],
             "entities": [],
             "state": null,
@@ -5135,7 +5142,7 @@
         {
             "id": "dea-2025-01-07-smithers-467-counts-opioid",
             "date": "2025-01-07",
-            "agency": "DEA",
+            "agency": "DOJ",
             "type": "Criminal Enforcement",
             "title": "Martinsville Doctor Convicted on 467 Federal Counts of Opioid Distribution",
             "description": "Dr. Joel Smithers of Martinsville, VA convicted of 466 counts of illegally prescribing Schedule II controlled substances and maintaining drug-involved premises. Smithers prescribed controlled substances to every patient, distributing over 500,000 Schedule II pills. Sentenced to 40 years.",
@@ -5148,18 +5155,19 @@
             "tags": [
                 "Opioids",
                 "Pill Mill",
-                "Drug Diversion"
+                "Drug Diversion",
+                "DEA"
             ],
             "entities": [],
             "state": "VA",
             "source_type": "official",
             "auto_fetched": false,
-            "related_agency": "DOJ"
+            "related_agency": "DEA"
         },
         {
             "id": "dea-2025-02-08-syed-new-haven-psychiatrist",
             "date": "2025-02-08",
-            "agency": "DEA",
+            "agency": "DOJ",
             "type": "Civil Action",
             "title": "New Haven Psychiatrist Pays $455K, Excluded 20 Years for Unnecessary Opioid Prescriptions",
             "description": "Dr. Naimetulla Ahmed Syed of New Haven, CT agreed to pay $455,439 to resolve allegations he issued medically unnecessary controlled substance prescriptions including the 'holy trinity' combination of opioids, benzodiazepines, and muscle relaxants, and billed Medicare and Medicaid for unnecessary visits. Agreed to 20-year exclusion from federal healthcare programs.",
@@ -5174,18 +5182,19 @@
                 "Drug Diversion",
                 "Medicare",
                 "Medicaid",
-                "False Claims"
+                "False Claims",
+                "DEA"
             ],
             "entities": [],
             "state": "CT",
             "source_type": "official",
             "auto_fetched": false,
-            "related_agency": "DOJ"
+            "related_agency": "DEA"
         },
         {
             "id": "dea-2025-03-14-randall-nc-udt-fraud",
             "date": "2025-03-14",
-            "agency": "DEA",
+            "agency": "DOJ",
             "type": "Criminal Enforcement",
             "title": "North Carolina Doctor Sentenced for $2M Opioid and Unnecessary Drug Testing Fraud",
             "description": "Dr. Wendell Lewis Randall, owner of the National Institute of Toxicology in Mt. Airy, NC, sentenced to 30 months for prescribing opioids without medical necessity and requiring all patients to submit to unnecessary urine drug tests, billing Medicare for $753K and Medicaid for $1.3M in fraudulent claims.",
@@ -5201,18 +5210,19 @@
                 "Medicaid",
                 "Lab Fraud",
                 "Drug Diversion",
-                "Money Laundering"
+                "Money Laundering",
+                "DEA"
             ],
             "entities": [],
             "state": "NC",
             "source_type": "official",
             "auto_fetched": false,
-            "related_agency": "DOJ"
+            "related_agency": "DEA"
         },
         {
             "id": "dea-2025-06-26-okafor-dc-pill-mill-18yr",
             "date": "2025-06-26",
-            "agency": "DEA",
+            "agency": "DOJ",
             "type": "Criminal Enforcement",
             "title": "D.C. Physician Sentenced to 18 Years for Operating Nationwide Opioid Pill Mill",
             "description": "Dr. Ndubuski Joseph Okafor sentenced to 18 years for operating a pill mill from his D.C. clinic, prescribing opioids to individuals using false identities across at least 45 states, resulting in hundreds of thousands of opioid units prescribed.",
@@ -5226,18 +5236,19 @@
                 "Opioids",
                 "Pill Mill",
                 "Drug Diversion",
-                "Multi-State"
+                "Multi-State",
+                "DEA"
             ],
             "entities": [],
             "state": "DC",
             "source_type": "official",
             "auto_fetched": false,
-            "related_agency": "DOJ"
+            "related_agency": "DEA"
         },
         {
             "id": "dea-2025-09-26-health-fit-pharmacy-houston-pill-mill",
             "date": "2025-09-26",
-            "agency": "DEA",
+            "agency": "DOJ",
             "type": "Criminal Enforcement",
             "title": "Houston Pill Mill Pharmacy Owner Sentenced to 12 Years; 500,000+ Opioid Pills Dispensed",
             "description": "Arthur Billings, owner of Health Fit Pharmacy (a cash-only pill mill in Houston), sentenced to 12 years and ordered to forfeit $2.6 million. Three pharmacists also sentenced. The pharmacy dispensed over 500,000 opioid pills to individuals sent by drug traffickers, using prescriptions written in names of physicians whose identities were stolen.",
@@ -5252,7 +5263,8 @@
                 "Opioids",
                 "Pill Mill",
                 "Drug Diversion",
-                "Identity Theft"
+                "Identity Theft",
+                "DEA"
             ],
             "entities": [
                 "Health Fit Pharmacy"
@@ -5260,12 +5272,12 @@
             "state": "TX",
             "source_type": "official",
             "auto_fetched": false,
-            "related_agency": "DOJ"
+            "related_agency": "DEA"
         },
         {
             "id": "dea-2026-01-13-atlantic-biologicals-opioid-dpa",
             "date": "2026-01-13",
-            "agency": "DEA",
+            "agency": "DOJ",
             "type": "Criminal Enforcement",
             "title": "Miami Pharmaceutical Wholesaler Admits Selling 14 Million Opioid Doses to Pill Mill Pharmacies",
             "description": "Atlantic Biologicals Corporation entered a deferred prosecution agreement admitting its unit National Apothecary Solutions sold over 14 million opioid doses to Houston-area pill mill pharmacies from 2017 to 2023, knowing they would be dispensed outside legitimate medical practice. Paid $450,000 criminal penalty.",
@@ -5279,7 +5291,8 @@
                 "Opioids",
                 "Pill Mill",
                 "Drug Diversion",
-                "Pharmaceutical"
+                "Pharmaceutical",
+                "DEA"
             ],
             "entities": [
                 "Atlantic Biologicals Corporation"
@@ -5287,12 +5300,12 @@
             "state": "FL",
             "source_type": "official",
             "auto_fetched": false,
-            "related_agency": "DOJ"
+            "related_agency": "DEA"
         },
         {
             "id": "dea-2025-01-14-stockton-np-opioid-lawsuit",
             "date": "2025-01-14",
-            "agency": "DEA",
+            "agency": "DOJ",
             "type": "Civil Action",
             "title": "DOJ Sues Stockton Nurse Practitioner for Selling Opioid Prescriptions via Telegram",
             "description": "DOJ filed a civil complaint against nurse practitioner Joan Rubinger of Stockton, CA for a nationwide scheme to sell illegal opioid prescriptions for cash via Telegram. Rubinger issued over 900 illegitimate prescriptions without examinations, providing customers price lists to select their own drugs.",
@@ -5304,18 +5317,19 @@
             "social_posts": [],
             "tags": [
                 "Opioids",
-                "Drug Diversion"
+                "Drug Diversion",
+                "DEA"
             ],
             "entities": [],
             "state": "CA",
             "source_type": "official",
             "auto_fetched": false,
-            "related_agency": "DOJ"
+            "related_agency": "DEA"
         },
         {
             "id": "dea-2026-03-09-great-neck-pill-mill-7yr",
             "date": "2026-03-09",
-            "agency": "DEA",
+            "agency": "DOJ",
             "type": "Criminal Enforcement",
             "title": "Great Neck, NY Doctor Sentenced to 7 Years for Operating Oxycodone Pill Mill",
             "description": "Dr. Roya Jafari-Hassad of Great Neck, NY sentenced to 7 years for operating an oxycodone pill mill from her family practice, making hundreds of thousands of dollars selling prescriptions under the table from 2019 to 2022. Ordered to pay $150,000 fine and $152,765 in restitution.",
@@ -5328,13 +5342,14 @@
             "tags": [
                 "Opioids",
                 "Pill Mill",
-                "Drug Diversion"
+                "Drug Diversion",
+                "DEA"
             ],
             "entities": [],
             "state": "NY",
             "source_type": "official",
             "auto_fetched": false,
-            "related_agency": "HHS-OIG"
+            "related_agency": "DEA"
         }
     ]
 }
