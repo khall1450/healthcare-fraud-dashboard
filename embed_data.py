@@ -4,7 +4,7 @@ import json, re, sys
 data_path = sys.argv[1] if len(sys.argv) > 1 else 'data/actions.json'
 html_path = sys.argv[2] if len(sys.argv) > 2 else 'index.html'
 
-with open(data_path, 'r', encoding='utf-8') as f:
+with open(data_path, 'r', encoding='utf-8-sig') as f:
     data = json.load(f)
 
 # Compact JSON (no indentation) to keep HTML small
