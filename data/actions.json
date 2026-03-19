@@ -6000,6 +6000,137 @@
             "source_type": "news",
             "auto_fetched": false,
             "related_agency": "CMS"
+        },
+        {
+            "id": "media-2025-05-21-guardian-unitedhealth-nursing-home-kickbacks",
+            "date": "2025-05-21",
+            "agency": "Media",
+            "type": "Investigative Report",
+            "title": "The Guardian Investigation: UnitedHealth Secretly Paid Nursing Homes to Reduce Hospital Transfers",
+            "description": "The Guardian investigation found UnitedHealth paid secret 'premium dividends' and 'shared savings' bonuses to nursing homes to keep Medicare Advantage patients out of hospitals. At least one resident suffered permanent brain damage after stroke symptoms went untreated. The investigation triggered a Senate probe by Senators Wyden and Warren and a defamation lawsuit from UnitedHealth.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [
+                "Senator Ron Wyden",
+                "Senator Elizabeth Warren"
+            ],
+            "link": "https://www.unitedhealthgroup.com/newsroom/2025/2025-05-21-statement-regarding-may-21-article-the-guardian.html",
+            "link_label": "The Guardian / UnitedHealth Response",
+            "social_posts": [],
+            "tags": [
+                "Medicare Advantage",
+                "Kickbacks",
+                "Nursing Home"
+            ],
+            "entities": [
+                "UnitedHealth"
+            ],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": false,
+            "related_agency": "CMS"
+        },
+        {
+            "id": "media-2026-kare11-optum-audit-mn-medicaid-vulnerabilities",
+            "date": "2026-02-06",
+            "agency": "Media",
+            "type": "Investigative Report",
+            "title": "KARE 11 Investigation: Third-Party Audit Finds Minnesota Medicaid System 'Riddled with Vulnerabilities'",
+            "description": "An Optum audit of 14 high-risk Medicaid programs (Jan 2022-Oct 2025) found systemic weaknesses across all programs, $52.3M in direct recoveries, and an estimated $1 billion in potential improper payments. When scrutiny intensified after KARE 11's reporting, spending in the 14 programs dropped 29% in one quarter.",
+            "amount": "$1B potential improper payments",
+            "amount_numeric": 1000000000,
+            "officials": [],
+            "link": "https://www.kare11.com/article/news/investigations/kare-11-investigates-third-party-audit-finds-mn-medicaid-system-riddled-with-vulnerabilities-minnesota/89-cc1b0866-687f-4ba6-9b95-539c8286ebaf",
+            "link_label": "KARE 11 Investigation",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Improper Payments",
+                "Program Integrity"
+            ],
+            "entities": [
+                "Optum"
+            ],
+            "state": "MN",
+            "source_type": "news",
+            "auto_fetched": false,
+            "related_agency": "CMS"
+        },
+        {
+            "id": "media-2025-03-20-ny-focus-leading-edge-home-care-fraud",
+            "date": "2025-03-20",
+            "agency": "Media",
+            "type": "Investigative Report",
+            "title": "New York Focus Investigation: Fraudster-Linked Company Selected to Insure Hundreds of Thousands of Medicaid Home Care Workers",
+            "description": "New York Focus revealed that Leading Edge Administrators, led by a founder convicted of obstructing a Senate investigation, was selected to provide insurance to hundreds of thousands of Medicaid-funded home care workers. The company routinely underpaid doctors, billed patients for care it promised to cover, and funneled profits to a questionable charity. The investigation led the state to replace the company.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://nysfocus.com/2025/03/20/home-care-insurance-leading-edge",
+            "link_label": "New York Focus",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Home Health Fraud",
+                "Kickbacks"
+            ],
+            "entities": [
+                "Leading Edge Administrators"
+            ],
+            "state": "NY",
+            "source_type": "news",
+            "auto_fetched": false,
+            "related_agency": "HHS"
+        },
+        {
+            "id": "media-2025-12-18-mn-reformer-fraud-exceeds-9b",
+            "date": "2025-12-18",
+            "agency": "Media",
+            "type": "Investigative Report",
+            "title": "Minnesota Reformer: U.S. Attorney Says Medicaid Fraud Likely Exceeds $9 Billion; Reveals 'Fraud Tourism' Industry",
+            "description": "Minnesota Reformer reported that former Assistant U.S. Attorney Joe Thompson estimated half or more of the $18 billion billed to 14 high-risk Medicaid programs since 2018 was fraudulent. The report uncovered a 'fraud tourism' industry where out-of-state scammers traveled to Minnesota to exploit weak program controls.",
+            "amount": "$9B+",
+            "amount_numeric": 9000000000,
+            "officials": [],
+            "link": "https://minnesotareformer.com/2025/12/18/u-s-attorney-fraud-likely-exceeds-9-billion-in-minnesota-run-medicaid-services/",
+            "link_label": "Minnesota Reformer",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Organized Crime",
+                "Improper Payments",
+                "Multi-State"
+            ],
+            "entities": [],
+            "state": "MN",
+            "source_type": "news",
+            "auto_fetched": false,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "media-2026-03-nick-shirley-ca-hospice-daycare-fraud",
+            "date": "2026-03-15",
+            "agency": "Media",
+            "type": "Investigative Report",
+            "title": "Independent Investigation: Over $170 Million in Alleged Fraud Across California Daycare and Hospice Ghost Operations",
+            "description": "Independent investigative journalist Nick Shirley visited dozens of hospice and daycare locations in LA and San Diego registered as receiving Medicaid money, finding vacant buildings, empty offices, and zero evidence of patients. His report identified $170M+ in questionable billings tied to ghost operations. Viewed 7.7 million times and corroborated by CBS News and CMS data.",
+            "amount": "$170M+",
+            "amount_numeric": 170000000,
+            "officials": [],
+            "link": "https://californiaglobe.com/fl/nick-shirley-uncovers-over-170-million-in-alleged-fraud-across-california-daycare-and-hospice-operations/",
+            "link_label": "California Globe",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Hospice Fraud",
+                "Organized Crime",
+                "Medi-Cal"
+            ],
+            "entities": [],
+            "state": "CA",
+            "source_type": "news",
+            "auto_fetched": false,
+            "related_agency": "CMS"
         }
     ]
 }
