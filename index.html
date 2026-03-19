@@ -908,6 +908,23 @@ async function initMap() {
       d3.select(this).classed('state-selected', true);
       showSidebarActions(abbr);
     });
+  // DC marker — too small to see/click as a path, so add a circle
+  var dcFeature = states.features.find(function(f) { return FIPS_TO_STATE[f.id] === 'DC'; });
+  if (dcFeature) {
+    var dcCenter = path.centroid(dcFeature);
+    svg.append('circle')
+      .attr('cx', dcCenter[0]).attr('cy', dcCenter[1]).attr('r', 8)
+      .attr('class', 'dc-marker').attr('data-state', 'DC')
+      .style('stroke', '#fff').style('stroke-width', '1.5').style('cursor', 'pointer')
+      .on('click', function() {
+        svg.selectAll('path').classed('state-selected', false);
+        document.getElementById('btnByState').classList.add('active');
+        document.getElementById('btnNational').classList.remove('active');
+        d3.select('.nation-outline').style('display', 'none');
+        showSidebarActions('DC');
+      });
+  }
+
   // Nation outline (hidden by default)
   var nationMesh = topojson.mesh(usTopoData, usTopoData.objects.states, function(a, b) { return a === b; });
   svg.append('path')
@@ -937,6 +954,14 @@ function updateMapColors() {
     el.selectAll('title').remove();
     el.append('title').text((STATE_NAMES[abbr] || abbr) + ': ' + count + ' action' + (count !== 1 ? 's' : ''));
   });
+  // Update DC marker color
+  var dcMarker = d3.select('.dc-marker');
+  if (!dcMarker.empty()) {
+    var dcCount = counts['DC'] || 0;
+    dcMarker.attr('fill', dcCount > 0 ? color(dcCount) : '#EDEDED');
+    dcMarker.selectAll('title').remove();
+    dcMarker.append('title').text('Washington D.C.: ' + dcCount + ' action' + (dcCount !== 1 ? 's' : ''));
+  }
 }
 
 function renderSidebarItem(a, container) {
