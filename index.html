@@ -99,6 +99,8 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
 .action-card[data-agency="CMS"]         { --agency-color: var(--cms); }
 .action-card[data-agency="HHS-OIG"]     { --agency-color: var(--oig); }
 .action-card[data-agency="White House"] { --agency-color: var(--whitehouse); }
+.action-card[data-agency="FDA"]        { --agency-color: #7B1FA2; }
+.action-card[data-agency="DEA"]        { --agency-color: #4A148C; }
 .action-card[data-agency="Media"]      { --agency-color: #8B6914; }
 .action-card[data-agency="State Agency"] { --agency-color: #795548; }
 .card-top-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
@@ -111,6 +113,8 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
 .agency-Other       { background: var(--other); }
 .agency-Media       { background: #8B6914; }
 .agency-Congress    { background: #1a5276; }
+.agency-FDA         { background: #7B1FA2; }
+.agency-DEA         { background: #4A148C; }
 .agency-GAO         { background: #2e7d32; }
 .agency-State-Agencies { background: #795548; }
 .type-badge { font-size: 0.65rem; font-weight: 600; padding: 3px 9px; border-radius: var(--radius); border: 1px solid currentColor; font-family: 'Public Sans', sans-serif; letter-spacing: 0.02em; }
@@ -284,6 +288,8 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
         <option value="CMS">CMS</option>
         <option value="HHS">HHS</option>
         <option value="HHS-OIG">HHS-OIG</option>
+        <option value="FDA">FDA</option>
+        <option value="DEA">DEA</option>
         <option value="White House">White House</option>
         <option value="Media">Media</option>
         <option value="Congress">Congress</option>
@@ -373,7 +379,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
 <footer class="dashboard-footer">
   <div class="container-fluid px-4">
     <div class="d-flex flex-wrap justify-content-between align-items-center py-3">
-      <p class="mb-0 text-muted small" style="color:rgba(255,255,255,0.5)!important">Data sourced from DOJ, HHS, CMS, HHS-OIG, GAO, White House, and Congressional press releases, plus investigative media reports.</p>
+      <p class="mb-0 text-muted small" style="color:rgba(255,255,255,0.5)!important">Data sourced from DOJ, HHS, CMS, HHS-OIG, FDA, DEA, GAO, White House, Congress, and State Agencies, plus investigative media reports.</p>
       <p class="mb-0 text-muted small" style="color:rgba(255,255,255,0.5)!important">Updates daily from official agency RSS feeds &bull; <span id="footerUpdated"></span></p>
     </div>
   </div>
@@ -420,7 +426,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
 let allActions = [];
 let latestAutoDate = '';
 
-const AGENCY_CLASS = { 'DOJ':'agency-DOJ','HHS':'agency-HHS','CMS':'agency-CMS','HHS-OIG':'agency-HHS-OIG','White House':'agency-White-House','Media':'agency-Media','Congress':'agency-Congress','GAO':'agency-GAO','State Agency':'agency-State-Agencies' };
+const AGENCY_CLASS = { 'DOJ':'agency-DOJ','HHS':'agency-HHS','CMS':'agency-CMS','HHS-OIG':'agency-HHS-OIG','FDA':'agency-FDA','DEA':'agency-DEA','White House':'agency-White-House','Media':'agency-Media','Congress':'agency-Congress','GAO':'agency-GAO','State Agency':'agency-State-Agencies' };
 const STATE_NAMES  = { AL:'Alabama',AK:'Alaska',AZ:'Arizona',AR:'Arkansas',CA:'California',CO:'Colorado',CT:'Connecticut',DE:'Delaware',FL:'Florida',GA:'Georgia',HI:'Hawaii',ID:'Idaho',IL:'Illinois',IN:'Indiana',IA:'Iowa',KS:'Kansas',KY:'Kentucky',LA:'Louisiana',ME:'Maine',MD:'Maryland',MA:'Massachusetts',MI:'Michigan',MN:'Minnesota',MS:'Mississippi',MO:'Missouri',MT:'Montana',NE:'Nebraska',NV:'Nevada',NH:'New Hampshire',NJ:'New Jersey',NM:'New Mexico',NY:'New York',NC:'North Carolina',ND:'North Dakota',OH:'Ohio',OK:'Oklahoma',OR:'Oregon',PA:'Pennsylvania',RI:'Rhode Island',SC:'South Carolina',SD:'South Dakota',TN:'Tennessee',TX:'Texas',UT:'Utah',VT:'Vermont',VA:'Virginia',WA:'Washington',WV:'West Virginia',WI:'Wisconsin',WY:'Wyoming',DC:'Washington D.C.' };
 
 function formatDate(d) {

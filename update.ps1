@@ -36,6 +36,8 @@ $Feeds = @(
     @{ Name = 'H-E&C';      Agency = 'Congress'; Url = 'https://energycommerce.house.gov/feed/';             Enabled = $true; SourceType = 'official' },
     @{ Name = 'S-Finance';   Agency = 'Congress'; Url = 'https://www.finance.senate.gov/rss/feeds/?type=press'; Enabled = $true; SourceType = 'official' },
     @{ Name = 'S-HELP';      Agency = 'Congress'; Url = 'https://www.help.senate.gov/rss/feeds/?type=press';   Enabled = $true; SourceType = 'official' },
+    @{ Name = 'FDA';     Agency = 'FDA';     Url = 'https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml'; Enabled = $true; SourceType = 'official' },
+    @{ Name = 'DEA';     Agency = 'DEA';     Url = 'https://www.dea.gov/press-releases/rss'; Enabled = $true; SourceType = 'official' },
     # --- Media / investigative feeds (staged for review, not added directly) ---
     @{ Name = 'Hospice News';       Agency = 'Media'; Url = 'https://hospicenews.com/feed/';                          Enabled = $true; SourceType = 'news' },
     @{ Name = 'Home Health Care News'; Agency = 'Media'; Url = 'https://homehealthcarenews.com/feed/';                Enabled = $true; SourceType = 'news' },
