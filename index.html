@@ -917,7 +917,7 @@ async function initMap() {
     .style('display', 'none');
   // Legend
   var legend = document.getElementById('mapLegend');
-  legend.innerHTML = '<span style="color:#999;">None</span><div style="width:20px;height:10px;background:#EDEDED;border-radius:3px;"></div><span>Fewer</span><div class="legend-bar" style="background:linear-gradient(to right, #ACC3D9, #00A6CF, #002E6D);"></div><span>More</span>';
+  legend.innerHTML = '<span style="color:#999;">None</span><div style="width:20px;height:10px;background:#EDEDED;border-radius:3px;"></div><span>Fewer</span><div class="legend-bar" style="background:linear-gradient(to right, #D6E4EF, #ACC3D9, #4DB8D6, #00A6CF, #002E6D);"></div><span>More</span>';
   mapInitialized = true;
   updateMapColors();
 }
@@ -927,7 +927,7 @@ function updateMapColors() {
   var maxCount = Math.max(1, Math.max.apply(null, Object.values(counts).concat([1])));
   var nationalCount = allActions.filter(function(a) { return !a.state || a.state === ''; }).length;
   document.getElementById('nationalCount').textContent = nationalCount;
-  var color = d3.scaleLinear().domain([0, maxCount * 0.35, maxCount]).range(['#ACC3D9', '#00A6CF', '#002E6D']);
+  var color = d3.scaleLinear().domain([0, maxCount * 0.15, maxCount * 0.4, maxCount * 0.7, maxCount]).range(['#D6E4EF', '#ACC3D9', '#4DB8D6', '#00A6CF', '#002E6D']);
   d3.selectAll('#mapSvg path').each(function() {
     var el = d3.select(this);
     if (this.classList.contains('nation-outline')) return;
