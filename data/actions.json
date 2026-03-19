@@ -4800,18 +4800,21 @@
             "id": "doj-2026-03-18-138166021",
             "date": "2026-03-18",
             "agency": "DOJ",
-            "type": "Administrative Action",
+            "type": "Criminal Enforcement",
             "title": "Owner of Now-Closed Milwaukee Prenatal Care Coordination Company Sentenced to 121 Months’ Imprisonment for Healthcare Fraud Scheme",
-            "description": "",
+            "description": "The owner of a now-closed Milwaukee prenatal care coordination company was sentenced to 121 months (over 10 years) in federal prison for a healthcare fraud scheme involving the submission of false claims for prenatal care coordination services to Wisconsin Medicaid.",
             "amount": null,
             "amount_numeric": 0,
             "officials": [],
             "link": "https://www.justice.gov/usao-edwi/pr/owner-now-closed-milwaukee-prenatal-care-coordination-company-sentenced-121-months",
             "link_label": "DOJ Press Release",
             "social_posts": [],
-            "tags": [],
+            "tags": [
+                "Medicaid",
+                "False Claims"
+            ],
             "entities": [],
-            "state": null,
+            "state": "WI",
             "source_type": "official",
             "auto_fetched": true
         },
@@ -4819,31 +4822,22 @@
             "id": "media-2026-03-19-1095694483",
             "date": "2026-03-19",
             "agency": "Media",
-            "type": "Criminal Enforcement",
+            "type": "Investigative Report",
             "title": "Oz Says California’s Not Fighting Health Care Fraud, but Data Shows It’s Part of a Larger Battle",
-            "description": "The owner of a now-closed Milwaukee prenatal care coordination company was sentenced to over 10 years in federal prison for a healthcare fraud scheme involving the submission of false claims for prenatal care coordination services to Wisconsin Medicaid.",
-            "amount": [
-                null,
-                null
-            ],
-            "amount_numeric": [
-                0,
-                0
-            ],
+            "description": "KFF Health News examines CMS Administrator Mehmet Oz's claims that California is not adequately fighting health care fraud, particularly in hospice and Medicaid. The report provides data showing fraud enforcement challenges are nationwide, not limited to one state.",
+            "amount": null,
+            "amount_numeric": 0,
             "officials": [],
             "link": "https://kffhealthnews.org/news/article/hospice-fraud-medicaid-mehmet-oz-cms-california/",
             "link_label": "KFF Health News Report",
             "social_posts": [],
             "tags": [
                 "Medicaid",
-                "False Claims",
-                "Medical Professionals",
                 "Hospice Fraud",
-                "Medicaid",
                 "Program Integrity"
             ],
             "entities": [],
-            "state": "WI",
+            "state": "CA",
             "source_type": "news",
             "auto_fetched": true
         }
