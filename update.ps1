@@ -36,13 +36,13 @@ $Feeds = @(
     @{ Name = 'H-E&C';      Agency = 'Congress'; Url = 'https://energycommerce.house.gov/feed/';             Enabled = $true; SourceType = 'official' },
     @{ Name = 'S-Finance';   Agency = 'Congress'; Url = 'https://www.finance.senate.gov/rss/feeds/?type=press'; Enabled = $true; SourceType = 'official' },
     @{ Name = 'S-HELP';      Agency = 'Congress'; Url = 'https://www.help.senate.gov/rss/feeds/?type=press';   Enabled = $true; SourceType = 'official' },
-    # --- Media / investigative feeds (disabled — too noisy, media items added manually) ---
-    @{ Name = 'Hospice News';       Agency = 'Media'; Url = 'https://hospicenews.com/feed/';                          Enabled = $false; SourceType = 'news' },
-    @{ Name = 'Home Health Care News'; Agency = 'Media'; Url = 'https://homehealthcarenews.com/feed/';                Enabled = $false; SourceType = 'news' },
-    @{ Name = 'KFF Health News';    Agency = 'Media'; Url = 'https://kffhealthnews.org/feed/';                        Enabled = $false; SourceType = 'news' },
-    @{ Name = 'Fierce Healthcare';  Agency = 'Media'; Url = 'https://www.fiercehealthcare.com/rss/xml';               Enabled = $false; SourceType = 'news' },
-    @{ Name = 'ProPublica';         Agency = 'Media'; Url = 'https://www.propublica.org/feeds/propublica/main';        Enabled = $false; SourceType = 'news' },
-    @{ Name = 'Google News';        Agency = 'Media'; Url = 'https://news.google.com/rss/search?q=%22healthcare+fraud%22+OR+%22medicare+fraud%22+OR+%22medicaid+fraud%22&hl=en-US&gl=US&ceid=US:en'; Enabled = $false; SourceType = 'news' }
+    # --- Media / investigative feeds (staged for review, not added directly) ---
+    @{ Name = 'Hospice News';       Agency = 'Media'; Url = 'https://hospicenews.com/feed/';                          Enabled = $true; SourceType = 'news' },
+    @{ Name = 'Home Health Care News'; Agency = 'Media'; Url = 'https://homehealthcarenews.com/feed/';                Enabled = $true; SourceType = 'news' },
+    @{ Name = 'KFF Health News';    Agency = 'Media'; Url = 'https://kffhealthnews.org/feed/';                        Enabled = $true; SourceType = 'news' },
+    @{ Name = 'Fierce Healthcare';  Agency = 'Media'; Url = 'https://www.fiercehealthcare.com/rss/xml';               Enabled = $true; SourceType = 'news' },
+    @{ Name = 'ProPublica';         Agency = 'Media'; Url = 'https://www.propublica.org/feeds/propublica/main';        Enabled = $true; SourceType = 'news' },
+    @{ Name = 'Google News';        Agency = 'Media'; Url = 'https://news.google.com/rss/search?q=%22healthcare+fraud%22+OR+%22medicare+fraud%22+OR+%22medicaid+fraud%22&hl=en-US&gl=US&ceid=US:en'; Enabled = $true; SourceType = 'news' }
 )
 
 function Write-Log { param([string]$Msg, [string]$Color = 'White'); if (-not $Silent) { Write-Host "  $Msg" -ForegroundColor $Color } }
@@ -87,11 +87,18 @@ function New-ActionId {
 Write-Log "Loading existing data..." Cyan
 $data = Get-Content $DataFile -Raw -Encoding UTF8 | ConvertFrom-Json
 
+# Load pending media items too (for dedup)
+$PendingFile = Join-Path $ScriptDir "data/pending.json"
+$pendingData = if (Test-Path $PendingFile) { Get-Content $PendingFile -Raw -Encoding UTF8 | ConvertFrom-Json } else { @{ items = @() } }
+
 $existingLinks = @{}
 foreach ($a in $data.actions) { if ($a.link) { $existingLinks[$a.link] = $true } }
+foreach ($a in $pendingData.items) { if ($a.link) { $existingLinks[$a.link] = $true } }
 
 $added = 0
+$mediaAdded = 0
 $newActions = [System.Collections.Generic.List[object]]::new()
+$newMedia   = [System.Collections.Generic.List[object]]::new()
 
 foreach ($feed in ($Feeds | Where-Object { $_.Enabled })) {
     Write-Log "Fetching $($feed.Name)..." White
@@ -133,7 +140,7 @@ foreach ($feed in ($Feeds | Where-Object { $_.Enabled })) {
             $amtDisp    = $amtInfo ? $amtInfo.display : $null
             $amtNum     = $amtInfo ? $amtInfo.numeric : 0
 
-            $newActions.Add([PSCustomObject]@{
+            $entry = [PSCustomObject]@{
                 id             = "$idPrefix-$dateStr-$([System.Math]::Abs(($link ?? $dateStr + $feed.Agency).GetHashCode()))"
                 date           = $dateStr
                 agency         = $feed.Agency
@@ -151,9 +158,15 @@ foreach ($feed in ($Feeds | Where-Object { $_.Enabled })) {
                 state          = $stateAbb
                 source_type    = $feed.SourceType
                 auto_fetched   = $true
-            })
+            }
+            if ($isMedia) {
+                $newMedia.Add($entry)
+                $mediaAdded++
+            } else {
+                $newActions.Add($entry)
+                $added++
+            }
             if ($link) { $existingLinks[$link] = $true }
-            $added++
             $count++
         }
         Write-Log "  $($feed.Name): $count new items." $(if ($count -gt 0) {'Green'} else {'Gray'})
@@ -169,12 +182,23 @@ if ($added -gt 0) {
     foreach ($a in $data.actions) { $all.Add($a) }
     foreach ($a in $newActions) { $all.Add($a) }
     $data.actions = $all.ToArray()
-    Write-Log "Added $added new action(s)." Green
+    Write-Log "Added $added official action(s)." Green
 } else {
-    Write-Log "No new actions found." Cyan
+    Write-Log "No new official actions found." Cyan
 }
 
-# Save JSON (Python fix_encoding.py handles mojibake cleanup after this)
+# Save official actions
 $data | ConvertTo-Json -Depth 10 | Set-Content $DataFile -Encoding UTF8
+
+# Save media items to pending file for review
+if ($mediaAdded -gt 0) {
+    $allPending = [System.Collections.Generic.List[object]]::new()
+    foreach ($a in $pendingData.items) { $allPending.Add($a) }
+    foreach ($a in $newMedia) { $allPending.Add($a) }
+    $pendingOut = @{ updated = (Get-Date).ToString('o'); items = $allPending.ToArray() }
+    $pendingOut | ConvertTo-Json -Depth 10 | Set-Content $PendingFile -Encoding UTF8
+    Write-Log "Staged $mediaAdded media item(s) for review." Yellow
+}
+
 Write-Log "Saved." Green
-Write-Output "ADDED:$added"
+Write-Output "ADDED:$added MEDIA_STAGED:$mediaAdded"

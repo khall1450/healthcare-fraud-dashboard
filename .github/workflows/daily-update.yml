@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   update:
@@ -15,12 +16,26 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      - name: Install Python dependencies
+        run: pip install anthropic
+
       - name: Fetch latest data
         shell: pwsh
         run: ./update.ps1 -Silent
 
       - name: Fix encoding artifacts
         run: python3 fix_encoding.py data/actions.json
+
+      - name: Enrich new official items with Claude API
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 enrich.py data/actions.json
+
+      - name: Review pending media items and create issue
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 review_pending.py data/pending.json
 
       - name: Embed data into index.html
         run: python3 embed_data.py data/actions.json index.html
@@ -29,6 +44,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/actions.json index.html
+          git add data/actions.json data/pending.json data/reviewed.json index.html
           git diff --staged --quiet || git commit -m "Daily data update $(date -u +%Y-%m-%d)"
           git push

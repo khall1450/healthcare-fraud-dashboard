@@ -1,0 +1,217 @@
+"""Review pending media items using Claude API and create a GitHub issue for approval.
+
+1. Reads data/pending.json (media items staged by update.ps1)
+2. Sends each to Claude Haiku to evaluate relevance and enrich metadata
+3. Creates a GitHub issue listing relevant items for user approval
+4. Clears pending.json after processing
+"""
+import json, sys, os, subprocess
+
+def main(pending_path="data/pending.json"):
+    api_key = os.environ.get("ANTHROPIC_API_KEY", "")
+    gh_token = os.environ.get("GITHUB_TOKEN", "")
+
+    if not os.path.exists(pending_path):
+        print("review: no pending file found")
+        return
+
+    with open(pending_path, "r", encoding="utf-8-sig") as f:
+        pending = json.load(f)
+
+    items = pending.get("items", [])
+    if not items:
+        print("review: no pending items")
+        return
+
+    print(f"review: {len(items)} pending media item(s)")
+
+    # Also load existing actions to check for dupes by link
+    actions_path = "data/actions.json"
+    with open(actions_path, "r", encoding="utf-8-sig") as f:
+        data = json.load(f)
+    existing_links = {a.get("link", "") for a in data["actions"]}
+
+    # Dedupe pending against existing
+    items = [i for i in items if i.get("link", "") not in existing_links]
+    if not items:
+        print("review: all pending items already in dashboard")
+        _clear_pending(pending_path)
+        return
+
+    # If no API key, just list items without enrichment
+    if not api_key:
+        print("review: no ANTHROPIC_API_KEY, listing items without filtering")
+        relevant = [{"item": i, "enriched": {}} for i in items]
+    else:
+        relevant = _filter_with_api(items, api_key)
+
+    if not relevant:
+        print("review: no relevant items found")
+        _clear_pending(pending_path)
+        return
+
+    # Save enriched items for later approval
+    enriched_path = "data/reviewed.json"
+    with open(enriched_path, "w", encoding="utf-8") as f:
+        json.dump({"items": [r["item"] for r in relevant]}, f, indent=4, ensure_ascii=False)
+
+    # Create GitHub issue
+    _create_issue(relevant, gh_token)
+
+    # Clear pending
+    _clear_pending(pending_path)
+
+
+def _filter_with_api(items, api_key):
+    try:
+        import anthropic
+    except ImportError:
+        print("review: anthropic not installed")
+        return [{"item": i, "enriched": {}} for i in items]
+
+    client = anthropic.Anthropic(api_key=api_key)
+
+    SYSTEM_PROMPT = """You are a healthcare fraud enforcement data analyst. You will be given the title and description of a news article. Determine if it belongs on a dashboard tracking federal/state healthcare fraud enforcement actions.
+
+RELEVANT: enforcement actions, indictments, convictions, sentencings, civil settlements, audits finding improper payments, congressional investigations into fraud, investigative journalism exposing specific fraud schemes, new fraud task forces, regulatory actions against fraud.
+
+NOT RELEVANT: general healthcare policy, opinion/editorial, partisan commentary, consumer advice, items where fraud is only mentioned tangentially, general industry news, stock/business coverage unless about fraud charges.
+
+Return ONLY valid JSON:
+{
+  "relevant": true/false,
+  "reason": "one sentence explaining why relevant or not",
+  "type": "Criminal Enforcement" or "Civil Action" or "Audit" or "Investigation" or "Investigative Report" or "Congressional Hearing" or "Legislation" or "Administrative Action",
+  "description": "Clear 1-3 sentence factual summary",
+  "state": "Two-letter abbreviation or null",
+  "amount": "$52M format or null",
+  "amount_numeric": 52000000 or 0,
+  "tags": ["from approved list"],
+  "entities": ["company names"],
+  "officials": ["government officials mentioned"],
+  "agency": "DOJ/CMS/HHS/HHS-OIG/GAO/Congress/White House/State Agency/Media"
+}
+
+APPROVED TAGS: Medicare, Medicaid, Medicare Advantage, TRICARE, ACA, Medi-Cal, CHIP, DME Fraud, Hospice Fraud, Home Health Fraud, Lab Fraud, Genetic Testing, Telehealth, Nursing Home, Pharmacy Fraud, Hospital Fraud, Addiction Treatment, Behavioral Health, Wound Care, Opioids, Pharmaceutical, Medical Devices, Unnecessary Procedures, Adult Day Care, Housing Fraud, Research Fraud, NPI Fraud, Elder Fraud, Kickbacks, Anti-Kickback, False Claims, False Claims Act, Identity Theft, Overbilling, Upcoding, Money Laundering, Organized Crime, Risk Adjustment, National Takedown, Strike Force, Multi-State, CRUSH, Program Integrity, Improper Payments, Congressional, Whistleblower, Task Force, AI, COVID-19, Foreign Nationals"""
+
+    relevant = []
+
+    for item in items:
+        title = item.get("title", "")
+        desc = item.get("description", "")
+        msg = f"Title: {title}\nDescription: {desc}"
+
+        try:
+            resp = client.messages.create(
+                model="claude-haiku-4-5-20251001",
+                max_tokens=400,
+                system=SYSTEM_PROMPT,
+                messages=[{"role": "user", "content": msg}]
+            )
+            text = resp.content[0].text.strip()
+            if text.startswith("```"):
+                text = text.split("\n", 1)[1]
+                if text.endswith("```"):
+                    text = text[:-3]
+                text = text.strip()
+
+            result = json.loads(text)
+
+            if result.get("relevant"):
+                # Apply enrichment to the item
+                item["type"] = result.get("type", item.get("type"))
+                if result.get("description"):
+                    item["description"] = result["description"]
+                item["tags"] = result.get("tags", [])
+                item["entities"] = result.get("entities", [])
+                item["officials"] = result.get("officials", [])
+                if result.get("state"):
+                    item["state"] = result["state"]
+                if result.get("amount"):
+                    item["amount"] = result["amount"]
+                if result.get("amount_numeric"):
+                    item["amount_numeric"] = result["amount_numeric"]
+                if result.get("agency"):
+                    item["agency"] = result["agency"]
+
+                relevant.append({"item": item, "enriched": result})
+                print(f"  RELEVANT: {title[:70]}")
+            else:
+                print(f"  skipped: {title[:70]} — {result.get('reason','')}")
+
+        except Exception as e:
+            print(f"  ERROR: {title[:50]} — {e}")
+            continue
+
+    return relevant
+
+
+def _create_issue(relevant, gh_token):
+    if not relevant:
+        return
+
+    title = f"📋 {len(relevant)} media item(s) for dashboard review"
+
+    body_lines = [
+        "The daily scan found the following media items that appear relevant to the healthcare fraud dashboard.",
+        "",
+        "**Reply with the numbers you want to add** (e.g., `add 1, 3, 5`) or `add all` / `skip all`.",
+        "",
+        "---",
+        ""
+    ]
+
+    for i, r in enumerate(relevant, 1):
+        item = r["item"]
+        enriched = r.get("enriched", {})
+        body_lines.append(f"### {i}. {item.get('title', 'Untitled')}")
+        body_lines.append("")
+        if enriched.get("description"):
+            body_lines.append(f"> {enriched['description']}")
+            body_lines.append("")
+        body_lines.append(f"- **Source:** [{item.get('link_label', 'Link')}]({item.get('link', '')})")
+        body_lines.append(f"- **Date:** {item.get('date', '?')}")
+        body_lines.append(f"- **Type:** {enriched.get('type', item.get('type', '?'))}")
+        body_lines.append(f"- **Agency:** {enriched.get('agency', item.get('agency', '?'))}")
+        if enriched.get("state"):
+            body_lines.append(f"- **State:** {enriched['state']}")
+        if enriched.get("amount"):
+            body_lines.append(f"- **Amount:** {enriched['amount']}")
+        if enriched.get("tags"):
+            body_lines.append(f"- **Tags:** {', '.join(enriched['tags'])}")
+        if enriched.get("reason"):
+            body_lines.append(f"- **Why relevant:** {enriched['reason']}")
+        body_lines.append("")
+        body_lines.append("---")
+        body_lines.append("")
+
+    body = "\n".join(body_lines)
+
+    # Create issue via gh CLI
+    try:
+        result = subprocess.run(
+            ["gh", "issue", "create", "--title", title, "--body", body, "--label", "media-review"],
+            capture_output=True, text=True, timeout=30
+        )
+        if result.returncode == 0:
+            print(f"review: created issue — {result.stdout.strip()}")
+        else:
+            print(f"review: gh issue create failed — {result.stderr}")
+            # Fallback: print to stdout so it's visible in workflow logs
+            print("=== ITEMS FOR REVIEW ===")
+            print(body)
+    except FileNotFoundError:
+        print("review: gh CLI not available, printing to stdout")
+        print("=== ITEMS FOR REVIEW ===")
+        print(body)
+
+
+def _clear_pending(path):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump({"updated": None, "items": []}, f)
+    print("review: cleared pending.json")
+
+
+if __name__ == "__main__":
+    path = sys.argv[1] if len(sys.argv) > 1 else "data/pending.json"
+    main(path)
