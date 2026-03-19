@@ -2233,7 +2233,7 @@
         {
             "id": "media-2026-03-11-wsj-autism-aba-medicaid",
             "date": "2026-03-11",
-            "agency": "HHS-OIG",
+            "agency": "Media",
             "type": "Investigative Report",
             "title": "WSJ Investigation: Autism ABA Therapy Billing Is Medicaid's Fastest-Growing Abuse Area",
             "description": "Wall Street Journal analysis of Medicaid billing records reveals ABA autism therapy payments surged from $660M to $2.2B between 2019-2023, with some providers billing up to $800/hr for services delivered by workers earning under $20/hr. Indiana was the epicenter, where one company (Piece by Piece) received $29M for just 84 patients. HHS-OIG audits found billing errors in every case sampled across four states. The investigation connects to ongoing Minnesota Medicaid fraud prosecutions.",
@@ -2306,7 +2306,7 @@
         {
             "id": "media-2026-02-26-propublica-arizona-indigenous-fraud",
             "date": "2026-02-26",
-            "agency": "HHS",
+            "agency": "Media",
             "type": "Investigative Report",
             "title": "ProPublica/AZCIR: Medicaid Fraud Targeting Indigenous Communities Continues Despite Arizona Reforms",
             "description": "ProPublica and Arizona Center for Investigative Reporting find that nearly three years after Arizona uncovered a $2.5B Medicaid fraud scheme targeting Native Americans, sober living operators are still recruiting vulnerable Indigenous residents into sham behavioral health treatment programs. State has recovered only $125M (5%) of stolen funds. At least 40 Indigenous residents died in fraudulent treatment facilities. Officials in at least five instances across both parties failed to act on evidence of fraud. Described by HHS as the largest fraud scheme targeting a single demographic group in recent U.S. history.",
@@ -3766,7 +3766,7 @@
             "type": "Investigative Report",
             "amount": "$2.5 billion (fraud scheme)",
             "description": "After 18 months of investigation, ProPublica and the Arizona Center for Investigative Reporting found that dozens of Native Americans dealing with addiction died as Arizona's Medicaid agency (AHCCCS) struggled to respond to a massive $2.5B fraud scheme involving sham sober living homes and treatment facilities. The fraud evolved from 2019-2023 while the state agency failed to act. Patients were enrolled in fraudulent treatment programs, many receiving no actual care.",
-            "agency": "CMS",
+            "agency": "Media",
             "social_posts": [],
             "tags": [
                 "Medicaid",
