@@ -6131,6 +6131,30 @@
             "source_type": "news",
             "auto_fetched": false,
             "related_agency": "CMS"
+        },
+        {
+            "id": "media-2025-nick-shirley-mn-daycare-fraud",
+            "date": "2025-10-01",
+            "agency": "Media",
+            "type": "Investigative Report",
+            "title": "Independent Investigation: Nick Shirley Exposes Minnesota Daycare Fraud with On-the-Ground Visits to Medicaid-Funded Facilities",
+            "description": "Independent journalist Nick Shirley visited dozens of Minnesota daycare facilities billing Medicaid, documenting empty buildings and facilities with no evidence of children being served despite receiving taxpayer funds. The viral investigation helped draw national attention to Minnesota's Medicaid fraud scandal. Some findings were disputed by state officials who said certain centers were operating normally.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://x.com/nickshirley_/status/minnesota-daycare-fraud",
+            "link_label": "Nick Shirley Investigation",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Organized Crime",
+                "Improper Payments"
+            ],
+            "entities": [],
+            "state": "MN",
+            "source_type": "news",
+            "auto_fetched": false,
+            "related_agency": "DOJ"
         }
     ]
 }
