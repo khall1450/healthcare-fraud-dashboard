@@ -1991,7 +1991,8 @@
             "auto_fetched": false,
             "entities": [
                 "Walgreens"
-            ]
+            ],
+            "related_agency": "DEA"
         },
         {
             "id": "doj-2025-04-29-gilead-sciences-hiv-kickbacks",
