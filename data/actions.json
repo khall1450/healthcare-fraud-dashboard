@@ -4813,7 +4813,6 @@
             "entities": [],
             "state": null,
             "source_type": "official",
-            "related_agency": null,
             "auto_fetched": true
         },
         {
@@ -4850,12 +4849,8 @@
                 "Program Integrity"
             ],
             "entities": [],
-            "state": [
-                "WI",
-                "CA"
-            ],
+            "state": "WI",
             "source_type": "news",
-            "related_agency": null,
             "auto_fetched": true
         }
     ]
