@@ -644,7 +644,7 @@ function applyFilters() {
   let filtered = allActions.filter(a => {
     if (agency !== 'all' && a.agency !== agency && a.related_agency !== agency) return false;
     if (type   !== 'all' && a.type   !== type)   return false;
-    if (state  !== 'all' && a.state  !== state)  return false;
+    if (state  !== 'all' && !actionMentionsState(a, state))  return false;
     if (dateFrom && a.date < dateFrom) return false;
     if (dateTo   && a.date > dateTo)   return false;
     if (activeTag) {
