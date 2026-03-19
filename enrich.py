@@ -67,64 +67,81 @@ Scope: National Takedown, Strike Force, Multi-State, CRUSH, Program Integrity, I
 Government: Congressional, Executive Order, Legislation, Whistleblower, Task Force, DOGE
 Other: AI, COVID-19, Foreign Nationals, Native American, Cybersecurity, Immigration, Digital Health, 340B Program"""
 
+    # Cap batch size to avoid GitHub Actions timeout
+    MAX_BATCH = 30
+    if len(to_enrich) > MAX_BATCH:
+        print(f"enrich: capping to {MAX_BATCH} items (of {len(to_enrich)})")
+        to_enrich = to_enrich[:MAX_BATCH]
+
     enriched_count = 0
     removed_ids = set()
+    import time
 
     for action in to_enrich:
         title = action.get("title", "")
         desc = action.get("description", "")
         agency = action.get("agency", "")
         link = action.get("link", "")
+        is_official = action.get("source_type") == "official"
 
         user_msg = f"Title: {title}\nDescription: {desc}\nSource agency: {agency}\nLink: {link}"
 
-        try:
-            response = client.messages.create(
-                model="claude-haiku-4-5-20251001",
-                max_tokens=500,
-                system=SYSTEM_PROMPT,
-                messages=[{"role": "user", "content": user_msg}]
-            )
+        for attempt in range(3):
+            try:
+                response = client.messages.create(
+                    model="claude-haiku-4-5-20251001",
+                    max_tokens=500,
+                    system=SYSTEM_PROMPT,
+                    messages=[{"role": "user", "content": user_msg}]
+                )
 
-            result_text = response.content[0].text.strip()
-            # Handle possible markdown fencing
-            if result_text.startswith("```"):
-                result_text = result_text.split("\n", 1)[1]
-                if result_text.endswith("```"):
-                    result_text = result_text[:-3]
-                result_text = result_text.strip()
+                result_text = response.content[0].text.strip()
+                # Handle possible markdown fencing
+                if result_text.startswith("```"):
+                    result_text = result_text.split("\n", 1)[1]
+                    if result_text.endswith("```"):
+                        result_text = result_text[:-3]
+                    result_text = result_text.strip()
 
-            result = json.loads(result_text)
+                result = json.loads(result_text)
 
-            if not result.get("relevant", True):
-                removed_ids.add(action["id"])
-                print(f"  REMOVED (irrelevant): {action['id']}")
-                continue
+                if not result.get("relevant", True):
+                    removed_ids.add(action["id"])
+                    print(f"  REMOVED (irrelevant): {action['id']}")
+                    break
 
-            # Apply enrichment - only overwrite empty/default fields
-            action["type"] = result.get("type", action.get("type", "Administrative Action"))
-            if not action.get("description") or len(action.get("description", "")) < 20:
-                action["description"] = result.get("description", action.get("description", ""))
-            action["tags"] = result.get("tags", [])
-            action["entities"] = result.get("entities", [])
-            action["officials"] = result.get("officials", [])
-            if result.get("state"):
-                action["state"] = result["state"]
-            if result.get("amount"):
-                action["amount"] = result["amount"]
-            if result.get("amount_numeric"):
-                action["amount_numeric"] = result["amount_numeric"]
-            if result.get("agency"):
-                action["agency"] = result["agency"]
-            if result.get("related_agency"):
-                action["related_agency"] = result["related_agency"]
+                # Apply enrichment
+                action["type"] = result.get("type", action.get("type", "Administrative Action"))
+                if not action.get("description") or len(action.get("description", "")) < 20:
+                    action["description"] = result.get("description", action.get("description", ""))
+                action["tags"] = result.get("tags", [])
+                action["entities"] = result.get("entities", [])
+                action["officials"] = result.get("officials", [])
+                if result.get("state"):
+                    action["state"] = result["state"]
+                if result.get("amount"):
+                    action["amount"] = result["amount"]
+                if result.get("amount_numeric"):
+                    action["amount_numeric"] = result["amount_numeric"]
+                # Only override agency for non-official items (media/news)
+                # Official feed items keep their feed-assigned agency
+                if not is_official and result.get("agency"):
+                    action["agency"] = result["agency"]
+                if result.get("related_agency"):
+                    action["related_agency"] = result["related_agency"]
 
-            enriched_count += 1
-            print(f"  OK: {action['id']} -> {action['type']}, {len(action['tags'])} tags")
+                enriched_count += 1
+                print(f"  OK: {action['id']} -> {action['type']}, {len(action['tags'])} tags")
+                break
 
-        except Exception as e:
-            print(f"  ERROR on {action['id']}: {e}")
-            continue
+            except Exception as e:
+                if "rate" in str(e).lower() or "429" in str(e):
+                    wait = 5 * (attempt + 1)
+                    print(f"  RATE LIMITED on {action['id']}, waiting {wait}s...")
+                    time.sleep(wait)
+                else:
+                    print(f"  ERROR on {action['id']}: {e}")
+                    break
 
     # Remove irrelevant items
     if removed_ids:

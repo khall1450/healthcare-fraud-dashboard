@@ -75,7 +75,7 @@ function Get-ActionType {
 
 function Get-StateName {
     param([string]$Text)
-    $stateMap = @{ 'California'='CA';'Florida'='FL';'Minnesota'='MN';'New York'='NY';'Kentucky'='KY';'Maine'='ME';'Arizona'='AZ';'Texas'='TX';'Ohio'='OH';'Wisconsin'='WI';'Indiana'='IN';'Michigan'='MI';'Georgia'='GA';'Illinois'='IL';'Louisiana'='LA';'Pennsylvania'='PA';'Tennessee'='TN';'Nevada'='NV';'Colorado'='CO';'Washington'='WA';'Oregon'='OR' }
+    $stateMap = @{ 'Alabama'='AL';'Alaska'='AK';'Arizona'='AZ';'Arkansas'='AR';'California'='CA';'Colorado'='CO';'Connecticut'='CT';'Delaware'='DE';'Florida'='FL';'Georgia'='GA';'Hawaii'='HI';'Idaho'='ID';'Illinois'='IL';'Indiana'='IN';'Iowa'='IA';'Kansas'='KS';'Kentucky'='KY';'Louisiana'='LA';'Maine'='ME';'Maryland'='MD';'Massachusetts'='MA';'Michigan'='MI';'Minnesota'='MN';'Mississippi'='MS';'Missouri'='MO';'Montana'='MT';'Nebraska'='NE';'Nevada'='NV';'New Hampshire'='NH';'New Jersey'='NJ';'New Mexico'='NM';'New York'='NY';'North Carolina'='NC';'North Dakota'='ND';'Ohio'='OH';'Oklahoma'='OK';'Oregon'='OR';'Pennsylvania'='PA';'Rhode Island'='RI';'South Carolina'='SC';'South Dakota'='SD';'Tennessee'='TN';'Texas'='TX';'Utah'='UT';'Vermont'='VT';'Virginia'='VA';'Washington'='WA';'West Virginia'='WV';'Wisconsin'='WI';'Wyoming'='WY' }
     foreach ($state in $stateMap.Keys) { if ($Text -match "\b$state\b") { return $stateMap[$state] } }
     return $null
 }

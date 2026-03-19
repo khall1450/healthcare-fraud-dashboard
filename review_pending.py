@@ -31,12 +31,20 @@ def main(pending_path="data/pending.json"):
         data = json.load(f)
     existing_links = {a.get("link", "") for a in data["actions"]}
 
-    # Dedupe pending against existing
-    items = [i for i in items if i.get("link", "") not in existing_links]
+    # Dedupe pending against existing and drop items older than 14 days
+    from datetime import datetime, timedelta
+    cutoff = (datetime.now() - timedelta(days=14)).strftime("%Y-%m-%d")
+    items = [i for i in items if i.get("link", "") not in existing_links and i.get("date", "9999") >= cutoff]
     if not items:
         print("review: all pending items already in dashboard")
         _clear_pending(pending_path)
         return
+
+    # Cap to avoid timeout
+    MAX_REVIEW = 25
+    if len(items) > MAX_REVIEW:
+        print(f"review: capping to {MAX_REVIEW} items (of {len(items)})")
+        items = items[:MAX_REVIEW]
 
     # If no API key, just list items without enrichment
     if not api_key:
