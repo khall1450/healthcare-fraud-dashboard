@@ -2257,7 +2257,7 @@
         {
             "id": "media-2026-03-10-cbs-la-hospice-fraud",
             "date": "2026-03-10",
-            "agency": "CMS",
+            "agency": "Media",
             "type": "Investigative Report",
             "title": "CBS News Investigation: Hundreds of LA Hospices Show Multiple Fraud Indicators Despite 2023 Crackdown",
             "description": "CBS News analysis of records for all 1,800 hospices in Los Angeles County finds over 700 trigger multiple state-defined fraud red flags. Auditors estimated LA hospices overbilled Medicare by $105M in a single year. One building houses 89 registered hospices; one medical director is listed at 45 different hospices simultaneously. Despite California revoking 280 hospice licenses and charging over 100 people since 2023, indicators of fraud are growing. Stolen Medicare numbers are used to enroll healthy seniors in hospice with fake terminal diagnoses, billing Medicare an average of $29,000 per patient.",
@@ -2331,7 +2331,7 @@
         {
             "id": "media-2026-02-20-wsmv-russian-tennessee-medicare",
             "date": "2026-02-20",
-            "agency": "DOJ",
+            "agency": "Media",
             "type": "Investigation",
             "title": "WSMV4 Investigation: Russian-Connected Medicare Billing Scheme Targeting Tennessee Seniors",
             "description": "WSMV4 investigation reveals Medicare is being billed tens of thousands of dollars for Tennessee recipients who never needed or received medical equipment, connected to Russian citizen Nika Machutadze facing federal charges in a $3B+ nationwide Medicare fraud scheme. Machutadze's company Centurion began submitting large batches of fraudulent claims in late September 2025 for urinary catheters. A data breach at a healthcare billing service may have provided the stolen Medicare numbers used to bill phantom services across multiple states.",
@@ -3072,7 +3072,7 @@
         {
             "id": "media-2025-09-25-propublica-npi-loophole-fraud",
             "date": "2025-09-25",
-            "agency": "DOJ",
+            "agency": "Media",
             "type": "Investigative Report",
             "title": "ProPublica: Health Insurance Hustle — NPI Loophole Makes Healthcare Fraud Absurdly Easy",
             "description": "ProPublica's investigation revealed how easy it is to commit healthcare fraud using the National Provider Identifier system. A Texas personal trainer and convicted felon posed as a licensed physician, obtained at least 20 NPI numbers, and billed Aetna, Cigna, and UnitedHealthcare for millions in bogus services. The reporting directly led to bipartisan legislation: the Medical License Verification Act (Sens. Cornyn and Cortez Masto) requiring Medicare to verify license validity before approving NPI numbers.",
@@ -3101,7 +3101,7 @@
         {
             "id": "media-2025-10-15-kare11-mn-housing-hustle-series",
             "date": "2025-10-15",
-            "agency": "DOJ",
+            "agency": "Media",
             "type": "Investigative Report",
             "title": "KARE 11 Investigates: Housing Hustle — Massive Organized Fraud in Minnesota Medicaid Housing and Disability Programs",
             "description": "KARE 11's sustained 'Housing Hustle' investigation series exposed massive organized fraud in Minnesota's Housing Stabilization Services and other Medicaid programs. Key findings: forged documents, falsified service notes, billing for deceased clients, criminal networks of fly-by-night companies, and out-of-state 'fraud tourists' (two Philadelphia men obtained $3.5M remotely). DHS ignored repeated warnings. Series led to federal charges against 8+ defendants and a third-party Optum audit finding $52.3M in direct recoveries.",
@@ -3127,7 +3127,7 @@
         {
             "id": "media-2025-10-31-ca-ag-cvs-medi-cal-settlement",
             "date": "2025-10-31",
-            "agency": "DOJ",
+            "agency": "State Agency",
             "type": "Civil Action",
             "title": "CA AG and DOJ Secure $18.2 Million Settlement with CVS Over False Medi-Cal Prescription Certifications",
             "description": "CVS Pharmacy agreed to pay $18.2 million to settle allegations that from 2010-2021 it used false electronic certifications to claim patient compliance with Medi-Cal requirements for prescription drug reimbursement without actually verifying or documenting compliance. Case brought by whistleblower former CVS pharmacist under the False Claims Act.",
@@ -3619,7 +3619,7 @@
             "type": "Investigative Report",
             "amount": "$600 million (fraudulent billing)",
             "description": "Dr. Gilbert Faustina's Medicare provider number was used by multiple home healthcare agencies in Los Angeles to bill nearly $600 million to Medicare from 2021-2024, including $260 million in 2024 alone. Federal records show 76,000 claims for 29,527 patients, yet Faustina says he saw only 10-15 patients weekly and received ,000/month. Agencies operated as shell companies from shared addresses, staying under the radar. Faustina denies knowledge of the fraud.",
-            "agency": "DOJ",
+            "agency": "Media",
             "social_posts": [],
             "tags": [
                 "Medicare",
@@ -3643,7 +3643,7 @@
             "type": "Investigative Report",
             "amount": "$14.6 billion (total intended losses)",
             "description": "Legal analysis of the 2025 National Health Care Fraud Takedown highlights unprecedented elements: five defendants used AI to create fake audio recordings of Medicare beneficiaries consenting to products never ordered. 29 defendants in transnational criminal orgs submitted over $12B in fraudulent claims. Operation Gold Rush alone involved $10.6B in fraud using stolen identities of 1 million+ Americans. $245M in assets seized.",
-            "agency": "DOJ",
+            "agency": "Media",
             "social_posts": [],
             "tags": [
                 "Medicare",
@@ -3668,7 +3668,7 @@
             "type": "Investigation",
             "amount": "$84 billion/year (estimated MA overpayments); $8.7 billion (2021 UHG excess)",
             "description": "CNBC reports UnitedHealth Group is under both civil and criminal DOJ investigation over its Medicare Advantage billing practices. The probe focuses on whether UHG systematically upcoded patient diagnoses to inflate risk-adjustment payments. In 2021 alone, upcoding practices allegedly generated $8.7B in excess federal payments to UnitedHealthcare. CMS estimates MA overpayments total $84 billion annually.",
-            "agency": "DOJ",
+            "agency": "Media",
             "social_posts": [],
             "tags": [
                 "Medicare Advantage",
@@ -3976,33 +3976,6 @@
             "related_agency": "CMS"
         },
         {
-            "id": "media-2026-03-17-2094579834",
-            "date": "2026-03-17",
-            "agency": "DOJ",
-            "type": "Investigative Report",
-            "title": "Dr. Oz Calls Medicare Fraud an Epidemic. Trump Keeps Pardoning the Culprits. - Mother Jones",
-            "description": "CMS Administrator Dr. Oz publicly characterized Medicare fraud as an epidemic, while the Trump administration simultaneously granted pardons or clemency to individuals previously convicted of healthcare fraud schemes.",
-            "amount": null,
-            "amount_numeric": 0,
-            "officials": [
-                "President Trump",
-                "Dr. Mehmet Oz"
-            ],
-            "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMkJxNHdmWS1sOW43d0cxWTdWTm95SEVuNy0wTTJvVkF0RElhU1RhMFp5MnhYaW9zdV9QNmJBRFRQb3hSOVJLS0Y2ZUp0dlRldXo3OHlFVktFZGNiY2RZMmlTSVFHa3IwZHljd2lzUGEtYldXTGJ4M2JFQWprQkg5bWF2NzFDdU9iWGZNYmZIQlBjMlByME5aMUV3?oc=5",
-            "link_label": "Mother Jones",
-            "social_posts": [],
-            "tags": [
-                "Medicare",
-                "Program Integrity",
-                "False Claims"
-            ],
-            "entities": [],
-            "state": null,
-            "source_type": "news",
-            "auto_fetched": true,
-            "related_agency": "DOJ"
-        },
-        {
             "id": "media-2026-03-17-380196477",
             "date": "2026-03-17",
             "agency": "State Agency",
@@ -4215,7 +4188,7 @@
         {
             "id": "media-2026-03-16-1106343144",
             "date": "2026-03-16",
-            "agency": "DOJ",
+            "agency": "State Agency",
             "type": "Investigation",
             "title": "KPR: How Kentucky’s Addiction Recovery Care is being investigated for possible Medicaid fraud - The Lexington Times",
             "description": "Kentucky's Addiction Recovery Care, a major substance abuse treatment provider, is under investigation for possible Medicaid fraud involving billing for addiction treatment services.",
@@ -4572,7 +4545,7 @@
         {
             "id": "media-2025-08-06-1035609990",
             "date": "2025-08-06",
-            "agency": "DOJ",
+            "agency": "Media",
             "type": "Investigative Report",
             "title": "Mapping a healthcare fraud takedown: Lessons in coordination and the power of data - Thomson Reuters",
             "description": "Thomson Reuters analyzed the coordination and data-sharing strategies behind a major federal healthcare fraud takedown, highlighting how cross-agency collaboration and analytics enabled the large-scale enforcement action.",
@@ -4699,7 +4672,7 @@
         {
             "id": "media-2025-06-03-200331819",
             "date": "2025-06-03",
-            "agency": "DOJ",
+            "agency": "White House",
             "type": "Administrative Action",
             "title": "Trump Grants Clemency to Executive Who Orchestrated $205M Medicare Fraud Scheme - Truthout",
             "description": "President Trump granted clemency to an executive who orchestrated a $205 million Medicare fraud scheme, drawing criticism from fraud enforcement advocates and whistleblower groups.",
