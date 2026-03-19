@@ -36,13 +36,13 @@ $Feeds = @(
     @{ Name = 'H-E&C';      Agency = 'Congress'; Url = 'https://energycommerce.house.gov/feed/';             Enabled = $true; SourceType = 'official' },
     @{ Name = 'S-Finance';   Agency = 'Congress'; Url = 'https://www.finance.senate.gov/rss/feeds/?type=press'; Enabled = $true; SourceType = 'official' },
     @{ Name = 'S-HELP';      Agency = 'Congress'; Url = 'https://www.help.senate.gov/rss/feeds/?type=press';   Enabled = $true; SourceType = 'official' },
-    # --- Media / investigative feeds ---
-    @{ Name = 'Hospice News';       Agency = 'Media'; Url = 'https://hospicenews.com/feed/';                          Enabled = $true; SourceType = 'news' },
-    @{ Name = 'Home Health Care News'; Agency = 'Media'; Url = 'https://homehealthcarenews.com/feed/';                Enabled = $true; SourceType = 'news' },
-    @{ Name = 'KFF Health News';    Agency = 'Media'; Url = 'https://kffhealthnews.org/feed/';                        Enabled = $true; SourceType = 'news' },
-    @{ Name = 'Fierce Healthcare';  Agency = 'Media'; Url = 'https://www.fiercehealthcare.com/rss/xml';               Enabled = $true; SourceType = 'news' },
-    @{ Name = 'ProPublica';         Agency = 'Media'; Url = 'https://www.propublica.org/feeds/propublica/main';        Enabled = $true; SourceType = 'news' },
-    @{ Name = 'Google News';        Agency = 'Media'; Url = 'https://news.google.com/rss/search?q=%22healthcare+fraud%22+OR+%22medicare+fraud%22+OR+%22medicaid+fraud%22&hl=en-US&gl=US&ceid=US:en'; Enabled = $true; SourceType = 'news' }
+    # --- Media / investigative feeds (disabled — too noisy, media items added manually) ---
+    @{ Name = 'Hospice News';       Agency = 'Media'; Url = 'https://hospicenews.com/feed/';                          Enabled = $false; SourceType = 'news' },
+    @{ Name = 'Home Health Care News'; Agency = 'Media'; Url = 'https://homehealthcarenews.com/feed/';                Enabled = $false; SourceType = 'news' },
+    @{ Name = 'KFF Health News';    Agency = 'Media'; Url = 'https://kffhealthnews.org/feed/';                        Enabled = $false; SourceType = 'news' },
+    @{ Name = 'Fierce Healthcare';  Agency = 'Media'; Url = 'https://www.fiercehealthcare.com/rss/xml';               Enabled = $false; SourceType = 'news' },
+    @{ Name = 'ProPublica';         Agency = 'Media'; Url = 'https://www.propublica.org/feeds/propublica/main';        Enabled = $false; SourceType = 'news' },
+    @{ Name = 'Google News';        Agency = 'Media'; Url = 'https://news.google.com/rss/search?q=%22healthcare+fraud%22+OR+%22medicare+fraud%22+OR+%22medicaid+fraud%22&hl=en-US&gl=US&ceid=US:en'; Enabled = $false; SourceType = 'news' }
 )
 
 function Write-Log { param([string]$Msg, [string]$Color = 'White'); if (-not $Silent) { Write-Host "  $Msg" -ForegroundColor $Color } }
