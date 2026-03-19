@@ -44,7 +44,11 @@ $Feeds = @(
     @{ Name = 'KFF Health News';    Agency = 'Media'; Url = 'https://kffhealthnews.org/feed/';                        Enabled = $true; SourceType = 'news' },
     @{ Name = 'Fierce Healthcare';  Agency = 'Media'; Url = 'https://www.fiercehealthcare.com/rss/xml';               Enabled = $true; SourceType = 'news' },
     @{ Name = 'ProPublica';         Agency = 'Media'; Url = 'https://www.propublica.org/feeds/propublica/main';        Enabled = $true; SourceType = 'news' },
-    @{ Name = 'Google News';        Agency = 'Media'; Url = 'https://news.google.com/rss/search?q=%22healthcare+fraud%22+OR+%22medicare+fraud%22+OR+%22medicaid+fraud%22&hl=en-US&gl=US&ceid=US:en'; Enabled = $true; SourceType = 'news' }
+    @{ Name = 'Google News';        Agency = 'Media'; Url = 'https://news.google.com/rss/search?q=%22healthcare+fraud%22+OR+%22medicare+fraud%22+OR+%22medicaid+fraud%22&hl=en-US&gl=US&ceid=US:en'; Enabled = $true; SourceType = 'news' },
+    # --- Google News: state AG / MFCU fraud coverage ---
+    @{ Name = 'GN-AG-Medicaid';    Agency = 'Media'; Url = 'https://news.google.com/rss/search?q=%22attorney+general%22+%22medicaid+fraud%22&hl=en-US&gl=US&ceid=US:en'; Enabled = $true; SourceType = 'news' },
+    @{ Name = 'GN-MFCU';           Agency = 'Media'; Url = 'https://news.google.com/rss/search?q=%22medicaid+fraud+control+unit%22+OR+%22MFCU%22+fraud&hl=en-US&gl=US&ceid=US:en'; Enabled = $true; SourceType = 'news' },
+    @{ Name = 'GN-AG-Settlement';  Agency = 'Media'; Url = 'https://news.google.com/rss/search?q=%22attorney+general%22+%22healthcare+fraud%22+settlement&hl=en-US&gl=US&ceid=US:en'; Enabled = $true; SourceType = 'news' }
 )
 
 function Write-Log { param([string]$Msg, [string]$Color = 'White'); if (-not $Silent) { Write-Host "  $Msg" -ForegroundColor $Color } }
