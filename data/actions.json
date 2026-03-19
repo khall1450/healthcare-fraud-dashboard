@@ -5897,6 +5897,109 @@
             "state": null,
             "source_type": "official",
             "auto_fetched": false
+        },
+        {
+            "id": "media-2025-06-05-bloomberg-south-florida-aca-deepfakes",
+            "date": "2025-06-05",
+            "agency": "Media",
+            "type": "Investigative Report",
+            "title": "Bloomberg Investigation: How Celebrity Deepfakes Supercharged South Florida ACA Enrollment Fraud",
+            "description": "Bloomberg Businessweek investigation revealed how Bain Capital staked Matt Herman $75 million to create Enhance Health, one of the most prolific ACA brokers with over 1 million signups in 2023. Deepfake ads featuring AI-faked Taylor Swift, Joe Rogan, and Steve Harvey drove viewers to South Florida call centers that enrolled people in subsidized health plans without their knowledge or consent, generating over 275,000 complaints to CMS.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.bloomberg.com/features/2025-deepfake-ads-fueled-florida-health-insurance-scheme/",
+            "link_label": "Bloomberg Businessweek",
+            "social_posts": [],
+            "tags": [
+                "ACA",
+                "Identity Theft",
+                "Organized Crime",
+                "False Claims"
+            ],
+            "entities": [
+                "Enhance Health",
+                "Bain Capital"
+            ],
+            "state": "FL",
+            "source_type": "news",
+            "auto_fetched": false,
+            "related_agency": "CMS"
+        },
+        {
+            "id": "media-2025-02-21-wsj-unitedhealth-criminal-probe",
+            "date": "2025-02-21",
+            "agency": "Media",
+            "type": "Investigative Report",
+            "title": "WSJ Investigation: DOJ Conducting Criminal Probe of UnitedHealth Medicare Advantage Billing",
+            "description": "Wall Street Journal reported that DOJ is conducting a criminal investigation into UnitedHealth Group for Medicare fraud, specifically the use of in-home health risk assessments and chart reviews to assign obscure revenue-generating diagnoses. Extra payments from these practices totaled $8.7 billion in 2021 alone.",
+            "amount": "$8.7B",
+            "amount_numeric": 8700000000,
+            "officials": [],
+            "link": "https://www.fiercehealthcare.com/payers/wsj-feds-investigating-unitedhealth-criminal-medicare-fraud",
+            "link_label": "WSJ / Fierce Healthcare",
+            "social_posts": [],
+            "tags": [
+                "Medicare Advantage",
+                "Risk Adjustment",
+                "False Claims"
+            ],
+            "entities": [
+                "UnitedHealth"
+            ],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": false,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "media-2026-03-cbs-89-hospices-one-building",
+            "date": "2026-03-10",
+            "agency": "Media",
+            "type": "Investigative Report",
+            "title": "CBS Investigation: State Records Show 89 Hospice Companies at One Los Angeles Office Plaza",
+            "description": "CBS News reporters physically visited an LA office building where state records listed 89 hospice companies, documenting the on-the-ground reality of potential shell hospice operations. LA County's hospice density is 6.5 times the national average.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.cbsnews.com/news/hospice-fraud-investigation-los-angeles-office-plaza/",
+            "link_label": "CBS News Investigation",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Hospice Fraud",
+                "Organized Crime"
+            ],
+            "entities": [],
+            "state": "CA",
+            "source_type": "news",
+            "auto_fetched": false,
+            "related_agency": "CMS"
+        },
+        {
+            "id": "media-2025-12-10-kff-aca-enrollment-fraud-persists",
+            "date": "2025-12-10",
+            "agency": "Media",
+            "type": "Investigative Report",
+            "title": "KFF Health News: Plan-Switching, Sign-Up Impersonations — ACA Enrollment Fraud Persists Despite CMS Rule Changes",
+            "description": "KFF Health News investigation documented how ACA enrollment fraud persists despite CMS reforms: agents impersonating consumers, faking voices, and accessing/changing client records without authorization. Over 275,000 complaints to CMS in 2024 about unauthorized enrollments and plan-switching.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://kffhealthnews.org/news/article/obamacare-aca-fraud-gao-enrollment-marketplace-brokers/",
+            "link_label": "KFF Health News",
+            "social_posts": [],
+            "tags": [
+                "ACA",
+                "Identity Theft",
+                "False Claims",
+                "Program Integrity"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": false,
+            "related_agency": "CMS"
         }
     ]
 }
