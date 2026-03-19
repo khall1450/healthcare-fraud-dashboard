@@ -4817,29 +4817,6 @@
             "state": "WI",
             "source_type": "official",
             "auto_fetched": true
-        },
-        {
-            "id": "media-2026-03-19-1095694483",
-            "date": "2026-03-19",
-            "agency": "Media",
-            "type": "Investigative Report",
-            "title": "Oz Says California’s Not Fighting Health Care Fraud, but Data Shows It’s Part of a Larger Battle",
-            "description": "KFF Health News examines CMS Administrator Mehmet Oz's claims that California is not adequately fighting health care fraud, particularly in hospice and Medicaid. The report provides data showing fraud enforcement challenges are nationwide, not limited to one state.",
-            "amount": null,
-            "amount_numeric": 0,
-            "officials": [],
-            "link": "https://kffhealthnews.org/news/article/hospice-fraud-medicaid-mehmet-oz-cms-california/",
-            "link_label": "KFF Health News Report",
-            "social_posts": [],
-            "tags": [
-                "Medicaid",
-                "Hospice Fraud",
-                "Program Integrity"
-            ],
-            "entities": [],
-            "state": "CA",
-            "source_type": "news",
-            "auto_fetched": true
         }
     ]
 }
