@@ -47,7 +47,7 @@ Return ONLY valid JSON, no markdown fencing, no explanation:
 {
   "relevant": true/false,
   "type": one of: "Criminal Enforcement", "Civil Action", "Audit", "Investigation", "Investigative Report", "Congressional Hearing", "Legislation", "Executive Order", "Rule/Regulation", "Administrative Action", "Structural/Organizational", "Technology/Innovation",
-  "description": "A clear 1-3 sentence summary of what happened, who was involved, and the dollar amounts if any. Write factually, no editorializing.",
+  "description": "A detailed 3-5 sentence summary. Include: what happened, who was charged or involved (names and roles), the specific fraud scheme or conduct, dollar amounts, which program was defrauded (Medicare/Medicaid/etc.), and the outcome or current status (indicted, sentenced, settled, etc.). Write factually, no editorializing.",
   "state": "Two-letter state abbreviation if specific to one state, null if national/multi-state",
   "amount": "Dollar amount as string like '$52M' or '$14.6B' or null if none",
   "amount_numeric": numeric value in dollars (e.g. 52000000) or 0,
@@ -90,7 +90,7 @@ Other: AI, COVID-19, Foreign Nationals, Native American, Cybersecurity, Immigrat
             try:
                 response = client.messages.create(
                     model="claude-haiku-4-5-20251001",
-                    max_tokens=500,
+                    max_tokens=800,
                     system=SYSTEM_PROMPT,
                     messages=[{"role": "user", "content": user_msg}]
                 )
@@ -112,8 +112,11 @@ Other: AI, COVID-19, Foreign Nationals, Native American, Cybersecurity, Immigrat
 
                 # Apply enrichment
                 action["type"] = result.get("type", action.get("type", "Administrative Action"))
-                if not action.get("description") or len(action.get("description", "")) < 20:
-                    action["description"] = result.get("description", action.get("description", ""))
+                # Always prefer the enriched description if it's longer/more detailed
+                enriched_desc = result.get("description", "")
+                existing_desc = action.get("description", "")
+                if enriched_desc and len(enriched_desc) > len(existing_desc):
+                    action["description"] = enriched_desc
                 action["tags"] = result.get("tags", [])
                 action["entities"] = result.get("entities", [])
                 action["officials"] = result.get("officials", [])
