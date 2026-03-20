@@ -6662,9 +6662,9 @@
             "agency": "DOJ",
             "type": "Criminal Enforcement",
             "title": "Home Health Care Operator Admits Defrauding Missouri Medicaid",
-            "description": "Camille S. Childress pleaded guilty to one count of health care fraud.",
-            "amount": null,
-            "amount_numeric": 0,
+            "description": "Camille S. Childress, 41, of St. Louis County, pleaded guilty to one count of health care fraud for defrauding Missouri Medicaid through her home health care company, Inspiring Angels LLC. Childress concealed her ownership of the company due to a 2012 criminal conviction and submitted fraudulent claims for home healthcare services that were never provided. Missouri Medicaid paid at least $174,496 on false claims submitted in 2021 and 2022, though Childress was originally accused of defrauding the program out of more than $3 million over more than a decade. She faces up to 10 years in prison and fines up to $250,000, with sentencing scheduled for June 16, 2026.",
+            "amount": "$3M",
+            "amount_numeric": 3000000,
             "officials": [
                 "Camille S. Childress"
             ],
@@ -6676,7 +6676,9 @@
                 "Medicaid",
                 "False Claims"
             ],
-            "entities": [],
+            "entities": [
+                "Inspiring Angels LLC"
+            ],
             "state": "MO",
             "source_type": "official",
             "auto_fetched": true
