@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-03-19T18:17:54.0996828+00:00",
+        "last_updated": "2026-03-20T14:33:12.1240058+00:00",
         "version": "1.0"
     },
     "actions": [
@@ -2133,13 +2133,18 @@
             "type": "Criminal Enforcement",
             "title": "Pennsylvania Brothers Convicted of Decades Long Racketeering Conspiracy",
             "description": "Three individuals were convicted today at trial in connection with a racketeering conspiracy encompassing multiple fraud schemes, including visa fraud to employ foreign workers unlawfully, soliciting salary kickbacks from the employed workers, and health care fraud billing schemes resulting in over $32 million in losses to Pennsylvania Medicaid.",
-            "amount": "$32 million",
-            "amount_numeric": 32000000.0,
+            "amount": "$32M",
+            "amount_numeric": 32000000,
             "officials": [],
             "link": "https://www.justice.gov/opa/pr/pennsylvania-brothers-convicted-decades-long-racketeering-conspiracy",
             "link_label": "DOJ Press Release",
             "social_posts": [],
-            "tags": [],
+            "tags": [
+                "Medicaid",
+                "False Claims",
+                "Kickbacks",
+                "Organized Crime"
+            ],
             "state": "PA",
             "source_type": "official",
             "auto_fetched": true,
@@ -3708,18 +3713,22 @@
             "id": "doj-2025-06-30-1365456376",
             "date": "2025-06-30",
             "agency": "DOJ",
-            "type": "Structural/Organizational",
+            "type": "Criminal Enforcement",
             "title": "Head of the Criminal Division Matthew R. Galeotti Announces Results of Health Care Fraud Takedown",
             "description": "Thank you all for joining us today to announce the results of the largest coordinated health care fraud takedown in the history of the Department of Justice.",
             "amount": null,
             "amount_numeric": 0,
             "officials": [
-                "Matthew Galeotti"
+                "Matthew R. Galeotti"
             ],
             "link": "https://www.justice.gov/opa/speech/supervisory-official-matthew-r-galeotti-delivers-remarks-regarding-health-care-fraud",
             "link_label": "DOJ Press Release",
             "social_posts": [],
-            "tags": [],
+            "tags": [
+                "National Takedown",
+                "Medicare",
+                "Medicaid"
+            ],
             "entities": [],
             "state": null,
             "source_type": "official",
@@ -3805,16 +3814,21 @@
             "id": "doj-2026-03-18-568780114",
             "date": "2026-03-18",
             "agency": "DOJ",
-            "type": "Administrative Action",
+            "type": "Criminal Enforcement",
             "title": "Anchorage Doctor Sentenced to Prison for Multi-Million-Dollar Health Care Fraud and Tax Evasion",
             "description": "An Anchorage doctor was sentenced yesterday to six and a half years in prison and three years of supervised release for executing a $12.5 million health care fraud scheme and evading over $4 million in taxes on the profits of that 15-year scheme. Her husband and co-defendant was sentenced to three years of probation, with two years to be served in home confinement.",
-            "amount": "$12.5 million",
-            "amount_numeric": 12500000.0,
+            "amount": "$12.5M",
+            "amount_numeric": 12500000,
             "officials": [],
             "link": "https://www.justice.gov/opa/pr/anchorage-doctor-sentenced-prison-multi-million-dollar-health-care-fraud-and-tax-evasion",
             "link_label": "DOJ Press Release",
             "social_posts": [],
-            "tags": [],
+            "tags": [
+                "False Claims",
+                "Overbilling",
+                "Tax Evasion",
+                "Unnecessary Procedures"
+            ],
             "entities": [],
             "state": "AK",
             "source_type": "official",
@@ -3824,16 +3838,21 @@
             "id": "doj-2026-03-17-1293336468",
             "date": "2026-03-17",
             "agency": "DOJ",
-            "type": "Administrative Action",
+            "type": "Criminal Enforcement",
             "title": "Anchorage doctor sentenced to prison in multi-million-dollar health care, tax fraud schemes",
             "description": "ANCHORAGE, Alaska — An Anchorage doctor was sentenced today to six and a half years in prison for executing a $12.5 million health care fraud scheme and evading over $4 million in taxes on the profits of their 15-year scheme. Her husband and co-defendant was sentenced to three years’ probation, with two years to be served in home confinement for his role in the fraudulent scheme.",
-            "amount": "$12.5 million",
-            "amount_numeric": 12500000.0,
+            "amount": "$12.5M",
+            "amount_numeric": 12500000,
             "officials": [],
             "link": "https://www.justice.gov/usao-ak/pr/anchorage-doctor-sentenced-prison-multi-million-dollar-health-care-tax-fraud-schemes",
             "link_label": "DOJ Press Release",
             "social_posts": [],
-            "tags": [],
+            "tags": [
+                "Hospital Fraud",
+                "False Claims",
+                "Tax Evasion",
+                "Overbilling"
+            ],
             "entities": [],
             "state": "AK",
             "source_type": "official",
@@ -6636,6 +6655,31 @@
             "source_type": "official",
             "auto_fetched": false,
             "related_agency": "HHS-OIG"
+        },
+        {
+            "id": "doj-2026-03-20-1020750576",
+            "date": "2026-03-20",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Home Health Care Operator Admits Defrauding Missouri Medicaid",
+            "description": "Camille S. Childress pleaded guilty to one count of health care fraud.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [
+                "Camille S. Childress"
+            ],
+            "link": "https://www.justice.gov/usao-edmo/pr/home-health-care-operator-admits-defrauding-missouri-medicaid",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Home Health Fraud",
+                "Medicaid",
+                "False Claims"
+            ],
+            "entities": [],
+            "state": "MO",
+            "source_type": "official",
+            "auto_fetched": true
         }
     ]
 }
