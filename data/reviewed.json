@@ -1,71 +1,15 @@
 {
     "items": [
         {
-            "id": "media-2026-03-18-1517937002",
-            "date": "2026-03-18",
-            "agency": "Media",
-            "type": "Investigative Report",
-            "title": "California’s ‘Ground Zero’ for Hospice Fraud; Detection Methods a ‘Mystery’",
-            "description": "California is identified as a major hub for hospice fraud with unclear or inadequate detection methods. The report investigates why fraud detection systems have failed to prevent widespread hospice fraud schemes in the state.",
-            "amount": null,
-            "amount_numeric": 0,
-            "officials": [],
-            "link": "https://hospicenews.com/2026/03/18/californias-ground-zero-for-hospice-fraud-detection-methods-a-mystery/",
-            "link_label": "Hospice News Report",
-            "social_posts": [],
-            "tags": [
-                "Hospice Fraud",
-                "California",
-                "Investigative Report",
-                "Program Integrity",
-                "Multi-State"
-            ],
-            "entities": [],
-            "state": "CA",
-            "source_type": "news",
-            "auto_fetched": true
-        },
-        {
-            "id": "media-2026-03-20-1519559576",
-            "date": "2026-03-20",
-            "agency": "CMS",
-            "type": "Investigation",
-            "title": "Oz Escalates Medicaid Fraud Claims Against States After Focus on Minnesota - KFF Health News",
-            "description": "Dr. Mehmet Oz, as CMS administrator, is escalating Medicaid fraud claims and enforcement actions against states, with a particular focus on Minnesota's Medicaid program.",
-            "amount": null,
-            "amount_numeric": 0,
-            "officials": [
-                "Mehmet Oz"
-            ],
-            "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNHVfX2ZHNG5EWVNidDkzMXlHZTFSNHlyaVhGVVl3bDJoSjQ2S2dLX2R4UnNjU1k3RXNkSlB5bUp1OTlXY2dOTTFGbVpMQURoZkN1NW4wdllDZTMtM0lEYUY4NjhleWF4dEVkVEdjUEtHLVdyWThOcHd6N2FCcktMZVFCTnc2azh3dG5LS21uMXc4WW9ndjVtRk5xMHFSQUJaZ3hBTHNEdw?oc=5",
-            "link_label": "Google News Report",
-            "social_posts": [],
-            "tags": [
-                "Medicaid",
-                "Program Integrity",
-                "Improper Payments",
-                "Multi-State"
-            ],
-            "entities": [
-                "CMS",
-                "Medicaid"
-            ],
-            "state": "MN",
-            "source_type": "news",
-            "auto_fetched": true
-        },
-        {
-            "id": "media-2026-03-17-597229963",
+            "id": "media-2026-03-17-689622345",
             "date": "2026-03-17",
             "agency": "Congress",
             "type": "Congressional Hearing",
             "title": "O&I Subcommittee: Protecting Patients and Safeguarding Taxpayer Dollars: The Role of CMS in Combatting Medicare and Medicaid Fraud - House Committee on Energy and Commerce (.gov)",
-            "description": "House Committee on Energy and Commerce, Oversight and Investigations Subcommittee hearing focused on CMS's efforts to protect patients and safeguard taxpayer dollars by combatting Medicare and Medicaid fraud.",
+            "description": "House Committee on Energy and Commerce, Oversight and Investigations Subcommittee hearing examining CMS's efforts to protect patients and safeguard taxpayer dollars by combating Medicare and Medicaid fraud.",
             "amount": null,
             "amount_numeric": 0,
-            "officials": [
-                "House Committee on Energy and Commerce"
-            ],
+            "officials": [],
             "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPSTJFNm5na3F1QmRMY3pSV3ZRNVExWnJaVUY5bDJrdkhJbnVwTWZybWRaZWVkbDhFSTJFZERTWEpmTk9qakhUblVnRVZYYjRGeVdOTS0wSlN2MEpnaWRLcTJ3SDNnZ1ItdlBTRkRwX00xWVVpb2FaSTRaV1UxMVUydGdrRnZDdmFzejFhRW1hZkJKWHdlYTJ0dDVLRWR3Nnc0bzVNalRWLU55RWNaYTI3SzFIdzBsamd2Z2lhdC1ZcFlUQnktRU1PYzJOQUVCUnpzOExuYWRvd3NHNlk2ZG1IOVpud01ZblpRYVZ4ekRhaFpqeHViV1BxMkZQOEpJR3c0bWc?oc=5",
             "link_label": "Google News Report",
             "social_posts": [],
@@ -83,12 +27,40 @@
             "auto_fetched": true
         },
         {
-            "id": "media-2026-03-19-325249591",
+            "id": "media-2026-03-20-577167709",
+            "date": "2026-03-20",
+            "agency": "HHS",
+            "type": "Investigation",
+            "title": "Oz Escalates Medicaid Fraud Claims Against States After Focus on Minnesota - KFF Health News",
+            "description": "HHS Secretary Oz escalates fraud claims against states regarding Medicaid administration, with specific focus on Minnesota's Medicaid operations and potential improper payments or program integrity violations.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [
+                "Oz"
+            ],
+            "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNHVfX2ZHNG5EWVNidDkzMXlHZTFSNHlyaVhGVVl3bDJoSjQ2S2dLX2R4UnNjU1k3RXNkSlB5bUp1OTlXY2dOTTFGbVpMQURoZkN1NW4wdllDZTMtM0lEYUY4NjhleWF4dEVkVEdjUEtHLVdyWThOcHd6N2FCcktMZVFCTnc2azh3dG5LS21uMXc4WW9ndjVtRk5xMHFSQUJaZ3hBTHNEdw?oc=5",
+            "link_label": "Google News Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Improper Payments",
+                "Program Integrity",
+                "Multi-State"
+            ],
+            "entities": [
+                "HHS/CMS"
+            ],
+            "state": "MN",
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-03-19-2100352912",
             "date": "2026-03-19",
             "agency": "CMS",
             "type": "Administrative Action",
             "title": "CMS seeks to expand tech-driven fight against Medicaid fraud - Nextgov/FCW",
-            "description": "CMS is seeking to expand its use of technology-driven approaches to detect and prevent Medicaid fraud, representing an effort to enhance program integrity through advanced enforcement tools and analytics.",
+            "description": "CMS is expanding its use of technology and data analytics to detect and combat Medicaid fraud. This represents an agency initiative to strengthen program integrity and fraud prevention efforts across the Medicaid program.",
             "amount": null,
             "amount_numeric": 0,
             "officials": [],
@@ -99,6 +71,7 @@
                 "Medicaid",
                 "Program Integrity",
                 "AI",
+                "Fraud Prevention",
                 "Administrative Action"
             ],
             "entities": [
@@ -109,60 +82,35 @@
             "auto_fetched": true
         },
         {
-            "id": "media-2026-03-18-196905262",
-            "date": "2026-03-18",
-            "agency": "White House",
-            "type": "Administrative Action",
-            "title": "Trump Administration Widens Medicaid Fraud Crackdown to Florida - MedPage Today",
-            "description": "The Trump Administration is expanding its Medicaid fraud crackdown efforts to Florida, representing a widened enforcement initiative targeting Medicaid fraud schemes in the state.",
-            "amount": null,
-            "amount_numeric": 0,
+            "id": "media-2026-03-21-162864975",
+            "date": "2026-03-21",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "St. Louis County woman admits to $174K home healthcare fraud scheme - FOX 2",
+            "description": "A St. Louis County woman admitted to a home healthcare fraud scheme involving $174,000 in improper billing. The case represents a criminal enforcement action against healthcare fraud.",
+            "amount": "$174K",
+            "amount_numeric": 174000,
             "officials": [],
-            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0zN2FDc19rLWtOc2pybnd3ekJ5SDRwazhzVHk5VVpvQTV4MkY0UGpRemNMdE12WWJxOG9EeHJPcTdDSk9GcGRtYlgxcGJjZ2RGMkpPNWRjYWU2TFl5NVY3VWZwUTNZVXowMjk4VkNwTlA?oc=5",
+            "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNUpMVkRrMFhIc25hZzZPOTVfN01VYUpsaUFZVzhiZTdPeWVIemZ0NTJ4R2wwR3NtSmxvWl9hM25iY3pjVjhrVUNFQ193T2JEX1IzVF9FMHJsTHNXQjNVT0FNVFZCMVpnWUluNFBhZzdSRHNRa2tMbGNtMzJUNFFyM2poMXliLWN5UjJqVjNoZjk2dEVPcHpwUmVNYXE3Zk9iVmfSAacBQVVfeXFMUGpjc3VjelJiSTJGUzQ2NGpLRGx3eG00dzZZYWtYdVlYaVhEMnZxRGlJYnd2U0lDSnJ1WkE0b2dxUUNqRnZyQzZWbHVmNG1tZ0pHQk9sVEo1M2dBWUNIT0dRRmN2aG5Bc21EMHAtQlA4U21BckpKUHl4bVg2ZU1GeUVtM1lKYTBjemRpSExFTHBzNTVBVXZidmJFTUtJM1BsVU10cm1FYXM?oc=5",
             "link_label": "Google News Report",
             "social_posts": [],
             "tags": [
-                "Medicaid",
-                "Fraud",
-                "Program Integrity",
-                "Multi-State"
+                "Home Health Fraud",
+                "False Claims",
+                "Criminal Enforcement"
             ],
             "entities": [],
-            "state": "FL",
+            "state": "MO",
             "source_type": "news",
             "auto_fetched": true
         },
         {
-            "id": "media-2026-03-20-1208110008",
-            "date": "2026-03-20",
-            "agency": "Media",
-            "type": "Investigative Report",
-            "title": "Medicaid Fraud Isn't Just a Minnesota Problem. Here Are 5 Other Recent Schemes. - Reason Magazine",
-            "description": "Reason Magazine article highlighting Medicaid fraud schemes beyond Minnesota, detailing five recent fraud cases to demonstrate the widespread nature of healthcare program fraud.",
-            "amount": null,
-            "amount_numeric": 0,
-            "officials": [],
-            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbk9xcUF5RXRmdFA4YWM1eUU1ZjNVT2JfRU5EWnVaQTR3R3BxWDRBWG9zWkptbzVUcVhqVWxOT0swaU4tYy1DMzNsbzhudTFNZkdiUm55VW10ci1vXzBUd1VmbzllazBMNGxPZHVENUFKS3V3NDVBRDNDRXJSTEdPV2RmLXRwdElWdnRDbUl4dmlDT2RvQVp5bThjWmJ2eVgtSTRHM1VEenRWOG8?oc=5",
-            "link_label": "Google News Report",
-            "social_posts": [],
-            "tags": [
-                "Medicaid",
-                "Multi-State",
-                "Program Integrity",
-                "False Claims"
-            ],
-            "entities": [],
-            "state": "MN",
-            "source_type": "news",
-            "auto_fetched": true
-        },
-        {
-            "id": "media-2026-03-18-821237854",
+            "id": "media-2026-03-18-316685508",
             "date": "2026-03-18",
-            "agency": "State Agency",
+            "agency": "DOJ",
             "type": "Criminal Enforcement",
             "title": "Arkansas woman pleads guilty to Medicaid fraud - KARK",
-            "description": "An Arkansas woman pleaded guilty to Medicaid fraud charges. The case represents a state-level criminal enforcement action against fraudulent Medicaid claims.",
+            "description": "An Arkansas woman pleaded guilty to Medicaid fraud charges in a criminal proceeding.",
             "amount": null,
             "amount_numeric": 0,
             "officials": [],
@@ -179,16 +127,91 @@
             "auto_fetched": true
         },
         {
-            "id": "media-2026-03-18-1354180734",
+            "id": "media-2026-03-18-1313778623",
             "date": "2026-03-18",
-            "agency": "State Agency",
+            "agency": "DOJ",
             "type": "Criminal Enforcement",
             "title": "Arkansas woman convicted of Medicaid fraud - thv11.com",
-            "description": "An Arkansas woman was convicted of Medicaid fraud. The conviction represents a criminal enforcement action by federal or state authorities.",
+            "description": "An Arkansas woman was convicted of Medicaid fraud. The conviction represents a criminal enforcement action against healthcare fraud.",
             "amount": null,
             "amount_numeric": 0,
             "officials": [],
             "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeDRuVWZQY2ZrREFHVXNLdkd6N3F0eTAyVlJzSGk5aVhHVTQ5a3pSaHMxS0VDcG03VGRRQmVZYWwyUVFiNXZOY0o4eXBra0tMajJwSlRyel83Mnd5QnF6aVF0U2pBX0dkbE10LWplQnN6c0lEaWZuY2d3cGt3c0pucEtUZFY1bG5UY3lhSTVvRlk2LUMzNk9yNXB6alU1dWtjOERrU2g1blV6TkFhSkE0bzJTQXhtaTgwSHhWVA?oc=5",
+            "link_label": "Google News Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Criminal Enforcement",
+                "False Claims"
+            ],
+            "entities": [],
+            "state": "AR",
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-03-19-51464540",
+            "date": "2026-03-19",
+            "agency": "White House",
+            "type": "Investigation",
+            "title": "'Out of control': Florida targeted in Trump administration Medicaid fraud crackdown - KOMO",
+            "description": "The Trump administration has targeted Florida in a Medicaid fraud crackdown, characterizing the fraud situation as 'out of control.' This represents a federal enforcement action focusing on state-level Medicaid fraud.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [
+                "Trump administration"
+            ],
+            "link": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxNWmF0TjJ5ZVRwYWhiMUx6X0p4OTVVaXBsTW5ON0E2RVItNTVySkwyNFZaOHJEWkpBMklVZGJKSTBBQUFLb3hZUXpabHdCQ1VwaDFIaDA1ZlJBNTBmR28tZ1N3MG1zZUhCNEJUVW00OFdDNUJ4MFR0cTdBM0lrbi1YbURTb1RHa3hrSzROc1VkcXhjZHdzQ1dCOVRwc1VUZ2hlQVlwb0c1TkZVajJGcXRRR0poUW9zd2RUNUdodm1MRmN0ejdKeHk1cjFUT2xLZTc0N3JNT1lzSGIwT1RFdU9DRk1SLVRTeWpLaG4zTm95ZWs2R0xQOHVCYWo3ZEZnRjY1a0EySS1fMHFQc3hrSXdsTnA1RlM3cVF3TExfVTJtRXVBWVl4b3JsaWpDZGJWNTB3VkdhbTVuamZBeU1PbE5pZGp4WUxKZk9pOVNZVkt1d2FGNC13UmlKbjhR?oc=5",
+            "link_label": "Google News Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Fraud Crackdown",
+                "Multi-State",
+                "Federal Enforcement",
+                "Program Integrity"
+            ],
+            "entities": [],
+            "state": "FL",
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-03-18-818336102",
+            "date": "2026-03-18",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "Pa. art teacher agrees to pay $200K in Medicare fraud case - Lehighvalleylive.com",
+            "description": "A Pennsylvania art teacher has agreed to pay $200,000 to settle a Medicare fraud case. The settlement resolves allegations of improper billing to the Medicare program.",
+            "amount": "$200,000",
+            "amount_numeric": 200000,
+            "officials": [],
+            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVFY5TFY1UFEya1lTX1NvX3FEYnhIVEpveXVFemlLQ2N3WG8zVnFHVGpMWGVoeFY4eU5sbTBnb2QwMll4UmR3T3k5SnBQQkVaRWlKTktNNWZqRTdCSVF0THpUTWZENmhwZ1NwT2FtYW03cEhPcUtoR1Vyb3FDbnJYUVlJT1pueGtHQWQ1WjRkUV9YT19rc1Z0b1dlM09KdHIwOGNkTjFlbUNNQTTSAb8BQVVfeXFMTUpvUHMwMnpMN1ZzNXRSaG80Sm1HenJ4TjF2Y2hkcHF6Ti1WbER6c2FGMUlDcmo2MzJTYjFiT2NmYTU3LWZ4UnUxekZNVnhPQnFuNmVLVnRWZ1lXVW1zSnBsZmV5cW83cjVQVFVwWHVfV2Nua2dFUnJ3WVdOYk1hc3BDX2VvZzdCMzZHaVBmNVRFTk5QQmcwTWktR243N1N3cS1iNTN2R2U5U1NuWGxTV29yOGo3QVRPQmlOb0toS1E?oc=5",
+            "link_label": "Google News Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "Overbilling"
+            ],
+            "entities": [
+                "Art Teacher (unnamed)"
+            ],
+            "state": "PA",
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-03-18-1947571363",
+            "date": "2026-03-18",
+            "agency": "State Agency",
+            "type": "Criminal Enforcement",
+            "title": "Rector woman gets probation for Medicaid fraud - The Arkansas Democrat-Gazette",
+            "description": "A woman from Rector, Arkansas received probation as a sentence for Medicaid fraud conviction.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTTA1Y004WWtTZWFaMTNnT056ZGFpMG03Rk44Uzl6c085MGRKaW9MdERtb3B6aXlWQjYybWNzZ2t6ZWNLMC05UHZPMHZkNGZUZ05jRnM0ZkpNOEdrd2NrTWY0SDJfSDBEZUs1MVdVVnU1dDFGMGVqT3FONlg1YkRSaFVCcVNOeHJCUUNYZjUzLWg2VlE0QlJqdVFHbw?oc=5",
             "link_label": "Google News Report",
             "social_posts": [],
             "tags": [
@@ -201,84 +224,36 @@
             "auto_fetched": true
         },
         {
-            "id": "media-2026-03-19-1423313315",
-            "date": "2026-03-19",
-            "agency": "White House",
-            "type": "Investigation",
-            "title": "'Out of control': Florida targeted in Trump administration Medicaid fraud crackdown - KOMO",
-            "description": "The Trump administration has launched a Medicaid fraud crackdown with Florida as a primary target, characterizing the fraud situation there as 'out of control.' This represents a federal enforcement initiative focused on identifying and prosecuting Medicaid fraud schemes.",
+            "id": "media-2026-03-20-1405213702",
+            "date": "2026-03-20",
+            "agency": "Media",
+            "type": "Investigative Report",
+            "title": "Medicaid Fraud Isn't Just a Minnesota Problem. Here Are 5 Other Recent Schemes. - Reason Magazine",
+            "description": "Reason Magazine article examining Medicaid fraud cases beyond Minnesota, detailing five recent fraudulent schemes in the Medicaid program across different states.",
             "amount": null,
             "amount_numeric": 0,
             "officials": [],
-            "link": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxNWmF0TjJ5ZVRwYWhiMUx6X0p4OTVVaXBsTW5ON0E2RVItNTVySkwyNFZaOHJEWkpBMklVZGJKSTBBQUFLb3hZUXpabHdCQ1VwaDFIaDA1ZlJBNTBmR28tZ1N3MG1zZUhCNEJUVW00OFdDNUJ4MFR0cTdBM0lrbi1YbURTb1RHa3hrSzROc1VkcXhjZHdzQ1dCOVRwc1VUZ2hlQVlwb0c1TkZVajJGcXRRR0poUW9zd2RUNUdodm1MRmN0ejdKeHk1cjFUT2xLZTc0N3JNT1lzSGIwT1RFdU9DRk1SLVRTeWpLaG4zTm95ZWs2R0xQOHVCYWo3ZEZnRjY1a0EySS1fMHFQc3hrSXdsTnA1RlM3cVF3TExfVTJtRXVBWVl4b3JsaWpDZGJWNTB3VkdhbTVuamZBeU1PbE5pZGp4WUxKZk9pOVNZVkt1d2FGNC13UmlKbjhR?oc=5",
+            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbk9xcUF5RXRmdFA4YWM1eUU1ZjNVT2JfRU5EWnVaQTR3R3BxWDRBWG9zWkptbzVUcVhqVWxOT0swaU4tYy1DMzNsbzhudTFNZkdiUm55VW10ci1vXzBUd1VmbzllazBMNGxPZHVENUFKS3V3NDVBRDNDRXJSTEdPV2RmLXRwdElWdnRDbUl4dmlDT2RvQVp5bThjWmJ2eVgtSTRHM1VEenRWOG8?oc=5",
             "link_label": "Google News Report",
             "social_posts": [],
             "tags": [
                 "Medicaid",
+                "Fraud",
                 "Multi-State",
-                "Program Integrity",
-                "Task Force"
+                "Investigative Report"
             ],
             "entities": [],
-            "state": "FL",
+            "state": "MN",
             "source_type": "news",
             "auto_fetched": true
         },
         {
-            "id": "media-2026-03-18-1260153744",
+            "id": "media-2026-03-18-1581894611",
             "date": "2026-03-18",
-            "agency": "State Agency",
-            "type": "Criminal Enforcement",
-            "title": "Rector woman gets probation for Medicaid fraud - The Arkansas Democrat-Gazette",
-            "description": "A woman from Rector, Arkansas received probation as a sentencing outcome for Medicaid fraud conviction, representing a completed criminal enforcement action by authorities.",
-            "amount": null,
-            "amount_numeric": 0,
-            "officials": [],
-            "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTTA1Y004WWtTZWFaMTNnT056ZGFpMG03Rk44Uzl6c085MGRKaW9MdERtb3B6aXlWQjYybWNzZ2t6ZWNLMC05UHZPMHZkNGZUZ05jRnM0ZkpNOEdrd2NrTWY0SDJfSDBEZUs1MVdVVnU1dDFGMGVqT3FONlg1YkRSaFVCcVNOeHJCUUNYZjUzLWg2VlE0QlJqdVFHbw?oc=5",
-            "link_label": "Google News Report",
-            "social_posts": [],
-            "tags": [
-                "Medicaid",
-                "Criminal Enforcement",
-                "Sentencing"
-            ],
-            "entities": [],
-            "state": "AR",
-            "source_type": "news",
-            "auto_fetched": true
-        },
-        {
-            "id": "media-2026-03-18-1710789550",
-            "date": "2026-03-18",
-            "agency": "HHS-OIG",
-            "type": "Civil Action",
-            "title": "Pa. art teacher agrees to pay $200K in Medicare fraud case - lehighvalleylive",
-            "description": "A Pennsylvania art teacher has agreed to pay $200,000 to settle Medicare fraud charges. The settlement represents a civil enforcement action involving improper Medicare billing.",
-            "amount": "$200,000",
-            "amount_numeric": 200000,
-            "officials": [],
-            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVFY5TFY1UFEya1lTX1NvX3FEYnhIVEpveXVFemlLQ2N3WG8zVnFHVGpMWGVoeFY4eU5sbTBnb2QwMll4UmR3T3k5SnBQQkVaRWlKTktNNWZqRTdCSVF0THpUTWZENmhwZ1NwT2FtYW03cEhPcUtoR1Vyb3FDbnJYUVlJT1pueGtHQWQ1WjRkUV9YT19rc1Z0b1dlM09KdHIwOGNkTjFlbUNNQTTSAb8BQVVfeXFMTUpvUHMwMnpMN1ZzNXRSaG80Sm1HenJ4TjF2Y2hkcHF6Ti1WbER6c2FGMUlDcmo2MzJTYjFiT2NmYTU3LWZ4UnUxekZNVnhPQnFuNmVLVnRWZ1lXVW1zSnBsZmV5cW83cjVQVFVwWHVfV2Nua2dFUnJ3WVdOYk1hc3BDX2VvZzdCMzZHaVBmNVRFTk5QQmcwTWktR243N1N3cS1iNTN2R2U5U1NuWGxTV29yOGo3QVRPQmlOb0toS1E?oc=5",
-            "link_label": "Google News Report",
-            "social_posts": [],
-            "tags": [
-                "Medicare",
-                "False Claims",
-                "Civil Action"
-            ],
-            "entities": [
-                "Art teacher (name not provided in available text)"
-            ],
-            "state": "PA",
-            "source_type": "news",
-            "auto_fetched": true
-        },
-        {
-            "id": "media-2026-03-18-24841322",
-            "date": "2026-03-18",
-            "agency": "State Agency",
+            "agency": "DOJ",
             "type": "Criminal Enforcement",
             "title": "Rector woman convicted of Medicaid fraud - K8 News | Jonesboro, Arkansas",
-            "description": "A woman from Rector, Arkansas was convicted of Medicaid fraud. This represents a criminal enforcement action by authorities against fraudulent Medicaid claims.",
+            "description": "A woman from Rector, Arkansas was convicted of Medicaid fraud. The conviction represents a criminal enforcement action by authorities against fraudulent Medicaid claims or services.",
             "amount": null,
             "amount_numeric": 0,
             "officials": [],
@@ -291,31 +266,6 @@
             ],
             "entities": [],
             "state": "AR",
-            "source_type": "news",
-            "auto_fetched": true
-        },
-        {
-            "id": "media-2026-03-20-1878051028",
-            "date": "2026-03-20",
-            "agency": "DOJ",
-            "type": "Criminal Enforcement",
-            "title": "East Cobb medical lab operator indicted for Medicaid fraud - East Cobb News",
-            "description": "An East Cobb medical lab operator has been indicted for Medicaid fraud. The indictment represents a criminal enforcement action against healthcare fraud.",
-            "amount": null,
-            "amount_numeric": 0,
-            "officials": [],
-            "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcGMzMmlVLTVMUWRQQjFXRjV2a2FxN0s2MTdWX0xUaGJQU0dBdzg4NFZJLU5UWXdqbnVoNk9ESTFxeElXMXl2ejlqYjg2aUR1X2VMWGUzYnozeGNyYlRSMV9DVkI5LW5YSktDUHhPbV95blhXNUJOWHc5LVg0ZTZXRXlRWHJZZzUyS05kUQ?oc=5",
-            "link_label": "Google News Report",
-            "social_posts": [],
-            "tags": [
-                "Medicaid",
-                "Lab Fraud",
-                "False Claims"
-            ],
-            "entities": [
-                "East Cobb medical lab"
-            ],
-            "state": "GA",
             "source_type": "news",
             "auto_fetched": true
         }
