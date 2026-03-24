@@ -293,6 +293,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
           <i class="fa-regular fa-clock me-1"></i> Updated: &mdash;
         </span>
         <span class="last-updated-badge"><i class="fa-solid fa-rotate-right me-1"></i> Updates daily</span>
+        <button class="last-updated-badge" style="cursor:pointer;border:1px solid rgba(255,255,255,0.2);transition:background 0.2s;" data-bs-toggle="modal" data-bs-target="#aboutModal"><i class="fa-solid fa-user me-1"></i> About</button>
       </div>
     </div>
   </div>
@@ -418,7 +419,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
   <div class="container-fluid px-4">
     <div class="d-flex flex-wrap justify-content-between align-items-center py-3">
       <p class="mb-0 text-muted small" style="color:rgba(255,255,255,0.5)!important">Data sourced from DOJ, HHS, CMS, HHS-OIG, FDA, DEA, GAO, White House, Congress, and State Agencies, plus investigative media reports.</p>
-      <p class="mb-0 text-muted small" style="color:rgba(255,255,255,0.5)!important">Updates daily from official agency RSS feeds &bull; <span id="footerUpdated"></span></p>
+      <p class="mb-0 text-muted small" style="color:rgba(255,255,255,0.5)!important">Updates daily from official agency RSS feeds &bull; <span id="footerUpdated"></span> &bull; Built by <a href="https://paragoninstitute.org/profile/katherine-hall/" target="_blank" rel="noopener noreferrer" style="color:rgba(255,255,255,0.7);text-decoration:underline;text-underline-offset:2px;">Katherine Hall</a>, <a href="https://paragoninstitute.org/" target="_blank" rel="noopener noreferrer" style="color:rgba(255,255,255,0.7);text-decoration:underline;text-underline-offset:2px;">Paragon Health Institute</a></p>
     </div>
   </div>
 </footer>
@@ -1103,6 +1104,39 @@ document.addEventListener('DOMContentLoaded', loadData);
       <div class="modal-body" id="statModalBody" style="padding:16px 20px;"></div>
       <div class="modal-footer" style="border-top:1px solid #eee;">
         <button type="button" class="btn btn-sm btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ABOUT MODAL -->
+<div class="modal fade" id="aboutModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content" style="border:none;border-radius:0.3rem;overflow:hidden;">
+      <div class="modal-header" style="background:#002E6D;color:white;border:none;">
+        <h5 class="modal-title" style="font-family:'Bona Nova',Georgia,serif;font-size:1.1rem;">About the Author</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body" style="padding:24px 28px;">
+        <div style="font-family:'Bona Nova',Georgia,serif;font-size:1.15rem;font-weight:700;color:#002E6D;">Katherine Hall</div>
+        <div style="font-size:0.85rem;color:#6B6B6B;margin-bottom:16px;">Research Assistant, Paragon Health Institute</div>
+        <p style="font-size:0.9rem;line-height:1.7;color:#303030;margin-bottom:12px;">
+          Katherine Hall is a Research Assistant at Paragon Health Institute. Before joining Paragon, Katherine worked on supply-side health policy as an intern at the Niskanen Center. She also completed a fellowship with the Health Reformers Academy, where she studied market-based approaches to healthcare reform.
+        </p>
+        <p style="font-size:0.9rem;line-height:1.7;color:#303030;margin-bottom:20px;">
+          Katherine holds a Bachelor of Science in Quantitative Economics with minors in Finance and American Politics from Tufts University.
+        </p>
+        <a href="https://paragoninstitute.org/profile/katherine-hall/" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:8px;background:#002E6D;color:white;text-decoration:none;padding:10px 20px;border-radius:0.3rem;font-size:0.85rem;font-weight:600;transition:all 0.2s;">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> View full profile at Paragon Health Institute
+        </a>
+        <hr style="margin:24px 0 16px;border-color:#d8dde6;">
+        <div style="font-family:'Bona Nova',Georgia,serif;font-size:0.95rem;font-weight:700;color:#002E6D;margin-bottom:8px;">About This Dashboard</div>
+        <p style="font-size:0.85rem;line-height:1.65;color:#303030;margin-bottom:10px;">
+          The Health Care Fraud Dashboard tracks federal enforcement actions from the Department of Justice, Health and Human Services, CMS, HHS Office of Inspector General, FDA, DEA, GAO, the White House, Congress, and state agencies. It is updated daily from official agency sources and investigative media reports.
+        </p>
+        <p style="font-size:0.85rem;line-height:1.65;color:#303030;margin:0;">
+          For more research on healthcare fraud, waste, and program integrity, visit <a href="https://paragoninstitute.org/" target="_blank" rel="noopener noreferrer" style="color:#00A6CF;font-weight:600;text-decoration:none;">Paragon Health Institute</a>.
+        </p>
       </div>
     </div>
   </div>
