@@ -63,7 +63,7 @@ body { background: var(--bg); font-family: 'Public Sans', 'Segoe UI', system-ui,
 h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
 
 /* HEADER */
-.dashboard-header { background: var(--paragon-blue); color: white; box-shadow: var(--shadow); border-bottom: 3px solid var(--blaze); }
+.dashboard-header { background: var(--paragon-blue); color: white; box-shadow: var(--shadow); }
 .header-seal { color: var(--blaze); display: flex; align-items: center; }
 .header-title { font-family: 'Bona Nova', Georgia, serif; font-size: 1.4rem; font-weight: 700; color: #ffffff; letter-spacing: 0; }
 .header-subtitle { font-family: 'Public Sans', sans-serif; font-size: 0.75rem; color: rgba(255,255,255,0.6); letter-spacing: 0.07em; text-transform: uppercase; font-weight: 500; }
@@ -71,12 +71,30 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
 .btn-refresh { background: var(--blaze); color: #ffffff; font-family: 'Public Sans', sans-serif; font-weight: 600; font-size: 0.85rem; border: none; border-radius: var(--radius); padding: 7px 20px; transition: all 0.2s; }
 .btn-refresh:hover { background: var(--sunrise); color: #fff; transform: translateY(-1px); box-shadow: 0 3px 8px rgba(255,148,26,0.4); }
 
-/* STATS BAR */
-.stats-bar { background: var(--paragon-blue); padding-bottom: 4px; }
-.stat-card { background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.12); border-radius: var(--radius); padding: 16px 18px; text-align: center; transition: background 0.2s; }
-.stat-card:hover { background: rgba(255,255,255,0.12); }
-.stat-number { font-family: 'Bona Nova', Georgia, serif; font-size: 1.75rem; font-weight: 700; color: var(--sunrise); line-height: 1.1; }
-.stat-label { font-size: 0.68rem; color: rgba(255,255,255,0.55); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 4px; font-weight: 600; }
+/* SPOTLIGHT CARD (in header) */
+.spotlight-card { flex: 0 1 480px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); border-radius: var(--radius); padding: 12px 18px; position: relative; overflow: hidden; min-height: 80px; display: flex; align-items: center; }
+.spotlight-card::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--blaze); }
+.spotlight-slide { display: none; width: 100%; animation: fadeSlide 0.45s ease; }
+.spotlight-slide.active { display: flex; align-items: center; gap: 16px; }
+@keyframes fadeSlide { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+.spotlight-stat-col { flex-shrink: 0; text-align: right; min-width: 90px; }
+.spotlight-eyebrow { font-family: 'Public Sans', sans-serif; font-size: 0.58rem; color: var(--blaze); text-transform: uppercase; letter-spacing: 0.1em; font-weight: 700; margin-bottom: 2px; white-space: nowrap; }
+.spotlight-stat { font-family: 'Bona Nova', Georgia, serif; font-size: 1.6rem; font-weight: 700; color: var(--sunrise); line-height: 1.1; }
+.spotlight-text-col { flex: 1; min-width: 0; }
+.spotlight-desc { font-family: 'Public Sans', sans-serif; font-size: 0.75rem; color: rgba(255,255,255,0.75); line-height: 1.4; }
+.spotlight-link { font-size: 0.68rem; margin-top: 3px; }
+.spotlight-link a { color: var(--atlantic); text-decoration: none; font-weight: 600; }
+.spotlight-link a:hover { text-decoration: underline; }
+.spotlight-dots { position: absolute; bottom: 6px; right: 12px; display: flex; gap: 5px; }
+.spotlight-dot { width: 5px; height: 5px; border-radius: 50%; background: rgba(255,255,255,0.2); cursor: pointer; border: none; padding: 0; transition: background 0.2s; }
+.spotlight-dot.active { background: var(--blaze); }
+.spotlight-dot:hover { background: rgba(255,255,255,0.4); }
+
+/* NARRATIVE BANNER */
+.narrative-banner { background: var(--paragon-blue); padding: 16px 0 18px; border-bottom: 3px solid var(--blaze); }
+.narrative-banner p { font-family: 'Bona Nova', Georgia, serif; font-size: 1.05rem; line-height: 1.65; color: rgba(255,255,255,0.85); margin: 0; max-width: 900px; }
+.narrative-banner .highlight { color: var(--sunrise); font-weight: 700; }
+.narrative-banner .narrative-sub { font-family: 'Public Sans', sans-serif; font-size: 0.72rem; color: rgba(255,255,255,0.38); margin-top: 6px; letter-spacing: 0.03em; }
 
 /* FILTER BAR */
 .filter-bar { background: #ffffff; border-bottom: 1px solid var(--border); box-shadow: 0 2px 8px rgba(0,46,109,0.08); z-index: 100; }
@@ -220,6 +238,56 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
           <p class="header-subtitle mb-0">HHS &bull; CMS &bull; DOJ &bull; HHS-OIG &bull; White House</p>
         </div>
       </div>
+      <!-- Rotating Paragon Spotlight -->
+      <div class="spotlight-card" id="spotlightCard">
+        <div class="spotlight-slide active" data-index="0">
+          <div class="spotlight-stat-col">
+            <div class="spotlight-eyebrow">Paragon &mdash; ACA</div>
+            <div class="spotlight-stat">$35B</div>
+          </div>
+          <div class="spotlight-text-col">
+            <div class="spotlight-desc">Paid to insurers for ACA enrollees who never used their health plan in 2024</div>
+            <div class="spotlight-link"><a href="https://paragoninstitute.org/private-health/ghostbusting-aca-fraud-millions-who-dont-use-their-health-insurance-expose-abuse-in-the-program/" target="_blank" rel="noopener noreferrer">Read the research &rarr;</a></div>
+          </div>
+        </div>
+        <div class="spotlight-slide" data-index="1">
+          <div class="spotlight-stat-col">
+            <div class="spotlight-eyebrow">Paragon &mdash; Medicaid</div>
+            <div class="spotlight-stat">$1.1T</div>
+          </div>
+          <div class="spotlight-text-col">
+            <div class="spotlight-desc">In improper federal Medicaid payments over the past decade&mdash;double what CMS officially reports</div>
+            <div class="spotlight-link"><a href="https://paragoninstitute.org/medicaid/medicaids-true-improper-payments-likely-double-those-reported-by-cms/" target="_blank" rel="noopener noreferrer">Read the research &rarr;</a></div>
+          </div>
+        </div>
+        <div class="spotlight-slide" data-index="2">
+          <div class="spotlight-stat-col">
+            <div class="spotlight-eyebrow">Paragon &mdash; ACA</div>
+            <div class="spotlight-stat">6.4M</div>
+          </div>
+          <div class="spotlight-text-col">
+            <div class="spotlight-desc">Ineligible individuals enrolled in fully subsidized ACA plans in 2025</div>
+            <div class="spotlight-link"><a href="https://paragoninstitute.org/private-health/the-greater-obamacare-enrollment-fraud/" target="_blank" rel="noopener noreferrer">Read the research &rarr;</a></div>
+          </div>
+        </div>
+        <div class="spotlight-slide" data-index="3">
+          <div class="spotlight-stat-col">
+            <div class="spotlight-eyebrow">Largest Action</div>
+            <div class="spotlight-stat">$14.6B</div>
+          </div>
+          <div class="spotlight-text-col">
+            <div class="spotlight-desc">DOJ charged 324 defendants in the largest healthcare fraud takedown in U.S. history</div>
+            <div class="spotlight-link"><a href="#" onclick="event.preventDefault();document.querySelector('[data-agency=DOJ]')?.scrollIntoView({behavior:'smooth'})">View in dashboard &rarr;</a></div>
+          </div>
+        </div>
+        <div class="spotlight-dots">
+          <button class="spotlight-dot active" data-target="0"></button>
+          <button class="spotlight-dot" data-target="1"></button>
+          <button class="spotlight-dot" data-target="2"></button>
+          <button class="spotlight-dot" data-target="3"></button>
+        </div>
+      </div>
+
       <div class="d-flex align-items-center gap-3">
         <span class="last-updated-badge" id="lastUpdated">
           <i class="fa-regular fa-clock me-1"></i> Updated: &mdash;
@@ -230,46 +298,16 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
   </div>
 </header>
 
-<!-- STATS BAR -->
-<div class="stats-bar">
+<!-- NARRATIVE BANNER -->
+<div class="narrative-banner">
   <div class="container-fluid px-4">
-        <div class="row g-3 py-3">
-      <div class="col-6 col-md">
-        <div class="stat-card stat-card-money" onclick="showStatDetail('audit')" style="cursor:pointer;" title="Click to see breakdown">
-          <div class="stat-number" id="statAudit">&mdash;</div>
-          <div class="stat-label">Total Improper Payments Identified &mdash; All Agency Audits</div>
-        </div>
-      </div>
-      <div class="col-6 col-md">
-        <div class="stat-card stat-card-money" onclick="showStatDetail('criminal')" style="cursor:pointer;" title="Click to see breakdown">
-          <div class="stat-number" id="statCriminal">&mdash;</div>
-          <div class="stat-label">Fraud Alleged &mdash; Criminal Cases</div>
-        </div>
-      </div>
-      <div class="col-6 col-md">
-        <div class="stat-card stat-card-money" onclick="showStatDetail('convicted')" style="cursor:pointer;" title="Click to see breakdown">
-          <div class="stat-number" id="statConvicted">&mdash;</div>
-          <div class="stat-label">Total Fraud Confirmed &mdash; Pleas &amp; Convictions</div>
-        </div>
-      </div>
-      <div class="col-6 col-md">
-        <div class="stat-card stat-card-money" onclick="showStatDetail('civil')" style="cursor:pointer;" title="Click to see breakdown">
-          <div class="stat-number" id="statCivil">&mdash;</div>
-          <div class="stat-label">Civil Settlements &amp; Recoveries</div>
-        </div>
-      </div>
-      <div class="col-6 col-md">
-        <div class="stat-card stat-card-money" onclick="showStatDetail('largest')" style="cursor:pointer;" title="Click to see breakdown">
-          <div class="stat-number" id="statLargest">&mdash;</div>
-          <div class="stat-label">Largest Single Enforcement Action</div>
-        </div>
-      </div>
-      <div class="col-6 col-md">
-        <div class="stat-card stat-card-money" onclick="showStatDetail('cms')" style="cursor:pointer;" title="Click to see breakdown">
-          <div class="stat-number" id="statCMS">&mdash;</div>
-          <div class="stat-label">CMS Program Integrity &mdash; Improper Payments Identified or Prevented</div>
-        </div>
-      </div>
+    <p>
+      An estimated <span class="highlight">$60B&ndash;$259B</span> is lost to healthcare fraud every year&mdash;between
+      3% and 10% of total U.S. health spending. This dashboard tracks federal enforcement actions
+      as agencies work to close that gap.
+    </p>
+    <div class="narrative-sub">
+      NHCAA / HHS &mdash; based on 3&ndash;10% of ~$4.3T in annual U.S. healthcare expenditures
     </div>
   </div>
 </div>
@@ -711,7 +749,6 @@ async function loadData() {
     allActions = data.actions;
     latestAutoDate = allActions.filter(a => a.auto_fetched && a.date).reduce((max, a) => a.date > max ? a.date : max, '');
     updateLastUpdated(data.metadata && data.metadata.last_updated);
-    updateStats(allActions);
     populateStateDropdown(allActions);
     applyFilters();
   } else {
@@ -1026,7 +1063,34 @@ function showSidebarActions(abbr) {
 }
 
 // Init
-document.addEventListener('DOMContentLoaded', loadData);</script>
+document.addEventListener('DOMContentLoaded', loadData);
+
+// ── Spotlight rotation ────────────────────────────────────────
+(function() {
+  const slides = document.querySelectorAll('.spotlight-slide');
+  const dots = document.querySelectorAll('.spotlight-dot');
+  if (!slides.length) return;
+  let current = 0;
+  let timer;
+  function show(i) {
+    slides.forEach(s => s.classList.remove('active'));
+    dots.forEach(d => d.classList.remove('active'));
+    slides[i].classList.add('active');
+    dots[i].classList.add('active');
+    current = i;
+  }
+  function next() { show((current + 1) % slides.length); }
+  function startTimer() { timer = setInterval(next, 6000); }
+  dots.forEach(dot => {
+    dot.addEventListener('click', () => {
+      clearInterval(timer);
+      show(parseInt(dot.dataset.target));
+      startTimer();
+    });
+  });
+  startTimer();
+})();
+</script>
 
 <!-- STAT DETAIL MODAL -->
 <div class="modal fade" id="statModal" tabindex="-1" aria-hidden="true">
