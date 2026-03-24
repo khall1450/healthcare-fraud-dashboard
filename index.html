@@ -574,7 +574,7 @@ function appendCards(count) {
     const tagsEl = col.querySelector('.card-tags');
     const entities = new Set(action.entities || []);
     const PROGRAMS = new Set(['Medicare','Medicaid','Medicare Advantage','ACA','ACA Fraud','TRICARE','Medi-Cal']);
-    const allTags = (action.entities || []).concat(action.tags || []).concat(action.officials || []);
+    const allTags = (action.entities || []).concat(action.tags || []);
     allTags.forEach(tag => {
       const pill = document.createElement('span');
       pill.className = 'tag-pill';
