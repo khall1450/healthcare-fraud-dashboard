@@ -531,22 +531,16 @@ def main():
 
     log("Loading existing data...")
     data = load_json(DATA_FILE, {"metadata": {"last_updated": "", "version": "1.0"}, "actions": []})
-    pending = load_json(PENDING_FILE, {"items": []})
 
     # Dedup set
     existing_links = set()
     for a in data.get("actions", []):
         if a.get("link"):
             existing_links.add(a["link"])
-    for a in pending.get("items", []):
-        if a.get("link"):
-            existing_links.add(a["link"])
 
     session = create_session()
     added = 0
-    media_added = 0
     new_actions = []
-    new_media = []
 
     for feed in FEEDS:
         if not feed.get("enabled"):
@@ -613,12 +607,8 @@ def main():
                     "auto_fetched": True,
                 }
 
-                if is_media:
-                    new_media.append(entry)
-                    media_added += 1
-                else:
-                    new_actions.append(entry)
-                    added += 1
+                new_actions.append(entry)
+                added += 1
                 if link:
                     existing_links.add(link)
                 count += 1
@@ -632,21 +622,15 @@ def main():
 
     if added > 0:
         data["actions"].extend(new_actions)
-        log(f"Added {added} official action(s).")
+        log(f"Added {added} action(s).")
     else:
-        log("No new official actions found.")
+        log("No new actions found.")
 
     save_json(DATA_FILE, data)
 
-    if media_added > 0:
-        pending.setdefault("items", []).extend(new_media)
-        pending["updated"] = datetime.now().isoformat()
-        save_json(PENDING_FILE, pending)
-        log(f"Staged {media_added} media item(s) for review.")
-
     log("Saved.")
     close_browser()
-    print(f"ADDED:{added} MEDIA_STAGED:{media_added}")
+    print(f"ADDED:{added}")
 
 if __name__ == '__main__':
     main()
