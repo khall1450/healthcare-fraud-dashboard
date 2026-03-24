@@ -63,20 +63,24 @@ FEEDS = [
     {"name": "S-HELP",      "agency": "Congress",      "url": None,                                                                       "enabled": True,  "source_type": "official", "scrape": "help_committee"},
     {"name": "FDA",         "agency": "FDA",           "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml", "enabled": True, "source_type": "official"},
     {"name": "DEA",         "agency": "DEA",           "url": "https://www.dea.gov/press-releases/rss",                                   "enabled": True,  "source_type": "official", "browser_fallback": True},
-    # --- Media / investigative feeds ---
+    # --- Quality media / investigative feeds ---
     {"name": "Hospice News",          "agency": "Media", "url": "https://hospicenews.com/feed/",                                          "enabled": True,  "source_type": "news"},
     {"name": "Home Health Care News", "agency": "Media", "url": "https://homehealthcarenews.com/feed/",                                   "enabled": True,  "source_type": "news"},
     {"name": "KFF Health News",       "agency": "Media", "url": "https://kffhealthnews.org/feed/",                                        "enabled": True,  "source_type": "news"},
     {"name": "Fierce Healthcare",     "agency": "Media", "url": "https://www.fiercehealthcare.com/rss/xml",                               "enabled": True,  "source_type": "news"},
     {"name": "ProPublica",            "agency": "Media", "url": "https://www.propublica.org/feeds/propublica/main",                        "enabled": True,  "source_type": "news"},
-    {"name": "Google News",           "agency": "Media", "url": "https://news.google.com/rss/search?q=%22healthcare+fraud%22+OR+%22medicare+fraud%22+OR+%22medicaid+fraud%22&hl=en-US&gl=US&ceid=US:en", "enabled": True, "source_type": "news"},
+    {"name": "STAT News",             "agency": "Media", "url": "https://www.statnews.com/feed/",                                         "enabled": True,  "source_type": "news"},
+    {"name": "NYT Health",            "agency": "Media", "url": "https://rss.nytimes.com/services/xml/rss/nyt/Health.xml",                 "enabled": True,  "source_type": "news"},
+    {"name": "WSJ Health",            "agency": "Media", "url": "https://feeds.content.dowjones.io/public/rss/socialhealth",               "enabled": True,  "source_type": "news"},
+    {"name": "Bloomberg Law",         "agency": "Media", "url": "https://news.bloomberglaw.com/rss/health-law-and-business",               "enabled": True,  "source_type": "news"},
+    {"name": "Politico Health",       "agency": "Media", "url": "https://rss.politico.com/healthcare.xml",                                 "enabled": True,  "source_type": "news"},
+    {"name": "The Hill",              "agency": "Media", "url": "https://thehill.com/feed/",                                               "enabled": True,  "source_type": "news"},
+    {"name": "Becker's Payer",        "agency": "Media", "url": "https://www.beckerspayer.com/feed/",                                      "enabled": True,  "source_type": "news"},
+    {"name": "Law360 Healthcare",     "agency": "Media", "url": "https://www.law360.com/health/rss",                                       "enabled": True,  "source_type": "news"},
+    {"name": "AP Wire",               "agency": "Media", "url": "https://feedx.net/rss/ap.xml",                                            "enabled": True,  "source_type": "news"},
     # --- State AG feeds ---
     {"name": "NC-AG",  "agency": "State Agency", "url": "https://ncdoj.gov/category/news-releases/feed/",  "enabled": True, "source_type": "news"},
     {"name": "PA-AG",  "agency": "State Agency", "url": "https://www.attorneygeneral.gov/feed/",           "enabled": True, "source_type": "news"},
-    # --- Google News: state AG / MFCU ---
-    {"name": "GN-AG-Medicaid",   "agency": "Media", "url": "https://news.google.com/rss/search?q=%22attorney+general%22+%22medicaid+fraud%22&hl=en-US&gl=US&ceid=US:en",                          "enabled": True, "source_type": "news"},
-    {"name": "GN-MFCU",          "agency": "Media", "url": "https://news.google.com/rss/search?q=%22medicaid+fraud+control+unit%22+OR+%22MFCU%22+fraud&hl=en-US&gl=US&ceid=US:en",                "enabled": True, "source_type": "news"},
-    {"name": "GN-AG-Settlement", "agency": "Media", "url": "https://news.google.com/rss/search?q=%22attorney+general%22+%22healthcare+fraud%22+settlement&hl=en-US&gl=US&ceid=US:en",            "enabled": True, "source_type": "news"},
 ]
 
 # ---------------------------------------------------------------------------
