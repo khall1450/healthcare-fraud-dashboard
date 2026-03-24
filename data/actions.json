@@ -20,7 +20,8 @@
       "tags": [
         "Medicare",
         "Medicaid",
-        "National Takedown"
+        "National Takedown",
+        "Indictment"
       ],
       "state": null,
       "source_type": "official",
@@ -46,7 +47,9 @@
         "Identity Theft",
         "Organized Crime",
         "National Takedown",
-        "Foreign Nationals"
+        "Foreign Nationals",
+        "False Claims",
+        "Indictment"
       ],
       "state": null,
       "source_type": "official",
@@ -68,8 +71,9 @@
       "social_posts": [],
       "tags": [
         "Opioids",
-        "Pharmaceutical",
-        "National Takedown"
+        "Pharmacy Fraud",
+        "National Takedown",
+        "Indictment"
       ],
       "state": null,
       "source_type": "official",
@@ -94,7 +98,9 @@
         "Medicaid",
         "Wound Care",
         "False Claims",
-        "National Takedown"
+        "National Takedown",
+        "Unnecessary Procedures",
+        "Indictment"
       ],
       "state": "AZ",
       "source_type": "official",
@@ -118,7 +124,8 @@
         "Medicare",
         "Medicaid",
         "Addiction Treatment",
-        "Opioids"
+        "Opioids",
+        "False Claims"
       ],
       "state": "KY",
       "source_type": "official",
@@ -139,7 +146,8 @@
       "link_label": "DOJ Press Release",
       "social_posts": [],
       "tags": [
-        "ACA"
+        "ACA",
+        "False Claims"
       ],
       "state": "FL",
       "source_type": "official",
@@ -164,7 +172,8 @@
       "tags": [
         "Medicaid",
         "Adult Day Care",
-        "Guilty Plea"
+        "Guilty Plea",
+        "Unnecessary Procedures"
       ],
       "state": "NY",
       "source_type": "official",
@@ -233,7 +242,8 @@
       "link_label": "FOX 9 News Report",
       "social_posts": [],
       "tags": [
-        "Medicaid"
+        "Medicaid",
+        "Program Integrity"
       ],
       "state": "MN",
       "source_type": "official",
@@ -282,7 +292,8 @@
       "social_posts": [],
       "tags": [
         "Hospice Fraud",
-        "Home Health Fraud"
+        "Home Health Fraud",
+        "Tax Evasion"
       ],
       "state": "CA",
       "source_type": "social_media",
@@ -331,7 +342,8 @@
       "social_posts": [],
       "tags": [
         "Hospice Fraud",
-        "Sentencing"
+        "Sentencing",
+        "CRUSH"
       ],
       "state": "CA",
       "source_type": "social_media",
@@ -355,7 +367,8 @@
       "link_label": "CBS News Report",
       "social_posts": [],
       "tags": [
-        "Task Force"
+        "Task Force",
+        "Strike Force"
       ],
       "state": "CA",
       "source_type": "news",
@@ -379,7 +392,8 @@
       "social_posts": [],
       "tags": [
         "Medicaid",
-        "Behavioral Health"
+        "Behavioral Health",
+        "Program Integrity"
       ],
       "state": "ME",
       "source_type": "official",
@@ -552,7 +566,12 @@
       "tags": [
         "False Claims Act",
         "Medicare Advantage",
-        "Kickbacks"
+        "Kickbacks",
+        "Medicare",
+        "Medical Devices",
+        "Upcoding",
+        "False Claims",
+        "Program Integrity"
       ],
       "state": null,
       "source_type": "official",
@@ -576,7 +595,8 @@
         "DME Fraud",
         "Medicare",
         "Kickbacks",
-        "Sentencing"
+        "Sentencing",
+        "Unnecessary Procedures"
       ],
       "state": "FL",
       "source_type": "official",
@@ -602,7 +622,9 @@
         "Medicare",
         "Medicaid",
         "AI",
-        "Program Integrity"
+        "Program Integrity",
+        "Tax Evasion",
+        "Legislation"
       ],
       "state": null,
       "source_type": "official",
@@ -678,7 +700,9 @@
         "AI",
         "Identity Theft",
         "ACA",
-        "Kickbacks"
+        "Kickbacks",
+        "Medicare",
+        "Tax Evasion"
       ],
       "state": "NC",
       "source_type": "official",
@@ -705,7 +729,11 @@
       "social_posts": [],
       "tags": [
         "Strike Force",
-        "Pharmaceutical"
+        "Pharmacy Fraud",
+        "Medicare",
+        "Medicaid",
+        "Medical Devices",
+        "Tax Evasion"
       ],
       "state": "MA",
       "source_type": "official",
@@ -731,7 +759,9 @@
         "False Claims Act",
         "Medicare",
         "Medicaid",
-        "TRICARE"
+        "TRICARE",
+        "False Claims",
+        "Civil Action"
       ],
       "state": "TX",
       "source_type": "official",
@@ -759,7 +789,8 @@
         "Medicare",
         "DME Fraud",
         "Lab Fraud",
-        "Sentencing"
+        "Sentencing",
+        "Unnecessary Procedures"
       ],
       "state": "NY",
       "source_type": "official",
@@ -785,7 +816,8 @@
         "Medicare",
         "Identity Theft",
         "Foreign Nationals",
-        "Sentencing"
+        "Sentencing",
+        "Unnecessary Procedures"
       ],
       "state": "CA",
       "source_type": "official",
@@ -807,9 +839,7 @@
       "social_posts": [],
       "tags": [
         "Telehealth",
-        "Drug Diversion",
         "Opioids",
-        "Digital Health",
         "Sentencing"
       ],
       "state": "CA",
@@ -836,9 +866,10 @@
         "Nursing Home",
         "Medicaid",
         "Medicare",
-        "Drug Diversion",
+        "Opioids",
         "Sentencing",
-        "Guilty Plea"
+        "Guilty Plea",
+        "Elder Fraud"
       ],
       "state": "NJ",
       "source_type": "official",
@@ -862,7 +893,8 @@
       "social_posts": [],
       "tags": [
         "False Claims",
-        "Improper Payments"
+        "Improper Payments",
+        "Program Integrity"
       ],
       "state": null,
       "source_type": "official",
@@ -886,7 +918,8 @@
         "Hospice Fraud",
         "Medicare",
         "Money Laundering",
-        "Guilty Plea"
+        "Guilty Plea",
+        "False Claims"
       ],
       "state": "CA",
       "source_type": "news",
@@ -912,7 +945,10 @@
       "social_posts": [],
       "tags": [
         "Research Fraud",
-        "Whistleblower"
+        "Whistleblower",
+        "False Claims",
+        "False Claims Act",
+        "Civil Action"
       ],
       "state": "MA",
       "source_type": "official",
@@ -938,7 +974,9 @@
         "Medicare Advantage",
         "Upcoding",
         "Risk Adjustment",
-        "Improper Payments"
+        "Improper Payments",
+        "Medicare",
+        "Program Integrity"
       ],
       "state": "LA",
       "source_type": "official",
@@ -963,7 +1001,8 @@
       "tags": [
         "Medicaid",
         "Improper Payments",
-        "Medicare Advantage"
+        "Medicare Advantage",
+        "Program Integrity"
       ],
       "state": "IL",
       "source_type": "official",
@@ -1012,7 +1051,8 @@
       "tags": [
         "Medicaid",
         "Improper Payments",
-        "Medicare Advantage"
+        "Medicare Advantage",
+        "Program Integrity"
       ],
       "state": null,
       "source_type": "official",
@@ -1036,7 +1076,8 @@
         "Genetic Testing",
         "Kickbacks",
         "Medicare",
-        "Sentencing"
+        "Sentencing",
+        "Unnecessary Procedures"
       ],
       "state": "GA",
       "source_type": "official",
@@ -1063,7 +1104,10 @@
       "tags": [
         "Lab Fraud",
         "Kickbacks",
-        "False Claims Act"
+        "False Claims Act",
+        "Medicare",
+        "False Claims",
+        "Civil Action"
       ],
       "state": "VA",
       "source_type": "official",
@@ -1090,7 +1134,12 @@
         "Medicaid",
         "Improper Payments",
         "Home Health Fraud",
-        "COVID-19"
+        "COVID-19",
+        "Pharmacy Fraud",
+        "Tax Evasion",
+        "Civil Action",
+        "Congressional",
+        "Program Integrity"
       ],
       "state": null,
       "source_type": "official",
@@ -1115,7 +1164,9 @@
         "Medicaid",
         "Improper Payments",
         "National Takedown",
-        "Indictment"
+        "Indictment",
+        "Congressional",
+        "Program Integrity"
       ],
       "state": null,
       "source_type": "official",
@@ -1140,7 +1191,8 @@
         "Whistleblower",
         "Medicare",
         "Medicaid",
-        "TRICARE"
+        "TRICARE",
+        "False Claims"
       ],
       "state": null,
       "source_type": "official",
@@ -1164,7 +1216,8 @@
         "Improper Payments",
         "Medicare",
         "Medicaid",
-        "Medicare Advantage"
+        "Medicare Advantage",
+        "Program Integrity"
       ],
       "state": null,
       "source_type": "official",
@@ -1193,7 +1246,9 @@
         "Structural/Organizational",
         "DOJ",
         "Fraud Enforcement",
-        "Executive Action"
+        "Executive Action",
+        "Medicare",
+        "Medicaid"
       ],
       "state": null,
       "source_type": "official",
@@ -1221,7 +1276,10 @@
         "Medicare Advantage",
         "Upcoding",
         "False Claims Act",
-        "Risk Adjustment"
+        "Risk Adjustment",
+        "Medicare",
+        "False Claims",
+        "Civil Action"
       ],
       "state": "CA",
       "source_type": "official",
@@ -1251,7 +1309,10 @@
         "Medicare",
         "Medicaid",
         "False Claims Act",
-        "Whistleblower"
+        "Whistleblower",
+        "Unnecessary Procedures",
+        "False Claims",
+        "Civil Action"
       ],
       "state": "FL",
       "source_type": "official",
@@ -1297,7 +1358,8 @@
       "link_label": "CMS Press Release",
       "social_posts": [],
       "tags": [
-        "Medicaid"
+        "Medicaid",
+        "Congressional"
       ],
       "state": null,
       "source_type": "official",
@@ -1326,7 +1388,9 @@
         "Pharmacy Fraud",
         "Medicare",
         "Medicaid",
-        "Kickbacks"
+        "Kickbacks",
+        "Unnecessary Procedures",
+        "Indictment"
       ],
       "state": "NY",
       "source_type": "official",
@@ -1379,7 +1443,8 @@
         "Lab Fraud",
         "Medicare",
         "Kickbacks",
-        "Money Laundering"
+        "Money Laundering",
+        "Unnecessary Procedures"
       ],
       "state": "TX",
       "source_type": "official",
@@ -1402,11 +1467,10 @@
       "link_label": "DOJ Press Release",
       "social_posts": [],
       "tags": [
-        "Workers Compensation",
         "Kickbacks",
-        "Pharmaceutical",
         "Pharmacy Fraud",
-        "Sentencing"
+        "Sentencing",
+        "Unnecessary Procedures"
       ],
       "state": "TX",
       "source_type": "official",
@@ -1432,7 +1496,10 @@
       "tags": [
         "Kickbacks",
         "False Claims Act",
-        "Medicare"
+        "Medicare",
+        "Hospital Fraud",
+        "False Claims",
+        "Civil Action"
       ],
       "state": "AZ",
       "source_type": "official",
@@ -1462,7 +1529,10 @@
       "tags": [
         "Medicaid",
         "DME Fraud",
-        "CRUSH"
+        "CRUSH",
+        "Medicare",
+        "False Claims",
+        "Tax Evasion"
       ],
       "state": "MN",
       "source_type": "official",
@@ -1489,7 +1559,10 @@
         "Kickbacks",
         "False Claims Act",
         "Medicare",
-        "Lab Fraud"
+        "Lab Fraud",
+        "Unnecessary Procedures",
+        "False Claims",
+        "Civil Action"
       ],
       "state": "GA",
       "source_type": "official",
@@ -1517,7 +1590,9 @@
         "CRUSH",
         "AI",
         "DME Fraud",
-        "Lab Fraud"
+        "Lab Fraud",
+        "Medicaid",
+        "Program Integrity"
       ],
       "state": null,
       "source_type": "official",
@@ -1543,7 +1618,8 @@
       "tags": [
         "Medicaid",
         "Home Health Fraud",
-        "Adult Day Care"
+        "Adult Day Care",
+        "Behavioral Health"
       ],
       "state": "NY",
       "source_type": "news",
@@ -1567,7 +1643,11 @@
         "Medicare Advantage",
         "False Claims Act",
         "Risk Adjustment",
-        "Whistleblower"
+        "Whistleblower",
+        "Medicare",
+        "Upcoding",
+        "False Claims",
+        "Civil Action"
       ],
       "state": "NY",
       "source_type": "official",
@@ -1594,7 +1674,9 @@
         "Kickbacks",
         "DME Fraud",
         "Medicare",
-        "Whistleblower"
+        "Whistleblower",
+        "False Claims",
+        "Civil Action"
       ],
       "state": "GA",
       "source_type": "official",
@@ -1617,11 +1699,13 @@
       "link_label": "DOJ Press Release",
       "social_posts": [],
       "tags": [
-        "Pharmaceutical",
+        "Pharmacy Fraud",
         "Kickbacks",
         "False Claims Act",
         "Medicare",
-        "Whistleblower"
+        "Whistleblower",
+        "False Claims",
+        "Civil Action"
       ],
       "state": null,
       "source_type": "official",
@@ -1649,7 +1733,9 @@
         "Hospice Fraud",
         "Medicare",
         "TRICARE",
-        "Guilty Plea"
+        "Guilty Plea",
+        "Unnecessary Procedures",
+        "False Claims"
       ],
       "state": "AZ",
       "source_type": "official",
@@ -1679,7 +1765,8 @@
         "Identity Theft",
         "Money Laundering",
         "Foreign Nationals",
-        "Guilty Plea"
+        "Guilty Plea",
+        "False Claims"
       ],
       "state": "CA",
       "source_type": "official",
@@ -1700,12 +1787,13 @@
       "link_label": "DOJ Press Release",
       "social_posts": [],
       "tags": [
-        "Pharmaceutical",
+        "Pharmacy Fraud",
         "False Claims Act",
         "TRICARE",
         "Whistleblower",
         "Overbilling",
-        "Pharmacy Fraud"
+        "False Claims",
+        "Civil Action"
       ],
       "state": null,
       "source_type": "official",
@@ -1731,7 +1819,9 @@
         "False Claims Act",
         "TRICARE",
         "Improper Payments",
-        "Hospital Fraud"
+        "Hospital Fraud",
+        "False Claims",
+        "Civil Action"
       ],
       "state": "NY",
       "source_type": "official",
@@ -1757,7 +1847,9 @@
         "False Claims Act",
         "Cybersecurity",
         "TRICARE",
-        "Medicare Advantage"
+        "Medicare Advantage",
+        "False Claims",
+        "Civil Action"
       ],
       "state": "CA",
       "source_type": "official",
@@ -1837,7 +1929,10 @@
         "Medicare Advantage",
         "Upcoding",
         "Risk Adjustment",
-        "False Claims Act"
+        "False Claims Act",
+        "Medicare",
+        "False Claims",
+        "Civil Action"
       ],
       "state": null,
       "source_type": "official",
@@ -1866,7 +1961,9 @@
         "Medicare",
         "Medicaid",
         "Whistleblower",
-        "Lab Fraud"
+        "Lab Fraud",
+        "False Claims",
+        "Civil Action"
       ],
       "state": "PA",
       "source_type": "official",
@@ -1893,7 +1990,10 @@
         "False Claims Act",
         "Medicare",
         "Nursing Home",
-        "Upcoding"
+        "Upcoding",
+        "Overbilling",
+        "Unnecessary Procedures",
+        "False Claims"
       ],
       "state": "FL",
       "source_type": "official",
@@ -1920,7 +2020,9 @@
         "False Claims Act",
         "Pharmacy Fraud",
         "Medicare",
-        "Medicaid"
+        "Medicaid",
+        "False Claims",
+        "Civil Action"
       ],
       "state": "IL",
       "source_type": "official",
@@ -1944,12 +2046,15 @@
       "link_label": "DOJ Press Release (S.D.N.Y.)",
       "social_posts": [],
       "tags": [
-        "Pharmaceutical",
+        "Pharmacy Fraud",
         "Kickbacks",
         "False Claims Act",
         "Medicare",
         "Medicaid",
-        "Whistleblower"
+        "Whistleblower",
+        "TRICARE",
+        "False Claims",
+        "Civil Action"
       ],
       "state": "NY",
       "source_type": "official",
@@ -1975,7 +2080,9 @@
         "Medicare Advantage",
         "Kickbacks",
         "False Claims Act",
-        "Whistleblower"
+        "Whistleblower",
+        "Medicare",
+        "False Claims"
       ],
       "state": "MA",
       "source_type": "official",
@@ -2033,7 +2140,8 @@
       "link_label": "DOJ White-Collar Enforcement Plan (PDF)",
       "social_posts": [],
       "tags": [
-        "Whistleblower"
+        "Whistleblower",
+        "Tax Evasion"
       ],
       "state": null,
       "source_type": "official",
@@ -2055,10 +2163,11 @@
       "social_posts": [],
       "tags": [
         "False Claims Act",
-        "Stark Law",
         "Kickbacks",
         "Hospital Fraud",
-        "Whistleblower"
+        "Whistleblower",
+        "False Claims",
+        "Civil Action"
       ],
       "state": "CA",
       "source_type": "official",
@@ -2085,7 +2194,8 @@
         "Medicare",
         "Identity Theft",
         "Foreign Nationals",
-        "Sentencing"
+        "Sentencing",
+        "Unnecessary Procedures"
       ],
       "state": "FL",
       "source_type": "official",
@@ -2109,7 +2219,8 @@
         "DME Fraud",
         "Medicare",
         "Telehealth",
-        "Guilty Plea"
+        "Guilty Plea",
+        "Unnecessary Procedures"
       ],
       "state": "MA",
       "source_type": "official",
@@ -2133,7 +2244,9 @@
         "Medicare Advantage",
         "Risk Adjustment",
         "Upcoding",
-        "Program Integrity"
+        "Program Integrity",
+        "Medicare",
+        "Overbilling"
       ],
       "state": null,
       "source_type": "official",
@@ -2208,7 +2321,8 @@
       "tags": [
         "Medicaid",
         "Behavioral Health",
-        "Overbilling"
+        "Overbilling",
+        "Program Integrity"
       ],
       "state": "IN",
       "source_type": "news",
@@ -2231,7 +2345,9 @@
       "social_posts": [],
       "tags": [
         "Medicare",
-        "Hospice Fraud"
+        "Hospice Fraud",
+        "Overbilling",
+        "Program Integrity"
       ],
       "state": "CA",
       "source_type": "news",
@@ -2256,7 +2372,9 @@
         "Medicare Advantage",
         "Upcoding",
         "Risk Adjustment",
-        "Opioids"
+        "Opioids",
+        "Medicare",
+        "Congressional"
       ],
       "state": null,
       "source_type": "news",
@@ -2307,7 +2425,9 @@
         "Medicare",
         "DME Fraud",
         "Identity Theft",
-        "Foreign Nationals"
+        "Foreign Nationals",
+        "False Claims",
+        "Elder Fraud"
       ],
       "state": "TN",
       "source_type": "news",
@@ -2332,7 +2452,10 @@
         "Medicare Advantage",
         "False Claims Act",
         "Risk Adjustment",
-        "Whistleblower"
+        "Whistleblower",
+        "Medicare",
+        "False Claims",
+        "Civil Action"
       ],
       "state": "PA",
       "source_type": "official",
@@ -2381,7 +2504,8 @@
       "social_posts": [],
       "tags": [
         "Medicaid",
-        "Behavioral Health"
+        "Behavioral Health",
+        "Program Integrity"
       ],
       "state": "TX",
       "source_type": "news",
@@ -2456,7 +2580,9 @@
         "Medicare",
         "Medicaid",
         "Congressional",
-        "Organized Crime"
+        "Organized Crime",
+        "Foreign Nationals",
+        "Tax Evasion"
       ],
       "state": null,
       "source_type": "news",
@@ -2478,7 +2604,8 @@
       "social_posts": [],
       "tags": [
         "Medicaid",
-        "Behavioral Health"
+        "Behavioral Health",
+        "Program Integrity"
       ],
       "state": "MN",
       "source_type": "news",
@@ -2549,7 +2676,9 @@
       "social_posts": [],
       "tags": [
         "Medicaid",
-        "Congressional"
+        "Congressional",
+        "Tax Evasion",
+        "Assisted Living"
       ],
       "state": "MN",
       "source_type": "official",
@@ -2594,7 +2723,9 @@
       "social_posts": [],
       "tags": [
         "Medicare Advantage",
-        "Congressional"
+        "Congressional",
+        "Medicare",
+        "Upcoding"
       ],
       "state": null,
       "source_type": "official",
@@ -2623,7 +2754,8 @@
         "Medicaid",
         "Medicare",
         "Congressional",
-        "Task Force"
+        "Task Force",
+        "Strike Force"
       ],
       "state": null,
       "source_type": "official",
@@ -2696,7 +2828,9 @@
       "tags": [
         "Medicaid",
         "Congressional",
-        "Multi-State"
+        "Multi-State",
+        "Medicare",
+        "Program Integrity"
       ],
       "state": null,
       "source_type": "official",
@@ -2720,7 +2854,8 @@
       "social_posts": [],
       "tags": [
         "False Claims Act",
-        "Legislation"
+        "Legislation",
+        "False Claims"
       ],
       "state": "MA",
       "source_type": "official",
@@ -2745,7 +2880,8 @@
       "tags": [
         "Medicaid",
         "Executive Order",
-        "Program Integrity"
+        "Program Integrity",
+        "Medicare"
       ],
       "state": null,
       "source_type": "official",
@@ -2818,7 +2954,8 @@
       "tags": [
         "False Claims Act",
         "Legislation",
-        "Program Integrity"
+        "Program Integrity",
+        "False Claims"
       ],
       "state": null,
       "source_type": "official",
@@ -2840,9 +2977,9 @@
       "social_posts": [],
       "tags": [
         "Legislation",
-        "Pharmaceutical",
+        "Pharmacy Fraud",
         "False Claims",
-        "Pharmacy Fraud"
+        "Program Integrity"
       ],
       "state": null,
       "source_type": "official",
@@ -2889,7 +3026,9 @@
       "tags": [
         "Executive Order",
         "Cybersecurity",
-        "Organized Crime"
+        "Organized Crime",
+        "Foreign Nationals",
+        "Legislation"
       ],
       "state": null,
       "source_type": "official",
@@ -2912,7 +3051,10 @@
       "tags": [
         "False Claims Act",
         "Medicare Advantage",
-        "Whistleblower"
+        "Whistleblower",
+        "Medicaid",
+        "False Claims",
+        "Civil Action"
       ],
       "state": "NJ",
       "source_type": "news",
@@ -2936,7 +3078,8 @@
       "link_label": "Senate Finance Committee",
       "social_posts": [],
       "tags": [
-        "ACA"
+        "ACA",
+        "Congressional"
       ],
       "state": null,
       "source_type": "official",
@@ -3013,7 +3156,8 @@
         "Medicaid",
         "False Claims Act",
         "Medical Devices",
-        "Whistleblower"
+        "Whistleblower",
+        "False Claims"
       ],
       "state": "FL",
       "source_type": "news",
@@ -3094,9 +3238,9 @@
       "tags": [
         "Medicaid",
         "False Claims Act",
-        "Pharmaceutical",
+        "Pharmacy Fraud",
         "Whistleblower",
-        "Pharmacy Fraud"
+        "False Claims"
       ],
       "state": "CA",
       "source_type": "news",
@@ -3124,7 +3268,9 @@
       "tags": [
         "Medicaid",
         "Opioids",
-        "Kickbacks"
+        "Kickbacks",
+        "False Claims",
+        "MFCU"
       ],
       "state": "TX",
       "source_type": "news",
@@ -3169,7 +3315,8 @@
       "social_posts": [],
       "tags": [
         "Medicare",
-        "Unnecessary Procedures"
+        "Unnecessary Procedures",
+        "Civil Action"
       ],
       "date": "2026-03-12",
       "amount_numeric": 4750000,
@@ -3190,7 +3337,8 @@
       "agency": "HHS-OIG",
       "social_posts": [],
       "tags": [
-        "Medicaid"
+        "Medicaid",
+        "Indictment"
       ],
       "date": "2026-03-12",
       "amount_numeric": 0,
@@ -3283,7 +3431,8 @@
       "social_posts": [],
       "tags": [
         "Medicare",
-        "False Claims"
+        "False Claims",
+        "Civil Action"
       ],
       "date": "2026-03-09",
       "amount_numeric": 360000,
@@ -3328,7 +3477,8 @@
       "social_posts": [],
       "tags": [
         "Kickbacks",
-        "Pharmaceutical"
+        "Pharmacy Fraud",
+        "Civil Action"
       ],
       "date": "2026-03-06",
       "amount_numeric": 1000000,
@@ -3467,7 +3617,8 @@
         "Kickbacks",
         "COVID-19",
         "Telehealth",
-        "Indictment"
+        "Indictment",
+        "False Claims"
       ],
       "date": "2026-01-08",
       "amount_numeric": 30000000,
@@ -3494,7 +3645,9 @@
         "Medicaid",
         "AI",
         "Housing Fraud",
-        "Guilty Plea"
+        "Guilty Plea",
+        "Unnecessary Procedures",
+        "Tax Evasion"
       ],
       "date": "2026-02-10",
       "amount_numeric": 3500000,
@@ -3520,7 +3673,8 @@
         "DME Fraud",
         "Identity Theft",
         "Foreign Nationals",
-        "Indictment"
+        "Indictment",
+        "False Claims"
       ],
       "date": "2026-02-12",
       "amount_numeric": 10000000,
@@ -3545,7 +3699,10 @@
         "Medicare Advantage",
         "DME Fraud",
         "Money Laundering",
-        "Foreign Nationals"
+        "Foreign Nationals",
+        "Medicare",
+        "Unnecessary Procedures",
+        "Indictment"
       ],
       "date": "2026-03-05",
       "amount_numeric": 400000000,
@@ -3593,7 +3750,8 @@
       "tags": [
         "Medicare",
         "Home Health Fraud",
-        "NPI Fraud"
+        "NPI Fraud",
+        "False Claims"
       ],
       "date": "2026-03-12",
       "amount_numeric": 600000000,
@@ -3619,7 +3777,9 @@
         "AI",
         "National Takedown",
         "Organized Crime",
-        "Identity Theft"
+        "Identity Theft",
+        "False Claims",
+        "Foreign Nationals"
       ],
       "date": "2025-06-30",
       "amount_numeric": 0,
@@ -3642,7 +3802,8 @@
       "social_posts": [],
       "tags": [
         "Medicare Advantage",
-        "Upcoding"
+        "Upcoding",
+        "Medicare"
       ],
       "date": "2025-07-24",
       "amount_numeric": 0,
@@ -3669,7 +3830,8 @@
       "social_posts": [],
       "tags": [
         "Medicaid",
-        "Housing Fraud"
+        "Housing Fraud",
+        "Unnecessary Procedures"
       ],
       "date": "2025-08-15",
       "amount_numeric": 107000000,
@@ -3717,7 +3879,8 @@
         "Medicare",
         "COVID-19",
         "Lab Fraud",
-        "Foreign Nationals"
+        "Foreign Nationals",
+        "Indictment"
       ],
       "date": "2025-05-22",
       "amount_numeric": 227000000,
@@ -3768,7 +3931,9 @@
         "Medicaid",
         "Task Force",
         "Executive Order",
-        "Legislation"
+        "Legislation",
+        "Program Integrity",
+        "Strike Force"
       ],
       "entities": [],
       "state": null,
@@ -3841,7 +4006,7 @@
       "social_posts": [],
       "tags": [
         "Medicare",
-        "Pharmaceutical",
+        "Pharmacy Fraud",
         "Money Laundering",
         "Sentencing"
       ],
@@ -3869,7 +4034,8 @@
         "Medicare",
         "Upcoding",
         "Identity Theft",
-        "Money Laundering"
+        "Money Laundering",
+        "Indictment"
       ],
       "entities": [
         "Tubi Connect"
@@ -3973,7 +4139,8 @@
         "Medicaid",
         "False Claims",
         "Improper Payments",
-        "Program Integrity"
+        "Program Integrity",
+        "Overbilling"
       ],
       "entities": [],
       "state": "CT",
@@ -4025,7 +4192,8 @@
         "Genetic Testing",
         "False Claims",
         "Kickbacks",
-        "Guilty Plea"
+        "Guilty Plea",
+        "Unnecessary Procedures"
       ],
       "entities": [],
       "state": "FL",
@@ -4104,7 +4272,8 @@
         "Medicaid",
         "Congressional",
         "Program Integrity",
-        "Multi-State"
+        "Multi-State",
+        "Hospital Fraud"
       ],
       "entities": [
         "American Hospital Association"
@@ -4261,7 +4430,8 @@
         "Medicaid",
         "National Takedown",
         "Strike Force",
-        "Program Integrity"
+        "Program Integrity",
+        "False Claims"
       ],
       "entities": [
         "Office of Inspector General"
@@ -4313,7 +4483,8 @@
         "Medicare",
         "False Claims",
         "Overbilling",
-        "Hospital Fraud"
+        "Hospital Fraud",
+        "Indictment"
       ],
       "entities": [],
       "state": "CA",
@@ -4363,7 +4534,8 @@
       "tags": [
         "Medicare",
         "Home Health Fraud",
-        "False Claims"
+        "False Claims",
+        "Unnecessary Procedures"
       ],
       "entities": [],
       "state": "FL",
@@ -4439,7 +4611,8 @@
         "Medicaid",
         "False Claims",
         "Organized Crime",
-        "Multi-State"
+        "Multi-State",
+        "Indictment"
       ],
       "entities": [],
       "state": "MN",
@@ -4464,7 +4637,8 @@
         "Medicaid",
         "False Claims",
         "Home Health Fraud",
-        "Sentencing"
+        "Sentencing",
+        "Unnecessary Procedures"
       ],
       "entities": [],
       "state": "MD",
@@ -4514,7 +4688,8 @@
         "Medicaid",
         "National Takedown",
         "Strike Force",
-        "False Claims"
+        "False Claims",
+        "TRICARE"
       ],
       "entities": [
         "Department of Justice"
@@ -4568,7 +4743,8 @@
         "Medicare",
         "Medicaid",
         "National Takedown",
-        "False Claims"
+        "False Claims",
+        "Indictment"
       ],
       "entities": [],
       "state": null,
@@ -4643,7 +4819,8 @@
         "Medicare",
         "Medicaid",
         "False Claims",
-        "National Takedown"
+        "National Takedown",
+        "Indictment"
       ],
       "entities": [],
       "state": "NC",
@@ -4695,7 +4872,8 @@
         "Medicare",
         "Medicaid",
         "National Takedown",
-        "False Claims"
+        "False Claims",
+        "Indictment"
       ],
       "entities": [],
       "state": "SC",
@@ -4721,7 +4899,8 @@
         "Medicaid",
         "National Takedown",
         "Strike Force",
-        "False Claims"
+        "False Claims",
+        "Indictment"
       ],
       "entities": [],
       "state": null,
@@ -4746,7 +4925,9 @@
         "Medicare",
         "Medicaid",
         "False Claims",
-        "National Takedown"
+        "National Takedown",
+        "Unnecessary Procedures",
+        "Indictment"
       ],
       "entities": [],
       "state": "TX",
@@ -4795,7 +4976,8 @@
       "tags": [
         "Medicaid",
         "False Claims",
-        "Sentencing"
+        "Sentencing",
+        "Prenatal Care"
       ],
       "entities": [],
       "state": "WI",
@@ -4817,7 +4999,6 @@
       "social_posts": [],
       "tags": [
         "Opioids",
-        "Drug Diversion",
         "Medicare",
         "Medicaid",
         "False Claims",
@@ -4847,7 +5028,7 @@
         "Medicaid",
         "Pharmacy Fraud",
         "False Claims",
-        "Drug Diversion",
+        "Opioids",
         "Sentencing"
       ],
       "entities": [],
@@ -4870,9 +5051,10 @@
       "social_posts": [],
       "tags": [
         "Opioids",
-        "Pharmaceutical",
+        "Pharmacy Fraud",
         "False Claims Act",
-        "Kickbacks"
+        "Kickbacks",
+        "Tax Evasion"
       ],
       "entities": [
         "McKinsey & Company",
@@ -4922,7 +5104,6 @@
       "social_posts": [],
       "tags": [
         "Opioids",
-        "Drug Diversion",
         "National Takedown"
       ],
       "entities": [],
@@ -4944,7 +5125,6 @@
       "link_label": "DEA Press Release",
       "social_posts": [],
       "tags": [
-        "Drug Diversion",
         "Opioids",
         "Guilty Plea"
       ],
@@ -4968,7 +5148,7 @@
       "social_posts": [],
       "tags": [
         "Research Fraud",
-        "Pharmaceutical",
+        "Pharmacy Fraud",
         "Guilty Plea"
       ],
       "entities": [
@@ -5017,10 +5197,11 @@
       "link_label": "Legal Analysis",
       "social_posts": [],
       "tags": [
-        "Pharmaceutical",
+        "Pharmacy Fraud",
         "Kickbacks",
         "False Claims Act",
-        "Medicare"
+        "Medicare",
+        "Civil Action"
       ],
       "entities": [
         "Teva Pharmaceuticals"
@@ -5048,7 +5229,8 @@
         "Pharmacy Fraud",
         "False Claims Act",
         "Whistleblower",
-        "Nursing Home"
+        "Nursing Home",
+        "False Claims"
       ],
       "entities": [
         "CVS",
@@ -5098,7 +5280,7 @@
       "link_label": "Covington Analysis",
       "social_posts": [],
       "tags": [
-        "Pharmaceutical",
+        "Pharmacy Fraud",
         "Off-Label"
       ],
       "entities": [],
@@ -5121,8 +5303,6 @@
       "social_posts": [],
       "tags": [
         "Opioids",
-        "Pill Mill",
-        "Drug Diversion",
         "Sentencing"
       ],
       "entities": [],
@@ -5146,10 +5326,11 @@
       "social_posts": [],
       "tags": [
         "Opioids",
-        "Drug Diversion",
         "Medicare",
         "Medicaid",
-        "False Claims"
+        "False Claims",
+        "Unnecessary Procedures",
+        "Civil Action"
       ],
       "entities": [],
       "state": "CT",
@@ -5175,9 +5356,10 @@
         "Medicare",
         "Medicaid",
         "Lab Fraud",
-        "Drug Diversion",
         "Money Laundering",
-        "Sentencing"
+        "Sentencing",
+        "Unnecessary Procedures",
+        "False Claims"
       ],
       "entities": [],
       "state": "NC",
@@ -5200,8 +5382,6 @@
       "social_posts": [],
       "tags": [
         "Opioids",
-        "Pill Mill",
-        "Drug Diversion",
         "Multi-State",
         "Sentencing"
       ],
@@ -5227,8 +5407,6 @@
       "tags": [
         "Pharmacy Fraud",
         "Opioids",
-        "Pill Mill",
-        "Drug Diversion",
         "Identity Theft",
         "Sentencing"
       ],
@@ -5255,9 +5433,7 @@
       "social_posts": [],
       "tags": [
         "Opioids",
-        "Pill Mill",
-        "Drug Diversion",
-        "Pharmaceutical"
+        "Pharmacy Fraud"
       ],
       "entities": [
         "Atlantic Biologicals Corporation"
@@ -5281,8 +5457,7 @@
       "link_label": "DEA Press Release",
       "social_posts": [],
       "tags": [
-        "Opioids",
-        "Drug Diversion"
+        "Opioids"
       ],
       "entities": [],
       "state": "CA",
@@ -5305,8 +5480,6 @@
       "social_posts": [],
       "tags": [
         "Opioids",
-        "Pill Mill",
-        "Drug Diversion",
         "Sentencing"
       ],
       "entities": [],
@@ -5360,7 +5533,8 @@
         "Medicaid",
         "False Claims",
         "Identity Theft",
-        "Organized Crime"
+        "Organized Crime",
+        "Overbilling"
       ],
       "entities": [],
       "state": "MN",
@@ -5750,7 +5924,9 @@
         "Medicare Advantage",
         "Improper Payments",
         "Risk Adjustment",
-        "Program Integrity"
+        "Program Integrity",
+        "Medicare",
+        "Upcoding"
       ],
       "entities": [],
       "state": null,
@@ -5854,7 +6030,8 @@
         "Medicare",
         "Medicaid",
         "Improper Payments",
-        "Legislation"
+        "Legislation",
+        "Program Integrity"
       ],
       "entities": [],
       "state": null,
@@ -5906,7 +6083,8 @@
         "Medicare Advantage",
         "Risk Adjustment",
         "False Claims",
-        "Home Health Fraud"
+        "Home Health Fraud",
+        "Medicare"
       ],
       "entities": [
         "UnitedHealth"
@@ -5984,7 +6162,8 @@
       "tags": [
         "Medicare Advantage",
         "Kickbacks",
-        "Nursing Home"
+        "Nursing Home",
+        "Medicare"
       ],
       "entities": [
         "UnitedHealth"
@@ -6087,8 +6266,7 @@
       "tags": [
         "Medicaid",
         "Hospice Fraud",
-        "Organized Crime",
-        "Medi-Cal"
+        "Organized Crime"
       ],
       "entities": [],
       "state": "CA",
@@ -6140,7 +6318,8 @@
         "Medicaid",
         "Home Health Fraud",
         "False Claims Act",
-        "Whistleblower"
+        "Whistleblower",
+        "False Claims"
       ],
       "entities": [
         "Americare"
@@ -6222,7 +6401,6 @@
       "social_posts": [],
       "tags": [
         "Medicaid",
-        "Medi-Cal",
         "Behavioral Health"
       ],
       "entities": [
@@ -6250,7 +6428,6 @@
       "social_posts": [],
       "tags": [
         "Medicaid",
-        "Medi-Cal",
         "Kickbacks",
         "False Claims Act"
       ],
@@ -6307,10 +6484,9 @@
       "link_label": "CA AG Press Release",
       "social_posts": [],
       "tags": [
-        "Medi-Cal",
+        "Medicaid",
         "Kickbacks",
         "Lab Fraud",
-        "Stark Law",
         "Foreign Nationals"
       ],
       "entities": [
@@ -6342,7 +6518,8 @@
         "TRICARE",
         "Opioids",
         "Lab Fraud",
-        "Whistleblower"
+        "Whistleblower",
+        "Unnecessary Procedures"
       ],
       "entities": [
         "Bethany Medical Center"
@@ -6370,7 +6547,8 @@
       "tags": [
         "Medicaid",
         "False Claims",
-        "Home Health Fraud"
+        "Home Health Fraud",
+        "Civil Action"
       ],
       "entities": [
         "Reign & Inspirations"
@@ -6398,7 +6576,8 @@
       "tags": [
         "Medicaid",
         "Kickbacks",
-        "False Claims"
+        "False Claims",
+        "Unnecessary Procedures"
       ],
       "entities": [],
       "state": "NY",
@@ -6422,11 +6601,12 @@
       "link_label": "CA AG Press Release",
       "social_posts": [],
       "tags": [
-        "Medi-Cal",
-        "Drug Diversion",
-        "Pharmaceutical",
+        "Medicaid",
+        "Opioids",
+        "Pharmacy Fraud",
         "Kickbacks",
-        "Sentencing"
+        "Sentencing",
+        "Unnecessary Procedures"
       ],
       "entities": [],
       "state": "CA",
@@ -6452,7 +6632,8 @@
       "tags": [
         "Pharmacy Fraud",
         "Kickbacks",
-        "False Claims Act"
+        "False Claims Act",
+        "False Claims"
       ],
       "entities": [
         "Assured Rx"
@@ -6479,7 +6660,10 @@
       "tags": [
         "Medicaid",
         "Home Health Fraud",
-        "False Claims"
+        "False Claims",
+        "Unnecessary Procedures",
+        "Indictment",
+        "MFCU"
       ],
       "entities": [
         "Guardian Home Health Services"
@@ -6507,7 +6691,9 @@
       "tags": [
         "Medicaid",
         "Legislation",
-        "Program Integrity"
+        "Program Integrity",
+        "Organized Crime",
+        "MFCU"
       ],
       "entities": [],
       "state": "MN",
@@ -6583,7 +6769,8 @@
       "tags": [
         "Medicaid",
         "Improper Payments",
-        "Program Integrity"
+        "Program Integrity",
+        "MFCU"
       ],
       "entities": [],
       "state": "MS",
@@ -6606,9 +6793,8 @@
       "tags": [
         "Medicare",
         "Medicaid",
-        "Pharmaceutical",
-        "False Claims Act",
-        "Pharmacy Fraud"
+        "Pharmacy Fraud",
+        "False Claims Act"
       ],
       "entities": [
         "Mitias Orthopaedics"
@@ -6634,7 +6820,9 @@
         "Medicare",
         "Medicaid",
         "TRICARE",
-        "False Claims Act"
+        "False Claims Act",
+        "False Claims",
+        "Civil Action"
       ],
       "entities": [
         "AmeriHealth Clinics"
@@ -6686,7 +6874,8 @@
       "tags": [
         "Medicaid",
         "False Claims",
-        "National Takedown"
+        "National Takedown",
+        "Indictment"
       ],
       "entities": [],
       "state": "ND",
@@ -6766,7 +6955,9 @@
         "Home Health Fraud",
         "Medicaid",
         "False Claims",
-        "Sentencing"
+        "Sentencing",
+        "Unnecessary Procedures",
+        "Guilty Plea"
       ],
       "entities": [
         "Inspiring Angels LLC"
@@ -6795,7 +6986,9 @@
         "Medicare",
         "Medicaid",
         "TRICARE",
-        "Unnecessary Procedures"
+        "Unnecessary Procedures",
+        "False Claims",
+        "Civil Action"
       ],
       "entities": [
         "CVR Management LLC",
@@ -6826,7 +7019,9 @@
         "DME Fraud",
         "Foreign Nationals",
         "Money Laundering",
-        "Indictment"
+        "Indictment",
+        "Medicare",
+        "False Claims"
       ],
       "entities": [
         "Dublin Helping Hand"
@@ -6881,7 +7076,7 @@
         "Hospice Fraud",
         "Medicare",
         "Congressional",
-        "California"
+        "Overbilling"
       ],
       "entities": [],
       "state": "CA",
@@ -6936,7 +7131,8 @@
         "Sentencing",
         "Guilty Plea",
         "Genetic Testing",
-        "Lab Fraud"
+        "Lab Fraud",
+        "Unnecessary Procedures"
       ],
       "entities": [],
       "state": "AL",
@@ -6962,9 +7158,10 @@
         "Medicare",
         "Genetic Testing",
         "DME Fraud",
-        "False Statements",
+        "False Claims",
         "Guilty Plea",
-        "Sentencing"
+        "Sentencing",
+        "Unnecessary Procedures"
       ],
       "entities": [],
       "state": "FL",
@@ -6991,7 +7188,8 @@
         "Kickbacks",
         "False Claims Act",
         "Pharmacy Fraud",
-        "Civil Action"
+        "Civil Action",
+        "False Claims"
       ],
       "entities": [
         "Health Services Plus",
@@ -7022,7 +7220,7 @@
         "False Claims Act",
         "False Claims",
         "Assisted Living",
-        "Consent Judgment"
+        "Civil Action"
       ],
       "entities": [
         "Segal Arts LLC"
@@ -7109,7 +7307,9 @@
         "Upcoding",
         "Risk Adjustment",
         "Whistleblower",
-        "Civil Action"
+        "Civil Action",
+        "Medicare",
+        "False Claims"
       ],
       "entities": [
         "Aetna Inc."
@@ -7159,7 +7359,8 @@
       "link_label": "Hospice News Report",
       "social_posts": [],
       "tags": [
-        "Hospice Fraud"
+        "Hospice Fraud",
+        "Congressional"
       ],
       "entities": [],
       "state": "CA",
@@ -7182,8 +7383,8 @@
       "tags": [
         "Medicaid",
         "Program Integrity",
-        "Minnesota",
-        "CMS"
+        "CMS",
+        "Medicare"
       ],
       "entities": [],
       "state": "MN",
@@ -7207,7 +7408,8 @@
         "Kickbacks",
         "Lab Fraud",
         "COVID-19",
-        "Sentencing"
+        "Sentencing",
+        "Medicare"
       ],
       "entities": [],
       "state": "CA",
@@ -7228,7 +7430,9 @@
       "link_label": "NC-AG Report",
       "social_posts": [],
       "tags": [
-        "Sentencing"
+        "Sentencing",
+        "Medicaid",
+        "Tax Evasion"
       ],
       "entities": [],
       "state": "NC",
@@ -7253,10 +7457,10 @@
       "tags": [
         "Medicaid",
         "Disability Services",
-        "DME",
+        "DME Fraud",
         "HCBS",
-        "Policy Impact",
-        "DME Fraud"
+        "Tax Evasion",
+        "Congressional"
       ],
       "entities": [
         "CMS"
@@ -7283,9 +7487,7 @@
       "tags": [
         "Medicaid",
         "CMS",
-        "Hospice Fraud",
-        "Policy",
-        "State Investigations"
+        "Hospice Fraud"
       ],
       "entities": [
         "CMS",
@@ -7314,7 +7516,8 @@
         "Medicare",
         "False Claims Act",
         "Whistleblower",
-        "Civil Action"
+        "Civil Action",
+        "False Claims"
       ],
       "entities": [
         "Healthcare Associates of Texas"
@@ -7341,9 +7544,9 @@
       "social_posts": [],
       "tags": [
         "Medicaid",
-        "Criminal Enforcement",
+        "Sentencing",
         "Indictment",
-        "State Agency"
+        "False Claims"
       ],
       "entities": [],
       "state": "NY",
@@ -7366,8 +7569,7 @@
       "tags": [
         "Medicaid",
         "MFCU",
-        "Annual Report",
-        "Audit"
+        "Program Integrity"
       ],
       "entities": [
         "HHS-OIG"
