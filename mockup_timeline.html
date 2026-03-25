@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Header Spotlight Mockup</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Public+Sans:wght@300;400;500;600;700&display=swap" />
+  <style>
+    :root {
+      --paragon-blue: #002E6D;
+      --atlantic: #00A6CF;
+      --blaze: #FF941A;
+      --sunrise: #FFB866;
+      --almost-black: #303030;
+      --concrete: #6B6B6B;
+      --bg: #F4F6F9;
+      --radius: 0.3rem;
+      --shadow: 0 5px 15px rgba(0,0,0,.15);
+    }
+    * { box-sizing: border-box; }
+    body { background: var(--bg); font-family: 'Public Sans', 'Segoe UI', system-ui, sans-serif; color: var(--almost-black); margin: 0; font-size: 15px; }
+    h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
+
+    /* ============================================================
+       HEADER WITH INTEGRATED SPOTLIGHT
+       ============================================================ */
+    .dashboard-header {
+      background: var(--paragon-blue);
+      color: white;
+      box-shadow: var(--shadow);
+      border-bottom: 3px solid var(--blaze);
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    /* Left: logo + title */
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      flex-shrink: 0;
+    }
+    .header-seal { color: var(--blaze); font-size: 1.8rem; }
+    .header-title { font-family: 'Bona Nova', Georgia, serif; font-size: 1.4rem; font-weight: 700; }
+    .header-subtitle { font-size: 0.75rem; color: rgba(255,255,255,0.6); letter-spacing: 0.07em; text-transform: uppercase; font-weight: 500; }
+
+    /* Center: Rotating spotlight */
+    .spotlight-card {
+      flex: 0 1 480px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: var(--radius);
+      padding: 12px 18px;
+      position: relative;
+      overflow: hidden;
+      min-height: 80px;
+      display: flex;
+      align-items: center;
+    }
+    .spotlight-card::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 0; bottom: 0; width: 3px;
+      background: var(--blaze);
+    }
+
+    .spotlight-slide {
+      display: none;
+      width: 100%;
+      animation: fadeSlide 0.45s ease;
+    }
+    .spotlight-slide.active { display: flex; align-items: center; gap: 16px; }
+
+    @keyframes fadeSlide {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .spotlight-stat-col {
+      flex-shrink: 0;
+      text-align: right;
+      min-width: 90px;
+    }
+    .spotlight-eyebrow {
+      font-family: 'Public Sans', sans-serif;
+      font-size: 0.58rem;
+      color: var(--blaze);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-weight: 700;
+      margin-bottom: 2px;
+      white-space: nowrap;
+    }
+    .spotlight-stat {
+      font-family: 'Bona Nova', Georgia, serif;
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--sunrise);
+      line-height: 1.1;
+    }
+
+    .spotlight-text-col {
+      flex: 1;
+      min-width: 0;
+    }
+    .spotlight-desc {
+      font-family: 'Public Sans', sans-serif;
+      font-size: 0.75rem;
+      color: rgba(255,255,255,0.75);
+      line-height: 1.4;
+    }
+    .spotlight-link {
+      font-size: 0.68rem;
+      margin-top: 3px;
+    }
+    .spotlight-link a {
+      color: var(--atlantic);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .spotlight-link a:hover { text-decoration: underline; }
+
+    /* Dots */
+    .spotlight-dots {
+      position: absolute;
+      bottom: 6px;
+      right: 12px;
+      display: flex;
+      gap: 5px;
+    }
+    .spotlight-dot {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.2);
+      cursor: pointer;
+      border: none;
+      padding: 0;
+      transition: background 0.2s;
+    }
+    .spotlight-dot.active { background: var(--blaze); }
+    .spotlight-dot:hover { background: rgba(255,255,255,0.4); }
+
+    /* Right: Updated badge */
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+    .last-updated-badge {
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: var(--radius);
+      padding: 5px 14px;
+      font-size: 0.78rem;
+      color: rgba(255,255,255,0.85);
+      white-space: nowrap;
+    }
+
+    /* NARRATIVE BANNER */
+    .narrative-banner {
+      background: var(--paragon-blue);
+      padding: 16px 24px 18px;
+      border-top: 1px solid rgba(255,255,255,0.06);
+    }
+    .narrative-banner p {
+      font-family: 'Bona Nova', Georgia, serif;
+      font-size: 1.05rem;
+      line-height: 1.65;
+      color: rgba(255,255,255,0.85);
+      margin: 0;
+      max-width: 900px;
+    }
+    .narrative-banner .highlight {
+      color: var(--sunrise);
+      font-weight: 700;
+    }
+    .narrative-banner .narrative-sub {
+      font-family: 'Public Sans', sans-serif;
+      font-size: 0.72rem;
+      color: rgba(255,255,255,0.38);
+      margin-top: 6px;
+      letter-spacing: 0.03em;
+    }
+
+    /* FILTER BAR placeholder */
+    .filter-bar { background: #ffffff; border-bottom: 1px solid #d8dde6; box-shadow: 0 2px 8px rgba(0,46,109,0.08); padding: 10px 24px; }
+    .filter-bar-inner { display: flex; align-items: center; gap: 12px; color: var(--concrete); font-size: 0.85rem; }
+
+    .placeholder-content {
+      padding: 40px 24px;
+      text-align: center;
+      color: var(--concrete);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 900px) {
+      .dashboard-header { flex-wrap: wrap; }
+      .spotlight-card { flex: 1 1 100%; order: 3; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER WITH SPOTLIGHT -->
+<div class="dashboard-header">
+
+  <!-- Left: Title -->
+  <div class="header-left">
+    <i class="fa-solid fa-shield-halved header-seal"></i>
+    <div>
+      <div class="header-title">Health Care Fraud Dashboard</div>
+      <div class="header-subtitle">HHS &bull; CMS &bull; DOJ &bull; HHS-OIG &bull; White House</div>
+    </div>
+  </div>
+
+  <!-- Center: Rotating Spotlight -->
+  <div class="spotlight-card" id="spotlightCard">
+
+    <!-- Slide 1: ACA $35B -->
+    <div class="spotlight-slide active" data-index="0">
+      <div class="spotlight-stat-col">
+        <div class="spotlight-eyebrow">Paragon &mdash; ACA</div>
+        <div class="spotlight-stat">$35B</div>
+      </div>
+      <div class="spotlight-text-col">
+        <div class="spotlight-desc">Paid to insurers for ACA enrollees who never used their health plan in 2024</div>
+        <div class="spotlight-link"><a href="https://paragoninstitute.org/private-health/ghostbusting-aca-fraud-millions-who-dont-use-their-health-insurance-expose-abuse-in-the-program/" target="_blank">Read the research &rarr;</a></div>
+      </div>
+    </div>
+
+    <!-- Slide 2: Medicaid $1.1T -->
+    <div class="spotlight-slide" data-index="1">
+      <div class="spotlight-stat-col">
+        <div class="spotlight-eyebrow">Paragon &mdash; Medicaid</div>
+        <div class="spotlight-stat">$1.1T</div>
+      </div>
+      <div class="spotlight-text-col">
+        <div class="spotlight-desc">In improper federal Medicaid payments over the past decade&mdash;double what CMS officially reports</div>
+        <div class="spotlight-link"><a href="https://paragoninstitute.org/medicaid/medicaids-true-improper-payments-likely-double-those-reported-by-cms/" target="_blank">Read the research &rarr;</a></div>
+      </div>
+    </div>
+
+    <!-- Slide 3: 6.4M Ghost Enrollees -->
+    <div class="spotlight-slide" data-index="2">
+      <div class="spotlight-stat-col">
+        <div class="spotlight-eyebrow">Paragon &mdash; ACA</div>
+        <div class="spotlight-stat">6.4M</div>
+      </div>
+      <div class="spotlight-text-col">
+        <div class="spotlight-desc">Ineligible individuals enrolled in fully subsidized ACA plans in 2025</div>
+        <div class="spotlight-link"><a href="https://paragoninstitute.org/private-health/the-greater-obamacare-enrollment-fraud/" target="_blank">Read the research &rarr;</a></div>
+      </div>
+    </div>
+
+    <!-- Slide 4: Largest Enforcement -->
+    <div class="spotlight-slide" data-index="3">
+      <div class="spotlight-stat-col">
+        <div class="spotlight-eyebrow">Largest Action</div>
+        <div class="spotlight-stat">$14.6B</div>
+      </div>
+      <div class="spotlight-text-col">
+        <div class="spotlight-desc">DOJ charged 324 defendants in the largest healthcare fraud takedown in U.S. history</div>
+        <div class="spotlight-link"><a href="#">View in dashboard &rarr;</a></div>
+      </div>
+    </div>
+
+    <div class="spotlight-dots">
+      <button class="spotlight-dot active" data-target="0"></button>
+      <button class="spotlight-dot" data-target="1"></button>
+      <button class="spotlight-dot" data-target="2"></button>
+      <button class="spotlight-dot" data-target="3"></button>
+    </div>
+  </div>
+
+  <!-- Right: Updated badge -->
+  <div class="header-right">
+    <span class="last-updated-badge"><i class="fa-regular fa-clock"></i>&ensp;Updated: Mar 24, 2026</span>
+  </div>
+
+</div>
+
+<!-- NARRATIVE BANNER -->
+<div class="narrative-banner">
+  <p>
+    An estimated <span class="highlight">$60B&ndash;$259B</span> is lost to healthcare fraud every year&mdash;between
+    3% and 10% of total U.S. health spending. This dashboard tracks federal enforcement actions
+    as agencies work to close that gap.
+  </p>
+  <div class="narrative-sub">
+    NHCAA / HHS &mdash; based on 3&ndash;10% of ~$4.3T in annual U.S. healthcare expenditures
+  </div>
+</div>
+
+<!-- FILTER BAR placeholder -->
+<div class="filter-bar">
+  <div class="filter-bar-inner">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span>Search actions...</span>
+    <span style="margin-left:auto;">287 actions</span>
+  </div>
+</div>
+
+<!-- Placeholder -->
+<div class="placeholder-content">
+  Rotating spotlight card integrated into the header, centered between title and updated badge.
+  <br>No separate stats bar &mdash; the header does all the work. Cards start immediately below filters.
+</div>
+
+<script>
+(function() {
+  const slides = document.querySelectorAll('.spotlight-slide');
+  const dots = document.querySelectorAll('.spotlight-dot');
+  let current = 0;
+  let timer;
+
+  function show(index) {
+    slides.forEach(s => s.classList.remove('active'));
+    dots.forEach(d => d.classList.remove('active'));
+    slides[index].classList.add('active');
+    dots[index].classList.add('active');
+    current = index;
+  }
+
+  function next() {
+    show((current + 1) % slides.length);
+  }
+
+  function startTimer() {
+    timer = setInterval(next, 6000);
+  }
+
+  dots.forEach(dot => {
+    dot.addEventListener('click', () => {
+      clearInterval(timer);
+      show(parseInt(dot.dataset.target));
+      startTimer();
+    });
+  });
+
+  startTimer();
+})();
+</script>
+
+</body>
+</html>
