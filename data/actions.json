@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-03-25T15:54:02.062090",
+        "last_updated": "2026-03-26T16:21:15.610057",
         "version": "1.0"
     },
     "actions": [
@@ -7307,6 +7307,83 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "Congress"
+        },
+        {
+            "id": "doj-2026-03-26-483858630",
+            "date": "2026-03-26",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "OB/GYN Physician Agrees to Pay $507,500 to Resolve False Claims Act Allegations Connected to Fraudulent Prescription Scheme",
+            "description": "Dr. Valinda R. Nwadike, an OB/GYN physician in Baltimore, Maryland, agreed to pay $507,500 to settle False Claims Act allegations. She was involved in a telemarketing scheme designed to defraud Medicare and TRICARE through fraudulent prescription practices. The settlement resolves her liability for submitting false claims to these federal healthcare programs.",
+            "amount": "$507,500",
+            "amount_numeric": 507500,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-md/pr/obgyn-physician-agrees-pay-507500-resolve-false-claims-act-allegations-connected",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "TRICARE",
+                "False Claims Act",
+                "Telehealth",
+                "Pharmacy Fraud",
+                "False Claims"
+            ],
+            "entities": [
+                "Valinda R. Nwadike, MD"
+            ],
+            "state": "MD",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-03-26-3463440597",
+            "date": "2026-03-26",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Justice Department Secures the Denaturalization of Convicted Gun Trafficker and Health Care Fraudster, and Files Complaint Against Marriage Scammer",
+            "description": "The Department of Justice secured the denaturalization of a convicted gun trafficker and healthcare fraudster who obtained U.S. citizenship through fraud. The case involved an individual who committed healthcare fraud while unlawfully present in the United States and subsequently obtained citizenship fraudulently. The DOJ also filed a complaint against a third individual who obtained naturalization through marriage fraud. The denaturalization action resulted in the revocation of citizenship for the healthcare fraudster, representing a criminal enforcement outcome combining both fraud prosecution and immigration consequences.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.justice.gov/opa/pr/justice-department-secures-denaturalization-convicted-gun-trafficker-and-health-care",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Hospital Fraud",
+                "False Claims",
+                "Organized Crime"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-03-25-3742570485",
+            "date": "2026-03-25",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "Team Rehab Physical Therapy Agrees to Pay Nearly $5 Million To Resolve False Claims Act Allegations Related to Fraudulent Billing Scheme",
+            "description": "Team Rehab Physical Therapy agreed to pay $4.95 million to resolve False Claims Act allegations involving a fraudulent billing scheme. The company submitted false claims to Medicare and other federal healthcare programs for physical therapy services. The settlement resolves allegations that Team Rehab overbilled and engaged in improper billing practices. The case was handled by the HHS-OIG and represents a significant civil enforcement action against healthcare billing fraud.",
+            "amount": "$4.95M",
+            "amount_numeric": 4950000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/team-rehab-physical-therapy-agrees-to-pay-nearly-5-million-to-resolve-false-claims-act-allegations-related-to-fraudulent-billing-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims Act",
+                "Overbilling",
+                "Program Integrity"
+            ],
+            "entities": [
+                "Team Rehab Physical Therapy"
+            ],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
         }
     ]
 }
