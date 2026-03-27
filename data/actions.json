@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-03-26T16:21:15.610057",
+        "last_updated": "2026-03-27T15:11:53.132335",
         "version": "1.0"
     },
     "actions": [
@@ -7384,6 +7384,141 @@
             "state": null,
             "source_type": "official",
             "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-03-27-1818468755",
+            "date": "2026-03-27",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Texas Fugitive Apprehended and Sentenced to Over 12 Years in Prison for $61M Telemarketing Fraud Scheme Targeting Medicare Beneficiaries",
+            "description": "A Texas man was sentenced to 150 months (12.5 years) in prison for organizing and leading a $61.5 million healthcare fraud and wire fraud conspiracy targeting Medicare beneficiaries. The scheme involved deceptive telemarketing to thousands of Medicare beneficiaries who were fraudulently induced to purchase unnecessary orthotic braces, foot baths, and genetic tests. The defendant used telemarketing to target vulnerable Medicare beneficiaries, sending them medical devices and tests they did not need and did not order.",
+            "amount": "$61.5M",
+            "amount_numeric": 61500000,
+            "officials": [],
+            "link": "https://www.justice.gov/opa/pr/texas-fugitive-apprehended-and-sentenced-over-12-years-prison-61m-telemarketing-fraud-scheme",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Telehealth",
+                "Genetic Testing",
+                "DME Fraud",
+                "False Claims",
+                "Overbilling",
+                "Telemarketing"
+            ],
+            "entities": [],
+            "state": "TX",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-03-26-2596829459",
+            "date": "2026-03-26",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Federal Jury Finds Mother and Daughter Guilty of Medicare Fraud Scheme and Payment of Illegal Kickbacks",
+            "description": "A federal jury in San Diego convicted Cindy Justice and her daughter Ashleigh Davis of multiple counts of healthcare fraud, payment of illegal kickbacks, and conspiracy. Justice was the owner and president of PureScience Rx, a pharmacy in Poway, California, while Davis served as operations manager and licensed pharmacy technician. The case involved a Medicare fraud scheme utilizing illegal kickback payments. Both defendants were found guilty on all charges.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-sdca/pr/federal-jury-finds-mother-and-daughter-guilty-medicare-fraud-scheme-and-payment",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Pharmacy Fraud",
+                "Kickbacks",
+                "Anti-Kickback",
+                "False Claims"
+            ],
+            "entities": [
+                "PureScience Rx"
+            ],
+            "state": "CA",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-03-26-639819139",
+            "date": "2026-03-26",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "OB/GYN Physician Agrees to Pay $507,500 to Resolve False Claims Act Allegations Connected to Fraudulent Prescription Scheme",
+            "description": "An OB/GYN physician agreed to pay $507,500 to resolve False Claims Act allegations related to a fraudulent prescription scheme. The settlement resolves claims that the physician submitted false claims to Medicare and/or Medicaid for prescriptions that were not medically necessary or were issued without proper medical justification. The case was investigated by HHS-OIG and involved improper billing practices in connection with prescription medications.",
+            "amount": "$507,500",
+            "amount_numeric": 507500,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/obgyn-physician-agrees-to-pay-507500-to-resolve-false-claims-act-allegations-connected-to-fraudulent-prescription-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims Act",
+                "Pharmacy Fraud",
+                "Medicare",
+                "Medicaid",
+                "Overbilling"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-03-26-3027135574",
+            "date": "2026-03-26",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Federal Jury Finds Mother and Daughter Guilty of Medicare Fraud Scheme and Payment of Illegal Kickbacks",
+            "description": "A federal jury convicted a mother and daughter of Medicare fraud and illegal kickback payments. The case involved a scheme to defraud Medicare through false claims and the payment of unlawful kickbacks to beneficiaries or healthcare providers. The defendants were found guilty on multiple counts related to the Anti-Kickback Statute and False Claims Act violations. Specific dollar amounts and program details are referenced in the source but not provided in the title/description excerpt.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/federal-jury-finds-mother-and-daughter-guilty-of-medicare-fraud-scheme-and-payment-of-illegal-kickbacks/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims Act",
+                "Kickbacks",
+                "Anti-Kickback"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-03-26-2437417196",
+            "date": "2026-03-26",
+            "agency": "Media",
+            "type": "Civil Action",
+            "title": "Judge rules Aetna, Elevance, Humana must face Medicare kickback allegations",
+            "description": "A judge denied a motion to dismiss a lawsuit alleging a broker kickback scheme involving CVS Health’s Aetna, Elevance Health and Humana, according to a March 25 filing in the U.S. District Court in Massachusetts. The judge also ruled that Medicare Advantage brokers GoHealth, SelectQuote and eHealth will continue to face litigation. In 2025, the […] The post Judge rules Aetna, Elevance, Humana must face Medicare kickback allegations appeared first on Becker's Payer Issues | Payer News .",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.beckerspayer.com/legal/judge-rules-aetna-elevance-humana-must-face-medicare-kickback-allegations/",
+            "link_label": "Becker's Payer Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare Advantage",
+                "Kickbacks",
+                "Anti-Kickback"
+            ],
+            "entities": [
+                "Aetna",
+                "CVS Health",
+                "Elevance Health",
+                "Humana",
+                "GoHealth",
+                "SelectQuote",
+                "eHealth"
+            ],
+            "state": "MA",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
