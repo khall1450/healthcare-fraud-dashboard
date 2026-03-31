@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-03-30T15:57:33.220382",
+        "last_updated": "2026-03-31T15:54:58.276071",
         "version": "1.0"
     },
     "actions": [
@@ -7626,6 +7626,61 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "CMS"
+        },
+        {
+            "id": "hhs-oig-2026-03-30-840231812",
+            "date": "2026-03-30",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "American Health Companies, dba American Health Partners, Agrees to Pay Over Two Million Dollars to Resolve False Claims Act Liability Involving a Tennessee Nursing Home",
+            "description": "American Health Companies, doing business as American Health Partners, agreed to pay over $2 million to resolve False Claims Act liability related to a Tennessee nursing home. The settlement resolves allegations that the company submitted false claims to Medicare and/or Medicaid. The case was handled by the HHS Office of Inspector General, indicating improper billing practices at the nursing home facility.",
+            "amount": "$2M",
+            "amount_numeric": 2000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/american-health-companies-dba-american-health-partners-agrees-to-pay-over-two-million-dollars-to-resolve-false-claims-act-liability-involving-a-tennessee-nursing-home/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Nursing Home",
+                "False Claims Act",
+                "Medicare",
+                "Medicaid"
+            ],
+            "entities": [
+                "American Health Companies",
+                "American Health Partners"
+            ],
+            "state": "TN",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-03-31-545418387",
+            "date": "2026-03-31",
+            "agency": "Media",
+            "type": "Investigation",
+            "title": "Novartis Whistleblower Advances Kickback Lawsuit Toward Trial",
+            "description": "A federal district court in New York ruled that a whistleblower can proceed with a False Claims Act lawsuit against Novartis Pharmaceutical Corp. alleging the company paid kickbacks to physicians to increase prescriptions of Gilenya, a multiple sclerosis treatment drug. The court's decision allows the case to advance toward trial. The lawsuit claims Novartis engaged in Anti-Kickback Statute violations by providing improper payments to doctors to boost drug prescriptions, thereby defrauding federal healthcare programs.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://news.bloomberglaw.com/health-law-and-business/novartis-whistleblower-advances-kickback-lawsuit-toward-trial?utm_source=rss&utm_medium=HLNW&utm_campaign=0000019d-4400-d2f0-a5dd-fc66c4c80001",
+            "link_label": "Bloomberg Law Report",
+            "social_posts": [],
+            "tags": [
+                "Kickbacks",
+                "Anti-Kickback",
+                "False Claims Act",
+                "Whistleblower",
+                "Pharmaceutical"
+            ],
+            "entities": [
+                "Novartis Pharmaceutical Corp."
+            ],
+            "state": "NY",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
