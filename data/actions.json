@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-03-31T15:54:58.276071",
+        "last_updated": "2026-04-01T15:59:35.711220",
         "version": "1.0"
     },
     "actions": [
@@ -7676,6 +7676,34 @@
             ],
             "entities": [
                 "Novartis Pharmaceutical Corp."
+            ],
+            "state": "NY",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "media-2026-03-31-1888546365",
+            "date": "2026-03-31",
+            "agency": "Media",
+            "type": "Civil Action",
+            "title": "Novartis Can't Nix FCA Suit Alleging MS Drug Kickbacks",
+            "description": "A New York federal judge ruled that Novartis must face a False Claims Act lawsuit alleging the pharmaceutical company improperly induced doctors to prescribe its multiple sclerosis drug through kickback schemes. The judge found the relator plausibly demonstrated scienter (intent to defraud) by presenting evidence that Novartis maintained detailed records tracking prescription volumes written by physicians for the drug. The case involves allegations of Anti-Kickback Statute violations and false claims submitted to federal healthcare programs. The lawsuit is proceeding past the motion to dismiss stage.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2459590?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "False Claims Act",
+                "Kickbacks",
+                "Anti-Kickback",
+                "Pharmaceutical",
+                "Medicare"
+            ],
+            "entities": [
+                "Novartis"
             ],
             "state": "NY",
             "source_type": "news",
