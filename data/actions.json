@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-04-01T15:59:35.711220",
+        "last_updated": "2026-04-02T15:39:27.398805",
         "version": "1.0"
     },
     "actions": [
@@ -7709,6 +7709,63 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "doj-2026-04-02-1798136913",
+            "date": "2026-04-02",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "Advanced Urology and Jitesh Patel will pay $14 million to settle False Claims Act case involving allegations of fraudulent billing and unnecessary medical procedures",
+            "description": "Advanced Urology and owner Jitesh Patel settled False Claims Act allegations for $14 million involving fraudulent billing and unnecessary medical procedures. The case alleged the urology practice submitted false claims to Medicare and Medicaid for procedures that were not medically necessary or were improperly billed. Patel, as the owner and operator, was held responsible for the billing practices of the organization. The settlement resolves the civil fraud investigation without admission of liability.",
+            "amount": "$14M",
+            "amount_numeric": 14000000,
+            "officials": [
+                "Jitesh Patel"
+            ],
+            "link": "https://www.justice.gov/usao-ndga/pr/advanced-urology-and-jitesh-patel-will-pay-14-million-settle-false-claims-act-case",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "False Claims Act",
+                "Unnecessary Procedures",
+                "Overbilling",
+                "Hospital Fraud"
+            ],
+            "entities": [
+                "Advanced Urology"
+            ],
+            "state": "GA",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-04-02-1352751387",
+            "date": "2026-04-02",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Friend of ex-NYC Mayor Eric Adams indicted on health care fraud charges",
+            "description": "Zhan Petrosyants, a friend of former New York City Mayor Eric Adams, was indicted by a Manhattan federal grand jury on healthcare fraud charges. The indictment alleges Petrosyants' involvement in a fraud scheme that defrauded medical insurance programs of tens of millions of dollars. Petrosyants was taken into federal custody on Tuesday evening and appeared before the court. The specific details of the fraud scheme and programs targeted are mentioned but not fully elaborated in the available description.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [
+                "Eric Adams"
+            ],
+            "link": "https://thehill.com/homenews/state-watch/5812278-friend-eric-adams-indicted-health-care-fraud-charges/",
+            "link_label": "The Hill Report",
+            "social_posts": [],
+            "tags": [
+                "False Claims",
+                "Medicare",
+                "Medicaid"
+            ],
+            "entities": [
+                "Zhan Petrosyants"
+            ],
+            "state": "NY",
+            "source_type": "news",
+            "auto_fetched": true
         }
     ]
 }
