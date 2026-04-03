@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-04-02T15:39:27.398805",
+        "last_updated": "2026-04-03T14:31:23.366652",
         "version": "1.0"
     },
     "actions": [
@@ -7765,6 +7765,106 @@
             ],
             "state": "NY",
             "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-04-02-520581540",
+            "date": "2026-04-02",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "8 Arrested in Health Care Fraud Takedown, Including Owners of Hospices that Billed Taxpayers Millions of Dollars to Serve the ‘Dying’",
+            "description": "Eight individuals were arrested in a healthcare fraud takedown involving hospice owners who allegedly billed taxpayers millions of dollars. The case involves hospice operators who fraudulently billed Medicare and Medicaid for services to terminally ill patients. The arrested individuals, including hospice owners, are accused of submitting false claims and overbilling government healthcare programs. The HHS-OIG led the enforcement action resulting in criminal charges against the defendants.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/8-arrested-in-health-care-fraud-takedown-including-owners-of-hospices-that-billed-taxpayers-millions-of-dollars-to-serve-the-dying/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Hospice Fraud",
+                "Medicare",
+                "Medicaid",
+                "False Claims",
+                "National Takedown",
+                "Criminal Enforcement"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-04-02-3359468225",
+            "date": "2026-04-02",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Former Medicaid Provider Sentenced to Federal Prison for Health Care Fraud and Aggravated Identity Theft",
+            "description": "A former Medicaid provider was sentenced to federal prison for health care fraud and aggravated identity theft. The individual fraudulently billed Medicaid for services and unlawfully used beneficiary identities in connection with the fraud scheme. The case involved false claims submitted to the Medicaid program. The sentence represents a criminal conviction for healthcare fraud targeting a state Medicaid program.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/former-medicaid-provider-sentenced-to-federal-prison-for-health-care-fraud-and-aggravated-identity-theft/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "False Claims",
+                "Identity Theft"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-04-02-666224431",
+            "date": "2026-04-02",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "Advanced Urology and Jitesh Patel will pay $14 million to settle False Claims Act case involving allegations of fraudulent billing and unnecessary medical procedures",
+            "description": "Advanced Urology and its owner Jitesh Patel agreed to pay $14 million to settle False Claims Act allegations involving fraudulent billing and unnecessary medical procedures. The settlement resolves claims that the urology practice submitted false claims to Medicare and other federal health programs for procedures that were not medically necessary or were billed improperly. This civil settlement was reached through HHS-OIG enforcement action.",
+            "amount": "$14M",
+            "amount_numeric": 14000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/advanced-urology-and-jitesh-patel-will-pay-14-million-to-settle-false-claims-act-case-involving-allegations-of-fraudulent-billing-and-unnecessary-medical-procedures/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Unnecessary Procedures",
+                "False Claims Act",
+                "Overbilling",
+                "Hospital Fraud"
+            ],
+            "entities": [
+                "Advanced Urology",
+                "Jitesh Patel"
+            ],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-04-02-2286886544",
+            "date": "2026-04-02",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Former Medicaid Provider Sentenced to Federal Prison for Health Care Fraud and Aggravated Identity Theft",
+            "description": "A former Medicaid provider was sentenced to federal prison for health care fraud and aggravated identity theft. The defendant submitted false claims to the Medicaid program and unlawfully used beneficiaries' personal identifying information. The case involved fraudulent billing to the Medicaid program. The sentencing represents the conclusion of a criminal prosecution by the U.S. Attorney's Office for the Middle District of Alabama.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-mdal/pr/former-medicaid-provider-sentenced-federal-prison-health-care-fraud-and-aggravated",
+            "link_label": "DOJ-USAO Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "False Claims",
+                "Identity Theft"
+            ],
+            "entities": [],
+            "state": "AL",
+            "source_type": "official",
             "auto_fetched": true
         }
     ]
