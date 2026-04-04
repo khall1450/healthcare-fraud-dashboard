@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-04-03T14:31:23.366652",
+        "last_updated": "2026-04-04T14:05:11.884260",
         "version": "1.0"
     },
     "actions": [
@@ -7865,6 +7865,30 @@
             "entities": [],
             "state": "AL",
             "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-04-03-184015708",
+            "date": "2026-04-03",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "8 Arrested in $50M California Hospice, Health Care Fraud Scheme",
+            "description": "Eight individuals have been arrested for their alleged involvement in a $50 million hospice and health care fraud scheme in California. The U.S. Department of Justice (DOJ) announced the arrests on Friday in a statement. The individuals are charged with running “sham” hospice care facilities that allegedly billed Medicare for patients who were not eligible, […] The post 8 Arrested in $50M California Hospice, Health Care Fraud Scheme appeared first on Hospice News .",
+            "amount": "$50M",
+            "amount_numeric": 50000000,
+            "officials": [],
+            "link": "https://hospicenews.com/2026/04/03/8-arrested-in-50m-california-hospice-health-care-fraud-scheme/",
+            "link_label": "Hospice News Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Hospice Fraud",
+                "False Claims",
+                "Multi-State"
+            ],
+            "entities": [],
+            "state": "CA",
+            "source_type": "news",
             "auto_fetched": true
         }
     ]
