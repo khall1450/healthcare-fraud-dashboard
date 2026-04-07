@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-04-06T14:39:42.230314",
+        "last_updated": "2026-04-07T16:17:27.011341",
         "version": "1.0"
     },
     "actions": [
@@ -7889,6 +7889,34 @@
             "entities": [],
             "state": "CA",
             "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-04-03-2185107328",
+            "date": "2026-04-03",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Florida Man Pleads Guilty in Health Care Fraud and Kickback Scheme Involving “Foot Baths”",
+            "description": "A Florida man pleaded guilty to healthcare fraud and kickback violations involving a scheme centered on fraudulent 'foot bath' medical devices. The defendant submitted false claims to Medicare and Medicaid for foot bath treatments that were not medically necessary and were not actually provided to patients. The scheme involved kickbacks paid to patient recruiters and healthcare providers to refer patients for these unnecessary treatments. The case demonstrates a coordinated effort to defraud federal healthcare programs through phantom billing of durable medical equipment.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/florida-man-pleads-guilty-in-health-care-fraud-and-kickback-scheme-involving-foot-baths/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "DME Fraud",
+                "False Claims",
+                "Kickbacks",
+                "Anti-Kickback",
+                "Phantom Billing",
+                "Medical Devices"
+            ],
+            "entities": [],
+            "state": "FL",
+            "source_type": "official",
             "auto_fetched": true
         }
     ]
