@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-04-08T13:49:58.232592",
+        "last_updated": "2026-04-09T13:59:56.065380",
         "version": "1.0"
     },
     "actions": [
@@ -7918,6 +7918,32 @@
             "state": "FL",
             "source_type": "official",
             "auto_fetched": true
+        },
+        {
+            "id": "media-2026-04-08-1413709732",
+            "date": "2026-04-08",
+            "agency": "State Agency",
+            "type": "Civil Action",
+            "title": "$37M Award For Whistleblowers Nixed In Medicaid Fraud Row",
+            "description": "A Texas state appeals court vacated a $37 million whistleblower award in a Medicaid fraud settlement against Xerox, ruling that the whistleblowers' cases were based on publicly available information rather than original investigation. The case involved Medicaid fraud allegations against Xerox. Three whistleblowers had been awarded a portion of the state settlement under False Claims Act provisions, but the court determined they were not entitled to the award because their allegations were derived from public sources. The decision effectively eliminates the whistleblower incentive payment in this Medicaid settlement matter.",
+            "amount": "$37M",
+            "amount_numeric": 37000000,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2462932?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "False Claims Act",
+                "Whistleblower"
+            ],
+            "entities": [
+                "Xerox"
+            ],
+            "state": "TX",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
