@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-04-09T13:59:56.065380",
+        "last_updated": "2026-04-10T13:26:48.201668",
         "version": "1.0"
     },
     "actions": [
@@ -7941,6 +7941,33 @@
                 "Xerox"
             ],
             "state": "TX",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "media-2026-04-10-895047914",
+            "date": "2026-04-10",
+            "agency": "State Agency",
+            "type": "Criminal Enforcement",
+            "title": "21 Hospice Fraud Suspects Charged in $267M Plot; 5 Arrested",
+            "description": "California Attorney General Rob Bonta has announced hospice fraud charges against 21 suspects in a $267 million scheme. Five of the suspects were arrested after Wednesday morning raids of 10 locations, dubbed Operation Skip Trace. Also in the searches, law enforcement recovered two handguns and more than $757,000 in cash. “This isn’t a political game […] The post 21 Hospice Fraud Suspects Charged in $267M Plot; 5 Arrested appeared first on Hospice News .",
+            "amount": "$267M",
+            "amount_numeric": 267000000,
+            "officials": [
+                "Rob Bonta"
+            ],
+            "link": "https://hospicenews.com/2026/04/10/21-hospice-fraud-suspects-charged-in-267m-plot-5-arrested/",
+            "link_label": "Hospice News Report",
+            "social_posts": [],
+            "tags": [
+                "Hospice Fraud",
+                "False Claims",
+                "Multi-State",
+                "Criminal Enforcement"
+            ],
+            "entities": [],
+            "state": "CA",
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
