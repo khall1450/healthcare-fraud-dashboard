@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-04-10T13:26:48.201668",
+        "last_updated": "2026-04-11T13:14:22.372057",
         "version": "1.0"
     },
     "actions": [
@@ -7971,6 +7971,57 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "doj-2026-04-10-1461471060",
+            "date": "2026-04-10",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Slidell Doctor Sentenced For $6.6 Million In Health Care Fraud",
+            "description": "Dr. Robert Tassin, age 67, of Slidell, Louisiana, was sentenced on April 9, 2026, for conspiracy to commit healthcare fraud in connection with a scheme to bill Medicare for medically unnecessary cancer genetic tests. The scheme resulted in approximately $6.6 million in fraudulent billings to Medicare. Tassin was convicted under 18 U.S.C. §§ 1347 and 1349 (healthcare fraud conspiracy statutes). The case was prosecuted by the United States Attorney's Office for the Eastern District of Louisiana.",
+            "amount": "$6.6M",
+            "amount_numeric": 6600000,
+            "officials": [
+                "David I. Courcelle"
+            ],
+            "link": "https://www.justice.gov/usao-edla/pr/slidell-doctor-sentenced-66-million-health-care-fraud",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Genetic Testing",
+                "False Claims",
+                "Unnecessary Procedures"
+            ],
+            "entities": [
+                "Robert Tassin, M.D."
+            ],
+            "state": "LA",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-04-10-3085601230",
+            "date": "2026-04-10",
+            "agency": "Media",
+            "type": "Investigation",
+            "title": "Trump administration admits a glaring error in its accusations about New York health care fraud",
+            "description": "The Trump administration acknowledged a significant error in figures it used to justify a fraud probe into New York's Medicaid program. The administration had cited specific fraud allegations and dollar amounts to support the investigation, but admitted this week that the data contained material errors. This correction undermines the statistical foundation for the fraud probe, though the investigation itself continues. The incident highlights concerns about the accuracy of claims data used to initiate Medicaid enforcement actions.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.statnews.com/2026/04/10/new-york-health-care-fraud-accusations-cms-admits-mistake/?utm_campaign=rss",
+            "link_label": "STAT News Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Program Integrity"
+            ],
+            "entities": [],
+            "state": "NY",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "CMS"
         }
     ]
 }
