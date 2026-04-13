@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-04-12T13:16:35.389336",
+        "last_updated": "2026-04-13T13:57:45.141482",
         "version": "1.0"
     },
     "actions": [
@@ -8022,6 +8022,50 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "CMS"
+        },
+        {
+            "id": "hhs-oig-2026-04-10-2927946064",
+            "date": "2026-04-10",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Slidell Doctor Sentenced For $6.6 Million In Health Care Fraud",
+            "description": "A doctor from Slidell was sentenced for orchestrating a healthcare fraud scheme that defrauded federal healthcare programs of $6.6 million. The case involved false claims and overbilling submitted to Medicare and/or Medicaid. The sentencing represents the conclusion of a criminal prosecution for healthcare fraud. Specific details about the fraud scheme, the doctor's name, and sentencing terms would be contained in the full HHS-OIG press release.",
+            "amount": "$6.6M",
+            "amount_numeric": 6600000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/slidell-doctor-sentenced-for-66-million-in-health-care-fraud/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "False Claims",
+                "Hospital Fraud",
+                "Overbilling"
+            ],
+            "entities": [],
+            "state": "LA",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "congress-2026-04-09-1170495907",
+            "date": "2026-04-09",
+            "agency": "Congress",
+            "type": "Technology/Innovation",
+            "title": "Working Families Tax Cuts Fight Medicaid Fraud",
+            "description": "",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "http://www.finance.senate.gov/chairmans-news/working-families-tax-cuts-fight-medicaid-fraud",
+            "link_label": "S-Finance Press Release",
+            "social_posts": [],
+            "tags": [],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
         }
     ]
 }
