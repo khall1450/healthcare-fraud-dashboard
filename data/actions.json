@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-04-13T13:57:45.141482",
+        "last_updated": "2026-04-14T14:01:47.724279",
         "version": "1.0"
     },
     "actions": [
@@ -8066,6 +8066,88 @@
             "state": null,
             "source_type": "official",
             "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-04-13-3585786378",
+            "date": "2026-04-13",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Podiatrist and Pharmaceutical Sales Representative Sentenced in $3.2 Million Healthcare Fraud Conspiracy Involving Unlicensed Person Performing Skin Grafts",
+            "description": "Felipe Ruiz, a 52-year-old podiatrist from Fresno, and Jose Gabriel Aguirre, a 53-year-old pharmaceutical sales representative from Clovis, were each sentenced to 63 months in prison for conspiracy to commit healthcare fraud involving a $3.2 million scheme. The scheme involved performing skin grafts through an unlicensed person, defrauding Medicare and other federal healthcare programs. Both defendants were convicted of health care fraud conspiracy and received identical prison sentences.",
+            "amount": "$3.2M",
+            "amount_numeric": 3200000,
+            "officials": [
+                "Jennifer L. Thurston"
+            ],
+            "link": "https://www.justice.gov/usao-edca/pr/podiatrist-and-pharmaceutical-sales-representative-sentenced-32-million-healthcare",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "Unnecessary Procedures",
+                "Kickbacks"
+            ],
+            "entities": [
+                "Felipe Ruiz",
+                "Jose Gabriel Aguirre"
+            ],
+            "state": "CA",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-04-13-2760433052",
+            "date": "2026-04-13",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Podiatrist and Pharmaceutical Sales Representative Sentenced in $3.2 Million Healthcare Fraud Conspiracy Involving Unlicensed Person Performing Skin Grafts",
+            "description": "A podiatrist and pharmaceutical sales representative were sentenced in connection with a $3.2 million healthcare fraud conspiracy involving an unlicensed person performing skin grafts. The scheme defrauded Medicare and other healthcare programs through false claims for medical services, including skin graft procedures performed by an individual without proper licensure or qualifications. The defendants submitted fraudulent billing claims and engaged in kickback arrangements related to pharmaceutical sales. Both defendants received criminal sentences as a result of their convictions.",
+            "amount": "$3.2M",
+            "amount_numeric": 3200000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/podiatrist-and-pharmaceutical-sales-representative-sentenced-in-32-million-healthcare-fraud-conspiracy-involving-unlicensed-person-performing-skin-grafts/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "False Claims Act",
+                "Kickbacks",
+                "Unnecessary Procedures",
+                "Overbilling",
+                "Wound Care"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-04-13-574381133",
+            "date": "2026-04-13",
+            "agency": "Media",
+            "type": "Civil Action",
+            "title": "Ill. Judge Wants More Proof To Recalculate Kickback Damages",
+            "description": "An Illinois federal judge is overseeing the recalculation of damages in a civil case involving a home health company that engaged in a referral kickback scheme. The judge indicated she needs more complete and reliable evidence to determine the appropriate damages amount but has allowed the government to continue offsetting Medicare payments as part of its collection efforts on the judgment. The case involves improper referral kickbacks in the home health program.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2464603?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Home Health",
+                "Kickbacks",
+                "Anti-Kickback",
+                "Medicare",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": "IL",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
