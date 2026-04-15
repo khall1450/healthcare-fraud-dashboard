@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-04-14T14:01:47.724279",
+        "last_updated": "2026-04-15T13:55:20.485736",
         "version": "1.0"
     },
     "actions": [
@@ -8049,25 +8049,6 @@
             "auto_fetched": true
         },
         {
-            "id": "congress-2026-04-09-1170495907",
-            "date": "2026-04-09",
-            "agency": "Congress",
-            "type": "Technology/Innovation",
-            "title": "Working Families Tax Cuts Fight Medicaid Fraud",
-            "description": "",
-            "amount": null,
-            "amount_numeric": 0,
-            "officials": [],
-            "link": "http://www.finance.senate.gov/chairmans-news/working-families-tax-cuts-fight-medicaid-fraud",
-            "link_label": "S-Finance Press Release",
-            "social_posts": [],
-            "tags": [],
-            "entities": [],
-            "state": null,
-            "source_type": "official",
-            "auto_fetched": true
-        },
-        {
             "id": "doj-2026-04-13-3585786378",
             "date": "2026-04-13",
             "agency": "DOJ",
@@ -8148,6 +8129,55 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "doj-2026-04-14-4293298520",
+            "date": "2026-04-14",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Florida Nursing Assistant Sentenced to Nine Years in Prison for $11.4M Health Care Fraud Scheme Targeting Medicare Beneficiaries",
+            "description": "A Florida nursing assistant was sentenced to nine years in prison for his role in an $11.4 million health care fraud and wire fraud conspiracy targeting Medicare beneficiaries. The scheme involved sending thousands of unnecessary orthotic braces to hundreds of Medicare beneficiaries. The defendant was ordered to pay $3,712,345.70 in restitution and $724,871 in forfeiture. Medicare was the defrauded program.",
+            "amount": "$11.4M",
+            "amount_numeric": 11400000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-sdfl/pr/florida-nursing-assistant-sentenced-nine-years-prison-114m-health-care-fraud-scheme",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "DME Fraud",
+                "False Claims",
+                "Unnecessary Procedures"
+            ],
+            "entities": [],
+            "state": "FL",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-04-14-3233329168",
+            "date": "2026-04-14",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Florida Nursing Assistant Sentenced to Nine Years in Prison for $11.4M Health Care Fraud Scheme Targeting Medicare Beneficiaries",
+            "description": "A Florida nursing assistant was sentenced to nine years in prison for orchestrating an $11.4 million healthcare fraud scheme targeting Medicare beneficiaries. The defendant exploited their position to submit false claims to Medicare, likely involving unnecessary services or phantom billing related to their nursing assistant duties. The case resulted in a significant prison sentence, demonstrating federal enforcement action against individual healthcare fraud perpetrators.",
+            "amount": "$11.4M",
+            "amount_numeric": 11400000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/florida-nursing-assistant-sentenced-to-nine-years-in-prison-for-114m-health-care-fraud-scheme-targeting-medicare-beneficiaries/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Nursing Home",
+                "False Claims",
+                "False Claims Act",
+                "Phantom Billing"
+            ],
+            "entities": [],
+            "state": "FL",
+            "source_type": "official",
+            "auto_fetched": true
         }
     ]
 }
