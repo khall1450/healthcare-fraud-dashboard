@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-04-15T13:55:20.485736",
+        "last_updated": "2026-04-16T14:03:54.650241",
         "version": "1.0"
     },
     "actions": [
@@ -8178,6 +8178,58 @@
             "state": "FL",
             "source_type": "official",
             "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-04-15-2442108447",
+            "date": "2026-04-15",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "United States Sues Illinois Doctor for Fraudulent Billing in Durable Medical Equipment Scheme",
+            "description": "The United States filed a civil lawsuit against an Illinois-based doctor for engaging in fraudulent billing practices related to durable medical equipment (DME). The suit alleges the physician submitted false claims to Medicare for DME that was not medically necessary or was not actually provided to patients. The action seeks to recover improperly paid funds and civil penalties under the False Claims Act. The case is being pursued by the Department of Justice on behalf of the federal government to combat fraud in the DME program.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/united-states-sues-illinois-doctor-for-fraudulent-billing-in-durable-medical-equipment-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "DME Fraud",
+                "False Claims Act",
+                "Unnecessary Procedures"
+            ],
+            "entities": [],
+            "state": "IL",
+            "source_type": "official",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "media-2026-04-15-422699835",
+            "date": "2026-04-15",
+            "agency": "Media",
+            "type": "Administrative Action",
+            "title": "Feds Suspend 23 Home Health Orgs, 447 Hospices Over $600M Medicare Fraud",
+            "description": "Federal agents suspended 447 hospices and 23 home health agencies in the greater Los Angeles area for allegedly defrauding Medicare of an estimated $600 million. The suspensions represent a significant enforcement action targeting widespread fraud in the hospice and home health sectors in California. The California Hospice and Palliative Care Association supported the suspensions as necessary action against fraudulent providers. No specific individual defendants or organizations were named in the available description.",
+            "amount": "$600M",
+            "amount_numeric": 600000000,
+            "officials": [],
+            "link": "https://homehealthcarenews.com/2026/04/feds-suspend-23-home-health-orgs-447-hospices-over-600m-medicare-fraud/",
+            "link_label": "Home Health Care News Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Hospice Fraud",
+                "Home Health Fraud",
+                "False Claims",
+                "Multi-State",
+                "Program Integrity"
+            ],
+            "entities": [],
+            "state": "CA",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "HHS-OIG"
         }
     ]
 }
