@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-04-16T14:03:54.650241",
+        "last_updated": "2026-04-17T13:47:01.902218",
         "version": "1.0"
     },
     "actions": [
@@ -8230,6 +8230,55 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "HHS-OIG"
+        },
+        {
+            "id": "doj-2026-04-16-381019267",
+            "date": "2026-04-16",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Former Teacher Pleads Guilty in $51 Million Medicare Fraud Scheme in National Fraud Enforcement Division Prosecution",
+            "description": "Jeanett Valenzuela Ayub, a former teacher, pleaded guilty in federal court to conspiracy to launder millions of dollars in healthcare fraud proceeds and paying $3.7 million in unlawful kickbacks as part of a $51 million Medicare fraud scheme. The case was prosecuted by the National Fraud Enforcement Division. Ayub admitted to her role in the conspiracy involving the laundering of health care fraud proceeds and kickback payments. The plea represents a resolution in a significant Medicare fraud investigation.",
+            "amount": "$51M",
+            "amount_numeric": 51000000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-sdca/pr/former-teacher-pleads-guilty-51-million-medicare-fraud-scheme-national-fraud",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims Act",
+                "Kickbacks",
+                "Anti-Kickback",
+                "Money Laundering",
+                "National Takedown"
+            ],
+            "entities": [],
+            "state": "CA",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-04-16-3159281215",
+            "date": "2026-04-16",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Former Teacher Pleads Guilty in $51 Million Medicare Fraud Scheme in National Fraud Enforcement Division Prosecution",
+            "description": "A former teacher pleaded guilty in a $51 million Medicare fraud scheme prosecuted by the National Fraud Enforcement Division. The defendant defrauded Medicare through an illegal healthcare scheme. This guilty plea represents a significant enforcement action resulting in criminal liability for the perpetrator. The case was investigated and prosecuted as part of coordinated federal efforts to combat healthcare fraud targeting the Medicare program.",
+            "amount": "$51M",
+            "amount_numeric": 51000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/former-teacher-pleads-guilty-in-51-million-medicare-fraud-scheme-in-national-fraud-enforcement-division-prosecution/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "National Takedown"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
         }
     ]
 }
