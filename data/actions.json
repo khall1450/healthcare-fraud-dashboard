@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-04-20T14:00:23.463108",
+        "last_updated": "2026-04-21T13:59:50.369110",
         "version": "1.0"
     },
     "actions": [
@@ -8303,6 +8303,87 @@
             "state": "MI",
             "source_type": "official",
             "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-04-20-3864524132",
+            "date": "2026-04-20",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Former Pharmacy President Sentenced to 24 Months in Prison for Health Care Fraud and Kickback Scheme Involving Compounded Medications",
+            "description": "A former pharmacy president was sentenced to 24 months in federal prison for operating a healthcare fraud and kickback scheme involving compounded medications. The case involved illegally paying kickbacks to healthcare providers in exchange for prescriptions of compounded drugs, resulting in false claims submitted to federal healthcare programs. The scheme defrauded Medicare and Medicaid by billing for unnecessary compounded medications. The defendant has been convicted and sentenced to prison time.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/former-pharmacy-president-sentenced-to-24-months-in-prison-for-health-care-fraud-and-kickback-scheme-involving-compounded-medications/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Pharmacy Fraud",
+                "Kickbacks",
+                "Anti-Kickback",
+                "False Claims",
+                "Medicare",
+                "Medicaid"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "gao-2026-04-21-549269149",
+            "date": "2026-04-21",
+            "agency": "GAO",
+            "type": "Audit",
+            "title": "Medicare: CMS’s Use of Data Analytics to Identify and Prevent Fraud",
+            "description": "The Government Accountability Office (GAO) issued a report examining how the Centers for Medicare & Medicaid Services (CMS) uses data analytics to identify and prevent fraud in traditional Medicare. The report notes that Medicare is designated as a high-risk program due to its complexity and susceptibility to fraud, with fraudsters commonly targeting durable medical equipment claims and using stolen or inappropriately obtained beneficiary identifiers to submit claims for unnecessary or never-provided services. The report assesses CMS's data analytics capabilities and approaches for detecting anomalous patterns indicative of emerging fraud schemes.",
+            "amount": "$4 billion",
+            "amount_numeric": 4000000000.0,
+            "officials": [],
+            "link": "https://www.gao.gov/products/gao-26-107799",
+            "link_label": "GAO Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "DME Fraud",
+                "False Claims",
+                "Audit",
+                "Program Integrity",
+                "AI"
+            ],
+            "entities": [
+                "CMS",
+                "Centers for Medicare & Medicaid Services"
+            ],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true,
+            "related_agency": "CMS"
+        },
+        {
+            "id": "media-2026-04-20-3774927693",
+            "date": "2026-04-20",
+            "agency": "Media",
+            "type": "Criminal Enforcement",
+            "title": "Justices Won't Block Multimillion-Dollar Health Fraud Retrial",
+            "description": "The U.S. Supreme Court declined to review a case involving a defendant accused of pocketing $12 million as part of a larger $140 million scheme to defraud public and private healthcare programs. The defendant sought to avoid a second trial but the Supreme Court's denial of review means the retrial will proceed. The case involves healthcare fraud affecting multiple public and private insurance programs.",
+            "amount": "$140M",
+            "amount_numeric": 140000000,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2467323?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "False Claims",
+                "Medicare",
+                "Medicaid",
+                "National Takedown"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
