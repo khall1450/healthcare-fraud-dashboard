@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-04-21T13:59:50.369110",
+        "last_updated": "2026-04-22T14:00:11.697892",
         "version": "1.0"
     },
     "actions": [
@@ -8381,6 +8381,86 @@
             ],
             "entities": [],
             "state": null,
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "media-2026-04-21-4223761455",
+            "date": "2026-04-21",
+            "agency": "Congress",
+            "type": "Congressional Hearing",
+            "title": "Hospice Fraud a ‘Terrifying’ Beneficiary Protection Issue",
+            "description": "Stakeholders testified before the U.S. House of Representatives Ways & Means Committee regarding widespread hospice and home health fraud occurring in multiple U.S. markets, characterizing it as a failure to protect Medicare beneficiaries. California, Arizona, Nevada, Texas, Georgia, and Ohio were identified as fraud hotspots where fraudulent schemes began emerging in 2021. The hearing focused on the systemic nature of hospice and home health fraud as a beneficiary protection issue requiring congressional attention and potential legislative or regulatory remedies.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://hospicenews.com/2026/04/21/hospice-fraud-a-terrifying-beneficiary-protection-issue/",
+            "link_label": "Hospice News Report",
+            "social_posts": [],
+            "tags": [
+                "Hospice Fraud",
+                "Home Health Fraud",
+                "Medicare",
+                "Congressional",
+                "Multi-State",
+                "Program Integrity"
+            ],
+            "entities": [],
+            "state": "AZ",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "HHS-OIG"
+        },
+        {
+            "id": "media-2026-04-21-4249232873",
+            "date": "2026-04-21",
+            "agency": "CMS",
+            "type": "Executive Order",
+            "title": "Oz unveils nationwide plan to tackle Medicaid fraud at POLITICO Summit",
+            "description": "CMS Administrator Dr. Mehmet Oz announced a nationwide plan to combat Medicaid fraud at the POLITICO Summit. Oz indicated that the Centers for Medicare & Medicaid Services will conduct more aggressive audits of states that do not comply with fraud-fighting requests. The announcement represents a federal initiative to increase oversight and enforcement of state Medicaid programs to address fraud and improper payments.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [
+                "Dr. Mehmet Oz"
+            ],
+            "link": "https://www.politico.com/news/2026/04/21/oz-medicaid-fraud-plan-politico-summit-00883279",
+            "link_label": "Politico Health Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Program Integrity",
+                "Improper Payments"
+            ],
+            "entities": [
+                "Centers for Medicare & Medicaid Services"
+            ],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-04-21-2343389133",
+            "date": "2026-04-21",
+            "agency": "Media",
+            "type": "Criminal Enforcement",
+            "title": "Woman Pleads Guilty In $51M Medicare Fraud Scheme",
+            "description": "A San Diego woman pleaded guilty in California federal court to conducting a $51 million Medicare fraud scheme involving billing for fake prescriptions. The defendant attempted to conceal the scheme through money laundering and paid kickbacks to doctors to participate in the fraudulent billing. The case involves Medicare fraud, pharmaceutical fraud, kickback violations, and money laundering.",
+            "amount": "$51M",
+            "amount_numeric": 51000000,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2466799?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Pharmacy Fraud",
+                "Kickbacks",
+                "False Claims",
+                "Money Laundering"
+            ],
+            "entities": [],
+            "state": "CA",
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
