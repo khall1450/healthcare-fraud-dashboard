@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-04-22T14:00:11.697892",
+        "last_updated": "2026-04-23T14:02:05.973451",
         "version": "1.0"
     },
     "actions": [
@@ -8464,6 +8464,52 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "hhs-oig-2026-04-22-568781565",
+            "date": "2026-04-22",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "Eye Practice and Physician Owner Agree to Pay $415,000 to Resolve Allegations of False Claims Act to Medicare",
+            "description": "An eye practice and its physician owner agreed to pay $415,000 to resolve allegations of violations of the False Claims Act involving Medicare. The settlement addresses claims that the practice submitted false or improper claims to Medicare. The case was resolved through a civil settlement without admission of liability, and the funds will be returned to the Medicare program.",
+            "amount": "$415,000",
+            "amount_numeric": 415000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/eye-practice-and-physician-owner-agree-to-pay-415000-to-resolve-allegations-of-false-claims-act-to-medicare/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims Act",
+                "False Claims"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-04-22-2002411534",
+            "date": "2026-04-22",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Columbia, Missouri Doctor Arrested, Accused of Health Care Fraud, Illegally Prescribing Drugs",
+            "description": "A physician in Columbia, Missouri was arrested and accused of healthcare fraud and illegal drug prescribing. The doctor allegedly engaged in unlawful prescribing practices that defrauded federal healthcare programs. Details regarding specific fraud schemes, dollar amounts, and the exact programs targeted were not provided in the available information. The case resulted in arrest and is being prosecuted for healthcare fraud violations.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/columbia-missouri-doctor-arrested-accused-of-health-care-fraud-illegally-prescribing-drugs/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Pharmacy Fraud",
+                "Opioids",
+                "False Claims"
+            ],
+            "entities": [],
+            "state": "MO",
+            "source_type": "official",
+            "auto_fetched": true
         }
     ]
 }
