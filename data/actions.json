@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-04-23T14:02:05.973451",
+        "last_updated": "2026-04-24T13:54:14.911291",
         "version": "1.0"
     },
     "actions": [
@@ -8510,6 +8510,34 @@
             "state": "MO",
             "source_type": "official",
             "auto_fetched": true
+        },
+        {
+            "id": "media-2026-04-23-4150704538",
+            "date": "2026-04-23",
+            "agency": "Media",
+            "type": "Administrative Action",
+            "title": "Hospice Fraud Trends Highlight Risk For At-Home Care Providers In Expanding Enforcement Net",
+            "description": "Federal agents suspended 447 hospices and 23 home health agencies in the greater Los Angeles area based on allegations of Medicare fraud totaling an estimated $600 million. The suspensions are part of a broader federal crackdown on fraud across Medicare and Medicaid programs. The action highlights increasing federal scrutiny of home-based care providers, including hospice and home health services, as part of expanded enforcement efforts to combat improper payments and fraudulent billing practices.",
+            "amount": "$600M",
+            "amount_numeric": 600000000,
+            "officials": [],
+            "link": "https://homehealthcarenews.com/2026/04/hospice-fraud-trends-highlight-risk-for-at-home-care-providers-in-expanding-enforcement-net/",
+            "link_label": "Home Health Care News Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "Hospice Fraud",
+                "Home Health Fraud",
+                "False Claims",
+                "Program Integrity",
+                "Multi-State"
+            ],
+            "entities": [],
+            "state": "CA",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "HHS-OIG"
         }
     ]
 }
