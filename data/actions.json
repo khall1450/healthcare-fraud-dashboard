@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-04-29T14:19:31.187193",
+        "last_updated": "2026-04-30T14:13:39.155894",
         "version": "1.0"
     },
     "actions": [
@@ -8563,6 +8563,55 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "hhs-oig-2026-04-28-2101122472",
+            "date": "2026-04-28",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "United States Seizes More Than $2 Million from Pasadena-Based Advanced Wound Care Clinic Accused of Medicare Fraud",
+            "description": "The United States seized more than $2 million in assets from a Pasadena-based advanced wound care clinic accused of committing Medicare fraud. The seizure was executed as part of federal enforcement action targeting improper billing and fraudulent claims submitted to the Medicare program. The specific details of the fraud scheme alleged against the clinic relate to wound care services. This civil action represents asset forfeiture in connection with the fraud investigation.",
+            "amount": "$2M+",
+            "amount_numeric": 2000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/united-states-seizes-more-than-2-million-from-pasadena-based-advanced-wound-care-clinic-accused-of-medicare-fraud/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Wound Care",
+                "False Claims",
+                "Program Integrity"
+            ],
+            "entities": [
+                "Advanced Wound Care Clinic (Pasadena)"
+            ],
+            "state": "CA",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-04-24-1957489042",
+            "date": "2026-04-24",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Pharmacist Sentenced to 30 months in Prison for Role in $2M Health Care Fraud Scheme",
+            "description": "A pharmacist was sentenced to 30 months in federal prison for his role in a $2 million healthcare fraud scheme. The case involved fraudulent billing and potentially other schemes related to pharmacy operations. The sentence represents criminal enforcement action by federal authorities against healthcare fraud perpetrators. Specific details about the fraud scheme, victim programs, and co-conspirators would be detailed in the full enforcement record.",
+            "amount": "$2M",
+            "amount_numeric": 2000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/pharmacist-sentenced-to-30-months-in-prison-for-role-in-2m-health-care-fraud-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Pharmacy Fraud",
+                "False Claims",
+                "Criminal Enforcement"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
         }
     ]
 }
