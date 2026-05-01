@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-04-30T14:13:39.155894",
+        "last_updated": "2026-05-01T13:43:13.674817",
         "version": "1.0"
     },
     "actions": [
@@ -8610,6 +8610,79 @@
             ],
             "entities": [],
             "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-04-30-1698003474",
+            "date": "2026-04-30",
+            "agency": "DOJ",
+            "type": "Administrative Action",
+            "title": "The Fraud Division Launches West Coast Strike Force to Target Health Care Fraud Schemes Across Arizona, Nevada, and Northern California",
+            "description": "The Department of Justice's National Fraud Enforcement Division announced the formation of the West Coast Health Care Fraud Strike Force, a multi-district enforcement initiative spanning Arizona, Nevada, and Northern California. The strike force unites the Division's Health Care Fraud Section with U.S. Attorney's Offices across these three districts to coordinate and intensify enforcement efforts against health care fraud schemes in the region. This represents a structural expansion of federal fraud enforcement capacity on the West Coast.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-ndca/pr/fraud-division-launches-west-coast-strike-force-target-health-care-fraud-schemes",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Strike Force",
+                "Multi-State",
+                "Program Integrity"
+            ],
+            "entities": [],
+            "state": "AZ",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-04-30-3720922980",
+            "date": "2026-04-30",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Pharmacy Technician Pleads Guilty to $5.6M Health Care Fraud Scheme and Illegal Distribution of Oxycodone",
+            "description": "A pharmacy technician pleaded guilty to a $5.6 million healthcare fraud scheme involving the illegal distribution of oxycodone. The defendant fraudulently obtained controlled substances from the pharmacy and distributed them illegally while also submitting false claims to Medicare and Medicaid for medications that were not actually dispensed to patients. The case involved both healthcare fraud and illegal opioid distribution, resulting in a guilty plea.",
+            "amount": "$5.6M",
+            "amount_numeric": 5600000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/pharmacy-technician-pleads-guilty-to-56m-health-care-fraud-scheme-and-illegal-distribution-of-oxycodone/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "Pharmacy Fraud",
+                "Opioids",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-04-30-1958578836",
+            "date": "2026-04-30",
+            "agency": "HHS-OIG",
+            "type": "Administrative Action",
+            "title": "The Fraud Division Launches West Coast Strike Force to Target Health Care Fraud Schemes Across Arizona, Nevada, and Northern California",
+            "description": "The HHS-OIG Fraud Division announced the launch of a new West Coast Strike Force targeting healthcare fraud schemes across Arizona, Nevada, and Northern California. This initiative represents an expansion of the agency's enforcement efforts to combat fraudulent billing, kickback schemes, and other healthcare fraud violations in the region. The strike force will coordinate investigations and prosecutions to identify and hold accountable healthcare providers and suppliers engaged in fraud against federal healthcare programs.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/the-fraud-division-launches-west-coast-strike-force-to-target-health-care-fraud-schemes-across-arizona-nevada-and-northern-california/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Strike Force",
+                "Multi-State",
+                "Program Integrity",
+                "National Takedown"
+            ],
+            "entities": [],
+            "state": "AZ",
             "source_type": "official",
             "auto_fetched": true
         }
