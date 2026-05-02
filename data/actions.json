@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-05-01T13:43:13.674817",
+        "last_updated": "2026-05-02T13:26:56.896742",
         "version": "1.0"
     },
     "actions": [
@@ -8685,6 +8685,103 @@
             "state": "AZ",
             "source_type": "official",
             "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-05-01-4107333240",
+            "date": "2026-05-01",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "Mobile PET Scan Provider to Pay $8.33 Million to Resolve Allegations of False Claims Act Violations Based on Unlawful Kickbacks to Medical Practices",
+            "description": "Modern Nuclear Inc. (MNI), a mobile PET scan provider headquartered in La Habra, California, agreed to pay $8,334,350.71 plus additional amounts based on future revenues to resolve False Claims Act allegations. MNI paid referring cardiologists excessive fees to supervise PET scans in violation of the Anti-Kickback Statute. The settlement resolves claims that these unlawful kickbacks resulted in false claims being submitted to federal healthcare programs. This civil settlement was based on MNI's ability to pay.",
+            "amount": "$8.33M",
+            "amount_numeric": 8334351,
+            "officials": [],
+            "link": "https://www.justice.gov/opa/pr/mobile-pet-scan-provider-pay-833-million-resolve-allegations-false-claims-act-violations",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims Act",
+                "Kickbacks",
+                "Anti-Kickback"
+            ],
+            "entities": [
+                "Modern Nuclear Inc."
+            ],
+            "state": "CA",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-05-01-1575789743",
+            "date": "2026-05-01",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Oklahoma City Woman Sentenced to Federal Prison for $1.1 Million Health Care Fraud Scheme",
+            "description": "An Oklahoma City woman was sentenced to federal prison for her role in a $1.1 million healthcare fraud scheme. The case involved fraudulent billing and claims submitted to federal healthcare programs. The defendant was convicted and received a prison sentence as part of the enforcement action. The specifics of the fraud scheme, particular programs defrauded, and the defendant's name and role are referenced in the DOJ press release from the U.S. Attorney's Office for the Western District of Oklahoma.",
+            "amount": "$1.1M",
+            "amount_numeric": 1100000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-wdok/pr/oklahoma-city-woman-sentenced-federal-prison-11-million-health-care-fraud-scheme",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": "OK",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-05-01-637739015",
+            "date": "2026-05-01",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "O.C. Medical Scan Provider Agrees to Pay $8.3 Million to Resolve False Claims Allegations It Unlawfully Paid Doctors Kickbacks",
+            "description": "An Orange County, California medical imaging company agreed to pay $8.3 million to resolve False Claims Act allegations that it unlawfully paid kickbacks to physicians in violation of the Anti-Kickback Statute. The company allegedly made improper payments to doctors to induce them to refer patients for medical scanning services, which resulted in false claims submitted to federal healthcare programs. The settlement resolves civil liability without admission of wrongdoing.",
+            "amount": "$8.3M",
+            "amount_numeric": 8300000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-cdca/pr/oc-medical-scan-provider-agrees-pay-83-million-resolve-false-claims-allegations-it",
+            "link_label": "DOJ-USAO Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims",
+                "False Claims Act",
+                "Kickbacks",
+                "Anti-Kickback",
+                "Medicare"
+            ],
+            "entities": [],
+            "state": "CA",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-05-01-1922294588",
+            "date": "2026-05-01",
+            "agency": "Media",
+            "type": "Structural/Organizational",
+            "title": "DOJ Forms Health Care Fraud Strike Force",
+            "description": "The U.S. Department of Justice’s (DOJ) National Fraud Enforcement Division has established a new task force spanning several federal agencies to join the battle against hospice fraud. The DOJ has launched the West Coast Health Care Fraud Strike Force, which is a multi-district enforcement initiative. It unites the DOJ’s Health Care Fraud Section with the […] The post DOJ Forms Health Care Fraud Strike Force appeared first on Hospice News .",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://hospicenews.com/2026/05/01/doj-forms-health-care-fraud-strike-force/",
+            "link_label": "Hospice News Report",
+            "social_posts": [],
+            "tags": [
+                "Hospice Fraud",
+                "Strike Force",
+                "National Takedown"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
