@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-05-04T14:19:57.835154",
+        "last_updated": "2026-05-05T14:13:16.980760",
         "version": "1.0"
     },
     "actions": [
@@ -8828,6 +8828,34 @@
             ],
             "entities": [],
             "state": "MI",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-05-04-3343909381",
+            "date": "2026-05-04",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Two Sentenced to Prison for $522M Genetic Testing Fraud and Illegal Kickback Scheme Targeting Medicare and Medicaid",
+            "description": "Two individuals were sentenced to prison for orchestrating a $522 million genetic testing fraud and illegal kickback scheme targeting Medicare and Medicaid. The scheme involved fraudulent billing for genetic tests that were often medically unnecessary, coupled with kickbacks paid to healthcare providers and marketers to refer patients for testing. The defendants exploited both federal healthcare programs through false claims submitted for genetic testing services that lacked medical necessity. Both defendants received prison sentences as part of this enforcement action by HHS-OIG.",
+            "amount": "$522M",
+            "amount_numeric": 522000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/two-sentenced-to-prison-for-522m-genetic-testing-fraud-and-illegal-kickback-scheme-targeting-medicare-and-medicaid/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "Genetic Testing",
+                "Kickbacks",
+                "Anti-Kickback",
+                "False Claims",
+                "False Claims Act",
+                "Criminal Enforcement"
+            ],
+            "entities": [],
+            "state": null,
             "source_type": "official",
             "auto_fetched": true
         }
