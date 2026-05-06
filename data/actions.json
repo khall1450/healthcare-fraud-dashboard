@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-05-05T14:13:16.980760",
+        "last_updated": "2026-05-06T14:32:05.492575",
         "version": "1.0"
     },
     "actions": [
@@ -8858,6 +8858,35 @@
             "state": null,
             "source_type": "official",
             "auto_fetched": true
+        },
+        {
+            "id": "media-2025-10-08-2648772999",
+            "date": "2025-10-08",
+            "agency": "Congress",
+            "type": "Congressional Hearing",
+            "title": "<a href=\"https://www.fiercehealthcare.com/regulatory/american-medical-associations-handling-cpt-codes-enters-congress-crosshairs\" hreflang=\"en\">House Oversight chair asks CMS how CPT coding complexity fuels improper billing</a>",
+            "description": "A House Oversight Committee chair sent a letter to CMS criticizing the complexity of Current Procedural Terminology (CPT) codes managed by the American Medical Association, arguing that the proprietary system's complexity creates conditions where billing inaccuracies and improper billing can occur. The lawmaker is calling for reforms to address how the system's complexity fuels improper payments to healthcare providers. This represents congressional scrutiny of billing code infrastructure as a contributing factor to healthcare fraud and improper payments.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.fiercehealthcare.com/regulatory/american-medical-associations-handling-cpt-codes-enters-congress-crosshairs",
+            "link_label": "Fierce Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Congressional",
+                "Improper Payments",
+                "Program Integrity",
+                "False Claims",
+                "Overbilling"
+            ],
+            "entities": [
+                "American Medical Association",
+                "Centers for Medicare & Medicaid Services"
+            ],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "CMS"
         }
     ]
 }
