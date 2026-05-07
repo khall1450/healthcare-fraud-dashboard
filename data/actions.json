@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-05-06T14:32:05.492575",
+        "last_updated": "2026-05-07T14:33:17.701340",
         "version": "1.0"
     },
     "actions": [
@@ -8887,6 +8887,83 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "CMS"
+        },
+        {
+            "id": "hhs-oig-2026-05-06-3860150431",
+            "date": "2026-05-06",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "Nonprofit Health Care Provider Agrees to Pay $750,000 to Resolve False Claims Act Allegations Involving Misbranded Contraceptives",
+            "description": "A nonprofit health care provider agreed to pay $750,000 to resolve False Claims Act allegations involving the distribution of misbranded contraceptives. The provider submitted false claims to federal healthcare programs by providing contraceptive products that were not properly labeled or approved for the uses for which they were dispensed. The settlement resolves allegations that the organization violated the False Claims Act by knowingly presenting or causing to be presented claims for misbranded pharmaceutical products to Medicare, Medicaid, or other federal health programs.",
+            "amount": "$750,000",
+            "amount_numeric": 750000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/nonprofit-health-care-provider-agrees-to-pay-750000-to-resolve-false-claims-act-allegations-involving-misbranded-contraceptives/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims Act",
+                "Pharmaceutical",
+                "Medicare",
+                "Medicaid"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-05-06-2263830421",
+            "date": "2026-05-06",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "Vascular Practice and Physician Agree to Pay More Than $6.73M to Settle False Claims Act Allegations of Unnecessary Vascular Interventional Procedures",
+            "description": "A vascular practice and physician agreed to pay $6.73 million to settle False Claims Act allegations involving unnecessary vascular interventional procedures billed to Medicare and other federal healthcare programs. The settlement resolves claims that the defendants performed and billed for procedures that were not medically necessary, resulting in false claims submitted to government-funded healthcare programs. This civil settlement was reached through the HHS Office of Inspector General's enforcement efforts to recover improper payments from healthcare providers.",
+            "amount": "$6.73M",
+            "amount_numeric": 6730000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/vascular-practice-and-physician-agree-to-pay-more-than-673m-to-settle-false-claims-act-allegations-of-unnecessary-vascular-interventional-procedures/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims Act",
+                "Unnecessary Procedures",
+                "Program Integrity"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-05-06-3641259747",
+            "date": "2026-05-06",
+            "agency": "State Agency",
+            "type": "Civil Action",
+            "title": "Attorney General Jeff Jackson Secures $584,000 to Resolve Medicaid Fraud Allegations Against Greensboro Treatment Center",
+            "description": "FOR IMMEDIATE RELEASE Tuesday, May 5, 2026 Contact: comms@ncdoj.gov 919-538-2809 RALEIGH – Attorney General Jeff Jackson and the United States Attorney’s Office for the Middle District of North Carolina reached a $584,143 settlement with Crossroads Treatment Center of Greensboro, P.C. (Crossroads) to settle allegations that Crossroads submitted false claims to the Medicaid program. Half of […] The post Attorney General Jeff Jackson Secures $584,000 to Resolve Medicaid Fraud Allegations Against Greensboro Treatment Center appeared first on NCDOJ .",
+            "amount": "$584,143",
+            "amount_numeric": 584143,
+            "officials": [
+                "Jeff Jackson"
+            ],
+            "link": "https://ncdoj.gov/attorney-general-jeff-jackson-secures-584000-to-resolve-medicaid-fraud-allegations-against-greensboro-treatment-center/?utm_source=rss&utm_medium=rss&utm_campaign=attorney-general-jeff-jackson-secures-584000-to-resolve-medicaid-fraud-allegations-against-greensboro-treatment-center",
+            "link_label": "NC-AG Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Addiction Treatment",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [
+                "Crossroads Treatment Center of Greensboro, P.C."
+            ],
+            "state": "NC",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
