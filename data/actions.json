@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-05-08T14:05:29.987743",
+        "last_updated": "2026-05-09T13:41:00.200804",
         "version": "1.0"
     },
     "actions": [
@@ -8964,6 +8964,63 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "doj-2026-05-08-3170995279",
+            "date": "2026-05-08",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "Three Affiliated Skilled Nursing Facilities to Pay $300,000 to Resolve False Claims Act Allegations Related to Medically Unnecessary Rehabilitation Services",
+            "description": "Three affiliated skilled nursing facilities in Illinois have agreed to resolve allegations that they violated the False Claims Act by submitting or causing the submission of false claims to the Centers for Medicare and Medicaid Services for medically unnecessary rehabilitation services. Under the agreement, Symphony Jackson Square LLC doing business as Symphony of Chicago West, Symphony Park South LLC doing business as Symphony of Morgan Park, and Symphony Midway LLC will pay the United States a total of $300,000. The settlement is based on their ability to pay.",
+            "amount": "$300,000",
+            "amount_numeric": 300000,
+            "officials": [],
+            "link": "https://www.justice.gov/opa/pr/three-affiliated-skilled-nursing-facilities-pay-300000-resolve-false-claims-act-allegations",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Nursing Home",
+                "False Claims Act",
+                "Unnecessary Procedures",
+                "Overbilling"
+            ],
+            "entities": [
+                "Symphony Jackson Square LLC",
+                "Symphony of Chicago West",
+                "Symphony Park South LLC",
+                "Symphony of Morgan Park",
+                "Symphony Midway LLC"
+            ],
+            "state": "IL",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-05-08-2665289423",
+            "date": "2026-05-08",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Ex-NFL Player Gets 16-Plus Years For $200M Healthcare Fraud",
+            "description": "A former NFL player was sentenced to over 16 years in prison for his role in a healthcare fraud conspiracy that defrauded government health insurance programs of nearly $200 million. The scheme involved submitting fake doctors' orders for orthotic braces that were not medically necessary. The defendant and co-conspirators billed federal health insurance programs, including Medicare and Medicaid, for unnecessary medical equipment. This case represents a significant criminal enforcement action against organized healthcare fraud.",
+            "amount": "$200M",
+            "amount_numeric": 200000000,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2475592?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "DME Fraud",
+                "False Claims",
+                "Organized Crime",
+                "Unnecessary Procedures"
+            ],
+            "entities": [],
+            "state": "FL",
+            "source_type": "news",
+            "auto_fetched": true
         }
     ]
 }
