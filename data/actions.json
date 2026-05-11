@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-05-10T13:43:37.677578",
+        "last_updated": "2026-05-11T15:28:05.297582",
         "version": "1.0"
     },
     "actions": [
@@ -9020,6 +9020,57 @@
             "entities": [],
             "state": "FL",
             "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-05-08-2829869882",
+            "date": "2026-05-08",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Former NFL Player Sentenced to Over 16 Years in Prison for $197M Medicare Fraud",
+            "description": "A former NFL player was sentenced to over 16 years in prison for his role in a $197 million Medicare fraud scheme. The defendant orchestrated a complex fraud involving false claims submitted to Medicare for durable medical equipment and other healthcare services. The scheme involved submitting fraudulent billings and kickback payments to beneficiaries and healthcare providers to generate false claims. This case represents a significant criminal enforcement action resulting in substantial prison time and recovery of funds defrauded from the Medicare program.",
+            "amount": "$197M",
+            "amount_numeric": 197000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/former-nfl-player-sentenced-to-over-16-years-in-prison-for-197m-medicare-fraud/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "DME Fraud",
+                "False Claims",
+                "Kickbacks",
+                "National Takedown"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-05-08-2879612141",
+            "date": "2026-05-08",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "Three Affiliated Skilled Nursing Facilities to Pay $300,000 to Resolve False Claims Act Allegations Related to Medically Unnecessary Rehabilitation Services",
+            "description": "Three affiliated skilled nursing facilities have agreed to pay $300,000 to resolve False Claims Act allegations related to providing medically unnecessary rehabilitation services to Medicare beneficiaries. The facilities submitted false claims to Medicare for rehabilitation services that were not medically necessary, violating the False Claims Act. The settlement resolves allegations without admission of liability. This action demonstrates HHS-OIG's enforcement efforts to prevent overbilling and unnecessary services in the skilled nursing facility setting.",
+            "amount": "$300,000",
+            "amount_numeric": 300000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/three-affiliated-skilled-nursing-facilities-to-pay-300000-to-resolve-false-claims-act-allegations-related-to-medically-unnecessary-rehabilitation-services/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Nursing Home",
+                "False Claims",
+                "False Claims Act",
+                "Unnecessary Procedures",
+                "Overbilling"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
             "auto_fetched": true
         }
     ]
