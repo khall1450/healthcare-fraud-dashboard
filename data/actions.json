@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-05-12T14:40:00.677035",
+        "last_updated": "2026-05-13T14:50:10.794772",
         "version": "1.0"
     },
     "actions": [
@@ -9070,6 +9070,56 @@
             ],
             "entities": [],
             "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-05-12-734381785",
+            "date": "2026-05-12",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Utah Doctor and Two Nurses Charged with Health Care Fraud After Submitting False Claims to Medicare and Receiving Millions in Payout",
+            "description": "A Utah podiatrist and two nurses were indicted by federal grand jury for healthcare fraud involving the submission of fraudulent claims to Medicare for skin substitute services, many of which were medically unnecessary. The scheme resulted in Medicare paying approximately $29 million in fraudulent claims. The defendants are charged with conspiracy to commit health care fraud and other related offenses.",
+            "amount": "$29M",
+            "amount_numeric": 29000000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-ut/pr/utah-doctor-and-two-nurses-charged-health-care-fraud-after-submitting-false-claims",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "False Claims Act",
+                "Wound Care",
+                "Unnecessary Procedures",
+                "Overbilling"
+            ],
+            "entities": [],
+            "state": "UT",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-05-12-915901985",
+            "date": "2026-05-12",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Utah Doctor and Two Nurses Charged with Health Care Fraud After Submitting False Claims to Medicare and Receiving Millions in Payout",
+            "description": "A Utah doctor and two nurses were charged with healthcare fraud for submitting false claims to Medicare and receiving millions in fraudulent payouts. The charges allege the defendants submitted false and fraudulent claims for services not rendered or not medically necessary, resulting in improper Medicare payments. The case was prosecuted by HHS-OIG in coordination with law enforcement authorities. The defendants face federal criminal charges related to defrauding the Medicare program.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/utah-doctor-and-two-nurses-charged-with-health-care-fraud-after-submitting-false-claims-to-medicare-and-receiving-millions-in-payout/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "False Claims Act",
+                "Program Integrity"
+            ],
+            "entities": [],
+            "state": "UT",
             "source_type": "official",
             "auto_fetched": true
         }
