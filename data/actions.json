@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-05-13T14:50:10.794772",
+        "last_updated": "2026-05-14T14:30:25.139907",
         "version": "1.0"
     },
     "actions": [
@@ -9121,6 +9121,60 @@
             "entities": [],
             "state": "UT",
             "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-05-14-1524663914",
+            "date": "2026-05-14",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Owner of Health Care Software Company Convicted of 1 Billion Dollar Medicare Fraud Conspiracy",
+            "description": "A federal jury in the Southern District of Florida convicted the founder and owner of HealthSplash for operating a platform that generated false doctors' orders and prescriptions to defraud Medicare and other federal health care benefit programs out of more than $1 billion. The scheme involved creating fraudulent medical documentation to submit false claims to Medicare and other federal programs. The defendant was convicted of conspiracy charges related to the healthcare fraud scheme. This represents a significant criminal enforcement action against a software company facilitating large-scale healthcare fraud.",
+            "amount": "$1B",
+            "amount_numeric": 1000000000,
+            "officials": [],
+            "link": "https://www.justice.gov/opa/pr/owner-health-care-software-company-convicted-1-billion-dollar-medicare-fraud-conspiracy",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "False Claims Act",
+                "Overbilling",
+                "Phantom Billing",
+                "Program Integrity"
+            ],
+            "entities": [
+                "HealthSplash"
+            ],
+            "state": "FL",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-05-13-281229244",
+            "date": "2026-05-13",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "HealthSplash CEO Found Guilty In $450M Medicare Fraud Trial",
+            "description": "A Florida federal jury found a HealthSplash CEO guilty of orchestrating a $450 million Medicare fraud scheme involving software that generated false prescriptions for orthotic braces. The defendant used fraudulent software to create fictitious prescriptions, leading to improper Medicare payments for medically unnecessary orthotic devices. This represents a significant criminal conviction in a large-scale healthcare fraud case involving Medicare.",
+            "amount": "$450M",
+            "amount_numeric": 450000000,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2477363?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "DME Fraud",
+                "False Claims",
+                "Criminal Enforcement"
+            ],
+            "entities": [
+                "HealthSplash"
+            ],
+            "state": "FL",
+            "source_type": "news",
             "auto_fetched": true
         }
     ]
