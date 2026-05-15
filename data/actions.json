@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-05-14T14:30:25.139907",
+        "last_updated": "2026-05-15T14:23:24.480220",
         "version": "1.0"
     },
     "actions": [
@@ -9174,6 +9174,188 @@
                 "HealthSplash"
             ],
             "state": "FL",
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-05-14-2062837886",
+            "date": "2026-05-14",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "Lancaster Medical LLC agrees to pay $500,000 to resolve allegations related to Paycheck Protection Program eligibility",
+            "description": "The U.S. Attorney’s Office announced today that Lancaster Medical LLC, a former medical practice located in Depew, NY, has agreed to pay $500,000 to resolve allegations arising under the False Claims Act (FCA), that it fraudulently obtained a Paycheck Protection Program (PPP) loan from the U.S. Small Business Administration (SBA), which it was not eligible to receive. This action is part of the Trump Administration’s Task Force to Eliminate Fraud.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-wdny/pr/lancaster-medical-llc-agrees-pay-500000-resolve-allegations-related-paycheck",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-05-14-131304971",
+            "date": "2026-05-14",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Owner of Health Care Software Company Convicted of 1 Billion Dollar Medicare Fraud Conspiracy",
+            "description": "The owner of a health care software company was convicted of orchestrating a Medicare fraud conspiracy involving approximately $1 billion in fraudulent claims. The conviction resulted from a scheme in which the company's software was used to submit false and fraudulent claims to Medicare. The case was prosecuted by the Department of Justice with HHS-OIG investigation, resulting in a criminal conviction for the company owner's role in the conspiracy.",
+            "amount": "$1B",
+            "amount_numeric": 1000000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/owner-of-health-care-software-company-convicted-of-1-billion-dollar-medicare-fraud-conspiracy/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "Hospital Fraud",
+                "Fraud types"
+            ],
+            "entities": [
+                "Health Care Software Company"
+            ],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "hhs-oig-2026-05-14-3726913310",
+            "date": "2026-05-14",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "Takeda Agrees to Pay $13.6M to Resolve False Claims Allegations Relating to Improper Payments to Physicians",
+            "description": "Takeda Pharmaceutical Company agreed to pay $13.6 million to resolve False Claims Act allegations that it made improper payments to physicians in violation of the Anti-Kickback Statute. The settlement addresses claims that Takeda provided payments to physicians disguised as consulting fees, speaker fees, and other arrangements that were designed to induce prescriptions of Takeda products. The case was handled by HHS-OIG and involved alleged violations of federal anti-fraud statutes related to healthcare payments.",
+            "amount": "$13.6M",
+            "amount_numeric": 13600000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/takeda-agrees-to-pay-136m-to-resolve-false-claims-allegations-relating-to-improper-payments-to-physicians/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Pharmaceutical",
+                "Kickbacks",
+                "Anti-Kickback",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [
+                "Takeda Pharmaceutical Company"
+            ],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-05-14-2989263908",
+            "date": "2026-05-14",
+            "agency": "CMS",
+            "type": "Administrative Action",
+            "title": "Moratorium a ‘Sledgehammer’ Approach in Hospice Fraud Forcefield",
+            "description": "A temporary national moratorium has halted new hospice and home health enrollment in an effort to curb fraudulent activity in these industries. The hospice community has come forward in droves to examine the scope of potential benefits, and risks, to future access and quality. The U.S. Centers for Medicare & Medicaid Services’ (CMS) moratorium took […] The post Moratorium a ‘Sledgehammer’ Approach in Hospice Fraud Forcefield appeared first on Hospice News .",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://hospicenews.com/2026/05/14/moratorium-a-sledgehammer-approach-in-hospice-fraud-forcefield/",
+            "link_label": "Hospice News Report",
+            "social_posts": [],
+            "tags": [
+                "Hospice Fraud",
+                "Home Health Fraud",
+                "Medicare",
+                "Administrative Action"
+            ],
+            "entities": [
+                "CMS"
+            ],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-05-15-2256210765",
+            "date": "2026-05-15",
+            "agency": "Media",
+            "type": "Civil Action",
+            "title": "Dermatology Clinics, Whistleblower Settle False Claims Act Suit",
+            "description": "ADCS Clinics LLC and others settled a False Claims Act lawsuit alleging they billed federal health-care programs for medically unnecessary dermatological exams and directed healthcare providers to use incorrect billing codes to increase reimbursements. The settlement resolves allegations of overbilling and upcoding schemes affecting Medicare and/or Medicaid. The case was brought by a whistleblower under the False Claims Act.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://news.bloomberglaw.com/health-law-and-business/dermatology-clinics-whistleblower-settle-false-claims-act-suit?utm_source=rss&utm_medium=HLNW&utm_campaign=0000019e-2b8a-d8af-a7fe-7fff92370000",
+            "link_label": "Bloomberg Law Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "False Claims Act",
+                "Unnecessary Procedures",
+                "Upcoding",
+                "Whistleblower"
+            ],
+            "entities": [
+                "ADCS Clinics LLC"
+            ],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "media-2026-05-15-686900868",
+            "date": "2026-05-15",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Healthcare software company owner convicted in $1B Medicare fraud scheme",
+            "description": "A federal jury in the Southern District of Florida convicted the founder and owner of HealthSplash for his role in a scheme that prosecutors said fraudulently billed Medicare and other federal healthcare programs more than $1 billion for medically unnecessary equipment. Brett Blackman, 42, of Johnson County, Kan., was convicted on charges including conspiracy to […] The post Healthcare software company owner convicted in $1B Medicare fraud scheme appeared first on Becker's Payer Issues | Payer News .",
+            "amount": "$1B",
+            "amount_numeric": 1000000000,
+            "officials": [],
+            "link": "https://www.beckerspayer.com/payer/healthcare-software-company-owner-convicted-in-1b-medicare-fraud-scheme/",
+            "link_label": "Becker's Payer Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "DME Fraud",
+                "False Claims Act",
+                "Overbilling"
+            ],
+            "entities": [
+                "HealthSplash"
+            ],
+            "state": "KS",
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-05-14-2612330191",
+            "date": "2026-05-14",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "Takeda To Pay $13.6M Over Antidepressant Drug Kickbacks",
+            "description": "Takeda Pharmaceuticals agreed to pay $13.6 million to resolve allegations that it engaged in illegal kickback schemes to promote its antidepressant drug Trintellix. The company allegedly provided kickbacks to healthcare providers to encourage prescriptions of the drug, which resulted in false claims submitted to Medicaid. The settlement was announced by the U.S. Department of Justice and resolves allegations under the Anti-Kickback Statute.",
+            "amount": "$13.6M",
+            "amount_numeric": 13600000,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2477934?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Pharmaceutical",
+                "Kickbacks",
+                "Anti-Kickback",
+                "False Claims"
+            ],
+            "entities": [
+                "Takeda Pharmaceuticals"
+            ],
+            "state": null,
             "source_type": "news",
             "auto_fetched": true
         }
