@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-05-15T14:23:24.480220",
+        "last_updated": "2026-05-16T13:47:15.191978",
         "version": "1.0"
     },
     "actions": [
@@ -9358,6 +9358,56 @@
             "state": null,
             "source_type": "news",
             "auto_fetched": true
+        },
+        {
+            "id": "media-2026-05-15-1411164106",
+            "date": "2026-05-15",
+            "agency": "Media",
+            "type": "Investigative Report",
+            "title": "The federal healthcare fraud crackdown, explained",
+            "description": "This article provides an overview of the Trump administration's healthcare fraud crackdown efforts, which have become a central focus of the federal government's healthcare agenda. The crackdown includes investigations, task forces, and enrollment pauses targeting Medicaid and Medicare fraud, with Minnesota identified as an early target that has since expanded to broader scrutiny across multiple states and programs. The article explains the scope and scale of federal fraud enforcement initiatives without detailing specific cases or dollar amounts.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.beckerspayer.com/policy-updates/the-federal-healthcare-fraud-crackdown-explained/",
+            "link_label": "Becker's Payer Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "National Takedown",
+                "Task Force",
+                "Program Integrity",
+                "Executive Order"
+            ],
+            "entities": [],
+            "state": "MN",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "White House"
+        },
+        {
+            "id": "media-2026-05-15-347340798",
+            "date": "2026-05-15",
+            "agency": "Media",
+            "type": "Criminal Enforcement",
+            "title": "NC Social Worker Wants Resentencing In Medicaid Fraud Suit",
+            "description": "A clinical social worker in North Carolina, serving more than 11 years in prison for healthcare fraud charges, is appealing her sentence in the Fourth Circuit Court of Appeals. The defendant is challenging the lower court's application of a vulnerable victim sentence enhancement, arguing that the court used overly generalized findings to justify the enhancement. The case involves Medicaid fraud, though specific details about the fraud scheme, dollar amounts, and underlying conduct are not provided in this brief report.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2478294?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "False Claims"
+            ],
+            "entities": [],
+            "state": "NC",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
