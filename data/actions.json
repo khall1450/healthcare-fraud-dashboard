@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-05-17T13:46:40.365867",
+        "last_updated": "2026-05-18T15:48:18.086841",
         "version": "1.0"
     },
     "actions": [
@@ -9408,6 +9408,86 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "hhs-oig-2026-05-15-4075684625",
+            "date": "2026-05-15",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "Operators of Day Treatment Program for Children Agree to $15.2 Million Civil Judgment to Resolve Medicaid Fraud Allegations",
+            "description": "Operators of a day treatment program for children agreed to pay a $15.2 million civil judgment to resolve allegations of Medicaid fraud. The settlement resolves claims that the program submitted false claims to Medicaid for services that were not provided, not medically necessary, or not appropriately billed. The case was pursued by HHS-OIG as part of efforts to recover improper Medicaid payments and protect the integrity of the program. The judgment represents a civil settlement without admission of liability.",
+            "amount": "$15.2M",
+            "amount_numeric": 15200000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/operators-of-day-treatment-program-for-children-agree-to-152-million-civil-judgment-to-resolve-medicaid-fraud-allegations/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Adult Day Care",
+                "False Claims",
+                "False Claims Act",
+                "Program Integrity",
+                "Improper Payments"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-05-15-338377202",
+            "date": "2026-05-15",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Michigan Home Health Care Agency Owner Convicted of $1.6M Medicare Fraud Scheme and Kickback Conspiracy",
+            "description": "A Michigan home health care agency owner was convicted of a $1.6 million Medicare fraud scheme involving kickbacks. The conviction involved false claims submitted to Medicare for home health services that were not medically necessary or properly provided, combined with illegal kickback payments to refer patients. The scheme defrauded the Medicare program through overbilling and improper billing practices. The owner faces sentencing for these federal crimes.",
+            "amount": "$1.6M",
+            "amount_numeric": 1600000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/michigan-home-health-care-agency-owner-convicted-of-16m-medicare-fraud-scheme-and-kickback-conspiracy/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Home Health Fraud",
+                "Kickbacks",
+                "Anti-Kickback",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": "MI",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-05-18-2432818111",
+            "date": "2026-05-18",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Michigan nurse convicted of $1.6M in Medicare fraud using stolen patient records",
+            "description": "Ruby Scott, a 55-year-old Michigan nurse and home health agency owner from Farmington, was convicted on May 14 by federal jury of five counts of healthcare fraud, conspiracy to defraud the U.S., and four counts of paying illegal healthcare kickbacks. Scott used stolen patient records obtained from a Detroit hospital to perpetrate the scheme, which resulted in approximately $1.6 million in fraudulent Medicare claims. The conviction represents a significant case of identity theft and false billing in the home health sector.",
+            "amount": "$1.6M",
+            "amount_numeric": 1600000,
+            "officials": [],
+            "link": "https://www.beckerspayer.com/legal/michigan-nurse-convicted-of-1-6m-medicare-fraud-using-stolen-patient-records/",
+            "link_label": "Becker's Payer Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Home Health Fraud",
+                "False Claims",
+                "Identity Theft",
+                "Kickbacks",
+                "Criminal Enforcement"
+            ],
+            "entities": [
+                "Ruby Scott"
+            ],
+            "state": "MI",
+            "source_type": "news",
+            "auto_fetched": true
         }
     ]
 }
