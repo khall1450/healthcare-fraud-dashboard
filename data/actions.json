@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-05-18T15:48:18.086841",
+        "last_updated": "2026-05-19T15:39:35.047104",
         "version": "1.0"
     },
     "actions": [
@@ -9487,6 +9487,53 @@
             ],
             "state": "MI",
             "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-05-19-3594790528",
+            "date": "2026-05-19",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "Illinois Doctor Agrees to Pay $62,500 for Signing False Orders in Durable Medical Equipment Scheme",
+            "description": "An Illinois-based physician agreed to pay $62,500 to resolve allegations that she signed false orders for durable medical equipment (DME) that were submitted as false claims to Medicare. The scheme involved the physician authorizing medically unreasonable and unnecessary DME orders, which resulted in improper Medicare claims. The settlement resolves civil allegations under the False Claims Act without admission of liability.",
+            "amount": "$62,500",
+            "amount_numeric": 62500,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-ma/pr/illinois-doctor-agrees-pay-62500-signing-false-orders-durable-medical-equipment-scheme",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "DME Fraud",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": "IL",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-05-18-848584561",
+            "date": "2026-05-18",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "New York Business Owner Sentenced to Prison for Using Shell Companies to Launder Health Care Fraud Proceeds for Transnational Criminal Organization",
+            "description": "A New York business owner was sentenced to prison for using shell companies to launder proceeds from health care fraud committed on behalf of a transnational criminal organization. The individual was convicted of money laundering related to health care fraud schemes. This case demonstrates the connection between health care fraud and organized criminal activity, with the defendant playing a key role in disguising illicit funds through corporate structures.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/new-york-business-owner-sentenced-to-prison-for-using-shell-companies-to-launder-health-care-fraud-proceeds-for-transnational-criminal-organization/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Money Laundering",
+                "Organized Crime",
+                "Health Care Fraud"
+            ],
+            "entities": [],
+            "state": "NY",
+            "source_type": "official",
             "auto_fetched": true
         }
     ]
