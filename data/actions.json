@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-05-19T15:39:35.047104",
+        "last_updated": "2026-05-20T15:40:50.559664",
         "version": "1.0"
     },
     "actions": [
@@ -9533,6 +9533,30 @@
             ],
             "entities": [],
             "state": "NY",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-05-19-1003012046",
+            "date": "2026-05-19",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "Illinois Doctor Agrees to Pay $62,500 for Signing False Orders in Durable Medical Equipment Scheme",
+            "description": "An Illinois physician agreed to pay $62,500 to settle allegations that they signed false orders in a durable medical equipment (DME) fraud scheme. The doctor's actions involved the submission of fraudulent medical documentation that was used to justify DME claims to Medicare or similar federal healthcare programs. The settlement reflects a civil enforcement action by HHS-OIG targeting false certification practices within the DME supply chain. No criminal charges or additional defendants are mentioned in this administrative settlement.",
+            "amount": "$62,500",
+            "amount_numeric": 62500,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/illinois-doctor-agrees-to-pay-62500-for-signing-false-orders-in-durable-medical-equipment-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "DME Fraud",
+                "Medicare",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": "IL",
             "source_type": "official",
             "auto_fetched": true
         }
