@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-05-20T15:40:50.559664",
+        "last_updated": "2026-05-21T15:43:00.249590",
         "version": "1.0"
     },
     "actions": [
@@ -9178,25 +9178,6 @@
             "auto_fetched": true
         },
         {
-            "id": "doj-2026-05-14-2062837886",
-            "date": "2026-05-14",
-            "agency": "DOJ",
-            "type": "Civil Action",
-            "title": "Lancaster Medical LLC agrees to pay $500,000 to resolve allegations related to Paycheck Protection Program eligibility",
-            "description": "The U.S. Attorney’s Office announced today that Lancaster Medical LLC, a former medical practice located in Depew, NY, has agreed to pay $500,000 to resolve allegations arising under the False Claims Act (FCA), that it fraudulently obtained a Paycheck Protection Program (PPP) loan from the U.S. Small Business Administration (SBA), which it was not eligible to receive. This action is part of the Trump Administration’s Task Force to Eliminate Fraud.",
-            "amount": null,
-            "amount_numeric": 0,
-            "officials": [],
-            "link": "https://www.justice.gov/usao-wdny/pr/lancaster-medical-llc-agrees-pay-500000-resolve-allegations-related-paycheck",
-            "link_label": "DOJ Press Release",
-            "social_posts": [],
-            "tags": [],
-            "entities": [],
-            "state": null,
-            "source_type": "official",
-            "auto_fetched": true
-        },
-        {
             "id": "hhs-oig-2026-05-14-131304971",
             "date": "2026-05-14",
             "agency": "HHS-OIG",
@@ -9558,6 +9539,110 @@
             "entities": [],
             "state": "IL",
             "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-05-21-1355170734",
+            "date": "2026-05-21",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Three Sentenced to Prison for Laundering Medicare Fraud Proceeds",
+            "description": "Three Florida men were sentenced to prison for participating in a Medicare fraud scheme and laundering over $2.2 million in illicit proceeds. The defendants defrauded Medicare through health care fraud and then laundered the criminal proceeds through financial transactions. All three received prison sentences for their roles in the conspiracy. The case demonstrates coordinated enforcement against both the underlying fraud and the subsequent money laundering activities.",
+            "amount": "$2.2M",
+            "amount_numeric": 2200000,
+            "officials": [],
+            "link": "https://www.justice.gov/opa/pr/three-sentenced-prison-laundering-medicare-fraud-proceeds",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "Money Laundering",
+                "Kickbacks"
+            ],
+            "entities": [],
+            "state": "FL",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-05-20-2447711270",
+            "date": "2026-05-20",
+            "agency": "Congress",
+            "type": "Legislation",
+            "title": "Congress Takes Up Hospice Home Health Fraud Bill",
+            "description": "Rep. Beth Van Duyne (R-Texas) has introduced a bill intended to fight the ongoing plague of hospice and home health fraud. The Protecting Seniors and Stopping Fraudsters Act is designed to bolster Medicare oversight, crack down on scammers, protect seniors from fraudulent enrollments and improve accountability across the hospice and home health system, according to […] The post Congress Takes Up Hospice Home Health Fraud Bill appeared first on Hospice News .",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [
+                "Rep. Beth Van Duyne"
+            ],
+            "link": "https://hospicenews.com/2026/05/20/congress-takes-up-hospice-home-health-fraud-bill/",
+            "link_label": "Hospice News Report",
+            "social_posts": [],
+            "tags": [
+                "Hospice Fraud",
+                "Home Health Fraud",
+                "Medicare",
+                "Legislation",
+                "Elder Fraud",
+                "Program Integrity"
+            ],
+            "entities": [],
+            "state": "TX",
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-05-21-3389387108",
+            "date": "2026-05-21",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "2 Minnesota Autism Therapy Providers to Be Charged in $46 Million Medicaid Fraud Case",
+            "description": "The U.S. Justice Department charged two Minnesota autism therapy providers in a $46 million Medicaid fraud scheme. The providers allegedly used fake diagnoses and paid kickbacks to parents to bring children into treatment programs. The case involves fraudulent billing to Minnesota's Medicaid program for unnecessary autism therapy services. The charges represent a significant enforcement action targeting behavioral health fraud in the Medicaid program.",
+            "amount": "$46M",
+            "amount_numeric": 46000000,
+            "officials": [],
+            "link": "https://www.nytimes.com/2026/05/21/us/politics/medicaid-fraud-minnesota-autism.html",
+            "link_label": "NYT Health Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Behavioral Health",
+                "Kickbacks",
+                "False Claims",
+                "Unnecessary Procedures"
+            ],
+            "entities": [],
+            "state": "MN",
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-05-21-1125094959",
+            "date": "2026-05-21",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "Justice Department can question former Elevance exec in Medicare Advantage false claims case, judge rules",
+            "description": "A federal judge has sided with the Justice Department in its bid to depose a former senior executive at Elevance Health over allegations that the insurer submitted fraudulent Medicare Advantage claims to the government. On May 20, the judge ordered Peter Haytaian, former president of Elevance’s government business division and its health services business, to […] The post Justice Department can question former Elevance exec in Medicare Advantage false claims case, judge rules appeared first on Becker's Payer Issues | Payer News .",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [
+                "Peter Haytaian"
+            ],
+            "link": "https://www.beckerspayer.com/payer/justice-department-can-question-former-elevance-exec-in-medicare-advantage-false-claims-case-judge-rules/",
+            "link_label": "Becker's Payer Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare Advantage",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [
+                "Elevance Health"
+            ],
+            "state": null,
+            "source_type": "news",
             "auto_fetched": true
         }
     ]
