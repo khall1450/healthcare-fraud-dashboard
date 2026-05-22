@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-05-21T15:43:00.249590",
+        "last_updated": "2026-05-22T14:52:39.145440",
         "version": "1.0"
     },
     "actions": [
@@ -9642,6 +9642,80 @@
                 "Elevance Health"
             ],
             "state": null,
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-05-21-527836002",
+            "date": "2026-05-21",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Minnesota Health Care Fraud Takedown Results in Charges Against 15 Defendants for Over $90M in Fraud",
+            "description": "A coordinated takedown operation resulted in charges against 15 defendants in Minnesota for healthcare fraud exceeding $90 million. The operation, led by HHS-OIG in coordination with federal and state law enforcement, targeted a scheme involving false claims submitted to federal healthcare programs. The defendants were charged with conspiracy, healthcare fraud, and related offenses. Specific details regarding the nature of the fraud scheme, affected programs (Medicare/Medicaid), and individual defendant roles are referenced in the HHS-OIG enforcement action.",
+            "amount": "$90M",
+            "amount_numeric": 90000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/minnesota-health-care-fraud-takedown-results-in-charges-against-15-defendants-for-over-90m-in-fraud/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "National Takedown",
+                "Strike Force",
+                "Medicare",
+                "Medicaid",
+                "False Claims",
+                "False Claims Act",
+                "Program Integrity"
+            ],
+            "entities": [],
+            "state": "MN",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-05-21-1037949924",
+            "date": "2026-05-21",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Three Sentenced to Prison for Laundering Medicare Fraud Proceeds",
+            "description": "Three individuals were sentenced to prison for money laundering related to Medicare fraud proceeds. The defendants laundered money obtained through a healthcare fraud scheme that defrauded the Medicare program. The case was prosecuted by HHS-OIG in coordination with law enforcement partners. The sentencing concludes the criminal prosecution of these defendants involved in the fraud and money laundering conspiracy.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/three-sentenced-to-prison-for-laundering-medicare-fraud-proceeds/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Money Laundering",
+                "Criminal Enforcement"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-05-21-2231374828",
+            "date": "2026-05-21",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "15 people indicted in alleged healthcare fraud scheme in Minnesota",
+            "description": "The Department of Justice announced the indictment of 15 people in connection with an alleged $90 million healthcare fraud scheme in Minnesota following a joint investigation with the FBI. The defendants are accused of defrauding Minnesota public healthcare resources, targeting programs including Housing Stabilization Services, Child Care, Medicaid programs, and Individualized Home Supports. The investigation represents a significant multi-defendant healthcare fraud enforcement action focused on state Medicaid programs.",
+            "amount": "$90M",
+            "amount_numeric": 90000000,
+            "officials": [],
+            "link": "https://thehill.com/homenews/state-watch/5890251-15-charged-90m-minnesota-healthcare-fraud/",
+            "link_label": "The Hill Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "False Claims",
+                "Multi-State",
+                "Housing Fraud"
+            ],
+            "entities": [],
+            "state": "MN",
             "source_type": "news",
             "auto_fetched": true
         }
