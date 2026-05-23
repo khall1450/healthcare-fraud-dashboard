@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-05-22T14:52:39.145440",
+        "last_updated": "2026-05-23T13:52:02.983724",
         "version": "1.0"
     },
     "actions": [
@@ -9713,6 +9713,79 @@
                 "False Claims",
                 "Multi-State",
                 "Housing Fraud"
+            ],
+            "entities": [],
+            "state": "MN",
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-05-22-3551690739",
+            "date": "2026-05-22",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Georgian Citizen Sentenced to Over Three Years in Prison for International Money Laundering Conspiracy",
+            "description": "A Georgian citizen was sentenced to 37 months in prison for money laundering conspiracy involving healthcare fraud proceeds. The defendant laundered more than $1.1 million in illicit healthcare fraud proceeds to co-conspirators located abroad. The case involves international money laundering related to healthcare fraud, though specific details about the underlying healthcare fraud scheme, affected programs, and other co-conspirators are not provided in the description.",
+            "amount": "$1.1M",
+            "amount_numeric": 1100000,
+            "officials": [],
+            "link": "https://www.justice.gov/opa/pr/georgian-citizen-sentenced-over-three-years-prison-international-money-laundering-conspiracy",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Money Laundering",
+                "Foreign Nationals"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-05-22-286225928",
+            "date": "2026-05-22",
+            "agency": "DOJ",
+            "type": "Executive Order",
+            "title": "This Week in Fraud: The Fraud Division Announced Expansion of Midwest Task Force and Authorization to Hire 15 New Medicaid Prosecutors, an Unprecedented Minnesota Health Care Fraud Takedown, and a $2 Billion Telemedicine Health Care Fraud Scheme",
+            "description": "The Justice Department's National Fraud Enforcement Division announced expansion of its Midwest Task Force with authorization to hire 15 new Medicaid prosecutors. The announcement included details of an unprecedented Minnesota health care fraud takedown and a $2 billion telemedicine health care fraud scheme prosecution. This represents significant expansion of federal fraud enforcement capacity and resources dedicated to combating Medicaid fraud across multiple states.",
+            "amount": "$2B",
+            "amount_numeric": 2000000000,
+            "officials": [],
+            "link": "https://www.justice.gov/opa/pr/week-fraud-fraud-division-announced-expansion-midwest-task-force-and-authorization-hire-15",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Telehealth",
+                "National Takedown",
+                "Task Force",
+                "Strike Force",
+                "Fraud types: Telemedicine Fraud"
+            ],
+            "entities": [],
+            "state": "MN",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-05-22-4192002714",
+            "date": "2026-05-22",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Justice Department charges 15 for $90M+ in alleged healthcare fraud, expands strike force",
+            "description": "The Justice Department charged 15 individuals in Minnesota in connection with alleged healthcare fraud schemes totaling over $90 million. The charges included two of the largest Medicaid fraud cases in the department's Minnesota district, with one case involving the largest Medicaid autism fraud case charged by the department. The action also expanded the department's strike force efforts targeting healthcare fraud. Specific details on individual defendants, their roles, and the specific fraud mechanisms were not fully detailed in the available excerpt.",
+            "amount": "$90M",
+            "amount_numeric": 90000000,
+            "officials": [],
+            "link": "https://www.beckerspayer.com/legal/justice-department-charges-15-over-90m-in-alleged-healthcare-fraud-expands-strike-force/",
+            "link_label": "Becker's Payer Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Criminal Enforcement",
+                "False Claims",
+                "Strike Force",
+                "National Takedown"
             ],
             "entities": [],
             "state": "MN",
