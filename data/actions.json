@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-05-25T15:21:51.593254",
+        "last_updated": "2026-05-26T15:57:15.090076",
         "version": "1.0"
     },
     "actions": [
@@ -9790,6 +9790,32 @@
             "entities": [],
             "state": "MN",
             "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-05-22-2988121569",
+            "date": "2026-05-22",
+            "agency": "HHS-OIG",
+            "type": "Administrative Action",
+            "title": "This Week in Fraud: The Fraud Division Announced Expansion of Midwest Task Force and Authorization to Hire 15 New Medicaid Prosecutors, an Unprecedented Minnesota Health Care Fraud Takedown, and a $2 Billion Telemedicine Health Care Fraud Scheme",
+            "description": "HHS-OIG's Fraud Division announced an expansion of the Midwest Task Force and authorization to hire 15 new Medicaid prosecutors to combat healthcare fraud. The announcement also highlighted an unprecedented Minnesota healthcare fraud takedown and a $2 billion telemedicine healthcare fraud scheme. These actions represent a coordinated effort to strengthen federal enforcement capacity and address large-scale fraud schemes affecting Medicare and Medicaid programs.",
+            "amount": "$2B",
+            "amount_numeric": 2000000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/this-week-in-fraud-the-fraud-division-announced-expansion-of-midwest-task-force-and-authorization-to-hire-15-new-medicaid-prosecutors-an-unprecedented-minnesota-health-care-fraud-takedown-and-a-2-billion-telemedicine-health-care-fraud-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Task Force",
+                "Medicaid",
+                "Telehealth",
+                "National Takedown",
+                "Program Integrity",
+                "Multi-State"
+            ],
+            "entities": [],
+            "state": "MN",
+            "source_type": "official",
             "auto_fetched": true
         }
     ]
