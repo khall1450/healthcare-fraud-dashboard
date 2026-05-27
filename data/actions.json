@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-05-26T15:57:15.090076",
+        "last_updated": "2026-05-27T16:01:11.099867",
         "version": "1.0"
     },
     "actions": [
@@ -9815,6 +9815,35 @@
             ],
             "entities": [],
             "state": "MN",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-05-26-2740840895",
+            "date": "2026-05-26",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Rochester man sentenced for defrauding Medicare",
+            "description": "John Weinmann, 57, of Rochester, NY, was sentenced to three years' probation and a $2,000 fine for knowingly receiving a kickback under a federal health care program, specifically Medicare. U.S. District Judge Lawrence J. Vilardo imposed the sentence. The case was prosecuted by the U.S. Attorney's Office for the Western District of New York as part of the Trump Administration's Task Force to Eliminate Fraud.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [
+                "Michael DiGiacomo",
+                "Lawrence J. Vilardo"
+            ],
+            "link": "https://www.justice.gov/usao-wdny/pr/rochester-man-sentenced-defrauding-medicare",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Kickbacks",
+                "Anti-Kickback",
+                "Task Force"
+            ],
+            "entities": [
+                "John Weinmann"
+            ],
+            "state": "NY",
             "source_type": "official",
             "auto_fetched": true
         }
