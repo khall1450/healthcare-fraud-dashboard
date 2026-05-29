@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-05-28T16:16:09.104121",
+        "last_updated": "2026-05-29T15:58:25.320038",
         "version": "1.0"
     },
     "actions": [
@@ -9846,6 +9846,55 @@
             "state": "NY",
             "source_type": "official",
             "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-05-28-4117191457",
+            "date": "2026-05-28",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Clinic Manager Convicted of $8M Medicare Fraud Scheme",
+            "description": "A clinic manager was convicted of orchestrating an $8 million Medicare fraud scheme. The conviction represents a criminal enforcement action by HHS-OIG targeting fraudulent billing practices against the Medicare program. The specific details of the fraud scheme and the defendant's identity are not provided in the limited description, but the case demonstrates federal prosecution of healthcare fraud targeting federal insurance programs.",
+            "amount": "$8M",
+            "amount_numeric": 8000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/clinic-manager-convicted-of-8m-medicare-fraud-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "Hospital Fraud"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-05-29-3206304615",
+            "date": "2026-05-29",
+            "agency": "State Agency",
+            "type": "Civil Action",
+            "title": "Massachusetts Sues UnitedHealthcare for Alleged Medicaid Fraud",
+            "description": "Massachusetts filed a lawsuit against UnitedHealthcare alleging the company defrauded the state's Medicaid program of at least $100 million. The lawsuit was filed on Friday by the state, targeting the managed care organization for improper payments and fraudulent conduct related to its administration of Medicaid benefits. The specific nature of the alleged fraud scheme and detailed claims are under investigation as part of this civil enforcement action.",
+            "amount": "$100M",
+            "amount_numeric": 100000000,
+            "officials": [],
+            "link": "https://news.bloomberglaw.com/health-law-and-business/massachusetts-sues-unitedhealthcare-for-alleged-medicaid-fraud?utm_source=rss&utm_medium=HLNW&utm_campaign=0000019e-7433-d0b3-ab9f-febf743b0001",
+            "link_label": "Bloomberg Law Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "False Claims",
+                "Overbilling"
+            ],
+            "entities": [
+                "UnitedHealthcare"
+            ],
+            "state": "MA",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "HHS-OIG"
         }
     ]
 }
