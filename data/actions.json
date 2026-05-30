@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-05-29T15:58:25.320038",
+        "last_updated": "2026-05-30T13:55:12.011725",
         "version": "1.0"
     },
     "actions": [
@@ -9887,6 +9887,35 @@
                 "Medicaid",
                 "False Claims",
                 "Overbilling"
+            ],
+            "entities": [
+                "UnitedHealthcare"
+            ],
+            "state": "MA",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "HHS-OIG"
+        },
+        {
+            "id": "media-2026-05-29-201116010",
+            "date": "2026-05-29",
+            "agency": "State Agency",
+            "type": "Civil Action",
+            "title": "<a href=\"https://www.fiercehealthcare.com/payers/massachusetts-ag-sues-unitedhealthcare-over-alleged-medicaid-fraud\" hreflang=\"en\">Massachusetts AG sues UnitedHealthcare over alleged Medicaid fraud</a>",
+            "description": "Massachusetts Attorney General Andrea Joy Campbell sued UnitedHealthcare, alleging the insurance company manipulated the health status of Medicaid members to secure higher payments from the state. The lawsuit claims UnitedHealthcare engaged in fraudulent practices related to risk adjustment payments under the Medicaid program. This civil action addresses allegations of overbilling and improper payment schemes affecting the Massachusetts Medicaid program.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [
+                "Andrea Joy Campbell"
+            ],
+            "link": "https://www.fiercehealthcare.com/payers/massachusetts-ag-sues-unitedhealthcare-over-alleged-medicaid-fraud",
+            "link_label": "Fierce Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Risk Adjustment",
+                "Overbilling",
+                "False Claims"
             ],
             "entities": [
                 "UnitedHealthcare"
