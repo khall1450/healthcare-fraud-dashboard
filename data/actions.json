@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-06-03T17:02:58.800065",
+        "last_updated": "2026-06-04T15:31:31.754660",
         "version": "1.0"
     },
     "actions": [
@@ -9971,6 +9971,154 @@
             "entities": [],
             "state": null,
             "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-06-04-1931637856",
+            "date": "2026-06-04",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "Puerto Rico Pharmacies Agree to Pay $4.6 Million to Federal Authorities in Medicare and Medicaid Fraud Cases",
+            "description": "Four Puerto Rico pharmacies and their owners agreed to pay $4.6 million to settle Medicare and Medicaid fraud cases. The U.S. Attorney's Office for the District of Puerto Rico recovered over $4.1 million from these entities between February 26 and May 28, 2026. The settlement involves both Medicare and Medicaid programs defrauded through the pharmacy operations. The specific fraud scheme details are not provided in the available information, but the resolution represents a significant civil recovery for improper billing or claims submitted to federal healthcare programs.",
+            "amount": "$4.6M",
+            "amount_numeric": 4600000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-pr/pr/puerto-rico-pharmacies-agree-pay-46-million-federal-authorities-medicare-and-medicaid",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "Pharmacy Fraud",
+                "False Claims",
+                "Improper Payments"
+            ],
+            "entities": [
+                "Four Puerto Rico pharmacies (unnamed)"
+            ],
+            "state": "PR",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-06-04-2352664267",
+            "date": "2026-06-04",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "National Fraud Enforcement Division’s Healthcare Fraud Unit Secures Six Trial Convictions Involving over $1.1 Billion in Fraud In Under Three Weeks: Convictions Span five Federal Districts & six Distinct Categories of Healthcare Fraud",
+            "description": "The Justice Department's National Fraud Enforcement Division announced six federal jury trial convictions secured by its Healthcare Fraud Unit between May 13 and June 1 across five federal districts (Fort Lauderdale, Los Angeles, Detroit, New York, and Nashville). The convictions involved over $1.1 billion in healthcare fraud spanning six distinct categories of healthcare fraud. This represents a significant enforcement achievement by the DOJ's most active white-collar litigating component dedicated to healthcare fraud prosecution.",
+            "amount": "$1.1B",
+            "amount_numeric": 1100000000,
+            "officials": [],
+            "link": "https://www.justice.gov/opa/pr/national-fraud-enforcement-divisions-healthcare-fraud-unit-secures-six-trial-convictions",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "National Takedown",
+                "Task Force"
+            ],
+            "entities": [],
+            "state": "NY",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-06-03-1477520876",
+            "date": "2026-06-03",
+            "agency": "Media",
+            "type": "Investigative Report",
+            "title": "‘Wild West’ of Hospice Fraud Intensifies in Texas",
+            "description": "Texas has been flagged by regulators as an area seeing increased fraudulent hospice activity. The program integrity issues have challenged the sustainability of legitimate providers. Texas is among the fraud hotbed states, joined by California, Arizona and Nevada. These states have seen hundreds of newly licensed hospice operators in recent years – far more than […] The post ‘Wild West’ of Hospice Fraud Intensifies in Texas appeared first on Hospice News .",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://hospicenews.com/2026/06/03/wild-west-of-hospice-fraud-intensifies-in-texas/",
+            "link_label": "Hospice News Report",
+            "social_posts": [],
+            "tags": [
+                "Hospice Fraud",
+                "Program Integrity",
+                "Multi-State"
+            ],
+            "entities": [],
+            "state": "TX",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "HHS-OIG"
+        },
+        {
+            "id": "media-2026-06-04-1681427837",
+            "date": "2026-06-04",
+            "agency": "DOJ",
+            "type": "Administrative Action",
+            "title": "Watch live: Blanche, Patel give remarks in Ohio on effort to combat Medicaid fraud",
+            "description": "Acting Attorney General Todd Blanche and FBI Director Kash Patel will brief reporters Thursday morning on the federal efforts to combat alleged Medicaid fraud. Their remarks come a day after the House Oversight and Government Reform Committee held a task force hearing on fraud allegations in Ohio. The Trump administration also recently introduced new work…",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [
+                "Todd Blanche",
+                "Kash Patel",
+                "Mehmet Oz"
+            ],
+            "link": "https://thehill.com/video-clips/5909732-watch-live-todd-blanche-kash-patel-mehmet-oz-medicaid-fraud-fighting-efforts-ohio/",
+            "link_label": "The Hill Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Task Force",
+                "Program Integrity"
+            ],
+            "entities": [],
+            "state": "OH",
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-06-03-3623385301",
+            "date": "2026-06-03",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "DOJ Inks $56.5M Deal In Whistleblower Medicare Fraud Suits",
+            "description": "The U.S. Department of Justice announced a $56.5 million settlement with two health assessment companies and a founder to resolve whistleblower allegations of submitting false diagnosis information to private Medicare insurers. The settlement addresses False Claims Act violations involving Medicare Advantage plans. The case was brought under whistleblower provisions, indicating relator involvement in the investigation and litigation.",
+            "amount": "$56.5M",
+            "amount_numeric": 56500000,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2485420?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare Advantage",
+                "False Claims",
+                "False Claims Act",
+                "Whistleblower",
+                "Risk Adjustment"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-06-03-265483204",
+            "date": "2026-06-03",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "DOJ Sets New Healthcare Fraud Convictions Record",
+            "description": "The U.S. Department of Justice announced six jury trial convictions secured by its Health Care Fraud Unit across the country in less than three weeks, involving healthcare fraud schemes totaling more than $1.1 billion in fraud losses. The announcement highlights a significant enforcement record for multiple criminal convictions in a concentrated timeframe. Specific details about individual defendants, fraud schemes, and affected healthcare programs are not provided in this summary announcement.",
+            "amount": "$1.1B",
+            "amount_numeric": 1100000000,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2485491?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "National Takedown",
+                "False Claims",
+                "Program Integrity"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "news",
             "auto_fetched": true
         }
     ]
