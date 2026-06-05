@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-06-04T15:31:31.754660",
+        "last_updated": "2026-06-05T15:18:33.419187",
         "version": "1.0"
     },
     "actions": [
@@ -10120,6 +10120,133 @@
             "state": null,
             "source_type": "news",
             "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-06-04-1114832178",
+            "date": "2026-06-04",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "Puerto Rico Pharmacies Agree to Pay $4.6 Million to Federal Authorities in Medicare and Medicaid Fraud Cases",
+            "description": "Multiple Puerto Rico pharmacies agreed to pay $4.6 million in settlement to resolve Medicare and Medicaid fraud allegations. The settlement addresses improper billing and claims submissions to federal healthcare programs. This represents a coordinated enforcement action by federal authorities against pharmacy operators in Puerto Rico for fraudulent healthcare billing practices.",
+            "amount": "$4.6M",
+            "amount_numeric": 4600000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/puerto-rico-pharmacies-agree-to-pay-46-million-to-federal-authorities-in-medicare-and-medicaid-fraud-cases/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "Pharmacy Fraud",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": "PR",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-06-04-2404626735",
+            "date": "2026-06-04",
+            "agency": "HHS-OIG",
+            "type": "Administrative Action",
+            "title": "Trump cuts funding to Hawaii’s Medicaid fraud unit",
+            "description": "The Trump administration's HHS Office of Inspector General, led by Inspector General March Bell, is defunding Hawaii's Medicaid Fraud Control Unit (MFCU) by cutting $3 million in federal funding. The decision was made because the state unit failed to bring a single indictment or conviction over the past four years. Hawaii Attorney General Anne Lopez was notified via letter that the HHS-OIG would not recertify the state's MFCU. This action reflects federal oversight of state-level fraud enforcement performance and accountability.",
+            "amount": "$3M",
+            "amount_numeric": 3000000,
+            "officials": [
+                "Anne Lopez",
+                "March Bell"
+            ],
+            "link": "https://thehill.com/policy/healthcare/5910195-trump-cuts-hawaii-medicaid-funding/",
+            "link_label": "The Hill Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Program Integrity",
+                "Task Force"
+            ],
+            "entities": [
+                "Hawaii Medicaid Fraud Control Unit"
+            ],
+            "state": "HI",
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-06-04-2210989792",
+            "date": "2026-06-04",
+            "agency": "HHS-OIG",
+            "type": "Administrative Action",
+            "title": "HHS cuts funds for Hawaii’s Medicaid fraud unit",
+            "description": "HHS Inspector General T. March Bell said Hawaii’s Medicaid fraud control unit is no longer certified — and has lost reimbursements from the federal government, as a result. In a June 4 letter to Hawaii officials, Mr. Bell called out the unit for not securing any Medicaid fraud convictions between 2022 and 2025. The state […] The post HHS cuts funds for Hawaii’s Medicaid fraud unit appeared first on Becker's Payer Issues | Payer News .",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [
+                "T. March Bell"
+            ],
+            "link": "https://www.beckerspayer.com/payer/medicaid/hhs-cuts-funds-for-hawaiis-medicaid-fraud-unit/",
+            "link_label": "Becker's Payer Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Program Integrity"
+            ],
+            "entities": [
+                "Hawaii Medicaid Fraud Control Unit"
+            ],
+            "state": "HI",
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-06-04-1336519178",
+            "date": "2026-06-04",
+            "agency": "White House",
+            "type": "Administrative Action",
+            "title": "Feds Tout Medicaid Fraud Crackdown In Ohio, Slam Hawaii",
+            "description": "The Trump administration issued guidance to states regarding Medicaid fraud enforcement, praising Ohio's anti-fraud efforts while criticizing Hawaii for insufficient fraud prosecutions. Federal officials warned states that failure to ramp up fraud enforcement actions could result in loss of federal funding. This represents an executive-level push to increase state-level Medicaid fraud prosecutions and enforcement activity.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2485904?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Program Integrity",
+                "Executive Order"
+            ],
+            "entities": [],
+            "state": "HI",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "HHS-OIG"
+        },
+        {
+            "id": "media-2026-06-04-3450094193",
+            "date": "2026-06-04",
+            "agency": "Media",
+            "type": "Criminal Enforcement",
+            "title": "NC Doctor Seeks Probation In $11M Medicare Fraud Case",
+            "description": "A North Carolina doctor convicted of making false statements as part of an $11 million Medicaid fraud scheme has requested probation instead of federal prison time. A jury found her guilty of the charges related to the fraud scheme. The case is currently at the sentencing phase, with the defendant seeking leniency from the federal judge.",
+            "amount": "$11M",
+            "amount_numeric": 11000000,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2485742?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": "NC",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
