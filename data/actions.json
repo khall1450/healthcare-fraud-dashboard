@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-06-05T15:18:33.419187",
+        "last_updated": "2026-06-06T13:58:29.253678",
         "version": "1.0"
     },
     "actions": [
@@ -10247,6 +10247,30 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "doj-2026-06-05-2885329797",
+            "date": "2026-06-05",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Medicaid service providers sentenced for false statements resulting in overbilling",
+            "description": "Chenelle Wright and Chaniece Winfield, sisters from Moyock, North Carolina, were sentenced to prison for making false statements in connection with mental health services fraudulently billed to Medicaid. The defendants overbilled the Medicaid program through false claims related to behavioral health services they provided. This criminal enforcement action resulted in prison sentences for the fraudulent billing scheme.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-edva/pr/medicaid-service-providers-sentenced-false-statements-resulting-overbilling",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Behavioral Health",
+                "False Claims",
+                "Overbilling"
+            ],
+            "entities": [],
+            "state": "NC",
+            "source_type": "official",
+            "auto_fetched": true
         }
     ]
 }
