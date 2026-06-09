@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-06-08T16:07:43.748173",
+        "last_updated": "2026-06-09T15:20:07.744755",
         "version": "1.0"
     },
     "actions": [
@@ -10270,6 +10270,82 @@
             "entities": [],
             "state": "NC",
             "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-06-09-2261920954",
+            "date": "2026-06-09",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Two Charged in Multi-Year Conspiracy to Buy and Sell Stolen Medicare Beneficiary Information from Major South Florida Health Care Network",
+            "description": "A Miami woman was indicted by federal grand jury in the Southern District of Florida for orchestrating a multi-year conspiracy to obtain and sell stolen Medicare beneficiary identifier numbers (BINs) from a major South Florida health care network. A former health care network employee was also charged via criminal information for conspiring to unlawfully disclose the protected patient information. The scheme involved thousands of Medicare beneficiaries and the stolen BINs were sold for use in Medicare fraud schemes. The case is being prosecuted by the U.S. Attorney's Office for the Southern District of Florida.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-sdfl/pr/two-charged-multi-year-conspiracy-buy-and-sell-stolen-medicare-beneficiary-information",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Identity Theft",
+                "False Claims",
+                "Kickbacks",
+                "NPI Fraud"
+            ],
+            "entities": [
+                "South Florida Health Care Network"
+            ],
+            "state": "FL",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-06-08-3005229737",
+            "date": "2026-06-08",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "United States Obtains $3.4M in a False Claims Act Judgment Against Nebraska Pharmacist",
+            "description": "The United States obtained a $3.4 million judgment under the False Claims Act against a Nebraska pharmacist for submitting false claims to Medicare and Medicaid. The case involved the pharmacist allegedly billing federal healthcare programs for prescriptions and services that were not actually provided or were medically unnecessary. This civil settlement resolves allegations that the defendant violated the False Claims Act by knowingly presenting false or fraudulent claims for payment to Medicare and Medicaid.",
+            "amount": "$3.4M",
+            "amount_numeric": 3400000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/united-states-obtains-34m-in-a-false-claims-act-judgment-against-nebraska-pharmacist/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "Pharmacy Fraud",
+                "False Claims Act",
+                "Phantom Billing",
+                "Program Integrity"
+            ],
+            "entities": [],
+            "state": "NE",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-06-08-1148543499",
+            "date": "2026-06-08",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "NC Doctor Avoids Prison For Role In $11M Medicaid Fraud",
+            "description": "A North Carolina doctor was sentenced to five years of probation with eight months of house arrest for his role in an $11 million Medicaid fraud scheme involving false statements. The federal judge cited concerns about sentencing disparities while attempting to balance deterrence. The doctor avoided prison time despite the significant dollar amount defrauded from the Medicaid program.",
+            "amount": "$11M",
+            "amount_numeric": 11000000,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2487106?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": "NC",
+            "source_type": "news",
             "auto_fetched": true
         }
     ]
