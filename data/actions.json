@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-06-09T15:20:07.744755",
+        "last_updated": "2026-06-10T15:54:11.074105",
         "version": "1.0"
     },
     "actions": [
@@ -10347,6 +10347,62 @@
             "state": "NC",
             "source_type": "news",
             "auto_fetched": true
+        },
+        {
+            "id": "gao-2026-06-10-141042069",
+            "date": "2026-06-10",
+            "agency": "GAO",
+            "type": "Audit",
+            "title": "Priority Open Recommendations: Department of Health and Human Services",
+            "description": "What GAO Found In May 2025, GAO identified 35 priority recommendations for the Department of Health and Human Services (HHS). Since then, HHS has implemented four of those recommendations. In May 2026, GAO identified an additional seven priority recommendations, bringing the total to 38. GAO is highlighting the following two areas that warrant timely and focused attention: Strengthen Medicare and Medicaid program integrity and oversight; and Improve public health program oversight and coordination. Taking action to implement GAO's open recommendations in these areas would help increase the eff...",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.gao.gov/products/gao-26-108997",
+            "link_label": "GAO Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "Program Integrity",
+                "Improper Payments"
+            ],
+            "entities": [
+                "Department of Health and Human Services"
+            ],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true,
+            "related_agency": "HHS"
+        },
+        {
+            "id": "media-2026-05-06-202742894",
+            "date": "2026-05-06",
+            "agency": "State Agency",
+            "type": "Civil Action",
+            "title": "Attorney General Jeff Jackson Secures $584,000 to Resolve Medicaid Fraud Allegations Against Greensboro Treatment Center",
+            "description": "North Carolina Attorney General Jeff Jackson and the U.S. Attorney's Office for the Middle District of North Carolina secured a $584,143 settlement with Crossroads Treatment Center of Greensboro, P.C. to resolve allegations that the treatment center submitted false claims to the Medicaid program. The settlement resolves fraud allegations related to improper billing to the state's Medicaid program. This civil action was jointly handled by state and federal authorities.",
+            "amount": "$584,143",
+            "amount_numeric": 584143,
+            "officials": [
+                "Jeff Jackson"
+            ],
+            "link": "https://ncdoj.gov/attorney-general-jeff-jackson-secures-584000-to-resolve-medicaid-fraud-allegations-against-greensboro-treatment-center/",
+            "link_label": "NC-AG Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Addiction Treatment",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [
+                "Crossroads Treatment Center of Greensboro, P.C."
+            ],
+            "state": "NC",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
