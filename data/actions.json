@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-06-10T15:54:11.074105",
+        "last_updated": "2026-06-11T16:14:36.919736",
         "version": "1.0"
     },
     "actions": [
@@ -10401,6 +10401,79 @@
             ],
             "state": "NC",
             "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "doj-2026-06-10-4285056297",
+            "date": "2026-06-10",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Jacksonville Chiropractor Sentenced to a Year in Prison for Healthcare Fraud and Related Offenses",
+            "description": "Sean Rondeau, a 56-year-old chiropractor in Jacksonville, Illinois, was sentenced to one year and one day in federal prison followed by three years of supervised release for healthcare fraud and related offenses. Rondeau defrauded health insurance companies of more than $250,000. His convictions include healthcare fraud, three counts of mail fraud, and five counts of wire fraud. The sentencing concludes federal prosecution of the healthcare fraud scheme.",
+            "amount": "$250,000",
+            "amount_numeric": 250000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-cdil/pr/jacksonville-chiropractor-sentenced-year-prison-healthcare-fraud-and-related-offenses",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims",
+                "Overbilling"
+            ],
+            "entities": [
+                "Sean Rondeau"
+            ],
+            "state": "IL",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-06-10-3470962957",
+            "date": "2026-06-10",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "San Francisco Company Agrees to Pay Over Three Million Dollars to Resolve Allegations That They Submitted False Claims for Healthcare Payments",
+            "description": "A San Francisco-based company agreed to pay over $3 million to resolve allegations that it submitted false claims for healthcare payments to federal healthcare programs. The settlement resolves claims that the company submitted fraudulent billing for services or items not provided as billed, or for services that did not meet program requirements. The specific fraud scheme, company identity, and affected programs are not detailed in this title and description. The company resolved the allegations without admitting liability.",
+            "amount": "$3M",
+            "amount_numeric": 3000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/san-francisco-company-agrees-to-pay-over-three-million-dollars-to-resolve-allegations-that-they-submitted-false-claims-for-healthcare-payments/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [
+                "San Francisco Company (unnamed)"
+            ],
+            "state": "CA",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-06-10-2421408249",
+            "date": "2026-06-10",
+            "agency": "HHS-OIG",
+            "type": "Structural/Organizational",
+            "title": "Sarcone Leads Revival of NDNY Health Care Fraud Task Force",
+            "description": "The Northern District of New York (NDNY) Health Care Fraud Task Force has been revived under the leadership of a prosecutor named Sarcone. This task force represents a coordinated federal enforcement effort to combat healthcare fraud through multi-agency collaboration. The revival of this task force indicates renewed commitment to investigating and prosecuting healthcare fraud cases in the NDNY region.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [
+                "Sarcone"
+            ],
+            "link": "https://oig.hhs.gov/fraud/enforcement/sarcone-leads-revival-of-ndny-health-care-fraud-task-force/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Task Force",
+                "Program Integrity"
+            ],
+            "entities": [],
+            "state": "NY",
+            "source_type": "official",
             "auto_fetched": true,
             "related_agency": "DOJ"
         }
