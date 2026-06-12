@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-06-11T16:14:36.919736",
+        "last_updated": "2026-06-12T15:30:49.320804",
         "version": "1.0"
     },
     "actions": [
@@ -10474,6 +10474,58 @@
             "entities": [],
             "state": "NY",
             "source_type": "official",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "hhs-oig-2026-06-11-1444689215",
+            "date": "2026-06-11",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Multi-Million-Dollar Prescription Fraud Scheme Results In Prison Sentence For Three East Tennesseans",
+            "description": "Three East Tennessee residents were sentenced to prison for their roles in a multi-million-dollar prescription fraud scheme. The defendants defrauded Medicare and Medicaid through fraudulent prescription submissions and overbilling schemes. Specific dollar amounts and defendant names are referenced in the HHS-OIG enforcement action. The case resulted in prison sentences for all three individuals involved in the conspiracy.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/multi-million-dollar-prescription-fraud-scheme-results-in-prison-sentence-for-three-east-tennesseans/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "Pharmacy Fraud",
+                "False Claims",
+                "Overbilling"
+            ],
+            "entities": [],
+            "state": "TN",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-06-11-3581900984",
+            "date": "2026-06-11",
+            "agency": "Media",
+            "type": "Criminal Enforcement",
+            "title": "5th Circ. Backs $158M Healthcare Fraud Scheme Convictions",
+            "description": "The Fifth Circuit Court of Appeals affirmed convictions for two men found guilty in a $158 million healthcare fraud scheme involving false claims for illegitimate compound medications. The defendants conspired to defraud federal workers' compensation programs and Blue Cross Blue Shield through submission of fraudulent claims. The appellate court ruled that sufficient evidence supported the jury's guilty verdict, upholding the convictions.",
+            "amount": "$158M",
+            "amount_numeric": 158000000,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2488597?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Pharmacy Fraud",
+                "False Claims",
+                "Workers Compensation",
+                "Kickbacks"
+            ],
+            "entities": [
+                "Blue Cross Blue Shield"
+            ],
+            "state": null,
+            "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
         }
