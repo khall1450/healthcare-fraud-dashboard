@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-06-14T14:19:30.442998",
+        "last_updated": "2026-06-15T17:23:24.145771",
         "version": "1.0"
     },
     "actions": [
@@ -10528,6 +10528,29 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "doj-2026-06-15-2434941468",
+            "date": "2026-06-15",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Ohio Doctor Ordered to Pay Nearly $1M for Facilitating Fraud on Medicare",
+            "description": "An Ohio physician was sentenced for her role in a healthcare fraud conspiracy that fraudulently billed Medicare for more than $1,842,524. The doctor facilitated the submission of false claims to Medicare. She was ordered to pay restitution of nearly $1 million. The case was prosecuted by the U.S. Attorney's Office for the Northern District of Ohio.",
+            "amount": "$1.8M",
+            "amount_numeric": 1842524,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-ndoh/pr/ohio-doctor-ordered-pay-nearly-1m-facilitating-fraud-medicare",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "Hospital Fraud"
+            ],
+            "entities": [],
+            "state": "OH",
+            "source_type": "official",
+            "auto_fetched": true
         }
     ]
 }
