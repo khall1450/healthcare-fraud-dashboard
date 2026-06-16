@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-06-15T17:23:24.145771",
+        "last_updated": "2026-06-16T17:09:16.790961",
         "version": "1.0"
     },
     "actions": [
@@ -10551,6 +10551,31 @@
             "state": "OH",
             "source_type": "official",
             "auto_fetched": true
+        },
+        {
+            "id": "media-2026-06-15-118223011",
+            "date": "2026-06-15",
+            "agency": "Media",
+            "type": "Rule/Regulation",
+            "title": "<a href=\"https://www.fiercehealthcare.com/regulatory/judge-tosses-multiple-provisions-cms-2025-aca-program-integrity-rule\" hreflang=\"en\">Judge tosses multiple provisions of CMS' 2025 ACA program integrity rule</a>",
+            "description": "A federal judge vacated several key provisions of CMS's 2025 ACA program integrity rule affecting Affordable Care Act marketplaces. The decision struck down multiple components of the rule that CMS had implemented to address program integrity concerns. The ruling represents a significant regulatory setback for the agency's enforcement efforts in the ACA marketplace.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.fiercehealthcare.com/regulatory/judge-tosses-multiple-provisions-cms-2025-aca-program-integrity-rule",
+            "link_label": "Fierce Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "ACA",
+                "Program Integrity"
+            ],
+            "entities": [
+                "CMS"
+            ],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "CMS"
         }
     ]
 }
