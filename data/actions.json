@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-06-17T15:52:56.782073",
+        "last_updated": "2026-06-18T15:41:01.523937",
         "version": "1.0"
     },
     "actions": [
@@ -10576,6 +10576,113 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "CMS"
+        },
+        {
+            "id": "doj-2026-06-17-4136132802",
+            "date": "2026-06-17",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "Arkansas Pathology Laboratory and Its Owners Pay $30M to Settle Allegations of Kickbacks and Unnecessary Medical Testing",
+            "description": "Arkansas Pathology Laboratory and its owners agreed to pay $30 million to settle allegations of paying kickbacks to healthcare providers in exchange for patient referrals and performing unnecessary medical tests. The settlement resolves claims that the laboratory violated the Anti-Kickback Statute and the False Claims Act by submitting false claims to Medicare and Medicaid for tests that were not medically necessary. The case involved improper financial relationships designed to induce referrals and overbilling of federal healthcare programs.",
+            "amount": "$30M",
+            "amount_numeric": 30000000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-wdpa/pr/arkansas-pathology-laboratory-and-its-owners-pay-30m-settle-allegations-kickbacks-and",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "Lab Fraud",
+                "Kickbacks",
+                "Anti-Kickback",
+                "False Claims",
+                "False Claims Act",
+                "Unnecessary Procedures",
+                "Overbilling"
+            ],
+            "entities": [
+                "Arkansas Pathology Laboratory"
+            ],
+            "state": "AR",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-06-17-2003136808",
+            "date": "2026-06-17",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "Arkansas Pathology Laboratory and Its Owners Pay $30M to Settle Allegations of Kickbacks and Unnecessary Medical Testing",
+            "description": "Arkansas Pathology Laboratory and its owners settled allegations of paying kickbacks to healthcare providers and ordering unnecessary medical testing. The settlement resolves claims that the laboratory violated the Anti-Kickback Statute by providing financial incentives to physicians and other healthcare providers in exchange for referrals, and conducted medically unnecessary laboratory tests that resulted in false claims submitted to Medicare and Medicaid. The defendants paid $30 million to resolve the civil allegations without admitting liability.",
+            "amount": "$30M",
+            "amount_numeric": 30000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/arkansas-pathology-laboratory-and-its-owners-pay-30m-to-settle-allegations-of-kickbacks-and-unnecessary-medical-testing/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Lab Fraud",
+                "Kickbacks",
+                "Anti-Kickback",
+                "False Claims",
+                "Medicare",
+                "Medicaid",
+                "Unnecessary Procedures"
+            ],
+            "entities": [
+                "Arkansas Pathology Laboratory"
+            ],
+            "state": "AR",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-06-17-2586320003",
+            "date": "2026-06-17",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Nurse Practitioner Sentenced to 87 Months in Prison for $12M Medicare Fraud",
+            "description": "A nurse practitioner was sentenced to 87 months in prison for a $12 million Medicare fraud scheme. The case involved submitting false claims to Medicare for services not provided or medically unnecessary procedures. The sentencing represents the conclusion of a criminal prosecution for healthcare fraud that resulted in significant losses to the Medicare program.",
+            "amount": "$12M",
+            "amount_numeric": 12000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/nurse-practitioner-sentenced-to-87-months-in-prison-for-12m-medicare-fraud/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "False Claims Act",
+                "Unnecessary Procedures"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-06-17-2088490876",
+            "date": "2026-06-17",
+            "agency": "Media",
+            "type": "Criminal Enforcement",
+            "title": "6th Circ. OKs 30-Month Medical Fraudster Kickback Sentence",
+            "description": "The Sixth Circuit Court of Appeals upheld a 30-month prison sentence for a Tennessee man convicted of violating federal anti-kickback laws through his fraudulent door-to-door medical marketing firm. The case involved illegal kickback schemes related to medical services marketed directly to consumers. The appellate court affirmed that the sentence was properly calculated under federal sentencing guidelines. The defendant's conviction stands as a final judgment in this healthcare fraud prosecution.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2490583?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Kickbacks",
+                "Anti-Kickback"
+            ],
+            "entities": [],
+            "state": "TN",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
