@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-06-19T15:34:10.274902",
+        "last_updated": "2026-06-20T14:19:39.304491",
         "version": "1.0"
     },
     "actions": [
@@ -10683,6 +10683,33 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "media-2026-06-19-1098907050",
+            "date": "2026-06-19",
+            "agency": "Media",
+            "type": "Civil Action",
+            "title": "LabCorp Defeats Texas Medicaid Fraud Claims at State High Court",
+            "description": "Laboratory Corp. of America won a case at the Texas Supreme Court regarding alleged Medicaid fraud claims. The court ruled in a split decision that LabCorp is not liable for Medicaid fraud because any potential false statements it made had no impact on the millions of dollars in payments it received from the Texas Medicaid program. The ruling addresses whether false claims triggered liability under state fraud statutes.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://news.bloomberglaw.com/health-law-and-business/labcorp-defeats-texas-medicaid-fraud-claims-at-state-high-court?utm_source=rss&utm_medium=HLNW&utm_campaign=0000019e-e07e-d383-a99e-e3feb64f0001",
+            "link_label": "Bloomberg Law Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Lab Fraud",
+                "False Claims"
+            ],
+            "entities": [
+                "Laboratory Corp. of America",
+                "LabCorp"
+            ],
+            "state": "TX",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "State Agency"
         }
     ]
 }
