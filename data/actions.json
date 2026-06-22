@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-06-21T14:25:06.901453",
+        "last_updated": "2026-06-22T17:07:41.939944",
         "version": "1.0"
     },
     "actions": [
@@ -10710,6 +10710,34 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "State Agency"
+        },
+        {
+            "id": "media-2026-06-22-2235763875",
+            "date": "2026-06-22",
+            "agency": "Media",
+            "type": "Investigative Report",
+            "title": "Genentech, Novartis Accused of Drug Kickback Schemes in Lawsuit",
+            "description": "A whistleblower lawsuit alleges that Genentech Inc. and Novartis Pharmaceuticals Corp. violated the False Claims Act by engaging in kickback schemes designed to increase prescriptions of Xolair and other anti-allergy drugs. The lawsuit claims these pharmaceutical companies provided improper financial incentives to healthcare providers to boost prescription volumes for their products. The case involves allegations of kickbacks related to pharmaceutical fraud and False Claims Act violations.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://news.bloomberglaw.com/health-law-and-business/genentech-novartis-accused-of-drug-kickback-schemes-in-lawsuit?utm_source=rss&utm_medium=HLNW&utm_campaign=0000019e-ef4f-d839-a39e-efcffbed0001",
+            "link_label": "Bloomberg Law Report",
+            "social_posts": [],
+            "tags": [
+                "Pharmaceutical",
+                "Kickbacks",
+                "False Claims Act",
+                "Whistleblower"
+            ],
+            "entities": [
+                "Genentech Inc.",
+                "Novartis Pharmaceuticals Corp."
+            ],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
