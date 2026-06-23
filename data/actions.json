@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-06-22T17:07:41.939944",
+        "last_updated": "2026-06-23T15:15:56.709587",
         "version": "1.0"
     },
     "actions": [
@@ -10738,6 +10738,33 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "media-2026-06-23-4132082164",
+            "date": "2026-06-23",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Ferraris and Shell Companies: Five Charged in Medicare Fraud Schemes",
+            "description": "The Department of Justice charged five individuals in connection with Medicare fraud schemes involving skin substitutes, a wound care treatment that was significantly overused and cost the government $10 billion in 2024. The defendants allegedly used shell companies and fraudulent billing practices to defraud the Medicare program. The investigation revealed a pattern of unnecessary procedures and false claims related to skin substitute products. Luxury assets including Ferraris were seized as part of the enforcement action.",
+            "amount": "$10B",
+            "amount_numeric": 10000000000,
+            "officials": [],
+            "link": "https://www.nytimes.com/2026/06/23/us/skin-substitutes-medicare-fraud.html",
+            "link_label": "NYT Health Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Wound Care",
+                "False Claims",
+                "False Claims Act",
+                "Overbilling",
+                "National Takedown",
+                "Program Integrity"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true
         }
     ]
 }
