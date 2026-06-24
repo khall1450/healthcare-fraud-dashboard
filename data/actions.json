@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-06-23T15:15:56.709587",
+        "last_updated": "2026-06-24T14:45:51.815136",
         "version": "1.0"
     },
     "actions": [
@@ -10765,6 +10765,339 @@
             "state": null,
             "source_type": "news",
             "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-06-24-2102947055",
+            "date": "2026-06-24",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "U.S. Attorney Announces Major Health Care Fraud Cases in Western District of Texas",
+            "description": "The U.S. Attorney for the Western District of Texas announced criminal charges against Christina Charles, age 52, as part of the Department of Justice's 2026 National Health Care Fraud Takedown. Charles is accused of operating a scheme to defraud Medicare. The case represents one of multiple coordinated enforcement actions targeting healthcare fraud across the nation.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [
+                "Justin R. Simmons"
+            ],
+            "link": "https://www.justice.gov/usao-wdtx/pr/us-attorney-announces-major-health-care-fraud-cases-western-district-texas",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "National Takedown"
+            ],
+            "entities": [],
+            "state": "TX",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-06-23-3876068976",
+            "date": "2026-06-23",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "National Health Care Fraud Takedown Results in 455 Defendants Charged in Fraud Scheme Totaling Over $6.5 Billion",
+            "description": "The Department of Justice announced a national health care fraud takedown resulting in criminal charges against 455 defendants involved in fraud schemes totaling over $6.5 billion. The charges involve alleged schemes to defraud Medicare, Medicaid, TRICARE, and other health care benefit programs. The announcement was made by United States Attorney David I. Courcelle. The specific nature of the fraud schemes and individual defendant details are referenced in the broader takedown initiative.",
+            "amount": "$6.5B",
+            "amount_numeric": 6500000000,
+            "officials": [
+                "David I. Courcelle"
+            ],
+            "link": "https://www.justice.gov/usao-edla/pr/national-health-care-fraud-takedown-results-455-defendants-charged-fraud-scheme",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "TRICARE",
+                "National Takedown",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-06-23-2903443549",
+            "date": "2026-06-23",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "National Health Care Fraud Takedown Results in 455 Defendants Charged in Connection with Over $6.5 Billion in Alleged Fraud, Including Oahu Man Charged with Fraudulent Billing Resulting in $1.5 Million Loss",
+            "description": "The Department of Justice announced a national healthcare fraud takedown resulting in criminal charges against 455 defendants in connection with over $6.5 billion in alleged fraud. Among those charged was Henry Quan from Oahu, Hawaii, who was accused of fraudulent Medicare billing resulting in approximately $1.5 million in losses. The charges were announced by United States Attorney Ken Sorenson as part of a coordinated national enforcement action targeting healthcare fraud schemes across multiple jurisdictions.",
+            "amount": "$6.5B",
+            "amount_numeric": 6500000000,
+            "officials": [
+                "Ken Sorenson"
+            ],
+            "link": "https://www.justice.gov/usao-hi/pr/national-health-care-fraud-takedown-results-455-defendants-charged-connection-over-65",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "National Takedown",
+                "False Claims",
+                "Phantom Billing"
+            ],
+            "entities": [
+                "Henry Quan"
+            ],
+            "state": "HI",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-06-23-4268027906",
+            "date": "2026-06-23",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Two Charged in the District of Oregon as Part of the National Health Care Fraud Takedown",
+            "description": "Two defendants were criminally charged in the District of Oregon as part of a national healthcare fraud takedown for schemes to defraud Medicare, the Department of Health and Human Services, the Veterans Health Administration, and private insurance companies. The charges were announced by U.S. Attorney Scott E. Bradford. Specific details regarding the defendants' names, roles, the particular fraud schemes, dollar amounts involved, and current status are not provided in the brief announcement.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [
+                "Scott E. Bradford"
+            ],
+            "link": "https://www.justice.gov/usao-or/pr/two-charged-district-oregon-part-national-health-care-fraud-takedown",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "National Takedown",
+                "False Claims"
+            ],
+            "entities": [],
+            "state": "OR",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-06-23-4011150119",
+            "date": "2026-06-23",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "District of Arizona Announces Charges Involving Over $1.2 Billion in False or Fraudulent Claims as Part of National Health Care Fraud Takedown",
+            "description": "The U.S. Attorney's Office for the District of Arizona announced criminal charges against four defendants in connection with schemes to defraud Medicare, Medicaid, and other federal health care programs of over $1.2 billion. The charges are part of a national health care fraud takedown coordinated by the Department of Justice. Specific details about the defendants, their roles, the nature of the fraud schemes, and which federal health care programs were targeted are indicated in the announcement, though full case details would require review of the underlying indictment documents.",
+            "amount": "$1.2B",
+            "amount_numeric": 1200000000,
+            "officials": [
+                "Timothy Courchaine"
+            ],
+            "link": "https://www.justice.gov/usao-az/pr/district-arizona-announces-charges-involving-over-12-billion-false-or-fraudulent-claims",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "National Takedown",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": "AZ",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-06-23-1511583203",
+            "date": "2026-06-23",
+            "agency": "HHS-OIG",
+            "type": "Administrative Action",
+            "title": "2026 National Health Care Fraud Takedown",
+            "description": "The 2026 National Health Care Fraud Takedown represents a coordinated enforcement initiative by HHS-OIG to combat healthcare fraud across multiple programs and schemes. This action involves federal law enforcement agencies working collaboratively to investigate and prosecute healthcare fraud cases, likely including criminal indictments, civil settlements, and administrative actions against healthcare providers and entities engaged in fraudulent billing, kickbacks, and other violations. The takedown targets fraudulent activity affecting Medicare, Medicaid, and other federal healthcare programs through a comprehensive, multi-agency approach. Specific cases, dollar amounts, and detailed outcomes would be included in the full enforcement action details.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/2026-national-health-care-fraud-takedown/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "National Takedown",
+                "Strike Force",
+                "Program Integrity",
+                "False Claims",
+                "Kickbacks",
+                "Anti-Kickback"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-06-23-143349025",
+            "date": "2026-06-23",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Massachusetts Man Charged in $5 Million Medicare Fraud Scheme as Part of National Health Care Fraud Takedown",
+            "description": "A Massachusetts man was charged in a $5 million Medicare fraud scheme as part of a national health care fraud takedown by federal authorities. The case involves fraudulent billing to Medicare, though specific details about the nature of the fraud scheme and the defendant's identity are not provided in the available information. This charge is part of a broader national enforcement initiative targeting healthcare fraud. The defendant faces federal criminal charges related to the conspiracy to defraud Medicare.",
+            "amount": "$5M",
+            "amount_numeric": 5000000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-ma/pr/massachusetts-man-charged-5-million-medicare-fraud-scheme-part-national-health-care",
+            "link_label": "DOJ-USAO Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "National Takedown"
+            ],
+            "entities": [],
+            "state": "MA",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-06-23-573107664",
+            "date": "2026-06-23",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "<a href=\"https://www.fiercehealthcare.com/regulatory/doj-announces-65b-healthcare-fraud-takedown-record-medicaid-enforcement\" hreflang=\"en\">DOJ announces $6.5B healthcare fraud takedown with record Medicaid enforcement</a>",
+            "description": "The Department of Justice announced a major healthcare fraud takedown targeting 455 defendants across multiple schemes totaling $6.5 billion in alleged fraudulent billing and services. The enforcement action highlighted charges related to fraudulent amniotic wound allografts and undelivered Medicaid services, representing a record level of Medicaid enforcement activity. The charges involve allegations of false claims submitted to federal healthcare programs, with particular focus on wound care products and state Medicaid programs that were billed for services never provided to beneficiaries.",
+            "amount": "$6.5B",
+            "amount_numeric": 6500000000,
+            "officials": [],
+            "link": "https://www.fiercehealthcare.com/regulatory/doj-announces-65b-healthcare-fraud-takedown-record-medicaid-enforcement",
+            "link_label": "Fierce Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "National Takedown",
+                "Wound Care",
+                "False Claims",
+                "Overbilling",
+                "Program Integrity"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-06-23-3123794558",
+            "date": "2026-06-23",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Justice Department announces hundreds of charges in multibillion-dollar health care fraud crackdown",
+            "description": "The Justice Department charged a Texas-based doctor in an $89 million healthcare fraud scheme involving the billing of medically unnecessary cardiovascular screening tests to insurers. The scheme involved fraudulent claims submitted for tests that were not medically justified, resulting in significant improper payments to the physician. The case is part of a broader multibillion-dollar healthcare fraud crackdown announced by the DOJ. The doctor faces criminal charges related to false claims and potential violations of the False Claims Act.",
+            "amount": "$89M",
+            "amount_numeric": 89000000,
+            "officials": [],
+            "link": "https://www.statnews.com/2026/06/23/texas-doctor-charged-fraud-case-cms-health-care-crackdown/?utm_campaign=rss",
+            "link_label": "STAT News Report",
+            "social_posts": [],
+            "tags": [
+                "Unnecessary Procedures",
+                "False Claims",
+                "False Claims Act",
+                "Overbilling",
+                "National Takedown"
+            ],
+            "entities": [],
+            "state": "TX",
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-06-23-368593022",
+            "date": "2026-06-23",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "DOJ unveils charges for $6.5 billion in health fraud schemes",
+            "description": "The Department of Justice announced charges against more than 450 defendants for alleged healthcare fraud involving over $6.5 billion in false claims. This represents the second largest amount ever charged in a healthcare fraud operation. The charges were announced as part of the Trump administration's focus on combating healthcare fraud. Specific details about the fraud schemes, programs targeted, and individual defendants are referenced but not fully detailed in this summary announcement.",
+            "amount": "$6.5B",
+            "amount_numeric": 6500000000,
+            "officials": [],
+            "link": "https://thehill.com/policy/healthcare/5936511-healthcare-fraud-justice-department-operation/",
+            "link_label": "The Hill Report",
+            "social_posts": [],
+            "tags": [
+                "National Takedown",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-06-24-489795038",
+            "date": "2026-06-24",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "DOJ charges 455 defendants in $6.5B healthcare fraud: 6 notes",
+            "description": "The Justice Department has charged 455 defendants, including 90 physicians, nurses and other licensed medical professionals, for allegedly participating in healthcare fraud and opioid abuse schemes. The charges are part of the department’s 2026 National Healthcare Fraud Takedown, which is addressing over $6.5 billion in alleged false claims and patient harm and deaths, according to […] The post DOJ charges 455 defendants in $6.5B healthcare fraud: 6 notes appeared first on Becker's Payer Issues | Payer News .",
+            "amount": "$6.5B",
+            "amount_numeric": 6500000000,
+            "officials": [],
+            "link": "https://www.beckerspayer.com/payer/medicaid/90-physicians-nurses-charged-in-national-healthcare-fraud-crackdown-6-notes/",
+            "link_label": "Becker's Payer Report",
+            "social_posts": [],
+            "tags": [
+                "National Takedown",
+                "False Claims",
+                "Opioids",
+                "Kickbacks",
+                "Medicare",
+                "Medicaid"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-06-23-135898705",
+            "date": "2026-06-23",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Fugitive in $3.7B Medicare fraud scheme returned to US after capture",
+            "description": "A man charged in connection with one of the largest Medicare fraud schemes in U.S. history is back in American custody after being apprehended in Northern Cyprus and flown to South Florida, the Justice Department said June 23. Ibrahim Khaldoon Hilmi has been charged in the Southern District of Florida in connection with $3.7 billion […] The post Fugitive in $3.7B Medicare fraud scheme returned to US after capture appeared first on Becker's Payer Issues | Payer News .",
+            "amount": "$3.7B",
+            "amount_numeric": 3700000000,
+            "officials": [],
+            "link": "https://www.beckerspayer.com/financial/fugitive-in-3-7b-medicare-fraud-scheme-returned-to-us-after-capture/",
+            "link_label": "Becker's Payer Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "National Takedown"
+            ],
+            "entities": [
+                "Ibrahim Khaldoon Hilmi"
+            ],
+            "state": "FL",
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-06-23-1965013362",
+            "date": "2026-06-23",
+            "agency": "Media",
+            "type": "Criminal Enforcement",
+            "title": "Feds Tout AI's Role In $6.5B Healthcare Fraud Crackdown",
+            "description": "Federal authorities announced a national healthcare fraud crackdown resulting in charges against 455 defendants and recovery of $6.5 billion. The enforcement action leveraged artificial intelligence and sophisticated data analysis to detect and prosecute fraud schemes. The announcement highlights the use of advanced analytics technology in identifying healthcare fraud across multiple schemes and programs.",
+            "amount": "$6.5B",
+            "amount_numeric": 6500000000,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2492458?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "National Takedown",
+                "AI",
+                "Program Integrity"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
