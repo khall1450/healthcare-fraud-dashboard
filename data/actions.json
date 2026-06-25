@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-06-24T14:45:51.815136",
+        "last_updated": "2026-06-25T14:45:33.662199",
         "version": "1.0"
     },
     "actions": [
@@ -11098,6 +11098,78 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "doj-2026-06-25-3180246395",
+            "date": "2026-06-25",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Federal Charges Announced in Multi-Million Dollar Medicaid Fraud Scheme and Prescription Drug Diversion Conspiracy; Announcement Made as Part of Justice Department’s National Health Care Fraud Takedown",
+            "description": "Federal prosecutors announced charges in a multi-million dollar Medicaid fraud scheme involving prescription drug diversion conspiracy. The case was announced as part of the Justice Department's national health care fraud takedown initiative. The announcement involves federal charges related to Medicaid program fraud and controlled substance diversion. Specific details about defendants, dollar amounts, and charges are referenced but would require review of the full press release for complete information.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-edwi/pr/federal-charges-announced-multi-million-dollar-medicaid-fraud-scheme-and-prescription",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Pharmacy Fraud",
+                "False Claims",
+                "National Takedown",
+                "Opioids"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-06-24-2790801158",
+            "date": "2026-06-24",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "McLeansville Woman Charged With Health Care Fraud, Part of National Health Care Fraud Takedown",
+            "description": "A woman from McLeansville, North Carolina was charged with healthcare fraud as part of a national healthcare fraud takedown. The charge indicates participation in a coordinated federal enforcement action targeting multiple healthcare fraud schemes across the country. Specific details about the fraud scheme, dollar amounts, programs defrauded, and the nature of the charges are not provided in the title and description alone, but the case is part of a broader DOJ initiative to prosecute healthcare fraud offenders.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-mdnc/pr/mcleansville-woman-charged-health-care-fraud-part-national-health-care-fraud-takedown",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "National Takedown"
+            ],
+            "entities": [],
+            "state": "NC",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-06-24-3499136170",
+            "date": "2026-06-24",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Celina Pharmacy Owner Sentenced for Opioid Distribution/Health Care Fraud",
+            "description": "A pharmacy owner in Celina was sentenced for opioid distribution and healthcare fraud. The case involved illegal distribution of opioids through fraudulent pharmacy operations and improper billing to federal healthcare programs. This sentencing represents the outcome of a criminal prosecution for healthcare fraud related to controlled substance distribution.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/celina-pharmacy-owner-sentenced-for-opioid-distributionhealth-care-fraud/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Pharmacy Fraud",
+                "Opioids",
+                "False Claims",
+                "Medicare"
+            ],
+            "entities": [
+                "Celina Pharmacy"
+            ],
+            "state": "OH",
+            "source_type": "official",
+            "auto_fetched": true
         }
     ]
 }
