@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-06-25T14:45:33.662199",
+        "last_updated": "2026-06-26T14:38:22.934506",
         "version": "1.0"
     },
     "actions": [
@@ -11168,6 +11168,107 @@
                 "Celina Pharmacy"
             ],
             "state": "OH",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-06-25-2446772264",
+            "date": "2026-06-25",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Woman Pleads Guilty to Nearly $1 Million Hearing Aid Fraud Scheme",
+            "description": "Julianna C. Lung pleaded guilty in federal court in San Diego to healthcare fraud for marketing and selling hearing protection devices to U.S. Border Patrol agents, other federal employees, and their family members, then falsely billing insurance providers by claiming the devices were medically-necessary hearing aids. Lung submitted approximately 385 fraudulent claims to health insurance plans participating in the Federal Employees Health Benefits (FEHB) program, totaling nearly $1 million. The scheme involved false representations that beneficiaries suffered from hearing loss to justify the fraudulent billing.",
+            "amount": "$1M",
+            "amount_numeric": 1000000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-sdca/pr/woman-pleads-guilty-nearly-1-million-hearing-aid-fraud-scheme",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medical Devices",
+                "False Claims",
+                "False Claims Act",
+                "Overbilling"
+            ],
+            "entities": [
+                "Federal Employees Health Benefits (FEHB)",
+                "U.S. Border Patrol"
+            ],
+            "state": "CA",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-06-25-3570104469",
+            "date": "2026-06-25",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "New York City Woman Pleads Guilty for Role in Multi-State Prescription Fraud Ring",
+            "description": "A New York City woman pleaded guilty for her role in a multi-state prescription fraud ring. The case involved fraudulent prescription schemes that defrauded healthcare programs across multiple states. The specific details of the fraud scheme, dollar amounts, programs defrauded, and sentencing information are referenced in the HHS-OIG enforcement action.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/new-york-city-woman-pleads-guilty-for-role-in-multi-state-prescription-fraud-ring/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Pharmacy Fraud",
+                "Multi-State",
+                "Prescription Fraud"
+            ],
+            "entities": [],
+            "state": "NY",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-06-25-41801734",
+            "date": "2026-06-25",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "U.S. Attorney Announces $2.2 Million Settlement With Urologists For Submitting False Claims To Medicare",
+            "description": "The U.S. Attorney's Office announced a $2.2 million settlement with urologists for submitting false claims to Medicare. The settlement resolves allegations that the urologists submitted false or fraudulent claims for medical services to the Medicare program. This civil enforcement action addresses improper billing practices in the urology specialty.",
+            "amount": "$2.2M",
+            "amount_numeric": 2200000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/us-attorney-announces-22-million-settlement-with-urologists-for-submitting-false-claims-to-medicare/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "False Claims Act",
+                "Upcoding"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "hhs-oig-2026-06-24-3509380389",
+            "date": "2026-06-24",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Raleigh Man Pleads Guilty to Receiving More than $60 Million in Fraudulent Claims from Paying Kickbacks for Patient Referrals",
+            "description": "A Raleigh man pleaded guilty to receiving more than $60 million in fraudulent claims from Medicare and Medicaid by paying kickbacks for patient referrals. The defendant operated a scheme involving illegal payments to healthcare providers in exchange for directing patients to his healthcare business, violating the Anti-Kickback Statute. The fraudulent claims were submitted to federal healthcare programs, resulting in substantial overbilling and improper payments. The plea agreement represents a resolution of criminal charges related to this kickback scheme.",
+            "amount": "$60M",
+            "amount_numeric": 60000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/raleigh-man-pleads-guilty-to-receiving-more-than-60-million-in-fraudulent-claims-from-paying-kickbacks-for-patient-referrals/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "Kickbacks",
+                "Anti-Kickback",
+                "False Claims",
+                "Overbilling"
+            ],
+            "entities": [],
+            "state": "NC",
             "source_type": "official",
             "auto_fetched": true
         }
