@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-06-28T14:03:28.812477",
+        "last_updated": "2026-06-29T15:59:08.931459",
         "version": "1.0"
     },
     "actions": [
@@ -11271,6 +11271,35 @@
             "state": "NC",
             "source_type": "official",
             "auto_fetched": true
+        },
+        {
+            "id": "media-2026-06-29-2359559306",
+            "date": "2026-06-29",
+            "agency": "Media",
+            "type": "Investigative Report",
+            "title": "7 Medicaid behavioral health fraud cases, audit findings to know",
+            "description": "Federal prosecutors and auditors are conducting a coordinated enforcement wave targeting Medicaid behavioral health fraud across multiple states and provider types, including methadone clinics, autism centers, and psychiatric hospitals. The enforcement actions involve billions in alleged false claims nationally, with two states alone identifying over $123 million combined in potentially improper payments for autism services and other behavioral health treatments. The article aggregates multiple cases and audit findings that demonstrate systemic fraud across the behavioral health provider landscape under Medicaid programs.",
+            "amount": "$123M+",
+            "amount_numeric": 123000000,
+            "officials": [],
+            "link": "https://www.beckerspayer.com/payer/medicaid/7-medicaid-behavioral-health-fraud-cases-audit-findings-to-know/",
+            "link_label": "Becker's Payer Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Behavioral Health",
+                "Addiction Treatment",
+                "Audit",
+                "False Claims",
+                "Overbilling",
+                "Multi-State",
+                "Program Integrity"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
