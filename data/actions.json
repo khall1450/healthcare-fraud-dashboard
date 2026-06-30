@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-06-29T15:59:08.931459",
+        "last_updated": "2026-06-30T14:32:54.146549",
         "version": "1.0"
     },
     "actions": [
@@ -11300,6 +11300,110 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "doj-2026-06-29-2832398499",
+            "date": "2026-06-29",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "Southern District of Iowa Announces Cases Related to the 2026 National Health Care Fraud Takedown",
+            "description": "The United States Attorney's Office for the Southern District of Iowa announced a civil complaint and civil settlement as part of the Department of Justice's 2026 National Health Care Fraud Takedown initiative. The announcement indicates multiple civil enforcement actions are underway in Iowa targeting healthcare fraud. Specific details about the defendants, fraud schemes, dollar amounts, and affected programs are not provided in this press release summary.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-sdia/pr/southern-district-iowa-announces-cases-related-2026-national-health-care-fraud",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "National Takedown",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": "IA",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-06-29-697423596",
+            "date": "2026-06-29",
+            "agency": "Media",
+            "type": "Civil Action",
+            "title": "STAT+: AstraZeneca to pay $34 million to settle kickback charges filed by Texas attorney general",
+            "description": "AstraZeneca agreed to pay $34 million to settle claims that the company paid kickbacks to improperly influence prescriptions paid for by Texas Medicaid. The settlement was filed by the Texas Attorney General and addresses allegations that AstraZeneca engaged in kickback schemes to boost Medicaid prescription volume. The company did not admit wrongdoing as part of the settlement agreement.",
+            "amount": "$34M",
+            "amount_numeric": 34000000,
+            "officials": [],
+            "link": "https://www.statnews.com/pharmalot/2026/06/29/astrazeneca-kickback-charges-texas-settlement/?utm_campaign=rss",
+            "link_label": "STAT News Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Pharmaceutical",
+                "Kickbacks",
+                "Anti-Kickback"
+            ],
+            "entities": [
+                "AstraZeneca"
+            ],
+            "state": "TX",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "State Agency"
+        },
+        {
+            "id": "media-2026-06-30-254341965",
+            "date": "2026-06-30",
+            "agency": "Media",
+            "type": "Civil Action",
+            "title": "Gainwell Technologies Sheds Whistleblowers’ Medicaid Fraud Suit",
+            "description": "Gainwell Technologies LLC obtained dismissal of a False Claims Act whistleblower suit that alleged the company facilitated a scheme to submit false and inflated hospital bills to Medicaid for reimbursement. The lawsuit, brought under the False Claims Act by whistleblowers, claimed Gainwell enabled improper billing practices targeting the Medicaid program. The dismissal represents a victory for the defendant company in defeating the fraud allegations at the pleading stage. The specific dollar amount of alleged fraudulent claims was not disclosed in the available information.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://news.bloomberglaw.com/health-law-and-business/gainwell-technologies-sheds-whistleblowers-medicaid-fraud-suit?utm_source=rss&utm_medium=HLNW&utm_campaign=0000019f-1874-d8e7-af9f-fcf6a9140001",
+            "link_label": "Bloomberg Law Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "False Claims Act",
+                "Hospital Fraud",
+                "Overbilling",
+                "Whistleblower"
+            ],
+            "entities": [
+                "Gainwell Technologies LLC"
+            ],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "media-2026-06-29-2128012674",
+            "date": "2026-06-29",
+            "agency": "State Agency",
+            "type": "Civil Action",
+            "title": "AstraZeneca To Pay $34M In Texas Kickbacks Settlement",
+            "description": "AstraZeneca agreed to pay $34 million to settle allegations that the pharmaceutical company provided kickbacks to healthcare providers for prescribing its drugs, many of which were covered by Texas Medicaid. The settlement resolves state-level charges related to improper financial incentives designed to increase prescriptions. This represents a civil enforcement action by Texas authorities against a major pharmaceutical manufacturer for Anti-Kickback Statute violations involving the Medicaid program.",
+            "amount": "$34M",
+            "amount_numeric": 34000000,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2495110?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Pharmaceutical",
+                "Kickbacks",
+                "Anti-Kickback"
+            ],
+            "entities": [
+                "AstraZeneca"
+            ],
+            "state": "TX",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "HHS-OIG"
         }
     ]
 }
