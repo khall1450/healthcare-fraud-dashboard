@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-06-30T14:32:54.146549",
+        "last_updated": "2026-07-01T14:50:16.969649",
         "version": "1.0"
     },
     "actions": [
@@ -11404,6 +11404,57 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "HHS-OIG"
+        },
+        {
+            "id": "hhs-oig-2026-06-30-3034169664",
+            "date": "2026-06-30",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Telemedicine Company Owner and Author of Health Care Compliance Books Sentenced for $136M Medicare Fraud Scheme",
+            "description": "A telemedicine company owner and author of health care compliance books was sentenced for orchestrating a $136 million Medicare fraud scheme. The defendant used telemedicine platforms to submit false claims to Medicare, involving unnecessary services and improper billing practices. The scheme defrauded the Medicare program through a coordinated fraud operation that exploited telemedicine billing vulnerabilities. The individual received a criminal sentence for their role in the fraudulent scheme.",
+            "amount": "$136M",
+            "amount_numeric": 136000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/telemedicine-company-owner-and-author-of-health-care-compliance-books-sentenced-for-136m-medicare-fraud-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Telemedicine",
+                "False Claims",
+                "Criminal Enforcement",
+                "Fraud"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-06-24-1256868558",
+            "date": "2026-06-24",
+            "agency": "State Agency",
+            "type": "Criminal Enforcement",
+            "title": "AG Sunday Announces Medicaid Fraud Charges Against Eight People as part of Multi-Billion-Dollar National Initiative to Combat Health Care Fraud",
+            "description": "Pennsylvania Attorney General Dave Sunday announced charges against eight people for Medicaid fraud as part of a national takedown initiative to combat healthcare fraud. The charges resulted in more than $260,000 in losses to the Medicaid program. The action was coordinated as part of a multi-billion-dollar national initiative, though specific details about individual defendants, their roles, and the fraud schemes are not provided in this announcement.",
+            "amount": "$260,000",
+            "amount_numeric": 260000,
+            "officials": [
+                "Dave Sunday"
+            ],
+            "link": "https://www.attorneygeneral.gov/taking-action/ag-sunday-announces-medicaid-fraud-charges-against-eight-people-as-part-of-multi-billion-dollar-national-initiative-to-combat-health-care-fraud-ag-sunday-announces-medicaid-fraud-charges-against-eight/",
+            "link_label": "PA-AG Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "False Claims",
+                "National Takedown"
+            ],
+            "entities": [],
+            "state": "PA",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
