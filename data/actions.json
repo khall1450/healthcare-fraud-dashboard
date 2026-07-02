@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-07-01T14:50:16.969649",
+        "last_updated": "2026-07-02T14:19:21.984734",
         "version": "1.0"
     },
     "actions": [
@@ -11455,6 +11455,132 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "doj-2026-07-02-2974828560",
+            "date": "2026-07-02",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "Former Albuquerque Dentist Ordered to Pay $320,000 for Violating Controlled Substances and False Claims Acts",
+            "description": "A federal court entered a $320,000 judgment against William C. Gardner, DDS, a former Albuquerque dentist, to resolve allegations that he violated the Controlled Substances Act by unlawfully issuing prescriptions after his professional licenses were revoked or expired. The case also involved violations of the False Claims Act. Gardner's actions resulted in fraudulent claims being submitted to federal healthcare programs through the improper prescriptions issued without valid licensure.",
+            "amount": "$320,000",
+            "amount_numeric": 320000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-nm/pr/former-albuquerque-dentist-ordered-pay-320000-violating-controlled-substances-and-false",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims Act",
+                "Pharmacy Fraud",
+                "Controlled Substances"
+            ],
+            "entities": [
+                "William C. Gardner, DDS"
+            ],
+            "state": "NM",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "cms-2026-07-02-2911105091",
+            "date": "2026-07-02",
+            "agency": "CMS",
+            "type": "Rule/Regulation",
+            "title": "Read moreabout CMS Proposes Updates to Strengthen Medicare Program Integrity, Combat Fraud, and Expand Access to Home Health Care",
+            "description": "CMS proposed regulatory updates designed to strengthen Medicare program integrity and combat fraud while expanding access to home health care services. The proposal includes measures to enhance fraud detection, prevention, and enforcement mechanisms within the Medicare program. This represents a proactive regulatory approach to address vulnerabilities in the home health care sector and improve overall program integrity.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.cms.gov/newsroom/press-releases/cms-proposes-updates-strengthen-medicare-program-integrity-combat-fraud-expand-access-home-health",
+            "link_label": "CMS Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Home Health Fraud",
+                "Program Integrity"
+            ],
+            "entities": [
+                "CMS"
+            ],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-07-01-3704559076",
+            "date": "2026-07-01",
+            "agency": "White House",
+            "type": "Administrative Action",
+            "title": "<a href=\"https://www.fiercehealthcare.com/regulatory/trump-administration-withholds-funds-new-yorks-medicaid-fraud-unit\" hreflang=\"en\">Trump administration withholds funds from New York's Medicaid fraud unit</a>",
+            "description": "The Trump administration announced it will suspend federal funding for New York's state Medicaid Fraud Control Unit (MFCU) as part of efforts to address fraud in Medicaid. The action involves withholding funds from the state agency responsible for investigating and prosecuting Medicaid fraud schemes. This administrative decision affects New York's capacity to conduct fraud enforcement operations within the state's Medicaid program. The specific rationale and financial impact details were not fully disclosed in the announcement.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.fiercehealthcare.com/regulatory/trump-administration-withholds-funds-new-yorks-medicaid-fraud-unit",
+            "link_label": "Fierce Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Program Integrity",
+                "Task Force"
+            ],
+            "entities": [
+                "New York State Medicaid Fraud Control Unit"
+            ],
+            "state": "NY",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "CMS"
+        },
+        {
+            "id": "media-2026-07-01-688480253",
+            "date": "2026-07-01",
+            "agency": "White House",
+            "type": "Executive Order",
+            "title": "Trump moves to freeze funding to New York’s Medicaid fraud unit",
+            "description": "The Trump administration announced a freeze of federal funding to New York's Medicaid Fraud Control Unit (MFCU), the state agency responsible for investigating and prosecuting healthcare provider fraud and patient abuse or neglect in Medicaid-funded facilities. The funding freeze was communicated via letter from the Department of Health and Human Services Inspector General to state officials. This action affects the state division's ability to conduct fraud investigations and enforcement actions against Medicaid providers.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://thehill.com/policy/healthcare/5949815-ny-medicaid-fraud-unit-funding/",
+            "link_label": "The Hill Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Program Integrity",
+                "Executive Order"
+            ],
+            "entities": [
+                "New York Medicaid Fraud Control Unit"
+            ],
+            "state": "NY",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "HHS-OIG"
+        },
+        {
+            "id": "media-2026-07-01-3371449924",
+            "date": "2026-07-01",
+            "agency": "HHS-OIG",
+            "type": "Administrative Action",
+            "title": "New York’s Medicaid fraud unit faces funding freeze",
+            "description": "The HHS Office of Inspector General sent a letter June 30 informing New York officials that federal grant funds to the state’s Medicaid fraud control unit are suspended effective July 1. New York gets roughly $60 million in taxpayer dollars per year for the unit, according to the letter, adding the unit has been “the […] The post New York’s Medicaid fraud unit faces funding freeze appeared first on Becker's Payer Issues | Payer News .",
+            "amount": "$60M",
+            "amount_numeric": 60000000,
+            "officials": [],
+            "link": "https://www.beckerspayer.com/payer/medicaid/new-yorks-medicaid-fraud-unit-faces-funding-freeze/",
+            "link_label": "Becker's Payer Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Program Integrity"
+            ],
+            "entities": [
+                "New York Medicaid Fraud Control Unit"
+            ],
+            "state": "NY",
+            "source_type": "news",
+            "auto_fetched": true
         }
     ]
 }
