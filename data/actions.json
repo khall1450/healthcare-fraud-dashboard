@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-07-02T14:19:21.984734",
+        "last_updated": "2026-07-03T14:23:49.287614",
         "version": "1.0"
     },
     "actions": [
@@ -11580,6 +11580,28 @@
             ],
             "state": "NY",
             "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-07-02-1992535325",
+            "date": "2026-07-02",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "No one is above the law—Florida mother-daughter duo sentenced and ordered to pay over $800k for fraud scheme",
+            "description": "Tera Marie Campbell, 47, of Maitland, Florida, and her daughter Tayler Ann Krauss, 27, of McDavid, Florida, were sentenced for conspiracy to commit healthcare fraud. The defendants were ordered to pay restitution exceeding $800,000. The case was prosecuted by the U.S. Attorney's Office for the District of Wyoming, indicating a federal healthcare fraud scheme. Specific details about the fraud scheme, targeted healthcare programs, and sentencing terms are referenced in the DOJ press release.",
+            "amount": "$800k",
+            "amount_numeric": 800000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-wy/pr/no-one-above-law-florida-mother-daughter-duo-sentenced-and-ordered-pay-over-800k-fraud",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims",
+                "Conspiracy"
+            ],
+            "entities": [],
+            "state": "FL",
+            "source_type": "official",
             "auto_fetched": true
         }
     ]
