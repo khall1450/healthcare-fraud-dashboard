@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-07-10T14:42:30.403996",
+        "last_updated": "2026-07-11T13:41:43.266081",
         "version": "1.0"
     },
     "actions": [
@@ -11690,6 +11690,57 @@
             "social_posts": [],
             "tags": [
                 "Medicare",
+                "Lab Fraud",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": "NC",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-07-09-4132728779",
+            "date": "2026-07-09",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Six Individuals, Including a Pharmacist and Doctor, Charged in Connection with $20 Million Healthcare Fraud and Kickback Scheme",
+            "description": "Six individuals, including a pharmacist and a doctor, were charged in connection with a $20 million healthcare fraud and kickback scheme. The defendants allegedly engaged in illegal kickback arrangements and submitted false claims to federal healthcare programs. The scheme involved coordination between medical professionals and other conspirators to fraudulently bill Medicare and/or Medicaid for services and pharmaceuticals. The case was prosecuted by HHS-OIG in coordination with law enforcement authorities.",
+            "amount": "$20M",
+            "amount_numeric": 20000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/six-individuals-including-a-pharmacist-and-doctor-charged-in-connection-with-20-million-healthcare-fraud-and-kickback-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Kickbacks",
+                "Anti-Kickback",
+                "False Claims",
+                "Pharmacy Fraud",
+                "Medicare",
+                "Medicaid"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-07-09-2429797166",
+            "date": "2026-07-09",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Guilford County Woman Pleads Guilty to Health Care Fraud in Connection with Million Dollar Urine Drug Testing Scheme",
+            "description": "A Guilford County, North Carolina woman pleaded guilty to healthcare fraud in connection with a million-dollar urine drug testing scheme. The defendant submitted false and fraudulent claims to Medicare and Medicaid for urine drug tests that were medically unnecessary or never performed. The scheme involved billing for drug testing services without proper medical justification, resulting in fraudulent payments exceeding one million dollars from federal healthcare programs. The defendant's guilty plea resolves criminal charges related to the fraudulent billing scheme.",
+            "amount": "$1M",
+            "amount_numeric": 1000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/guilford-county-woman-pleads-guilty-to-health-care-fraud-in-connection-with-million-dollar-urine-drug-testing-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
                 "Lab Fraud",
                 "False Claims",
                 "False Claims Act"
