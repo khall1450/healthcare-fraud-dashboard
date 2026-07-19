@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-07-18T13:36:23.839189",
+        "last_updated": "2026-07-19T13:38:48.744836",
         "version": "1.0"
     },
     "actions": [
@@ -11899,6 +11899,31 @@
             "state": "MA",
             "source_type": "news",
             "auto_fetched": true
+        },
+        {
+            "id": "media-2026-07-18-4271537305",
+            "date": "2026-07-18",
+            "agency": "Media",
+            "type": "Investigative Report",
+            "title": "The data to find Medicaid fraud already exists, but no one is using it",
+            "description": "An opinion/analysis piece examining why existing data systems are not being effectively used to detect Medicaid fraud, particularly in home healthcare. The article argues that operational data exists to identify fraudulent schemes but enforcement agencies lack the resources, incentives, or coordination to systematically analyze it. The piece suggests that better utilization of available data could significantly reduce improper Medicaid payments in the home health sector.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://thehill.com/opinion/finance/5973991-medicaid-home-healthcare-fraud/",
+            "link_label": "The Hill Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Home Health Fraud",
+                "Program Integrity",
+                "Improper Payments"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "HHS-OIG"
         }
     ]
 }
