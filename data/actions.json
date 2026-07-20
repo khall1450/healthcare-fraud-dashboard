@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-07-19T13:38:48.744836",
+        "last_updated": "2026-07-20T14:21:53.510370",
         "version": "1.0"
     },
     "actions": [
@@ -11924,6 +11924,28 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "HHS-OIG"
+        },
+        {
+            "id": "doj-2026-07-17-4077256407",
+            "date": "2026-07-17",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "TWO CIVIL COMPLAINTS FILED IN THE SOUTHERN DISTRICT OF MISSISSIPPI AS PART OF NATIONAL HEALTH CARE FRAUD TAKEDOWN",
+            "description": "Two civil complaints were filed in the Southern District of Mississippi as part of a national healthcare fraud takedown. The action targets healthcare fraud schemes, though specific defendant names, fraud details, and dollar amounts are not provided in the available information. This represents civil enforcement action coordinated at the national level to combat healthcare fraud across multiple jurisdictions.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-sdms/pr/two-civil-complaints-filed-southern-district-mississippi-part-national-health-care",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "National Takedown",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": "MS",
+            "source_type": "official",
+            "auto_fetched": true
         }
     ]
 }
