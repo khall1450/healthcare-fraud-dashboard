@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-07-20T14:21:53.510370",
+        "last_updated": "2026-07-21T14:08:17.192216",
         "version": "1.0"
     },
     "actions": [
@@ -11944,6 +11944,58 @@
             ],
             "entities": [],
             "state": "MS",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-07-20-1772599074",
+            "date": "2026-07-20",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Brooklyn Adult Daycare Owner Sentenced to 57 Months for Medicaid Fraud Scheme",
+            "description": "A Brooklyn adult daycare center owner was sentenced to 57 months in federal prison for leading a $3.2 million Medicaid fraud and illegal kickback scheme at his social adult daycare (SADC) facility. The defendant was ordered to pay $3.2 million in restitution and forfeit $1.5 million in fraud proceeds. The case involved fraudulent billing to the Medicaid program through the operation of the daycare center.",
+            "amount": "$3.2M",
+            "amount_numeric": 3200000,
+            "officials": [],
+            "link": "https://www.justice.gov/opa/pr/brooklyn-adult-daycare-owner-sentenced-57-months-medicaid-fraud-scheme",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Adult Day Care",
+                "Kickbacks",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": "NY",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "gao-2026-07-21-2652399266",
+            "date": "2026-07-21",
+            "agency": "GAO",
+            "type": "Audit",
+            "title": "Program Integrity: Actions Needed to Reduce Improper Payment and Fraud Risks in VA Community Care and Medicare Advantage",
+            "description": "The Government Accountability Office (GAO) issued a report identifying improper payment and fraud risks in two high-priority federal healthcare programs for fiscal year 2025. The Department of Veterans Affairs Community Care program reported $608 million in improper payments (2.4% of outlays), while the Centers for Medicare & Medicaid Services' Medicare Advantage program reported $23.7 billion in improper payments (6.1% of outlays). Both programs were designated by the Office of Management and Budget as high-priority for improper payments among 30 federal programs. The GAO report identifies systemic vulnerabilities and recommends actions to strengthen program integrity and reduce fraud and improper payment risks.",
+            "amount": "$24.3B",
+            "amount_numeric": 24300000000,
+            "officials": [],
+            "link": "https://www.gao.gov/products/gao-26-107946",
+            "link_label": "GAO Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare Advantage",
+                "TRICARE",
+                "Program Integrity",
+                "Improper Payments"
+            ],
+            "entities": [
+                "Department of Veterans Affairs",
+                "Centers for Medicare & Medicaid Services"
+            ],
+            "state": null,
             "source_type": "official",
             "auto_fetched": true
         }
