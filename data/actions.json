@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-07-23T14:20:29.690554",
+        "last_updated": "2026-07-24T13:59:15.318530",
         "version": "1.0"
     },
     "actions": [
@@ -12173,6 +12173,32 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "doj-2026-07-23-3481635448",
+            "date": "2026-07-23",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "CEO Of Bay Area Home Health Agency Convicted Of Health Care Fraud Conspiracy Targeting Medicare",
+            "description": "Simon Katz, CEO of a Bay Area home health agency, was convicted by federal jury of conspiracy to commit health care fraud. The scheme involved submitting fraudulent claims to Medicare and falsifying medical records. The conviction relates to improper billing practices targeting the Medicare program. Katz faces sentencing at a later date following the jury verdict.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-ndca/pr/ceo-bay-area-home-health-agency-convicted-health-care-fraud-conspiracy-targeting",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Home Health Fraud",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [
+                "Bay Area Home Health Agency"
+            ],
+            "state": "CA",
+            "source_type": "official",
+            "auto_fetched": true
         }
     ]
 }
