@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-07-24T13:59:15.318530",
+        "last_updated": "2026-07-25T13:49:21.235822",
         "version": "1.0"
     },
     "actions": [
@@ -12199,6 +12199,31 @@
             "state": "CA",
             "source_type": "official",
             "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-07-23-2170571275",
+            "date": "2026-07-23",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "CEO Of Bay Area Home Health Agency Convicted Of Health Care Fraud Conspiracy Targeting Medicare",
+            "description": "A CEO of a Bay Area home health agency was convicted of health care fraud conspiracy targeting Medicare. The conviction involved fraudulent schemes to bill Medicare for services that were not medically necessary or were not provided. This case represents a criminal enforcement action against home health fraud in the Medicare program. The case was prosecuted by federal authorities with oversight from HHS-OIG.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/ceo-of-bay-area-home-health-agency-convicted-of-health-care-fraud-conspiracy-targeting-medicare/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Home Health Fraud",
+                "False Claims",
+                "Kickbacks"
+            ],
+            "entities": [],
+            "state": "CA",
+            "source_type": "official",
+            "auto_fetched": true,
+            "related_agency": "HHS-OIG"
         }
     ]
 }
