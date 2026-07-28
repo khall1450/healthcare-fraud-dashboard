@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-07-27T14:50:19.956289",
+        "last_updated": "2026-07-28T14:24:54.665837",
         "version": "1.0"
     },
     "actions": [
@@ -12247,6 +12247,84 @@
             "state": "MN",
             "source_type": "official",
             "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-07-27-2150113020",
+            "date": "2026-07-27",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "Addiction Recovery Care and Affiliates Agree to Pay $16.2 Million Civil Judgment to Resolve Medicaid Fraud Allegations",
+            "description": "Addiction Recovery Care and its affiliates agreed to pay $16.2 million to resolve Medicaid fraud allegations. The case involved claims that the addiction treatment provider submitted false claims to Medicaid for services rendered. This civil settlement resolves allegations of improper billing and fraudulent submissions to the Medicaid program. The case was handled by the U.S. Attorney's Office for the Eastern District of Kentucky.",
+            "amount": "$16.2M",
+            "amount_numeric": 16200000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-edky/pr/addiction-recovery-care-and-affiliates-agree-pay-162-million-civil-judgment-resolve",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Addiction Treatment",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [
+                "Addiction Recovery Care"
+            ],
+            "state": "KY",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-07-27-4203386089",
+            "date": "2026-07-27",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "Addiction Recovery Care and Affiliates Agree to Pay $16.2 Million Civil Judgment to Resolve Medicaid Fraud Allegations",
+            "description": "Addiction Recovery Care and its affiliates agreed to pay $16.2 million to resolve Medicaid fraud allegations. The civil judgment addresses claims that the entities overbilled and submitted false claims to Medicaid for addiction treatment services. This settlement resolves allegations without admission of liability and represents a significant enforcement action against providers in the addiction treatment/behavioral health sector under the Medicaid program.",
+            "amount": "$16.2M",
+            "amount_numeric": 16200000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/addiction-recovery-care-and-affiliates-agree-to-pay-162-million-civil-judgment-to-resolve-medicaid-fraud-allegations/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Addiction Treatment",
+                "False Claims",
+                "Overbilling",
+                "False Claims Act"
+            ],
+            "entities": [
+                "Addiction Recovery Care"
+            ],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-07-27-1183421839",
+            "date": "2026-07-27",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Adult Day Care Owner Pleads Guilty to $500,000 Medicare Fraud Scheme",
+            "description": "An adult day care facility owner pleaded guilty to a $500,000 Medicare fraud scheme. The defendant fraudulently billed Medicare for services not provided and/or services provided to ineligible beneficiaries at their adult day care center. The case was investigated and prosecuted through coordination between HHS-OIG and the Department of Justice. The guilty plea resolves the criminal charges and establishes liability for the fraudulent Medicare billings.",
+            "amount": "$500,000",
+            "amount_numeric": 500000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/adult-day-care-owner-pleads-guilty-to-500000-medicare-fraud-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Adult Day Care",
+                "False Claims",
+                "Overbilling"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
