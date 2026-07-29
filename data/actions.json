@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-07-28T14:24:54.665837",
+        "last_updated": "2026-07-29T14:23:52.460566",
         "version": "1.0"
     },
     "actions": [
@@ -12325,6 +12325,55 @@
             "source_type": "official",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "cms-2026-07-29-4042895317",
+            "date": "2026-07-29",
+            "agency": "CMS",
+            "type": "Administrative Action",
+            "title": "Read moreabout CMS Medicaid Fraud War Room Stops More Than $203 Million in Improper Payments During First 88 Days",
+            "description": "CMS's Medicaid Fraud War Room prevented more than $203 million in improper payments during its first 88 days of operation. The War Room represents a coordinated federal effort to detect and stop fraudulent Medicaid claims before they are paid out. This administrative action demonstrates CMS's commitment to program integrity and preventing waste, fraud, and abuse in the Medicaid program through proactive enforcement mechanisms.",
+            "amount": "$203M",
+            "amount_numeric": 203000000,
+            "officials": [],
+            "link": "https://www.cms.gov/newsroom/press-releases/cms-medicaid-fraud-war-room-stops-more-203-million-improper-payments-during-first-88-days",
+            "link_label": "CMS Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Program Integrity",
+                "Improper Payments"
+            ],
+            "entities": [
+                "CMS"
+            ],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-07-28-61415551",
+            "date": "2026-07-28",
+            "agency": "CMS",
+            "type": "Administrative Action",
+            "title": "CMS Medicaid fraud unit flags 50 providers, $203M in payments",
+            "description": "CMS announced that its newly launched 'Medicaid Fraud War Room' identified 50 high-risk providers associated with more than $203 million in potentially improper Medicaid payments during its first 88 days of operation starting in late April. The unit flagged these providers as part of its program integrity efforts, though CMS did not publicly name the specific providers or states involved. The action represents an administrative initiative to combat Medicaid fraud through enhanced monitoring and identification of suspicious payment patterns.",
+            "amount": "$203M",
+            "amount_numeric": 203000000,
+            "officials": [],
+            "link": "https://www.beckerspayer.com/payer/medicaid/medicaid-fraud-unit-flags-50-providers-203m-in-payments/",
+            "link_label": "Becker's Payer Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Program Integrity",
+                "Improper Payments",
+                "Task Force"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true
         }
     ]
 }
