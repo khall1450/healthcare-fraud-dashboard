@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-07-29T14:23:52.460566",
+        "last_updated": "2026-07-30T14:19:57.807226",
         "version": "1.0"
     },
     "actions": [
@@ -12373,6 +12373,166 @@
             "entities": [],
             "state": null,
             "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-07-30-1616190623",
+            "date": "2026-07-30",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Healthcare Executive and Telemarketing Company Owner Sentenced to Prison for Exploiting Elderly Medicare Advantage Beneficiaries in $35 Million Fraud Scheme",
+            "description": "Two South Florida men—a healthcare executive and a telemarketing company owner—were sentenced to federal prison for orchestrating a $35 million fraud scheme targeting Medicare Advantage beneficiaries. The scheme involved submitting false and fraudulent claims to Medicare Advantage plans for medically unnecessary durable medical equipment, including back, knee, shoulder, and ankle braces. The defendants exploited elderly Medicare Advantage beneficiaries through telemarketing operations to generate fraudulent DME claims. Both received prison sentences for their roles in the conspiracy.",
+            "amount": "$35M",
+            "amount_numeric": 35000000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-sdfl/pr/healthcare-executive-and-telemarketing-company-owner-sentenced-prison-exploiting",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare Advantage",
+                "DME Fraud",
+                "False Claims",
+                "Elder Fraud",
+                "Kickbacks"
+            ],
+            "entities": [],
+            "state": "FL",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-07-30-1432620923",
+            "date": "2026-07-30",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "Texas Laboratory, Former CEO, and Florida Businessman Pay a Total of $36.4M to Settle Allegations of Kickbacks and Unnecessary Genetic Testing",
+            "description": "Access DX Laboratory in Houston, Texas, its former CEO Michael Stewart, and Florida businessman Harold Shatz settled False Claims Act allegations by paying a combined $36.4 million to resolve claims that they violated anti-kickback statutes and billed Medicare and Medicaid for medically unnecessary genetic testing. The settlement addresses the defendants' scheme to pay kickbacks in exchange for patient referrals and to submit false claims to federal healthcare programs for genetic tests that were not medically justified. This civil settlement resolves allegations of systematic fraud involving two major federal healthcare programs.",
+            "amount": "$36.4M",
+            "amount_numeric": 36400000,
+            "officials": [
+                "Michael Stewart",
+                "Harold Shatz"
+            ],
+            "link": "https://www.justice.gov/opa/pr/texas-laboratory-former-ceo-and-florida-businessman-pay-total-364m-settle-allegations",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "Genetic Testing",
+                "Kickbacks",
+                "Anti-Kickback",
+                "False Claims",
+                "False Claims Act",
+                "Unnecessary Procedures"
+            ],
+            "entities": [
+                "Access DX Laboratory"
+            ],
+            "state": "FL",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-07-29-2894769011",
+            "date": "2026-07-29",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Founder And Former CEO of New Jersey Based Eye Care Group Charged with Health Care Fraud Conspiracy and Paying Illegal Kickbacks",
+            "description": "The founder and former CEO of a New Jersey-based eye care management company was charged with healthcare fraud conspiracy and violating the federal Anti-Kickback Statute. The charges relate to the operation of an optometry practice and eye surgery center. The defendant allegedly engaged in illegal kickback schemes in connection with federal healthcare programs. The case was brought by the Department of Justice U.S. Attorney's Office for the District of New Jersey.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-nj/pr/founder-and-former-ceo-new-jersey-based-eye-care-group-charged-health-care-fraud",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Anti-Kickback",
+                "False Claims",
+                "Kickbacks",
+                "Medicare"
+            ],
+            "entities": [],
+            "state": "NJ",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-07-29-402880526",
+            "date": "2026-07-29",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Founder And Former CEO of New Jersey Based Eye Care Group Charged with Health Care Fraud Conspiracy and Paying Illegal Kickbacks",
+            "description": "The founder and former CEO of a New Jersey-based eye care group was charged with healthcare fraud conspiracy and paying illegal kickbacks. The charges allege violations of the Anti-Kickback Statute through payments made to referring physicians and other healthcare providers to induce patient referrals. The case involves fraudulent claims submitted to Medicare and/or Medicaid for eye care services. The defendant faces federal criminal charges and prosecution by the Department of Justice with investigation by HHS-OIG.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/founder-and-former-ceo-of-new-jersey-based-eye-care-group-charged-with-health-care-fraud-conspiracy-and-paying-illegal-kickbacks/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Anti-Kickback",
+                "False Claims",
+                "Medicare",
+                "Kickbacks"
+            ],
+            "entities": [
+                "New Jersey Eye Care Group"
+            ],
+            "state": "NJ",
+            "source_type": "official",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "hhs-oig-2026-07-29-311658799",
+            "date": "2026-07-29",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "Fraud Division Resolves Fraud Investigation of Eye Care Group Under New Corporate Enforcement Policy; Health Care Executive Charged for Alleged Fraud and Kickbacks",
+            "description": "HHS-OIG resolved a fraud investigation of an eye care group under a new corporate enforcement policy, resulting in both a corporate settlement and criminal charges against a healthcare executive. The case involves allegations of fraud and kickbacks related to eye care services. A health care executive was charged for their alleged role in the fraud and kickback scheme. The resolution demonstrates HHS-OIG's application of updated corporate enforcement policies in healthcare fraud cases.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/fraud-division-resolves-fraud-investigation-of-eye-care-group-under-new-corporate-enforcement-policy-health-care-executive-charged-for-alleged-fraud-and-kickbacks/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Kickbacks",
+                "Anti-Kickback",
+                "False Claims",
+                "Program Integrity"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-07-30-2114314058",
+            "date": "2026-07-30",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "Texas Laboratory, Former CEO, and Florida Businessman Pay $36.4 Million to Settle Health Care Fraud Allegations",
+            "description": "A Texas laboratory, its former CEO, and a Florida businessman settled health care fraud allegations for $36.4 million. The settlement resolves charges related to fraudulent billing and improper claims submitted to federal health care programs. The specific fraud scheme involved submitting false or unnecessary claims to Medicare, Medicaid, and other federal health programs. This civil settlement was reached with the Department of Justice without admission of liability.",
+            "amount": "$36.4M",
+            "amount_numeric": 36400000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-ndga/pr/texas-laboratory-former-ceo-and-florida-businessman-pay-364-million-settle-health-care",
+            "link_label": "DOJ-USAO Press Release",
+            "social_posts": [],
+            "tags": [
+                "Lab Fraud",
+                "False Claims",
+                "False Claims Act",
+                "Medicare",
+                "Medicaid"
+            ],
+            "entities": [
+                "Texas Laboratory"
+            ],
+            "state": "TX",
+            "source_type": "official",
             "auto_fetched": true
         }
     ]
