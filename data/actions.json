@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-07-30T14:19:57.807226",
+        "last_updated": "2026-07-31T14:23:19.603000",
         "version": "1.0"
     },
     "actions": [
@@ -12533,6 +12533,49 @@
             ],
             "state": "TX",
             "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-07-30-4085344865",
+            "date": "2026-07-30",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Adult Day Care Provider Accused of $1.47 Million Missouri Medicaid Fraud",
+            "description": "An adult day care provider in Missouri was accused of committing $1.47 million in Medicaid fraud. The scheme involved fraudulent billing to the Missouri Medicaid program for services provided to elderly or disabled adults. The case was identified and prosecuted by HHS-OIG as part of their ongoing efforts to combat healthcare fraud targeting state Medicaid programs.",
+            "amount": "$1.47M",
+            "amount_numeric": 1470000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/adult-day-care-provider-accused-of-147-million-missouri-medicaid-fraud/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Adult Day Care",
+                "False Claims",
+                "Overbilling"
+            ],
+            "entities": [],
+            "state": "MO",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-07-30-3147900265",
+            "date": "2026-07-30",
+            "agency": "Media",
+            "type": "Investigative Report",
+            "title": "Croí Health CEO: Hospice Fraud a Daily Challenge",
+            "description": "Program integrity issues have heated up in the hospice industry in recent years, garnering negative public attention around end-of-life care delivery. Hospices are seeking ways to ensure strong access and sustainability as they weather the impacts. This Hospice News Elevate podcast features a conversation with Croí Health CEO Renee McInnes about the scope of fraudulent […] The post Croí Health CEO: Hospice Fraud a Daily Challenge appeared first on Hospice News .",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://hospicenews.com/2026/07/30/croi-health-ceo-state-of-hospice-fraud/",
+            "link_label": "Hospice News Report",
+            "social_posts": [],
+            "tags": [],
+            "entities": [],
+            "state": null,
+            "source_type": "news",
             "auto_fetched": true
         }
     ]
