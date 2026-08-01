@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-07-31T14:23:19.603000",
+        "last_updated": "2026-08-01T13:42:09.714525",
         "version": "1.0"
     },
     "actions": [
@@ -12560,23 +12560,57 @@
             "auto_fetched": true
         },
         {
-            "id": "media-2026-07-30-3147900265",
-            "date": "2026-07-30",
-            "agency": "Media",
-            "type": "Investigative Report",
-            "title": "Croí Health CEO: Hospice Fraud a Daily Challenge",
-            "description": "Program integrity issues have heated up in the hospice industry in recent years, garnering negative public attention around end-of-life care delivery. Hospices are seeking ways to ensure strong access and sustainability as they weather the impacts. This Hospice News Elevate podcast features a conversation with Croí Health CEO Renee McInnes about the scope of fraudulent […] The post Croí Health CEO: Hospice Fraud a Daily Challenge appeared first on Hospice News .",
-            "amount": null,
-            "amount_numeric": 0,
+            "id": "doj-2026-07-31-2124725963",
+            "date": "2026-07-31",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "Massachusetts Ophthalmology Practice to Pay Nearly $4 Million to Resolve False Claims Act Allegations",
+            "description": "Ophthalmic Consultants of Boston, Inc. (OCB) agreed to pay $3,902,588.28 to resolve False Claims Act allegations that it falsely billed federal healthcare programs. The settlement resolves claims that the Massachusetts ophthalmology practice submitted false claims for reimbursement to Medicare and other federal healthcare programs. The case was handled by the U.S. Attorney's Office for the District of Massachusetts.",
+            "amount": "$3,902,588.28",
+            "amount_numeric": 3902588,
             "officials": [],
-            "link": "https://hospicenews.com/2026/07/30/croi-health-ceo-state-of-hospice-fraud/",
-            "link_label": "Hospice News Report",
+            "link": "https://www.justice.gov/usao-ma/pr/massachusetts-ophthalmology-practice-pay-nearly-4-million-resolve-false-claims-act",
+            "link_label": "DOJ Press Release",
             "social_posts": [],
-            "tags": [],
-            "entities": [],
-            "state": null,
-            "source_type": "news",
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "False Claims Act",
+                "Hospital Fraud"
+            ],
+            "entities": [
+                "Ophthalmic Consultants of Boston, Inc."
+            ],
+            "state": "MA",
+            "source_type": "official",
             "auto_fetched": true
+        },
+        {
+            "id": "media-2026-07-31-474837672",
+            "date": "2026-07-31",
+            "agency": "Media",
+            "type": "Civil Action",
+            "title": "Lab, Ex-CEO, Fla. Resident To Pay $36M Over Kickback Claims",
+            "description": "A Texas-based laboratory, its former CEO, and a Florida businessman settled with the U.S. government for $36.4 million to resolve False Claims Act violations involving kickbacks and unnecessary genetic testing billed to Medicare and Medicaid. The settlement addresses claims that the defendants paid kickbacks in connection with billing for genetic testing that was not medically necessary. The case involved violations of both anti-kickback statutes and false claims laws across federal healthcare programs.",
+            "amount": "$36.4M",
+            "amount_numeric": 36400000,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2508311?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Genetic Testing",
+                "Kickbacks",
+                "False Claims Act",
+                "Medicare",
+                "Medicaid",
+                "Lab Fraud"
+            ],
+            "entities": [],
+            "state": "FL",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
