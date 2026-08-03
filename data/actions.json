@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-08-02T13:42:04.160874",
+        "last_updated": "2026-08-03T14:54:22.047860",
         "version": "1.0"
     },
     "actions": [
@@ -12611,25 +12611,6 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
-        },
-        {
-            "id": "media-2026-07-30-3147900265",
-            "date": "2026-07-30",
-            "agency": "Media",
-            "type": "Investigative Report",
-            "title": "Croí Health CEO: Hospice Fraud a Daily Challenge",
-            "description": "Program integrity issues have heated up in the hospice industry in recent years, garnering negative public attention around end-of-life care delivery. Hospices are seeking ways to ensure strong access and sustainability as they weather the impacts. This Hospice News Elevate podcast features a conversation with Croí Health CEO Renee McInnes about the scope of fraudulent […] The post Croí Health CEO: Hospice Fraud a Daily Challenge appeared first on Hospice News .",
-            "amount": null,
-            "amount_numeric": 0,
-            "officials": [],
-            "link": "https://hospicenews.com/2026/07/30/croi-health-ceo-state-of-hospice-fraud/",
-            "link_label": "Hospice News Report",
-            "social_posts": [],
-            "tags": [],
-            "entities": [],
-            "state": null,
-            "source_type": "news",
-            "auto_fetched": true
         }
     ]
 }
