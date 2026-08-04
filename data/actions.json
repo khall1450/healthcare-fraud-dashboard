@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-08-03T14:54:22.047860",
+        "last_updated": "2026-08-04T14:30:39.168425",
         "version": "1.0"
     },
     "actions": [
@@ -12608,6 +12608,74 @@
             ],
             "entities": [],
             "state": "FL",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "hhs-oig-2026-08-04-2538510546",
+            "date": "2026-08-04",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "Medicare Advantage Provider Complete Health to Pay $14,100,000 to Settle False Claims Act Suit",
+            "description": "Complete Health, a Medicare Advantage provider, agreed to pay $14.1 million to settle allegations that it submitted false claims to Medicare Advantage plans. The settlement resolves False Claims Act violations related to the provider's billing and claims submission practices to federal healthcare programs. The case was handled by the HHS Office of Inspector General in coordination with the Department of Justice.",
+            "amount": "$14.1M",
+            "amount_numeric": 14100000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/medicare-advantage-provider-complete-health-to-pay-14100000-to-settle-false-claims-act-suit/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare Advantage",
+                "False Claims Act",
+                "Medicare"
+            ],
+            "entities": [
+                "Complete Health"
+            ],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-07-30-3147900265",
+            "date": "2026-07-30",
+            "agency": "Media",
+            "type": "Investigative Report",
+            "title": "Croí Health CEO: Hospice Fraud a Daily Challenge",
+            "description": "Program integrity issues have heated up in the hospice industry in recent years, garnering negative public attention around end-of-life care delivery. Hospices are seeking ways to ensure strong access and sustainability as they weather the impacts. This Hospice News Elevate podcast features a conversation with Croí Health CEO Renee McInnes about the scope of fraudulent […] The post Croí Health CEO: Hospice Fraud a Daily Challenge appeared first on Hospice News .",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://hospicenews.com/2026/07/30/croi-health-ceo-state-of-hospice-fraud/",
+            "link_label": "Hospice News Report",
+            "social_posts": [],
+            "tags": [],
+            "entities": [],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-08-03-256089652",
+            "date": "2026-08-03",
+            "agency": "Media",
+            "type": "Criminal Enforcement",
+            "title": "7th Circ. Backs OB-GYN's 10-Year Healthcare Fraud Sentence",
+            "description": "The Seventh Circuit Court of Appeals upheld a 10-year prison sentence for a former obstetrician-gynecologist convicted of a multimillion-dollar healthcare fraud scheme involving performing invasive and medically unnecessary procedures on patients without their informed consent. The appellate court found no clear error in the district judge's application of a sentencing enhancement related to the unnecessary procedures. The case demonstrates enforcement against fraudulent medical practices targeting vulnerable patients.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2509001?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Unnecessary Procedures",
+                "False Claims",
+                "Hospital Fraud"
+            ],
+            "entities": [],
+            "state": null,
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
