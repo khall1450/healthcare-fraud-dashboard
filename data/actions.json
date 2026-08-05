@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-08-04T14:30:39.168425",
+        "last_updated": "2026-08-05T14:23:42.150545",
         "version": "1.0"
     },
     "actions": [
@@ -12638,25 +12638,6 @@
             "auto_fetched": true
         },
         {
-            "id": "media-2026-07-30-3147900265",
-            "date": "2026-07-30",
-            "agency": "Media",
-            "type": "Investigative Report",
-            "title": "Croí Health CEO: Hospice Fraud a Daily Challenge",
-            "description": "Program integrity issues have heated up in the hospice industry in recent years, garnering negative public attention around end-of-life care delivery. Hospices are seeking ways to ensure strong access and sustainability as they weather the impacts. This Hospice News Elevate podcast features a conversation with Croí Health CEO Renee McInnes about the scope of fraudulent […] The post Croí Health CEO: Hospice Fraud a Daily Challenge appeared first on Hospice News .",
-            "amount": null,
-            "amount_numeric": 0,
-            "officials": [],
-            "link": "https://hospicenews.com/2026/07/30/croi-health-ceo-state-of-hospice-fraud/",
-            "link_label": "Hospice News Report",
-            "social_posts": [],
-            "tags": [],
-            "entities": [],
-            "state": null,
-            "source_type": "news",
-            "auto_fetched": true
-        },
-        {
             "id": "media-2026-08-03-256089652",
             "date": "2026-08-03",
             "agency": "Media",
@@ -12679,6 +12660,113 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "hhs-oig-2026-08-05-106569528",
+            "date": "2026-08-05",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Dozens Charged With Health Care Fraud in Federal and State Cases Involving $5.76 Million in Billings to Pennsylvania’s Medicaid Program",
+            "description": "Federal and state authorities charged dozens of individuals in coordinated cases involving $5.76 million in fraudulent billings to Pennsylvania's Medicaid program. The charges encompass multiple healthcare fraud schemes perpetrated against the state Medicaid system. This action represents a coordinated federal and state enforcement effort to hold healthcare providers and individuals accountable for defrauding the Medicaid program.",
+            "amount": "$5.76M",
+            "amount_numeric": 5760000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/dozens-charged-with-health-care-fraud-in-federal-and-state-cases-involving-576-million-in-billings-to-pennsylvanias-medicaid-program/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "False Claims",
+                "False Claims Act",
+                "Multi-State",
+                "Program Integrity"
+            ],
+            "entities": [],
+            "state": "PA",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-08-04-1128374170",
+            "date": "2026-08-04",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "DOJ Charges 19 In Alleged $4M Medicaid, Medicare At-Home Care Fraud Scheme",
+            "description": "The United States Department of Justice (DOJ) Fraud Division, U.S. Attorney’s Office and Pennsylvania Attorney General have charged 19 defendants for a $4 million fraudulent Medicare and Medicaid scheme involving home care. The schemes involved submitting claims for home health services that never occurred or billing an exorbitant number of hours within an unrealistic period, […] The post DOJ Charges 19 In Alleged $4M Medicaid, Medicare At-Home Care Fraud Scheme appeared first on Home Health Care News .",
+            "amount": "$4M",
+            "amount_numeric": 4000000,
+            "officials": [],
+            "link": "https://homehealthcarenews.com/2026/08/doj-charges-19-in-alleged-4m-medicaid-medicare-at-home-care-fraud-scheme/",
+            "link_label": "Home Health Care News Report",
+            "social_posts": [],
+            "tags": [
+                "Home Health Fraud",
+                "Medicare",
+                "Medicaid",
+                "False Claims",
+                "National Takedown"
+            ],
+            "entities": [],
+            "state": "PA",
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-08-04-753806787",
+            "date": "2026-08-04",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Healthcare Fraud Task Force Expands To Philly, Charges 19",
+            "description": "Federal and Pennsylvania law enforcement officials announced charges against 19 defendants involved in a home care fraud scheme in Philadelphia. The defendants are alleged to have defrauded Medicare and Medicaid by bilking funds meant for caregivers and beneficiaries. This action represents an expansion of the federal crackdown on benefits fraud to the Philadelphia area.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2507938?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Home Health Fraud",
+                "Medicare",
+                "Medicaid",
+                "False Claims",
+                "Strike Force",
+                "National Takedown"
+            ],
+            "entities": [],
+            "state": "PA",
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-08-04-3040411336",
+            "date": "2026-08-04",
+            "agency": "State Agency",
+            "type": "Criminal Enforcement",
+            "title": "AG Sunday’s Medicaid Fraud Control Section Charges SE Pa. Pair with Padding Work Hours for Nearly $1.5M in Medicaid Reimbursements",
+            "description": "PHILADELPHIA — Attorney General Dave Sunday announced charges against two southeastern Pennsylvania-based personal care attendants who defrauded Medicaid by submitting to the program nearly $1.5 million in reimbursements for work that was not performed. Ashley Griffin, 27, and Yolanda Wright, 49, are each charged with felony Medicaid Fraud, theft by deception, and conspiracy. An investigation […] The post AG Sunday’s Medicaid Fraud Control Section Charges SE Pa. Pair with Padding Work Hours for Nearly $1.5M in Medicaid Reimbursements appeared first on PA Office of Attorney General .",
+            "amount": "$1.5M",
+            "amount_numeric": 1500000,
+            "officials": [
+                "Dave Sunday"
+            ],
+            "link": "https://www.attorneygeneral.gov/taking-action/ag-sundays-medicaid-fraud-control-section-charges-se-pa-pair-with-padding-work-hours-for-nearly-1-5m-in-medicaid-reimbursements/",
+            "link_label": "PA-AG Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "False Claims",
+                "Overbilling",
+                "Home Health Fraud",
+                "Phantom Billing"
+            ],
+            "entities": [
+                "Ashley Griffin",
+                "Yolanda Wright"
+            ],
+            "state": "PA",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "HHS-OIG"
         }
     ]
 }
