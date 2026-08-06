@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-08-05T14:23:42.150545",
+        "last_updated": "2026-08-06T14:27:07.293541",
         "version": "1.0"
     },
     "actions": [
@@ -12762,6 +12762,78 @@
             "entities": [
                 "Ashley Griffin",
                 "Yolanda Wright"
+            ],
+            "state": "PA",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "HHS-OIG"
+        },
+        {
+            "id": "doj-2026-08-05-2049921256",
+            "date": "2026-08-05",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Iranian National Pleads Guilty to Conspiracy to Commit Healthcare Fraud",
+            "description": "An Iranian national residing in Coos Bay pleaded guilty to conspiracy to commit healthcare fraud. The case was prosecuted by the U.S. Attorney's Office for the District of Oregon. No specific dollar amount, victim program, or scheme details were provided in the available information. The defendant's guilty plea represents the resolution of the conspiracy charge.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-or/pr/iranian-national-pleads-guilty-conspiracy-commit-healthcare-fraud",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims",
+                "Foreign Nationals"
+            ],
+            "entities": [],
+            "state": "OR",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-08-06-551033847",
+            "date": "2026-08-06",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Iranian National Pleads Guilty to Conspiracy to Commit Healthcare Fraud",
+            "description": "An Iranian national pleaded guilty to conspiracy to commit healthcare fraud. The case was prosecuted by HHS-OIG in coordination with federal law enforcement. While specific details about the fraud scheme, dollar amounts, and healthcare program targeted are not provided in the title and description, the guilty plea represents a resolved criminal case involving a healthcare fraud conspiracy. The disposition resulted in a guilty plea rather than conviction at trial.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/iranian-national-pleads-guilty-to-conspiracy-to-commit-healthcare-fraud/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims",
+                "Foreign Nationals"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-08-05-2268180404",
+            "date": "2026-08-05",
+            "agency": "State Agency",
+            "type": "Criminal Enforcement",
+            "title": "AG Sunday’s Medicaid Fraud Control Section Charges 4 Warren County Home Care Workers with Neglect of Care-Dependent Resident who Died",
+            "description": "HARRISBURG – Attorney General Dave Sunday announced four individuals have been charged for neglecting a care-dependent resident at Hickory Creek Home Care in Warren County. The resident was later found deceased at Hickory Creek. The defendants – Gregory Stanbro, Michelle Chapin, Katrina Burgeson and Kimberly Hogan – are each charged with felony counts of neglect […] The post AG Sunday’s Medicaid Fraud Control Section Charges 4 Warren County Home Care Workers with Neglect of Care-Dependent Resident who Died appeared first on PA Office of Attorney General .",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [
+                "Dave Sunday"
+            ],
+            "link": "https://www.attorneygeneral.gov/taking-action/ag-sundays-medicaid-fraud-control-section-charges-4-warren-county-home-care-workers-with-neglect-of-care-dependent-resident-who-died/",
+            "link_label": "PA-AG Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Home Health Fraud",
+                "Nursing Home"
+            ],
+            "entities": [
+                "Hickory Creek Home Care"
             ],
             "state": "PA",
             "source_type": "news",
