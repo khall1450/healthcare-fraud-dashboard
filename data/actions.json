@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-08-11T13:19:19.567029",
+        "last_updated": "2026-08-12T13:23:57.325190",
         "version": "1.0"
     },
     "actions": [
@@ -12895,6 +12895,74 @@
             "state": "NC",
             "source_type": "news",
             "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-08-11-3658990885",
+            "date": "2026-08-11",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "International Fugitive Pleads Guilty to Healthcare Fraud Conspiracy and Failure to Appear",
+            "description": "Herbert Leon Kimble, 60, an international fugitive, pleaded guilty to conspiracy to defraud the United States and failure to appear in connection with a healthcare fraud scheme. The case was prosecuted by the U.S. Attorney's Office for the District of South Carolina. Specific details regarding the healthcare fraud conspiracy, dollar amounts involved, targeted programs, and sentencing information are not provided in the available description. The guilty plea represents resolution of charges related to the conspiracy and Kimble's prior failure to appear.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-sc/pr/international-fugitive-pleads-guilty-healthcare-fraud-conspiracy-and-failure-appear",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims",
+                "Conspiracy"
+            ],
+            "entities": [],
+            "state": "SC",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-08-12-1150818790",
+            "date": "2026-08-12",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "International Fugitive Pleads Guilty to Healthcare Fraud Conspiracy and Failure to Appear",
+            "description": "An international fugitive pleaded guilty to healthcare fraud conspiracy and failure to appear in federal court. The case involved charges related to a healthcare fraud scheme, with the defendant evading authorities before ultimately entering a guilty plea. Specific details about the fraud scheme, dollar amounts, programs targeted, and sentencing disposition are not provided in the title and description summary.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/international-fugitive-pleads-guilty-to-healthcare-fraud-conspiracy-and-failure-to-appear/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims Act",
+                "Organized Crime",
+                "Foreign Nationals"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-08-12-4004720918",
+            "date": "2026-08-12",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "United States Intervenes in False Claims Act Lawsuit Against Colorado Medical Companies",
+            "description": "The United States intervened in a False Claims Act lawsuit against Colorado medical companies. The intervention indicates federal government involvement in pursuing alleged false claims submitted to federal healthcare programs. Details regarding the specific companies involved, the nature of the false claims, dollar amounts, and the affected healthcare programs were not provided in the limited description available.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/united-states-intervenes-in-false-claims-act-lawsuit-against-colorado-medical-companies/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims Act",
+                "Multi-State"
+            ],
+            "entities": [],
+            "state": "CO",
+            "source_type": "official",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
