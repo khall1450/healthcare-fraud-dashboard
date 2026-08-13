@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-08-12T13:23:57.325190",
+        "last_updated": "2026-08-13T13:25:45.356020",
         "version": "1.0"
     },
     "actions": [
@@ -12963,6 +12963,29 @@
             "source_type": "official",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "hhs-oig-2026-08-13-2707497780",
+            "date": "2026-08-13",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Former Brooklyn Bank Manager Sentenced to Prison for Laundering Proceeds of Medicare Fraud for Transnational Criminal Organization",
+            "description": "A former Brooklyn bank manager was sentenced to prison for laundering proceeds generated from a Medicare fraud scheme operated by a transnational criminal organization. The defendant, who worked in the banking sector, facilitated the movement of illicit funds derived from fraudulent Medicare claims. The case involved coordination between healthcare fraudsters and organized crime networks to conceal the origins of stolen healthcare program funds. The sentencing represents an enforcement action against money laundering connected to Medicare fraud.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/former-brooklyn-bank-manager-sentenced-to-prison-for-laundering-proceeds-of-medicare-fraud-for-transnational-criminal-organization/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Money Laundering",
+                "Organized Crime"
+            ],
+            "entities": [],
+            "state": "NY",
+            "source_type": "official",
+            "auto_fetched": true
         }
     ]
 }
