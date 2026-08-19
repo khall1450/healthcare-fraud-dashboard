@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-08-18T12:57:45.318242",
+        "last_updated": "2026-08-19T12:58:14.730176",
         "version": "1.0"
     },
     "actions": [
@@ -13066,6 +13066,34 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "doj-2026-08-18-1722188061",
+            "date": "2026-08-18",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "United States and State of Illinois File Complaint in Intervention in False Claims Act Lawsuit Against Chicago-Area Medical Practice and Billing Company for Allegedly Submitting Fraudulent Medicare and Medicaid Claims",
+            "description": "The United States and State of Illinois filed a complaint in intervention in a False Claims Act lawsuit against a Chicago-area medical practice and billing company for allegedly submitting fraudulent Medicare and Medicaid claims. The action was brought under the False Claims Act, which allows private individuals to sue on behalf of the government and share in any recovery. The case involves false billing submissions to both the federal Medicare program and the state Medicaid program. No specific dollar amount or individual defendant names were provided in the available information. The lawsuit is currently in complaint/intervention stage.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-ndil/pr/united-states-and-state-illinois-file-complaint-intervention-false-claims-act-lawsuit",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "False Claims",
+                "False Claims Act",
+                "Whistleblower"
+            ],
+            "entities": [
+                "Chicago-area medical practice",
+                "Billing company"
+            ],
+            "state": "IL",
+            "source_type": "official",
+            "auto_fetched": true
         }
     ]
 }
