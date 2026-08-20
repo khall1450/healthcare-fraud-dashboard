@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-08-19T12:58:14.730176",
+        "last_updated": "2026-08-20T13:00:51.623400",
         "version": "1.0"
     },
     "actions": [
@@ -13094,6 +13094,58 @@
             "state": "IL",
             "source_type": "official",
             "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-08-20-2208070003",
+            "date": "2026-08-20",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "United States and State of Illinois File Complaint in Intervention in False Claims Act Lawsuit Against Chicago-Area Medical Practice and Billing Company for Allegedly Submitting Fraudulent Medicare and Medicaid Claims",
+            "description": "The United States and State of Illinois filed a complaint in intervention under the False Claims Act against a Chicago-area medical practice and billing company for allegedly submitting fraudulent Medicare and Medicaid claims. The action involves allegations of false claims submitted to federal and state healthcare programs. The lawsuit seeks recovery of damages and penalties under the False Claims Act for the fraudulent submissions. This is a civil enforcement action targeting improper billing practices in the Medicare and Medicaid programs.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/united-states-and-state-of-illinois-file-complaint-in-intervention-in-false-claims-act-lawsuit-against-chicago-area-medical-practice-and-billing-company-for-allegedly-submitting-fraudulent-medicare-and-medicaid-claims/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": "IL",
+            "source_type": "official",
+            "auto_fetched": true,
+            "related_agency": "HHS-OIG"
+        },
+        {
+            "id": "media-2026-08-19-2904331928",
+            "date": "2026-08-19",
+            "agency": "Media",
+            "type": "Investigation",
+            "title": "Ninth Circuit Revives Regeneron Kickback Whistleblower Lawsuit",
+            "description": "The Ninth Circuit Court of Appeals partially revived a whistleblower lawsuit alleging that Regeneron Pharmaceuticals Inc. illegally paid physicians to write prescriptions for the company's drugs, violating anti-kickback statutes. The federal appeals court's decision allows portions of the case to proceed, addressing allegations that the pharmaceutical company improperly compensated healthcare providers to influence prescribing practices. This case involves potential violations of the Anti-Kickback Statute and relates to Regeneron's pharmaceutical marketing practices.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://news.bloomberglaw.com/health-law-and-business/ninth-circuit-revives-regeneron-kickback-whistleblower-lawsuit?utm_source=rss&utm_medium=HLNW&utm_campaign=000001a0-1bd6-da30-a1ac-dff69e100001",
+            "link_label": "Bloomberg Law Report",
+            "social_posts": [],
+            "tags": [
+                "Kickbacks",
+                "Anti-Kickback",
+                "Pharmaceutical",
+                "Whistleblower"
+            ],
+            "entities": [
+                "Regeneron Pharmaceuticals Inc."
+            ],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
