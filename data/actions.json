@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-08-20T13:00:51.623400",
+        "last_updated": "2026-08-21T12:59:53.576930",
         "version": "1.0"
     },
     "actions": [
@@ -13146,6 +13146,59 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "doj-2026-08-20-2129654934",
+            "date": "2026-08-20",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Four Members of the “War Room” Charged in Connection with $12M Medicaid Fraud Scheme",
+            "description": "The Department of Justice unsealed a nine-count indictment charging four members of a criminal organization known as the 'War Room'—Louis Trejo ('Machete'), Kenneth Garner ('KG'), Harold Stevenson ('Bazz'), and Erihk Belis ('Eddie')—with racketeering, violence in aid of racketeering, firearms offenses, fraud, narcotics, and money laundering. The defendants are accused of operating a wide-ranging racketeering conspiracy that involved fabricating transportation data to support fraudulent Medicaid claims totaling at least $12 million. The charges reflect coordination among multiple serious federal crimes related to the healthcare fraud scheme.",
+            "amount": "$12M",
+            "amount_numeric": 12000000,
+            "officials": [],
+            "link": "https://www.justice.gov/opa/pr/four-members-war-room-charged-connection-12m-medicaid-fraud-scheme",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "False Claims",
+                "Racketeering",
+                "Money Laundering",
+                "Organized Crime"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-08-20-3483994583",
+            "date": "2026-08-20",
+            "agency": "State Agency",
+            "type": "Criminal Enforcement",
+            "title": "Former Owner of Montgomery County-Based Home Care Agency Jailed for Multi-Million Dollar Medicaid Fraud Scheme",
+            "description": "HARRISBURG — Attorney General Dave Sunday announced that the former owner of a Montgomery County home care agency has been sentenced to prison for her role in overseeing a $1.76 million Medicaid fraud scheme. Stephanie Mobley, 54, of King of Prussia, owned ComfortZone Home Health Care, LLC, between 2020 and 2023, when the criminal conduct […] The post Former Owner of Montgomery County-Based Home Care Agency Jailed for Multi-Million Dollar Medicaid Fraud Scheme appeared first on PA Office of Attorney General .",
+            "amount": "$1.76M",
+            "amount_numeric": 1760000,
+            "officials": [
+                "Dave Sunday"
+            ],
+            "link": "https://www.attorneygeneral.gov/taking-action/former-owner-of-montgomery-county-based-home-care-agency-jailed-for-multi-million-dollar-medicaid-fraud-scheme/",
+            "link_label": "PA-AG Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Home Health Fraud",
+                "False Claims"
+            ],
+            "entities": [
+                "ComfortZone Home Health Care, LLC"
+            ],
+            "state": "PA",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "HHS-OIG"
         }
     ]
 }
