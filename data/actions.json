@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-08-21T12:59:53.576930",
+        "last_updated": "2026-08-22T12:51:24.142187",
         "version": "1.0"
     },
     "actions": [
@@ -13199,6 +13199,58 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "HHS-OIG"
+        },
+        {
+            "id": "hhs-oig-2026-08-22-1699452188",
+            "date": "2026-08-22",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Former Owner of Telemedicine Companies Sentenced to Two Years in Prison for $110 Million Medicare Fraud Scheme",
+            "description": "A former owner of telemedicine companies was sentenced to two years in prison for orchestrating a $110 million Medicare fraud scheme. The defendant operated multiple telemedicine platforms that submitted false claims to Medicare for telehealth services that were either not provided or were medically unnecessary. The scheme involved billing Medicare for services that lacked proper medical justification and patient documentation. This criminal conviction and sentencing represents the resolution of a major telehealth fraud investigation.",
+            "amount": "$110M",
+            "amount_numeric": 110000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/former-owner-of-telemedicine-companies-sentenced-to-two-years-in-prison-for-110-million-medicare-fraud-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Telehealth",
+                "False Claims",
+                "False Claims Act",
+                "Criminal Enforcement"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "hhs-oig-2026-08-22-3211881597",
+            "date": "2026-08-22",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Four Members of the “War Room” Charged in Connection with $12M Medicaid Fraud Scheme",
+            "description": "Four members of an organization called the 'War Room' were charged in connection with a $12 million Medicaid fraud scheme. The charges relate to a coordinated fraudulent billing and payment scheme targeting the Medicaid program. The case was prosecuted by federal authorities with the Department of Health and Human Services Office of Inspector General taking the lead on the investigation and enforcement action. Specific details about the individuals' roles, the nature of the fraudulent services billed, and current status are referenced in the source material.",
+            "amount": "$12M",
+            "amount_numeric": 12000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/four-members-of-the-war-room-charged-in-connection-with-12m-medicaid-fraud-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "False Claims",
+                "False Claims Act",
+                "Program Integrity"
+            ],
+            "entities": [
+                "War Room"
+            ],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
         }
     ]
 }
