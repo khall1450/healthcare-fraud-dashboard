@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-08-24T13:01:49.384379",
+        "last_updated": "2026-08-25T12:58:24.918958",
         "version": "1.0"
     },
     "actions": [
@@ -13251,6 +13251,58 @@
             "state": null,
             "source_type": "official",
             "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-08-25-1846097315",
+            "date": "2026-08-25",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "Medicare Advantage Provider Monogram Health Agrees to Pay $2.4M to Settle False Claims Act Suit",
+            "description": "Monogram Health, a Medicare Advantage provider, agreed to pay $2.4 million to settle a False Claims Act lawsuit. The settlement resolves allegations that the provider submitted false claims to Medicare Advantage plans. The case involved improper billing practices related to the Medicare Advantage program. This civil settlement was reached with the Department of Health and Human Services Office of Inspector General.",
+            "amount": "$2.4M",
+            "amount_numeric": 2400000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/medicare-advantage-provider-monogram-health-agrees-to-pay-24m-to-settle-false-claims-act-suit/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare Advantage",
+                "False Claims",
+                "False Claims Act",
+                "Program Integrity"
+            ],
+            "entities": [
+                "Monogram Health"
+            ],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-08-24-2932220573",
+            "date": "2026-08-24",
+            "agency": "Media",
+            "type": "Civil Action",
+            "title": "AdaptHealth Wins First OK For $14.3M NC Overbilling Deal",
+            "description": "A North Carolina federal court granted preliminary approval to a $14.3 million settlement against Pennsylvania-based AdaptHealth Corp. for overbilling patients for durable medical equipment (DME) that had been returned to the company. The settlement resolves claims that AdaptHealth engaged in overbilling practices related to medical equipment. This represents a civil settlement of consumer fraud allegations involving improper billing for healthcare equipment.",
+            "amount": "$14.3M",
+            "amount_numeric": 14300000,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2516387?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "DME Fraud",
+                "Overbilling",
+                "Medicare"
+            ],
+            "entities": [
+                "AdaptHealth Corp."
+            ],
+            "state": "NC",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
