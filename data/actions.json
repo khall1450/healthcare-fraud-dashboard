@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-08-25T12:58:24.918958",
+        "last_updated": "2026-08-26T13:04:07.527737",
         "version": "1.0"
     },
     "actions": [
@@ -13300,6 +13300,33 @@
                 "AdaptHealth Corp."
             ],
             "state": "NC",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "media-2026-08-25-3760242467",
+            "date": "2026-08-25",
+            "agency": "Media",
+            "type": "Civil Action",
+            "title": "Medicare Advantage provider agrees to $2.4M false claims settlement",
+            "description": "Tennessee-based in-home care provider Monogram Health has agreed to pay $2.4 million to settle allegations that it caused the submission of false diagnosis codes to boost Medicare Advantage payments. From Jan. 1, 2021, through Dec. 31, 2023, Monogram allegedly knowingly submitted diagnosis codes that were not clinically accurate, not supported by patients’ medical records, or […] The post Medicare Advantage provider agrees to $2.4M false claims settlement appeared first on Becker's Payer Issues | Payer News .",
+            "amount": "$2.4M",
+            "amount_numeric": 2400000,
+            "officials": [],
+            "link": "https://www.beckerspayer.com/legal/medicare-advantage-provider-agrees-to-2-4m-false-claims-settlement/",
+            "link_label": "Becker's Payer Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare Advantage",
+                "False Claims",
+                "Upcoding",
+                "Home Health Fraud"
+            ],
+            "entities": [
+                "Monogram Health"
+            ],
+            "state": "TN",
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
