@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-08-26T13:04:07.527737",
+        "last_updated": "2026-08-27T22:07:42.607189",
         "version": "1.0"
     },
     "actions": [
@@ -13330,6 +13330,161 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "doj-2026-08-27-3188012722",
+            "date": "2026-08-27",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Kentucky Medical Biller Indicted for Healthcare Fraud and Money Laundering Charges",
+            "description": "A Kentucky medical biller was indicted on healthcare fraud and money laundering charges. The indictment alleges the defendant submitted false claims to Medicare and/or Medicaid for medical services that were not rendered or were unnecessary, and subsequently laundered the fraudulently obtained proceeds. The case was handled by the U.S. Attorney's Office for the Eastern District of Kentucky. The defendant faces federal charges for the scheme and is currently in the indictment phase of prosecution.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-edky/pr/kentucky-medical-biller-indicted-healthcare-fraud-and-money-laundering-charges",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "False Claims",
+                "Overbilling",
+                "Money Laundering"
+            ],
+            "entities": [],
+            "state": "KY",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-08-27-2338714575",
+            "date": "2026-08-27",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Kansas Chiropractor Pleads Guilty to Health Care Fraud",
+            "description": "Kenya Laser, a 35-year-old chiropractor in Kansas, pleaded guilty to federal healthcare fraud charges. The plea indicates conviction on charges related to fraudulent healthcare billing or claims submission. Specific details regarding the fraud scheme, dollar amounts involved, and which healthcare programs were defrauded are not provided in the available information. The guilty plea represents resolution of federal criminal charges brought by the Department of Justice.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-wdmo/pr/kansas-chiropractor-pleads-guilty-health-care-fraud",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [
+                "Kenya Laser"
+            ],
+            "state": "KS",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-08-27-1344147739",
+            "date": "2026-08-27",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "Dallas medical clinic to pay $7.5 million to resolve COVID-19 testing overbilling allegations",
+            "description": "A Dallas medical clinic agreed to pay $7.5 million to resolve allegations of overbilling for COVID-19 testing services. The clinic allegedly submitted false claims for COVID-19 tests to Medicare and other federal health programs, charging for services that were not medically necessary or were billed at inflated rates. This settlement resolves allegations under the False Claims Act without the clinic admitting liability. The resolution represents enforcement of federal healthcare fraud laws related to improper COVID-19 testing billing practices.",
+            "amount": "$7.5M",
+            "amount_numeric": 7500000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/dallas-medical-clinic-to-pay-75-million-to-resolve-covid-19-testing-overbilling-allegations/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "COVID-19",
+                "Lab Fraud",
+                "False Claims Act",
+                "Overbilling",
+                "Medicare"
+            ],
+            "entities": [],
+            "state": "TX",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-08-27-1559833823",
+            "date": "2026-08-27",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "DermTech Inc. to Pay Up to $5M to Resolve Allegations It Submitted False Claims to Medicare for Unreliable Skin Cancer Tests",
+            "description": "DermTech Inc. agreed to pay up to $5 million to resolve allegations that it submitted false claims to Medicare for skin cancer tests that were unreliable and not adequately validated for clinical use. The company allegedly promoted and billed its proprietary skin cancer diagnostic test to Medicare beneficiaries and submitted claims to Medicare despite knowing the test lacked sufficient clinical validation and reliability. This settlement resolves allegations under the False Claims Act related to the submission of claims for tests that did not meet appropriate medical and scientific standards. The resolution includes both a monetary settlement and compliance obligations going forward.",
+            "amount": "$5M",
+            "amount_numeric": 5000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/dermtech-inc-to-pay-up-to-5m-to-resolve-allegations-it-submitted-false-claims-to-medicare-for-unreliable-skin-cancer-tests/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "False Claims Act",
+                "Lab Fraud",
+                "Research Fraud"
+            ],
+            "entities": [
+                "DermTech Inc."
+            ],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-08-26-1709404527",
+            "date": "2026-08-26",
+            "agency": "DOJ",
+            "type": "Executive Order",
+            "title": "DOJ Prioritizes Hospice, Home Health Fraud Enforcement",
+            "description": "The U.S. Department of Justice Fraud Division has designated home health and hospice care as top enforcement priorities and announced plans to increase resources for fraud investigations in these sectors. The DOJ plans to leverage innovative data analysis techniques to identify and target fraud schemes affecting Medicare and other federal healthcare programs. This memorandum reflects a strategic shift to focus enforcement efforts on the home health and hospice industries.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://hospicenews.com/2026/08/26/doj-prioritizes-hospice-home-health-fraud-enforcement/",
+            "link_label": "Hospice News Report",
+            "social_posts": [],
+            "tags": [
+                "Hospice Fraud",
+                "Home Health Fraud",
+                "Medicare",
+                "Task Force",
+                "Program Integrity"
+            ],
+            "entities": [
+                "U.S. Department of Justice"
+            ],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-08-27-4049334379",
+            "date": "2026-08-27",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "<a href=\"https://www.fiercehealthcare.com/hospitals/villages-health-reaches-541m-false-claims-act-settlement-doj\" hreflang=\"en\">The Villages Health reaches $541M False Claims Act settlement with DOJ</a>",
+            "description": "The Villages Health System agreed to a $541.5 million settlement with the Department of Justice to resolve allegations that it submitted false diagnosis codes to Medicare Advantage to secure higher reimbursements. The settlement addresses claims that the health system engaged in upcoding and improper risk adjustment practices under the False Claims Act. This civil settlement resolves DOJ allegations of systematic fraud in the Medicare Advantage program.",
+            "amount": "$541.5M",
+            "amount_numeric": 541500000,
+            "officials": [],
+            "link": "https://www.fiercehealthcare.com/hospitals/villages-health-reaches-541m-false-claims-act-settlement-doj",
+            "link_label": "Fierce Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare Advantage",
+                "False Claims Act",
+                "Upcoding",
+                "Risk Adjustment",
+                "Hospital Fraud"
+            ],
+            "entities": [
+                "The Villages Health System"
+            ],
+            "state": "FL",
+            "source_type": "news",
+            "auto_fetched": true
         }
     ]
 }
