@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-08-31T19:02:13.311326",
+        "last_updated": "2026-09-01T16:25:52.246347",
         "version": "1.0"
     },
     "actions": [
@@ -13498,6 +13498,25 @@
             "officials": [],
             "link": "https://www.beckerspayer.com/payer/medicare-advantage/doj-steps-up-crackdown-on-medicare-advantage-upcoding/",
             "link_label": "Becker's Payer Report",
+            "social_posts": [],
+            "tags": [],
+            "entities": [],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-09-01-86006567",
+            "date": "2026-09-01",
+            "agency": "Media",
+            "type": "Investigative Report",
+            "title": "National Alliance Chief Government Affairs Officer: Hospice Program Integrity Needs Targeted Approach",
+            "description": "More targeted efforts are needed to combat hospice fraud and preserve program integrity, according to Denis Fleming, Jr., the newly installed chief government affairs officer for the National Alliance for Care at Home. Fleming previously served in the halls of government at the state and federal levels, including time as a congressional staffer, general counsel […] The post National Alliance Chief Government Affairs Officer: Hospice Program Integrity Needs Targeted Approach appeared first on Hospice News .",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://hospicenews.com/2026/09/01/national-alliance-chief-government-affairs-officer-hospice-program-integrity-needs-targeted-approach/",
+            "link_label": "Hospice News Report",
             "social_posts": [],
             "tags": [],
             "entities": [],
