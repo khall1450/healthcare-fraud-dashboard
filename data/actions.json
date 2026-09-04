@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-09-03T16:14:03.256568",
+        "last_updated": "2026-09-04T16:09:06.803164",
         "version": "1.0"
     },
     "actions": [
@@ -13489,39 +13489,75 @@
         {
             "id": "media-2026-08-31-217707032",
             "date": "2026-08-31",
-            "agency": "Media",
-            "type": "Investigative Report",
+            "agency": "DOJ",
+            "type": "Civil Action",
             "title": "DOJ steps up crackdown on Medicare Advantage upcoding",
-            "description": "The Justice Department’s scrutiny of Medicare Advantage risk adjustment is intensifying, with two recent settlements totaling nearly $1.1 billion highlighting federal concerns about diagnosis coding practices that can increase payments to health plans. The latest came Aug. 27, when The Villages (Fla.) Health System agreed to pay $541.5 million to resolve allegations that it violated […] The post DOJ steps up crackdown on Medicare Advantage upcoding appeared first on Becker's Payer Issues | Payer News .",
-            "amount": "$1.1 billion",
-            "amount_numeric": 1100000000.0,
+            "description": "The Justice Department is intensifying enforcement against Medicare Advantage risk adjustment fraud, with two recent settlements totaling approximately $1.1 billion. The most recent settlement, announced August 27, involved The Villages Health System (Florida) agreeing to pay $541.5 million to resolve allegations of violating federal law through diagnosis coding practices designed to increase payments to health plans. These settlements reflect DOJ's growing focus on upcoding schemes within Medicare Advantage programs where health plans allegedly manipulated risk adjustment data to inflate government reimbursements.",
+            "amount": "$1.1B",
+            "amount_numeric": 1100000000,
             "officials": [],
             "link": "https://www.beckerspayer.com/payer/medicare-advantage/doj-steps-up-crackdown-on-medicare-advantage-upcoding/",
             "link_label": "Becker's Payer Report",
             "social_posts": [],
-            "tags": [],
-            "entities": [],
-            "state": null,
+            "tags": [
+                "Medicare Advantage",
+                "Upcoding",
+                "Risk Adjustment",
+                "False Claims",
+                "Multi-State"
+            ],
+            "entities": [
+                "The Villages Health System"
+            ],
+            "state": "FL",
             "source_type": "news",
             "auto_fetched": true
         },
         {
-            "id": "media-2026-09-01-86006567",
-            "date": "2026-09-01",
-            "agency": "Media",
-            "type": "Investigative Report",
-            "title": "National Alliance Chief Government Affairs Officer: Hospice Program Integrity Needs Targeted Approach",
-            "description": "More targeted efforts are needed to combat hospice fraud and preserve program integrity, according to Denis Fleming, Jr., the newly installed chief government affairs officer for the National Alliance for Care at Home. Fleming previously served in the halls of government at the state and federal levels, including time as a congressional staffer, general counsel […] The post National Alliance Chief Government Affairs Officer: Hospice Program Integrity Needs Targeted Approach appeared first on Hospice News .",
-            "amount": null,
-            "amount_numeric": 0,
+            "id": "doj-2026-09-04-1328649940",
+            "date": "2026-09-04",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Illegal Alien from Georgia Charged for Conspiracy to Launder Proceeds of $1.3B Health Care Fraud Scheme",
+            "description": "Erekle Gugava, a 33-year-old national from Georgia, was indicted by a federal grand jury in the District of Massachusetts on charges of conspiracy to launder proceeds from a $1.3 billion healthcare fraud scheme. The indictment alleges Gugava's involvement in money laundering activities connected to a large-scale healthcare fraud operation. The specific healthcare program defrauded and the nature of the underlying fraud scheme are not detailed in this announcement. Gugava remains charged and the case is in prosecution.",
+            "amount": "$1.3B",
+            "amount_numeric": 1300000000,
             "officials": [],
-            "link": "https://hospicenews.com/2026/09/01/national-alliance-chief-government-affairs-officer-hospice-program-integrity-needs-targeted-approach/",
-            "link_label": "Hospice News Report",
+            "link": "https://www.justice.gov/opa/pr/illegal-alien-georgia-charged-conspiracy-launder-proceeds-13b-health-care-fraud-scheme",
+            "link_label": "DOJ Press Release",
             "social_posts": [],
-            "tags": [],
+            "tags": [
+                "False Claims",
+                "Money Laundering",
+                "National Takedown",
+                "Foreign Nationals"
+            ],
             "entities": [],
-            "state": null,
-            "source_type": "news",
+            "state": "MA",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-09-04-2552504345",
+            "date": "2026-09-04",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Georgian National Charged for Conspiracy to Launder Proceeds of $1.3 Billion Health Care Fraud Scheme",
+            "description": "A Georgian national was indicted by a federal grand jury in Boston for conspiracy to launder proceeds of a $1.3 billion healthcare fraud scheme while unlawfully present in the United States. The indictment charges the individual with money laundering related to a massive healthcare fraud operation, though specific details about the underlying fraud scheme, affected programs, and other participants are not provided in the announcement. The case involves significant financial losses from healthcare fraud and includes charges related to the defendant's illegal immigration status.",
+            "amount": "$1.3B",
+            "amount_numeric": 1300000000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-ma/pr/georgian-national-charged-conspiracy-launder-proceeds-13-billion-health-care-fraud",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims",
+                "Money Laundering",
+                "Foreign Nationals"
+            ],
+            "entities": [],
+            "state": "MA",
+            "source_type": "official",
             "auto_fetched": true
         }
     ]
