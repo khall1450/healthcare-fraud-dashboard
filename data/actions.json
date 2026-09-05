@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-09-04T16:09:06.803164",
+        "last_updated": "2026-09-05T14:58:01.906945",
         "version": "1.0"
     },
     "actions": [
@@ -13558,6 +13558,107 @@
             "entities": [],
             "state": "MA",
             "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-09-04-1709064550",
+            "date": "2026-09-04",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Florida Men Sentenced to Prison for $34.8M Health Care Fraud Scheme Targeting Medicare Beneficiaries",
+            "description": "Two Florida men were sentenced to prison for their roles in a $34.8 million healthcare fraud conspiracy targeting Medicare. The scheme involved billing Medicare for thousands of orthotic braces that were sent to Medicare beneficiaries who did not need them. The defendants engaged in fraudulent billing practices related to DME (durable medical equipment), specifically orthotic devices, defrauding the Medicare program.",
+            "amount": "$34.8M",
+            "amount_numeric": 34800000,
+            "officials": [],
+            "link": "https://www.justice.gov/opa/pr/florida-men-sentenced-prison-348m-health-care-fraud-scheme-targeting-medicare-beneficiaries",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "DME Fraud",
+                "False Claims",
+                "Unnecessary Procedures"
+            ],
+            "entities": [],
+            "state": "FL",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-09-04-407149405",
+            "date": "2026-09-04",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "South Florida Men Sentenced to Prison for $34.8M Health Care Fraud Scheme Targeting Medicare Beneficiaries",
+            "description": "Two South Florida men were sentenced to prison for their roles in a $34.8 million healthcare fraud scheme targeting Medicare beneficiaries. The defendants orchestrated a fraudulent scheme that involved false claims submitted to Medicare, resulting in improper payments. The case was prosecuted by the U.S. Attorney's Office for the Southern District of Florida, demonstrating ongoing federal enforcement against large-scale Medicare fraud operations.",
+            "amount": "$34.8M",
+            "amount_numeric": 34800000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-sdfl/pr/south-florida-men-sentenced-prison-348m-health-care-fraud-scheme-targeting-medicare",
+            "link_label": "DOJ-USAO Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "False Claims Act",
+                "Overbilling",
+                "Criminal Enforcement"
+            ],
+            "entities": [],
+            "state": "FL",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-09-04-3712190093",
+            "date": "2026-09-04",
+            "agency": "Media",
+            "type": "Civil Action",
+            "title": "Court Says Vertex’s Fertility Perk Violated Anti-Kickback Law",
+            "description": "A US appeals court ruled that Vertex Pharmaceuticals' program offering fertility preservation services to patients as a benefit violated the Anti-Kickback Statute. The court found that by providing these services to patients receiving the company's sickle cell gene therapy, Vertex was essentially paying patients to use its drug, which constitutes an illegal kickback under federal law. This decision represents a significant enforcement action against pharmaceutical company practices that offer patient incentives tied to drug utilization.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://news.bloomberglaw.com/health-law-and-business/court-says-vertexs-fertility-perk-violated-anti-kickback-law?utm_source=rss&utm_medium=HLNW&utm_campaign=000001a0-6dc6-d78f-afe6-ffe639970001",
+            "link_label": "Bloomberg Law Report",
+            "social_posts": [],
+            "tags": [
+                "Anti-Kickback",
+                "Kickbacks",
+                "Pharmaceutical",
+                "Medical Devices"
+            ],
+            "entities": [
+                "Vertex Pharmaceuticals"
+            ],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "media-2026-09-04-3817082687",
+            "date": "2026-09-04",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "Vertex Fertility Aid Violates Kickback Law, DC Circ. Says",
+            "description": "The D.C. Circuit Court of Appeals ruled that Vertex Pharmaceutical's fertility aid program for gene therapy patients violates the Anti-Kickback Statute. The program provided financial support for fertility services to patients receiving Vertex's gene therapy treatments, which the court found constitutes an unlawful inducement to purchase the pharmaceutical company's medical treatment. This appellate decision establishes that such patient assistance programs tied to specific drug purchases can violate federal healthcare fraud laws.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2521812?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Anti-Kickback",
+                "Kickbacks",
+                "Pharmaceutical"
+            ],
+            "entities": [
+                "Vertex Pharmaceutical"
+            ],
+            "state": null,
+            "source_type": "news",
             "auto_fetched": true
         }
     ]
