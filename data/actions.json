@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-09-07T17:38:59.199027",
+        "last_updated": "2026-09-08T16:26:33.871870",
         "version": "1.0"
     },
     "actions": [
@@ -13660,6 +13660,54 @@
             "state": null,
             "source_type": "news",
             "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-09-08-1881231389",
+            "date": "2026-09-08",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Florida Men Sentenced to Prison for $34.8M Health Care Fraud Scheme Targeting Medicare Beneficiaries",
+            "description": "Two Florida men were sentenced to prison for their roles in a $34.8 million healthcare fraud scheme targeting Medicare beneficiaries. The defendants orchestrated a fraud operation that involved false claims submitted to Medicare for services not rendered or medically unnecessary treatments. The scheme defrauded the Medicare program through systematic overbilling and phantom billing practices. Both individuals received prison sentences as a result of their convictions in this case.",
+            "amount": "$34.8M",
+            "amount_numeric": 34800000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/florida-men-sentenced-to-prison-for-348m-health-care-fraud-scheme-targeting-medicare-beneficiaries/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "Phantom Billing",
+                "Overbilling"
+            ],
+            "entities": [],
+            "state": "FL",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-09-08-2854053154",
+            "date": "2026-09-08",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Illegal Alien from Georgia Charged for Conspiracy to Launder Proceeds of $1.3B Health Care Fraud Scheme",
+            "description": "An illegal alien from Georgia was charged with conspiracy to launder proceeds from a $1.3 billion healthcare fraud scheme. The defendant is accused of participating in money laundering activities connected to a large-scale healthcare fraud operation. The case involves coordination between federal law enforcement agencies investigating the underlying fraud scheme and related financial crimes. The defendant faces federal charges related to conspiracy to launder the proceeds of healthcare fraud.",
+            "amount": "$1.3B",
+            "amount_numeric": 1300000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/illegal-alien-from-georgia-charged-for-conspiracy-to-launder-proceeds-of-13b-health-care-fraud-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims",
+                "Money Laundering",
+                "Immigration"
+            ],
+            "entities": [],
+            "state": "GA",
+            "source_type": "official",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
