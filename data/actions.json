@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-09-08T16:26:33.871870",
+        "last_updated": "2026-09-09T16:22:57.422800",
         "version": "1.0"
     },
     "actions": [
@@ -13708,6 +13708,81 @@
             "source_type": "official",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "doj-2026-09-09-587186150",
+            "date": "2026-09-09",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Federal jury convicts three conspirators in $11M Medicaid fraud and kickback scheme",
+            "description": "A federal jury convicted E'mon Ambers (age 31), Armone' Ambers (age 31), and Traquan Brown (age 32) on charges related to an $11 million Medicaid fraud and kickback scheme involving a Henrico, Virginia-based mental health agency. The three conspirators were found guilty of defrauding the Medicaid program through fraudulent billing and kickback arrangements. This criminal conviction resulted from a federal prosecution by the U.S. Attorney's Office for the Eastern District of Virginia.",
+            "amount": "$11M",
+            "amount_numeric": 11000000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-edva/pr/federal-jury-convicts-three-conspirators-11m-medicaid-fraud-and-kickback-scheme",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Kickbacks",
+                "Anti-Kickback",
+                "Behavioral Health",
+                "False Claims"
+            ],
+            "entities": [
+                "Henrico-based mental health agency"
+            ],
+            "state": "VA",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-09-08-3771288457",
+            "date": "2026-09-08",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Foreign National Pleads Guilty To Health Care Fraud Scheme Targeting Medicare Advantage Programs",
+            "description": "Sevindik Huseynov, a national of Azerbaijan, pleaded guilty in federal court to three counts of health care fraud in connection with a $137 million scheme targeting Medicare Advantage Programs. The case was prosecuted by the U.S. Attorney's Office for the Northern District of California in San Jose. Huseynov's guilty plea represents a resolution to charges stemming from a large-scale fraud operation defrauding the Medicare Advantage program.",
+            "amount": "$137M",
+            "amount_numeric": 137000000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-ndca/pr/foreign-national-pleads-guilty-health-care-fraud-scheme-targeting-medicare-advantage",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare Advantage",
+                "False Claims",
+                "False Claims Act",
+                "Foreign Nationals"
+            ],
+            "entities": [],
+            "state": "CA",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-09-09-3013792134",
+            "date": "2026-09-09",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Foreign National Pleads Guilty To Health Care Fraud Scheme Targeting Medicare Advantage Programs",
+            "description": "A foreign national pleaded guilty to participating in a healthcare fraud scheme targeting Medicare Advantage programs. The case involves fraudulent billing and false claims submitted to Medicare Advantage insurers. While specific dollar amounts and the defendant's name are not provided in this summary, the guilty plea indicates successful prosecution of the healthcare fraud conspiracy. The case was handled by HHS-OIG and demonstrates enforcement action against international participants in U.S. healthcare fraud schemes.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/foreign-national-pleads-guilty-to-health-care-fraud-scheme-targeting-medicare-advantage-programs/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare Advantage",
+                "False Claims",
+                "Foreign Nationals",
+                "Criminal Enforcement"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
         }
     ]
 }
