@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-09-09T16:22:57.422800",
+        "last_updated": "2026-09-10T16:12:42.995229",
         "version": "1.0"
     },
     "actions": [
@@ -13781,6 +13781,30 @@
             ],
             "entities": [],
             "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-09-10-2736320045",
+            "date": "2026-09-10",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Brooklyn Adult Daycare Owner Sentenced to 76 Months in Prison for Leadership Role in $68 Million Medicaid Fraud Scheme",
+            "description": "A Brooklyn adult daycare owner was sentenced to 76 months in prison for their leadership role in a $68 million Medicaid fraud scheme. The individual orchestrated a fraudulent operation that defrauded the Medicaid program through an adult day care facility. The case involved systematic overbilling and false claims submitted to Medicaid. This represents a significant criminal enforcement action against healthcare fraud targeting the Medicaid program.",
+            "amount": "$68M",
+            "amount_numeric": 68000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/brooklyn-adult-daycare-owner-sentenced-to-76-months-in-prison-for-leadership-role-in-68-million-medicaid-fraud-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Adult Day Care",
+                "False Claims",
+                "Overbilling"
+            ],
+            "entities": [],
+            "state": "NY",
             "source_type": "official",
             "auto_fetched": true
         }
