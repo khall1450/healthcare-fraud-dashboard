@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-09-10T16:12:42.995229",
+        "last_updated": "2026-09-11T16:16:20.000089",
         "version": "1.0"
     },
     "actions": [
@@ -13807,6 +13807,172 @@
             "state": "NY",
             "source_type": "official",
             "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-09-11-3149299823",
+            "date": "2026-09-11",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "Dompé U.S. Agrees to Pay $32M to Resolve False Claims Act Liability Relating to Self-Disclosure of Patient Kickbacks",
+            "description": "Dompé U.S., a pharmaceutical company, agreed to pay $32 million to resolve False Claims Act liability for providing patient kickbacks. The company self-disclosed unlawful remuneration to patients and healthcare providers to induce purchases of its pharmaceutical products, which violated the Anti-Kickback Statute. The settlement resolves allegations that false claims were submitted to Medicare, Medicaid, and other federal healthcare programs as a result of these kickback arrangements. This represents a civil settlement based on the company's voluntary disclosure of the improper conduct.",
+            "amount": "$32M",
+            "amount_numeric": 32000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/domp%C3%A9-us-agrees-to-pay-32m-to-resolve-false-claims-act-liability-relating-to-self-disclosure-of-patient-kickbacks-2/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "Pharmaceutical",
+                "Kickbacks",
+                "False Claims Act",
+                "Anti-Kickback",
+                "Whistleblower"
+            ],
+            "entities": [
+                "Dompé U.S."
+            ],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-09-10-768118381",
+            "date": "2026-09-10",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Owner Of Home Health Fiscal Intermediary, Adult Day Sentenced For $64M Medicaid Fraud Scheme",
+            "description": "On Wednesday, a Brooklyn federal court sentenced the owner of adult day and home health companies to 76 months in prison for leading a multiyear Medicaid fraud and illegal kickback scheme that fraudulently billed the program about $64 million. The owner, Zakia Khan, pleaded guilty in 2025 to conspiring to defraud Medicaid and pay healthcare […] The post Owner Of Home Health Fiscal Intermediary, Adult Day Sentenced For $64M Medicaid Fraud Scheme appeared first on Home Health Care News .",
+            "amount": "$64M",
+            "amount_numeric": 64000000,
+            "officials": [],
+            "link": "https://homehealthcarenews.com/2026/09/owner-of-home-health-fiscal-intermediary-adult-day-sentenced-for-64m-medicaid-fraud-scheme/",
+            "link_label": "Home Health Care News Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Home Health Fraud",
+                "Adult Day Care",
+                "Kickbacks",
+                "Anti-Kickback",
+                "False Claims"
+            ],
+            "entities": [
+                "Zakia Khan"
+            ],
+            "state": "NY",
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-09-10-866960597",
+            "date": "2026-09-10",
+            "agency": "Media",
+            "type": "Investigative Report",
+            "title": "Oz’s Medicaid fraud war room is prompting ‘aggressive’ state crackdowns",
+            "description": "Politico investigative report examining the Trump administration's Medicaid fraud enforcement efforts targeting autism therapy spending, led by Dr. Mehmet Oz's fraud prevention initiatives. The article documents how aggressive state crackdowns on suspected fraudulent autism therapy claims under Medicaid are resulting in vulnerable children losing access to legitimate treatment services. The enforcement actions focus on identifying and preventing improper Medicaid payments for autism-related behavioral health services, though the investigation raises concerns about potential over-enforcement affecting eligible beneficiaries.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [
+                "Dr. Mehmet Oz"
+            ],
+            "link": "https://www.politico.com/news/2026/09/10/medicaid-fraud-oz-autism-therapy-01070514",
+            "link_label": "Politico Health Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Behavioral Health",
+                "Autism",
+                "False Claims",
+                "Program Integrity",
+                "Improper Payments"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "HHS"
+        },
+        {
+            "id": "media-2026-09-10-3415908416",
+            "date": "2026-09-10",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "Dompé To Pay $32M Over Foundation Co-Pay Kickback Claims",
+            "description": "Dompé Farmaceutici SpA's U.S. arm agreed to pay $32 million to resolve allegations that it violated anti-kickback statutes by contributing funds to patient assistance foundations to induce purchases of its prescription eye drops Oxervate. The scheme involved using foundation contributions as kickbacks to encourage prescriptions and patient purchases of the drug. The settlement was announced by the U.S. Department of Justice and resolves civil allegations without admission of wrongdoing.",
+            "amount": "$32M",
+            "amount_numeric": 32000000,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2523844?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Kickbacks",
+                "Anti-Kickback",
+                "Pharmaceutical",
+                "False Claims Act"
+            ],
+            "entities": [
+                "Dompé Farmaceutici SpA"
+            ],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-09-10-596439378",
+            "date": "2026-09-10",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "$270M Medi-Cal False Claims Scheme Nets 30-Year Sentence",
+            "description": "An Orange County man with multiple prior fraud convictions was sentenced to 30 years in prison for orchestrating a $270 million Medi-Cal prescription drug fraud scheme. The defendant operated the scheme while awaiting sentencing in a separate tax evasion case. The case involved false claims submitted to California's Medi-Cal program through fraudulent prescription drug billing.",
+            "amount": "$270M",
+            "amount_numeric": 270000000,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2523788?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Medi-Cal",
+                "Pharmacy Fraud",
+                "False Claims",
+                "Tax Evasion"
+            ],
+            "entities": [],
+            "state": "CA",
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-09-10-3264476589",
+            "date": "2026-09-10",
+            "agency": "State Agency",
+            "type": "Criminal Enforcement",
+            "title": "Owner of Erie County Home Health Care Agency Jailed, Ordered to Pay Restitution in $1.86M Medicaid Fraud Scheme",
+            "description": "HARRISBURG — Attorney General Dave Sunday announced that Tina Bell, owner and manager of Superior Health, Inc. — an Erie County home care agency — was sentenced to 11 to 23 months in prison for Medicaid fraud and endangering vulnerable individuals under her care. Bell, 56, received Medicaid reimbursement for her company’s multiple shared care […] The post Owner of Erie County Home Health Care Agency Jailed, Ordered to Pay Restitution in $1.86M Medicaid Fraud Scheme appeared first on PA Office of Attorney General .",
+            "amount": "$1.86M",
+            "amount_numeric": 1860000,
+            "officials": [
+                "Dave Sunday"
+            ],
+            "link": "https://www.attorneygeneral.gov/taking-action/owner-of-erie-county-home-health-care-agency-jailed-ordered-to-pay-restitution-in-1-86m-medicaid-fraud-scheme/",
+            "link_label": "PA-AG Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Home Health Fraud",
+                "False Claims",
+                "Elder Fraud",
+                "Overbilling"
+            ],
+            "entities": [
+                "Superior Health, Inc."
+            ],
+            "state": "PA",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "HHS-OIG"
         }
     ]
 }
