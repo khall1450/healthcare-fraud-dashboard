@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-09-11T16:16:20.000089",
+        "last_updated": "2026-09-12T15:23:02.271395",
         "version": "1.0"
     },
     "actions": [
@@ -13973,6 +13973,61 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "HHS-OIG"
+        },
+        {
+            "id": "doj-2026-09-11-4261008194",
+            "date": "2026-09-11",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Brooklyn Adult Daycare Owner Sentenced to Prison for Leadership Role in $64M Medicaid Fraud Scheme",
+            "description": "A Brooklyn adult daycare owner was sentenced to 76 months in prison for her leadership role in a $64 million Medicaid fraud and illegal kickback scheme involving her two social adult daycare centers and home health care company. The defendant was ordered to pay $56 million in restitution and forfeit $5 million in fraud proceeds, including two properties, cash, and gold jewelry seized during a search of her home. The case involved fraudulent billing to the Medicaid program through the adult daycare and home health services.",
+            "amount": "$64M",
+            "amount_numeric": 64000000,
+            "officials": [],
+            "link": "https://www.justice.gov/opa/pr/brooklyn-adult-daycare-owner-sentenced-prison-leadership-role-64m-medicaid-fraud-scheme",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Adult Day Care",
+                "Kickbacks",
+                "False Claims",
+                "Overbilling"
+            ],
+            "entities": [
+                "Brooklyn Adult Daycare Centers",
+                "Home Health Care Company"
+            ],
+            "state": "NY",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-09-11-1658508484",
+            "date": "2026-09-11",
+            "agency": "Media",
+            "type": "Civil Action",
+            "title": "Austrian Device-Maker Exits Suit Over Medicare Fraud",
+            "description": "A Colorado federal court dismissed an Austrian medical device-maker from a lawsuit brought by a podiatrist alleging the company participated in a scheme to bill Medicare using improper procedural codes. The court found the podiatrist failed to adequately detail the alleged fraud and failed to defend several other claims against the device-maker. The case involves potential Medicare billing fraud related to medical device coding practices.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2524379?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medical Devices",
+                "False Claims",
+                "Upcoding"
+            ],
+            "entities": [
+                "Austrian medical device-maker (unnamed)"
+            ],
+            "state": "CO",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
