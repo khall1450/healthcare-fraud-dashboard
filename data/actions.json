@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-09-14T17:59:53.297124",
+        "last_updated": "2026-09-15T16:44:07.023263",
         "version": "1.0"
     },
     "actions": [
@@ -14128,6 +14128,57 @@
             "state": "NY",
             "source_type": "official",
             "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-09-15-3264970247",
+            "date": "2026-09-15",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "The Northern District of West Virginia joins DOJ Fraud Division, SBA, and SBA OIG in Surge Takedown Exceeding $245 Million in COVID-era Loan Fraud; Two Morgantown Business Owners Part of National Fraud Takedown",
+            "description": "The Northern District of West Virginia announced sentencing and plea agreements as part of a nationwide DOJ enforcement action targeting Paycheck Protection Program (PPP) fraud. Two Morgantown business owners were prosecuted as part of a national surge takedown exceeding $245 million in COVID-era loan fraud. The action was led by the DOJ's National Fraud Enforcement Division, the Small Business Administration, and the SBA Office of Inspector General. This represents a coordinated multi-district effort to prosecute PPP fraud schemes across the country.",
+            "amount": "$245M",
+            "amount_numeric": 245000000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-ndwv/pr/northern-district-west-virginia-joins-doj-fraud-division-sba-and-sba-oig-surge",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "COVID-19",
+                "National Takedown",
+                "Strike Force",
+                "False Claims",
+                "Fraud"
+            ],
+            "entities": [],
+            "state": "WV",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-09-15-1611575591",
+            "date": "2026-09-15",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Brentwood Woman Sentenced to Federal Prison for $6.9 Million Health Care Fraud Scheme",
+            "description": "A Brentwood woman was sentenced to federal prison for her role in a $6.9 million healthcare fraud scheme. The case involved fraudulent billing and false claims submitted to federal healthcare programs. The defendant exploited healthcare program vulnerabilities through systematic overbilling and submission of false claims for services not provided or not medically necessary. This sentencing represents the conclusion of a federal criminal investigation into the fraud scheme.",
+            "amount": "$6.9M",
+            "amount_numeric": 6900000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/brentwood-woman-sentenced-to-federal-prison-for-69-million-health-care-fraud-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims",
+                "False Claims Act",
+                "Overbilling",
+                "Medicare",
+                "Medicaid"
+            ],
+            "entities": [],
+            "state": "TN",
+            "source_type": "official",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
