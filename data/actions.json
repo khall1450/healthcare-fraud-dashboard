@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-09-15T16:44:07.023263",
+        "last_updated": "2026-09-16T16:37:06.534775",
         "version": "1.0"
     },
     "actions": [
@@ -14179,6 +14179,57 @@
             "source_type": "official",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "doj-2026-09-15-1411379179",
+            "date": "2026-09-15",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Peoria Man Charged with Defrauding AHCCCS",
+            "description": "PHOENIX, Ariz. – In a joint press conference in San Diego today, United States Attorney Timothy Courchaine announced charges against a Peoria man who is accused of fraudulently billing Arizona’s Medicaid agency more than $33 million in one year and using the funds to purchase property and a luxury vehicle. On September 8, 2026, a federal grand jury in Phoenix returned an 11-count indictment against Maurice Marcell Williams, 48, of Peoria, Arizona for health care fraud and money laundering.",
+            "amount": "$33M",
+            "amount_numeric": 33000000,
+            "officials": [
+                "Timothy Courchaine"
+            ],
+            "link": "https://www.justice.gov/usao-az/pr/peoria-man-charged-defrauding-ahcccs",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "False Claims",
+                "Money Laundering",
+                "Overbilling"
+            ],
+            "entities": [
+                "AHCCCS"
+            ],
+            "state": "AZ",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-09-16-440052274",
+            "date": "2026-09-16",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Repeat Felon Arrested and Charged in $4.75M Medicare Fraud Scheme",
+            "description": "A repeat felon was arrested and charged in connection with a $4.75 million Medicare fraud scheme. The case involves fraudulent billing and claims submitted to the Medicare program. The defendant, with a prior criminal history, allegedly perpetrated the scheme through false claims. The case was investigated and prosecuted, resulting in criminal charges being filed.",
+            "amount": "$4.75M",
+            "amount_numeric": 4750000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/repeat-felon-arrested-and-charged-in-475m-medicare-fraud-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
         }
     ]
 }
