@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-09-16T16:37:06.534775",
+        "last_updated": "2026-09-17T16:43:23.077441",
         "version": "1.0"
     },
     "actions": [
@@ -14230,6 +14230,86 @@
             "state": null,
             "source_type": "official",
             "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-09-17-279332632",
+            "date": "2026-09-17",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Addiction Treatment Clinic Owner Sentenced to 14 Years in Prison for $69 Million Medicaid Fraud Scheme",
+            "description": "Rita Ntusa Anagho, owner of an addiction treatment clinic in San Tan Valley, Arizona, was sentenced to 14 years in prison for defrauding Arizona's Medicaid agency of more than $69 million in fraudulent billing for addiction treatment therapy over less than one year. The scheme specifically targeted Native American patients covered under Arizona Medicaid's higher-reimbursement program. Anagho submitted false claims for therapy services to generate fraudulent Medicaid payments.",
+            "amount": "$69M",
+            "amount_numeric": 69000000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-az/pr/addiction-treatment-clinic-owner-sentenced-14-years-prison-69-million-medicaid-fraud",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Addiction Treatment",
+                "False Claims",
+                "Native American"
+            ],
+            "entities": [
+                "Rita Ntusa Anagho"
+            ],
+            "state": "AZ",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-09-17-3871522617",
+            "date": "2026-09-17",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Arizona Addiction Treatment Clinic Owner Sentenced to 14 Years in Prison for Leadership Role in $69M Medicaid Fraud Scheme",
+            "description": "A Phoenix woman was sentenced to 14 years in prison in connection with her role in fraudulently billing Arizona’s Medicaid agency more than $69 million in less than one year for addiction treatment therapy. Many of the patients the defendant used to fuel her scheme were Native Americans covered by Arizona Medicaid under a specific program that reimbursed at higher rates than other Medicaid programs. In addition to the prison sentence, the defendant was ordered to pay almost $55 million in restitution, and to forfeit almost $9.5 million in fraud proceeds seized from seven bank accounts she cont...",
+            "amount": "$69M",
+            "amount_numeric": 69000000,
+            "officials": [],
+            "link": "https://www.justice.gov/opa/pr/arizona-addiction-treatment-clinic-owner-sentenced-14-years-prison-leadership-role-69m",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Addiction Treatment",
+                "False Claims",
+                "Criminal Enforcement",
+                "Overbilling",
+                "Native American"
+            ],
+            "entities": [],
+            "state": "AZ",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-09-17-4223890966",
+            "date": "2026-09-17",
+            "agency": "Media",
+            "type": "Civil Action",
+            "title": "Health Alliance Whistleblower Advances Medicare Fraud Lawsuit",
+            "description": "A False Claims Act whistleblower lawsuit against Health Alliance Medical Plans Inc. and Health Alliance Connect Inc. is proceeding. The lawsuit alleges that the companies improperly billed the federal government for skilled nursing facility services under Medicare. The case has advanced past initial legal challenges, requiring the defendants to continue defending against the allegations. The specific dollar amount and ultimate outcome have not yet been determined.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://news.bloomberglaw.com/health-law-and-business/health-alliance-whistleblower-advances-medicare-fraud-lawsuit?utm_source=rss&utm_medium=HLNW&utm_campaign=000001a0-af95-d1d6-afec-bfff7f5f0001",
+            "link_label": "Bloomberg Law Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Nursing Home",
+                "False Claims Act",
+                "Whistleblower"
+            ],
+            "entities": [
+                "Health Alliance Medical Plans Inc.",
+                "Health Alliance Connect Inc."
+            ],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
