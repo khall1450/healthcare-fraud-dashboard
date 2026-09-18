@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-09-17T16:43:23.077441",
+        "last_updated": "2026-09-18T16:13:19.340803",
         "version": "1.0"
     },
     "actions": [
@@ -14310,6 +14310,81 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "doj-2026-09-18-4089801668",
+            "date": "2026-09-18",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Clinic owner imprisoned for health care fraud kickback scheme causing $49 million loss",
+            "description": "A 53-year-old clinic owner from Willis, Texas was sentenced to prison for conspiring to pay and receive healthcare kickbacks in a scheme that caused $49 million in losses. The defendant operated a clinic and orchestrated illegal kickback payments to physicians and other healthcare providers in exchange for patient referrals, resulting in fraudulent billings to Medicare and Medicaid. The conspiracy involved false claims submitted to federal healthcare programs. The defendant was convicted and imprisoned for this kickback scheme.",
+            "amount": "$49M",
+            "amount_numeric": 49000000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-sdtx/pr/clinic-owner-imprisoned-health-care-fraud-kickback-scheme-causing-49-million-loss",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "Kickbacks",
+                "Anti-Kickback",
+                "False Claims",
+                "Criminal Enforcement"
+            ],
+            "entities": [],
+            "state": "TX",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-09-18-4238172751",
+            "date": "2026-09-18",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Maryland Nurse Pleads Guilty to Health Care Fraud Conspiracy for Role in $14 Million D.C. Medicaid Scheme",
+            "description": "A Maryland nurse pleaded guilty to health care fraud conspiracy for her role in a $14 million D.C. Medicaid fraud scheme. The nurse was involved in a conspiracy that defrauded the District of Columbia's Medicaid program through false claims. The case was investigated and prosecuted, resulting in the guilty plea. This action represents criminal accountability for participation in a multi-million dollar fraud targeting a state Medicaid program.",
+            "amount": "$14M",
+            "amount_numeric": 14000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/maryland-nurse-pleads-guilty-to-health-care-fraud-conspiracy-for-role-in-14-million-dc-medicaid-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": "MD",
+            "source_type": "official",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "hhs-oig-2026-09-18-2360068574",
+            "date": "2026-09-18",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Arizona Addiction Treatment Clinic Owner Sentenced to 14 Years in Prison for Leadership Role in $69M Medicaid Fraud Scheme",
+            "description": "An Arizona addiction treatment clinic owner was sentenced to 14 years in prison for his leadership role in a $69 million Medicaid fraud scheme. The owner, through his clinic operations, orchestrated fraudulent billing and claims submission to Arizona Medicaid. The scheme involved overbilling and false claims for addiction treatment services provided to Medicaid beneficiaries. This sentencing follows criminal conviction and represents a significant enforcement action against healthcare fraud in the addiction treatment sector.",
+            "amount": "$69M",
+            "amount_numeric": 69000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/arizona-addiction-treatment-clinic-owner-sentenced-to-14-years-in-prison-for-leadership-role-in-69m-medicaid-fraud-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Addiction Treatment",
+                "False Claims",
+                "Overbilling",
+                "Criminal Enforcement"
+            ],
+            "entities": [],
+            "state": "AZ",
+            "source_type": "official",
+            "auto_fetched": true
         }
     ]
 }
