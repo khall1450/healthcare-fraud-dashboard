@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-09-21T18:07:39.630630",
+        "last_updated": "2026-09-22T16:43:11.176030",
         "version": "1.0"
     },
     "actions": [
@@ -14409,6 +14409,30 @@
             ],
             "state": null,
             "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-09-21-3491996254",
+            "date": "2026-09-21",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Ex-NFL Player Gets New Trial In $328M Medicare Fraud Case",
+            "description": "A Texas federal judge granted a new trial for a former NFL player convicted in a $328 million Medicare billing fraud scheme. The court found that the government presented unreliable testimony and failed to adequately identify the specific false statements the defendant allegedly used to deceive physicians into submitting fraudulent claims. The case involves a substantial Medicare fraud scheme centered on improper billing practices.",
+            "amount": "$328M",
+            "amount_numeric": 328000000,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2527540?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "Hospital Fraud",
+                "Overbilling"
+            ],
+            "entities": [],
+            "state": "TX",
+            "source_type": "news",
             "auto_fetched": true
         }
     ]
