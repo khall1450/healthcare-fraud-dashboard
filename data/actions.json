@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-09-23T16:37:40.669029",
+        "last_updated": "2026-09-24T16:56:50.585935",
         "version": "1.0"
     },
     "actions": [
@@ -14434,6 +14434,56 @@
             "state": "TX",
             "source_type": "news",
             "auto_fetched": true
+        },
+        {
+            "id": "media-2026-09-23-1068507459",
+            "date": "2026-09-23",
+            "agency": "Media",
+            "type": "Investigation",
+            "title": "Vein Tech Maker Escapes Suit Over DOJ Kickback Probe",
+            "description": "A federal judge in New York dismissed a proposed investor class action lawsuit against vein disease device maker Inari Medical Inc. The lawsuit alleged that Inari's stock price fell after the company disclosed a Department of Justice investigation into its compliance with federal anti-kickback laws. The judge found the lawsuit did not plausibly demonstrate that Inari was paying healthcare providers unlawful kickbacks. The DOJ investigation into Inari's potential anti-kickback violations remains ongoing.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2529071?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Anti-Kickback",
+                "Kickbacks",
+                "Medical Devices"
+            ],
+            "entities": [
+                "Inari Medical Inc."
+            ],
+            "state": "NY",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "media-2026-09-23-2277721786",
+            "date": "2026-09-23",
+            "agency": "Media",
+            "type": "Civil Action",
+            "title": "Medicare Brokers Say Feds Won't Identify Alleged False Claims",
+            "description": "Insurance companies and brokers have been accused in a False Claims Act case of colluding to steer Medicare recipients toward specific Medicare Advantage plans. The defendants claim the federal government has refused to provide detailed specifics of the allegations against them. The case involves potential fraud in the Medicare Advantage program, with defendants seeking clarification on the false claims allegations.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2528954?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare Advantage",
+                "False Claims Act",
+                "Medicare"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
