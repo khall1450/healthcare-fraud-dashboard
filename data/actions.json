@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-09-24T16:56:50.585935",
+        "last_updated": "2026-09-25T16:59:11.558364",
         "version": "1.0"
     },
     "actions": [
@@ -14484,6 +14484,56 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "doj-2026-09-25-1221528745",
+            "date": "2026-09-25",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Texas Mental Health Clinic Owner Convicted in $26M Scheme to Defraud Military Health Benefits Program",
+            "description": "A federal jury in Fort Worth, Texas convicted a licensed professional counselor and mental health clinic owner for his role in a $26 million healthcare fraud, kickbacks, and money laundering scheme targeting TRICARE, the military health benefits program. The defendant operated mental health clinics and allegedly submitted false claims, paid illegal kickbacks to patient recruiters and healthcare providers to generate referrals, and laundered proceeds through business entities. The scheme involved fraudulent billing to TRICARE for unnecessary or non-rendered behavioral health services. The conviction represents a significant enforcement action against military healthcare fraud.",
+            "amount": "$26M",
+            "amount_numeric": 26000000,
+            "officials": [],
+            "link": "https://www.justice.gov/opa/pr/texas-mental-health-clinic-owner-convicted-26m-scheme-defraud-military-health-benefits",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "TRICARE",
+                "Behavioral Health",
+                "Kickbacks",
+                "Anti-Kickback",
+                "False Claims",
+                "Money Laundering",
+                "Criminal Enforcement"
+            ],
+            "entities": [],
+            "state": "TX",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-09-25-2669294451",
+            "date": "2026-09-25",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Florida Doctor Sentenced for Making False Statements in Connection with Multi-Million-Dollar Health Care Fraud Scheme",
+            "description": "A Florida-based doctor was sentenced for making false statements in connection with a multi-million-dollar healthcare fraud scheme. The case involves fraudulent billing and false claims submitted to federal healthcare programs. The sentencing represents the culmination of a criminal investigation and prosecution by federal authorities. Specific details regarding the doctor's name, the exact fraud scheme methodology, dollar amounts involved, and the specific healthcare programs defrauded are not provided in the title and description alone, but would be detailed in the full HHS-OIG press release.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/florida-doctor-sentenced-for-making-false-statements-in-connection-with-multi-million-dollar-health-care-fraud-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims",
+                "False Claims Act",
+                "Overbilling"
+            ],
+            "entities": [],
+            "state": "FL",
+            "source_type": "official",
+            "auto_fetched": true
         }
     ]
 }
