@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-09-28T19:32:15.558360",
+        "last_updated": "2026-09-29T17:58:19.460562",
         "version": "1.0"
     },
     "actions": [
@@ -14557,6 +14557,34 @@
             "state": "IA",
             "source_type": "official",
             "auto_fetched": true
+        },
+        {
+            "id": "media-2026-09-28-3780227137",
+            "date": "2026-09-28",
+            "agency": "Media",
+            "type": "Civil Action",
+            "title": "UnitedHealthcare, TeamHealth settle $100M alleged upcoding case",
+            "description": "UnitedHealthcare and TeamHealth settled a lawsuit alleging that TeamHealth, a physician staffing company, engaged in upcoding of emergency department claims submitted to UnitedHealthcare. The settlement, valued at $100 million, was voluntarily dismissed with prejudice on September 24 in Tennessee federal court. The case involved systematic billing fraud where emergency department services were allegedly billed at higher complexity levels than actually provided, resulting in inflated reimbursement claims to the insurance company.",
+            "amount": "$100M",
+            "amount_numeric": 100000000,
+            "officials": [],
+            "link": "https://www.beckerspayer.com/legal/unitedhealthcare-teamhealth-settle-100m-alleged-upcoding-case/",
+            "link_label": "Becker's Payer Report",
+            "social_posts": [],
+            "tags": [
+                "Upcoding",
+                "False Claims",
+                "Hospital Fraud",
+                "Medicare Advantage"
+            ],
+            "entities": [
+                "UnitedHealthcare",
+                "TeamHealth"
+            ],
+            "state": "TN",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
