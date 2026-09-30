@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-09-29T17:58:19.460562",
+        "last_updated": "2026-09-30T17:53:53.277930",
         "version": "1.0"
     },
     "actions": [
@@ -14585,6 +14585,131 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "doj-2026-09-30-3325190939",
+            "date": "2026-09-30",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Pakistani Nationals residing in Bakersfield and Los Angeles County charged in a scheme to defraud Medicare",
+            "description": "A federal grand jury indicted Pakistani nationals Nouman Mustafa, 36, of Torrance, and Mohsin Khan, 40, of Bakersfield, on multiple counts of healthcare fraud and aggravated identity theft. The defendants allegedly submitted millions of dollars in fraudulent claims for durable medical equipment (DME) to Medicare. The scheme involved identity theft to support the fraudulent billing. Both defendants face federal charges in the U.S. District Court for the Eastern District of California.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-edca/pr/pakistani-nationals-residing-bakersfield-and-los-angeles-county-charged-scheme-defraud",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "DME Fraud",
+                "False Claims",
+                "Identity Theft",
+                "Foreign Nationals"
+            ],
+            "entities": [],
+            "state": "CA",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-09-30-3866006357",
+            "date": "2026-09-30",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "Independence Blue Cross Agrees to Pay $22.5 Million to Resolve Allegations That It Violated the False Claims Act by Submitting or Failing to Correct Inaccurate Diagnoses for Medicare Advantage Enrollees",
+            "description": "Independence Blue Cross agreed to pay $22.5 million to resolve allegations that it violated the False Claims Act by submitting or failing to correct inaccurate diagnoses for Medicare Advantage enrollees. The settlement addresses claims that the company improperly submitted diagnosis codes to the Centers for Medicare & Medicaid Services (CMS) that did not accurately reflect enrollees' medical conditions, resulting in overpayments to the Medicare Advantage program. This civil settlement was reached through the U.S. Attorney's Office for the Eastern District of Pennsylvania.",
+            "amount": "$22.5M",
+            "amount_numeric": 22500000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-edpa/pr/independence-blue-cross-agrees-pay-225-million-resolve-allegations-it-violated-false",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare Advantage",
+                "False Claims Act",
+                "Risk Adjustment",
+                "Improper Payments"
+            ],
+            "entities": [
+                "Independence Blue Cross"
+            ],
+            "state": "PA",
+            "source_type": "official",
+            "auto_fetched": true,
+            "related_agency": "CMS"
+        },
+        {
+            "id": "doj-2026-09-30-2292277705",
+            "date": "2026-09-30",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "Independence Blue Cross to Pay $22.5M to Resolve False Claims Act Allegations",
+            "description": "Independence Blue Cross (IBX), a Pennsylvania-incorporated insurance company, agreed to pay $22.5 million to resolve False Claims Act allegations. IBX failed to withdraw inaccurate and untruthful diagnosis codes for its Medicare Advantage Plan enrollees, resulting in improperly retained overpayments from Medicare. The settlement resolves claims that IBX submitted or caused submission of false claims to the federal government by maintaining inflated diagnosis codes that did not accurately reflect enrollee conditions.",
+            "amount": "$22.5M",
+            "amount_numeric": 22500000,
+            "officials": [],
+            "link": "https://www.justice.gov/opa/pr/independence-blue-cross-pay-225m-resolve-false-claims-act-allegations",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare Advantage",
+                "False Claims Act",
+                "Upcoding",
+                "Risk Adjustment"
+            ],
+            "entities": [
+                "Independence Blue Cross"
+            ],
+            "state": "PA",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-09-30-3963950962",
+            "date": "2026-09-30",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "Gulf Coast Physician Faces False Claims Act Lawsuit in Alleged Medicare Fraud",
+            "description": "The HHS Office of Inspector General has filed a False Claims Act lawsuit against a Gulf Coast physician alleging Medicare fraud. The complaint alleges the physician submitted false claims to Medicare for services not actually rendered or medically unnecessary procedures. The lawsuit seeks recovery of fraudulently obtained funds and civil penalties under the False Claims Act. The case is ongoing in federal court.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/gulf-coast-physician-faces-false-claims-act-lawsuit-in-alleged-medicare-fraud/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-09-29-4071051575",
+            "date": "2026-09-29",
+            "agency": "Media",
+            "type": "Investigative Report",
+            "title": "Human Oversight Lagging in AI-Driven Hospice Fraud Fight",
+            "description": "This investigative report examines concerns raised by legal and technology experts regarding insufficient human oversight in AI-assisted hospice regulatory enforcement efforts. The article highlights risks that AI-driven fraud detection systems could have unintended consequences for legitimate hospice providers, potentially leading to wrongful revocation and closure of operations. The piece is the first in a two-part series exploring the intersection of artificial intelligence and hospice fraud enforcement.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://hospicenews.com/2026/09/29/human-oversight-lagging-in-ai-driven-hospice-fraud-fight/",
+            "link_label": "Hospice News Report",
+            "social_posts": [],
+            "tags": [
+                "Hospice Fraud",
+                "AI",
+                "Program Integrity"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "HHS-OIG"
         }
     ]
 }
