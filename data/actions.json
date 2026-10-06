@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-10-04T16:43:50.074954",
+        "last_updated": "2026-10-06T18:12:49.254855",
         "version": "1.0"
     },
     "actions": [
@@ -14737,6 +14737,56 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "CMS"
+        },
+        {
+            "id": "hhs-oig-2026-10-06-4631102",
+            "date": "2026-10-06",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Social Adult Day Care Owner Pleads Guilty to $65M Medicaid Fraud",
+            "description": "A social adult day care owner pleaded guilty to a $65 million Medicaid fraud scheme. The defendant fraudulently billed Medicaid for services not provided and submitted false claims to obtain improper reimbursements from the state Medicaid program. This case was prosecuted as part of federal healthcare fraud enforcement efforts targeting adult day care providers. The guilty plea resolves criminal charges and establishes liability for the fraudulent billing scheme.",
+            "amount": "$65M",
+            "amount_numeric": 65000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/social-adult-day-care-owner-pleads-guilty-to-65m-medicaid-fraud/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Adult Day Care",
+                "False Claims",
+                "Overbilling"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-10-06-1830904095",
+            "date": "2026-10-06",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "AIDS Healthcare Pays $1.4 Million to End DOJ’s False Claims Suit",
+            "description": "AIDS Healthcare Foundation agreed to pay $1.44 million to resolve DOJ allegations that it submitted false or invalid diagnosis codes to Medicare Advantage to inflate payments. The settlement resolves a False Claims Act lawsuit alleging the organization violated federal law through improper coding practices. No admission of liability was mentioned in the resolution.",
+            "amount": "$1.44M",
+            "amount_numeric": 1440000,
+            "officials": [],
+            "link": "https://news.bloomberglaw.com/health-law-and-business/aids-healthcare-pays-1-4-million-to-end-dojs-false-claims-suit?utm_source=rss&utm_medium=HLNW&utm_campaign=000001a1-1248-dce3-a5e7-9fe8f43d0001",
+            "link_label": "Bloomberg Law Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare Advantage",
+                "False Claims",
+                "Upcoding",
+                "False Claims Act"
+            ],
+            "entities": [
+                "AIDS Healthcare Foundation"
+            ],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true
         }
     ]
 }
