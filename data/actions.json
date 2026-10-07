@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-10-06T18:12:49.254855",
+        "last_updated": "2026-10-07T18:46:05.830797",
         "version": "1.0"
     },
     "actions": [
@@ -14787,6 +14787,106 @@
             "state": null,
             "source_type": "news",
             "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-10-07-708867176",
+            "date": "2026-10-07",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Florida Laboratory Vice President and Marketer Convicted of Medicare Fraud for COVID-19 Testing Scheme",
+            "description": "A federal jury in the Southern District of Florida convicted a laboratory vice president and marketing company owner for operating a COVID-19 testing fraud scheme. The defendant exploited patients seeking COVID-19 tests by subjecting them to unnecessary blood tests without consent, billing Medicare for over $15 million in fraudulent charges. The scheme took advantage of pandemic-era demand for COVID-19 testing to maximize billing to the federal program.",
+            "amount": "$15M",
+            "amount_numeric": 15000000,
+            "officials": [],
+            "link": "https://www.justice.gov/opa/pr/florida-laboratory-vice-president-and-marketer-convicted-medicare-fraud-covid-19-testing",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Lab Fraud",
+                "COVID-19",
+                "False Claims",
+                "Unnecessary Procedures",
+                "Overbilling"
+            ],
+            "entities": [],
+            "state": "FL",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-10-07-3807296379",
+            "date": "2026-10-07",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Former Connecticut Resident Pleads Guilty to Health Care Fraud Charge",
+            "description": "A former Connecticut resident pleaded guilty to a healthcare fraud charge. The specific details regarding the individual's name, the fraud scheme involved, dollar amounts, affected healthcare programs, and sentencing information are not provided in the title and description stub. This represents a guilty plea in a healthcare fraud case prosecuted with HHS-OIG involvement.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/former-connecticut-resident-pleads-guilty-to-health-care-fraud-charge/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims"
+            ],
+            "entities": [],
+            "state": "CT",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-10-07-2219026783",
+            "date": "2026-10-07",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "AIDS Healthcare Foundation Agrees to Pay $1.44M to Settle False Claims Act Allegations",
+            "description": "AIDS Healthcare Foundation agreed to pay $1.44 million to settle False Claims Act allegations brought by the Department of Justice. The settlement resolves claims that the organization submitted false claims to Medicare for services that were not medically necessary or were not provided as billed. The case involved improper billing practices related to healthcare services. The settlement was reached without admission of liability.",
+            "amount": "$1.44M",
+            "amount_numeric": 1440000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/aids-healthcare-foundation-agrees-to-pay-144m-to-settle-false-claims-act-allegations/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims Act",
+                "Medicare",
+                "Overbilling"
+            ],
+            "entities": [
+                "AIDS Healthcare Foundation"
+            ],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "media-2026-10-06-304447924",
+            "date": "2026-10-06",
+            "agency": "State Agency",
+            "type": "Administrative Action",
+            "title": "States Go Beyond Federal Requirements To Fight Medicaid Home Care Fraud",
+            "description": "States are going beyond federal requirements to detect fraud in Medicaid home care, cross-checking billed services against electronic visit verifications (EVVs) and analyzing claims for specific patterns, according to a new KFF report. Most states report that program integrity was one of their top three priorities, but the report’s authors cautioned that additional anti-fraud efforts […] The post States Go Beyond Federal Requirements To Fight Medicaid Home Care Fraud appeared first on Home Health Care News .",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://homehealthcarenews.com/2026/10/states-go-beyond-federal-requirements-to-fight-medicaid-home-care-fraud/",
+            "link_label": "Home Health Care News Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Home Health Fraud",
+                "Program Integrity",
+                "False Claims"
+            ],
+            "entities": [
+                "KFF"
+            ],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "CMS"
         }
     ]
 }
