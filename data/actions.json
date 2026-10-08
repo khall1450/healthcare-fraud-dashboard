@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-10-07T18:46:05.830797",
+        "last_updated": "2026-10-08T18:44:16.429243",
         "version": "1.0"
     },
     "actions": [
@@ -14887,6 +14887,87 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "CMS"
+        },
+        {
+            "id": "hhs-oig-2026-10-08-4157286327",
+            "date": "2026-10-08",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "Heal 360 Clinics and Owner Agree to Pay $20M to Resolve False Claims Act Allegations of Billing False Claims to the COVID-19 Uninsured Program for Services Not Rendered",
+            "description": "Heal 360 Clinics and its owner agreed to pay $20 million to resolve False Claims Act allegations of submitting false billing claims to the COVID-19 Uninsured Program for services not rendered. The settlement addresses charges that the clinic chain fraudulently billed the program for medical services, including laboratory tests and other healthcare services, that were either not provided to patients or were provided in a manner not eligible for reimbursement under the program. This civil settlement was reached with HHS-OIG following an investigation into improper claims submitted during the COVID-19 pandemic.",
+            "amount": "$20M",
+            "amount_numeric": 20000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/heal-360-clinics-and-owner-agree-to-pay-20m-to-resolve-false-claims-act-allegations-of-billing-false-claims-to-the-covid-19-uninsured-program-for-services-not-rendered/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims Act",
+                "COVID-19",
+                "Overbilling",
+                "Lab Fraud",
+                "Program Integrity",
+                "Phantom Billing"
+            ],
+            "entities": [
+                "Heal 360 Clinics"
+            ],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-10-08-3841550395",
+            "date": "2026-10-08",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Florida Laboratory Vice President and Marketer Convicted of Medicare Fraud for COVID-19 Testing Scheme",
+            "description": "A Florida laboratory vice president and marketer were convicted of Medicare fraud for operating a COVID-19 testing scheme. The individuals submitted false claims to Medicare for COVID-19 tests that were not medically necessary or were never actually performed. The scheme involved billing Medicare for tests ordered through telehealth providers without proper medical justification. The defendants were convicted and face sentencing for their roles in defrauding the Medicare program.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/florida-laboratory-vice-president-and-marketer-convicted-of-medicare-fraud-for-covid-19-testing-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Lab Fraud",
+                "Telehealth",
+                "COVID-19",
+                "False Claims",
+                "Overbilling"
+            ],
+            "entities": [],
+            "state": "FL",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-10-08-2881759568",
+            "date": "2026-10-08",
+            "agency": "Media",
+            "type": "Investigative Report",
+            "title": "Humana Brass Face Derivative Suit Alleging Illegal Kickbacks",
+            "description": "A shareholder derivative suit filed in Delaware Chancery Court names 12 current and former Humana Inc. leaders, alleging they allowed the company to pay over $100 million in illegal broker kickbacks to conceal deteriorating medical costs and declining Medicare Advantage plan quality. The suit also claims the defendants wasted more than $1.5 billion on stock buybacks at inflated prices. The lawsuit represents shareholder claims of breach of fiduciary duty related to alleged Anti-Kickback Statute violations within Humana's Medicare Advantage operations.",
+            "amount": "$100M",
+            "amount_numeric": 100000000,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2535731?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare Advantage",
+                "Kickbacks",
+                "Anti-Kickback",
+                "False Claims"
+            ],
+            "entities": [
+                "Humana Inc."
+            ],
+            "state": "DE",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
