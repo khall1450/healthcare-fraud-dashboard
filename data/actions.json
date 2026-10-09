@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-10-08T18:44:16.429243",
+        "last_updated": "2026-10-09T18:14:53.148080",
         "version": "1.0"
     },
     "actions": [
@@ -14968,6 +14968,57 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "doj-2026-10-09-3829969827",
+            "date": "2026-10-09",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Maryland Man Facing Federal Indictment for Role in COVID-19 Healthcare Fraud Scheme Totaling More Than $100M",
+            "description": "A federal grand jury indicted Marc Aaron Potash, 57, of Rockville, Maryland, for his role in a COVID-19 healthcare fraud scheme totaling more than $100 million. Potash is charged with conspiracy to commit healthcare fraud and seven counts of healthcare fraud. The indictment indicates he participated in a scheme exploiting COVID-19 relief programs to fraudulently obtain healthcare payments. The case is being prosecuted by the U.S. Attorney's Office for the District of Maryland.",
+            "amount": "$100M+",
+            "amount_numeric": 100000000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-md/pr/maryland-man-facing-federal-indictment-role-covid-19-healthcare-fraud-scheme-totaling",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "COVID-19",
+                "False Claims",
+                "Healthcare Fraud"
+            ],
+            "entities": [
+                "Marc Aaron Potash"
+            ],
+            "state": "MD",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-10-09-1102641640",
+            "date": "2026-10-09",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Medical Supply Company Owner Sentenced to 14 Years in Prison for $30M Medicare, TRICARE, and CHAMPVA Fraud",
+            "description": "An Oklahoma business owner and chiropractor was sentenced to 14 years in prison for operating a years-long fraud scheme targeting Medicare, TRICARE, and CHAMPVA. The scheme involved billing the federal healthcare programs over $30 million for durable medical equipment (DME) including orthotics braces and continuous glucose monitors that beneficiaries did not want or need. The defendant's medical supply company fraudulently obtained and submitted claims for unnecessary equipment to multiple federal healthcare programs.",
+            "amount": "$30M",
+            "amount_numeric": 30000000,
+            "officials": [],
+            "link": "https://www.justice.gov/opa/pr/medical-supply-company-owner-sentenced-14-years-prison-30m-medicare-tricare-and-champva",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "TRICARE",
+                "DME Fraud",
+                "False Claims",
+                "Overbilling",
+                "Criminal Enforcement"
+            ],
+            "entities": [],
+            "state": "OK",
+            "source_type": "official",
+            "auto_fetched": true
         }
     ]
 }
