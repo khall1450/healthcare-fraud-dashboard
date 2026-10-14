@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-10-13T19:08:51.089337",
+        "last_updated": "2026-10-14T16:57:34.657044",
         "version": "1.0"
     },
     "actions": [
@@ -15128,6 +15128,81 @@
             ],
             "state": null,
             "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-10-14-11417043",
+            "date": "2026-10-14",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Former New Hampshire Doctor Sentenced to Year in Prison for Role in $1.9 Million Medicare Fraud Scheme",
+            "description": "A former New Hampshire doctor was sentenced to one year in prison for his role in a $1.9 million Medicare fraud scheme. The doctor participated in a coordinated fraud involving false claims submitted to Medicare for services not provided or medically necessary. The scheme defrauded the Medicare program of $1.9 million. The defendant has been convicted and sentenced to incarceration.",
+            "amount": "$1.9M",
+            "amount_numeric": 1900000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/former-new-hampshire-doctor-sentenced-to-year-in-prison-for-role-in-19-million-medicare-fraud-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": "NH",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-10-14-380788151",
+            "date": "2026-10-14",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Cape Cod Man Pleads Guilty to Conspiring to Launder Proceeds of $6M Medicare Fraud Scheme",
+            "description": "A Cape Cod man pleaded guilty to conspiracy to launder the proceeds of a $6 million Medicare fraud scheme. The case involved fraudulent billing and money laundering related to Medicare payments. The defendant conspired to conceal and launder the proceeds derived from the healthcare fraud scheme. This criminal enforcement action resulted in a guilty plea, holding the defendant accountable for both the underlying fraud and the subsequent money laundering conspiracy.",
+            "amount": "$6M",
+            "amount_numeric": 6000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/cape-cod-man-pleads-guilty-to-conspiring-to-launder-proceeds-of-6m-medicare-fraud-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "Money Laundering"
+            ],
+            "entities": [],
+            "state": "MA",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-10-14-720026774",
+            "date": "2026-10-14",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "CVS Agrees to Pay $315M for Illegally Filling Unlawful Opioid Prescriptions and for Submitting False Claims to the Federal Government",
+            "description": "CVS agreed to pay $315 million to settle allegations that it illegally filled unlawful opioid prescriptions and submitted false claims to the federal government. The settlement addresses CVS's failure to implement adequate controls to prevent filling prescriptions that lacked legitimate medical purposes, violating the Controlled Substances Act and submitting false claims for reimbursement to federal healthcare programs. This action represents a significant enforcement effort against pharmacy chain complicity in the opioid crisis through improper prescription fulfillment practices.",
+            "amount": "$315M",
+            "amount_numeric": 315000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/cvs-agrees-to-pay-315m-for-illegally-filling-unlawful-opioid-prescriptions-and-for-submitting-false-claims-to-the-federal-government/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Opioids",
+                "Pharmacy Fraud",
+                "False Claims",
+                "False Claims Act",
+                "Pharmaceutical",
+                "Medicare",
+                "Medicaid"
+            ],
+            "entities": [
+                "CVS"
+            ],
+            "state": null,
+            "source_type": "official",
             "auto_fetched": true
         }
     ]
