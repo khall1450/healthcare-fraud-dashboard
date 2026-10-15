@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-10-14T16:57:34.657044",
+        "last_updated": "2026-10-15T16:44:35.808371",
         "version": "1.0"
     },
     "actions": [
@@ -15202,6 +15202,31 @@
                 "CVS"
             ],
             "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-10-15-3496713644",
+            "date": "2026-10-15",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Owner of Health Care Software Company Sentenced to 19 Years in Prison for $1B Medicare Fraud",
+            "description": "A Kansas CEO and owner of a healthcare software company was sentenced to 19 years in prison for operating an internet platform that generated false doctors' orders and prescriptions to defraud Medicare and other federal health care benefit programs of more than $1 billion. The defendant's platform systematized the creation of fraudulent medical documentation to support false billing claims. This represents a major criminal enforcement action targeting a large-scale healthcare fraud scheme affecting multiple federal programs.",
+            "amount": "$1B",
+            "amount_numeric": 1000000000,
+            "officials": [],
+            "link": "https://www.justice.gov/opa/pr/owner-health-care-software-company-sentenced-19-years-prison-1b-medicare-fraud",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "Pharmacy Fraud",
+                "Overbilling",
+                "Criminal Enforcement"
+            ],
+            "entities": [],
+            "state": "KS",
             "source_type": "official",
             "auto_fetched": true
         }
