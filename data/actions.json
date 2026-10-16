@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-10-15T16:44:35.808371",
+        "last_updated": "2026-10-16T16:27:05.095138",
         "version": "1.0"
     },
     "actions": [
@@ -15228,6 +15228,165 @@
             "entities": [],
             "state": "KS",
             "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-10-15-4059823236",
+            "date": "2026-10-15",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "CVS Agrees to Pay $315M for Illegally Filling Unlawful Opioid Prescriptions and for Submitting False Claims to the Federal Government",
+            "description": "HONOLULU – United States Attorney Ken Sorenson announced that CVS Pharmacy Inc., a Rhode Island-based pharmacy chain, and its related corporate entities (collectively, CVS) have agreed to pay $315 million to resolve allegations that, from October 17, 2013 through December 2, 2025, CVS illegally filled prescriptions for opioids and other controlled substances in violation of the Controlled Substances Act (CSA), and then sought payment for many of those invalid prescriptions from Medicare and other federal healthcare programs in violation of the False Claims Act (FCA).",
+            "amount": "$315M",
+            "amount_numeric": 315000000,
+            "officials": [
+                "Ken Sorenson"
+            ],
+            "link": "https://www.justice.gov/usao-hi/pr/cvs-agrees-pay-315m-illegally-filling-unlawful-opioid-prescriptions-and-submitting-false",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Opioids",
+                "Pharmacy Fraud",
+                "False Claims",
+                "False Claims Act",
+                "Controlled Substances Act"
+            ],
+            "entities": [
+                "CVS Pharmacy Inc."
+            ],
+            "state": "RI",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-10-15-2775338021",
+            "date": "2026-10-15",
+            "agency": "DOJ",
+            "type": "Administrative Action",
+            "title": "National Fraud Enforcement Division and the Department of Health and Human Services Announce Self-Disclosure Protocol for Criminal Health Care Fraud",
+            "description": "The Department of Justice's National Fraud Enforcement Division and the Department of Health and Human Services Office of Inspector General announced a coordinated self-disclosure protocol for companies seeking to voluntarily report potential criminal healthcare fraud. The policy clarifies that companies need only disclose to the Fraud Division to receive benefits under both the DOJ's Corporate Enforcement Policy and HHS-OIG's Health Care Fraud Self-Disclosure Protocol. This administrative action streamlines the disclosure process and provides incentives for voluntary compliance and self-reporting of healthcare fraud violations.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.justice.gov/opa/pr/national-fraud-enforcement-division-and-department-health-and-human-services-announce-self",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Task Force",
+                "Program Integrity",
+                "Whistleblower"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true,
+            "related_agency": "HHS-OIG"
+        },
+        {
+            "id": "hhs-oig-2026-10-16-3480571692",
+            "date": "2026-10-16",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Owner of Health Care Software Company Sentenced to 19 Years in Prison for $1B Medicare Fraud",
+            "description": "The owner of a health care software company was sentenced to 19 years in prison for orchestrating a $1 billion Medicare fraud scheme. The defendant used his software company to submit false claims to Medicare, defrauding the program of over $1 billion. The scheme involved submitting fraudulent billing records and claims for services not rendered or medically unnecessary services. This criminal conviction represents a major enforcement action against large-scale Medicare fraud.",
+            "amount": "$1B",
+            "amount_numeric": 1000000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/owner-of-health-care-software-company-sentenced-to-19-years-in-prison-for-1b-medicare-fraud/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Hospital Fraud",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [
+                "Health Care Software Company"
+            ],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-10-16-263580107",
+            "date": "2026-10-16",
+            "agency": "HHS-OIG",
+            "type": "Administrative Action",
+            "title": "National Fraud Enforcement Division and the Department of Health and Human Services Announce Self-Disclosure Protocol for Criminal Health Care Fraud",
+            "description": "The National Fraud Enforcement Division and the Department of Health and Human Services announced a new self-disclosure protocol for criminal healthcare fraud. This protocol allows healthcare providers and entities to voluntarily disclose criminal healthcare fraud to federal authorities, establishing a formal process for self-reporting misconduct. The initiative aims to encourage voluntary compliance and reduce overall fraud in federal healthcare programs by providing a structured mechanism for entities to come forward and resolve fraudulent conduct. This is an administrative action establishing procedures for fraud disclosure and enforcement.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/national-fraud-enforcement-division-and-the-department-of-health-and-human-services-announce-self-disclosure-protocol-for-criminal-health-care-fraud/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims",
+                "Program Integrity",
+                "Whistleblower"
+            ],
+            "entities": [
+                "National Fraud Enforcement Division",
+                "Department of Health and Human Services"
+            ],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-10-15-719115980",
+            "date": "2026-10-15",
+            "agency": "Media",
+            "type": "Investigation",
+            "title": "The Trump administration is doubling down on health care fraud investigations",
+            "description": "The Department of Justice announced an intensified focus on healthcare fraud investigations at the STAT Summit, warning healthcare executives against committing fraud similar to the Theranos case. The DOJ signaled a commitment to increasing scrutiny of healthcare companies and their practices. The announcement suggests the Trump administration is prioritizing healthcare fraud enforcement as a policy priority. No specific cases, charges, or dollar amounts were detailed in this announcement of enforcement policy direction.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.statnews.com/2026/10/15/healthcare-fraud-new-doj-policy-rewards-self-disclosure/?utm_campaign=rss",
+            "link_label": "STAT News Report",
+            "social_posts": [],
+            "tags": [
+                "Program Integrity",
+                "Research Fraud",
+                "Executive Order"
+            ],
+            "entities": [
+                "Theranos"
+            ],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "media-2026-10-16-1926544124",
+            "date": "2026-10-16",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Healthcare software company owner sentenced in $1B Medicare fraud scheme",
+            "description": "The owner of healthcare software company HealthSplash was sentenced to 19 years in prison for his role in a scheme that prosecutors said fraudulently billed Medicare and other federal healthcare programs more than $1 billion for medically unnecessary equipment. Brett Blackman, 43, of Johnson County, Kan., was sentenced Oct. 14 after being convicted in April […] The post Healthcare software company owner sentenced in $1B Medicare fraud scheme appeared first on Becker's Payer Issues | Payer News .",
+            "amount": "$1B",
+            "amount_numeric": 1000000000,
+            "officials": [],
+            "link": "https://www.beckerspayer.com/legal/healthcare-software-company-owner-sentenced-in-1b-medicare-fraud-scheme/",
+            "link_label": "Becker's Payer Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "DME Fraud",
+                "False Claims",
+                "Overbilling",
+                "Unnecessary Procedures"
+            ],
+            "entities": [
+                "HealthSplash"
+            ],
+            "state": "KS",
+            "source_type": "news",
             "auto_fetched": true
         }
     ]
