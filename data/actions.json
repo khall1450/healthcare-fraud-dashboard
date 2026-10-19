@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-10-18T15:42:37.441155",
+        "last_updated": "2026-10-19T18:36:52.843786",
         "version": "1.0"
     },
     "actions": [
@@ -15387,6 +15387,28 @@
             ],
             "state": "KS",
             "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-10-19-3728450438",
+            "date": "2026-10-19",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "Connecticut Physician and His Practices Pay More Than $860K to Settle False Claims Act Allegations",
+            "description": "A Connecticut physician and his medical practices settled False Claims Act allegations by paying more than $860,000. The settlement resolves claims that the physician and his practices submitted false or improper claims to federal healthcare programs. The specific details of the fraudulent conduct and which programs were defrauded are referenced in the HHS-OIG enforcement action. This civil settlement represents a resolution of the allegations without admission of liability.",
+            "amount": "$860K",
+            "amount_numeric": 860000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/connecticut-physician-and-his-practices-pay-more-than-860k-to-settle-false-claims-act-allegations/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims Act",
+                "Medicare"
+            ],
+            "entities": [],
+            "state": "CT",
+            "source_type": "official",
             "auto_fetched": true
         }
     ]
