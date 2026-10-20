@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-10-19T18:36:52.843786",
+        "last_updated": "2026-10-20T16:42:10.928686",
         "version": "1.0"
     },
     "actions": [
@@ -15408,6 +15408,28 @@
             ],
             "entities": [],
             "state": "CT",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-10-19-2054654992",
+            "date": "2026-10-19",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Anchorage woman pleads guilty to committing more than $2 million in Health Care Fraud",
+            "description": "An Anchorage woman pleaded guilty to committing healthcare fraud exceeding $2 million. The case involved fraudulent billing and false claims submitted to federal healthcare programs. The defendant's guilty plea represents resolution of criminal charges related to the healthcare fraud scheme. The specific details of the fraud scheme, victim programs (Medicare/Medicaid), and sentencing information would be contained in the full DOJ press release.",
+            "amount": "$2M+",
+            "amount_numeric": 2000000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-ak/pr/anchorage-woman-pleads-guilty-committing-more-2-million-health-care-fraud",
+            "link_label": "DOJ-USAO Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": "AK",
             "source_type": "official",
             "auto_fetched": true
         }
