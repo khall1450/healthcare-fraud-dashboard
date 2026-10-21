@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-10-20T16:42:10.928686",
+        "last_updated": "2026-10-21T16:59:43.742682",
         "version": "1.0"
     },
     "actions": [
@@ -15432,6 +15432,88 @@
             "state": "AK",
             "source_type": "official",
             "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-10-21-198732301",
+            "date": "2026-10-21",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Maryland Felon Convicted of $18.7 Million Medicare Fraud",
+            "description": "Patrick Britton-Harr, 42, a laboratory owner from Annapolis, Maryland, was convicted by federal jury of fraudulently billing Medicare more than $18.7 million for expensive respiratory tests. The scheme involved billing Medicare for tests that nursing home residents did not need, that physicians did not order, and in many cases were never performed. The fraud occurred during the COVID-19 pandemic. Britton-Harr was found guilty of defrauding the federal Medicare program through this laboratory test billing scam.",
+            "amount": "$18.7M",
+            "amount_numeric": 18700000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-md/pr/maryland-felon-convicted-187-million-medicare-fraud",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Lab Fraud",
+                "False Claims",
+                "False Claims Act",
+                "Unnecessary Procedures",
+                "COVID-19",
+                "Nursing Home"
+            ],
+            "entities": [
+                "Patrick Britton-Harr"
+            ],
+            "state": "MD",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-10-21-3318259741",
+            "date": "2026-10-21",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Maryland Man Convicted of $18.7M Medicare Fraud for Respiratory Testing Scheme Targeting Nursing Homes",
+            "description": "A Maryland man was convicted of conducting an $18.7 million Medicare fraud scheme that targeted nursing homes by billing for unnecessary and fraudulent respiratory testing. The scheme involved submitting false claims to Medicare for pulmonary function tests and other respiratory services that were either not performed or medically unnecessary. The defendant exploited vulnerable nursing home residents to generate fraudulent billings to the Medicare program. He was convicted and faces sentencing.",
+            "amount": "$18.7M",
+            "amount_numeric": 18700000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/maryland-man-convicted-of-187m-medicare-fraud-for-respiratory-testing-scheme-targeting-nursing-homes/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Nursing Home",
+                "Lab Fraud",
+                "False Claims",
+                "Unnecessary Procedures",
+                "Program Integrity"
+            ],
+            "entities": [],
+            "state": "MD",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-10-20-3039312589",
+            "date": "2026-10-20",
+            "agency": "DOJ",
+            "type": "Administrative Action",
+            "title": "<a href=\"https://www.fiercehealthcare.com/regulatory/doj-streamlines-voluntary-self-disclosure-healthcare-fraud\" hreflang=\"en\">DOJ streamlines voluntary self-disclosure of healthcare fraud</a>",
+            "description": "The Department of Justice announced a policy change streamlining the voluntary self-disclosure process for healthcare organizations that have committed potentially criminal fraud. Under the new policy, healthcare organizations seeking reduced penalties can disclose fraud to the DOJ alone, rather than filing separate disclosures with both DOJ and the HHS Office of Inspector General. This administrative action simplifies the self-disclosure mechanism for healthcare fraud enforcement while potentially encouraging more organizations to voluntarily report violations.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.fiercehealthcare.com/regulatory/doj-streamlines-voluntary-self-disclosure-healthcare-fraud",
+            "link_label": "Fierce Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "False Claims Act",
+                "Whistleblower",
+                "Program Integrity"
+            ],
+            "entities": [
+                "Department of Justice",
+                "HHS Office of Inspector General"
+            ],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "HHS-OIG"
         }
     ]
 }
