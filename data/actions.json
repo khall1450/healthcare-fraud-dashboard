@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-10-21T16:59:43.742682",
+        "last_updated": "2026-10-22T16:59:10.569969",
         "version": "1.0"
     },
     "actions": [
@@ -15514,6 +15514,83 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "HHS-OIG"
+        },
+        {
+            "id": "doj-2026-10-22-2145809417",
+            "date": "2026-10-22",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "L.A. Health Care Fraud Takedown Results in 15 Defendants Charged, Including Six Medical Professionals, with $2 Billion in Losses Alleged",
+            "description": "The Department of Justice announced charges against 15 defendants, including six medical professionals, for health care fraud schemes collectively involving $2 billion in fraudulent claims to government and private health care programs. The schemes included sham substance abuse treatment programs, unnecessary artery treatments, and bogus hospice services. This represents a significant coordinated enforcement action targeting multiple fraud schemes across different healthcare services.",
+            "amount": "$2B",
+            "amount_numeric": 2000000000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-cdca/pr/la-health-care-fraud-takedown-results-15-defendants-charged-including-six-medical",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "National Takedown",
+                "Addiction Treatment",
+                "Hospice Fraud",
+                "Unnecessary Procedures",
+                "False Claims",
+                "Medicare",
+                "Medicaid"
+            ],
+            "entities": [],
+            "state": "CA",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-10-22-1954793617",
+            "date": "2026-10-22",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "New Orleans Man Sentenced To $7 Million In Restitution For Health Care Fraud Conspiracy",
+            "description": "A New Orleans man was sentenced to pay $7 million in restitution for his role in a healthcare fraud conspiracy. The case involved fraudulent schemes against federal healthcare programs. The sentencing represents a criminal enforcement action by federal authorities targeting healthcare fraud. Specific details about the fraud scheme, co-conspirators, and the healthcare programs defrauded are not provided in the title and basic description.",
+            "amount": "$7M",
+            "amount_numeric": 7000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/new-orleans-man-sentenced-to-7-million-in-restitution-for-health-care-fraud-conspiracy/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims Act",
+                "Kickbacks"
+            ],
+            "entities": [],
+            "state": "LA",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-10-22-4083779501",
+            "date": "2026-10-22",
+            "agency": "Media",
+            "type": "Civil Action",
+            "title": "Zimmer Biomet Unable to Defeat Commissions Kickback Lawsuit",
+            "description": "Zimmer Biomet Holdings Inc. faces a False Claims Act whistleblower lawsuit alleging the company engaged in a kickback scheme to boost orthopedic medical device sales. A court has rejected the company's motion to dismiss, allowing the case to proceed. The suit claims illegal commissions were paid in connection with medical device sales, implicating federal healthcare programs. The outcome remains pending as litigation continues.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://news.bloomberglaw.com/health-law-and-business/zimmer-biomet-unable-to-defeat-commissions-kickback-lawsuit?utm_source=rss&utm_medium=HLNW&utm_campaign=000001a1-6384-de2d-a1f7-6b8fd05e0001",
+            "link_label": "Bloomberg Law Report",
+            "social_posts": [],
+            "tags": [
+                "Medical Devices",
+                "Kickbacks",
+                "Anti-Kickback",
+                "False Claims Act",
+                "Whistleblower"
+            ],
+            "entities": [
+                "Zimmer Biomet Holdings Inc."
+            ],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
