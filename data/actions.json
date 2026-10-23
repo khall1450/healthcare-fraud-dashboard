@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-10-22T16:59:10.569969",
+        "last_updated": "2026-10-23T16:51:36.472622",
         "version": "1.0"
     },
     "actions": [
@@ -15591,6 +15591,153 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "doj-2026-10-23-90587117",
+            "date": "2026-10-23",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Telemedicine Company Owner Sentenced to 20 Years in Prison for $46M Medicare Fraud Scheme",
+            "description": "A telemedicine company owner was sentenced to 20 years in prison for organizing and leading a $46.2 million Medicare fraud conspiracy that operated for more than six years. The defendant was ordered to pay $17.9 million in restitution to Medicare and $10.4 million in forfeiture. The case involved fraudulent billing to the Medicare program through the telemedicine company's operations.",
+            "amount": "$46.2M",
+            "amount_numeric": 46200000,
+            "officials": [],
+            "link": "https://www.justice.gov/opa/pr/telemedicine-company-owner-sentenced-20-years-prison-46m-medicare-fraud-scheme",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Telehealth",
+                "False Claims",
+                "Overbilling"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-10-23-2915357862",
+            "date": "2026-10-23",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Los Angeles Health Care Fraud Takedown Results in Charges Against 15 Defendants, Including 6 Medical Professionals, Nearly $2 Billion in Loss",
+            "description": "A coordinated federal enforcement action in Los Angeles resulted in criminal charges against 15 defendants, including 6 medical professionals, in connection with a healthcare fraud scheme causing nearly $2 billion in losses. The takedown targeted fraudulent billing and schemes involving Medicare and Medicaid. The defendants faced charges for their roles in submitting false claims and overbilling federal healthcare programs. This represents a major strike force operation focused on program integrity and protecting federal healthcare funds.",
+            "amount": "$2B",
+            "amount_numeric": 2000000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/los-angeles-health-care-fraud-takedown-results-in-charges-against-15-defendants-including-6-medical-professionals-nearly-2-billion-in-loss/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "False Claims",
+                "Overbilling",
+                "National Takedown",
+                "Strike Force",
+                "Program Integrity"
+            ],
+            "entities": [],
+            "state": "CA",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-10-23-1821691887",
+            "date": "2026-10-23",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Missouri Surgeon and Kansas Medical Device Distributor Sentenced for Conspiring to Pay and Receive Kickbacks to Induce Use of Spinal Implants and Obstructing a Federal Investigation",
+            "description": "A Missouri surgeon and Kansas medical device distributor were sentenced for conspiring to pay and receive kickbacks to induce the use of spinal implants, and for obstructing a federal investigation. The scheme involved the distributor providing financial benefits to the surgeon in exchange for the surgeon using and implanting the distributor's spinal devices in patient procedures. Both defendants pleaded guilty to anti-kickback violations and obstruction charges. The case involved fraudulent billing to Medicare and other federal healthcare programs for unnecessary or improperly induced spinal implant procedures.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/missouri-surgeon-and-kansas-medical-device-distributor-sentenced-for-conspiring-to-pay-and-receive-kickbacks-to-induce-use-of-spinal-implants-and-obstructing-a-federal-investigation/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Kickbacks",
+                "Anti-Kickback",
+                "Medical Devices",
+                "False Claims"
+            ],
+            "entities": [],
+            "state": "KS",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-10-23-785166324",
+            "date": "2026-10-23",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Colorado Man Charged in Health Care Fraud Scheme",
+            "description": "A Colorado man has been charged in a healthcare fraud scheme. The Justice Department's U.S. Attorney's Office for New Jersey is prosecuting the case. Specific details about the alleged fraud scheme, dollar amounts, healthcare programs targeted, and the defendant's identity and role are not provided in the limited description available. The case represents an ongoing federal enforcement action against healthcare fraud.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-nj/pr/colorado-man-charged-health-care-fraud-scheme",
+            "link_label": "DOJ-USAO Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims"
+            ],
+            "entities": [],
+            "state": "CO",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-10-22-2326075415",
+            "date": "2026-10-22",
+            "agency": "State Agency",
+            "type": "Civil Action",
+            "title": "STAT+: Gilead to pay $45 million to settle kickback charges filed by Texas attorney general",
+            "description": "Gilead Sciences agreed to pay $45 million to settle allegations that the company paid kickbacks that improperly influenced prescriptions paid for by the Texas Medicaid program. The settlement was filed by the Texas attorney general and addresses violations related to improper payments designed to induce healthcare providers to prescribe Gilead products. This civil settlement resolves kickback allegations without requiring an admission of wrongdoing by Gilead.",
+            "amount": "$45M",
+            "amount_numeric": 45000000,
+            "officials": [],
+            "link": "https://www.statnews.com/pharmalot/2026/10/22/gilead-settles-kickback-lawsuit-texas-attorney-general/?utm_campaign=rss",
+            "link_label": "STAT News Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Pharmaceutical",
+                "Kickbacks",
+                "Anti-Kickback"
+            ],
+            "entities": [
+                "Gilead Sciences"
+            ],
+            "state": "TX",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "HHS-OIG"
+        },
+        {
+            "id": "media-2026-10-23-3085050664",
+            "date": "2026-10-23",
+            "agency": "DOJ",
+            "type": "Administrative Action",
+            "title": "DOJ Starts Self-Disclosure Program for Potential False Claims",
+            "description": "The US Justice Department launched a six-month pilot program designed to encourage healthcare companies to voluntarily self-disclose potential False Claims Act violations. The initiative aims to incentivize healthcare entities to come forward and report fraudulent billing, coding, or claims submission practices without waiting for government investigation or enforcement action. This program represents a shift toward cooperative compliance and allows companies that participate in good faith to potentially receive more favorable treatment than those discovered through traditional enforcement mechanisms.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://news.bloomberglaw.com/health-law-and-business/doj-starts-self-disclosure-program-for-potential-false-claims?utm_source=rss&utm_medium=HLNW&utm_campaign=000001a1-68ad-d988-a9bd-faff29080000",
+            "link_label": "Bloomberg Law Report",
+            "social_posts": [],
+            "tags": [
+                "False Claims Act",
+                "Whistleblower",
+                "Program Integrity"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true
         }
     ]
 }
