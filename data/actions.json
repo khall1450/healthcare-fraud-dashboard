@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-10-23T16:51:36.472622",
+        "last_updated": "2026-10-24T15:43:52.915227",
         "version": "1.0"
     },
     "actions": [
@@ -15738,6 +15738,31 @@
             "state": null,
             "source_type": "news",
             "auto_fetched": true
+        },
+        {
+            "id": "media-2026-10-23-811261105",
+            "date": "2026-10-23",
+            "agency": "White House",
+            "type": "Executive Order",
+            "title": "<a href=\"https://www.fiercehealthcare.com/payers/hhs-doj-unveil-pilot-program-self-disclosure-false-claims-act-violations\" hreflang=\"en\">HHS, DOJ unveil pilot program for self-disclosure of False Claims Act violations</a>",
+            "description": "The Trump administration unveiled a new pilot program allowing companies to voluntarily self-disclose False Claims Act violations to HHS and DOJ. The program incentivizes healthcare organizations to report their own compliance failures related to federal healthcare programs, potentially reducing penalties for companies that proactively identify and report fraudulent billing, kickback schemes, or other improper claims. This represents a regulatory initiative aimed at program integrity across Medicare, Medicaid, and other federal healthcare programs. The specific details of penalty reductions and program scope were not fully detailed in this announcement.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.fiercehealthcare.com/payers/hhs-doj-unveil-pilot-program-self-disclosure-false-claims-act-violations",
+            "link_label": "Fierce Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "False Claims Act",
+                "Executive Order",
+                "Program Integrity",
+                "Whistleblower"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
