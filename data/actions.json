@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-10-26T18:34:56.137977",
+        "last_updated": "2026-10-27T17:50:26.607619",
         "version": "1.0"
     },
     "actions": [
@@ -15840,6 +15840,132 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "HHS-OIG"
+        },
+        {
+            "id": "doj-2026-10-27-820050873",
+            "date": "2026-10-27",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Multiple Individuals Arrested for Health Care Fraud Conspiracy following Homeland Security Task Force Investigation",
+            "description": "Multiple individuals were arrested following a Homeland Security task force investigation into a health care fraud conspiracy. The defendants face charges of health care fraud conspiracy with potential sentences of up to 10 years in prison, fines up to $250,000 or twice the total loss from fraudulent claims, and up to 3 years of supervised release. The specific details regarding the nature of the fraud scheme, dollar amounts involved, and targeted healthcare programs are not provided in this press release excerpt.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-me/pr/multiple-individuals-arrested-health-care-fraud-conspiracy-following-homeland-security",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims",
+                "Task Force"
+            ],
+            "entities": [],
+            "state": "ME",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-10-27-1836301239",
+            "date": "2026-10-27",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Fugitive Fraudster Herb Kimble Sentenced to 20 Years for International Healthcare Fraud Scheme",
+            "description": "Herb Kimble, a fugitive fraudster, was sentenced to 20 years in prison for his role in an international healthcare fraud scheme. The case involved defrauding federal healthcare programs through a coordinated scheme that spanned multiple jurisdictions. Kimble's prosecution represents a significant enforcement action against large-scale healthcare fraud targeting Medicare and/or Medicaid. The sentencing concludes a major criminal investigation by HHS-OIG.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/fugitive-fraudster-herb-kimble-sentenced-to-20-years-for-international-healthcare-fraud-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "False Claims",
+                "False Claims Act",
+                "Kickbacks",
+                "International",
+                "Multi-State"
+            ],
+            "entities": [
+                "Herb Kimble"
+            ],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "media-2026-10-26-1277145716",
+            "date": "2026-10-26",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "6 Suspects Arrested in $138M Hospice Fraud Scheme",
+            "description": "Six medical professionals were recently arrested for their alleged involvement in a $138 million scheme that spanned three separate hospices. The suspects are accused of submitting false Medicare billing claims for patients who were not eligible to receive hospice care. The scheme is part of a larger case in California recently announced by the U.S. […] The post 6 Suspects Arrested in $138M Hospice Fraud Scheme appeared first on Hospice News .",
+            "amount": "$138M",
+            "amount_numeric": 138000000,
+            "officials": [],
+            "link": "https://hospicenews.com/2026/10/26/6-suspects-arrested-in-138m-hospice-fraud-scheme/",
+            "link_label": "Hospice News Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Hospice Fraud",
+                "False Claims",
+                "False Claims Act",
+                "Multi-State"
+            ],
+            "entities": [],
+            "state": "CA",
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-10-26-1130982375",
+            "date": "2026-10-26",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "<a href=\"https://www.fiercehealthcare.com/regulatory/doj-charges-15-healthcare-fraud-schemes-totaling-2b\" hreflang=\"en\">DOJ charges 15 in healthcare fraud schemes totaling $2B</a>",
+            "description": "The Department of Justice charged 15 individuals in connection with healthcare fraud schemes totaling approximately $2 billion. A significant portion of the fraud, exceeding $1.6 billion, involved a scheme targeting individuals in California through sham substance abuse treatment programs. The charges represent a coordinated enforcement action against multiple fraud schemes across the healthcare system.",
+            "amount": "$2B",
+            "amount_numeric": 2000000000,
+            "officials": [],
+            "link": "https://www.fiercehealthcare.com/regulatory/doj-charges-15-healthcare-fraud-schemes-totaling-2b",
+            "link_label": "Fierce Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Addiction Treatment",
+                "False Claims",
+                "Overbilling",
+                "National Takedown"
+            ],
+            "entities": [],
+            "state": "CA",
+            "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-10-26-245151425",
+            "date": "2026-10-26",
+            "agency": "Media",
+            "type": "Criminal Enforcement",
+            "title": "Texas Couple Sent To Prison For Medicare Fraud Scheme",
+            "description": "A husband and wife who operated a medical equipment company in Harlingen, Texas were sentenced to prison for defrauding Medicare by submitting false claims for wheelchair repairs that were never performed. The couple billed Medicare for services not rendered, resulting in millions of dollars in fraudulent payments to their company. Federal prosecutors secured convictions and prison sentences against both operators.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2542454?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "DME Fraud",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": "TX",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
