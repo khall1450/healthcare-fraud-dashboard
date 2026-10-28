@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-10-27T17:50:26.607619",
+        "last_updated": "2026-10-28T18:14:06.006340",
         "version": "1.0"
     },
     "actions": [
@@ -15966,6 +15966,53 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "hhs-oig-2026-10-28-2161800022",
+            "date": "2026-10-28",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Multiple Individuals Arrested for Health Care Fraud Conspiracy following Homeland Security Task Force Investigation",
+            "description": "Multiple individuals were arrested for health care fraud conspiracy following an investigation by a Homeland Security task force. The case involved coordinated law enforcement action targeting a conspiracy to defraud healthcare programs. Specific details about the individuals charged, the fraud scheme, dollar amounts, and programs defrauded are not provided in the title and description provided, but this represents a criminal enforcement action with task force coordination.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/multiple-individuals-arrested-for-health-care-fraud-conspiracy-following-homeland-security-task-force-investigation/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Task Force",
+                "False Claims",
+                "Program Integrity"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "hhs-oig-2026-10-28-3557511829",
+            "date": "2026-10-28",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Gainesville Woman Convicted in $8.6M Medicare Fraud Scheme",
+            "description": "A Gainesville woman was convicted in an $8.6 million Medicare fraud scheme. The case involved fraudulent billing to Medicare for services not provided or medically unnecessary services. The individual exploited the Medicare program through false claims submitted to obtain improper reimbursements. The conviction represents a successful prosecution of healthcare fraud by federal authorities.",
+            "amount": "$8.6M",
+            "amount_numeric": 8600000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/gainesville-woman-convicted-in-86m-medicare-fraud-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": "FL",
+            "source_type": "official",
+            "auto_fetched": true
         }
     ]
 }
