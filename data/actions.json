@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-10-30T17:55:12.693327",
+        "last_updated": "2026-10-31T17:07:25.299308",
         "version": "1.0"
     },
     "actions": [
@@ -16011,6 +16011,31 @@
             ],
             "entities": [],
             "state": "FL",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-10-30-1938320904",
+            "date": "2026-10-30",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Indian National Pleads Guilty to $227M Medicare Fraud",
+            "description": "An Indian national pleaded guilty to perpetrating a $227 million Medicare fraud scheme. The fraudster purchased hundreds of thousands of Medicare beneficiaries' personally identifiable information from a Pakistan-based company and used the stolen identities to submit false claims to Medicare for COVID-19 test kits that were never actually provided to beneficiaries. The scheme resulted in approximately $227 million in fraudulent billings to the Medicare program. The defendant has pleaded guilty and faces sentencing.",
+            "amount": "$227M",
+            "amount_numeric": 227000000,
+            "officials": [],
+            "link": "https://www.justice.gov/opa/pr/indian-national-pleads-guilty-227m-medicare-fraud",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "Identity Theft",
+                "COVID-19",
+                "Foreign Nationals"
+            ],
+            "entities": [],
+            "state": null,
             "source_type": "official",
             "auto_fetched": true
         }
