@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-11-01T17:50:20.078357",
+        "last_updated": "2026-11-02T21:37:45.056107",
         "version": "1.0"
     },
     "actions": [
@@ -16032,6 +16032,31 @@
                 "False Claims",
                 "Identity Theft",
                 "COVID-19",
+                "Foreign Nationals"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-11-02-1690516795",
+            "date": "2026-11-02",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Indian National Pleads Guilty to $227M Medicare Fraud",
+            "description": "An Indian national pleaded guilty to orchestrating a $227 million Medicare fraud scheme. The defendant exploited Medicare billing systems through false claims and overbilling for healthcare services. This case represents a significant enforcement action by HHS-OIG targeting healthcare fraud perpetrated by a foreign national. The guilty plea resulted in criminal charges and the individual faces sentencing.",
+            "amount": "$227M",
+            "amount_numeric": 227000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/indian-national-pleads-guilty-to-227m-medicare-fraud/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "False Claims Act",
+                "Overbilling",
                 "Foreign Nationals"
             ],
             "entities": [],
