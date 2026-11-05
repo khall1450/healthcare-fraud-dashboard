@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-11-04T19:37:57.148677",
+        "last_updated": "2026-11-05T19:47:12.408894",
         "version": "1.0"
     },
     "actions": [
@@ -16062,6 +16062,77 @@
             "entities": [],
             "state": null,
             "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-11-05-3983179058",
+            "date": "2026-11-05",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "CEO and VA Employee Sentenced for Paying and Receiving Illegal Health Care Kickbacks and Bribes",
+            "description": "Two Florida men were sentenced today for their roles in a conspiracy to pay and receive illegal health care kickbacks. Laurent Cassagnol was sentenced to 6 months in prison, and Heriberto Rivera was sentenced to 13 months in prison. In addition to the prison terms, Cassagnol was ordered to forfeit $175,172, and Rivera was ordered to forfeit $515,542, which represented the proceeds that the defendants obtained from the offense.",
+            "amount": "$690,714",
+            "amount_numeric": 690714,
+            "officials": [],
+            "link": "https://www.justice.gov/opa/pr/ceo-and-va-employee-sentenced-paying-and-receiving-illegal-health-care-kickbacks-and-bribes",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Kickbacks",
+                "Anti-Kickback",
+                "TRICARE"
+            ],
+            "entities": [
+                "Veterans Affairs"
+            ],
+            "state": "FL",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "congress-2026-10-27-2343593600",
+            "date": "2026-10-27",
+            "agency": "Congress",
+            "type": "Technology/Innovation",
+            "title": "Chairman Guthrie Op-Ed: Republicans Are Ending the Healthcare Fraud Free-for-All",
+            "description": "",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://energycommerce.house.gov/posts/chairman-guthrie-op-ed-republicans-are-ending-the-healthcare-fraud-free-for-all",
+            "link_label": "H-E&C Press Release",
+            "social_posts": [],
+            "tags": [],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-11-05-1038826869",
+            "date": "2026-11-05",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Chicago-area lab owner pleads guilty in $227M Medicare fraud scheme",
+            "description": "A Des Plaines, Ill. man pleaded guilty to his role in a $227 million Medicare fraud scheme that billed the program for over-the-counter COVID-19 test kits beneficiaries never requested or received. Syed Kablazada, 36, pleaded guilty to two counts of healthcare fraud and faces up to 20 years in prison, according to an Oct. 30 […] The post Chicago-area lab owner pleads guilty in $227M Medicare fraud scheme appeared first on Becker's Payer Issues | Payer News .",
+            "amount": "$227M",
+            "amount_numeric": 227000000,
+            "officials": [],
+            "link": "https://www.beckerspayer.com/legal/chicago-area-lab-owner-pleads-guilty-in-227m-medicare-fraud-scheme/",
+            "link_label": "Becker's Payer Report",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Lab Fraud",
+                "False Claims",
+                "False Claims Act",
+                "COVID-19"
+            ],
+            "entities": [
+                "Syed Kablazada"
+            ],
+            "state": "IL",
+            "source_type": "news",
             "auto_fetched": true
         }
     ]
