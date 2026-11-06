@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-11-05T19:47:12.408894",
+        "last_updated": "2026-11-06T19:10:47.265507",
         "version": "1.0"
     },
     "actions": [
@@ -16090,25 +16090,6 @@
             "auto_fetched": true
         },
         {
-            "id": "congress-2026-10-27-2343593600",
-            "date": "2026-10-27",
-            "agency": "Congress",
-            "type": "Technology/Innovation",
-            "title": "Chairman Guthrie Op-Ed: Republicans Are Ending the Healthcare Fraud Free-for-All",
-            "description": "",
-            "amount": null,
-            "amount_numeric": 0,
-            "officials": [],
-            "link": "https://energycommerce.house.gov/posts/chairman-guthrie-op-ed-republicans-are-ending-the-healthcare-fraud-free-for-all",
-            "link_label": "H-E&C Press Release",
-            "social_posts": [],
-            "tags": [],
-            "entities": [],
-            "state": null,
-            "source_type": "official",
-            "auto_fetched": true
-        },
-        {
             "id": "media-2026-11-05-1038826869",
             "date": "2026-11-05",
             "agency": "DOJ",
@@ -16133,6 +16114,33 @@
             ],
             "state": "IL",
             "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-11-06-3889638297",
+            "date": "2026-11-06",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "California Laboratory and Its Owner Pay $1.25M to Settle Allegations of Kickbacks to Marketers",
+            "description": "Lab Genomics LLC, a clinical laboratory based in Fountain Valley, California, and its owner Leena Dalal agreed to pay $1.25 million to resolve False Claims Act allegations. The laboratory paid illegal kickbacks to marketers in violation of federal anti-kickback statutes. The settlement resolves claims that the kickback payments resulted in false claims being submitted to federal healthcare programs.",
+            "amount": "$1.25M",
+            "amount_numeric": 1250000,
+            "officials": [],
+            "link": "https://www.justice.gov/opa/pr/california-laboratory-and-its-owner-pay-125m-settle-allegations-kickbacks-marketers",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Lab Fraud",
+                "False Claims Act",
+                "Kickbacks",
+                "Anti-Kickback"
+            ],
+            "entities": [
+                "Lab Genomics LLC",
+                "Leena Dalal"
+            ],
+            "state": "CA",
+            "source_type": "official",
             "auto_fetched": true
         }
     ]
