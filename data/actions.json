@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-11-06T19:10:47.265507",
+        "last_updated": "2026-11-07T17:40:58.040347",
         "version": "1.0"
     },
     "actions": [
@@ -16142,6 +16142,29 @@
             "state": "CA",
             "source_type": "official",
             "auto_fetched": true
+        },
+        {
+            "id": "media-2026-11-06-3186455456",
+            "date": "2026-11-06",
+            "agency": "Media",
+            "type": "Criminal Enforcement",
+            "title": "Healthcare Execs Indicted Over $14M DC Medicaid Fraud",
+            "description": "Two executives of a Washington, D.C.-based healthcare provider and one employee were indicted in federal court for a scheme to defraud the District of Columbia's Medicaid system of nearly $14 million. The indictment was brought by federal prosecutors in D.C. federal court. The specific fraud scheme details and current status beyond indictment are not provided in the available description.",
+            "amount": "$14M",
+            "amount_numeric": 14000000,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2547379?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "False Claims"
+            ],
+            "entities": [],
+            "state": "DC",
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
