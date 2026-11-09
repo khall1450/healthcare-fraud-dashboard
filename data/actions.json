@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-11-08T17:50:28.707407",
+        "last_updated": "2026-11-09T22:11:51.754883",
         "version": "1.0"
     },
     "actions": [
@@ -16165,6 +16165,25 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "congress-2026-10-27-2343593600",
+            "date": "2026-10-27",
+            "agency": "Congress",
+            "type": "Technology/Innovation",
+            "title": "Chairman Guthrie Op-Ed: Republicans Are Ending the Healthcare Fraud Free-for-All",
+            "description": "",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://energycommerce.house.gov/posts/chairman-guthrie-op-ed-republicans-are-ending-the-healthcare-fraud-free-for-all",
+            "link_label": "H-E&C Press Release",
+            "social_posts": [],
+            "tags": [],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
         }
     ]
 }
