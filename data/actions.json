@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-11-09T22:11:51.754883",
+        "last_updated": "2026-11-10T19:33:55.649647",
         "version": "1.0"
     },
     "actions": [
@@ -16167,22 +16167,32 @@
             "related_agency": "DOJ"
         },
         {
-            "id": "congress-2026-10-27-2343593600",
-            "date": "2026-10-27",
-            "agency": "Congress",
-            "type": "Technology/Innovation",
-            "title": "Chairman Guthrie Op-Ed: Republicans Are Ending the Healthcare Fraud Free-for-All",
-            "description": "",
-            "amount": null,
-            "amount_numeric": 0,
+            "id": "media-2026-11-09-2680653520",
+            "date": "2026-11-09",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "Quest Pays $13M To End Giants Ticket Kickback Claims",
+            "description": "Quest Diagnostics Inc. settled allegations that it submitted false claims to Medicare and New York and New Jersey Medicaid programs by paying $13 million. The settlement addresses charges that Quest engaged in kickback schemes, allegedly providing complimentary tickets to sporting events (Giants tickets) to induce healthcare providers to refer laboratory testing business to Quest. The settlement was reached with federal prosecutors and resolves claims under the False Claims Act.",
+            "amount": "$13M",
+            "amount_numeric": 13000000,
             "officials": [],
-            "link": "https://energycommerce.house.gov/posts/chairman-guthrie-op-ed-republicans-are-ending-the-healthcare-fraud-free-for-all",
-            "link_label": "H-E&C Press Release",
+            "link": "https://www.law360.com/health/articles/2547596?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
             "social_posts": [],
-            "tags": [],
-            "entities": [],
-            "state": null,
-            "source_type": "official",
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "Lab Fraud",
+                "False Claims Act",
+                "Kickbacks",
+                "Anti-Kickback",
+                "Multi-State"
+            ],
+            "entities": [
+                "Quest Diagnostics Inc."
+            ],
+            "state": "NJ",
+            "source_type": "news",
             "auto_fetched": true
         }
     ]
