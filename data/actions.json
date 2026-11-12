@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-11-11T19:28:11.203798",
+        "last_updated": "2026-11-12T19:46:26.190996",
         "version": "1.0"
     },
     "actions": [
@@ -16193,6 +16193,33 @@
             ],
             "state": "NJ",
             "source_type": "news",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-11-12-1505093993",
+            "date": "2026-11-12",
+            "agency": "DOJ",
+            "type": "Civil Action",
+            "title": "Clarksville Pain Management Clinic and Managers Agree to Pay $1.5 Million to Resolve False Claims Act Allegations Involving Medically Unnecessary Testing",
+            "description": "Clarksville Pain Management Clinic and its managers agreed to pay $1.5 million to resolve False Claims Act allegations involving medically unnecessary testing. The clinic submitted false claims to Medicare and Medicaid for genetic testing and other unnecessary diagnostic services that were not medically justified. The settlement resolves claims that the clinic engaged in billing practices that resulted in improper payments from federal healthcare programs. This civil settlement was reached without admission of liability.",
+            "amount": "$1.5M",
+            "amount_numeric": 1500000,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-mdtn/pr/clarksville-pain-management-clinic-and-managers-agree-pay-15-million-resolve-false",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "Genetic Testing",
+                "False Claims Act",
+                "Unnecessary Procedures"
+            ],
+            "entities": [
+                "Clarksville Pain Management Clinic"
+            ],
+            "state": "TN",
+            "source_type": "official",
             "auto_fetched": true
         }
     ]
