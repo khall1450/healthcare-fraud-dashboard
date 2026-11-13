@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-11-12T19:46:26.190996",
+        "last_updated": "2026-11-13T19:28:58.621656",
         "version": "1.0"
     },
     "actions": [
@@ -16219,6 +16219,139 @@
                 "Clarksville Pain Management Clinic"
             ],
             "state": "TN",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-11-13-2487446676",
+            "date": "2026-11-13",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "New York Doctor Charged in $6.8M Medicare Fraud Scheme",
+            "description": "A New York physician was charged in connection with a $6.8 million Medicare fraud scheme. The case involves allegations of false claims submitted to Medicare for services not rendered or medically unnecessary procedures. The charges were brought by federal authorities with HHS-OIG involvement. The case is currently in the criminal enforcement stage.",
+            "amount": "$6.8M",
+            "amount_numeric": 6800000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/new-york-doctor-charged-in-68m-medicare-fraud-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "False Claims Act",
+                "Unnecessary Procedures",
+                "Hospital Fraud"
+            ],
+            "entities": [],
+            "state": "NY",
+            "source_type": "official",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "hhs-oig-2026-11-13-3051406942",
+            "date": "2026-11-13",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Jacksonville Pharmacy Owner and Accountant Indicted in $51 Million Health Care Fraud Scheme",
+            "description": "A Jacksonville pharmacy owner and accountant were indicted in a $51 million healthcare fraud scheme involving Medicare and Medicaid. The indictment alleges the defendants submitted false claims for prescription medications and durable medical equipment that were not medically necessary or were never dispensed to beneficiaries. The scheme involved overbilling and phantom billing practices targeting federal healthcare programs over a multi-year period. The case was investigated by HHS-OIG and the Department of Justice.",
+            "amount": "$51M",
+            "amount_numeric": 51000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/jacksonville-pharmacy-owner-and-accountant-indicted-in-51-million-health-care-fraud-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "Pharmacy Fraud",
+                "False Claims",
+                "Phantom Billing",
+                "Overbilling"
+            ],
+            "entities": [],
+            "state": "FL",
+            "source_type": "official",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "hhs-oig-2026-11-13-459333127",
+            "date": "2026-11-13",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "Clarksville Pain Management Clinic and Managers Agree to Pay $1.5 Million to Resolve False Claims Act Allegations Involving Medically Unnecessary Testing",
+            "description": "Clarksville Pain Management Clinic and its managers agreed to pay $1.5 million to resolve False Claims Act allegations involving medically unnecessary testing. The clinic submitted false claims to Medicare and other federal healthcare programs for unnecessary laboratory and diagnostic tests that were not medically justified. The settlement resolves allegations that the clinic engaged in a scheme to overbill federal programs through unnecessary testing procedures. This civil settlement was reached with HHS-OIG and DOJ.",
+            "amount": "$1.5M",
+            "amount_numeric": 1500000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/clarksville-pain-management-clinic-and-managers-agree-to-pay-15-million-to-resolve-false-claims-act-allegations-involving-medically-unnecessary-testing/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims Act",
+                "Lab Fraud",
+                "Unnecessary Procedures",
+                "Overbilling"
+            ],
+            "entities": [
+                "Clarksville Pain Management Clinic"
+            ],
+            "state": "TN",
+            "source_type": "official",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "hhs-oig-2026-11-13-1618037497",
+            "date": "2026-11-13",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Social Adult Day Care Program Director Pleads Guilty to $127M Medicare and Medicaid Fraud Scheme",
+            "description": "A social adult day care program director pleaded guilty to a $127 million Medicare and Medicaid fraud scheme. The director fraudulently billed Medicare and Medicaid for services not provided, submitting false claims and engaging in systematic overbilling across multiple facilities. The scheme involved submitting claims for beneficiaries who did not receive the services billed or who were ineligible for coverage. This represents one of the largest social adult day care fraud cases prosecuted.",
+            "amount": "$127M",
+            "amount_numeric": 127000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/social-adult-day-care-program-director-pleads-guilty-to-127m-medicare-and-medicaid-fraud-scheme/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "Adult Day Care",
+                "False Claims",
+                "Overbilling",
+                "Program Integrity"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-11-13-1032568198",
+            "date": "2026-11-13",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "Quest Diagnostics, Inc. Pays over $13 Million to Settle Allegations of Providing Illegal Kickbacks to Doctors and Health Care Executives",
+            "description": "Quest Diagnostics, Inc. settled allegations that it provided illegal kickbacks to doctors and healthcare executives to induce referrals of laboratory testing services. The company paid over $13 million to resolve claims that it violated the Anti-Kickback Statute through various schemes designed to generate business from referring physicians and healthcare facilities. The settlement was reached with the HHS Office of Inspector General, concluding an investigation into improper payments and inducements in the clinical laboratory testing business.",
+            "amount": "$13M",
+            "amount_numeric": 13000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/quest-diagnostics-inc-pays-over-13-million-to-settle-allegations-of-providing-illegal-kickbacks-to-doctors-and-health-care-executives/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Lab Fraud",
+                "Kickbacks",
+                "Anti-Kickback",
+                "False Claims Act"
+            ],
+            "entities": [
+                "Quest Diagnostics, Inc."
+            ],
+            "state": null,
             "source_type": "official",
             "auto_fetched": true
         }
