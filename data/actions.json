@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-11-15T18:42:46.255268",
+        "last_updated": "2026-11-16T21:52:47.712683",
         "version": "1.0"
     },
     "actions": [
@@ -16352,6 +16352,31 @@
                 "Quest Diagnostics, Inc."
             ],
             "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-11-16-379059710",
+            "date": "2026-11-16",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Florida Man Pleads Guilty to $42M Durable Medical Equipment and Cancer Genetic Testing Fraud on Medicare",
+            "description": "A Florida man pleaded guilty to orchestrating a $42 million fraud scheme involving durable medical equipment (DME) and cancer genetic testing against Medicare. The defendant submitted false claims for DME items and unnecessary genetic testing services to Medicare, resulting in improper payments. The plea represents resolution of a significant healthcare fraud case involving multiple fraud types targeting the Medicare program.",
+            "amount": "$42M",
+            "amount_numeric": 42000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/florida-man-pleads-guilty-to-42m-durable-medical-equipment-and-cancer-genetic-testing-fraud-on-medicare/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "DME Fraud",
+                "Genetic Testing",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": "FL",
             "source_type": "official",
             "auto_fetched": true
         }
