@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-11-16T21:52:47.712683",
+        "last_updated": "2026-11-17T20:43:26.185369",
         "version": "1.0"
     },
     "actions": [
@@ -16378,6 +16378,58 @@
             "entities": [],
             "state": "FL",
             "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-11-17-4243369679",
+            "date": "2026-11-17",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Mississippi Businessman Sentenced to 10 Years in Prison for $19M Medicare Fraud",
+            "description": "A Mississippi businessman was sentenced to 10 years in prison for orchestrating a Medicare fraud scheme involving illegal kickbacks to doctors in exchange for fraudulent medical orders. The defendant used these orders to fraudulently bill Medicare over $19 million through seven different durable medical equipment supply companies. The scheme involved paying kickbacks to induce doctors to issue unnecessary orders, which were then submitted to Medicare for reimbursement.",
+            "amount": "$19M",
+            "amount_numeric": 19000000,
+            "officials": [],
+            "link": "https://www.justice.gov/opa/pr/mississippi-businessman-sentenced-10-years-prison-19m-medicare-fraud",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "DME Fraud",
+                "Kickbacks",
+                "Anti-Kickback",
+                "False Claims",
+                "Overbilling"
+            ],
+            "entities": [],
+            "state": "MS",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "media-2026-11-17-1944147715",
+            "date": "2026-11-17",
+            "agency": "CMS",
+            "type": "Rule/Regulation",
+            "title": "CMS Seeks to Expand Authority With Program Integrity Proposed Rule",
+            "description": "The U.S. Centers for Medicare & Medicaid Services (CMS) has proposed an extensive set of program integrity reforms that the agency estimates could save taxpayers nearly $90 billion over 10 years. The Comprehensive Regulations to Uncover Suspicious Healthcare (CRUSH) proposed rule would expand provider screening and enrollment safeguards, strengthen overpayment recovery requirements, increase transparency into […] The post CMS Seeks to Expand Authority With Program Integrity Proposed Rule appeared first on Hospice News .",
+            "amount": "$90B",
+            "amount_numeric": 90000000000,
+            "officials": [],
+            "link": "https://hospicenews.com/2026/11/16/cms-seeks-to-expand-authority-with-program-integrity-proposed-rule/",
+            "link_label": "Hospice News Report",
+            "social_posts": [],
+            "tags": [
+                "Program Integrity",
+                "CRUSH",
+                "Medicare",
+                "Medicaid"
+            ],
+            "entities": [
+                "CMS"
+            ],
+            "state": null,
+            "source_type": "news",
             "auto_fetched": true
         }
     ]
