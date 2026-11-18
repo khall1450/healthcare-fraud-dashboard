@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-11-17T20:43:26.185369",
+        "last_updated": "2026-11-18T20:18:18.345180",
         "version": "1.0"
     },
     "actions": [
@@ -16431,6 +16431,136 @@
             "state": null,
             "source_type": "news",
             "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-11-18-3035354372",
+            "date": "2026-11-18",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Pharmacy Owner Sentenced to 82 Months in Prison for $5.6M Health Care Fraud Scheme and Illegal Distribution of Oxycodone",
+            "description": "A Michigan pharmacy owner was sentenced to 82 months in prison for operating a $5.6 million healthcare fraud scheme involving the illegal distribution of oxycodone. The defendant defrauded Medicare and/or Medicaid through fraudulent pharmacy claims while simultaneously distributing controlled substances unlawfully. The defendant has been in custody since October 7 following arrest for bond violations, and received three years of supervised release as part of the sentence.",
+            "amount": "$5.6M",
+            "amount_numeric": 5600000,
+            "officials": [],
+            "link": "https://www.justice.gov/opa/pr/pharmacy-owner-sentenced-82-months-prison-56m-health-care-fraud-scheme-and-illegal",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Pharmacy Fraud",
+                "Opioids",
+                "False Claims",
+                "Medicare",
+                "Medicaid"
+            ],
+            "entities": [],
+            "state": "MI",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-11-18-1899097882",
+            "date": "2026-11-18",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Mississippi Businessman Sentenced to 10 Years in Prison for $19M Medicare Fraud",
+            "description": "A Mississippi businessman was sentenced to 10 years in prison for orchestrating a $19 million Medicare fraud scheme. The case involved fraudulent billing to the Medicare program through false claims and overbilling for healthcare services. The defendant was prosecuted by the Department of Justice with the investigation conducted by HHS-OIG. This represents a significant criminal enforcement action against healthcare fraud.",
+            "amount": "$19M",
+            "amount_numeric": 19000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/httpswwwjusticegovopaprmississippi-businessman-sentenced-10-years-prison-19m-medicare-fraud/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "False Claims",
+                "Overbilling",
+                "Criminal Enforcement"
+            ],
+            "entities": [],
+            "state": "MS",
+            "source_type": "official",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "hhs-oig-2026-11-18-1463314110",
+            "date": "2026-11-18",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "PACE Organization InnovAge Agrees to Pay $36M to Resolve False Claims Act Allegations of Failing to Provide Comprehensive Medical Services and Timely Specialist Referrals to Seniors",
+            "description": "InnovAge, a PACE (Program of All-Inclusive Care for the Elderly) organization, agreed to pay $36 million to resolve False Claims Act allegations that it failed to provide comprehensive medical services and timely specialist referrals to seniors enrolled in the program. The settlement addresses claims that InnovAge submitted false claims to Medicare and Medicaid by not delivering the full scope of services required under PACE regulations, including delays in connecting participants to necessary specialist care. This case involves alleged violations of federal healthcare fraud statutes related to improper billing for services not adequately provided. The resolution was reached through the HHS-OIG enforcement action against the organization.",
+            "amount": "$36M",
+            "amount_numeric": 36000000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/pace-organization-innovage-agrees-to-pay-36m-to-resolve-false-claims-act-allegations-of-failing-to-provide-comprehensive-medical-services-and-timely-specialist-referrals-to-seniors/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "False Claims Act",
+                "Unnecessary Procedures",
+                "Program Integrity",
+                "Elder Fraud",
+                "Adult Day Care"
+            ],
+            "entities": [
+                "InnovAge"
+            ],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-11-18-2588023984",
+            "date": "2026-11-18",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Jefferson County Doctor, Spouse Admit Healthcare Fraud and Illegal Prescription Practices",
+            "description": "A doctor and spouse from Jefferson County admitted to healthcare fraud and illegal prescription practices. The case involved fraudulent billing to federal healthcare programs and improper prescribing of controlled substances. The defendants pleaded guilty to charges related to submitting false claims and violating prescription regulations. This case was prosecuted with oversight from HHS-OIG, resulting in admission of guilt and ongoing prosecution or sentencing proceedings.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/jefferson-county-doctor-spouse-admit-healthcare-fraud-and-illegal-prescription-practices/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims",
+                "Pharmacy Fraud",
+                "Opioids",
+                "Medicare"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "gao-2026-11-18-735679626",
+            "date": "2026-11-18",
+            "agency": "GAO",
+            "type": "Audit",
+            "title": "Medicare: HHS and CMS Should Better Manage Fraud Risks",
+            "description": "The Government Accountability Office (GAO) issued a report examining how the Centers for Medicare & Medicaid Services (CMS) manages fraud risks within the traditional Medicare Fee-for-Service program, which serves approximately 34 million beneficiaries with nearly $481 billion in annual benefit spending. The GAO found that CMS's Vulnerability Management Process within the Center for Program Integrity does not fully identify and assess the range of fraud risks facing Medicare. The report indicates that CMS and its contractors need to implement stronger fraud risk management procedures to better protect the Medicare program.",
+            "amount": "$481B",
+            "amount_numeric": 481000000000,
+            "officials": [],
+            "link": "https://www.gao.gov/products/gao-27-109072",
+            "link_label": "GAO Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Program Integrity",
+                "Improper Payments"
+            ],
+            "entities": [
+                "Centers for Medicare & Medicaid Services",
+                "Department of Health and Human Services"
+            ],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true,
+            "related_agency": "CMS"
         }
     ]
 }
