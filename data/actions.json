@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-11-18T20:18:18.345180",
+        "last_updated": "2026-11-19T20:22:17.135908",
         "version": "1.0"
     },
     "actions": [
@@ -16561,6 +16561,32 @@
             "source_type": "official",
             "auto_fetched": true,
             "related_agency": "CMS"
+        },
+        {
+            "id": "hhs-oig-2026-11-19-3066774197",
+            "date": "2026-11-19",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Pharmacy Owner Sentenced to 82 Months in Prison for $5.6M Health Care Fraud Scheme and Illegal Distribution of Oxycodone",
+            "description": "A pharmacy owner was sentenced to 82 months in federal prison for orchestrating a $5.6 million healthcare fraud scheme involving the illegal distribution of oxycodone. The case involved fraudulent billing to Medicare and Medicaid for controlled substances and prescription drugs that were not legitimately dispensed to patients. The pharmacy owner submitted false claims to federal healthcare programs while also unlawfully distributing opioid medications outside normal pharmacy channels.",
+            "amount": "$5.6M",
+            "amount_numeric": 5600000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/pharmacy-owner-sentenced-to-82-months-in-prison-for-56m-health-care-fraud-scheme-and-illegal-distribution-of-oxycodone/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "Pharmacy Fraud",
+                "Opioids",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
         }
     ]
 }
