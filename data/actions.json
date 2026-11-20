@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-11-19T20:22:17.135908",
+        "last_updated": "2026-11-20T19:53:24.795975",
         "version": "1.0"
     },
     "actions": [
@@ -16587,6 +16587,107 @@
             "state": null,
             "source_type": "official",
             "auto_fetched": true
+        },
+        {
+            "id": "doj-2026-11-20-83833379",
+            "date": "2026-11-20",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Philadelphia Man Admits Multi-Million Dollar Health Care Fraud",
+            "description": "A Philadelphia man admitted to operating a fraudulent ambulance transport business that defrauded Medicare and Medicaid of multiple millions of dollars. The defendant submitted false claims for ambulance services that were not medically necessary or were never actually provided. This scheme involved billing federal healthcare programs for services rendered to beneficiaries who did not require such transport. The admission represents a guilty plea to healthcare fraud charges, with sentencing and restitution pending.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.justice.gov/usao-nj/pr/philadelphia-man-admits-multi-million-dollar-health-care-fraud",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": "PA",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-11-20-4211915399",
+            "date": "2026-11-20",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "St. Louis County Home Healthcare Company Owner Admits $1.46 Million Medicaid Fraud",
+            "description": "The owner of a St. Louis County home healthcare company admitted to defrauding Missouri Medicaid of $1.46 million. The defendant submitted false claims to the Medicaid program for home healthcare services that were not provided or were provided at a lesser extent than billed. The fraud involved overbilling and false claims submitted to Missouri's Medicaid program. The case resulted in a criminal admission of guilt by the company owner.",
+            "amount": "$1.46M",
+            "amount_numeric": 1460000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/st-louis-county-home-healthcare-company-owner-admits-146-million-medicaid-fraud/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicaid",
+                "Home Health Fraud",
+                "False Claims",
+                "Overbilling"
+            ],
+            "entities": [],
+            "state": "MO",
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-11-20-3643885784",
+            "date": "2026-11-20",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Michigan Home Health Care Agency Owner Sentenced to 4 Years in Prison for $1.6M Medicare Fraud Scheme Fueled by Illegal Kickbacks",
+            "description": "A Michigan home health care agency owner was sentenced to 4 years in prison for operating a $1.6 million Medicare fraud scheme involving illegal kickbacks. The defendant used kickback payments to home health aides and other individuals to generate fraudulent Medicare claims for home health services that were either not provided or medically unnecessary. The scheme defrauded the Medicare program through false billing and anti-kickback violations. This case was prosecuted as a criminal matter resulting in a significant prison sentence.",
+            "amount": "$1.6M",
+            "amount_numeric": 1600000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/michigan-home-health-care-agency-owner-sentenced-to-4-years-in-prison-for-16m-medicare-fraud-scheme-fueled-by-illegal-kickbacks/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Home Health Fraud",
+                "Kickbacks",
+                "Anti-Kickback",
+                "False Claims"
+            ],
+            "entities": [],
+            "state": "MI",
+            "source_type": "official",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
+        },
+        {
+            "id": "media-2026-11-19-3527733820",
+            "date": "2026-11-19",
+            "agency": "Media",
+            "type": "Civil Action",
+            "title": "Zimmer Biomet Seeks Redo Of False Claims Act Ruling",
+            "description": "Zimmer Biomet, a medical device company, is seeking reconsideration of a federal judge's ruling that permitted a whistleblower to proceed with a False Claims Act case. The case alleges that Zimmer Biomet improperly used independent sales agents to influence physician decision-making in connection with medical device sales. The company argues the plaintiff has not identified specific instances where sales representatives' conduct improperly influenced doctors' purchasing decisions. The case remains ongoing with the judge's reconsideration decision pending.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://www.law360.com/health/articles/2552385?utm_source=rss&utm_medium=rss&utm_campaign=section",
+            "link_label": "Law360 Healthcare Report",
+            "social_posts": [],
+            "tags": [
+                "False Claims Act",
+                "Medical Devices",
+                "Kickbacks",
+                "Whistleblower"
+            ],
+            "entities": [
+                "Zimmer Biomet"
+            ],
+            "state": null,
+            "source_type": "news",
+            "auto_fetched": true,
+            "related_agency": "DOJ"
         }
     ]
 }
