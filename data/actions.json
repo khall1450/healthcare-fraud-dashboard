@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-11-22T19:21:25.491814",
+        "last_updated": "2026-11-23T23:42:37.211661",
         "version": "1.0"
     },
     "actions": [
@@ -16688,6 +16688,55 @@
             "source_type": "news",
             "auto_fetched": true,
             "related_agency": "DOJ"
+        },
+        {
+            "id": "doj-2026-11-23-1425064675",
+            "date": "2026-11-23",
+            "agency": "DOJ",
+            "type": "Criminal Enforcement",
+            "title": "Adult Day Care Owner Sentenced to 15 Months in Prison for Medicare Fraud",
+            "description": "An adult day care owner was sentenced to 15 months in prison for Medicare fraud involving overbilling. The defendant billed Medicare over $500,000 for psychotherapy services that were not actually provided to patients. This false claims scheme defrauded the Medicare program and resulted in a prison sentence.",
+            "amount": "$500,000",
+            "amount_numeric": 500000,
+            "officials": [],
+            "link": "https://www.justice.gov/opa/pr/adult-day-care-owner-sentenced-15-months-prison-medicare-fraud",
+            "link_label": "DOJ Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Adult Day Care",
+                "False Claims",
+                "Phantom Billing"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-11-23-349628015",
+            "date": "2026-11-23",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Philadelphia Man Admits Multi-Million Dollar Health Care Fraud",
+            "description": "A Philadelphia man admitted to participating in a multi-million dollar healthcare fraud scheme. The case involved fraudulent billing and false claims submitted to federal healthcare programs. The defendant pleaded guilty to healthcare fraud charges, resulting in criminal liability for the scheme. The case was investigated and prosecuted with HHS-OIG involvement.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/philadelphia-man-admits-multi-million-dollar-health-care-fraud/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "False Claims",
+                "False Claims Act",
+                "Medicare",
+                "Medicaid"
+            ],
+            "entities": [],
+            "state": "PA",
+            "source_type": "official",
+            "auto_fetched": true,
+            "related_agency": "HHS-OIG"
         }
     ]
 }
