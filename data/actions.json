@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-11-23T23:42:37.211661",
+        "last_updated": "2026-11-24T22:13:45.847517",
         "version": "1.0"
     },
     "actions": [
@@ -16737,6 +16737,30 @@
             "source_type": "official",
             "auto_fetched": true,
             "related_agency": "HHS-OIG"
+        },
+        {
+            "id": "hhs-oig-2026-11-24-1143124049",
+            "date": "2026-11-24",
+            "agency": "HHS-OIG",
+            "type": "Criminal Enforcement",
+            "title": "Adult Day Care Owner Sentenced to 15 Months in Prison for Medicare Fraud",
+            "description": "An adult day care owner was sentenced to 15 months in prison for Medicare fraud. The case involved fraudulent billing to the Medicare program through an adult day care facility. The owner submitted false claims for services not provided or medically unnecessary services to Medicare beneficiaries. This criminal sentencing represents the conclusion of a fraud investigation by HHS-OIG into improper billing practices in the adult day care industry.",
+            "amount": null,
+            "amount_numeric": 0,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/adult-day-care-owner-sentenced-to-15-months-in-prison-for-medicare-fraud/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Adult Day Care",
+                "False Claims",
+                "Criminal Enforcement"
+            ],
+            "entities": [],
+            "state": null,
+            "source_type": "official",
+            "auto_fetched": true
         }
     ]
 }
