@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-11-24T22:13:45.847517",
+        "last_updated": "2026-11-25T21:29:53.185663",
         "version": "1.0"
     },
     "actions": [
@@ -16759,6 +16759,31 @@
             ],
             "entities": [],
             "state": null,
+            "source_type": "official",
+            "auto_fetched": true
+        },
+        {
+            "id": "hhs-oig-2026-11-25-1657546569",
+            "date": "2026-11-25",
+            "agency": "HHS-OIG",
+            "type": "Civil Action",
+            "title": "Oklahoma Hospitals and Physician Group Pay $4.2 Million to Settle Allegations of Submitting False Claims to Medicare, Medicaid, TRICARE, and the Department of Veterans Affairs",
+            "description": "Oklahoma hospitals and a physician group settled allegations of submitting false claims to Medicare, Medicaid, TRICARE, and the Department of Veterans Affairs for $4.2 million. The settlement resolves charges that the defendants submitted false or improper claims to multiple federal healthcare programs. The case was handled by HHS-OIG, demonstrating coordinated enforcement across federal healthcare programs including both civilian (Medicare/Medicaid) and military (TRICARE/VA) beneficiaries.",
+            "amount": "$4.2M",
+            "amount_numeric": 4200000,
+            "officials": [],
+            "link": "https://oig.hhs.gov/fraud/enforcement/oklahoma-hospitals-and-physician-group-pay-42-million-to-settle-allegations-of-submitting-false-claims-to-medicare-medicaid-tricare-and-the-department-of-veterans-affairs/",
+            "link_label": "HHS-OIG Press Release",
+            "social_posts": [],
+            "tags": [
+                "Medicare",
+                "Medicaid",
+                "TRICARE",
+                "False Claims",
+                "False Claims Act"
+            ],
+            "entities": [],
+            "state": "OK",
             "source_type": "official",
             "auto_fetched": true
         }
